@@ -496,7 +496,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔防３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -598,7 +598,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -648,7 +648,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '龙眼'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -736,7 +736,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '秘水『桃源乡』'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -827,7 +827,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅲ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -930,7 +930,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -980,7 +980,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '黑耀珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1075,7 +1075,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1125,7 +1125,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '罪恶'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1216,7 +1216,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '钛金铠甲'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 

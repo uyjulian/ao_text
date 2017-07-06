@@ -1190,7 +1190,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅱ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1281,7 +1281,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '叮当耳环'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1410,7 +1410,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1518,7 +1518,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -2779,7 +2779,7 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "#5S了解#4Rヤ ー#！\x02",
+        "#5S了解#4Rヤ ー#!\x02",
     )
 
     CloseMessageWindow()
@@ -2992,8 +2992,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#03209F#11Pフフ……\x01",
-            "血湧き肉踊る展開ですね。\x02\x03",
+            "#03209F#11PHah\x01",
+            "血湧き肉踊る展開True.\x02\x03",
             "#03210Fでは、始めるとしましょうか。\x02",
         )
     )
@@ -3002,7 +3002,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#11Pかしこまりました。\x02",
+        "#11PUnderstod\x02",
     )
 
     CloseMessageWindow()
@@ -3024,7 +3024,7 @@ def main():
         0xA,
         (
             "#11P狙撃に気をつけながら\x01",
-            "懐を喰い破れ！\x02",
+            "懐を喰い破れ!\x02",
         )
     )
 
@@ -3036,7 +3036,7 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "#5Sは！\x02",
+        "#5SRight!\x02",
     )
 
     CloseMessageWindow()

@@ -244,7 +244,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -335,7 +335,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '封魔之刃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 

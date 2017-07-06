@@ -1123,7 +1123,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '痊愈之药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1214,7 +1214,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '复苏药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1343,7 +1343,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1451,7 +1451,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1564,7 +1564,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1672,7 +1672,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -2357,7 +2357,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00105F#11Pそうね……\x01",
+            "#00105F#11PYeah I know.\x01",
             "私はどちらでもいいわ。\x02\x03",
             "#00100F最近、歩いてなかったから\x01",
             "ちょっと身体を動かしたいし。\x02",
@@ -2411,7 +2411,7 @@ def main():
             "#10106F#5Pもう、いい若者が\x01",
             "そんなことじゃ情けないよ？\x02\x03",
             "#10101F普段、夜遊びばかりしてるんだから\x01",
-            "こういう時に身体を動かさないと！\x02",
+            "こういう時に身体を動かさないと!\x02",
         )
     )
 
@@ -2453,7 +2453,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10102F#5P了解しました！\x02",
+        "#10102F#5PRoger that!\x02",
     )
 
     CloseMessageWindow()
@@ -2703,7 +2703,7 @@ def main():
         0x109,
         (
             "#10108F#5P共和国方面への行き来に\x01",
-            "使われている旅客バスですね。\x02",
+            "使われている旅客バスTrue.\x02",
         )
     )
 
@@ -2721,7 +2721,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F#6Pやれやれ、大変だな。\x02",
+        "#00306F#6Pやれやれ、大変Right.\x02",
     )
 
     CloseMessageWindow()

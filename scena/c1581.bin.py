@@ -414,7 +414,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药·改'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -505,7 +505,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '混乱之刃２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -596,7 +596,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅲ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -687,7 +687,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '红色卡片钥匙'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1029,7 +1029,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00011Fな、なんだこれ……！？\x02",
+        "#12P#00011Fな、なんだこれ……!?\x02",
     )
 
     CloseMessageWindow()
@@ -1087,7 +1087,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#11Pこれは……間違いありません。\x02\x03",
+            "#00208F#11PThis is..間違いありません。\x02\x03",
             "#00201Fエプスタイン財団で開発されていた\x01",
             "《エイドロンギア》です。\x02",
         )
@@ -1150,14 +1150,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305F#6Pなんだと……！？\x02",
+        "#00305F#6Pなんだと……!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00101F#6Pそ、それって……\x02",
+        "#00101F#6Pそ、That is\x02",
     )
 
     CloseMessageWindow()
@@ -1218,7 +1218,7 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00601F#12Pなるほど……\x01",
+            "#00601F#12PI see..\x01",
             "いかにも怪しいな。\x02",
         )
     )
@@ -1232,7 +1232,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10106F#12P……怪しいですね。\x02",
+        "#10106F#12P……怪しいTrue.\x02",
     )
 
     CloseMessageWindow()
@@ -1271,10 +1271,10 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#11P#00203F…………ふむ…………\x02\x03",
+            "#11P#00203F…………Hmm.……\x02\x03",
             "#00202Fどうやら、制御を司る部分に\x01",
             "マトリクス化されたシステムが\x01",
-            "用いられているようですね。\x02\x03",
+            "用いられているようTrue.\x02\x03",
             "エイオンシステムに連動させれば、\x01",
             "わたしでも操ることができそうです。\x02",
         )
@@ -1297,7 +1297,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00307F……マ、マジか！？\x02",
+        "#6P#00307F……マ、マジか!?\x02",
     )
 
     CloseMessageWindow()
@@ -1330,7 +1330,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#11P#00202Fええ、了解しました。\x02",
+        "#11P#00202Fええ、Understood.\x02",
     )
 
     CloseMessageWindow()
@@ -1345,7 +1345,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "『エイドロンギア』を手に入れた。\x07\x00\x02",
+            "『エイドロンギア』Got Access Card\x07\x00\x02",
         )
     )
 

@@ -850,7 +850,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5Pチッ……やりやがるな。\x02",
+        "#5PTchやりやがるな。\x02",
     )
 
     CloseMessageWindow()

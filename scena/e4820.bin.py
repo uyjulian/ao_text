@@ -90,13 +90,13 @@ def main():
     OP_0D()
     Sleep(500)
     SetMessageWindowPos(-1, 140, -1, -1)
-    SetChrName("？？？")
+    SetChrName("???")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "へえ、これはこれは。\x07\x00\x02",
+            "へえ、これはこれRight.\x07\x00\x02",
         )
     )
 
@@ -119,9 +119,9 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "#02310Fハッ……\x01",
             "てめえがボクのベースを\x01",
-            "滅茶苦茶にした犯人か！\x02\x03",
-            "#02307Fゼッテー許さねえ！\x01",
-            "吠え面かかせてやるっ！\x07\x00\x02",
+            "滅茶苦茶にした犯人か!\x02\x03",
+            "#02307Fゼッテー許さねえ!\x01",
+            "吠え面かかせてやる!\x07\x00\x02",
         )
     )
 
@@ -130,7 +130,7 @@ def main():
     OP_5A()
     Sleep(300)
     SetMessageWindowPos(80, 50, -1, -1)
-    SetChrName("？？？")
+    SetChrName("???")
 
     AnonymousTalk(
         0xFF,
@@ -194,7 +194,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(200, 50, -1, -1)
-    SetChrName("？？？")
+    SetChrName("???")
 
     AnonymousTalk(
         0xFF,
@@ -229,7 +229,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#02310Fああっ！？\x02",
+            "#02310FAhh!?\x02",
         )
     )
 
@@ -245,8 +245,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#00207Fそちらは後です！\x01",
-            "早くタワーの制御を！\x07\x00\x02",
+            "#00207Fそちらは後です!\x01",
+            "早くタワーの制御を!\x07\x00\x02",
         )
     )
 

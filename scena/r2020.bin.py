@@ -676,7 +676,7 @@ def main():
             "#60I時のセピス×４０\x01\x07\x02",
             "#61I空のセピス×４０\x01\x07\x02",
             "#62I幻のセピス×４０\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -733,7 +733,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅰ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -824,7 +824,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '封技之刃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -953,7 +953,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1061,7 +1061,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1174,7 +1174,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1282,7 +1282,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1445,7 +1445,7 @@ def main():
         (
             "#00004F#5Pああ、晴れて良かったよ。\x02\x03",
             "#00000F山道方面が晴れっていうのは\x01",
-            "確かだったみたいだな。\x02",
+            "確かだったみたいRight.\x02",
         )
     )
 
@@ -1945,7 +1945,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "手配魔獣を退治した！\x02",
+            "手配魔獣を退治した!\x02",
         )
     )
 
@@ -1960,7 +1960,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '战术书·十'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -2018,7 +2018,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00104F#6Pそうね……\x01",
+            "#00104F#6PYeah I know.\x01",
             "試す価値はあると思うわ。\x02\x03",
             "#00100Fノエルさん、ちょっといいかしら？\x02",
         )
@@ -2028,7 +2028,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10102F#12Pはい、もちろんです！\x02",
+        "#10102F#12Pはい、もちろんです!\x02",
     )
 
     CloseMessageWindow()
@@ -2043,7 +2043,7 @@ def main():
         (
             "#00000F戦術書――\x01",
             "やはりコンビで使える\x01",
-            "技が書かれてあるみたいだな。\x02\x03",
+            "技が書かれてあるみたいRight.\x02\x03",
             "#00004Fエリィとノエルになら\x01",
             "扱えそうな感じがするけど……\x02",
         )
@@ -2060,7 +2060,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10102Fはい、もちろんです！\x02",
+        "#10102Fはい、もちろんです!\x02",
     )
 
     CloseMessageWindow()

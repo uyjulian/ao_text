@@ -827,7 +827,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -877,7 +877,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '天神战斗靴'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -976,7 +976,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1026,7 +1026,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '天启'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1114,7 +1114,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅲ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1674,7 +1674,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#6Pこれは……\x02",
+        "#00013F#6PThis is..\x02",
     )
 
     CloseMessageWindow()
@@ -1723,7 +1723,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#3840V#40W#20A……クク………\x02",
+            "#3840V#40W#20AHah…\x02",
         )
     )
 
@@ -1735,7 +1735,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "#3841V#40W#38Aどうやらシャーリィと小僧を\x01",
-            "ブチのめして来たようだな……？\x07\x00\x02",
+            "ブチのめして来たようだな.......?\x07\x00\x02",
         )
     )
 
@@ -1766,7 +1766,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#6P#Nあんた……！\x02",
+        "#00307F#6P#Nあんた…!\x02",
     )
 
     CloseMessageWindow()
@@ -1777,7 +1777,7 @@ def main():
         0x101,
         (
             "#00005F#6Pこちらの動きが\x01",
-            "見えているのか！？\x02",
+            "見えているのか!?\x02",
         )
     )
 
@@ -1803,7 +1803,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#3843V#40W#35Aさあ──\x01",
+            "#3843V#40W#35AさAhh!\x01",
             "ランドルフ、手をかざせ。\x02",
         )
     )
@@ -1934,7 +1934,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#3845V#40W#52Aクク……\x01",
+            "#3845V#40W#52AHaha\x01",
             "それでは“戦#2Rいくさ#”を始めるぞ。\x02",
         )
     )
@@ -1989,7 +1989,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00208F#12P#Nランディさん……\x02",
+        "#00208F#12P#NRandy..\x02",
     )
 
     CloseMessageWindow()
@@ -2006,8 +2006,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6Pああ……\x01",
-            "正直、厳しすぎる相手だな。\x02\x03",
+            "#00006F#6PあAh...\x01",
+            "正直、厳しすぎる相手Right.\x02\x03",
             "#00008FＩＢＣ前で見せ付けられた\x01",
             "圧倒的な力から判断する限り……\x01",
             "俺たちの勝ち目は薄いだろう。\x02",
@@ -2030,7 +2030,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10108F#13P……そうですね……\x01",
+            "#10108F#13P……Yes…\x01",
             "戦闘経験が違いすぎます。\x02",
         )
     )
@@ -2056,7 +2056,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10408F#13P確かに……\x01",
+            "#10408F#13PThat's true\x01",
             "実戦経験が違いすぎるね。\x02",
         )
     )
@@ -2197,7 +2197,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6Pああ、もちろんだ！\x02",
+        "#00000F#6Pああ、もちろんだ!\x02",
     )
 
     CloseMessageWindow()
@@ -2214,7 +2214,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00109F#12Pふふっ……\x01",
+            "#00109F#12PEhhe\x01",
             "当たり前じゃない。\x02",
         )
     )
@@ -2234,7 +2234,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100F#13Pお手伝いします！\x02",
+        "#10100F#13Pお手伝いします!\x02",
     )
 
     CloseMessageWindow()
@@ -2743,7 +2743,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F#11Pそうだな……\x01",
+            "#00000F#11PYeah…\x01",
             "報告がてら戻ろうか。\x02",
         )
     )
@@ -2780,7 +2780,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F#11Pそうだな……\x01",
+            "#00000F#11PYeah…\x01",
             "報告がてら戻ろうか。\x02",
         )
     )
@@ -2817,7 +2817,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F#11Pそうですね……\x01",
+            "#00000F#11PYes…\x01",
             "報告がてら戻りましょうか。\x02",
         )
     )

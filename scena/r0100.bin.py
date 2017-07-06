@@ -692,7 +692,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '凉爽项链'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -783,7 +783,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -885,7 +885,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -935,7 +935,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '耀脉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1061,7 +1061,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1169,7 +1169,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1282,7 +1282,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1390,7 +1390,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1525,7 +1525,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00005F私有地の扉が開いてる……！？\x02",
+        "#6P#00005F私有地の扉が開いてる……!?\x02",
     )
 
     CloseMessageWindow()
@@ -1550,7 +1550,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10103Fでも、何の目的で……？\x02",
+        "#6P#10103Fでも、何の目的で.......?\x02",
     )
 
     CloseMessageWindow()
@@ -1568,7 +1568,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#10302Fフフ、了解。\x02",
+        "#12P#10302FGot it\x02",
     )
 
     CloseMessageWindow()
@@ -1659,8 +1659,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#12P#10106Fはあ……\x01",
-            "かなり迷惑な人物みたいですね。\x02",
+            "#12P#10106FはAh...\x01",
+            "かなり迷惑な人物みたいTrue.\x02",
         )
     )
 
@@ -1775,7 +1775,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "#16Iローゼンベルク人形・Ｒ\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 

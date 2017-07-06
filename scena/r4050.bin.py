@@ -457,7 +457,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -507,7 +507,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '攻击３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -595,7 +595,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -686,7 +686,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '结晶碎片'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1007,14 +1007,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#11Pこ、これは……\x02",
+        "#00107F#11Pこ、This is..\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10110F#11Pあ、蒼い花が……！？\x02",
+        "#10110F#11Pあ、蒼い花が……!?\x02",
     )
 
     CloseMessageWindow()
@@ -1022,8 +1022,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00307F#11Pチッ……２ヶ月前までは\x01",
-            "影も形も無かったはずだぞ！？\x02",
+            "#00307F#11PTch２ヶ月前までは\x01",
+            "影も形も無かったはずだぞ!?\x02",
         )
     )
 
@@ -1053,7 +1053,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#5Pそうか……\x02",
+        "#00006F#5PI see…\x02",
     )
 
     CloseMessageWindow()
@@ -1082,7 +1082,7 @@ def main():
         0x109,
         (
             "#10101F#11P魔獣に奇襲されないように\x01",
-            "注意して進みましょう！\x02",
+            "注意して進みましょう!\x02",
         )
     )
 
@@ -1090,7 +1090,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#5Pああ……！\x02",
+        "#00013F#5PあAh...\x02",
     )
 
     CloseMessageWindow()
@@ -1173,9 +1173,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00015F#11P（くっ……さすがは元警備隊。）\x02\x03",
+            "#00015F#11P（Ah…さすがは元警備隊。）\x02\x03",
             "#00013F（どうする……\x01",
-            "  ……ロイド・バニングス……！）\x02",
+            "  ……ロイド・バニングス…!）\x02",
         )
     )
 
@@ -1204,7 +1204,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#11Pくっ……！\x02",
+        "#00010F#11PAh…!\x02",
     )
 
     CloseMessageWindow()
@@ -1217,7 +1217,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#2Sいたぞ……！\x02",
+        "#2Sいたぞ…!\x02",
     )
 
     CloseMessageWindow()
@@ -1232,7 +1232,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#11P確保しろ！\x02",
+        "#11P確保しろ!\x02",
     )
 
     CloseMessageWindow()
@@ -1466,7 +1466,7 @@ def main():
         (
             "#00015F#6P（とにかく何としても……）\x02\x03",
             "#00010F（……石にかじりついても\x01",
-            "  この場を切り抜けるんだ……！）\x02",
+            "  この場を切り抜けるんだ…!）\x02",
         )
     )
 

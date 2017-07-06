@@ -514,7 +514,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#30W#40A七耀暦１２０４年──某月",
+            "#30W#40ASeptian Calendar Year 1204 ---- A certain month",
             scpstr(0x6),
             scpstr(SCPSTR_CODE_ENTER),
         )
@@ -526,8 +526,8 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#30W#50Aカルバード共和国西端\x01",
-            "アルタイル市郊外──",
+            "#30W#50AOn the Western border of the Calvard Republic\x01",
+            "The outskirts of Altair City",
             scpstr(0x6),
             scpstr(SCPSTR_CODE_ENTER),
         )
@@ -620,7 +620,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "──到着です。\x02",
+        "...Here we are.\x02",
     )
 
     CloseMessageWindow()
@@ -630,7 +630,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#3306V#5P#30Wあ……！\x02",
+        "#00005F#3306V#5P#30WAh...\x02",
     )
 
     CloseMessageWindow()
@@ -658,7 +658,7 @@ def main():
 
     ChrTalk(
         0x108,
-        "#01400F#4042V#3P#N#30W……変わっていないな。\x02",
+        "#01400F#4042V#3P#N#30WHasn't changed at all huh\x02",
     )
 
     CloseMessageWindow()
@@ -667,7 +667,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#3307V#4P#N#30Wここが、アルタイル・ロッジ……\x02",
+        "#00001F#3307V#4P#N#30WThis is Altair Lodge...\x02",
     )
 
     CloseMessageWindow()
@@ -689,8 +689,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00601F#3443V#3P#N#30Wフン……\x01",
-            "悪趣味な門構えだな。\x02",
+            "#00601F#3443V#3P#N#30WUgh\x01",
+            "悪趣味な門構えRight.\x02",
         )
     )
 
@@ -756,7 +756,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P自分の案内はここまでです。\x02",
+        "#11PThis is as far as I take you\x02",
     )
 
     CloseMessageWindow()
@@ -786,7 +786,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#3P#00603F#3444V……了解した。\x02",
+        "#3P#00603F#3444VUnderstood.\x02",
     )
 
     CloseMessageWindow()
@@ -795,7 +795,7 @@ def main():
 
     ChrTalk(
         0x108,
-        "#01400F#4043V丁寧な案内、感謝する。\x02",
+        "#01400F#4043VWe appreciate your help\x02",
     )
 
     CloseMessageWindow()
@@ -806,7 +806,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11Pまあ、せいぜいお気をつけて。\x02",
+        "#11PJust try to be careful. Although since \x02",
     )
 
     CloseMessageWindow()
@@ -889,7 +889,7 @@ def main():
         0x109,
         (
             "#12P#10106F#3509V#30Wうーん、さすがにあんまり\x01",
-            "歓迎されていないみたいですね。\x02",
+            "歓迎されていないみたいTrue.\x02",
         )
     )
 
@@ -935,7 +935,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#6P#00603F#3445V#30Wああ、もはや猶予はない。\x02",
+        "#6P#00603F#3445V#30WYes, no more time for delay.\x02",
     )
 
     CloseMessageWindow()
@@ -972,7 +972,7 @@ def main():
         (
             "#01403F#4044V#5P#30W大抵のものは、６年前の\x01",
             "制圧作戦で潰したままだろう。\x02\x03",
-            "#01401F#4045Vだが、徘徊する魔獣の方は──\x02",
+            "#01401F#4045VBut the monsters on the other hand--\x02",
         )
     )
 
@@ -1058,28 +1058,28 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#3P#00610F#3447V#30Wなっ！？\x02",
+        "#3P#00610F#3447V#30WAhh!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#6P#10107F#3510V#30Wま、魔物……！？\x02",
+        "#6P#10107F#3510V#30WM-Monsters!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#6P#00010F#3310V#30Wロッジの地下にいた……！\x02",
+        "#6P#00010F#3310V#30WThey were hiding under the lodge!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x108,
-        "#01407F#4046V#30W──来るぞ！\x02",
+        "#01407F#4046V#30WHere they come!\x02",
     )
 
     CloseMessageWindow()
@@ -1444,8 +1444,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#3P#00607F#3448V#30Wくっ……\x01",
-            "まさか今の化物どもは！？\x02",
+            "#3P#00607F#3448V#30WAh…\x01",
+            "まさか今の化物どもは!?\x02",
         )
     )
 
@@ -1471,7 +1471,7 @@ def main():
             "#5P#00003F#3311V#30W……《太陽の砦》の地下で\x01",
             "徘徊していたのと同じ種類です。\x02\x03",
             "#00013F#3312Vどうやら“彼ら”がここに\x01",
-            "逃げ込んだのは確実みたいですね。\x02",
+            "逃げ込んだのは確実みたいTrue.\x02",
         )
     )
 
@@ -1482,7 +1482,7 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#3P#00610F#3449V#30Wチッ……\x01",
+            "#3P#00610F#3449V#30WTch\x01",
             "往生際の悪いことだ。\x02",
         )
     )
@@ -1497,7 +1497,7 @@ def main():
         (
             "#01403F#4047V#5P#30W──時間がない。\x01",
             "とにかく入るとしよう。\x02\x03",
-            "#01401F#4048V今ならまだ間に合うはずだ。\x02",
+            "#01401F#4048VWe should be able to make it if we move now\x02",
         )
     )
 
@@ -1515,14 +1515,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#2P#00007F#3313V#30Wええ……！\x02",
+        "#2P#00007F#3313V#30WRight!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#4P#10107F#3512V#30W了解です！\x02",
+        "#4P#10107F#3512V#30WRoger!\x02",
     )
 
     CloseMessageWindow()
@@ -1530,8 +1530,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#3P#00607F#3450V#30Wフン……\x01",
-            "絶対に逃がさんぞ！\x02",
+            "#3P#00607F#3450V#30WUgh\x01",
+            "絶対に逃がさんぞ!\x02",
         )
     )
 

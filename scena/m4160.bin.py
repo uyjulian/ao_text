@@ -493,7 +493,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -543,7 +543,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '岁星铃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -643,7 +643,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -693,7 +693,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '光耀珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -788,7 +788,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -838,7 +838,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '无限'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -929,7 +929,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '全回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1167,14 +1167,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#11P……？\x02",
+        "#00005F#11P.......?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10108F#12P上……？\x02",
+        "#10108F#12P上.......?\x02",
     )
 
     CloseMessageWindow()
@@ -1255,14 +1255,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#11Pなっ……！\x02",
+        "#00007F#11PWhat…?!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00101F#11Pあの時に見かけた……！\x02",
+        "#00101F#11Pあの時に見かけた…!\x02",
     )
 
     CloseMessageWindow()
@@ -1273,7 +1273,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#11Pなに……！？\x02",
+        "#00010F#11PWhat…!?\x02",
     )
 
     CloseMessageWindow()
@@ -1290,7 +1290,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10307F#5P挟み込まれた──来る！\x02",
+        "#10307F#5P挟み込まれた──来る!\x02",
     )
 
     CloseMessageWindow()
@@ -1446,9 +1446,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5Pくっ……恐ろしく手強かったな。\x02\x03",
+            "#00006F#5PAh…恐ろしく手強かったな。\x02\x03",
             "#00013Fどうやら軍用犬と同じように\x01",
-            "訓練された魔獣みたいだけど……\x02",
+            "訓練された魔獣みたいBut…\x02",
         )
     )
 
@@ -1458,8 +1458,8 @@ def main():
         0x102,
         (
             "#00106F#6Pええ、イヌ科じゃなくて\x01",
-            "ネコ科みたいだっただけど……\x02\x03",
-            "#00108Fやっぱり《赤い星座》が……？\x02",
+            "ネコ科みたいだったBut…\x02\x03",
+            "#00108FやっぱりRed Constellationが.......?\x02",
         )
     )
 
@@ -1489,7 +1489,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00211F#11Pええ……生意気にも\x01",
+            "#00211F#11PえUh…生意気にも\x01",
             "挟み撃ちにしてきましたし。\x02",
         )
     )
@@ -1502,7 +1502,7 @@ def main():
         (
             "#00103F#6Pでも、あのミンネスという男が\x01",
             "今のを使っていたとなると……\x02\x03",
-            "#00101Fひょっとしたら《赤い星座》とも\x01",
+            "#00101FひょっとしたらRed Constellationとも\x01",
             "関わりがあるかもしれないわね。\x02",
         )
     )
@@ -1544,7 +1544,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#6Pはい……！\x02",
+        "#10101F#6Pはい…!\x02",
     )
 
     CloseMessageWindow()
@@ -1644,8 +1644,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002F#11Pここは……\x01",
-            "旧鉱山の入口近くか！\x02",
+            "#00002F#11PThis is…\x01",
+            "旧鉱山の入口近くか!\x02",
         )
     )
 
@@ -1675,7 +1675,7 @@ def main():
         0x105,
         (
             "#10301F#11Pまだ仕掛けてないんなら\x01",
-            "合流できそうだけど……\x02",
+            "合流できそうBut…\x02",
         )
     )
 
@@ -1709,8 +1709,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00205F#11P出口の外から爆薬の使用音……！\x02\x03",
-            "#00207F銃撃戦の音も聞こえます！\x02",
+            "#00205F#11P出口の外から爆薬の使用音…!\x02\x03",
+            "#00207F銃撃戦の音も聞こえます!\x02",
         )
     )
 
@@ -1718,7 +1718,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#11Pランディ……！\x02",
+        "#00107F#11Pランディ…!\x02",
     )
 
     CloseMessageWindow()
@@ -1758,14 +1758,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#6Pクッ、俺たちも出るぞ！\x02",
+        "#00010F#6Pクッ、俺たちも出るぞ!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10107F#11Pイエス・サー！\x02",
+        "#10107F#11PYes; Sir!\x02",
     )
 
     CloseMessageWindow()
@@ -1803,7 +1803,7 @@ def main():
         0x101,
         (
             "#00001F時間がない――\x01",
-            "急いで出口に向かおう！\x02",
+            "急いで出口に向かおう!\x02",
         )
     )
 

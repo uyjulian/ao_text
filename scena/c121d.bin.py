@@ -200,7 +200,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04512F#12P無駄だ。\x02",
+        "#04512F#12PNo good.\x02",
     )
 
     CloseMessageWindow()
@@ -236,7 +236,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#5P#10Aがっ……\x02",
+        "#5P#10AがUh\x02",
     )
 
     Sleep(100)
@@ -252,7 +252,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#6P#10A……ぐっ……\x02",
+        "#6P#10A……Ugh…\x02",
     )
 
     Sleep(1900)
@@ -320,7 +320,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#5P#10Aぎゃっ……！\x02",
+        "#5P#10Aぎゃっ…!\x02",
     )
 
     Sleep(100)
@@ -330,7 +330,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#5Pむ、無念……\x02",
+        "#5PNo good..\x02",
     )
 
     CloseMessageWindow()
@@ -451,7 +451,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#03203F#11Pええ、一応は。\x02\x03",
+            "#03203F#11Pええ、一応Right.\x02\x03",
             "#03200F貴方がたのような戦争好きと\x01",
             "正面からぶつかるほど\x01",
             "無謀ではありませんので。\x02",
@@ -475,7 +475,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#03204F#11Pハハ、それこそまさか。\x02\x03",
+            "#03204F#11PHaha, of course not\x02\x03",
             "貴方相手では、《銀#2Rイン#》どのですら\x01",
             "分が悪いと言わざるを得ません。\x02\x03",
             "#03210F少々、確認したいことがあって\x01",
@@ -487,7 +487,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04505F#6Pほう、確認したいこと？\x02",
+        "#04505F#6POh? And what exactly is that?\x02",
     )
 
     CloseMessageWindow()
@@ -495,7 +495,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#03209F#11Pなに、簡単な事です。\x02\x03",
+            "#03209F#11PIt's a simple matter really\x02\x03",
             "#03202F──貴方がたの今の#4R噵　噵#契約者は\x01",
             "いったい何者なんですか？\x02",
         )
@@ -506,7 +506,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04504F#6Pクク……ハハハ……\x02\x03",
+            "#04504F#6PHahaハHaha\x02\x03",
             "#04512F──やはり貴様は\x01",
             "なかなか見込みがあるようだ。\x02",
         )
@@ -525,7 +525,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04507F#6P#5S#10Aはあああっ！\x02",
+        "#04507F#6P#5S#10Aはあああ!\x02",
     )
 
     CloseMessageWindow()
@@ -539,7 +539,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#03201F#7Aはっ……！\x02",
+        "#03201F#7Aはっ…!\x02",
     )
 
     WaitChrThread(0xA, 3)
@@ -580,7 +580,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04504F#5Pフン、逃がしたか。\x02",
+        "#04504F#5PHumph. He got away\x02",
     )
 
     CloseMessageWindow()
@@ -592,7 +592,7 @@ def main():
     NpcTalk(
         0x8,
         "声",
-        "──シグムント様！\x02",
+        "──シグムント様!\x02",
     )
 
     CloseMessageWindow()
@@ -623,7 +623,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04500F#5Pツァオの部下は？\x02",
+        "#04500F#5PZhao's subordinates?\x02",
     )
 
     CloseMessageWindow()
@@ -641,7 +641,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04504F#5Pフフ、逃げられたか。\x02\x03",
+            "#04504F#5PHmm. They got away?\x02\x03",
             "#04500Fまあいい、せいぜい闇に潜んで\x01",
             "牙を研いでおくがいい。\x02",
         )
@@ -669,7 +669,7 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "#4S了解#4Rヤ ー#！\x02",
+        "#4S了解#4Rヤ ー#!\x02",
     )
 
     CloseMessageWindow()

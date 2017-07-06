@@ -227,7 +227,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "くう〜、うらやましいわ！\x02",
+        "くう〜、うらやましいわ!\x02",
     )
 
     CloseMessageWindow()
@@ -249,7 +249,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "はーあ……\x02",
+        "はーAh...\x02",
     )
 
     CloseMessageWindow()
@@ -449,7 +449,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "……ふん！\x01",
+            "……ふん!\x01",
             "ぐびぐびぐびぐび。\x02",
         )
     )

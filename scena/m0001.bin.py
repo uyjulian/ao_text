@@ -113,7 +113,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11Pクク……これなら絶対に……\x02",
+            "#50W#11PHahaこれなら絶対に……\x02",
         )
     )
 
@@ -125,7 +125,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11P絶対に“ヤツ”を──！\x02",
+            "#50W#11P絶対に“ヤツ”を──!\x02",
         )
     )
 
@@ -139,7 +139,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#11Pチッ……\x02",
+            "#11PTch\x02",
         )
     )
 
@@ -164,7 +164,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11Pああ……アンタか……\x02",
+            "#40W#11PあAh...アンタか……\x02",
         )
     )
 
@@ -176,7 +176,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P……………………………………\x02",
+            "#40W#11P.............…\x02",
         )
     )
 
@@ -188,7 +188,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P……ああ……ああ………\x02",
+            "#40W#11P……あAh...あAh...…\x02",
         )
     )
 
@@ -201,7 +201,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "#40W#11P問題ねぇ……\x01",
-            "クク……いつでも行ける……\x02",
+            "Hahaいつでも行ける……\x02",
         )
     )
 

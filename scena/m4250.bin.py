@@ -463,7 +463,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣を退治した！\x02",
+            "魔獣を退治した!\x02",
         )
     )
 
@@ -479,7 +479,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '盘古之冠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -494,7 +494,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '光晓之冠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 

@@ -281,7 +281,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '弹性大衣'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -542,7 +542,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "皆さん、お疲れ様です。\x02",
+        "皆さん、Thanks for your hard work\x02",
     )
 
     CloseMessageWindow()
@@ -574,7 +574,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "皆さん、お疲れ様です。\x02",
+        "皆さん、Thanks for your hard work\x02",
     )
 
     CloseMessageWindow()
@@ -603,14 +603,14 @@ def main():
 
     ChrTalk(
         0xA,
-        "了解です！\x02",
+        "Roger!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xB,
-        "了解です！\x02",
+        "Roger!\x02",
     )
 
     CloseMessageWindow()
@@ -783,7 +783,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00000F了解です。\x02",
+        "#11P#00000FRoger\x02",
     )
 
     CloseMessageWindow()

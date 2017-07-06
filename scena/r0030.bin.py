@@ -1007,7 +1007,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1098,7 +1098,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '中回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1200,7 +1200,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1250,7 +1250,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '脱兔'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1376,7 +1376,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1484,7 +1484,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1597,7 +1597,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1705,7 +1705,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -2397,7 +2397,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00205F#6Pこれは……\x01",
+            "#00205F#6PThis is..\x01",
             "装甲車の走行音のようです。\x02",
         )
     )
@@ -2407,8 +2407,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001Fまずいな……\x01",
-            "一旦離れよう！\x02",
+            "#00001FまずいAh…\x01",
+            "一旦離れよう!\x02",
         )
     )
 
@@ -2475,7 +2475,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00200Fどうやら巡回警備中みたいですね。\x02\x03",
+            "#00200Fどうやら巡回警備中みたいTrue.\x02\x03",
             "#00203F今、用も無く東クロスベル街道を\x01",
             "行き来するのは危険そうです。\x02",
         )
@@ -2487,7 +2487,7 @@ def main():
         0x101,
         (
             "#00001F#6Pああ、アルモリカ古道方面に\x01",
-            "戻った方がよさそうだな。\x02",
+            "戻った方がよさYeah we should\x02",
         )
     )
 
@@ -2513,7 +2513,7 @@ def main():
             "#00003F今、東クロスベル街道を\x01",
             "行き来するのは危険だ。\x02\x03",
             "#00001Fアルモリカ古道方面に\x01",
-            "戻った方がよさそうだな。\x02",
+            "戻った方がよさYeah we should\x02",
         )
     )
 

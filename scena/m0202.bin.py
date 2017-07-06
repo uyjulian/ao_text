@@ -369,7 +369,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -419,7 +419,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '美臭'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -507,7 +507,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '月亮灵摆'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -610,7 +610,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -660,7 +660,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '琥耀珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -755,7 +755,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -805,7 +805,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '小丑'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -908,7 +908,7 @@ def main():
             "#60I時のセピス×１５０\x01\x07\x02",
             "#61I空のセピス×１５０\x01\x07\x02",
             "#62I幻のセピス×１５０\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 

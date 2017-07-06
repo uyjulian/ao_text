@@ -219,7 +219,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "……お疲れ様です。\x02",
+        "……Thanks for your hard work\x02",
     )
 
     CloseMessageWindow()
@@ -238,7 +238,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……《赤い星座》への対策のため\x01",
+            "……Red Constellationへの対策のため\x01",
             "ツァオ様もしばらくは、\x01",
             "面会の時間を作れないでしょう。\x02",
         )
@@ -250,7 +250,7 @@ def main():
         0xFE,
         (
             "《結界》を解除したら、\x01",
-            "改めてこちらに連絡をお願いします。\x02",
+            "改めてこちらに連絡をPlease do\x02",
         )
     )
 
@@ -315,7 +315,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "……それでは。\x02",
+        "……それでRight.\x02",
     )
 
     CloseMessageWindow()
@@ -480,7 +480,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……分かりました。\x01",
+            "Understood\x01",
             "では、こちらへ。\x02",
         )
     )
@@ -624,7 +624,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P……それでは。\x02",
+        "#11P……それでRight.\x02",
     )
 
     CloseMessageWindow()
@@ -636,7 +636,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P……《赤い星座》への対策のため\x01",
+            "#11P……Red Constellationへの対策のため\x01",
             "ツァオ様もしばらくは、\x01",
             "面会の時間を作れないでしょう。\x02",
         )
@@ -648,7 +648,7 @@ def main():
         0x8,
         (
             "#11P《結界》を解除したら、\x01",
-            "改めてこちらに連絡をお願いします。\x02",
+            "改めてこちらに連絡をPlease do\x02",
         )
     )
 
@@ -666,7 +666,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P……それでは。\x02",
+        "#11P……それでRight.\x02",
     )
 
     CloseMessageWindow()
@@ -830,7 +830,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#0000Fここなら釣れそうだな。\x02",
+        "#0000Fここなら釣れYeah we should\x02",
     )
 
     CloseMessageWindow()

@@ -482,7 +482,7 @@ def main():
         0xFE,
         (
             "ホテルのサービスも\x01",
-            "かなりいいわよねえ。\x02",
+            "かなりいいわよねHuh\x02",
         )
     )
 
@@ -801,7 +801,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5Pも、申し訳ありません。\x02",
+        "#5PS-sorry about this\x02",
     )
 
     CloseMessageWindow()
@@ -855,7 +855,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#01808F#12P………………………………\x02",
+        "#01808F#12P….\x02",
     )
 
     CloseMessageWindow()
@@ -969,14 +969,14 @@ def main():
 
     ChrTalk(
         0x12,
-        "#01705F#12Pあら……\x02",
+        "#01705F#12POh?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00300F#11Pおお、お前がいたか！\x02",
+        "#00300F#11Pおお、お前がいたか!\x02",
     )
 
     CloseMessageWindow()
@@ -986,7 +986,7 @@ def main():
 
     ChrTalk(
         0x15,
-        "#01201F#5P#30Wグルル……ウォン。\x02",
+        "#01201F#5P#30Wグルル……Woof.\x02",
     )
 
     Sleep(300)
@@ -998,7 +998,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#11Pお、おい……？\x02",
+        "#00011F#11Pお、おい.......?\x02",
     )
 
     CloseMessageWindow()
@@ -1015,7 +1015,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#12Pとにかく追いかけましょう！\x02",
+        "#10101F#12PとにかくLet's go after him!\x02",
     )
 
     CloseMessageWindow()

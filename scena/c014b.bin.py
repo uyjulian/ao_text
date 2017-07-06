@@ -1670,7 +1670,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '白金'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1695,7 +1695,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '幻象'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1720,7 +1720,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '神佑'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1745,7 +1745,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '王权'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -2003,7 +2003,7 @@ def main():
         -1,
         1,
         (
-            "戦術オーブメントについて\x01",        # 0
+            "<Nothing too interesting to ask here, so choose the last option to quit>\x01",        # 0
             "クオーツについて\x01",                # 1
             "スロットの開封について\x01",          # 2
             "スロットの強化について\x01",          # 3
@@ -2327,7 +2327,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ちなみに大抵そうなんだけど……\x01",
+            "ちなみに大抵そうなんBut…\x01",
             "今回のバージョンアップによって\x01",
             "基本アーキテクチャに変更があってね。\x02",
         )
@@ -2557,7 +2557,7 @@ def main():
         0xFE,
         (
             "夜道は危ないし、本当は\x01",
-            "チャコと一緒に帰りたい所だけど……\x02",
+            "チャコと一緒に帰りたい所But…\x02",
         )
     )
 
@@ -2621,7 +2621,7 @@ def main():
         (
             "もうすぐ営業終了時間かぁ。\x01",
             "お客さんはまだ\x01",
-            "結構いるみたいだけど……\x02",
+            "結構いるみたいBut…\x02",
         )
     )
 

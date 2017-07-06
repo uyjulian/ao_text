@@ -608,7 +608,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '驱动１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -711,7 +711,7 @@ def main():
             "#60I時のセピス×６０\x01\x07\x02",
             "#61I空のセピス×６０\x01\x07\x02",
             "#62I幻のセピス×６０\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -806,7 +806,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -914,7 +914,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1027,7 +1027,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1135,7 +1135,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1220,7 +1220,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#0000Fここなら釣れそうだな。\x02",
+        "#0000Fここなら釣れYeah we should\x02",
     )
 
     CloseMessageWindow()
@@ -1386,7 +1386,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "手配魔獣を退治した！\x02",
+            "手配魔獣を退治した!\x02",
         )
     )
 
@@ -1401,7 +1401,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '战术书·袭'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1440,7 +1440,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10109Fええ、お願いします！\x02",
+        "#10109Fええ、お願いします!\x02",
     )
 
     CloseMessageWindow()

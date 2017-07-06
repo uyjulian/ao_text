@@ -365,7 +365,7 @@ def main():
         0xFE,
         (
             "マインツで占拠事件とは……\x01",
-            "やはり背後には帝国がいるのか……？\x02",
+            "やはり背後には帝国がいるのか.......?\x02",
         )
     )
 
@@ -373,7 +373,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "……とにかく、要警戒だな。\x02",
+        "……とにかく、要警戒Right.\x02",
     )
 
     CloseMessageWindow()
@@ -553,7 +553,7 @@ def main():
         (
             "昨日、ＩＢＣに訪れていた\x01",
             "ロックスミス大統領を\x01",
-            "間近で見る事が出来たんだけど……\x02",
+            "間近で見る事が出来たんBut…\x02",
         )
     )
 
@@ -618,7 +618,7 @@ def main():
         0xFE,
         (
             "怪盗Ｂって噂に聞いた通り、\x01",
-            "随分と変わり者なんだな。\x02",
+            "随分と変わり者なんRight.\x02",
         )
     )
 
@@ -706,7 +706,7 @@ def main():
         0x104,
         (
             "#00300Fなんつうか、流石にハンパな\x01",
-            "警戒態勢じゃなさそうだな。\x02",
+            "警戒態勢じゃなさYeah we should\x02",
         )
     )
 
@@ -758,7 +758,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "明日から、いよいよ通商会議だな。\x02",
+        "明日から、いよいよ通商会議Right.\x02",
     )
 
     CloseMessageWindow()
@@ -886,7 +886,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "こんにちは。\x01",
+            "こんにちRight.\x01",
             "ＩＢＣ本社ビルへようこそ。\x02",
         )
     )
@@ -992,7 +992,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#11P……大したものですね。\x02",
+        "#11PIt's really something else\x02",
     )
 
     CloseMessageWindow()
@@ -1000,7 +1000,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#03209F#11Pフフ、素晴らしい。\x02\x03",
+            "#03209F#11PHehe, wonderful\x02\x03",
             "#03210Fこの光景を見ただけでも\x01",
             "クロスベルに来た甲斐が\x01",
             "あったというものです。\x02",
@@ -1018,7 +1018,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P#00702F……殊勝なことを。\x02",
+            "#11P#00702FHah, it's truly admirable\x02",
         )
     )
 
@@ -1030,7 +1030,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5P#00700F──まあいい、私は行くぞ。\x02\x03",
+            "#5P#00700FWell anyway I'm leaving\x02\x03",
             "どうも奇妙なネズミどもが\x01",
             "入り込んでいるようだからな。\x02",
         )
@@ -1058,7 +1058,7 @@ def main():
         0xE,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#03204F#5Pええ、そちらはお任せします。\x02\x03",
+            "#03204F#5PYes, I'll lave that to you\x02\x03",
             "#03200Fそれと、明日のイベントには\x01",
             "是非とも協力をお願いしますよ？\x02\x03",
             "貴方が来てくださるだけで\x01",
@@ -1072,7 +1072,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5P#00702Fフン、まあいいだろう。\x02",
+            "#5P#00702FHumph. Well whatever\x02",
         )
     )
 
@@ -1114,8 +1114,8 @@ def main():
         0xF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#5Pふう……\x01",
-            "相変わらず神出鬼没ですね。\x02",
+            "#5PHaa\x01",
+            "相変わらず神出鬼没True.\x02",
         )
     )
 
@@ -1149,21 +1149,21 @@ def main():
 
     ChrTalk(
         0xF,
-        "#11Pそ、そうなのですか？\x02",
+        "#11PI-is that right?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xF,
-        "#11Pしかし、そのルールとは一体……？\x02",
+        "#11Pしかし、そのルールとは一体.......?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xE,
-        "#03209F#5Pフフ、まだヒミツです。\x02",
+        "#03209F#5PHehe, it's still secret\x02",
     )
 
     CloseMessageWindow()
@@ -1187,7 +1187,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#03204F#11P──ここまでは段取り通り。\x02\x03",
+            "#03204F#11PThis has all gone according to plan\x02\x03",
             "#03202F明日のイベントの成功のため、\x01",
             "もうひと頑張りしておきましょう。\x02",
         )
@@ -1199,7 +1199,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#11Pは！\x02",
+        "#11PRight!\x02",
     )
 
     CloseMessageWindow()
@@ -1348,7 +1348,7 @@ def main():
         0x1A2,
         (
             "#5PＩＢＣか……\x01",
-            "ふむ、あいかわらず立派なビルだな。\x02",
+            "ふむ、あいかわらず立派なビルRight.\x02",
         )
     )
 
@@ -1471,7 +1471,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#11P#00105Fえ、えっと……\x02",
+        "#11P#00105Fえ、Uhm...\x02",
     )
 
     CloseMessageWindow()
@@ -1481,7 +1481,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00012F（よ、余計なこと言ったかな……？）\x02",
+        "#12P#00012F（よ、余計なこと言ったかな.......?）\x02",
     )
 
     CloseMessageWindow()
@@ -1490,7 +1490,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00306F（……だな。）\x02",
+        "#12P#00306F（Right）\x02",
     )
 
     CloseMessageWindow()
@@ -1504,7 +1504,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00012F（よ、余計なこと言ったかな……？）\x02",
+        "#12P#00012F（よ、余計なこと言ったかな.......?）\x02",
     )
 
     CloseMessageWindow()
@@ -1527,7 +1527,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00012F（よ、余計なこと言ったかな……？）\x02",
+        "#12P#00012F（よ、余計なこと言ったかな.......?）\x02",
     )
 
     CloseMessageWindow()
@@ -1551,7 +1551,7 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#6P――ハッ！\x02",
+        "#6P――ハッ!\x02",
     )
 
     CloseMessageWindow()
@@ -1673,7 +1673,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00012Fあ、ああ……\x02",
+        "#12P#00012Fあ、あAh...\x02",
     )
 
     CloseMessageWindow()
@@ -1725,14 +1725,14 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "はやく次の場所に行くぞ！\x02",
+        "はやく次の場所に行くぞ!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00000Fあ、ああ……\x02",
+        "#00000Fあ、あAh...\x02",
     )
 
     CloseMessageWindow()

@@ -145,7 +145,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#0000Fここなら釣れそうだな。\x02",
+        "#0000Fここなら釣れYeah we should\x02",
     )
 
     CloseMessageWindow()

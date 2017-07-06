@@ -352,7 +352,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '终极冲击'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -443,7 +443,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药·改'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 

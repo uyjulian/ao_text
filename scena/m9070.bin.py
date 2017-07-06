@@ -925,7 +925,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "#58I火のセピス×２０００\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -993,7 +993,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1043,7 +1043,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '七耀神威圣铠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1131,7 +1131,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药·改'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1222,7 +1222,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '炎伤之刃２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1313,7 +1313,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅲ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1404,7 +1404,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '激情之红'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1506,7 +1506,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1556,7 +1556,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '天灾'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1644,7 +1644,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '全回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -2295,7 +2295,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12P……これは……\x02",
+        "#00011F#12P……This is..\x02",
     )
 
     CloseMessageWindow()
@@ -2317,7 +2317,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10108F#12Pここは……地獄……？\x02",
+        "#10108F#12PThis is…地獄.......?\x02",
     )
 
     CloseMessageWindow()
@@ -2350,7 +2350,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00606F#12Pまさに“業”だな……\x02",
+        "#00606F#12Pまさに“業”だAh…\x02",
     )
 
     CloseMessageWindow()
@@ -2364,7 +2364,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00304F#11P#30Wクク……参ったな。\x02\x03",
+            "#00304F#11P#30WHaha参ったな。\x02\x03",
             "#00312Fこの光景……俺にもどこか\x01",
             "懐かしいものを感じるぜ……\x02",
         )
@@ -2414,14 +2414,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#6P……ランディ。\x02",
+        "#00108F#6PRandy…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00208F#12Pランディさん……\x02",
+        "#00208F#12PRandy..\x02",
     )
 
     CloseMessageWindow()
@@ -2429,7 +2429,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#12Pでも……それもまた、\x01",
+            "#00003F#12PBut..それもまた、\x01",
             "ランディの一部なんだろう？\x02",
         )
     )
@@ -2439,7 +2439,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#11P#30Wああ……そうだ。\x02\x03",
+            "#00306F#11P#30WあAh...そうだ。\x02\x03",
             "#00308F２年前、俺はこんな光景から\x01",
             "目を逸らすために逃げた……\x02\x03",
             "#00311Fだがいい加減、自分の“業#2Rごう#”と\x01",
@@ -2457,7 +2457,7 @@ def main():
             "#00303F#5P──全てを打ち砕く化物、\x01",
             "《赤の戦鬼#8Rオーガ・ロッソ#》の“戦場”だ。\x02\x03",
             "#00307F呑みこまれないよう、\x01",
-            "腹を括って突き進むぞ！\x02",
+            "腹を括って突き進むぞ!\x02",
         )
     )
 
@@ -2469,7 +2469,7 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "#4Sおおっ……！\x02",
+        "#4Sおおっ…!\x02",
     )
 
     CloseMessageWindow()

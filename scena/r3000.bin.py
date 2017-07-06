@@ -1018,7 +1018,7 @@ def main():
             "#60I時のセピス×１００\x01\x07\x02",
             "#61I空のセピス×１００\x01\x07\x02",
             "#62I幻のセピス×１００\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1075,7 +1075,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '全回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1166,7 +1166,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '太阳灵摆'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1257,7 +1257,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '痊愈之药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1711,7 +1711,7 @@ def main():
         0x107,
         (
             "#01203F#6P#3Cふむ、微かに匂いはするが\x01",
-            "気配を断っているようだな。\x02\x03",
+            "気配を断っているようRight.\x02\x03",
             "#01201F誰が潜んでいるにせよ、\x01",
             "尋常な相手ではあるまい。\x02",
         )
@@ -1721,7 +1721,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#5Pそうか……\x02",
+        "#00006F#5PI see…\x02",
     )
 
     CloseMessageWindow()
@@ -1763,7 +1763,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#5P了解です。\x02",
+        "#00201F#5PRoger\x02",
     )
 
     CloseMessageWindow()
@@ -2156,7 +2156,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00301Fしかし……\x01",
+            "#00301FBut…\x01",
             "作物を襲ったっていうのは\x01",
             "どういうことなんだ？\x02\x03",
             "#00303Fこいつらほどの魔獣なら、\x01",
@@ -2181,14 +2181,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006Fう、うーん、そうだなあ……\x02",
+        "#00006Fう、うーん、そうだなAh...\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00205F………………………………\x02",
+        "#00205F….\x02",
     )
 
     CloseMessageWindow()
@@ -2198,7 +2198,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10105Fティオちゃん？\x01",
+            "#10105FティオちゃHuh?\x01",
             "どうしたの、そんな顔して。\x02",
         )
     )
@@ -2236,7 +2236,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203Fいえ、その……\x02\x03",
+            "#00203FUh that is…\x02\x03",
             "#00208Fあの魔獣たちから、\x01",
             "なんだか怯えているような\x01",
             "感情が伝わってきて……\x02",
@@ -2247,7 +2247,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F怯えている……？\x02",
+        "#00005F怯えている.......?\x02",
     )
 
     CloseMessageWindow()
@@ -2334,7 +2334,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F……ツァイト！？\x02",
+        "#00005F……ツァイト!?\x02",
     )
 
     CloseMessageWindow()
@@ -2355,7 +2355,7 @@ def main():
         0x8,
         (
             "#01200Fグルル……\x01",
-            "ウォン、ウォン。\x02\x03",
+            "ウォン、Woof.\x02\x03",
             "グルル……\x02",
         )
     )

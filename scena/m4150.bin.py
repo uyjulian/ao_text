@@ -481,7 +481,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -531,7 +531,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '探知'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -619,7 +619,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '爆灵宝玉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -710,7 +710,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '黑靴'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -813,7 +813,7 @@ def main():
             "#60I時のセピス×１００\x01\x07\x02",
             "#61I空のセピス×１００\x01\x07\x02",
             "#62I幻のセピス×１００\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -870,7 +870,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '驱动２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -961,7 +961,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药·改'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1098,7 +1098,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105F#12Pこの場所は……？\x02",
+        "#10105F#12Pこの場所は.......?\x02",
     )
 
     CloseMessageWindow()
@@ -1119,7 +1119,7 @@ def main():
         0x101,
         (
             "#00003F#11P地図の位置を見るかぎり、\x01",
-            "その可能性は高そうだな。\x02\x03",
+            "その可能性は高Yeah we should\x02\x03",
             "#00008Fもし旧鉱山まで行ければ\x01",
             "猟兵の防衛ラインの反対側に\x01",
             "出ることが可能になる……\x02",
@@ -1219,7 +1219,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#5Pそうか……\x02",
+        "#00002F#5PI see…\x02",
     )
 
     CloseMessageWindow()
@@ -1267,7 +1267,7 @@ def main():
         0x101,
         (
             "#00000F#5P──よし。\x01",
-            "何とかランディに追いつこう！\x02",
+            "何とかランディに追いつこう!\x02",
         )
     )
 
@@ -1275,14 +1275,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00100F#6Pええ……！\x02",
+        "#00100F#6PRight!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10100F#6P了解です！\x02",
+        "#10100F#6PRoger!\x02",
     )
 
     CloseMessageWindow()

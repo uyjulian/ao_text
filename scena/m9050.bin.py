@@ -723,7 +723,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药·改'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -814,7 +814,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅲ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -905,7 +905,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '冻结之刃２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -996,7 +996,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "#57I水のセピス×２０００\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1065,7 +1065,7 @@ def main():
             "#60I時のセピス×２００\x01\x07\x02",
             "#61I空のセピス×２００\x01\x07\x02",
             "#62I幻のセピス×２００\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1122,7 +1122,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '全回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1224,7 +1224,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1274,7 +1274,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '灵剑·莫邪'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1373,7 +1373,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1423,7 +1423,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '七耀极星圣衣'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1511,7 +1511,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '寂静之蓝'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1602,7 +1602,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅲ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -2165,7 +2165,7 @@ def main():
         0x10A,
         (
             "#00605F#6Pここはまた……\x01",
-            "意外な場所だな。\x02",
+            "意外な場所Right.\x02",
         )
     )
 
@@ -2194,8 +2194,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10105F#6Pここは……\x01",
-            "ちょっと意外な場所ですね。\x02",
+            "#10105F#6PThis is…\x01",
+            "ちょっと意外な場所True.\x02",
         )
     )
 
@@ -2217,7 +2217,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00301F#6P確かに……\x01",
+            "#00301F#6PThat's true\x01",
             "いや──そうでもねぇか？\x02",
         )
     )
@@ -2239,7 +2239,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5Pなるほどな……\x02\x03",
+            "#00006F#5PI see…\x02\x03",
             "#00001F──何があるか判らない。\x01",
             "慎重に探索を始めよう。\x02",
         )
@@ -2424,7 +2424,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5P空の色が変わった……？\x02",
+        "#00011F#5P空の色が変わった.......?\x02",
     )
 
     CloseMessageWindow()
@@ -2486,7 +2486,7 @@ def main():
         0x102,
         (
             "#00108F#5P行ける場所も\x01",
-            "変化したみたいだけど……\x02",
+            "変化したみたいBut…\x02",
         )
     )
 
@@ -2589,7 +2589,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#5P空の色が変わった……？\x02",
+        "#00005F#5P空の色が変わった.......?\x02",
     )
 
     CloseMessageWindow()
@@ -2652,7 +2652,7 @@ def main():
         0x102,
         (
             "#00108F#11P行ける場所も\x01",
-            "変化したみたいだけど……\x02",
+            "変化したみたいBut…\x02",
         )
     )
 

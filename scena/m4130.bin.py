@@ -325,7 +325,7 @@ def main():
             "#60I時のセピス×５０\x01\x07\x02",
             "#61I空のセピス×５０\x01\x07\x02",
             "#62I幻のセピス×５０\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -393,7 +393,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -443,7 +443,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '精神２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -531,7 +531,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '中回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 

@@ -374,7 +374,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅰ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -465,7 +465,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '加长枪管'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -556,7 +556,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '箭之鱼'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -659,7 +659,7 @@ def main():
             "#60I時のセピス×３０\x01\x07\x02",
             "#61I空のセピス×３０\x01\x07\x02",
             "#62I幻のセピス×３０\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1092,7 +1092,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00006F（……２人ともさすがだな……）\x02\x03",
+            "#6P#00006F（……２人ともさすがだAh…）\x02\x03",
             "#00008F（今の魔獣なんか相当、\x01",
             "  手強かったと思うんだけど。）\x02",
         )
@@ -1103,8 +1103,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10106F（ええ……格の違いを感じますね。）\x02\x03",
-            "#10101F（あたしも精進しなくちゃ……！）\x02",
+            "#6P#10106F（えUh…格の違いを感じますね。）\x02\x03",
+            "#10101F（あたしも精進しなくちゃ…!）\x02",
         )
     )
 
@@ -1150,7 +1150,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10112F問題ありません！\x02",
+        "#6P#10112F問題ありません!\x02",
     )
 
     CloseMessageWindow()

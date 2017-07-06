@@ -1014,7 +1014,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1064,7 +1064,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '镇星铃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1164,7 +1164,7 @@ def main():
             "#60I時のセピス×６０\x01\x07\x02",
             "#61I空のセピス×６０\x01\x07\x02",
             "#62I幻のセピス×６０\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1259,7 +1259,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1367,7 +1367,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1480,7 +1480,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1588,7 +1588,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "魔獣が現れた!\x02",
         )
     )
 
@@ -1875,7 +1875,7 @@ def main():
         0x101,
         (
             "#00001F#11P流石に正面から入るのは\x01",
-            "無理そうだな……\x02",
+            "無理Yeah…\x02",
         )
     )
 
@@ -2034,7 +2034,7 @@ def main():
         0x101,
         (
             "#00008F#11Pとはいえ、一通り回ったけど\x01",
-            "今の所は八方ふさがりだな。\x02",
+            "今の所は八方ふさがりRight.\x02",
         )
     )
 
@@ -2053,7 +2053,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10706F#12P困りましたね……\x02",
+        "#10706F#12PThat's a problem\x02",
     )
 
     CloseMessageWindow()
@@ -2081,7 +2081,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#5Pそうですね……\x01",
+            "#00203F#5PYes…\x01",
             "もう少し探してみましょう。\x02",
         )
     )

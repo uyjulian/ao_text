@@ -235,7 +235,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '缭乱七彩靴'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -338,7 +338,7 @@ def main():
             "#60I時のセピス×２００\x01\x07\x02",
             "#61I空のセピス×２００\x01\x07\x02",
             "#62I幻のセピス×２００\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -460,7 +460,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F……静かだな……\x02",
+        "#00003FSeems to be true\x02",
     )
 
     CloseMessageWindow()
@@ -533,7 +533,7 @@ def main():
         (
             "#00302Fま、敵がいないってんなら\x01",
             "ある意味ラッキーじゃねえか。\x02\x03",
-            "#00309Fぱぱっと進んでいくとしようぜ。\x02",
+            "#00309FLet's move on\x02",
         )
     )
 
@@ -542,7 +542,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fああ……\x01",
+            "#00000FあAh...\x01",
             "一応、警戒だけは\x01",
             "怠らないようにな。\x02",
         )

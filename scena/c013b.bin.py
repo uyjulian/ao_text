@@ -744,7 +744,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100Fここでよさそうですね。\x02",
+        "#10100FここでよさそうTrue.\x02",
     )
 
     CloseMessageWindow()
@@ -854,7 +854,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100Fここでよさそうですね。\x02",
+        "#10100FここでよさそうTrue.\x02",
     )
 
     CloseMessageWindow()
@@ -991,7 +991,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100Fここに置こうっと！\x02",
+        "#01100Fここに置こうっと!\x02",
     )
 
     CloseMessageWindow()
@@ -1129,7 +1129,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100Fここに置こうっと！\x02",
+        "#01100Fここに置こうっと!\x02",
     )
 
     CloseMessageWindow()
@@ -1267,7 +1267,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100Fここに置こうっと！\x02",
+        "#01100Fここに置こうっと!\x02",
     )
 
     CloseMessageWindow()
@@ -1405,7 +1405,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100Fここに置こうっと！\x02",
+        "#01100Fここに置こうっと!\x02",
     )
 
     CloseMessageWindow()
@@ -1543,7 +1543,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100Fここに置こうっと！\x02",
+        "#01100Fここに置こうっと!\x02",
     )
 
     CloseMessageWindow()

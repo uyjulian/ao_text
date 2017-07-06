@@ -569,7 +569,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药·改'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -671,7 +671,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -721,7 +721,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '乐园'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -809,7 +809,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '深邃之黄'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -900,7 +900,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "#56I地のセピス×２０００\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -957,7 +957,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅲ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1333,7 +1333,7 @@ def main():
         0x104,
         (
             "#00306F#12Pこいつはまた……\x01",
-            "やっこさんらしい場所だな。\x02",
+            "やっこさんらしい場所Right.\x02",
         )
     )
 
@@ -1364,7 +1364,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#11Pワジ……\x02",
+        "#00008F#11PWazy…\x02",
     )
 
     CloseMessageWindow()

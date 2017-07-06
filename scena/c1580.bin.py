@@ -485,7 +485,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '爆灵宝玉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -576,7 +576,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '暴风长袍'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -667,7 +667,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '虚空护腿'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -770,7 +770,7 @@ def main():
             "#60I時のセピス×２００\x01\x07\x02",
             "#61I空のセピス×２００\x01\x07\x02",
             "#62I幻のセピス×２００\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1154,7 +1154,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#N#6P…………な………………\x02",
+        "#00011F#N#6P…………Ah……………\x02",
     )
 
     CloseMessageWindow()
@@ -1163,7 +1163,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#N#6P…………………………………\x02",
+        "#00105F#N#6P.............\x02",
     )
 
     CloseMessageWindow()
@@ -1182,7 +1182,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#5S#17Aな、なんだこりゃああっ！？\x02",
+        "#00307F#5S#17Aな、なんだこりゃAhh!?\x02",
     )
 
     CloseMessageWindow()
@@ -1201,7 +1201,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10111F#Nし、信じられない……\x02",
+        "#10111F#NU-unblelievable\x02",
     )
 
     CloseMessageWindow()
@@ -1213,7 +1213,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00610F#Nし、信じられん……\x02",
+        "#00610F#NU-unbelievable\x02",
     )
 
     CloseMessageWindow()
@@ -1238,7 +1238,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00206F#Nこれが《魔導科学》の精華……\x02\x03",
+            "#00206F#NThis is the Mystic Core…\x02\x03",
             "#00201Fクロイス家の錬金術と\x01",
             "最新の導力技術の融合ですか……\x02",
         )
@@ -1264,7 +1264,7 @@ def main():
         0x106,
         (
             "#10708F#N（《銀#2Rイン#》の名も\x01",
-            "  道を失えばひょっとして……）\x02",
+            "  道を失えばCould it be…）\x02",
         )
     )
 
@@ -1286,7 +1286,7 @@ def main():
             "#10703F#Nこれが千年以上に及ぶ\x01",
             "妄執の果て……\x02\x03",
             "#10708F（《銀#2Rイン#》の名も\x01",
-            "  道を失えばひょっとして……）\x02",
+            "  道を失えばCould it be…）\x02",
         )
     )
 
@@ -1317,7 +1317,7 @@ def main():
         (
             "#00106F#N……その妄執が\x01",
             "《教団》という傀儡#4Rかいらい#を産み落とし……\x02\x03",
-            "#00108F数多の人々を犠牲にしてきた……\x02",
+            "#00108FThat sacrificed countless people\x02",
         )
     )
 
@@ -1328,7 +1328,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#Nああ……\x02\x03",
+            "#00006F#NあAh...\x02\x03",
             "#00008F……そして今もなお、\x01",
             "キーアに《至宝》という運命を\x01",
             "押し付けようとしている……\x02",
@@ -1355,7 +1355,7 @@ def main():
         (
             "#00003F#5P……この場所の是非を\x01",
             "問える立場に俺たちはない。\x02\x03",
-            "#00008Fだが、それでも……\x01",
+            "#00008Fだが、それBut..\x01",
             "この先にキーアやアリオスさん、\x01",
             "大統領たちがいるのなら……\x02\x03",
             "#00013F俺たちは何としても\x01",
@@ -1411,9 +1411,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00007F──行こう、みんな！\x02\x03",
+            "#00007F──行こう、みんな!\x02\x03",
             "過去の妄執と幻想を打ち払い、\x01",
-            "現在#4Rい ま#のクロスベルを掴むために！\x02",
+            "現在#4Rい ま#のクロスベルを掴むために!\x02",
         )
     )
 
@@ -1421,21 +1421,21 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#6Pええ……！\x02",
+        "#00107F#6PRight!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00207F#12P……はい！\x02",
+        "#00207F#12P……Roger!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#12P#00307F合点承知だ！\x02",
+        "#12P#00307F合点承知だ!\x02",
     )
 
     CloseMessageWindow()
@@ -1443,7 +1443,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10107F準備は万全です！\x02",
+        "#6P#10107F準備は万全です!\x02",
     )
 
     CloseMessageWindow()
@@ -1455,7 +1455,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#6P#00607F備えは十分だ！\x02",
+        "#6P#00607F備えは十分だ!\x02",
     )
 
     CloseMessageWindow()
@@ -1467,7 +1467,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#6P#10707F備えは万全です！\x02",
+        "#6P#10707F備えは万全です!\x02",
     )
 
     CloseMessageWindow()
@@ -1478,7 +1478,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#6P#10407F行くとしようか……！\x02",
+        "#6P#10407F行くとしようか…!\x02",
     )
 
     CloseMessageWindow()
@@ -1490,7 +1490,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#6P#10707F行きましょう……！\x02",
+        "#6P#10707F行きましょう…!\x02",
     )
 
     CloseMessageWindow()
@@ -1502,7 +1502,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#6P#00607F行くぞ……！\x02",
+        "#6P#00607F行くぞ…!\x02",
     )
 
     CloseMessageWindow()

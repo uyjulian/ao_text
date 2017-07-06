@@ -303,7 +303,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '辉光护腿'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -394,7 +394,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '全回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -497,7 +497,7 @@ def main():
             "#60I時のセピス×８０\x01\x07\x02",
             "#61I空のセピス×８０\x01\x07\x02",
             "#62I幻のセピス×８０\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -639,7 +639,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '月之宝珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 

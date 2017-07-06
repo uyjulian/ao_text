@@ -258,7 +258,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '爆灵宝玉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -349,7 +349,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '邪恶胸甲'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -437,7 +437,7 @@ def main():
         0x101,
         (
             "#00001Fこっちはベルガード門方面か……\x02\x03",
-            "これ以上近付くのは危険だな。\x01",
+            "これ以上近付くのは危険Right.\x01",
             "大人しく引き返そう。\x02",
         )
     )

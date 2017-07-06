@@ -129,7 +129,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10302Fフフ、さすが豪華だねぇ。\x02\x03",
+            "#12P#10302FHaha, as glamorous as I thought\x02\x03",
             "猟兵団ってのは\x01",
             "そんなに儲かるのかい？\x02",
         )
@@ -142,7 +142,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04600F#5Pうーん、ウチは特別かな？\x02\x03",
+            "#04600F#5PUhh, we might be a special case\x02\x03",
             "#04604F資産家や大貴族のお得意様も多いし、\x01",
             "１千万ミラとか普通に入ってくるよ。\x02",
         )
@@ -152,14 +152,14 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#10305Fヒュウ♪\x02",
+        "#12P#10305FPheww\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#12P#00011Fそんなに……\x02",
+        "#12P#00011FそんWhat…\x02",
     )
 
     CloseMessageWindow()
@@ -179,7 +179,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04604F#5Pあはは、それはまだ。\x02\x03",
+            "#04604F#5PAhaha, not yet\x02\x03",
             "#04602Fやっぱり頑丈さだと\x01",
             "リベールの軍用艇がいいんだけど\x01",
             "なかなか裏に流れないからねぇ。\x02\x03",
@@ -195,14 +195,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00008F（……冗談だよな？）\x02",
+        "#12P#00008F(Was that a joke?)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00306F（ま、そういう事にしとけ。）\x02",
+        "#00306F(You can think of it like that)\x02",
     )
 
     CloseMessageWindow()

@@ -403,7 +403,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '爆灵宝玉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -494,7 +494,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '邪恶胸甲'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -744,7 +744,7 @@ def main():
         0x8,
         (
             "#00807F#12Pハアハア……\x01",
-            "なんてヤツなの……！\x02",
+            "なんてヤツなの…!\x02",
         )
     )
 
@@ -754,7 +754,7 @@ def main():
         0x9,
         (
             "#00901F#6P《至宝》から無限のエネルギーを\x01",
-            "供給されているのか……！\x02",
+            "供給されているのか…!\x02",
         )
     )
 
@@ -764,7 +764,7 @@ def main():
         0xA,
         (
             "#03301F#6P負けない……あなたなんかに、\x01",
-            "《パテル＝マテル》は……！\x02",
+            "《パテル＝マテル》は…!\x02",
         )
     )
 
@@ -778,7 +778,7 @@ def main():
         0xA,
         (
             "#03307F#6P#4Sレンも、エステルとヨシュアだって\x01",
-            "負けないんだからああっ！\x02",
+            "負けないんだからああ!\x02",
         )
     )
 
@@ -813,21 +813,21 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03305F#6P#N#8Aあ……！\x02",
+        "#03305F#6P#N#8AAh...\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#00813F#12P#6Aくっ……！\x02",
+        "#00813F#12P#6AAh…!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#00907F#6P#6Aおおおっ！\x02",
+        "#00907F#6P#6Aおおお!\x02",
     )
 
     CloseMessageWindow()
@@ -995,14 +995,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00807F#6Pああっ……！\x02",
+        "#00807F#6Pああっ…!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xA,
-        "#03311F#N#6P《パテル＝マテル》！？\x02",
+        "#03311F#N#6P《パテル＝マテル》!?\x02",
     )
 
     CloseMessageWindow()
@@ -1011,7 +1011,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03307F#6P#5Sこのおおおおっ！\x02",
+        "#03307F#6P#5Sこのおおおお!\x02",
     )
 
     CloseMessageWindow()
@@ -1035,14 +1035,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00813F#6Pレン、駄目よ！\x02",
+        "#00813F#6Pレン、駄目よ!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#00907F#12P１人で前に出たら……！\x02",
+        "#00907F#12P１人で前に出たら…!\x02",
     )
 
     CloseMessageWindow()
@@ -1074,7 +1074,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03310F#11P#8Aあうっ……！\x02",
+        "#03310F#11P#8Aあうっ…!\x02",
     )
 
     WaitChrThread(0xA, 1)
@@ -1102,14 +1102,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00806F#11Pきゃあっ……！\x02",
+        "#00806F#11Pきゃあっ…!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#00907F#12Pしまった……！\x02",
+        "#00907F#12Pしまった…!\x02",
     )
 
     CloseMessageWindow()
@@ -1174,7 +1174,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03305F#5P#30W………ぁ…………\x02",
+        "#03305F#5P#30W…Ah…\x02",
     )
 
     CloseMessageWindow()
@@ -1191,7 +1191,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#00907F#6P#N駄目だ、この距離じゃ！\x02",
+        "#00907F#6P#N駄目だ、この距離じゃ!\x02",
     )
 
     CloseMessageWindow()
@@ -1203,7 +1203,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00813F#6P#N#4S#12Aレ────ンッ！！！\x02",
+        "#00813F#6P#N#4S#12Aレ────ンッ!!!\x02",
     )
 
     CloseMessageWindow()
@@ -1240,7 +1240,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03310F#6P#13Aきゃあっ……！\x02",
+        "#03310F#6P#13Aきゃあっ…!\x02",
     )
 
     Sleep(2000)
@@ -1310,7 +1310,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03311F#12Pえ───\x02",
+        "#03311F#12PHuh?\x02",
     )
 
     CloseMessageWindow()
@@ -1332,9 +1332,9 @@ def main():
         0xA,
         (
             "#03316F#12P#30W《パテル＝マテル》……\x01",
-            "な、なにを言ってるの……？\x02\x03",
+            "な、なにを言ってるの.......?\x02\x03",
             "#03307F#30W……ダメよ……\x01",
-            "ダメに決まってるじゃない……！\x02",
+            "ダメに決まってるじゃない…!\x02",
         )
     )
 
@@ -1392,7 +1392,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03310F#12P#4S#20Aダメえええええええッ！！\x02",
+        "#03310F#12P#4S#20Aダメえええええええッ!!\x02",
     )
 
     CloseMessageWindow()
@@ -2836,7 +2836,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '塞姆里亚石碎片'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 

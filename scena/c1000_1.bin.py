@@ -70,8 +70,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#2711V#30Wどうも、ロイドさん〜！\x02\x03",
-            "#2712V#30W雨の中ご苦労さまですー。\x02",
+            "#2711V#30Wどうも、ロイドさん〜!\x02\x03",
+            "#2712V#30WThanks for the hard work even in the rain\x02",
         )
     )
 
@@ -86,7 +86,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00002Fああ、フランか。\x02\x03",
+            "#00002FOh Fran.\x02\x03",
             "#00000Fどうしたんだ？\x01",
             "緊急要請でも入ったか？\x02",
         )
@@ -102,7 +102,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "えっと、それが……\x02\x03",
+            "Uh, well that is\x02\x03",
             "マインツのビクセン町長を\x01",
             "覚えてらっしゃいますか？\x02",
         )
@@ -117,7 +117,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00005Fああ、もちろん。\x02",
+            "#00005FOh of course\x02",
         )
     )
 
@@ -172,7 +172,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00005F……？\x02\x03",
+            "#00005F.......?\x02\x03",
             "#00001Fそんな場所なら魔獣が現れても\x01",
             "おかしくはないと思うけど……\x02",
         )
@@ -224,7 +224,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "はい、お願いしますー。\x02\x03",
+            "Yes, please do!\x02\x03",
             "あ、ついでにお伝えしますが\x01",
             "先ほどマインツ山道方面に\x01",
             "手配魔獣の指定が出ました。\x02\x03",
@@ -242,7 +242,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00002Fそうか、了解だ。\x02",
+            "#00002FI see. Got it\x02",
         )
     )
 
@@ -272,7 +272,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00004Fそうなのか……判った。\x02\x03",
+            "#00004FI see判った。\x02\x03",
             "#00000Fありがとう、フラン。\x01",
             "何かあったらまた連絡してくれ。\x02",
         )
@@ -288,7 +288,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "はい、それでは失礼しますー。\x07\x00\x02",
+            "Right. Well then good bye\x07\x00\x02",
         )
     )
 
@@ -306,7 +306,7 @@ def main():
 
     AnonymousTalk(
         0x109,
-        "#10105Fフランからみたいですね。\x02",
+        "#10105FWas that Fran?\x02",
     )
 
     CloseMessageWindow()
@@ -346,7 +346,7 @@ def main():
 
     AnonymousTalk(
         0x105,
-        "#10304F了解、リーダー。\x02",
+        "#10304FGot it, leader\x02",
     )
 
     CloseMessageWindow()

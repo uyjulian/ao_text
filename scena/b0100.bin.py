@@ -96,7 +96,7 @@ def main():
 
     label("loc_2BE")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x0)
 
     label("loc_2D2")
@@ -107,7 +107,7 @@ def main():
 
     label("loc_2F1")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x1)
 
     label("loc_305")
@@ -118,7 +118,7 @@ def main():
 
     label("loc_326")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x2)
 
     label("loc_33A")
@@ -129,7 +129,7 @@ def main():
 
     label("loc_359")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x3)
 
     label("loc_36D")
@@ -140,7 +140,7 @@ def main():
 
     label("loc_38A")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x4)
 
     label("loc_39E")
@@ -151,7 +151,7 @@ def main():
 
     label("loc_3BF")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x5)
 
     label("loc_3D3")

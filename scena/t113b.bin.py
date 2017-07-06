@@ -293,7 +293,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#00106F#6Pもう、ベルったら……\x02",
+        "#00106F#6POh come on Belle\x02",
     )
 
     CloseMessageWindow()
@@ -328,7 +328,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#01704F#11Pフフ、なるほど。\x02\x03",
+            "#01704F#11PHah, I see\x02\x03",
             "#01702Fそして幕が上がったステージは\x01",
             "最後まで踊り続ける必要がある……\x02",
         )
@@ -355,7 +355,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6Pそうだったんですか……\x02",
+        "#00005F#6POh is that right\x02",
     )
 
     CloseMessageWindow()
@@ -445,7 +445,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00012F#6Pはは……\x02",
+        "#00012F#6PHaha…\x02",
     )
 
     CloseMessageWindow()
@@ -481,7 +481,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#06409F#11Pすっごく楽しかったです！\x02",
+        "#06409F#11Pすっごく楽しかったです!\x02",
     )
 
     CloseMessageWindow()
@@ -509,7 +509,7 @@ def main():
             "#02803F#5P──蒸し返すようで悪いが\x01",
             "あれは本当に不幸な事件だった。\x02\x03",
             "#02801Fいくらタワーの爆破まで\x01",
-            "しようとした犯罪者#6Rテロリスト#とはいえ……\x02\x03",
+            "しようとした犯罪者#6Rテロリスト#とはいUh…\x02\x03",
             "あんな形で命を\x01",
             "落とさなくてはならないほど\x01",
             "罪深かったとは思えない。\x02\x03",
@@ -524,7 +524,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#10108F#11Pあ……\x02",
+        "#10108F#11PAh...\x02",
     )
 
     CloseMessageWindow()
@@ -595,7 +595,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#10101F#11Pワ、ワジ君……！\x02",
+        "#10101F#11Pワ、ワジ君…!\x02",
     )
 
     CloseMessageWindow()
@@ -621,7 +621,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#00102F#6P……おじさま……\x02",
+        "#00102F#6P……Sir…\x02",
     )
 
     CloseMessageWindow()
@@ -638,14 +638,14 @@ def main():
 
     ChrTalk(
         0xC,
-        "#01808F#11P…………………………\x02",
+        "#01808F#11P……….\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xB,
-        "#01704F#11Pふむ……なるほどね。\x02",
+        "#01704F#11PHmm.なるほどね。\x02",
     )
 
     CloseMessageWindow()

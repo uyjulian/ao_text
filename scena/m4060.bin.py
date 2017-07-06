@@ -450,7 +450,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -500,7 +500,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '毒之刃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -588,7 +588,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '中回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -679,7 +679,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅰ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -867,14 +867,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10111F#6Pこれは……\x02",
+        "#10111F#6PThis is..\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00013F#6Pまた扉か……\x02",
+        "#00013F#6PAnother door...\x02",
     )
 
     CloseMessageWindow()
@@ -901,7 +901,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "岩の扉は固く閉ざされている。\x02",
+            "The rock door is closed up.\x02",
         )
     )
 
@@ -914,7 +914,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00003F駄目か……\x02\x03",
+            "#6P#00003FNo good…\x02\x03",
             "#00008F多分、入口近くの扉と同じように\x01",
             "解除する装置があるんだろう。\x02",
         )
@@ -924,7 +924,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#6Pええ、探してみましょう。\x02",
+        "#10101F#6PYeah, let's find it.\x02",
     )
 
     CloseMessageWindow()
@@ -948,10 +948,10 @@ def main():
         0x101,
         (
             "#12P#00006Fあの２人なら滅多な事じゃ\x01",
-            "遅れを取ることはなさそうだけど……\x02\x03",
+            "遅れを取ることはなさそうBut…\x02\x03",
             "#00008F敵はグノーシスを使っている上に\x01",
             "あんな危険な人形も呼び出せる。\x02\x03",
-            "#00001F楽観は出来ないかもしれないな。\x02",
+            "#00001FIt's hard to stay optimistic…\x02",
         )
     )
 
@@ -960,7 +960,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10108F#5Pですよね……\x02\x03",
+            "#10108F#5PYeah…\x02\x03",
             "#10106Fふう、こんな時にエニグマで\x01",
             "連絡が取り合えたらいいんですけど。\x02",
         )
@@ -976,7 +976,7 @@ def main():
             "レマン自治州だけみたいだからな。\x02\x03",
             "#00000Fでも確かに、改めて考えると\x01",
             "物凄く便利な機能だったんだよな。\x02\x03",
-            "フランのサポートも受けられたし。\x02",
+            "Fran would always be supporting us through it\x02",
         )
     )
 
@@ -985,7 +985,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10112F#5Pあはは……ちゃんとお役に\x01",
+            "#10112F#5PあHaha…ちゃんとお役に\x01",
             "立っていればいいんですけど。\x02\x03",
             "#10100Fあの調子で、ちゃんとお仕事が\x01",
             "勤まっているか心配なんですよね。\x02",
@@ -1041,8 +1041,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xC),
-            "#2707V#30Wお姉ちゃん、ロイドさん！\x01",
-            "くれぐれも気をつけてくださいね！？\x07\x00\x02",
+            "#2707V#30Wお姉ちゃん、ロイドさん!\x01",
+            "くれぐれも気をつけてくださいね!?\x07\x00\x02",
         )
     )
 
@@ -1062,7 +1062,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xC),
-            "#30Wま、気を抜くんじゃねえぞ。\x02\x03",
+            "#30WDon't lose focus\x02\x03",
             "後ろ盾を失った逃亡者とはいえ、\x01",
             "あの教団に関わっていた連中だ。\x07\x00\x02",
         )
@@ -1083,7 +1083,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xC),
-            "#4125V#30Wウォン。\x07\x00\x02",
+            "#4125V#30WWoof.\x07\x00\x02",
         )
     )
 
@@ -1102,9 +1102,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xC),
-            "#3593V#30Wロイド……\x01",
+            "#3593V#30WLloyd…\x01",
             "ゼッタイに無事に戻ってきてね。\x02\x03",
-            "#3594Vキーア、いい子で待ってるから……！\x07\x00\x02",
+            "#3594VYou better come back safe, ok!?\x07\x00\x02",
         )
     )
 
@@ -1134,7 +1134,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10102F#5P……はい！\x02",
+        "#10102F#5P……Roger!\x02",
     )
 
     CloseMessageWindow()
@@ -1272,7 +1272,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00000Fよし……！\x02",
+        "#11P#00000FGot it…!\x02",
     )
 
     CloseMessageWindow()
@@ -1299,7 +1299,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10109F#5Pふふっ、お疲れ様でした。\x02\x03",
+            "#10109F#5PHaha, nice job.\x02\x03",
             "#10106Fそれにしても……\x01",
             "あのアーネストという男、\x01",
             "本当に何が狙いなんでしょうか？\x02\x03",
@@ -1313,7 +1313,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00003F……分からない。\x02\x03",
+            "#12P#00003FNo idea…\x02\x03",
             "#00001Fただ、ヨアヒムと同じ力を\x01",
             "手に入れようとしているのは\x01",
             "確かみたいだ。\x02",
@@ -1325,7 +1325,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10105F#5P教団事件の黒幕と同じ力……\x02\x03",
+            "#10105F#5PAs the mastermind behind the cult incident..\x02\x03",
             "#10101Fマフィアやベルガード門の部隊を\x01",
             "意のままに操ったアレですか？\x02",
         )
@@ -1338,7 +1338,7 @@ def main():
         (
             "#12P#00006Fああ、それも危険だったけど\x01",
             "さらにタチが悪い力がある。\x02\x03",
-            "#00013F人の心や背景を“視#2Rみ#る”力だ。\x02",
+            "#00013FAllows you to see into the hearts and minds of people\x02",
         )
     )
 
@@ -1359,7 +1359,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
             "#30Wこいつ……\x01",
-            "あたしたちの記憶を！？\x02",
+            "あたしたちの記憶を!?\x02",
         )
     )
 
@@ -1370,8 +1370,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#30Wまさか……\x01",
-            "そこから再現したのか！？\x07\x00\x02",
+            "#30WNo way…\x01",
+            "そこから再現したのか!?\x07\x00\x02",
         )
     )
 
@@ -1391,7 +1391,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10107F#5Pそ、それって……\x01",
+            "#10107F#5Pそ、That is\x01",
             "色々とまずくありませんか？\x02",
         )
     )
@@ -1403,7 +1403,7 @@ def main():
         (
             "#12P#00003Fああ、ある意味どんな風にも\x01",
             "悪用できてしまう能力だろう。\x02\x03",
-            "#00008Fそれどころか──\x02",
+            "#00008FNot to mention…\x02",
         )
     )
 
@@ -1426,7 +1426,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xB),
-            "#60W我ニハ総テガ視エルノダ……\x02",
+            "#60WI can see it all...\x02",
         )
     )
 
@@ -1466,7 +1466,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105F#5Pロイドさん……？\x02",
+        "#10105F#5PLloyd?\x02",
     )
 
     CloseMessageWindow()
@@ -1476,7 +1476,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00003F……いや、何でもない。\x02\x03",
+            "#12P#00003FOh, no, nothing.\x02\x03",
             "#00008Fいずれにせよ、アーネストに\x01",
             "ヨアヒムと同じ末路を\x01",
             "歩ませるわけにはいかない。\x02\x03",
@@ -1492,7 +1492,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10113F#5Pロイドさん……\x02\x03",
+            "#10113F#5PLloyd…\x02\x03",
             "#10106Fその、例の首謀者が死んだのは\x01",
             "別にロイドさんのせいじゃ……\x02",
         )
@@ -1503,10 +1503,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00006Fそれでも……\x01",
+            "#12P#00006FそれBut..\x01",
             "死なせずに捕まえることは\x01",
             "出来たんじゃないかと思ってさ。\x02\x03",
-            "#00008F今更なのは百も承知だけど……\x02",
+            "#00008FI know it's too late for this now though\x02",
         )
     )
 
@@ -1514,7 +1514,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10108F#5P……………………………………\x02",
+        "#10108F#5P.............…\x02",
     )
 
     CloseMessageWindow()
@@ -1533,7 +1533,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100F#5Pええ……！\x02",
+        "#10100F#5PRight!\x02",
     )
 
     CloseMessageWindow()
@@ -1661,7 +1661,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "岩の扉は固く閉ざされている。\x07\x00\x02",
+            "The rock door is closed up.\x07\x00\x02",
         )
     )
 

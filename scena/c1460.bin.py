@@ -382,7 +382,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '加速跑鞋'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -473,7 +473,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '暗之刃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -575,7 +575,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -625,7 +625,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '移动１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -696,7 +696,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "マスタークオーツを\x01",
-            "セットした状態で戦闘をこなした！\x07\x00\x02",
+            "セットした状態で戦闘をこなした!\x07\x00\x02",
         )
     )
 
@@ -749,7 +749,7 @@ def main():
             "#60I時のセピス×３０\x01\x07\x02",
             "#61I空のセピス×３０\x01\x07\x02",
             "#62I幻のセピス×３０\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -806,7 +806,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅰ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1041,7 +1041,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "手配魔獣を退治した！\x02",
+            "手配魔獣を退治した!\x02",
         )
     )
 
@@ -1056,7 +1056,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '战术书·击'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1222,7 +1222,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "マスタークオーツを\x01",
-            "セットした状態で戦闘をこなした！\x07\x00\x02",
+            "セットした状態で戦闘をこなした!\x07\x00\x02",
         )
     )
 
@@ -1258,7 +1258,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "マスタークオーツを\x01",
-            "セットした状態で戦闘をこなした！\x07\x00\x02",
+            "セットした状態で戦闘をこなした!\x07\x00\x02",
         )
     )
 

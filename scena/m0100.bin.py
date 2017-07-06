@@ -418,7 +418,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '英雄戒指'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -509,7 +509,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅱ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1080,7 +1080,7 @@ def main():
         0x101,
         (
             "#00003Fということは、そのハッカーが\x01",
-            "仕掛けたわけじゃなさそうですね。\x02\x03",
+            "仕掛けたわけじゃなさそうTrue.\x02\x03",
             "#00001Fどうします、鍵を壊しますか？\x02",
         )
     )
@@ -1101,7 +1101,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F了解しました。\x02",
+        "#00000FUnderstood.\x02",
     )
 
     CloseMessageWindow()

@@ -318,7 +318,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "はー……すごい高さだなあ……\x02",
+        "はー……すごい高さだなAh...\x02",
     )
 
     CloseMessageWindow()

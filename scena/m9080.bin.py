@@ -989,7 +989,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "#59I風のセピス×２０００\x01\x07\x00",
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1046,7 +1046,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '睡眠之刃２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1148,7 +1148,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1198,7 +1198,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '刻耀珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1297,7 +1297,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1347,7 +1347,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '雷神之佑'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1435,7 +1435,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '常青之绿'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1537,7 +1537,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1587,7 +1587,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '银耀石钥匙'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1686,7 +1686,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1736,7 +1736,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '金耀石钥匙'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -1835,7 +1835,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -1885,7 +1885,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '黑耀石钥匙'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -2870,7 +2870,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10712F#13P……ここは……\x02",
+        "#10712F#13P……This is…\x02",
     )
 
     CloseMessageWindow()
@@ -2892,7 +2892,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10405F#13Pここは……\x02",
+        "#10405F#13PThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -2914,7 +2914,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10113F#13Pこ、ここは……\x02",
+        "#10113F#13Pこ、This is…\x02",
     )
 
     CloseMessageWindow()
@@ -3010,7 +3010,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#6P……ったく……\x01",
+            "#00306F#6P……Seriously…\x01",
             "抱え込みすぎなんだっつーの……\x02",
         )
     )
@@ -3019,7 +3019,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#11P…………………………………\x02",
+        "#00008F#11P.............\x02",
     )
 
     CloseMessageWindow()
@@ -3103,7 +3103,7 @@ def main():
         0x101,
         (
             "#00007F#5P俺たちの全身全霊をもって\x01",
-            "剣聖の《領域》に挑もう……！\x02",
+            "剣聖の《領域》に挑もう…!\x02",
         )
     )
 
@@ -3113,13 +3113,13 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#2P#1Kええ……！\x02",
+        "#00107F#2P#1KRight!\x02",
     )
 
 
     ChrTalk(
         0x104,
-        "#00307F#1P#1Kおお……！\x02",
+        "#00307F#1P#1Kおお…!\x02",
     )
 
     Sound(2153, 255, 90, 0)
@@ -3141,7 +3141,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10107F#13P#1Kはいっ……！\x02",
+        "#10107F#13P#1Kはいっ…!\x02",
     )
 
 
@@ -3163,7 +3163,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10407F#13P#1Kああ……！\x02",
+        "#10407F#13P#1KあAh...\x02",
     )
 
 
@@ -3185,7 +3185,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00601F#13P#1Kうむ……！\x02",
+        "#00601F#13P#1KうAhh…!\x02",
     )
 
 
@@ -3207,7 +3207,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10707F#13P#1Kはい……！\x02",
+        "#10707F#13P#1Kはい…!\x02",
     )
 
 
@@ -3217,7 +3217,7 @@ def main():
 
     AnonymousTalk(
         0x8,
-        "#00207F#5P#N#1Kはい……！\x02",
+        "#00207F#5P#N#1Kはい…!\x02",
     )
 
     OP_57(0x1)
@@ -3301,7 +3301,7 @@ def main():
         (
             "#3328V#40W（兄貴……待っててくれ。）\x02\x03",
             "#3329V（あの日の闇を……\x01",
-            "  きっと照らし出してみせる！）\x02",
+            "  きっと照らし出してみせる!）\x02",
         )
     )
 

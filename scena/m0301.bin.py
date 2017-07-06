@@ -337,7 +337,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "魔獣が現れた!\x07\x00\x02",
         )
     )
 
@@ -387,7 +387,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '破盾之牙'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -475,7 +475,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '大回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "Got Access Card\x02",
         )
     )
 
@@ -817,7 +817,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00013Fなんだ！？\x02",
+        "#6P#00013Fなんだ!?\x02",
     )
 
     CloseMessageWindow()
@@ -825,8 +825,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10110Fこれは……\x01",
-            "導力爆弾の起爆音！？\x02",
+            "#6P#10110FThis is..\x01",
+            "導力爆弾の起爆音!?\x02",
         )
     )
 
@@ -834,7 +834,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307Fその先だ、行ってみるぞ！\x02",
+        "#00307Fその先だ、行ってみるぞ!\x02",
     )
 
     CloseMessageWindow()
@@ -981,7 +981,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10308Fここは……\x01",
+            "#10308FThis is…\x01",
             "地下の貨物路線かな？\x02",
         )
     )
@@ -992,7 +992,7 @@ def main():
         0x102,
         (
             "#6P#00101Fええ、オルキスタワー方面に\x01",
-            "資材と貨物を運んでいるのだけど……\x02",
+            "資材と貨物を運んでいるのBut…\x02",
         )
     )
 
@@ -1003,7 +1003,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#6P皆さん、あれを……！\x02",
+        "#00201F#6P皆さん、あれを…!\x02",
     )
 
     CloseMessageWindow()
@@ -1119,7 +1119,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10107F#11Pこれは……！\x02",
+        "#10107F#11PThis is..!\x02",
     )
 
     CloseMessageWindow()
@@ -1127,8 +1127,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00301F#11Pチッ……\x01",
-            "追撃を振り切るつもりか！\x02",
+            "#00301F#11PTch\x01",
+            "追撃を振り切るつもりか!\x02",
         )
     )
 
@@ -1146,7 +1146,7 @@ def main():
         0x101,
         (
             "#5P#00007F他にルートはないか\x01",
-            "調べてみるぞ！\x02",
+            "調べてみるぞ!\x02",
         )
     )
 
@@ -1443,7 +1443,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100Fあ……！\x02",
+        "#10100FAh...\x02",
     )
 
     CloseMessageWindow()
@@ -1458,7 +1458,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00302Fよっしゃ、回りこめたか！\x02",
+        "#00302Fよっしゃ、回りこめたか!\x02",
     )
 
     CloseMessageWindow()
@@ -1487,8 +1487,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F#11Pああ……\x01",
-            "追いつくチャンスだ！\x02",
+            "#00000F#11PあAh...\x01",
+            "追いつくチャンスだ!\x02",
         )
     )
 

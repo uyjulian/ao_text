@@ -712,7 +712,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "ふふ、とっても嬉しかったです！\x02",
+        "ふふ、とっても嬉しかったです!\x02",
     )
 
     CloseMessageWindow()
@@ -739,7 +739,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "えっ、それって……\x02",
+        "えっ、That is\x02",
     )
 
     CloseMessageWindow()
@@ -762,7 +762,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "……コホン。\x01",
+            "Ahem\x01",
             "夜は長いんだ、今日はとことん\x01",
             "楽しもうじゃないか。\x02",
         )
