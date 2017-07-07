@@ -19,20 +19,20 @@ def main():
 
     BuildStringList((
         "r1050",                  # 0
-        "ソーニャ司令",           # 1
-        "ドノバン警部",           # 2
-        "グレイス",               # 3
-        "ミレイユ三尉",           # 4
-        "レイモンド捜査官",       # 5
-        "レインズ",               # 6
-        "警官",                   # 7
-        "警官",                   # 8
-        "警官",                   # 9
-        "警備隊員",               # 10
-        "警備隊員",               # 11
-        "警備隊員",               # 12
-        "警備隊員",               # 13
-        "車掌",                   # 14
+        "Sonya Command",           # 1
+        "Donovan",           # 2
+        "Grace",               # 3
+        "Lieutenant Mireille",           # 4
+        "Raymond investigator",       # 5
+        "Raines",               # 6
+        "Policeman",                   # 7
+        "Policeman",                   # 8
+        "Policeman",                   # 9
+        "A security guard",               # 10
+        "A security guard",               # 11
+        "A security guard",               # 12
+        "A security guard",               # 13
+        "conductor",                   # 14
     ))
 
     AddCharChip((
@@ -323,7 +323,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "はあ、酷い目にあったよ。\x02",
+        "Ha, it was terrible.\x02",
     )
 
     CloseMessageWindow()
@@ -331,9 +331,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "運ばれた人たちに比べたら\x01",
-            "無傷の僕はまだいいほう\x01",
-            "なんだろうけど……\x02",
+            "Compared to people who were carried\x01",
+            "I am still intact I still like the way\x01",
+            "I wonder what ….\x02",
         )
     )
 
@@ -342,8 +342,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "まさかこんな風に\x01",
-            "列車が脱線するなんてな。\x02",
+            "No way No way\x01",
+            "The train is derailed.\x02",
         )
     )
 
@@ -352,10 +352,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00003F列車に乗っていた\x01",
-            "車掌さんみたいですね。\x02\x03",
-            "#00000Fよろしければ、事故当時の事を\x01",
-            "聞かせていただけませんか？\x02",
+            "#12P#00003FI was on the train.\x01",
+            "conductorさんみたいですね。\x02\x03",
+            "#00000FIf you do not mind, you should do something about the accident\x01",
+            "Would you mind telling me?\x02",
         )
     )
 
@@ -364,8 +364,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ああ、僕の話せることだったら\x01",
-            "何でも話させてもらいたいんだけど……\x02",
+            "Oh, if I could talk\x01",
+            "I'd like to tell you anything ….\x02",
         )
     )
 
@@ -374,8 +374,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "さっき、あっちにいる刑事さんに\x01",
-            "聞かれたときはロクな話ができなくてね。\x02",
+            "To a criminal who is lying there earlier\x01",
+            "I can not talk about it when asked.\x02",
         )
     )
 
@@ -384,9 +384,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "何しろ、あっという間の\x01",
-            "出来事だったからねえ。\x01",
-            "ちょっと混乱してるというか……\x02",
+            "Anyway, in the blink of an eye\x01",
+            "Because it was an event.\x01",
+            "I mean a bit confused ……\x02",
         )
     )
 
@@ -395,9 +395,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#12P#10106Fうーん、これだけの事故ですし\x01",
-            "鮮明に思い出せなくても\x01",
-            "仕方ないかもしれませんね。\x02",
+            "#12P#10106FWell, this is the only accident\x01",
+            "Even if you do not remember clearly\x01",
+            "There may not be any choice.\x02",
         )
     )
 
@@ -406,8 +406,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00108F事故のショックも\x01",
-            "あると思いますけど……\x02",
+            "#12P#00108FShock of accident also\x01",
+            "I think there are … ….\x02",
         )
     )
 
@@ -416,10 +416,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00003Fこの際、小さなことでも\x01",
-            "構いません。\x02\x03",
-            "#00001F何か気になったことは\x01",
-            "ありませんでしたか？\x02",
+            "#12P#00003FIn this case, even a small thing\x01",
+            "does not matter.\x02\x03",
+            "#00001FWhat I was concerned about\x01",
+            "Was not there?\x02",
         )
     )
 
@@ -428,8 +428,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "気になったこと……\x01",
-            "うーん……\x02",
+            "Worried … ….\x01",
+            "Well …\x02",
         )
     )
 
@@ -439,14 +439,14 @@ def main():
 
     ChrTalk(
         0xFE,
-        "あ、そういえば……！\x02",
+        "Oh, that's right … …!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#12P#00305F#6P何かあったのか？\x02",
+        "#12P#00305F#6PDid something happen?\x02",
     )
 
     CloseMessageWindow()
@@ -454,8 +454,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "脱線事故の直前、運転士に\x01",
-            "通信で業務連絡をしてたんだが……\x02",
+            "Just before the derailment accident, to the driver\x01",
+            "I was in business communication with communication … …\x02",
         )
     )
 
@@ -463,7 +463,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "途中で突然、彼が叫んだんだ。\x02",
+        "Suddenly he shouted on the way.\x02",
     )
 
     CloseMessageWindow()
@@ -471,7 +471,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "『うわあっ、なんだ！？』……ってね。\x02",
+        "\"Wow, what! Is it? \"… ….\x02",
     )
 
     CloseMessageWindow()
@@ -479,9 +479,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "事故が起こったのはそのすぐ後さ。\x01",
-            "先頭車両が脱線して、連結車両も\x01",
-            "次々とそれに続いていったんだ。\x02",
+            "The accident happened just after that.\x01",
+            "The leading car derailed and the connected vehicle also\x01",
+            "I followed it one after another.\x02",
         )
     )
 
@@ -490,8 +490,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "そうして……\x01",
-            "今に至るって言うわけさ。\x02",
+            "And then …\x01",
+            "That means it will lead to now.\x02",
         )
     )
 
@@ -500,8 +500,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#12P#00200F『うわあっ、なんだ！？』\x01",
-            "という叫び声……\x02",
+            "#12P#00200F\"Wow, what! Is it? \"\x01",
+            "A cry of … …\x02",
         )
     )
 
@@ -510,8 +510,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10302Fまるで、信じられない物でも#18R噵　噵　噵　噵　噵　噵　噵　噵　噵#\x01",
-            "目にしたかのような#18R噵　噵　噵　噵　噵　噵　噵　噵　噵#セリフだね。\x02",
+            "#12P#10302FIt's as if you can not believe it#18R噵 噵 噵 噵 噵 噵 噵 噵 噵#\x01",
+            "As if I saw it#18R噵 噵 噵 噵 噵 噵 噵 噵 噵#It's a line.\x02",
         )
     )
 
@@ -520,8 +520,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00003F運転士さんは一体、\x01",
-            "何を見たんだろう……？\x02",
+            "#12P#00003FAs a driver,\x01",
+            "I wonder what he saw … ….?\x02",
         )
     )
 
@@ -550,9 +550,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "脱線事故の直前、\x01",
-            "通信で業務連絡をしてた時に\x01",
-            "運転士が突然叫んだんだ。\x02",
+            "Just before the derailment accident,\x01",
+            "When I was contacting business by communication\x01",
+            "The driver suddenly cried.\x02",
         )
     )
 
@@ -561,8 +561,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "『うわあっ、なんだ！？』……ってね。\x01",
-            "脱線事故が起こったのはそのすぐ後さ。\x02",
+            "\"Wow, what! Is it? \"… ….\x01",
+            "The derailment accident happened just after that.\x02",
         )
     )
 
@@ -591,12 +591,12 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#02003F重機が来るまでは、\x01",
-            "私たち警備隊も現場検証に\x01",
-            "協力させてもらうわ。\x02\x03",
-            "#02000F隊員たちにも\x01",
-            "言い含めておいたから、\x01",
-            "自由に調査して頂戴。\x02",
+            "#02003FUntil heavy machinery arrives,\x01",
+            "We also guards on site verification\x01",
+            "I will cooperate with you.\x02\x03",
+            "#02000FTo the members\x01",
+            "Because I have said it,\x01",
+            "Please do research freely.\x02",
         )
     )
 
@@ -619,8 +619,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "やれやれ、改めて見ても\x01",
-            "とんでもない大事故だな。\x02",
+            "Well, even if I look at it again\x01",
+            "It is a terrible big accident.\x02",
         )
     )
 
@@ -629,8 +629,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "これでよく１人も死者が\x01",
-            "出なかったもんだ。\x02",
+            "There is often one dead person in this\x01",
+            "It did not come out.\x02",
         )
     )
 
@@ -639,9 +639,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00200Fほとんどの乗客は\x01",
-            "共和国に振替輸送されるか、\x01",
-            "病院に運ばれたみたいですね。\x02",
+            "#00200FMost passengers\x01",
+            "Shipped or transferred to the Republic,\x01",
+            "You seem to have been taken to a hospital.\x02",
         )
     )
 
@@ -650,8 +650,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F出来ればその人たちからも\x01",
-            "話を聞きたかったけど……\x02",
+            "#00006FIf possible, even those people\x01",
+            "I wanted to hear the story, but ….\x02",
         )
     )
 
@@ -659,7 +659,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "まあ、仕方ないだろう。\x02",
+        "Well, it can not be helped.\x02",
     )
 
     CloseMessageWindow()
@@ -667,8 +667,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "そうだ、向こうで休んでいる\x01",
-            "車掌には話を聞いたか？\x02",
+            "Yes, I'm taking a rest over there\x01",
+            "conductorには話を聞いたか？\x02",
         )
     )
 
@@ -677,9 +677,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "さっき俺たちが話を聞いた時は\x01",
-            "大した情報は得られなかったが、\x01",
-            "今なら何か思い出したかもしれん。\x02",
+            "When we heard a story a while ago\x01",
+            "We did not get much information,\x01",
+            "Now maybe I remembered something.\x02",
         )
     )
 
@@ -687,7 +687,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "忘れずに話を聞いておくんだな。\x02",
+        "Do not forget to listen to the story.\x02",
     )
 
     CloseMessageWindow()
@@ -700,8 +700,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "向こうで休んでいる\x01",
-            "車掌には話を聞いたか？\x02",
+            "I am resting over there\x01",
+            "conductorには話を聞いたか？\x02",
         )
     )
 
@@ -710,9 +710,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "すぐに事故当時の事を聞ける\x01",
-            "唯一の人物だ、忘れずに\x01",
-            "聞き込みをしておくんだな。\x02",
+            "You can hear things at the time of the accident soon\x01",
+            "It is the only person, do not forget\x01",
+            "Please listen to it.\x02",
         )
     )
 
@@ -735,8 +735,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#02102Fどう、ロイド君。\x01",
-            "何か新しいことは分かったかしら？\x02",
+            "#02102FHow about you, Lloyd.\x01",
+            "Did you know something new?\x02",
         )
     )
 
@@ -745,9 +745,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006Fいえ、まだ何とも言えませんね。\x02\x03",
-            "#00001Fグレイスさんは何か、\x01",
-            "気づいた事はありませんか？\x02",
+            "#00006FNo, I can not say anything yet.\x02\x03",
+            "#00001FGraceさんは何か、\x01",
+            "Have not noticed?\x02",
         )
     )
 
@@ -756,11 +756,11 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#02106Fうーん、そうねえ。\x01",
-            "列車事故自体はたまにあるけど……\x02\x03",
-            "#02101F今回はやっぱり、\x01",
-            "タイミングと場所の両方が\x01",
-            "悪すぎだと思うわ。\x02",
+            "#02106FWell, well.\x01",
+            "Sometimes the train accident itself … …\x02\x03",
+            "#02101FAs I thought,\x01",
+            "Both timing and location\x01",
+            "I think it's too bad.\x02",
         )
     )
 
@@ -769,11 +769,11 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F……そうですね。\x01",
-            "ただでさえ独立提唱の関係で\x01",
-            "緊張状態が続いてる時ですし……\x02\x03",
-            "#00103Fもしかしたら、何らかの意図が\x01",
-            "働いている可能性も……\x02",
+            "#00108F……I agree.\x01",
+            "Even just as independent advocate\x01",
+            "It is when the state of tension is continuing … …\x02\x03",
+            "#00103FMaybe there is some intention\x01",
+            "The possibility of working …\x02",
         )
     )
 
@@ -782,12 +782,12 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#02106Fま、何の証拠もない話だし\x01",
-            "あたしの考えを押し付ける\x01",
-            "つもりもないけどね。\x02\x03",
-            "#02109Fとにかく、調査のほうは\x01",
-            "頑張ってちょうだい！\x01",
-            "何か分かったら取材させてね。\x02",
+            "#02106FWell, there is no evidence\x01",
+            "Impose my thought\x01",
+            "I do not mean to go.\x02\x03",
+            "#02109FAnyway, the survey is\x01",
+            "Good luck!\x01",
+            "Let me interview you if you know something.\x02",
         )
     )
 
@@ -795,7 +795,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002Fはは、分かりました。\x02",
+        "#00002FOkay, I understand.\x02",
     )
 
     CloseMessageWindow()
@@ -809,11 +809,11 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#02103F列車事故自体はたまにあるけど……\x01",
-            "今回はタイミングと場所が最悪ね。\x02\x03",
-            "#02109Fまあとにかく、調査のほうは\x01",
-            "頑張ってちょうだい！\x01",
-            "何か分かったら取材させてね。\x02",
+            "#02103FSometimes the train accident itself … …\x01",
+            "Timing and location are the worst this time.\x02\x03",
+            "#02109FWell anyway, the survey is\x01",
+            "Good luck!\x01",
+            "Let me interview you if you know something.\x02",
         )
     )
 
@@ -836,8 +836,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00300Fミレイユ、\x01",
-            "そっちの復旧作業の方はどうだ？\x02",
+            "#00300FMireille,\x01",
+            "How about those who are restoring?\x02",
         )
     )
 
@@ -846,13 +846,13 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#07901Fええ、あなたたちの調査と\x01",
-            "平行して進めてはいるけど……\x02\x03",
-            "#07906Fやっぱり、一度重機を使って\x01",
-            "列車自体を動かさないと\x01",
-            "手の出しようがないわね。\x02\x03",
-            "#07900Fとりあえず、今は散らばった\x01",
-            "破片なんかを撤去してるところよ。\x02",
+            "#07901FYeah, with your investigation\x01",
+            "I am going in parallel, but ….\x02\x03",
+            "#07906FAfter all, once using a heavy machine\x01",
+            "I have to move the train itself\x01",
+            "You can not get out of hand.\x02\x03",
+            "#07900FTentatively, now it's scattered\x01",
+            "I'm removing the debris.\x02",
         )
     )
 
@@ -860,7 +860,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003Fやっぱり、俺たちも手伝って……\x02",
+        "#00003FAfter all, we helped … ….\x02",
     )
 
     CloseMessageWindow()
@@ -868,11 +868,11 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#07904Fいえ、それには及ばないわ。\x01",
-            "あなたたちは調査に\x01",
-            "専念してちょうだい。\x02\x03",
-            "#07902F私たちの方でも、\x01",
-            "何か分かったら報せるわね。\x02",
+            "#07904FNo, it does not reach that.\x01",
+            "For you to investigate\x01",
+            "Please concentrate.\x02\x03",
+            "#07902FEven our people,\x01",
+            "I can tell you if I know something.\x02",
         )
     )
 
@@ -886,10 +886,10 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#07904Fあなたたちは調査に\x01",
-            "専念してちょうだい。\x02\x03",
-            "#07902F私たちの方でも、\x01",
-            "何か分かったら報せるわね。\x02",
+            "#07904FFor you to investigate\x01",
+            "Please concentrate.\x02\x03",
+            "#07902FEven our people,\x01",
+            "I can tell you if I know something.\x02",
         )
     )
 
@@ -912,8 +912,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "一応、倒れた車両の中も\x01",
-            "調べられるだけ調べたんだけど……\x02",
+            "Once in the collapsed vehicle\x01",
+            "I examined it as much as I could find it ….\x02",
         )
     )
 
@@ -922,8 +922,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "内部には大した手がかりは\x01",
-            "なさそうだったよ〜。\x02",
+            "There are a lot of clues inside\x01",
+            "It seemed not to be ~.\x02",
         )
     )
 
@@ -932,8 +932,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10302F怪しい物とかは\x01",
-            "置かれてなかったのかい？\x02",
+            "#10302FSomething suspicious is\x01",
+            "Did not you put it?\x02",
         )
     )
 
@@ -942,9 +942,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ああ、あったのは乗客の\x01",
-            "荷物とかばっかりだったけど、\x01",
-            "特に怪しい物はなかったかな〜。\x02",
+            "Oh, it was the passenger's\x01",
+            "It was all my bags,\x01",
+            "I wonder if anything was particularly suspicious.\x02",
         )
     )
 
@@ -953,9 +953,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "外的な要因によって\x01",
-            "起きた事故なのは\x01",
-            "間違いないだろうね〜。\x02",
+            "By external factors\x01",
+            "The accident happened\x01",
+            "There must be no doubt.\x02",
         )
     )
 
@@ -963,7 +963,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00303Fふむ……\x02",
+        "#00303FHM……\x02",
     )
 
     CloseMessageWindow()
@@ -976,9 +976,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "倒れた車両の内部には\x01",
-            "大した手がかりは\x01",
-            "なさそうだったよ〜。\x02",
+            "Inside the fallen car\x01",
+            "A big clue\x01",
+            "It seemed not to be ~.\x02",
         )
     )
 
@@ -987,9 +987,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "外的な要因によって\x01",
-            "起きた事故なのは\x01",
-            "間違いないだろうね〜。\x02",
+            "By external factors\x01",
+            "The accident happened\x01",
+            "There must be no doubt.\x02",
         )
     )
 
@@ -1012,8 +1012,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "はあ、ここまでの事故現場となると、\x01",
-            "見てるだけでもショックですよね。\x02",
+            "Hello, when it comes to the accident site so far,\x01",
+            "Even just looking is a shock.\x02",
         )
     )
 
@@ -1022,8 +1022,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "でも、真実を伝えるためには\x01",
-            "いい写真をたくさん撮らないと。\x02",
+            "But to tell the truth\x01",
+            "I have to take a lot of good pictures.\x02",
         )
     )
 
@@ -1032,9 +1032,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "１枚の写真が何かの\x01",
-            "証拠になることだって、\x01",
-            "十分にありえる事ですもんね。\x02",
+            "What is a picture?\x01",
+            "Even becoming evidence,\x01",
+            "It is enough to be possible.\x02",
         )
     )
 
@@ -1048,9 +1048,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "事故現場の取材は\x01",
-            "ショッキングだけど……\x01",
-            "いい写真をたくさん撮らないと。\x02",
+            "Interview at the accident site\x01",
+            "Shocking though ….\x01",
+            "I have to take a lot of good pictures.\x02",
         )
     )
 
@@ -1059,9 +1059,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "１枚の写真が何かの\x01",
-            "証拠になることだって、\x01",
-            "十分にありえる事ですもんね。\x02",
+            "What is a picture?\x01",
+            "Even becoming evidence,\x01",
+            "It is enough to be possible.\x02",
         )
     )
 
@@ -1085,9 +1085,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02000Fあなたたち、\x01",
-            "重機が到着するまで\x01",
-            "あとどのくらいかかりそう？\x02",
+            "#02000Fyou,\x01",
+            "Until heavy machinery arrives\x01",
+            "How much longer does it take?\x02",
         )
     )
 
@@ -1096,8 +1096,8 @@ def main():
     ChrTalk(
         0x11,
         (
-            "はい、３０分も待たずに\x01",
-            "到着する予定です。\x02",
+            "Yes, without waiting for 30 minutes\x01",
+            "I am planning to arrive.\x02",
         )
     )
 
@@ -1106,8 +1106,8 @@ def main():
     ChrTalk(
         0x12,
         (
-            "しかし、調査に時間をとって\x01",
-            "大丈夫なんでしょうか？\x02",
+            "However, taking time to investigate\x01",
+            "Is it okay?\x02",
         )
     )
 
@@ -1116,8 +1116,8 @@ def main():
     ChrTalk(
         0x12,
         (
-            "もし夕方までに片側線路を\x01",
-            "復旧できなかったら……\x02",
+            "If you want one side track by evening\x01",
+            "If recovery is not possible ……\x02",
         )
     )
 
@@ -1126,13 +1126,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02005Fできなかったら……？\x01",
-            "そんな心配は必要ないわ。\x02\x03",
-            "#02001Fどんな事をしてでも、\x01",
-            "必ずやらなければ\x01",
-            "ならないのだから。\x02\x03",
-            "#02003F……あなた達も、それは\x01",
-            "分かっているはずね？\x02",
+            "#02005FIf you can not … ….?\x01",
+            "I do not need such worries.\x02\x03",
+            "#02001FWhatever you do,\x01",
+            "If you do not do it\x01",
+            "Because it will not be.\x02\x03",
+            "#02003F… …. You too, it is\x01",
+            "You know what?\x02",
         )
     )
 
@@ -1140,13 +1140,13 @@ def main():
 
     ChrTalk(
         0x11,
-        "#5P#1Kハ、ハッ！！\x02",
+        "#5P#1KHa, Ha! It is!\x02",
     )
 
 
     ChrTalk(
         0x12,
-        "#6P#1Kハ、ハッ！！\x02",
+        "#6P#1KHa, Ha! It is!\x02",
     )
 
     OP_57(0x1)
@@ -1154,14 +1154,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F（相変わらずスパルタだぜ……）\x02",
+        "#00306F(As usual Sparta ……)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10102F（ソーニャ司令らしいです。）\x02",
+        "#10102F（Sonya Commandらしいです。）\x02",
     )
 
     CloseMessageWindow()
@@ -1169,10 +1169,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F（せっかくチャンスを\x01",
-            "  与えてもらったんだ……）\x02\x03",
-            "#00001F（なんとしても事故の原因を\x01",
-            "  突き止めないとな。）\x02",
+            "#00006F(Let's have a chance\x01",
+            "I got it given … …)\x02\x03",
+            "#00001F(Whatever the cause of the accident\x01",
+            "I have to keep track of it. )\x02",
         )
     )
 
@@ -1197,8 +1197,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うーん、あんまり近づくと\x01",
-            "危険そうだなあ……\x02",
+            "Well, getting closer to you\x01",
+            "It looks dangerous …\x02",
         )
     )
 
@@ -1207,8 +1207,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今はバランスを保ってるけど、\x01",
-            "何かの拍子に倒れたらどうしよう。\x02",
+            "Although I keep a balance now,\x01",
+            "What shall I do if I fall into time.\x02",
         )
     )
 
@@ -1227,8 +1227,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あーあー、ガラスやら何やらが\x01",
-            "散らばっちまってら……\x02",
+            "Oh, a glass or something\x01",
+            "It scatters … …\x02",
         )
     )
 
@@ -1237,9 +1237,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "線路の上に小石一つでもあると\x01",
-            "危ないんだ、夕方までに\x01",
-            "全部拾っておかないと。\x02",
+            "If you are a pebble on the track\x01",
+            "It is not dangerous, by evening\x01",
+            "I have to pick them all up.\x02",
         )
     )
 
@@ -1258,8 +1258,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "こんな両方の線路にかぶさるように\x01",
-            "脱線しちゃうなんてな……\x02",
+            "As covering both these tracks\x01",
+            "I do not want to derail … …\x02",
         )
     )
 
@@ -1268,8 +1268,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "乗っていた旅行客や帰省客たちも、\x01",
-            "さぞ恐ろしい思いをしただろうな。\x02",
+            "Travelers and returnees who were on board also,\x01",
+            "I guess I had a horrible feeling.\x02",
         )
     )
 
@@ -1295,8 +1295,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "重機は３０分と待たずに\x01",
-            "到着する予定です。\x02",
+            "Without waiting for heavy machinery to be 30 minutes\x01",
+            "I am planning to arrive.\x02",
         )
     )
 
@@ -1305,8 +1305,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "それまでに、少しずつでも\x01",
-            "作業を進めておかなければ。\x02",
+            "By then, little by little\x01",
+            "I have to work on it.\x02",
         )
     )
 
@@ -1335,8 +1335,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "調査は必要、だけど予定を\x01",
-            "遅らせる事はできない、か……\x02",
+            "Survey is necessary, but schedule\x01",
+            "Can not delay, or …\x02",
         )
     )
 
@@ -1345,9 +1345,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "まあ、仕方ないな。\x01",
-            "恐ろしく大変だろうけど、\x01",
-            "頑張ってみるしかないか。\x02",
+            "Well, it can not be helped.\x01",
+            "It will be frighteningly difficult,\x01",
+            "I have no choice but to try hard.\x02",
         )
     )
 
@@ -1369,9 +1369,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "連絡を受けた時は、\x01",
-            "ここまでの事故とは\x01",
-            "思いませんでしたよ。\x02",
+            "When you receive contact,\x01",
+            "What is the accident so far\x01",
+            "I did not think so.\x02",
         )
     )
 
@@ -1380,8 +1380,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "線路の補修に使う資材も\x01",
-            "相当な量が必要そうですね。\x02",
+            "Materials used for repairing the tracks are also\x01",
+            "You seem to need a considerable amount.\x02",
         )
     )
 
@@ -1400,8 +1400,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "線路が大きく\x01",
-            "千切れてしまっているな。\x02",
+            "The track is large\x01",
+            "I am out of 1000.\x02",
         )
     )
 
@@ -1410,8 +1410,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "このあたりから脱線が\x01",
-            "始まったんだろうか……\x02",
+            "Derail from this area\x01",
+            "I wonder if it started …\x02",
         )
     )
 
@@ -1447,7 +1447,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00100Fこの車両は機関車ね。\x02",
+        "#12P#00100FThis car is a locomotive.\x02",
     )
 
     CloseMessageWindow()
@@ -1455,11 +1455,11 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#12P#00203F導力列車の走行における\x01",
-            "最も重要な車両ですね。\x02\x03",
-            "#00200F内部にはラインフォルト社製の\x01",
-            "列車用オーバルエンジンと\x01",
-            "運転室があるはずです。\x02",
+            "#12P#00203FIn driving train\x01",
+            "It is the most important vehicle.\x02\x03",
+            "#00200FInside is made by Rhinefault\x01",
+            "Train oval engine and\x01",
+            "There should be a driver's cab.\x02",
         )
     )
 
@@ -1468,8 +1468,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10305Fふむ、それにしても\x01",
-            "なんだか違和感がないかい？\x02",
+            "#12P#10305FHmm, even so\x01",
+            "Does not it make sense of discomfort somehow?\x02",
         )
     )
 
@@ -1478,8 +1478,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00303Fああ、想像していたより\x01",
-            "だいぶ傷が少ねえ気がするな。\x02",
+            "#6P#00303FOh, than I imagined\x01",
+            "I do not feel like scratching a lot.\x02",
         )
     )
 
@@ -1488,9 +1488,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10105Fた、確かに……\x01",
-            "先頭車両なのにちょっと\x01",
-            "不自然な感じですね。\x02",
+            "#6P#10105FWell, indeed …\x01",
+            "Although it is the first car a bit\x01",
+            "It is unnatural feeling.\x02",
         )
     )
 
@@ -1499,11 +1499,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00001Fああ……\x01",
-            "正面から何かに衝突したなら\x01",
-            "ここまで綺麗じゃないはずだ。\x02\x03",
-            "#00008Fとなると、脱線の原因は\x01",
-            "他にありそうだけど……\x02",
+            "#12P#00001FAh……\x01",
+            "If you hit something from the front\x01",
+            "It should not be beautiful so far.\x02\x03",
+            "#00008FIf so, the cause of derailment is\x01",
+            "There seems to be other things ……\x02",
         )
     )
 
@@ -1532,10 +1532,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F正面から何かに衝突したなら\x01",
-            "ここまで綺麗じゃないはずだ。\x02\x03",
-            "#00008Fとなると、脱線の原因は\x01",
-            "他にあるはずだけど……\x02",
+            "#00003FIf you hit something from the front\x01",
+            "It should not be beautiful so far.\x02\x03",
+            "#00008FIf so, the cause of derailment is\x01",
+            "There should be other things … …\x02",
         )
     )
 
@@ -1574,7 +1574,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00005Fなんだ、これは……？\x02",
+        "#6P#00005FWhat is this …?\x02",
     )
 
     CloseMessageWindow()
@@ -1582,8 +1582,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10105F落石の可能性がありましたが、\x01",
-            "もしかしてここに衝突を……？\x02",
+            "#6P#10105FThere was a possibility of falling rocks,\x01",
+            "Maybe a conflict here …?\x02",
         )
     )
 
@@ -1592,8 +1592,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#6P#00203F球状の凹みを見る限り\x01",
-            "可能性はありそうですが……\x02",
+            "#6P#00203FAs far as spherical dents are concerned\x01",
+            "It seems likely, but …\x02",
         )
     )
 
@@ -1602,9 +1602,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00301Fうーむ……だったら\x01",
-            "凹んだ部分の真ん中にある\x01",
-            "爪痕みたいな傷はなんなんだ？\x02",
+            "#6P#00301FWell …\x01",
+            "It is in the middle of the recessed part\x01",
+            "What is a wound like scratch?\x02",
         )
     )
 
@@ -1613,9 +1613,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10300Fそれに、よく考えると\x01",
-            "随分高い位置についてる\x01",
-            "みたいだしね。\x02",
+            "#6P#10300FBesides, when thinking carefully\x01",
+            "It keeps a lot higher position\x01",
+            "It looks like it.\x02",
         )
     )
 
@@ -1624,8 +1624,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00108Fうーん……単なる落石じゃ\x01",
-            "こんな傷はつかないわよね。\x02",
+            "#6P#00108FWell … … It's just a falling rock\x01",
+            "I can not get such a bruise.\x02",
         )
     )
 
@@ -1633,7 +1633,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00003F一体何が衝突したんだろう……？\x02",
+        "#6P#00003FWhat on earth would have collided …?\x02",
     )
 
     CloseMessageWindow()
@@ -1661,8 +1661,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108Fうーん……単なる落石じゃ\x01",
-            "こんな傷はつかないわよね。\x02",
+            "#00108FWell … … It's just a falling rock\x01",
+            "I can not get such a bruise.\x02",
         )
     )
 
@@ -1670,7 +1670,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F一体何が衝突したんだろう……？\x02",
+        "#00003FWhat on earth would have collided …?\x02",
     )
 
     CloseMessageWindow()
@@ -1791,9 +1791,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00005Fこの岩壁の傷……\x01",
-            "ずいぶん大きくついてるな。\x02\x03",
-            "#00001F一面が抉れたようになってる。\x02",
+            "#12P#00005FThe scars of this rock wall …\x01",
+            "Do not hold it long enough.\x02\x03",
+            "#00001FIt seems that one side has been hollowed out.\x02",
         )
     )
 
@@ -1802,8 +1802,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00105F地面にも抉れた跡が残ってるわね。\x01",
-            "左側に脱線したということかしら……\x02",
+            "#6P#00105FThere are marks that have also been scooped on the ground.\x01",
+            "I wonder if I derailed to the left … …\x02",
         )
     )
 
@@ -1812,8 +1812,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10305Fところで、岩壁についている\x01",
-            "この青っぽい色はなんだろうね？\x02",
+            "#6P#10305FBy the way, about the rock wall\x01",
+            "What is this bluish color, is not it?\x02",
         )
     )
 
@@ -1822,8 +1822,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#6P#00200Fどうやら、何らかの塗料が\x01",
-            "付着しているみたいですが……\x02",
+            "#6P#00200FApparently, some paint\x01",
+            "It seems that it is attached … …\x02",
         )
     )
 
@@ -1902,12 +1902,12 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#N#10100F#12P列車を見る限り……\x01",
-            "車体に使われている\x01",
-            "青色の塗料みたいです。\x02\x03",
-            "#10103F列車と岩壁が接触して、\x01",
-            "そのまま少しの間走行した……\x01",
-            "その証拠にはなりそうですね。\x02",
+            "#N#10100F#12PAs far as seeing the train ……\x01",
+            "It is used for the car body\x01",
+            "It looks like a blue paint.\x02\x03",
+            "#10103FThe train and the rocky wall are in contact,\x01",
+            "I ran as it was for a while …\x01",
+            "It is likely to prove that.\x02",
         )
     )
 
@@ -1916,9 +1916,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00301Fああ、だが……\x01",
-            "ここまで長く引き摺った様な\x01",
-            "傷がつくもんなのか？\x02",
+            "#6P#00301FOh, but … ….\x01",
+            "Like a long dragged like this\x01",
+            "Is it a scratch?\x02",
         )
     )
 
@@ -1927,9 +1927,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#N#6P#00003Fどんな状況だったら\x01",
-            "こんな傷がつくか、改めて\x01",
-            "考える必要がありそうだな。\x02",
+            "#N#6P#00003FIn what situation\x01",
+            "Whether such a scratch will occur, again\x01",
+            "It seems necessary to think.\x02",
         )
     )
 
@@ -1944,12 +1944,12 @@ def main():
         0x109,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#10100F列車を見る限り……\x01",
-            "車体に使われている\x01",
-            "青色の塗料みたいです。\x02\x03",
-            "#10103F列車と岩壁が接触して、\x01",
-            "そのまま少しの間走行した……\x01",
-            "その証拠にはなりそうですね。\x02",
+            "#10100FAs far as seeing the train ……\x01",
+            "It is used for the car body\x01",
+            "It looks like a blue paint.\x02\x03",
+            "#10103FThe train and the rocky wall are in contact,\x01",
+            "I ran as it was for a while …\x01",
+            "It is likely to prove that.\x02",
         )
     )
 
@@ -1960,9 +1960,9 @@ def main():
         0x104,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00301Fああ、だが……\x01",
-            "ここまで長く引き摺った様な\x01",
-            "傷がつくもんなのか？\x02",
+            "#00301FOh, but … ….\x01",
+            "Like a long dragged like this\x01",
+            "Is it a scratch?\x02",
         )
     )
 
@@ -1972,9 +1972,9 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00003Fどんな状況だったら\x01",
-            "こんな傷がつくか、改めて\x01",
-            "考える必要がありそうだな。\x02",
+            "#00003FIn what situation\x01",
+            "Whether such a scratch will occur, again\x01",
+            "It seems necessary to think.\x02",
         )
     )
 
@@ -2049,9 +2049,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10100F岩壁の傷跡に付着した塗料……\x01",
-            "状況から考えて列車のものと\x01",
-            "断定していいと思います。\x02",
+            "#10100FPaints adhering to scars of the rock wall ……\x01",
+            "Thinking from the situation and those of the train\x01",
+            "I think you can declare it.\x02",
         )
     )
 
@@ -2060,9 +2060,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fどんな状況だったら\x01",
-            "こんな傷がつくか、改めて\x01",
-            "考える必要がありそうだな。\x02",
+            "#00000FIn what situation\x01",
+            "Whether such a scratch will occur, again\x01",
+            "It seems necessary to think.\x02",
         )
     )
 
@@ -2158,14 +2158,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#12P……！\x02",
+        "#00013F#12P……!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10107F#6Pこ、これは……\x02",
+        "#10107F#6PTh-This is……\x02",
     )
 
     CloseMessageWindow()
@@ -2204,9 +2204,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#02103F#6Pいや〜、大変な事故が\x01",
-            "起こってしまいましたね！\x02\x03",
-            "#02101Fズバリ、脱線事故の原因は！？\x02",
+            "#02103F#6PNo, very serious accident\x01",
+            "It has happened!\x02\x03",
+            "#02101FWhat is the cause of the derailment accident? Is it?\x02",
         )
     )
 
@@ -2214,7 +2214,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5P見ての通り、現在調査中だ。\x02",
+        "#5PAs you can see, it is under investigation.\x02",
     )
 
     CloseMessageWindow()
@@ -2222,8 +2222,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5P考えられるとしたら線路への落石で\x01",
-            "先頭車両が脱線したってトコだろ。\x02",
+            "#5PIf it can be considered, it falls to the track\x01",
+            "It is tough that the leading car has derailed.\x02",
         )
     )
 
@@ -2232,10 +2232,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02003F#11P申し訳ないけど、ここから先は\x01",
-            "マスコミにはお引取り願いするわ。\x02\x03",
-            "#02000Fすぐに復旧作業に\x01",
-            "取り掛かる必要がありますから。\x02",
+            "#02003F#11PI am sorry, but from here\x01",
+            "Please take over on the mass communication.\x02\x03",
+            "#02000FImmediate recovery work\x01",
+            "I need to get started.\x02",
         )
     )
 
@@ -2250,14 +2250,14 @@ def main():
 
     ChrTalk(
         0xA,
-        "#02105F#6Pええっ！？\x02",
+        "#02105F#6PWhat! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#5P司令、それは……\x02",
+        "#5PCommander, that … …\x02",
     )
 
     CloseMessageWindow()
@@ -2267,15 +2267,15 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02006F#12P警察として、現場検証を\x01",
-            "優先したいお気持ちは分かります。\x02\x03",
-            "#02001Fですがこの横断鉄道は\x01",
-            "ゼムリア大陸における大動脈……\x02\x03",
-            "既に鉄道公社、帝国・共和国方面、\x01",
-            "更にはディーター市長からも\x01",
-            "大至急の復旧が要請されています。\x02\x03",
-            "我々警備隊としては\x01",
-            "その要請に応えなくてはなりません。\x02",
+            "#02006F#12PAs a police, on-site verification\x01",
+            "I understand your desire to give priority.\x02\x03",
+            "#02001FBut this transit railroad\x01",
+            "The aorta in the continental …\x02\x03",
+            "Already the railroad corporation, the direction of the Imperial Republic,\x01",
+            "Also from Mayor Dieter\x01",
+            "Restoration of urgent urgent is requested.\x02\x03",
+            "As we are the guards\x01",
+            "We must respond to that request.\x02",
         )
     )
 
@@ -2283,7 +2283,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5Pいや、理屈は判りますがね……\x02",
+        "#5PNo, I do understand the reasoning … …\x02",
     )
 
     CloseMessageWindow()
@@ -2291,8 +2291,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#02101F#6Pでも、事故の原因が判らないと\x01",
-            "再発の恐れがあるんじゃ……？\x02",
+            "#02101F#6PBut if you do not know the cause of the accident\x01",
+            "There is a fear of recurrence … …?\x02",
         )
     )
 
@@ -2303,11 +2303,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02003F#11Pそれに関しては、\x01",
-            "復旧と並行するしかないでしょう。\x02\x03",
-            "#02001Fとにかく遅くとも、夕方までには\x01",
-            "片側の路線を空ける必要があります。\x02\x03",
-            "手配した重機が到着する前に──\x02",
+            "#02003F#11PRegarding that,\x01",
+            "It will only be parallel with recovery.\x02\x03",
+            "#02001FAnyway at the latest, by evening\x01",
+            "It is necessary to empty one side route.\x02\x03",
+            "Before the arranged heavy equipment arrived ──\x02",
         )
     )
 
@@ -2315,7 +2315,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5P待ってください！\x02",
+        "#00011F#5Pplease wait!\x02",
     )
 
     CloseMessageWindow()
@@ -2407,21 +2407,21 @@ def main():
 
     ChrTalk(
         0x8,
-        "#02005F#11Pあなた達……\x02",
+        "#02005F#11PYou guys……\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xA,
-        "#02105F#5Pあら、ロイド君たち！？\x02",
+        "#02105F#5POh, Lloyd's guys! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#5Pおお、来たのかよ。\x02",
+        "#5POh, have you come?\x02",
     )
 
     CloseMessageWindow()
@@ -2429,9 +2429,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10106F#12Pあの、司令……\x02\x03",
-            "#10113F現場検証もしないで\x01",
-            "復旧作業に入るんですか？\x02",
+            "#10106F#12PUmm … command …\x02\x03",
+            "#10113FDo not do on-site verification\x01",
+            "Are you going into restoration work?\x02",
         )
     )
 
@@ -2440,12 +2440,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02006F#11Pあなたも警備隊の所属ならば\x01",
-            "この路線の重要性は判るでしょう。\x02\x03",
-            "#02001Fそれに言いたくはないけれど……\x02\x03",
-            "復旧が遅れれば、\x01",
-            "それだけで帝国と共和国の横槍を\x01",
-            "招くことに繋がりかねないわ。\x02",
+            "#02006F#11PIf you belong to a guard as well\x01",
+            "You will understand the importance of this route.\x02\x03",
+            "#02001FI do not want to say to that … but …\x02\x03",
+            "If recovery is delayed,\x01",
+            "Just by that side of the Empire and Republic\x01",
+            "It could lead to invitation.\x02",
         )
     )
 
@@ -2470,14 +2470,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10111F#12Pそ、それは……\x02",
+        "#10111F#12PWell, that is ……\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00106F#6P……十分に考えられますね。\x02",
+        "#00106F#6P…… I think enough.\x02",
     )
 
     CloseMessageWindow()
@@ -2485,8 +2485,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5Pふう、それを言われますと\x01",
-            "こちらも強くは出れませんなぁ。\x02",
+            "#5PWell, as it is said\x01",
+            "I can not get out too strongly.\x02",
         )
     )
 
@@ -2495,8 +2495,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#02106F#5Pうーん、でもこちらには\x01",
-            "真実を追究するという使命が……\x02",
+            "#02106F#5PWell, but here\x01",
+            "The mission is to pursue the truth … …\x02",
         )
     )
 
@@ -2508,9 +2508,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#6P──ソーニャ司令。\x02\x03",
-            "#00001F３０分、いえ重機が来るまで\x01",
-            "俺たちに時間をもらえませんか。\x02",
+            "#00003F#6P──Sonya Command。\x02\x03",
+            "#00001F30 minutes, until the heavy machine came\x01",
+            "Will not we have the time?\x02",
         )
     )
 
@@ -2520,7 +2520,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#02005F#11Pあなた達に……？\x02",
+        "#02005F#11PTo you … ….?\x02",
     )
 
     CloseMessageWindow()
@@ -2528,12 +2528,12 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6Pええ、現在のクロスベルで\x01",
-            "今回の事故が起こったこと……\x02\x03",
-            "#00001F自分にはとても、\x01",
-            "単なる偶然とは思えません。\x02\x03",
-            "本当に“必然性”は無いのか\x01",
-            "見極めるべきではないでしょうか？\x02",
+            "#00006F#6PYeah, with the current crossbell\x01",
+            "What this accident happened …\x02\x03",
+            "#00001FVery much to myself,\x01",
+            "I do not think it is mere coincidence.\x02\x03",
+            "Is it really \"inevitability\"?\x01",
+            "Should not you figure out?\x02",
         )
     )
 
@@ -2549,8 +2549,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00201F#6P例の《幻獣》による\x01",
-            "被害の可能性もありますし……\x02",
+            "#00201F#6PBy the example \"eidolon\"\x01",
+            "There is also the possibility of damage … ….\x02",
         )
     )
 
@@ -2559,8 +2559,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00300F#6Pま、気休め程度に任せてくれても\x01",
-            "いいんじゃないッスか？\x02",
+            "#00300F#6PWell, even if you let me relax\x01",
+            "Is not it something you want?\x02",
         )
     )
 
@@ -2572,8 +2572,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02006F#11P……そうね、私としたことが\x01",
-            "少しばかり焦っていたようだわ。\x02",
+            "#02006F#11P… Well, what you have done with me\x01",
+            "It seems that he was a little impatient.\x02",
         )
     )
 
@@ -2583,10 +2583,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02002F#12P──ドノバン警部。\x01",
-            "まずは現場検証を優先しましょう。\x02\x03",
-            "代わりに復旧作業が始まれば\x01",
-            "そちらに集中させていただきます。\x02",
+            "#02002F#12P──Donovan。\x01",
+            "Let's give priority to on-site verification first.\x02\x03",
+            "If the restoration work starts instead\x01",
+            "I will focus on that.\x02",
         )
     )
 
@@ -2594,7 +2594,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5Pええ、こちらも異存ありません。\x02",
+        "#5PYes, there is no objection here either.\x02",
     )
 
     CloseMessageWindow()
@@ -2603,8 +2603,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#02109F#6Pあのー、できれば\x01",
-            "あたしたちの取材も……\x02",
+            "#02109F#6PUm, I hope.\x01",
+            "We also interviewed … …\x02",
         )
     )
 
@@ -2614,10 +2614,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02003F#11P復旧作業が始まるまでは\x01",
-            "どうぞご自由に。\x02\x03",
-            "#02000Fただし……\x01",
-            "現場検証の邪魔はしないように。\x02",
+            "#02003F#11PUntil restoration work begins\x01",
+            "Please feel free.\x02\x03",
+            "#02000FHowever, …\x01",
+            "Do not disturb the site verification.\x02",
         )
     )
 
@@ -2625,7 +2625,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#02110F#6Pええ、それは勿論！\x02",
+        "#02110F#6PYeah, that's obvious!\x02",
     )
 
     CloseMessageWindow()
@@ -2633,8 +2633,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F#6P警部、自分たちの方も\x01",
-            "現場検証に入らせてもらっても？\x02",
+            "#00001F#6PMr. Guard, our own\x01",
+            "Even if you go into on-site verification?\x02",
         )
     )
 
@@ -2658,7 +2658,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5Pおお、手分けするとしよう。\x02",
+        "#5POh, let's try it out.\x02",
     )
 
     CloseMessageWindow()
@@ -2666,8 +2666,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5Pそうそう、向こうの方に\x01",
-            "列車に乗っていた車掌が休んでいる。\x02",
+            "#5POh yeah, to the other side\x01",
+            "列車に乗っていたconductorが休んでいる。\x02",
         )
     )
 
@@ -2676,8 +2676,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5P運転士は病院に運ばれちまったが\x01",
-            "そいつから事故当時の話は聞けるだろ。\x02",
+            "#5PThe driver was brought to the hospital\x01",
+            "You can hear the story at the time of the accident from him.\x02",
         )
     )
 
@@ -2685,14 +2685,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F#6P了解しました。\x02",
+        "#00003F#6POK.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10302F#12Pそれじゃあ捜査開始だね。\x02",
+        "#10302F#12PWell then it's time to start investigating.\x02",
     )
 
     CloseMessageWindow()
@@ -2755,8 +2755,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F……よし、これで大体、\x01",
-            "必要な情報は集まったな。\x02",
+            "#00003FOkay, in general,\x01",
+            "We gathered the necessary information.\x02",
         )
     )
 
@@ -2817,14 +2817,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105Fえ、もうですか！？\x02",
+        "#10105FOh, are you already! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00202F……さすがロイドさん。\x02",
+        "#00202F…… As expected Lloyd.\x02",
     )
 
     CloseMessageWindow()
@@ -2832,8 +2832,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F俺なんざ、アテが外れて\x01",
-            "訳が判らなくなったんだが……\x02",
+            "#00306FI, ah, out of attitude\x01",
+            "I did not understand the translation … …\x02",
         )
     )
 
@@ -2842,8 +2842,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10302F僕の方も幾つか\x01",
-            "気付いたことがあるかな。\x02",
+            "#10302FSome of me also\x01",
+            "I wonder if I have noticed it.\x02",
         )
     )
 
@@ -2852,8 +2852,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00101Fどうする？\x01",
-            "早速、情報を検討してみる？\x02",
+            "#00101Fwhat will you do?\x01",
+            "Would you like to review the information immediately?\x02",
         )
     )
 
@@ -2862,8 +2862,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fああ……\x01",
-            "司令や警部たちも呼ぼう。\x02",
+            "#00000FAh……\x01",
+            "Let's call commanders and police.\x02",
         )
     )
 
@@ -2935,8 +2935,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02001F#11Pさてと……\x01",
-            "何か判明した事はあるかしら？\x02",
+            "#02001F#11PWell ……\x01",
+            "I wonder if there is anything found out?\x02",
         )
     )
 
@@ -2945,10 +2945,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6Pええ、まず最初に落石などが\x01",
-            "線路に落ちた可能性ですが……\x02\x03",
-            "#00001Fそれは真っ先に否定できると\x01",
-            "言ってもいいと思います。\x02",
+            "#00006F#6PYeah, first, falling rocks etc.\x01",
+            "It is a possibility that it fell to the railroad track … …\x02\x03",
+            "#00001FIt can be denied first\x01",
+            "I think that I can say.\x02",
         )
     )
 
@@ -2956,7 +2956,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#11Pそ、そりゃまたどうして？\x02",
+        "#11PWell, why then?\x02",
     )
 
     CloseMessageWindow()
@@ -2964,8 +2964,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5Pつまり、それを裏付ける\x01",
-            "証拠があるってんだな？\x02",
+            "#5PThat is to support it\x01",
+            "You have evidence?\x02",
         )
     )
 
@@ -2973,7 +2973,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6Pはい、それは──\x02",
+        "#00000F#6PYes, it is -\x02",
     )
 
     CloseMessageWindow()
@@ -2988,7 +2988,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1K落石を否定できる根拠は？\x07\x00\x02",
+            "#1KWhat is the basis for denying falling rocks?\x07\x00\x02",
         )
     )
 
@@ -2999,9 +2999,9 @@ def main():
         -1,
         0,
         (
-            "車掌が聞いた運転士の叫び\x01",          # 0
-            "機関車先端の傷の少なさ\x01",            # 1
-            "機関車の右側の大きく凹んだ跡\x01",      # 2
+            "conductorが聞いた運転士の叫び\x01",          # 0
+            "Lack of scratches at the tip of the locomotive\x01",            # 1
+            "Large recessed trace on the right side of the locomotive\x01",      # 2
         )
     )
 
@@ -3025,10 +3025,10 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10306F#6P──いや、それ自体は\x01",
-            "落石の反証にならないんじゃない？\x02\x03",
-            "#10301F進行方向に突然、落石が落ちて\x01",
-            "悲鳴を上げた可能性もあるしね。\x02",
+            "#10306F#6P─ ─ No, in itself\x01",
+            "Is not it a falsification of falling rocks?\x02\x03",
+            "#10301FSuddenly falling rock falls in the direction of travel\x01",
+            "There is also a possibility of screaming.\x02",
         )
     )
 
@@ -3037,9 +3037,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00008F#5Pそうか……確かに。\x02\x03",
-            "#00013F……となると、やっぱり\x01",
-            "機関車先端の傷の少なさだな。\x02",
+            "#00008F#5PThat's right … indeed.\x02\x03",
+            "#00013F… and so on, after all\x01",
+            "There is little scratches at the tip of the locomotive.\x02",
         )
     )
 
@@ -3047,7 +3047,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10302F#6Pああ、僕もそう思うよ。\x02",
+        "#10302F#6POh, I think so too.\x02",
     )
 
     CloseMessageWindow()
@@ -3060,10 +3060,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#6P色々、怪しげな証拠は\x01",
-            "見つかっていますが……\x02\x03",
-            "#00013F決定的なのは、機関車先端の\x01",
-            "傷の少なさだと思います。\x02",
+            "#00003F#6PVarious, dubious evidence\x01",
+            "I have been found … ….\x02\x03",
+            "#00013FWhat is decisive is that the\x01",
+            "I think that it is less scratch.\x02",
         )
     )
 
@@ -3077,11 +3077,11 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10306F#6P──いや、確かにそれは\x01",
-            "重要な手がかりかもしれないけど\x01",
-            "落石の反証にならないんじゃない？\x02\x03",
-            "#10300F右側の崖から落石が転がり落ちて\x01",
-            "ぶつかった可能性だってあるんだし。\x02",
+            "#10306F#6P─ ─ No, indeed it is\x01",
+            "It may be an important clue\x01",
+            "Is not it a falsification of falling rocks?\x02\x03",
+            "#10300FA falling rock falls from the cliff on the right side\x01",
+            "There is also the possibility of bumping.\x02",
         )
     )
 
@@ -3090,9 +3090,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00008F#5Pそうか……確かに。\x02\x03",
-            "#00013F……となると、やっぱり\x01",
-            "機関車先端の傷の少なさだな。\x02",
+            "#00008F#5PThat's right … indeed.\x02\x03",
+            "#00013F… and so on, after all\x01",
+            "There is little scratches at the tip of the locomotive.\x02",
         )
     )
 
@@ -3100,7 +3100,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10302F#6Pああ、僕もそう思うよ。\x02",
+        "#10302F#6POh, I think so too.\x02",
     )
 
     CloseMessageWindow()
@@ -3111,7 +3111,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#02005F#11Pどういう事かしら？\x02",
+        "#02005F#11PWhat is it?\x02",
     )
 
     CloseMessageWindow()
@@ -3119,8 +3119,8 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#07901F#11P確かに、機関車の先端には\x01",
-            "特に傷が無かったけど……\x02",
+            "#07901F#11PCertainly, at the tip of the locomotive\x01",
+            "Especially there were no scratches … …\x02",
         )
     )
 
@@ -3133,14 +3133,14 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00003F普通、落石で脱線する場合、\x01",
-            "線路上に落ちた岩が先頭車両と\x01",
-            "ぶつかった場合だと思います。\x02\x03",
-            "その結果、スピードに乗った\x01",
-            "巨大な質量がバランスを崩し、\x01",
-            "線路から外れて脱線する……\x02\x03",
-            "#00001Fそれ以外に、ここまで派手に\x01",
-            "脱線する事は考えにくい筈です。\x02",
+            "#00003FUsually, when derailing with falling rocks,\x01",
+            "The rock that fell on the railway is the top car\x01",
+            "I think that it is a case of collision.\x02\x03",
+            "As a result, I got on speed\x01",
+            "Huge mass breaks the balance,\x01",
+            "Get off the track and derail … …\x02\x03",
+            "#00001FApart from that, so far\x01",
+            "Derailing should be difficult to think.\x02",
         )
     )
 
@@ -3153,7 +3153,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#02101F#12Pおお、なるほど……！\x02",
+        "#02101F#12POh, I see! …!\x02",
     )
 
     CloseMessageWindow()
@@ -3161,8 +3161,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5Pなのに機関車の先端には\x01",
-            "傷らしい傷が見当たらない。\x02",
+            "#5PNevertheless at the tip of the locomotive\x01",
+            "I can not find a scratchy scar.\x02",
         )
     )
 
@@ -3171,8 +3171,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5P一番ありそうな可能性が\x01",
-            "真っ先に消えたってわけか！\x02",
+            "#5PThe most likely possibility\x01",
+            "Is it because it disappears first!\x02",
         )
     )
 
@@ -3181,10 +3181,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02006F#11P……成程。\x01",
-            "確かに見過ごせない事実ね。\x02\x03",
-            "#02001Fそれじゃあ、他に考えられる\x01",
-            "脱線の可能性はあるのかしら？\x02",
+            "#02006F#11P… … process.\x01",
+            "It certainly can not be overlooked.\x02\x03",
+            "#02001FThen, other thoughts\x01",
+            "Is there a possibility of derailment?\x02",
         )
     )
 
@@ -3193,9 +3193,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00008F#6Pはい……\x01",
-            "最初は、何らかの爆発物が\x01",
-            "使われたかと思ったんですが。\x02",
+            "#00008F#6PYes……\x01",
+            "At first, some explosives\x01",
+            "I thought that it was used.\x02",
         )
     )
 
@@ -3222,7 +3222,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#5Pそ、それって！？\x02",
+        "#00101F#5PWell, that's it! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -3230,8 +3230,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10107F#6P何らかの武装集団が\x01",
-            "テロ工作をしたとか……！？\x02",
+            "#10107F#6PSome armed group\x01",
+            "They said they had terrorism work … …! Is it?\x02",
         )
     )
 
@@ -3240,11 +3240,11 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F#6P──いや、その可能性は\x01",
-            "俺も真っ先に思い当たってな。\x02\x03",
-            "#00301F一通り見渡してみたんだが\x01",
-            "どうやら爆発物が\x01",
-            "使われた形跡は全くねぇな。\x02",
+            "#00303F#6P─ ─ No, the possibilities are\x01",
+            "I thought first of all.\x02\x03",
+            "#00301FI tried overlooking the whole street\x01",
+            "Apparently explosives\x01",
+            "There was no evidence that it was used.\x02",
         )
     )
 
@@ -3253,8 +3253,8 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#07906F#11Pそうね、今のところ\x01",
-            "こちらも見つけていないわ。\x02",
+            "#07906F#11PWell, for now\x01",
+            "I have not found it either.\x02",
         )
     )
 
@@ -3263,10 +3263,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#6Pそうなると\x01",
-            "他に考えられるとしたら……\x02\x03",
-            "#00013F“何か”に機関車の右側から\x01",
-            "体当たりされた可能性でしょう。\x02",
+            "#00003F#6PIn that case\x01",
+            "If it can be thought of elsewhere ……\x02\x03",
+            "#00013FTo \"something\" from the right side of the locomotive\x01",
+            "It probably was hurt.\x02",
         )
     )
 
@@ -3299,7 +3299,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5Pな、なにぃ！？\x02",
+        "#5PWhat? Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -3307,8 +3307,8 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#11Pた、体当たりって、\x01",
-            "そんなムチャクチャな……！\x02",
+            "#11PHowever,\x01",
+            "Such a muffler …!\x02",
         )
     )
 
@@ -3317,8 +3317,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#02105F#12P車のレースのデッドヒートなら\x01",
-            "そういう事はありそうだけど……\x02",
+            "#02105F#12PIf it is a car race dead heat\x01",
+            "There seems to be such a thing ……\x02",
         )
     )
 
@@ -3329,9 +3329,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#12Pなるほど……\x02\x03",
-            "#00201F機関車の右側にあった\x01",
-            "大きく凹んだ部分ですね。\x02",
+            "#00203F#12PI see……\x02\x03",
+            "#00201FIt was on the right side of the locomotive\x01",
+            "It is a dented part.\x02",
         )
     )
 
@@ -3340,8 +3340,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00008F#5Pああ、多分こういう事が\x01",
-            "起きたんじゃないかと思う。\x02",
+            "#00008F#5POh, maybe this kind of thing\x01",
+            "I guess it happened.\x02",
         )
     )
 
@@ -3354,10 +3354,10 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00003Fその“何か”は、走行中の列車の\x01",
-            "機関車の真横に降り立った。\x02\x03",
-            "#00001F運転士さんが上げた叫び声というのは\x01",
-            "多分、その時のものだろう。\x02",
+            "#00003FThat \"something\" is the train\x01",
+            "I got off to the side of the locomotive.\x02\x03",
+            "#00001FThe screams the driver offered raised\x01",
+            "Perhaps, it will be at that time.\x02",
         )
     )
 
@@ -3372,10 +3372,10 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00008F“何か”はそのまま併走しながら\x01",
-            "機関車の右側から体当たりをして……\x02\x03",
-            "横からのベクトルを加えられた\x01",
-            "機関車は左側に脱線してしまう。\x02",
+            "#00008F\"Something\" is running as it is\x01",
+            "Hit the body from the right side of the locomotive … …\x02\x03",
+            "Vector from the side was added\x01",
+            "The locomotive will derail on the left side.\x02",
         )
     )
 
@@ -3393,12 +3393,12 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00013Fそして“何か”は機関車を\x01",
-            "左の岩壁に押し続けて……\x02\x03",
-            "長い傷跡を岩壁に残した挙句に\x01",
-            "ようやく停車させた。\x02\x03",
-            "#00003Fそして後続の客車はこんな風に\x01",
-            "バラバラな形で脱線する事になった。\x02",
+            "#00013FAnd \"something\" locomotives\x01",
+            "Continue to press on the rock wall on the left … …\x02\x03",
+            "In a leave behind a long scar on the rock wall\x01",
+            "I finally stopped.\x02\x03",
+            "#00003FAnd the following passenger is like this\x01",
+            "It was to derail in disjointed form.\x02",
         )
     )
 
@@ -3434,8 +3434,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F#6P……とりあえずこれが\x01",
-            "現時点での仮説なんですが。\x02",
+            "#00000F#6P…… for the time being\x01",
+            "It is a hypothesis at the moment.\x02",
         )
     )
 
@@ -3443,14 +3443,14 @@ def main():
 
     ChrTalk(
         0xC,
-        "#11Pはあああっ……！\x02",
+        "#11PHa ha ha … …!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xB,
-        "#07902F#11P……見事だわ。\x02",
+        "#07902F#11P…… It's awesome.\x02",
     )
 
     CloseMessageWindow()
@@ -3458,8 +3458,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5Pいやはや、推理にかけちゃ、\x01",
-            "兄貴を越えたんじゃねえか？\x02",
+            "#5PNo, I got to reasoning,\x01",
+            "You broke your brother, did not you?\x02",
         )
     )
 
@@ -3468,9 +3468,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#02104F#12P確かに……\x01",
-            "ガイさんはもっと直感で\x01",
-            "捜査するタイプでしたもんね。\x02",
+            "#02104F#12Psurely……\x01",
+            "Gai is more intuitive\x01",
+            "It was a type to investigate.\x02",
         )
     )
 
@@ -3478,7 +3478,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00309F#6Pおいおい、大好評じゃねえか。\x02",
+        "#00309F#6PHey hey, is not it very popular?\x02",
     )
 
     CloseMessageWindow()
@@ -3486,8 +3486,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00109F#5Pふふっ……\x01",
-            "何だか誇らしいわね。\x02",
+            "#00109F#5PHehu ……\x01",
+            "It is sort of proud.\x02",
         )
     )
 
@@ -3496,8 +3496,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10302F#6Pやれやれ、僕もそこまでは\x01",
-            "まとめ切れなかったかな。\x02",
+            "#10302F#6PWhew, I too\x01",
+            "I wonder if I could not summarize it.\x02",
         )
     )
 
@@ -3506,11 +3506,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02004F#11Pふふ、大したものね。\x02\x03",
-            "#02001F──それでロイド君。\x02\x03",
-            "そこまでした“何か”というのは\x01",
-            "やはり魔獣なのかしら？\x02\x03",
-            "それも最近現れた《幻獣》とか？\x02",
+            "#02004F#11PHehe, it's a big deal.\x02\x03",
+            "#02001F── That's why Lloyd.\x02\x03",
+            "What I said was \"something\"\x01",
+            "Is it still a monster?\x02\x03",
+            "Is it \"a phantom beast\" that appeared recently?\x02",
         )
     )
 
@@ -3518,7 +3518,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#6Pそうですね……\x02",
+        "#00008F#6PI agree……\x02",
     )
 
     CloseMessageWindow()
@@ -3533,7 +3533,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1K事故を起こした“何か”とは？\x07\x00\x02",
+            "#1KWhat is \"something\" that caused the accident?\x07\x00\x02",
         )
     )
 
@@ -3544,8 +3544,8 @@ def main():
         -1,
         0,
         (
-            "《幻獣》の可能性が高い\x01",      # 0
-            "まだ断言はできない\x01",          # 1
+            "Possibility of \"Phantom beast\" is high\x01",      # 0
+            "I can not yet affirm\x01",          # 1
         )
     )
 
@@ -3571,11 +3571,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6Pええ、走行する列車を\x01",
-            "脱線させることが出来るほどの\x01",
-            "力の持ち主です。\x02\x03",
-            "#00001F大型の幻獣と考えるのが\x01",
-            "一番自然だと思います。\x02",
+            "#00006F#6PYeah, traveling train\x01",
+            "It is enough to be derailed\x01",
+            "He is the owner of power.\x02\x03",
+            "#00001FThink of it as a big eid beast\x01",
+            "I think that it is the most natural.\x02",
         )
     )
 
@@ -3584,9 +3584,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00205F#12Pですが、ロイドさん。\x02\x03",
-            "#00200F幻獣が出現した割には\x01",
-            "上位属性の気配は感じませんが……\x02",
+            "#00205F#12PBut, Mr. Lloyd.\x02\x03",
+            "#00200FTo the extent that a phantom beast appeared\x01",
+            "I do not feel the sign of the superordinate attribute, but …\x02",
         )
     )
 
@@ -3594,7 +3594,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5Pそうか、それがあったか……\x02",
+        "#00011F#5PI see, it was there ……\x02",
     )
 
     CloseMessageWindow()
@@ -3602,9 +3602,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02006F#11P……ふむ、昨日の報告にあった\x01",
-            "《蒼い花》も咲いてなさそうだし……\x02\x03",
-            "#02008Fそれでは一体、どんな存在が？\x02",
+            "#02006F#11P…… Hmm, I was in a report yesterday.\x01",
+            "\"Blue flower\" does not seem to bloom … …\x02\x03",
+            "#02008FSo what the hell is there?\x02",
         )
     )
 
@@ -3618,11 +3618,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6P確かに、走行する列車を\x01",
-            "脱線させることが出来るほどの\x01",
-            "力の持ち主です。\x02\x03",
-            "#00008F大型の幻獣と考えるのが\x01",
-            "自然だとは思いますが……\x02",
+            "#00006F#6PCertainly, the train to travel\x01",
+            "It is enough to be derailed\x01",
+            "He is the owner of power.\x02\x03",
+            "#00008FThink of it as a big eid beast\x01",
+            "I think that it is nature … …\x02",
         )
     )
 
@@ -3631,8 +3631,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#12Pですが、幻獣が出現した割には\x01",
-            "上位属性の気配は感じません……\x02",
+            "#00203F#12PBut, despite the appearance of a phantom beast\x01",
+            "I do not feel the sign of the superordinate attribute ……\x02",
         )
     )
 
@@ -3641,8 +3641,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10308F#6Pあの《蒼い花》も\x01",
-            "ここらには咲いてなさそうだよね。\x02",
+            "#10308F#6PThat \"blue flower\" also\x01",
+            "It looks like they are not blooming here.\x02",
         )
     )
 
@@ -3651,8 +3651,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02006F#11P確かにそうね……\x02\x03",
-            "#02008Fそれでは一体、どんな存在が？\x02",
+            "#02006F#11PThat's true …\x02\x03",
+            "#02008FSo what the hell is there?\x02",
         )
     )
 
@@ -3678,9 +3678,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6P（他に考えられるとしたら\x01",
-            "  《結社》の人形兵器だろうけど……）\x02\x03",
-            "#00008F（こんな風に直接、動く連中なのか？）\x02",
+            "#00006F#6P(If you can think elsewhere\x01",
+            "Although it would be a puppet weapon of \"association\" … …)\x02\x03",
+            "#00008F(Are these people moving directly like this?)\x02",
         )
     )
 
@@ -3723,14 +3723,14 @@ def main():
 
     ChrTalk(
         0xB,
-        "#07905F#11Pい、今のは……！？\x02",
+        "#07905F#11PWell, now ……! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xC,
-        "#11Pま、魔獣の吠え声……！？\x02",
+        "#11PWait a demon's bark … …! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -3738,8 +3738,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F#5Pそ、それにしては\x01",
-            "不気味すぎる感じが……\x02",
+            "#00108F#5PThat's it.\x01",
+            "It feels too creepy … ….\x02",
         )
     )
 
@@ -3747,7 +3747,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#6Pセンサーを起動します……！\x02",
+        "#00201F#6PI will start the sensor …!\x02",
     )
 
     CloseMessageWindow()
@@ -3852,9 +3852,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#02101F#6Pどこ、どこにいるの！？\x02\x03",
-            "レインズ君、\x01",
-            "何とかカメラに収めなさい！\x02",
+            "#02101F#6PWhere, where are you! Is it?\x02\x03",
+            "Raines君、\x01",
+            "Somehow put it in the camera!\x02",
         )
     )
 
@@ -3862,7 +3862,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#5P無茶言わないで下さいよ〜！\x02",
+        "#5PPlease do not be uncomfortable ~!\x02",
     )
 
     CloseMessageWindow()
@@ -3882,8 +3882,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00207F#12P──距離１０セルジュ！\x01",
-            "西へ遠ざかっていきます……！\x02",
+            "#00207F#12P─ ─ Distance 10 Serge!\x01",
+            "I will move further to the west … …!\x02",
         )
     )
 
@@ -3892,8 +3892,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00010F#5Pくっ……\x02\x03",
-            "#00007Fみんな、追いかけるぞ！\x02",
+            "#00010F#5PDamn\x02\x03",
+            "#00007FEveryone, I will chase you!\x02",
         )
     )
 
@@ -3901,14 +3901,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#5Pああ、合点承知だ！\x02",
+        "#00307F#5POh, I got a point of consent!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10101F#6P了解しました！\x02",
+        "#10101F#6POK!\x02",
     )
 
     CloseMessageWindow()
@@ -3962,14 +3962,14 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5Pおいおい、無茶すんなよ！？\x02",
+        "#5PHey, hey, hey! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xB,
-        "#07907F#11P警備隊からも増援を！\x02",
+        "#07907F#11PAlso reinforce from the guards!\x02",
     )
 
     CloseMessageWindow()
@@ -4024,9 +4024,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00013F#6Pいえ、そちらは\x01",
-            "復旧作業に専念してください！\x02\x03",
-            "まずは俺たちで追ってみます！\x02",
+            "#00013F#6PNo, there\x01",
+            "Please concentrate on restoration work!\x02\x03",
+            "First off we will chase it!\x02",
         )
     )
 
@@ -4034,7 +4034,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#07906F#11Pくっ……そうだったわね。\x02",
+        "#07906F#11PKuu … That was right.\x02",
     )
 
     CloseMessageWindow()
@@ -4042,10 +4042,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02003F#11P……そろそろ重機も到着する。\x01",
-            "お言葉に甘えるしかなさそうね。\x02\x03",
-            "#02001F何かあったら駆けつけるから\x01",
-            "必ず連絡してきなさい！\x02",
+            "#02003F#11P…… Heavy equipment arrives soon.\x01",
+            "It seems that I only have to give up with your words.\x02\x03",
+            "#02001FIf something happens I can rush\x01",
+            "Be sure to contact them!\x02",
         )
     )
 
@@ -4053,14 +4053,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10107F#6P了解しました！\x02",
+        "#10107F#6POK!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10308F#6P…………………………………\x02",
+        "#10308F#6P…………………………………….\x02",
     )
 
     CloseMessageWindow()

@@ -19,9 +19,9 @@ def main():
 
     BuildStringList((
         "c025b",                  # 0
-        "レイテ",                 # 1
-        "パンセ",                 # 2
-        "コウケン",               # 3
+        "Leyte",                 # 1
+        "Pance",                 # 2
+        "Kouken",               # 3
     ))
 
     AddCharChip((
@@ -168,8 +168,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あら、いつの間にか\x01",
-            "空がすっかり暗くなったわね。\x02",
+            "Oh no, in a moment\x01",
+            "The sky has become totally dark.\x02",
         )
     )
 
@@ -178,8 +178,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "お父さんも帰ってくるし、\x01",
-            "急いで食事の支度をしないと。\x02",
+            "My father will come back,\x01",
+            "I have to prepare meals in a hurry.\x02",
         )
     )
 
@@ -199,9 +199,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……あっ！\x01",
-            "あたしのファッション誌の棚に\x01",
-            "鉄道の本が混ざってる……\x02",
+            "……Ah!\x01",
+            "On my shelf of fashion magazines\x01",
+            "A railroad book is mixed … …\x02",
         )
     )
 
@@ -210,9 +210,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "絶対おとーさんの仕業ね。\x01",
-            "何度おんなじ手を\x01",
-            "使うつもりなのかしら。\x02",
+            "Absolute father 's work.\x01",
+            "How many times have you handed your hands\x01",
+            "I wonder if you intend to use it.\x02",
         )
     )
 
@@ -227,8 +227,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おとーさん、時々こうやって\x01",
-            "あたしを鉄道好きにしようとするの。\x02",
+            "Father, sometimes doing this\x01",
+            "I try to like railroads.\x02",
         )
     )
 
@@ -236,7 +236,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "まったく、コシャクなんだから。\x02",
+        "Because it is koshaku at all.\x02",
     )
 
     CloseMessageWindow()
@@ -258,8 +258,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "リュウにはいつか問屋の仕事を\x01",
-            "継がせたいと思っておるのじゃが……\x02",
+            "Ryu will someday get the wholesale job\x01",
+            "Well, I thought I wanted to make a connection … …\x02",
         )
     )
 
@@ -268,9 +268,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "こやつときたら\x01",
-            "遊ぶ事ばかり覚えおってな。\x01",
-            "やれやれじゃわい。\x02",
+            "Once upon a time\x01",
+            "Remember to just play and remember.\x01",
+            "Whew.\x02",
         )
     )
 
@@ -284,8 +284,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "リュウの奴は日曜学校の成績も\x01",
-            "さっぱりなのじゃよ。\x02",
+            "Ryu's guys also got the results of the Sunday school\x01",
+            "It's fresh.\x02",
         )
     )
 
@@ -294,8 +294,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "遊ばせるばかりじゃなくて、\x01",
-            "少しは勉強させなければのう。\x02",
+            "Not just to play,\x01",
+            "I have to learn a little bit.\x02",
         )
     )
 

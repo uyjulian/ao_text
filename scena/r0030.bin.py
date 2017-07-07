@@ -19,17 +19,17 @@ def main():
 
     BuildStringList((
         "r0030",                  # 0
-        "バス",                   # 1
-        "メタルソーサー",         # 2
-        "メタルソーサー",         # 3
-        "サベージホーン",         # 4
-        "サベージホーン",         # 5
-        "グラスドローメ",         # 6
-        "幻獣",                   # 7
-        "装甲車01",               # 8
-        "装甲車02",               # 9
-        "装甲車03",               # 10
-        "SE制御",                 # 11
+        "bus",                   # 1
+        "Metal Saucer",         # 2
+        "Metal Saucer",         # 3
+        "Savage horn",         # 4
+        "Savage horn",         # 5
+        "Grass Drawme",         # 6
+        "Eidolon",                   # 7
+        "Armored car 01",               # 8
+        "Armor car 02",               # 9
+        "Armored car 03",               # 10
+        "SE control",                 # 11
         "br0000",                 # 12
         "br0000",                 # 13
         "br0000",                 # 14
@@ -39,9 +39,9 @@ def main():
         "br0000",                 # 18
         "br0000",                 # 19
         "br0000",                 # 20
-        "クロスベル市方面",       # 21
-        "タングラム門方面",       # 22
-        "アルモリカ村方面",       # 23
+        "Cross Bell City",       # 21
+        "To the Tangram main gate",       # 22
+        "Direction to Almorika village",       # 23
     ))
 
     ATBonus("ATBonus_674", 100, 5, 1, 5, 1, 5, 1, 5, 5, 0, 0, 0, 1, 0, 0, 0)
@@ -250,9 +250,9 @@ def main():
     DeclActor(117610,  4000,    32000,   1200,    117610,  5000,    32000,   0x007C, 0,  7,  0x0000)
     DeclActor(94410,   4000,    4294945176, 1500,    94410,   5700,    4294945176, 0x007C, 0,  26, 0x0000)
 
-    PlaceName(-17.0, 0.0, -10.0, 0x0000, 0x0000, "クロスベル市方面")
-    PlaceName(152.0, 0.0, -82.0, 0x0000, 0x0000, "タングラム門方面")
-    PlaceName(79.0, 0.0, 66.0, 0x0000, 0x0000, "アルモリカ村方面")
+    PlaceName(-17.0, 0.0, -10.0, 0x0000, 0x0000, "Cross Bell City")
+    PlaceName(152.0, 0.0, -82.0, 0x0000, 0x0000, "To the Tangram main gate")
+    PlaceName(79.0, 0.0, 66.0, 0x0000, 0x0000, "Direction to Almorika village")
     PlaceName(105.5999984741211, 0.0, -27.200000762939453, 0x0000, 0x0055, "")
 
     ChipFrameInfo(1000, 0, [0, 1, 2, 3, 4, 3, 2, 1])             # 0
@@ -1007,7 +1007,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -1027,14 +1027,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -1059,7 +1059,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -1098,7 +1098,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '中回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -1118,14 +1118,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '中回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '中回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -1150,7 +1150,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -1200,7 +1200,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "A monster appeared!\x07\x00\x02",
         )
     )
 
@@ -1250,7 +1250,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '脱兔'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -1269,14 +1269,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '脱兔'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '脱兔'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -1299,7 +1299,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -1331,8 +1331,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1343,8 +1343,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1376,7 +1376,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1439,8 +1439,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1451,8 +1451,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1484,7 +1484,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1552,8 +1552,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1564,8 +1564,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1597,7 +1597,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1660,8 +1660,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1672,8 +1672,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1705,7 +1705,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1800,8 +1800,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1Kバス停がある。\x01",
-            "バスで移動しますか？\x02",
+            "#1Kbus停がある。\x01",
+            "busで移動しますか？\x02",
         )
     )
 
@@ -1812,10 +1812,10 @@ def main():
         -1,
         1,
         (
-            "クロスベル市東口\x01",      # 0
-            "アルモリカ村\x01",          # 1
-            "タングラム門\x01",          # 2
-            "やめる\x01",                # 3
+            "Crossbell City East Exit\x01",      # 0
+            "Almorika Village\x01",          # 1
+            "Tangram Gate\x01",          # 2
+            "quit\x01",                # 3
         )
     )
 
@@ -2110,8 +2110,8 @@ def main():
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_31A8")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 5)), scpexpr(EXPR_END)), "loc_2F64")
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "メルカバに乗り込む")
-    MenuCmd(1, 0, "やめる")
+    MenuCmd(1, 0, "Board Mercapa")
+    MenuCmd(1, 0, "quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
     OP_60(0x0)
@@ -2140,13 +2140,13 @@ def main():
     label("loc_2F64")
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "導力車で移動する")
+    MenuCmd(1, 0, "Travel with a driving car")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_2F98")
-    MenuCmd(1, 0, "導力車で休憩する")
+    MenuCmd(1, 0, "Take a break with a driving car")
 
     label("loc_2F98")
 
-    MenuCmd(1, 0, "やめる")
+    MenuCmd(1, 0, "quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
     OP_60(0x0)
@@ -2310,7 +2310,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力バスは運行を見合わせているようだ。\x07\x00\x02",
+            "導力busは運行を見合わせているようだ。\x07\x00\x02",
         )
     )
 
@@ -2397,8 +2397,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00205F#6Pこれは……\x01",
-            "装甲車の走行音のようです。\x02",
+            "#00205F#6Pthis is……\x01",
+            "It sounds like a running sound of an armored car.\x02",
         )
     )
 
@@ -2407,8 +2407,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001Fまずいな……\x01",
-            "一旦離れよう！\x02",
+            "#00001FBad …\x01",
+            "Let's get away!\x02",
         )
     )
 
@@ -2467,7 +2467,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6P行ったか……\x02",
+        "#00006F#6PDid you go ……\x02",
     )
 
     CloseMessageWindow()
@@ -2475,9 +2475,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00200Fどうやら巡回警備中みたいですね。\x02\x03",
-            "#00203F今、用も無く東クロスベル街道を\x01",
-            "行き来するのは危険そうです。\x02",
+            "#00200FApparently it looks like patrol security.\x02\x03",
+            "#00203FNow, without the use of the East Crossbell Highway\x01",
+            "It seems dangerous to come and go.\x02",
         )
     )
 
@@ -2486,8 +2486,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F#6Pああ、アルモリカ古道方面に\x01",
-            "戻った方がよさそうだな。\x02",
+            "#00001F#6POh, in the direction of Almorica Kodo\x01",
+            "It seems better to go back.\x02",
         )
     )
 
@@ -2510,10 +2510,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F今、東クロスベル街道を\x01",
-            "行き来するのは危険だ。\x02\x03",
-            "#00001Fアルモリカ古道方面に\x01",
-            "戻った方がよさそうだな。\x02",
+            "#00003FRight now, East Crossbell Highway\x01",
+            "It is dangerous to come and go.\x02\x03",
+            "#00001FAlmorica towards the ancient road\x01",
+            "It seems better to go back.\x02",
         )
     )
 
@@ -2600,9 +2600,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "　西・クロスベル市　１０８セルジュ\x01",
-            "　北・アルモリカ村　１６６セルジュ\x01",
-            "南東・タングラム門　　９８セルジュ\x02",
+            "West · Crosbell City 108 Serju\x01",
+            "North · Almorica village 166 Serju\x01",
+            "Southeastern · Tangram Main gate 98 Serju\x02",
         )
     )
 

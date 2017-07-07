@@ -19,8 +19,8 @@ def main():
 
     BuildStringList((
         "c022b",                  # 0
-        "イアン弁護士",           # 1
-        "ピート",                 # 2
+        "Ian lawyer",           # 1
+        "Pete",                 # 2
     ))
 
     AddCharChip((
@@ -151,11 +151,11 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#02200Fおや、君たち。\x01",
-            "こんな夜に来るとは珍しいね。\x02\x03",
-            "ダドリー君も一緒とは……\x01",
-            "明日の会議本番に関わるような\x01",
-            "問題でも発生したかね？\x02",
+            "#02200FOh, you guys.\x01",
+            "It is rare to come this kind of night.\x02\x03",
+            "Daddy is with you … …\x01",
+            "It seems to be related to tomorrow's meeting\x01",
+            "Have you had problems as well?\x02",
         )
     )
 
@@ -164,11 +164,11 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00603F今から、それを確かめに\x01",
-            "行くところです。\x02\x03",
-            "#00600F万全を期すためには、\x01",
-            "不確定な要素は潰しておくに\x01",
-            "越した事はありませんからね。\x02",
+            "#00603FFrom now on, make sure of it\x01",
+            "I'm going.\x02\x03",
+            "#00600FFor the sake of completeness,\x01",
+            "To keep uncertain elements crushed\x01",
+            "I have never done it before.\x02",
         )
     )
 
@@ -177,10 +177,10 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#02200Fうむ、用心しすぎるという\x01",
-            "ことはないだろうな。\x02\x03",
-            "詳しい事情は知らないが……\x01",
-            "是非ともがんばってくれたまえ。\x02",
+            "#02200FWell, it's too cautious.\x01",
+            "It will not be.\x02\x03",
+            "I do not know detailed circumstances … …\x01",
+            "Please do it by all means.\x02",
         )
     )
 
@@ -194,10 +194,10 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#02200Fさて……\x01",
-            "準備はこのあたりで充分だな。\x02\x03",
-            "ひとまず明日に備えて、\x01",
-            "今日は早めに休むとしようか。\x02",
+            "#02200FNow……\x01",
+            "Preparation is enough around here.\x02\x03",
+            "In preparation for tomorrow for the time being,\x01",
+            "Shall I take a day off earlier today?\x02",
         )
     )
 
@@ -220,9 +220,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "書類整理をしていたら\x01",
-            "僕が以前、留守番している時に\x01",
-            "読んでいた本が出てきました。\x02",
+            "I was organizing documents\x01",
+            "When I was an answering machine before\x01",
+            "The book that I was reading came out.\x02",
         )
     )
 
@@ -231,8 +231,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "この本に出てくる『カゲマル』……\x01",
-            "僕、みっしぃよりも気に入ってるんです。\x02",
+            "\"Kagemaru\" appearing in this book … …\x01",
+            "I like it better than Mitchell.\x02",
         )
     )
 
@@ -241,8 +241,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "僕は一度読んだ本って、\x01",
-            "あまり読み返さない性分ですし……\x02",
+            "I read the book once,\x01",
+            "It is a sex that I do not read too much … …\x02",
         )
     )
 
@@ -251,8 +251,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "せっかくですから\x01",
-            "皆さんも読んでみませんか？\x02",
+            "Because it's no problem\x01",
+            "Why do not you read it, too?\x02",
         )
     )
 
@@ -267,7 +267,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '沐浴阳光的阿尼艾丝４卷'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -287,8 +287,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あれ、このファイル……\x01",
-            "収納する場所が間違ってる。\x02",
+            "That, this file …\x01",
+            "The place to store is wrong.\x02",
         )
     )
 
@@ -297,8 +297,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "まったくイアン先生ったら、\x01",
-            "こういうところはズボラなんだから……\x02",
+            "Ian Professor at all,\x01",
+            "Because it is Zubora like this … …\x02",
         )
     )
 
@@ -321,7 +321,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉には鍵がかかっている。\x02",
+            "There is a lock on the door.\x02",
         )
     )
 

@@ -19,10 +19,10 @@ def main():
 
     BuildStringList((
         "m9052",                  # 0
-        "シャーリィ",             # 1
-        "台詞表示用ダミーキャラ", # 2
-        "シャーリィお供",         # 3
-        "シャーリィお供",         # 4
+        "Charlie",             # 1
+        "Dummy characters for speech display", # 2
+        "Charlieお供",         # 3
+        "Charlieお供",         # 4
         "bm9039",                 # 5
     ))
 
@@ -234,8 +234,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F……気を失っているようですね。\x01",
-            "致命傷ではないようですが……\x02",
+            "#00203F… … It seems like I am out of your mind.\x01",
+            "It does not seem to be a fatal injury … ….\x02",
         )
     )
 
@@ -245,9 +245,9 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10701F……どうしますか？\x01",
-            "メルカバに運ぶ事も\x01",
-            "できそうですが……\x02",
+            "#10701F……what should I do?\x01",
+            "Also carrying things to Mercapa\x01",
+            "Is it possible to … …\x02",
         )
     )
 
@@ -260,9 +260,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00101Fどうする？\x01",
-            "メルカバに運ぶ事も\x01",
-            "できそうだけど……\x02",
+            "#00101Fwhat will you do?\x01",
+            "Also carrying things to Mercapa\x01",
+            "It seems likely, but …\x02",
         )
     )
 
@@ -274,11 +274,11 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00301Fいや、そいつは\x01",
-            "やめといた方がいいだろう。\x02\x03",
-            "#00306F艦内で目を覚ましたら\x01",
-            "それはそれで厄介そうだし、\x01",
-            "とりあえず放っとくとしようぜ。\x02",
+            "#00301FNo, he is\x01",
+            "It would be better to stop.\x02\x03",
+            "#00306FIf you wake up on the ship\x01",
+            "That seems to be awkward for it,\x01",
+            "Let's leave it for now.\x02",
         )
     )
 
@@ -287,10 +287,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003Fそうだな……\x01",
-            "一応敵には変わりないんだし。\x02\x03",
-            "#00000F念の為、最低限の治療だけでも\x01",
-            "したほうがいいかもしれないけど。\x02",
+            "#00003FThat's right.\x01",
+            "It does not change to an enemy for the time being.\x02\x03",
+            "#00000FJust to be sure, even with minimal treatment alone\x01",
+            "Although it may be better to do it.\x02",
         )
     )
 
@@ -298,7 +298,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00100Fそうね、それじゃあ……\x02",
+        "#00100FWell then, then … …\x02",
     )
 
     CloseMessageWindow()
@@ -310,8 +310,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドたちはシャーリィに\x01",
-            "ひとまずの応急処置を施した。\x07\x00\x02",
+            "ロイドたちはCharlieに\x01",
+            "I gave a temporary first aid.\x07\x00\x02",
         )
     )
 
@@ -323,14 +323,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00104F……うん、これでいいでしょう。\x02",
+        "#00104F… Well, this is fine.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00000Fそれじゃあ、行くとしようか。\x02",
+        "#00000FWell then, shall we go?\x02",
     )
 
     CloseMessageWindow()
@@ -352,7 +352,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "完全に気を失っているようだ。\x07\x00\x02",
+            "It seems that you are completely obsessed.\x07\x00\x02",
         )
     )
 
@@ -378,7 +378,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "オーブメントを回復できる装置がある。\x07\x00\x02",
+            "There are devices that can recover the orbment.\x07\x00\x02",
         )
     )
 
@@ -389,8 +389,8 @@ def main():
         -1,
         1,
         (
-            "ここで休憩する\x01",      # 0
-            "やめる\x01",              # 1
+            "To take a break here\x01",      # 0
+            "quit\x01",              # 1
         )
     )
 
@@ -767,8 +767,8 @@ def main():
 
     NpcTalk(
         0x9,
-        "少女の声",
-        "#3964V#N#30W#20Aあはっ……やっと来た！\x02",
+        "Voice of a girl",
+        "#3964V#N#30W#20AHaah … … Finally came!\x02",
     )
 
     CloseMessageWindow()
@@ -819,7 +819,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10701F#12P《血染めの#8Rブ ラ ッ デ ィ#シャーリィ》……\x02",
+        "#10701F#12P《血染めの#8Rブ ラ ッ デ ィ#Charlie》……\x02",
     )
 
     CloseMessageWindow()
@@ -827,10 +827,10 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#12Pハッ……\x01",
-            "お行儀良く待ってたじゃねぇか？\x02\x03",
-            "#00301Fいつものお前だったら\x01",
-            "我慢できずに襲って来るだろうに。\x02",
+            "#00306F#12PHappy\x01",
+            "You waited behaving well?\x02\x03",
+            "#00301FIf you were usual\x01",
+            "I will not bear it and I will strike.\x02",
         )
     )
 
@@ -839,10 +839,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04606F#5Pブーブー。\x01",
-            "酷いなぁ、ランディ兄は。\x02\x03",
-            "#04602Fまあ、確かにランディ兄たちだけなら\x01",
-            "サクッと出撃して殲滅してるけどサ。\x02",
+            "#04606F#5PBoo - Bu.\x01",
+            "It is awful, Randy elder brother.\x02\x03",
+            "#04602FWell, indeed Randy's only brothers\x01",
+            "I'm sortie and caught and it has annihilated but Sa.\x02",
         )
     )
 
@@ -850,14 +850,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00310F#12P……オイ。\x02",
+        "#00310F#12P…… Oy.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00211F#12P（フリーダム過ぎます……）\x02",
+        "#00211F#12P(Freedom is over ……)\x02",
     )
 
     CloseMessageWindow()
@@ -865,8 +865,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00109F#12P（あ、あはは……\x01",
-            "  冗談なんかじゃないのよね。）\x02",
+            "#00109F#12P(Oh, haha ….\x01",
+            "You are not joking. )\x02",
         )
     )
 
@@ -881,8 +881,8 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "さてと──リーシャ。\x02\x03",
-            "気合いは十分みたいだね？\x02",
+            "Alright ─ ─ Lisha.\x02\x03",
+            "You look fair enough?\x02",
         )
     )
 
@@ -909,11 +909,11 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "アルカンシェルでの続き……\x02\x03",
-            "最高に気持ちいい“殺し合い”を\x01",
-            "始めるとしようか？\x02\x03",
-            "そのためにシャーリィは\x01",
-            "ここで待ってたんだからさぁ？\x02",
+            "Continued with alkane shell ……\x02\x03",
+            "The best feeling \"killing\"\x01",
+            "Shall I start?\x02\x03",
+            "そのためにCharlieは\x01",
+            "Was it waiting here?\x02",
         )
     )
 
@@ -926,7 +926,7 @@ def main():
 
     AnonymousTalk(
         0x106,
-        "#10703F#3260V#30W#15A──お断りします。\x02",
+        "#10703F#3260V#30W#15A── We refuse.\x02",
     )
 
     CloseMessageWindow()
@@ -953,7 +953,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6P#Nえ……\x02",
+        "#00005F#6P#NHuh……\x02",
     )
 
     CloseMessageWindow()
@@ -962,7 +962,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00605F#12Pほう……？\x02",
+        "#00605F#12PHow is it?\x02",
     )
 
     CloseMessageWindow()
@@ -974,7 +974,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10402F#12Pへえ……？\x02",
+        "#10402F#12POh ….?\x02",
     )
 
     CloseMessageWindow()
@@ -986,7 +986,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105F#12Pリーシャさん……？\x02",
+        "#10105F#12PMr. Lisha …?\x02",
     )
 
     CloseMessageWindow()
@@ -1000,9 +1000,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04601F#5Pちょ、ちょっと待ってよ！\x02\x03",
-            "ここまで来て\x01",
-            "そんなのってアリなの！？\x02",
+            "#04601F#5PWait a moment, please!\x02\x03",
+            "Come here\x01",
+            "Such an Ali! Is it?\x02",
         )
     )
 
@@ -1011,13 +1011,13 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10703F#12P確かに貴女と私は……\x01",
-            "どこか似ているのかもしれない。\x02\x03",
-            "#10708F私は《銀》として……\x01",
-            "物心ついた時には\x01",
-            "そう#4R噵　噵#育てられていました。\x02\x03",
-            "#10701F貴女も多分、気付いた時には\x01",
-            "戦場という世界にいたのでしょう。\x02",
+            "#10703F#12PCertainly you and I … …\x01",
+            "It may be similar somewhere.\x02\x03",
+            "#10708FAs a \"silver\" ……\x01",
+            "When I arrived at my mind\x01",
+            "so#4R噵 噵#I was brought up.\x02\x03",
+            "#10701FProbably also when you notice it\x01",
+            "You must have been in the world of battlefields.\x02",
         )
     )
 
@@ -1026,9 +1026,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04605F#5Pあ、うん、まぁね。\x02\x03",
-            "#04604F実戦が９歳からっていうのは\x01",
-            "ランディ兄と同じだったかな？\x02",
+            "#04605F#5POh, well, well.\x02\x03",
+            "#04604FThe actual battle from 9 years old\x01",
+            "Was it the same as Randy's older brother?\x02",
         )
     )
 
@@ -1037,9 +1037,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00308F#12Pフン……親父も叔父貴も\x01",
-            "イカれてるとしか\x01",
-            "言いようがねぇけどな。\x02",
+            "#00308F#12PHun …… Both my father and my uncle\x01",
+            "Only Ika\x01",
+            "Though I can not say it.\x02",
         )
     )
 
@@ -1048,12 +1048,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04609F#5Pでも、シャーリィは一度だって\x01",
-            "イヤだなんて思った事はないよ？\x02\x03",
-            "#04602F確かに痛いし、辛いこともあるけど\x01",
-            "戦場ってキラキラしてるし、\x01",
-            "何よりもワクワクできるから。\x02\x03",
-            "リーシャはそうじゃなかったの？\x02",
+            "#04609F#5Pでも、Charlieは一度だって\x01",
+            "I never thought of being unhappy?\x02\x03",
+            "#04602FIt certainly hurts and it may be painful, but\x01",
+            "The battle field is sparkling,\x01",
+            "Because I'm excited more than anything else.\x02\x03",
+            "Was not Lisha like that?\x02",
         )
     )
 
@@ -1062,14 +1062,14 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10706F#12P残念ながら……好きでも\x01",
-            "嫌いでもありませんでした。\x02\x03",
-            "#10708Fそれは私にとって\x01",
-            "空気みたいに当たり前で……\x02\x03",
-            "標的の命を奪うことすら、\x01",
-            "特別な感慨はありませんでした。\x02\x03",
-            "#10710Fその意味では、貴女よりも\x01",
-            "人らしくは無かったでしょう。\x02",
+            "#10706F#12PUnfortunately … I like it.\x01",
+            "I did not dislike it either.\x02\x03",
+            "#10708FThat's for me\x01",
+            "Naturally like air ……\x02\x03",
+            "Even robbing the target 's life,\x01",
+            "There was no special emotion.\x02\x03",
+            "#10710FIn that sense, than you\x01",
+            "It probably was not like a person.\x02",
         )
     )
 
@@ -1077,7 +1077,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#6P#N……リーシャ。\x02",
+        "#00001F#6P#N…… Lisha.\x02",
     )
 
     CloseMessageWindow()
@@ -1085,7 +1085,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#12Pリーシャさん……\x02",
+        "#00108F#12PMr. Lisha …\x02",
     )
 
     CloseMessageWindow()
@@ -1093,13 +1093,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04606F#5Pふーん、可哀想だね。\x02\x03",
-            "#04602Fでも、良かったじゃない？\x01",
-            "アルカンシェルっていう\x01",
-            "他の楽しみが見つけられて。\x02\x03",
-            "#04609Fシャーリィもリーシャが\x01",
-            "《銀#2Rイン#》であるかどうかなんて\x01",
-            "別にどうでもいいし。\x02",
+            "#04606F#5PHmm, it is poor.\x02\x03",
+            "#04602FBut was not it good?\x01",
+            "It's called alkane shell\x01",
+            "Other fun has been found.\x02\x03",
+            "#04609FCharlieもリーシャが\x01",
+            "\"Silver#2RIn#\"Whether or not it is\x01",
+            "Separately it does not matter.\x02",
         )
     )
 
@@ -1109,14 +1109,14 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10708F#12P………っ……………\x02",
+        "#10708F#12P……… Well ……………\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00206F#12P………酷いです。\x02",
+        "#00206F#12P… … It is terrible.\x02",
     )
 
     CloseMessageWindow()
@@ -1124,10 +1124,10 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#12P……お前……\x01",
-            "マジでイカれてるぞ……\x02\x03",
-            "#00311F自分が何をやったのか\x01",
-            "ちゃんと分かってんのか？\x02",
+            "#00306F#12P……you……\x01",
+            "It is seriously serious ……\x02\x03",
+            "#00311FWhat did I do\x01",
+            "Do you understand properly?\x02",
         )
     )
 
@@ -1136,11 +1136,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04605F#5Pアルカンシェルを襲った事？\x02\x03",
-            "#04606Fだって、ああでもしないと\x01",
-            "リーシャは本気でシャーリィと\x01",
-            "殺し合ってくれないでしょ？\x02\x03",
-            "#04600F悪いとは思うけど仕方ないよね？\x02",
+            "#04605F#5PHave you hit an alkane shell?\x02\x03",
+            "#04606F'Cause I have to do it ah\x01",
+            "リーシャは本気でCharlieと\x01",
+            "Do not you kill me?\x02\x03",
+            "#04600FI think it is bad, but it can not be helped, is it?\x02",
         )
     )
 
@@ -1148,7 +1148,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00310F#12P……くっ………\x02",
+        "#00310F#12P… … cum … … …\x02",
     )
 
     CloseMessageWindow()
@@ -1156,7 +1156,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00606F#12P話が通じんな……\x02",
+        "#00606F#12PI do not understand the story …\x02",
     )
 
     CloseMessageWindow()
@@ -1168,7 +1168,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10406F#12P……話が通じないね。\x02",
+        "#10406F#12P…… I can not make myself understood.\x02",
     )
 
     CloseMessageWindow()
@@ -1180,7 +1180,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10108F#12P話が通じませんね……\x02",
+        "#10108F#12PI can not make myself understood …\x02",
     )
 
     CloseMessageWindow()
@@ -1190,7 +1190,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#6P#N……リーシャ……\x02",
+        "#00008F#6P#N… …. Leisha ……\x02",
     )
 
     CloseMessageWindow()
@@ -1199,12 +1199,12 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10704F#11P──大丈夫。\x01",
-            "彼女のことは分かります。\x02\x03",
-            "#10708Fもし、私が《銀》の道に\x01",
-            "喜びを見出していたら……\x02\x03",
-            "#10710Fきっと彼女と同じ存在#4Rモ ノ#に\x01",
-            "なっていたでしょうから。\x02",
+            "#10704F#11P── All right.\x01",
+            "I understand her.\x02\x03",
+            "#10708FIf I am on the path of \"silver\"\x01",
+            "If you find joy ……\x02\x03",
+            "#10710FSurely the same as her#4RMono#Into\x01",
+            "Because it would have been.\x02",
         )
     )
 
@@ -1212,7 +1212,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04605F#5P？？？\x02",
+        "#04605F#5PIs it? Is it? Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -1230,9 +1230,9 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10703F#12P──シャーリィさん。\x01",
-            "はっきりと言います。\x02\x03",
-            "#10701F私は死にたくはありません。\x02",
+            "#10703F#12P──Charlieさん。\x01",
+            "I say it clearly.\x02\x03",
+            "#10701FI do not want to die.\x02",
         )
     )
 
@@ -1243,7 +1243,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04605F#5P…………へ。\x02",
+        "#04605F#5P…………What.\x02",
     )
 
     CloseMessageWindow()
@@ -1251,18 +1251,18 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10706F#12Pクロスベルに来るまで……\x01",
-            "私はいつ死んでも構わないと\x01",
-            "思っていました。\x02\x03",
-            "#10708Fいえ、自分が死ぬということを\x01",
-            "意識すらした事がありませんでした。\x02\x03",
-            "#10710Fでも──今は生きていたい。\x02\x03",
-            "生きて、新たに掴めた光を\x01",
-            "大切な人たちと一緒に\x01",
-            "追い求めて行きたいんです。\x02\x03",
-            "#10704Fだから……\x01",
-            "貴女との“殺し合い”には\x01",
-            "応じることが出来ません。\x02",
+            "#10706F#12PUntil you come to the crossbell ……\x01",
+            "I do not mind when I die\x01",
+            "I thought.\x02\x03",
+            "#10708FNo, I know that I die\x01",
+            "I had not even consciousness.\x02\x03",
+            "#10710FBut ─ ─ I want to live now.\x02\x03",
+            "Live alive, newly grasped light\x01",
+            "With important people\x01",
+            "I want to pursue and go.\x02\x03",
+            "#10704FSo ….\x01",
+            "To \"killing\" with you\x01",
+            "I can not respond.\x02",
         )
     )
 
@@ -1270,7 +1270,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#6P#Nリーシャ……\x02",
+        "#00002F#6P#NLisha …\x02",
     )
 
     CloseMessageWindow()
@@ -1279,7 +1279,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00104F#12P#Nリーシャさん……\x02",
+        "#00104F#12P#NMr. Lisha …\x02",
     )
 
     CloseMessageWindow()
@@ -1289,8 +1289,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00302F#12P……よく言ったぜ、\x01",
-            "リーシャちゃん。\x02",
+            "#00302F#12P…… I said well,\x01",
+            "Lisa-chan.\x02",
         )
     )
 
@@ -1302,13 +1302,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04601F#5P……だったら……\x02\x03",
-            "#04606Fだったら何でわざわざ\x01",
-            "こんな場所に来たのさ……？\x02\x03",
-            "#04602Fリーシャもシャーリィと\x01",
-            "戦いたかったんじゃないの……？\x02\x03",
-            "再起不能になったイリアの仇を\x01",
-            "取りたかったんじゃないの！？\x02",
+            "#04601F#5PIf it was … ….\x02\x03",
+            "#04606FThen why come bother.\x01",
+            "I came to such a place … ….?\x02\x03",
+            "#04602FリーシャもCharlieと\x01",
+            "I did not want to fight … ….?\x02\x03",
+            "The enemy of Iria who became irrecoverable\x01",
+            "I did not want to take it! Is it?\x02",
         )
     )
 
@@ -1317,15 +1317,15 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10703F#12Pイリアさんは絶対に──\x01",
-            "何があっても復活します。\x02\x03",
-            "#10701Fその意味で、私が貴女に\x01",
-            "復讐する理由はありません。\x02\x03",
-            "#10706F復讐されたいのであれば\x01",
-            "イリアさんが復活した時にでも\x01",
-            "彼女に会いに来てください。\x02\x03",
-            "#10710F多分、きついビンタを一発、\x01",
-            "もらえるでしょうから。\x02",
+            "#10703F#12PIria absolutely ──\x01",
+            "No matter what happens, I will resurrect.\x02\x03",
+            "#10701FIn that sense, I will give you\x01",
+            "There is no reason to take revenge.\x02\x03",
+            "#10706FIf you want to be revenged\x01",
+            "Even when Iria was resurrected\x01",
+            "Please come and meet with her.\x02\x03",
+            "#10710FPerhaps, one shot a bitter,\x01",
+            "I will get it.\x02",
         )
     )
 
@@ -1335,14 +1335,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04601F#5P……っ……！\x02",
+        "#04601F#5P… ….!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00012F#6P#N……はは………\x02",
+        "#00012F#6P#N……my mother………\x02",
     )
 
     CloseMessageWindow()
@@ -1351,8 +1351,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00204F#12P確かにイリアさんなら\x01",
-            "その程度で済ましそうですね。\x02",
+            "#00204F#12PCertainly if Iria\x01",
+            "That seems to be done for that degree.\x02",
         )
     )
 
@@ -1361,11 +1361,11 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10704F#12P私がわざわざロイドさんたちに\x01",
-            "付いてきた理由……\x02\x03",
-            "それは貴女と、\x01",
-            "私自身に証明するためです。\x02\x03",
-            "#10702F今の私が──貴女よりも強いと。\x02",
+            "#10704F#12PI bother to Mr. Lloyd\x01",
+            "Reason for attaching … ….\x02\x03",
+            "It is with you,\x01",
+            "To prove to myself.\x02\x03",
+            "#10702FI am now stronger than you - you.\x02",
         )
     )
 
@@ -1378,7 +1378,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04605F#5P#4S！？\x02",
+        "#04605F#5P#4SIt is! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -1399,11 +1399,11 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10703F#3261V#12P#40W#40A──暗闇の果て、\x01",
-            "新たな光を見出した私に……\x02\x03",
-            "#3262V#40A血塗られた硝煙の道しか\x01",
-            "知らない貴女は及ばない。\x02\x03",
-            "#10701F#3263V#25Aそれを証明してみせます。\x02",
+            "#10703F#3261V#12P#40W#40A─ ─ At the end of the dark,\x01",
+            "To me who found a new light ……\x02\x03",
+            "#3262V#40AOnly the way of blood smeared with smoke\x01",
+            "You do not know you do not know.\x02\x03",
+            "#10701F#3263V#25AI will prove it.\x02",
         )
     )
 
@@ -1437,12 +1437,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04604F#5P#30W……あはは……\x01",
-            "ホント、リーシャは最高だよ……\x02\x03",
-            "単なる殺し合いなんかより……\x01",
-            "……ずっとずっとワクワクする……\x02\x03",
-            "#04611F本当に……\x01",
-            "クロスベルに来て良かった……！\x02",
+            "#04604F#5P#30W…… Haha … …\x01",
+            "Really, Lisher is the best …\x02\x03",
+            "More than mere killing … …\x01",
+            "…… I am excited all the time ……\x02\x03",
+            "#04611Ftruly……\x01",
+            "I'm glad I came to the crossbell …!\x02",
         )
     )
 
@@ -1480,12 +1480,12 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#3965V#5P#40W#35A──いいよ！\x01",
-            "それじゃあ早速始めよう！\x02\x03",
-            "#3966V#30Aランディ兄たちも\x01",
-            "ついでに相手をしてあげる！\x02\x03",
-            "#3967V#35Aシャーリィたちの戦いに\x01",
-            "ちゃんと付いて来なよねぇっ！？\x02",
+            "#3965V#5P#40W#35A── It's okay!\x01",
+            "Then let's get started quickly!\x02\x03",
+            "#3966V#30ARandy's brothers too\x01",
+            "I will give him another opportunity!\x02\x03",
+            "#3967V#35ACharlieたちの戦いに\x01",
+            "Do not come with me properly! Is it?\x02",
         )
     )
 
@@ -1510,7 +1510,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#12P#N#10A抜かせ……！\x02",
+        "#00307F#12P#N#10AGet out … …!\x02",
     )
 
     CloseMessageWindow()
@@ -1520,20 +1520,20 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00007F#6P#N#15A──迎撃開始！\x01",
-            "全力でリーシャを援護する！\x02",
+            "#00007F#6P#N#15A── Interception started!\x01",
+            "We will cover Lisha with full power!\x02",
         )
     )
 
     CloseMessageWindow()
     Sleep(500)
     SetMessageWindowPos(-1, 160, -1, -1)
-    SetChrName("メンバー")
+    SetChrName("member")
     OP_82(0xC8, 0x0, 0xBB8, 0x12C)
 
     AnonymousTalk(
         0xFF,
-        "#4S#12Aおおっ！\x02",
+        "#4S#12AHuh!\x02",
     )
 
     CloseMessageWindow()
@@ -1805,7 +1805,7 @@ def main():
     SetChrFlags(0x8, 0x2)
     SetChrFlags(0x8, 0x800)
     SetChrPos(0x8, 0, 35000, 26500, 90)
-    OP_8E(0x8, "シャーリィ")
+    OP_8E(0x8, "Charlie")
     OP_68(-120, 35300, 23440, 0)
     MoveCamera(160, 27, 0, 0)
     OP_6E(600, 0)
@@ -1820,10 +1820,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04606F#3968V#6P#80W#30Aはあっ……はあっ…#1500W…\x01",
-            "#04609F#40W#4S……あはははははははっ……！\x02\x03",
-            "#04602F#3969V#40Aまいったなぁ……\x01",
-            "本当に証明されちゃったよ……\x02",
+            "#04606F#3968V#6P#80W#30AHa …… Ha …#1500W…\x01",
+            "#04609F#40W#4S…… Hahahahahahahahah … ….!\x02\x03",
+            "#04602F#3969V#40AIt was a long time ago ……\x01",
+            "It really proved … …\x02",
         )
     )
 
@@ -1845,7 +1845,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10706F#12P#40W#16Aはあっ……はあっ……\x02",
+        "#10706F#12P#40W#16AHa ha … … Ha ha ……\x02",
     )
 
     CloseMessageWindow()
@@ -1855,10 +1855,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04604F#5P#40Wでもそれって……\x01",
-            "……ちょっと反則だよね……？\x02\x03",
-            "#04600Fランディ兄たちはともかく……\x01",
-            "一人だけの力じゃないみたいだし。\x02",
+            "#04604F#5P#40WBut it is ….\x01",
+            "…… It's a bit offending … am I?\x02\x03",
+            "#04600FRandy brothers anyway ……\x01",
+            "It seems that it is not the power of only one person.\x02",
         )
     )
 
@@ -1867,10 +1867,10 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10704F#12P#40W……それこそが……\x01",
-            "私の手に入れたものですから……\x02\x03",
-            "#10710F文句があるなら……\x01",
-            "貴女も手に入れたらどうですか……？\x02",
+            "#10704F#12P#40W… That is it … …\x01",
+            "Because I got it ……\x02\x03",
+            "#10710FIf you have complaints ……\x01",
+            "Why do not you get yours … ….?\x02",
         )
     )
 
@@ -1879,12 +1879,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04604F#5P#40Wふふっ……今んとこ\x01",
-            "シャーリィには無理かなぁ……\x02\x03",
-            "#04602Fまあいいや……それじゃあ\x01",
-            "サクっと殺#2Rや#っちゃってよ……\x02\x03",
-            "#04604F今だったら思い残すこと……\x01",
-            "……あんまりないしさぁ……\x02",
+            "#04604F#5P#40WHehu … … now\x01",
+            "Charlieには無理かなぁ……\x02\x03",
+            "#04602FOh well or … well then\x01",
+            "Sakutto killed#2RYa#Take care! …\x02\x03",
+            "#04604FRemembering it now … …\x01",
+            "…… I do not have much ….\x02",
         )
     )
 
@@ -1893,8 +1893,8 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10706F#12P#40W……だから殺#2Rや#りません……\x02\x03",
-            "#10701F人の話はちゃんと聞いてください……\x02",
+            "#10706F#12P#40W…… So kill#2RYa#I will not …\x02\x03",
+            "#10701FPlease listen to people's story properly ……\x02",
         )
     )
 
@@ -1903,9 +1903,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04606F#5P#40Wちぇっ……あーあ……\x02\x03",
-            "サイコーの気分のまま\x01",
-            "イケると思ったのになぁ……\x02",
+            "#04606F#5P#40WSee you …… ah … ….\x02\x03",
+            "I feel ashamed\x01",
+            "I thought I'd be fine …\x02",
         )
     )
 
@@ -1926,8 +1926,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00307F#11P──コラ！\x01",
-            "ガキがナマ言ってんじゃねえ！\x02",
+            "#00307F#11P── Kora!\x01",
+            "The brat is not saying anything!\x02",
         )
     )
 
@@ -1936,12 +1936,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04604F#5P#40Wあはは……！\x01",
-            "ランディ兄……ヒドいなぁ……\x02\x03",
-            "#04601F言っとくけど……\x01",
-            "パパがお待ちかねだからね……？\x02\x03",
-            "覚悟……\x01",
-            "決めた方がいいと思うよ……？\x02",
+            "#04604F#5P#40WHaha …!\x01",
+            "Randy's older brother …… It's hidden ……\x02\x03",
+            "#04601FFor your inquiry ……\x01",
+            "Daddy is waiting for you ….?\x02\x03",
+            "Preparedness ……\x01",
+            "I think that it is better to decide … ….?\x02",
         )
     )
 
@@ -1950,8 +1950,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#11P……フン。\x01",
-            "分かってるっつーの。\x02",
+            "#00306F#11P…… Hun.\x01",
+            "I understand it.\x02",
         )
     )
 
@@ -1960,14 +1960,14 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04604F#5P#40Wお兄さんたちも……\x01",
-            "まあ……せいぜい頑張りなよ……\x02\x03",
-            "あの《剣聖》もスゴイし……\x01",
-            "……お嬢さんもヤバそうだし……\x02\x03",
-            "#04606Fでもまあ……あの子……\x01",
-            "なんか辛そうだったから……\x02\x03",
-            "#04600F笑顔を取り戻すために……\x01",
-            "……頑張るのもアリかもね……\x02",
+            "#04604F#5P#40WBig brothers ….\x01",
+            "Well … at best let's do your best …\x02\x03",
+            "That \"Sword Saint\" is also amazing … …\x01",
+            "…… My daughter seems to be stupid ……\x02\x03",
+            "#04606FBut well … that girl ……\x01",
+            "Because it seemed to be very spicy … ….\x02\x03",
+            "#04600FTo regain a smile ……\x01",
+            "Alright … may well be Ali … …\x02",
         )
     )
 
@@ -1976,8 +1976,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F#12P#N……ああ。\x01",
-            "勿論そのつもりだ。\x02",
+            "#00001F#12P#N……Ah.\x01",
+            "Of course I do.\x02",
         )
     )
 
@@ -1987,9 +1987,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04606F#5P#50W……ダメだ……落ちる……\x02\x03",
-            "#04604F#60Wリーシャ……\x01",
-            "また今度……遊ぼうね……\x02",
+            "#04606F#5P#50W… … It is useless … … falling ……\x02\x03",
+            "#04604F#60WLisha …\x01",
+            "In addition … Next time … Let's play …\x02",
         )
     )
 
@@ -2154,7 +2154,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10706F#11P……ふう………\x02",
+        "#10706F#11P…… Fuu ………\x02",
     )
 
     CloseMessageWindow()
@@ -2162,8 +2162,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F#12P本当に……\x01",
-            "お騒がせな子だったわね。\x02",
+            "#00108F#12Ptruly……\x01",
+            "It was a noisy little girl.\x02",
         )
     )
 
@@ -2172,8 +2172,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#11Pはあ……\x01",
-            "すまねぇな、俺の身内が。\x02",
+            "#00306F#11PHa\x01",
+            "Sorry, my girlfriend.\x02",
         )
     )
 
@@ -2182,8 +2182,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F#6Pでも……キーアのことを\x01",
-            "気遣ってくれたみたいだな。\x02",
+            "#00000F#6PBut … … about Kea\x01",
+            "He seemed to care.\x02",
         )
     )
 
@@ -2225,8 +2225,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F#6Pリーシャ。\x01",
-            "身体の方は大丈夫か？\x02",
+            "#00001F#6PLisa.\x01",
+            "Is the body okay?\x02",
         )
     )
 
@@ -2235,11 +2235,11 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10704F#11P……はい。\x01",
-            "皆さんがいてくれたお陰です。\x02\x03",
-            "#10708Fそれと……私の中にいる\x01",
-            "イリアさんが力をくれました。\x02\x03",
-            "#10710Fだから勝てたんだと思います。\x02",
+            "#10704F#11P……Yes.\x01",
+            "It is thanks to you guys.\x02\x03",
+            "#10708FAnd … I'm inside\x01",
+            "Iria gave me the power.\x02\x03",
+            "#10710FSo I think I won.\x02",
         )
     )
 
@@ -2248,7 +2248,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10109F#11Pふふっ、なるほど……\x02",
+        "#10109F#11PHuhu, I see. ….\x02",
     )
 
     CloseMessageWindow()
@@ -2260,7 +2260,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10404F#11Pフフ、なるほどね。\x02",
+        "#10404F#11PHuh, I see.\x02",
     )
 
     CloseMessageWindow()
@@ -2272,7 +2272,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00604F#11Pフッ……なるほどな。\x02",
+        "#00604F#11PHydrofluoric …… I see.\x02",
     )
 
     CloseMessageWindow()
@@ -2283,9 +2283,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00202F#12P確かにそれでは\x01",
-            "シャーリィさんに勝ち目は\x01",
-            "無かったでしょうね。\x02",
+            "#00202F#12PIndeed it is\x01",
+            "Charlieさんに勝ち目は\x01",
+            "I guess it was not there.\x02",
         )
     )
 
@@ -2294,8 +2294,8 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10704F#11Pええ……\x01",
-            "負ける訳がありません。\x02",
+            "#10704F#11PYeah ….\x01",
+            "There is no reason to lose.\x02",
         )
     )
 
@@ -2307,9 +2307,9 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10702F#5Pこれで、この《領域》も\x01",
-            "解放できたと思います。\x02\x03",
-            "いったん門まで戻りましょうか？\x02",
+            "#10702F#5PWith this, this \"area\" also\x01",
+            "I think I was able to release it.\x02\x03",
+            "Shall I go back to the gate once?\x02",
         )
     )
 
@@ -2322,9 +2322,9 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10702F#5Pこれで、この《領域》を\x01",
-            "解放できたと思います。\x02\x03",
-            "いったん門まで戻りましょうか？\x02",
+            "#10702F#5PNow, this \"area\"\x01",
+            "I think I was able to release it.\x02\x03",
+            "Shall I go back to the gate once?\x02",
         )
     )
 
@@ -2335,7 +2335,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6Pああ、そうしよう。\x02",
+        "#00000F#6POh, let's do that.\x02",
     )
 
     CloseMessageWindow()
@@ -2345,9 +2345,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00308F#11Pアイツは……\x01",
-            "まあ、目を覚ますまで\x01",
-            "放っておくしかねぇか。\x02",
+            "#00308F#11PIt's ……\x01",
+            "Well, until you wake up\x01",
+            "I have to leave it alone.\x02",
         )
     )
 
@@ -2489,7 +2489,7 @@ def main():
     SoundLoad(3980)
     SoundLoad(3981)
     SoundLoad(3982)
-    OP_8E(0x8, "シャーリィ")
+    OP_8E(0x8, "Charlie")
     SetChrChipByIndex(0x8, 0x1E)
     SetChrSubChip(0x8, 0x0)
     ClearChrFlags(0x8, 0x80)
@@ -2563,10 +2563,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04606F#3979V#5P#50Wあーあ……今のタイミングなら\x01",
-            "何人か頭を吹き飛ばせたのに……\x02\x03",
-            "#04600F#3980V#50Wホントもう……\x01",
-            "……調子くるっちゃうよ……\x02",
+            "#04606F#3979V#5P#50WAh … … If it's the current timing\x01",
+            "Some of you blew off my head … …\x02\x03",
+            "#04600F#3980V#50WReally ….\x01",
+            "…… I will be feeling healthy ……\x02",
         )
     )
 
@@ -2585,7 +2585,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04606F#3981V#5P#60W#40A#3Sダメだ……今度こそ落ちる……\x02",
+        "#04606F#3981V#5P#60W#40A#3SIt is useless … … this time it will fall …\x02",
     )
 
     CloseMessageWindow()
@@ -2594,8 +2594,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04606F#3982V#5P#60W#60A#2S……やっぱりスカウト……\x01",
-            "受けた方が……いいのかなぁ……？\x02",
+            "#04606F#3982V#5P#60W#60A#2S…… After all scouts ……\x01",
+            "Who told me … Is it okay …?\x02",
         )
     )
 

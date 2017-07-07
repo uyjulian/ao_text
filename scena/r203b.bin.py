@@ -19,17 +19,17 @@ def main():
 
     BuildStringList((
         "r203b",                  # 0
-        "グレイス",               # 1
-        "レインズ",               # 2
-        "警備隊員",               # 3
-        "警備隊員",               # 4
-        "警備隊員",               # 5
-        "警備隊員",               # 6
-        "警備隊員",               # 7
-        "警備隊員",               # 8
-        "警備隊員",               # 9
-        "猟兵",                   # 10
-        "猟兵",                   # 11
+        "Grace",               # 1
+        "Raines",               # 2
+        "A security guard",               # 3
+        "A security guard",               # 4
+        "A security guard",               # 5
+        "A security guard",               # 6
+        "A security guard",               # 7
+        "A security guard",               # 8
+        "A security guard",               # 9
+        "A hunter",                   # 10
+        "A hunter",                   # 11
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)

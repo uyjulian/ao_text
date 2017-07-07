@@ -19,12 +19,12 @@ def main():
 
     BuildStringList((
         "m9000",                  # 0
-        "グレイス",               # 1
-        "神狼ツァイト",           # 2
-        "フラン",                 # 3
-        "ヨナ",                   # 4
-        "アッバス",               # 5
-        "メルカバ玖号機",         # 6
+        "Grace",               # 1
+        "God wolf Zeit",           # 2
+        "Franc",                 # 3
+        "Yona",                   # 4
+        "Abbas",               # 5
+        "Mercapa machine",         # 6
     ))
 
     AddCharChip((
@@ -246,13 +246,13 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#01203F#3Cかつて《幻の至宝#8Rデ ミ ウ ル ゴ ス#》は\x01",
-            "自らを消滅させることを選んだ……\x02\x03",
-            "#01200Fキーアが同じ結論に\x01",
-            "辿り着いてしまう可能性は、\x01",
-            "ないとは言えんだろう。\x02\x03",
-            "人の子よ、見事キーアを取り戻し、\x01",
-            "それを阻止して見せるがいい。\x02",
+            "#01203F#3COnce a \"god of treachery#8RDemi-gols#The\x01",
+            "I chose to annihilate myself …\x02\x03",
+            "#01200FKa'a to the same conclusion\x01",
+            "The possibility of arriving,\x01",
+            "It can not be said that it is not there.\x02\x03",
+            "Son of man, regain the splendid kea,\x01",
+            "Please stop it and show it.\x02",
         )
     )
 
@@ -266,11 +266,11 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#01203F#3Cキーアが《幻の至宝#8Rデ ミ ウ ル ゴ ス#》と\x01",
-            "同じ結論に辿り着いてしまう可能性は、\x01",
-            "ないとは言えんだろう。\x02\x03",
-            "#01200F人の子よ、見事キーアを取り戻し、\x01",
-            "それを阻止して見せるがいい。\x02",
+            "#01203F#3CKa'a is \"the treasure of the phantom#8RDemi-gols#\"When\x01",
+            "同じ結論にThe possibility of arriving,\x01",
+            "It can not be said that it is not there.\x02\x03",
+            "#01200FSon of man, regain the splendid kea,\x01",
+            "Please stop it and show it.\x02",
         )
     )
 
@@ -288,13 +288,13 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#01203F#3C《大樹》のどこかに\x01",
-            "キーアがいるのは間違いあるまい。\x02\x03",
-            "#01200Fおそらくは最も深き場所……\x01",
-            "あのクロイス家の娘、そして\x01",
-            "黒幕である弁護士と共にな。\x02\x03",
-            "私の助けが必要になったら\x01",
-            "いつでも呼び出すがいい。\x02",
+            "#01203F#3CSomewhere in \"Taiki\"\x01",
+            "There is no mistake that there is a kea.\x02\x03",
+            "#01200FProbably the deepest place ……\x01",
+            "That daughter of the Clois family, and\x01",
+            "Together with a lawyer who is a masterpiece.\x02\x03",
+            "If I need help\x01",
+            "Call me at any time.\x02",
         )
     )
 
@@ -308,10 +308,10 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#01203F#3C《大樹》のどこかに\x01",
-            "キーアがいるのは間違いあるまい。\x02\x03",
-            "#01200F私の助けが必要になったら\x01",
-            "いつでも呼び出すがいい。\x02",
+            "#01203F#3CSomewhere in \"Taiki\"\x01",
+            "There is no mistake that there is a kea.\x02\x03",
+            "#01200FIf I need help\x01",
+            "Call me at any time.\x02",
         )
     )
 
@@ -332,9 +332,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#01203F#3Cかつて《幻の至宝#8Rデ ミ ウ ル ゴ ス#》は\x01",
-            "自らを消滅させることを選んだ……\x02\x03",
-            "ロイド、おぬしにはそう話したな。\x02",
+            "#01203F#3COnce a \"god of treachery#8RDemi-gols#The\x01",
+            "I chose to annihilate myself …\x02\x03",
+            "I told Lloyd, I told you so.\x02",
         )
     )
 
@@ -343,11 +343,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F暴走して、守るべき人々を\x01",
-            "傷つけてしまうのを防ぐため……\x01",
-            "そういう話だったな。\x02\x03",
-            "#00003F……《零の至宝》であるキーアも、\x01",
-            "そうなってしまうのか……？\x02",
+            "#00001FRunaway and protect people to protect\x01",
+            "To prevent it from hurting ……\x01",
+            "That was such a story.\x02\x03",
+            "#00003F…… Ka'a that is \"the treasure of zero\"\x01",
+            "Will it be so …?\x02",
         )
     )
 
@@ -356,16 +356,16 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#01200F#3C……それは分からぬ。\x02\x03",
-            "だが、キーアは《零の至宝》となり\x01",
-            "ついには女神に匹敵する力を持つ\x01",
-            "《大樹》をも生み出した。\x02\x03",
-            "それほどまでの大いなる力を、\x01",
-            "この先、制御していける保証は\x01",
-            "今のところどこにもない。\x02\x03",
-            "#01203F《幻の至宝#8Rデ ミ ウ ル ゴ ス#》と同じ結論に\x01",
-            "辿り着いてしまう可能性は、\x01",
-            "ないとは言えんだろうな。\x02",
+            "#01200F#3C…… I do not know.\x02\x03",
+            "However, Ka'a became \"the treasure of zero\"\x01",
+            "Finally I have the power comparable to the goddess\x01",
+            "\"Taiki\" also produced.\x02\x03",
+            "A great deal of power,\x01",
+            "In the meantime, the guarantee that can be controlled\x01",
+            "As of now no where.\x02\x03",
+            "#01203F\"The treasure of the vision#8RDemi-gols#\"The same conclusion as\x01",
+            "The possibility of arriving,\x01",
+            "I guess that's not true.\x02",
         )
     )
 
@@ -374,9 +374,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003Fそうか……\x02\x03",
-            "#00001Fいや、絶対にさせるもんか。\x01",
-            "俺たちがいる限り……！\x02",
+            "#00003FReally……\x02\x03",
+            "#00001FNo, I absolutely will not.\x01",
+            "As long as we are … …!\x02",
         )
     )
 
@@ -384,7 +384,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#01200F#3C……フフ、それでこそおぬしだ。\x02",
+        "#01200F#3C…… Huh, that is all I do.\x02",
     )
 
     CloseMessageWindow()
@@ -410,16 +410,16 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02105Fまさかロイド君たちが\x01",
-            "あのアリオス・マクレインを\x01",
-            "倒しちゃうなんてね。\x02\x03",
-            "#02102Fふふっ、\x01",
-            "大きく成長してくれて\x01",
-            "お姉さんは嬉しいゾ☆\x02\x03",
-            "#02104Fあなたたちなら、もうなんだって\x01",
-            "乗り越えていけると思うわ。\x02\x03",
-            "#02109Fこのままみんなで、\x01",
-            "最高のハッピーエンドを迎えましょ！\x02",
+            "#02105FNo way Lloyd's guys\x01",
+            "That Arios McClein\x01",
+            "I will not beat it.\x02\x03",
+            "#02102FHuhu,\x01",
+            "He grew big\x01",
+            "Your sister is happy ☆\x02\x03",
+            "#02104FIf you guys, what are you doing any longer?\x01",
+            "I think I can get over it.\x02\x03",
+            "#02109FWith everyone as it is,\x01",
+            "Have a great happy ending!\x02",
         )
     )
 
@@ -433,10 +433,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02104Fあなたたちなら、もうなんだって\x01",
-            "乗り越えていけると思うわ。\x02\x03",
-            "#02109Fこのままみんなで、\x01",
-            "最高のハッピーエンドを迎えましょ！\x02",
+            "#02104FIf you guys, what are you doing any longer?\x01",
+            "I think I can get over it.\x02\x03",
+            "#02109FWith everyone as it is,\x01",
+            "Have a great happy ending!\x02",
         )
     )
 
@@ -454,15 +454,15 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02104Fあたしは《大樹》にいる間に\x01",
-            "出来るだけ写真を撮っておくわ。\x02\x03",
-            "#02100Fそれに、通信社に戻ったら\x01",
-            "今回の事件の真実を\x01",
-            "記事になくちゃならない……\x02\x03",
-            "#02102Fだからロイド君たち、\x01",
-            "頑張ってこの事件を解決してね！\x02\x03",
-            "#02109Fあたしに最高の三面記事を\x01",
-            "書かせてちょうだい！\x02",
+            "#02104FWhile I am in \"Taiki\"\x01",
+            "I will take pictures as much as possible.\x02\x03",
+            "#02100FAlso, returning to the correspondent\x01",
+            "The truth of this incident\x01",
+            "There must be an article …\x02\x03",
+            "#02102FSo Lloyd guys,\x01",
+            "Good luck and solve this incident!\x02\x03",
+            "#02109FI have the best three-page article\x01",
+            "Please write me!\x02",
         )
     )
 
@@ -476,10 +476,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02100Fロイド君たち、\x01",
-            "頑張ってこの事件を解決してね！\x02\x03",
-            "#02109Fあたしに最高の三面記事を\x01",
-            "書かせてちょうだい！\x02",
+            "#02100FLloyd guys,\x01",
+            "Good luck and solve this incident!\x02\x03",
+            "#02109FI have the best three-page article\x01",
+            "Please write me!\x02",
         )
     )
 
@@ -500,14 +500,14 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02105Fあのアリオス・マクレインを\x01",
-            "倒しちゃったみたいね？\x02\x03",
-            "#02106Fはあ〜……\x01",
-            "まさかロイド君たちが\x01",
-            "そこまでやるなんて……\x02\x03",
-            "#02109F《クロスベルの英雄》も\x01",
-            "代替わりの時が来たってことかしら。\x01",
-            "いや〜、大スクープじゃないの！\x02",
+            "#02105FThat Arios McClein\x01",
+            "You seem to have defeated?\x02\x03",
+            "#02106FHa ~ …\x01",
+            "No way Lloyd's guys\x01",
+            "I will not do that … …\x02\x03",
+            "#02109F\"Cross Bell hero\" also\x01",
+            "I wonder if the time has come for substitution.\x01",
+            "No, it's not big scoop!\x02",
         )
     )
 
@@ -516,10 +516,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004Fはは……持ち上げすぎですよ。\x02\x03",
-            "#00000Fそれに、クロスベルにとって\x01",
-            "アリオスさんが英雄というのは\x01",
-            "依然、変わらないと思いますし。\x02",
+            "#00004FHaha …. It's lifting too much.\x02\x03",
+            "#00000FAnd for Crossbell\x01",
+            "Arios is a hero\x01",
+            "I still think that it will not change.\x02",
         )
     )
 
@@ -528,13 +528,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02104Fふふっ……\x01",
-            "ロイド君も成長したわね。\x02\x03",
-            "#02102Fアリオスさんを超えた\x01",
-            "あなたたちなら、もうなんだって\x01",
-            "乗り越えていけると思うわ。\x02\x03",
-            "#02109Fこのままみんなで、\x01",
-            "最高のハッピーエンドを迎えましょ！\x02",
+            "#02104FHehu ……\x01",
+            "Lloyd also grew up.\x02\x03",
+            "#02102FIt exceeds Arios.\x01",
+            "If you guys, what are you doing any longer?\x01",
+            "I think I can get over it.\x02\x03",
+            "#02109FWith everyone as it is,\x01",
+            "Have a great happy ending!\x02",
         )
     )
 
@@ -542,7 +542,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000Fはい！！\x02",
+        "#00000FYes! It is!\x02",
     )
 
     CloseMessageWindow()
@@ -681,7 +681,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "もう反応しないようだ。\x02",
+            "It does not seem to react anymore.\x02",
         )
     )
 
@@ -700,8 +700,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "クリスタルがある。\x01",
-            "触れますか？\x02",
+            "There is a crystal.\x01",
+            "Can you touch it?\x02",
         )
     )
 
@@ -712,8 +712,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -919,14 +919,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#6P……ここは……\x02",
+        "#00007F#6P……here……\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00108F#6P本当にあの大樹の中……？\x02",
+        "#00108F#6PReally in that big tree …?\x02",
     )
 
     CloseMessageWindow()
@@ -934,8 +934,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00301F#6P確かにデカイ樹だったが\x01",
-            "ここまでじゃねえだろ……？\x02",
+            "#00301F#6PIt was definitely a decoy tree\x01",
+            "It must not be far … ….?\x02",
         )
     )
 
@@ -944,8 +944,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#6P……空間そのものが\x01",
-            "歪んでしまっている……？\x02",
+            "#00208F#6P…… Space itself\x01",
+            "It is distorted … ….?\x02",
         )
     )
 
@@ -1009,8 +1009,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#01909F#6Pはあああっ……\x01",
-            "すっごくキレイ……\x02",
+            "#01909F#6PHa ha ha ……\x01",
+            "It's pretty beautiful …\x02",
         )
     )
 
@@ -1019,8 +1019,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10101F#6P外にあったのとは\x01",
-            "また別の大樹……？\x02",
+            "#10101F#6PWhat was outside\x01",
+            "Another big tree … ….?\x02",
         )
     )
 
@@ -1029,8 +1029,8 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10708F#6P#N無数の光が……\x01",
-            "樹に吸い込まれていますね。\x02",
+            "#10708F#6P#NThere are countless light …\x01",
+            "You are being sucked into the tree.\x02",
         )
     )
 
@@ -1041,8 +1041,8 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#02300F#6Pなんつーか……導力ネットの\x01",
-            "概念イメージみたいだな。\x02",
+            "#02300F#6PNanpaku …… The power of the net\x01",
+            "It looks like a concept image.\x02",
         )
     )
 
@@ -1051,8 +1051,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02109F#6Pうーん、それにしても\x01",
-            "シャッターチャンスばかりだわ！\x02",
+            "#02109F#6PWell, even so\x01",
+            "All the shutter opportunities!\x02",
         )
     )
 
@@ -1070,10 +1070,10 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#12100F#6P──ここより先は、\x01",
-            "重力の歪みが発生しているため、\x01",
-            "メルカバを進められないようだ。\x02\x03",
-            "徒歩で行くより道は無かろう。\x02",
+            "#12100F#6P── From here onwards,\x01",
+            "Since distortion of gravity is occurring,\x01",
+            "It seems that we can not advance Mercava.\x02\x03",
+            "There is no way better than to go on foot.\x02",
         )
     )
 
@@ -1082,11 +1082,11 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10406F#5Pやれやれ、面倒だね。\x02\x03",
-            "#10400Fまあ、外にだったら\x01",
-            "メルカバで離脱も出来そうだ。\x02\x03",
-            "いざとなったら《大樹》の外に\x01",
-            "出ることも出来ると思うよ？\x02",
+            "#10406F#5PWhew, it is troublesome.\x02\x03",
+            "#10400FWell, if it was outside\x01",
+            "It seems that we can also withdraw from Mercapa.\x02\x03",
+            "Out of the \"big tree\"\x01",
+            "I think you can also get out?\x02",
         )
     )
 
@@ -1095,7 +1095,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#11Pそうか……判った。\x02",
+        "#00001F#11PI see … I understand.\x02",
     )
 
     CloseMessageWindow()
@@ -1105,10 +1105,10 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00603F#6Pいずれにせよ、探索班と\x01",
-            "待機班を決める必要があるだろう。\x02\x03",
-            "#00601F悠長に眺めている余裕はない。\x01",
-            "すぐに動くぞ、バニングス。\x02",
+            "#00603F#6PAnyway, with the search group\x01",
+            "It will be necessary to decide the standby team.\x02\x03",
+            "#00601FI can not afford to look at it slowly.\x01",
+            "It will move right away, Bannings.\x02",
         )
     )
 
@@ -1118,7 +1118,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#5Pはい……！\x02",
+        "#00007F#5PYes……!\x02",
     )
 
     CloseMessageWindow()
@@ -1139,10 +1139,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#6P#N（あの大樹のどこかに\x01",
-            "  キーアがいるはずだ……）\x02\x03",
-            "#00013F（……絶対に………\x01",
-            "  何としても見付け出してみせる！）\x02",
+            "#00003F#6P#N(Somewhere in that big tree\x01",
+            "There should be a kea … …)\x02\x03",
+            "#00013F(……definitely………\x01",
+            "I can find out anyhow! )\x02",
         )
     )
 

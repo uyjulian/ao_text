@@ -303,7 +303,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '辉光护腿'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -323,14 +323,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '辉光护腿'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '辉光护腿'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -355,7 +355,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -394,7 +394,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '全回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -414,14 +414,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '全回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '全回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -446,7 +446,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -490,14 +490,14 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#56I地のセピス×８０\x01\x07\x02",
-            "#57I水のセピス×８０\x01\x07\x02",
-            "#58I火のセピス×８０\x01\x07\x02",
-            "#59I風のセピス×８０\x01\x07\x02",
-            "#60I時のセピス×８０\x01\x07\x02",
-            "#61I空のセピス×８０\x01\x07\x02",
-            "#62I幻のセピス×８０\x01\x07\x00",
-            "を手に入れた。\x02",
+            "#56ISepis of the Earth × 80\x01\x07\x02",
+            "#57IWater sepis × 80\x01\x07\x02",
+            "#58IFire sepis × 80\x01\x07\x02",
+            "#59IWind sepice × 80\x01\x07\x02",
+            "#60ITime sepis × 80\x01\x07\x02",
+            "#61IEmpty Sepis × 80\x01\x07\x02",
+            "#62IThe phantom sepis × 80\x01\x07\x00",
+            "I got it.\x02",
         )
     )
 
@@ -516,7 +516,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x02",
+            "In the treasure box何も入っていない。\x02",
         )
     )
 
@@ -543,7 +543,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉は固く閉ざされている。\x02",
+            "The door is tightly closed.\x02",
         )
     )
 
@@ -568,7 +568,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "台座がある。\x02",
+            "There is a pedestal.\x02",
         )
     )
 
@@ -587,7 +587,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "台座の上に宝珠が置かれている。\x02",
+            "A pearl is placed on the pedestal.\x02",
         )
     )
 
@@ -598,8 +598,8 @@ def main():
         -1,
         1,
         (
-            "宝珠を手に取る\x01",      # 0
-            "やめておく\x01",          # 1
+            "Take the treasure\x01",      # 0
+            "To give up\x01",          # 1
         )
     )
 
@@ -639,7 +639,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '月之宝珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 

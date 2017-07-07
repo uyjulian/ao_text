@@ -19,9 +19,9 @@ def main():
 
     BuildStringList((
         "c035b",                  # 0
-        "ユーリ",                 # 1
-        "サイクス",               # 2
-        "レジー",                 # 3
+        "Yuri",                 # 1
+        "Sykes",               # 2
+        "Reggie",                 # 3
     ))
 
     AddCharChip((
@@ -166,7 +166,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "……こんな夜中に何の用だ？\x02",
+        "… … for what purpose for such a night?\x02",
     )
 
     CloseMessageWindow()
@@ -174,8 +174,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "昼間にお前たちがしたこと……\x01",
-            "忘れたとは言わせないからな。\x02",
+            "What you did during the day … …\x01",
+            "I will not say that I forgot.\x02",
         )
     )
 
@@ -184,8 +184,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00605F（お前たち……\x01",
-            "  彼らと何かあったのか？）\x02",
+            "#00605F(you……\x01",
+            "Was there something with them? )\x02",
         )
     )
 
@@ -194,8 +194,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F（いや、ありゃあ\x01",
-            "  仕方なかったっつーか……）\x02",
+            "#00303F(No, well\x01",
+            "I could not help it ……)\x02",
         )
     )
 
@@ -204,11 +204,11 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00603F（まったく……この微妙な時期に\x01",
-            "  下らないトラブルを起こすな。）\x02\x03",
-            "#00600F（明日の本会議が終わるまで、\x01",
-            "  絶対に気を抜くんじゃないぞ。\x01",
-            "  ……いいな。）\x02",
+            "#00603F(At all … in this subtle period\x01",
+            "Do not cause troubles. )\x02\x03",
+            "#00600F(Until tomorrow's plenary session ends,\x01",
+            "Never mind clearly.\x01",
+            "… … nice. )\x02",
         )
     )
 
@@ -216,7 +216,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F（りょ、了解です。）\x02",
+        "#00005F(Ryo, OK.\x02",
     )
 
     CloseMessageWindow()
@@ -229,8 +229,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "昼間にお前たちがしたこと……\x01",
-            "忘れたとは言わせないからな。\x02",
+            "What you did during the day … …\x01",
+            "I will not say that I forgot.\x02",
         )
     )
 
@@ -238,14 +238,14 @@ def main():
 
     ChrTalk(
         0xFE,
-        "いつか必ず後悔させてやる。\x02",
+        "I will regret it someday.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00306F（いい加減しつこいっつーの……）\x02",
+        "#00306F(I'm sorry I'm sorry … …)\x02",
     )
 
     CloseMessageWindow()
@@ -279,8 +279,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ユーリのやつ、\x01",
-            "さすがに機嫌悪いな……\x02",
+            "Yuriのやつ、\x01",
+            "It is truly a bad mood … ….\x02",
         )
     )
 
@@ -289,9 +289,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "歓楽街で気分転換しようにも、\x01",
-            "ＶＩＰの警備とかで\x01",
-            "警官がけっこういるみたいだし。\x02",
+            "To try refreshing in the entertainment district,\x01",
+            "With VIP security and so on\x01",
+            "It seems that policemen are pretty good.\x02",
         )
     )
 
@@ -300,9 +300,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "うーん、それじゃあ……\x01",
-            "クルマで山道のほうに\x01",
-            "夜のドライブとかどうだ？\x02",
+            "Well then, then …\x01",
+            "On the mountain road with a car\x01",
+            "How about a night drive?\x02",
         )
     )
 
@@ -311,9 +311,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "この時間なら通行者も\x01",
-            "少ないだろうし、思う存分\x01",
-            "かっとばせそうだし……\x02",
+            "Passengers also\x01",
+            "It will be few, and to my utmost\x01",
+            "It seems to be burning me … …\x02",
         )
     )
 
@@ -321,7 +321,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "おお、結構いい考えかもな。\x02",
+        "Oh, it's a pretty good idea.\x02",
     )
 
     CloseMessageWindow()
@@ -334,8 +334,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "よっしゃ、そうと決まれば\x01",
-            "ユーリに提案してみるか。\x02",
+            "Okay, if you decide so\x01",
+            "Yuriに提案してみるか。\x02",
         )
     )
 
@@ -343,14 +343,14 @@ def main():
 
     ChrTalk(
         0x9,
-        "レジー、お前車の準備しとけよ。\x02",
+        "Reggie、お前車の準備しとけよ。\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xA,
-        "了解っ。\x02",
+        "OK.\x02",
     )
 
     CloseMessageWindow()

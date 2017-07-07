@@ -19,14 +19,14 @@ def main():
 
     BuildStringList((
         "c153b",                  # 0
-        "ディーター市長",         # 1
-        "マクダエル議長",         # 2
-        "ダドリー捜査官",         # 3
-        "ソーニャ司令",           # 4
-        "ダグラス副司令",         # 5
-        "セルゲイ課長",           # 6
-        "ピエール副局長",         # 7
-        "局長？",                 # 8
+        "Mayor of Dieter",         # 1
+        "McDowell",         # 2
+        "Dudley investigator",         # 3
+        "Sonya Command",           # 4
+        "Douglas deputy command",         # 5
+        "Sergey Manager",           # 6
+        "Pierre deputy director",         # 7
+        "Director-General",                 # 8
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -138,9 +138,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#02503F#11P何たることか……\x02\x03",
-            "#02501Fまさかここまで大それた事を\x01",
-            "一猟兵団が引き起こすとは。\x02",
+            "#02503F#11PWhat is it?\x02\x03",
+            "#02501FNo way it was a big deal this far\x01",
+            "It is said that a solitary warrior causes.\x02",
         )
     )
 
@@ -151,9 +151,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#02803F……背後に何者かがいるのは\x01",
-            "間違いないでしょう。\x02\x03",
-            "#02801Fそれも通商会議の時と同じく……\x02",
+            "#5P#02803F…… There is something behind us\x01",
+            "There is no mistake.\x02\x03",
+            "#02801FAs well as at the time of the Trade Council … …\x02",
         )
     )
 
@@ -162,9 +162,9 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#6P#01003Fエレボニア帝国政府……\x02\x03",
-            "#01001Fいや、あえて特定するなら\x01",
-            "『帝国軍情報局』ですか。\x02",
+            "#6P#01003FEleventh Empire Government ……\x02\x03",
+            "#01001FNo, if you dare to identify it\x01",
+            "Is it \"Imperial Army Information Bureau\"?\x02",
         )
     )
 
@@ -173,11 +173,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#12P#00606Fその可能性は高いと\x01",
-            "言わざるを得ませんね……\x02\x03",
-            "#00601Fこのクロスベルでも\x01",
-            "情報局の将校が『赤い星座』と\x01",
-            "頻繁に連絡を取り合っていました。\x02",
+            "#12P#00606FIf the possibility is high\x01",
+            "I can not help but say …\x02\x03",
+            "#00601FEven with this crossbell\x01",
+            "The officer of the information department \"red constellation\"\x01",
+            "I kept in touch frequently.\x02",
         )
     )
 
@@ -186,9 +186,9 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#6Pこ、こうなってしまっては\x01",
-            "帝国政府に泣き付いてみるしか\x01",
-            "ないんじゃないでしょうか！？\x02",
+            "#6PHere it is,\x01",
+            "Only trying to cry on the Imperial Government\x01",
+            "I do not think so! Is it?\x02",
         )
     )
 
@@ -197,8 +197,8 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#6Pもしくは共和国政府に頼んで\x01",
-            "味方になってもらうとか……！\x02",
+            "#6POr ask the Republic Government\x01",
+            "Or getting to be on your side … …!\x02",
         )
     )
 
@@ -207,13 +207,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#02803Fいや、既に昼間の時点で\x01",
-            "帝国政府には問い合わせている。\x02\x03",
-            "#02801F返事は当然ながら……\x01",
-            "『身に覚えがない』だったがね。\x02\x03",
-            "#02806F……そしてこれは私の責任だが\x01",
-            "独立提言以来、共和国政府にも\x01",
-            "協力を頼める状況ではなくてね。\x02",
+            "#5P#02803FNo, already in the daytime\x01",
+            "I am inquiring the Imperial Government.\x02\x03",
+            "#02801FNaturally you will reply …\x01",
+            "It was \"I do not remember\".\x02\x03",
+            "#02806F…… And this is my responsibility\x01",
+            "Since Independent Recommendation, the Republic Government also\x01",
+            "I am not in a situation to ask for cooperation.\x02",
         )
     )
 
@@ -221,7 +221,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "#6Pそ、そんな……\x02",
+        "#6PSounds like that … ….\x02",
     )
 
     CloseMessageWindow()
@@ -229,8 +229,8 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#6P……い、いえ！\x01",
-            "決して市長の責任ではっ！\x02",
+            "#6P……No!\x01",
+            "Never the mayor's responsibility!\x02",
         )
     )
 
@@ -239,11 +239,11 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#02503F#11Pいずれにしても……\x01",
-            "このままでは、自治州政府としても\x01",
-            "正式な抗議声明を出すしかないだろう。\x02\x03",
-            "#02500Fしかし……何はともあれ\x01",
-            "マインツの住民の安否が気になる。\x02",
+            "#02503F#11PEither way …\x01",
+            "As it is, as autonomous state government\x01",
+            "There is no choice but to issue a formal protest statement.\x02\x03",
+            "#02500FBut … anyway\x01",
+            "I am concerned about the safety of Mainz residents.\x02",
         )
     )
 
@@ -252,10 +252,10 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#6P#02003F……民間の飛行艇に依頼して\x01",
-            "何とか上空から確認は出来ました。\x02\x03",
-            "#02001F現時点では、略奪などの行為が\x01",
-            "行われている気配は無さそうです。\x02",
+            "#6P#02003F… … Ask a private flying boat\x01",
+            "I managed to confirm from the sky somehow.\x02\x03",
+            "#02001FAt the present time, acts such as looting\x01",
+            "There is no indication of being done.\x02",
         )
     )
 
@@ -264,8 +264,8 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#5Pですが、マインツの住民が、\x01",
-            "人質である状況は変わりません。\x02",
+            "#5PHowever, residents of Mainz,\x01",
+            "The situation of being a hostage does not change.\x02",
         )
     )
 
@@ -274,8 +274,8 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#5P食料の備蓄も心配ですし、\x01",
-            "グズグズはしてられませんね。\x02",
+            "#5PI am worried about stockpiling of food,\x01",
+            "I can not do gozugu.\x02",
         )
     )
 
@@ -286,9 +286,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#02803F無論だ、すぐに対策を打とう。\x02\x03",
-            "#02801F……警備隊の被害は\x01",
-            "どの程度のものだったかね？\x02",
+            "#11P#02803FOf course, let's take countermeasures immediately.\x02\x03",
+            "#02801F…… The damage of the guard\x01",
+            "How much was it?\x02",
         )
     )
 
@@ -297,10 +297,10 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#6P#02006F……人的、物的被害共に\x01",
-            "甚大と言わざるを得ません。\x02\x03",
-            "#02001F現在、予備戦力の全てを\x01",
-            "山道に展開している状況です。\x02",
+            "#6P#02006F…… both human and physical damage\x01",
+            "I can not help being said to be enormous.\x02\x03",
+            "#02001FCurrently, all of the reserve strength\x01",
+            "It is a situation that is developing on the mountain path.\x02",
         )
     )
 
@@ -308,7 +308,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P#02806Fそうか……\x02",
+        "#11P#02806FReally……\x02",
     )
 
     CloseMessageWindow()
@@ -318,13 +318,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02801F#5P──相手は戦闘のプロだが\x01",
-            "あくまでミラで雇われている集団だ。\x02\x03",
-            "交渉次第では、これ以上の惨事を\x01",
-            "食い止められる可能性もあるだろう。\x02\x03",
-            "警察の諸君には、\x01",
-            "市民の不安を抑えてもらうと同時に\x01",
-            "そのあたりの可能性も探って欲しい。\x02",
+            "#02801F#5P── The opponent is a battle pro\x01",
+            "It is a group hired by Mira to the last.\x02\x03",
+            "Depending on the negotiations, more disasters\x01",
+            "There is also the possibility of being stopped.\x02\x03",
+            "To the police,\x01",
+            "At the same time as we suppress civic unrest\x01",
+            "I also want you to explore the possibilities around that.\x02",
         )
     )
 
@@ -332,14 +332,14 @@ def main():
 
     ChrTalk(
         0xA,
-        "#12P#00601F了解しました！\x02",
+        "#12P#00601FOK!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xE,
-        "#6Pた、直ちに！\x02",
+        "#6PWell, immediately!\x02",
     )
 
     CloseMessageWindow()
@@ -347,8 +347,8 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#6P#01003Fギルドとも連絡を取って\x01",
-            "手を尽くしてみますか……\x02",
+            "#6P#01003FAlso contact the guild\x01",
+            "Do you want to try your hand …?\x02",
         )
     )
 

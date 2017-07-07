@@ -198,7 +198,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#6P#5A──先輩！\x02",
+        "#6P#5ASenior!\x02",
     )
 
 
@@ -238,7 +238,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#5P#5Aおらっ！\x02",
+        "#5P#5AHey!\x02",
     )
 
 
@@ -304,7 +304,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#12P#5Aヨロシク！\x02",
+        "#12P#5AThanks!\x02",
     )
 
 
@@ -342,7 +342,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#11P#4S#5Aやぁッ！！#3S\x02",
+        "#11P#4S#5AHey! It is!#3S\x02",
     )
 
     SetChrSubChip(0xFE, 0x1)
@@ -446,8 +446,8 @@ def main():
         -1,
         0,
         (
-            "このまま直接アタックを決める\x01",      # 0
-            "トスしてランディに打たせる\x01",        # 1
+            "Decide direct attack as it is\x01",      # 0
+            "Toss to make Randy strike\x01",        # 1
         )
     )
 
@@ -466,7 +466,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#13400F#5P#Nはい、アウト〜ッ！！\x02",
+        "#13400F#5P#NYes, out ~! It is!\x02",
     )
 
     CloseMessageWindow()
@@ -486,7 +486,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12506F#6Pしまった、焦りすぎたか……\x02",
+        "#12506F#6PDid you get too rash, …?\x02",
     )
 
     CloseMessageWindow()
@@ -496,14 +496,14 @@ def main():
 
     ChrTalk(
         0x13,
-        "#12902Fフフ、サンクス。\x02",
+        "#12902FHuff, thanks.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x12,
-        "#13006F#5P#N危なかった〜……\x02",
+        "#13006F#5P#NIt was dangerous … ….\x02",
     )
 
     CloseMessageWindow()
@@ -511,7 +511,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12500F悪い、ランディ！\x02",
+        "#12500FBad, Randy!\x02",
     )
 
     CloseMessageWindow()
@@ -520,8 +520,8 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#12800F#12Pドンマイドンマイ！\x01",
-            "こっから巻き返してこうぜ！\x02",
+            "#12800F#12PDon Mai Don Mai!\x01",
+            "Let's get over this from you!\x02",
         )
     )
 
@@ -555,9 +555,9 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#13400F#5P……ゲームセット！！\x02\x03",
-            "#13409F７−１２で、\x01",
-            "ワジ君チームの勝ち〜！\x02",
+            "#13400F#5P…… Game set! It is!\x02\x03",
+            "#13409F7 - 12,\x01",
+            "Wazy team won ~!\x02",
         )
     )
 
@@ -565,7 +565,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12506F#6Pはあ、負けちゃったか……\x02",
+        "#12506F#6PHaa, I lost … …\x02",
     )
 
     CloseMessageWindow()
@@ -583,7 +583,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#13405F#5P#Nおおっ、やるわねランディ君！\x02",
+        "#13405F#5P#NOh, I'll do it, Randy!\x02",
     )
 
     CloseMessageWindow()
@@ -600,7 +600,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#13002F#11P#Nくっ……お見事です。\x02",
+        "#13002F#11P#NCut … It is brilliant.\x02",
     )
 
     CloseMessageWindow()
@@ -610,8 +610,8 @@ def main():
     ChrTalk(
         0x13,
         (
-            "#12906F#11Pやれやれ、この身長差は\x01",
-            "さすがにツラいものがあるね。\x02",
+            "#12906F#11PWhew, this height difference is\x01",
+            "There are thawing pots indeed.\x02",
         )
     )
 
@@ -621,8 +621,8 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#12809F#12Pナイストスだぜ、ロイド。\x01",
-            "さすがの判断力っつぅか。\x02",
+            "#12809F#12PIt's Naistos, Lloyd.\x01",
+            "Do you have the judgment of the truth?\x02",
         )
     )
 
@@ -632,8 +632,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12509F#5Pはは、先走るところだったけどね。\x02\x03",
-            "#12500Fよし、このまま畳み掛けるぞ！！\x02",
+            "#12509F#5PWell, that was where I was going ahead.\x02\x03",
+            "#12500FOK, I'll fold in like this! It is!\x02",
         )
     )
 
@@ -667,8 +667,8 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#13400F#5P……ゲームセット！！\x02\x03",
-            "#13409F１２−８で、弟君チームの勝ち〜！\x02",
+            "#13400F#5P…… Game set! It is!\x02\x03",
+            "#13409FAt 12-8, my brother's team won ~!\x02",
         )
     )
 
@@ -676,7 +676,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12500F#6Pよし、勝ったぞ！！\x02",
+        "#12500F#6POkay, I've won! It is!\x02",
     )
 
     CloseMessageWindow()
@@ -709,7 +709,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#11P#5Aはあっ！\x02",
+        "#11P#5AWhat!\x02",
     )
 
 
@@ -773,7 +773,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#6P#5Aよっと！\x02",
+        "#6P#5AYacht!\x02",
     )
 
 
@@ -837,7 +837,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#11P#5Aワジ君っ！\x02",
+        "#11P#5AWajima!\x02",
     )
 
     SetChrChipByIndex(0xFE, 0x15)
@@ -872,7 +872,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#11P#5Aふっ……！\x02",
+        "#11P#5APretty!\x02",
     )
 
     Sound(809, 0, 100, 0)
@@ -985,7 +985,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#5A#4Sはあっ！！#3S\x02",
+        "#5P#5A#4SWhat! It is!#3S\x02",
     )
 
     BeginChrThread(0x14, 3, 1, 19)
@@ -1066,7 +1066,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#5A頼むっ！\x02",
+        "#5P#5AI will ask!\x02",
     )
 
 
@@ -1111,7 +1111,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#5P#5A#4Sおらああああっ！！#3S\x02",
+        "#5P#5A#4SOh ah ah! It is!#3S\x02",
     )
 
     BeginChrThread(0x14, 3, 1, 22)
@@ -1211,8 +1211,8 @@ def main():
         -1,
         0,
         (
-            "強打を読んでブロックに参加する\x01",      # 0
-            "裏を読んで後ろに下がる\x01",              # 1
+            "Read bang and join the block\x01",      # 0
+            "Read the back and go back to the back\x01",              # 1
         )
     )
 
@@ -1232,9 +1232,9 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#12809F#5P#Nイリアさんチーム、得点ッス！\x02\x03",
-            "#12803Fしかし、流石はワジ……\x01",
-            "狡#2Rこす#いマネをしやがるぜ。\x02",
+            "#12809F#5P#NIria's team, scoring points!\x02\x03",
+            "#12803FHowever, fluff is a wadi ……\x01",
+            "Cunning#2RRub#I'm going to make money.\x02",
         )
     )
 
@@ -1254,8 +1254,8 @@ def main():
     ChrTalk(
         0x13,
         (
-            "#12902F#12Pフフ、人聞きが悪いなあ。\x01",
-            "これも戦略の一つだよ？\x02",
+            "#12902F#12PHuh, I do not think he is bad.\x01",
+            "Is this also one of the strategies?\x02",
         )
     )
 
@@ -1265,8 +1265,8 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#13404F#5Pまあ、真面目クンチーム相手だと\x01",
-            "この上なくいい戦略かもね？\x02",
+            "#13404F#5PWell, if you are serious kun team opponent\x01",
+            "It might be a great strategy, is not it?\x02",
         )
     )
 
@@ -1281,8 +1281,8 @@ def main():
     ChrTalk(
         0x12,
         (
-            "#13001F#5Pロ、ロイドさん……\x01",
-            "あんなこと言われてますよ！？\x02",
+            "#13001F#5PRo, Mr. Lloyd ……\x01",
+            "Such a thing is said! Is it?\x02",
         )
     )
 
@@ -1292,9 +1292,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12510F#12Pくっ……ま、負けてたまるか！\x02\x03",
-            "#12501Fこうなったら根性だ、ノエル！\x01",
-            "何が何でもボールに食らいつくぞ！\x02",
+            "#12510F#12PCut … Well, I will lose to win!\x02\x03",
+            "#12501FIt will be guts like this, Noel!\x01",
+            "Anything will keep you scolded by the ball!\x02",
         )
     )
 
@@ -1328,9 +1328,9 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#12800F#5P……ゲームセット！！\x02\x03",
-            "#12809F３−１２で、\x01",
-            "イリアさんチームの勝ちッス！！\x02",
+            "#12800F#5P…… Game set! It is!\x02\x03",
+            "#12809FIn 3-12,\x01",
+            "Iria's team's win! It is!\x02",
         )
     )
 
@@ -1338,7 +1338,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12506F#6Pくうっ……ダメだったか……\x02",
+        "#12506F#6PKuuu … … Was it useless …?\x02",
     )
 
     CloseMessageWindow()
@@ -1358,8 +1358,8 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#12800F#5P#Nロイドチーム、得点！\x02\x03",
-            "#12809Fははっ、やるじゃねえか！\x02",
+            "#12800F#5P#NLloyd team, scoring!\x02\x03",
+            "#12809FHahaha, you do it!\x02",
         )
     )
 
@@ -1378,9 +1378,9 @@ def main():
     ChrTalk(
         0x13,
         (
-            "#12906F#11Pやれやれ、まさか読まれるとはね。\x02\x03",
-            "#12902F真面目クンチームのくせに、\x01",
-            "なかなかやってくれるじゃない？\x02",
+            "#12906F#11PWell, I guess you never read.\x02\x03",
+            "#12902FBeing seriously serious,\x01",
+            "Are you doing quite a bit?\x02",
         )
     )
 
@@ -1389,9 +1389,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12502F#6Pワジの性格だと、あの場面なら\x01",
-            "きっと裏をかくと思ってね。\x02\x03",
-            "#12504F正攻法とは逆をとったまでさ。\x02",
+            "#12502F#6PWaji's personality, if that scene\x01",
+            "I am sure that it will reverse its backs.\x02\x03",
+            "#12504FUntil we did the opposite direction.\x02",
         )
     )
 
@@ -1400,7 +1400,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#13000F#5Pやりましたね、ロイドさん！\x02",
+        "#13000F#5PI did it, Mr. Lloyd!\x02",
     )
 
     CloseMessageWindow()
@@ -1409,8 +1409,8 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#13400F#5Pフフ、どうやら\x01",
-            "侮りすぎてたんじゃない？\x02",
+            "#13400F#5PGhost, apparently\x01",
+            "Did not you despise too much?\x02",
         )
     )
 
@@ -1418,7 +1418,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#12904Fハハ、そうかもしれないね。\x02",
+        "#12904FHaha, maybe so.\x02",
     )
 
     CloseMessageWindow()
@@ -1427,9 +1427,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12500F#12Pよし、ノエル！\x01",
-            "このままゲームの流れを\x01",
-            "こっちのものにするぞ！\x02",
+            "#12500F#12PAlright, Noel!\x01",
+            "The flow of the game as it is\x01",
+            "I will make this one!\x02",
         )
     )
 
@@ -1437,7 +1437,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#13009F#5Pええ、了解です！！\x02",
+        "#13009F#5POkay, okay! It is!\x02",
     )
 
     CloseMessageWindow()
@@ -1470,9 +1470,9 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#12800F#5P……ゲームセット！！\x02\x03",
-            "#12809F１２−１１で、\x01",
-            "ロイドチームの勝ち！！\x02",
+            "#12800F#5P…… Game set! It is!\x02\x03",
+            "#12809FAt 12-11,\x01",
+            "Lloyd team wins! It is!\x02",
         )
     )
 
@@ -1480,7 +1480,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12512F#6Pや、やった……ギリギリ勝てたぞ！\x02",
+        "#12512F#6POh, you did it … you gotta win!\x02",
     )
 
     CloseMessageWindow()
@@ -1513,7 +1513,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#11P#5Aほいっ！\x02",
+        "#11P#5AHo!\x02",
     )
 
 
@@ -1577,7 +1577,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#5Aノエルッ！\x02",
+        "#6P#5ANoel!\x02",
     )
 
 
@@ -1625,7 +1625,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#5P#5Aはあっ！！\x02",
+        "#5P#5AWhat! It is!\x02",
     )
 
 
@@ -1678,7 +1678,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#11P#5Aとりゃっ！\x02",
+        "#11P#5AWell!\x02",
     )
 
     Sound(809, 0, 100, 0)
@@ -1801,7 +1801,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#12P#5A行くよっ……！\x02",
+        "#12P#5AI'm going!\x02",
     )
 
 
@@ -1923,7 +1923,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#12P#5A──なんてね♪\x02",
+        "#12P#5A─ ─ Anyway ♪\x02",
     )
 
     SetChrSubChip(0xFE, 0x1)
@@ -2014,7 +2014,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#12P#5Aっと……！？\x02",
+        "#12P#5AUh ……! Is it?\x02",
     )
 
 
@@ -2116,7 +2116,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#5A#4Sうおおおおっ！#3S\x02",
+        "#5P#5A#4SOooooooooooooooo!#3S\x02",
     )
 
     Sound(809, 0, 100, 0)
@@ -2231,8 +2231,8 @@ def main():
         -1,
         0,
         (
-            "イリアたちの間を狙って強打\x01",      # 0
-            "ライン際へ山なりに落とす\x01",        # 1
+            "Battle between the Irians and smashed\x01",      # 0
+            "When dropping onto the mountain to the line\x01",        # 1
         )
     )
 
@@ -2251,7 +2251,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#13002F#5P#Nイリアさんチーム、ポイントです！\x02",
+        "#13002F#5P#NIria's team is the point!\x02",
     )
 
     CloseMessageWindow()
@@ -2270,8 +2270,8 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#12809F#5Pよっしゃあ！！\x01",
-            "さすがッス、イリアさん！！\x02",
+            "#12809F#5PGood-bye! It is!\x01",
+            "As expected, Ilya! It is!\x02",
         )
     )
 
@@ -2280,7 +2280,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#13400F#12Pあはは、こんなもんかしら。\x02",
+        "#13400F#12PHaha, I wonder if such a thing.\x02",
     )
 
     CloseMessageWindow()
@@ -2288,9 +2288,9 @@ def main():
     ChrTalk(
         0x13,
         (
-            "#12906F#12P#Nやれやれ。\x01",
-            "正面から行って、あのチームの\x01",
-            "身体能力に勝てると思ったのかい？\x02",
+            "#12906F#12P#NWhew.\x01",
+            "Go from the front and that team's\x01",
+            "Did you think that he could win the physical ability?\x02",
         )
     )
 
@@ -2318,10 +2318,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12506F#5Pいや、面目ない……\x02\x03",
-            "#12505F……それにしてもワジ。\x01",
-            "さっきの“ライ”っていうのは\x01",
-            "どういう意味があったんだ？\x02",
+            "#12506F#5PNo, nothing ….\x02\x03",
+            "#12505F…… Wadi in any case.\x01",
+            "The earlier \"Rai\" is\x01",
+            "What did you mean?\x02",
         )
     )
 
@@ -2330,12 +2330,12 @@ def main():
     ChrTalk(
         0x13,
         (
-            "#12900F#12P#Nいや、イリアさんが\x01",
-            "ブロックに来るだろうから、\x01",
-            "強打しても無駄だと思ってね。\x02\x03",
-            "#12904F“ライ”はライン……\x01",
-            "要するに、山なりに打って\x01",
-            "ライン際に落とせってことさ。\x02",
+            "#12900F#12P#NNo, Mr. Ilya\x01",
+            "Because it will come to the block,\x01",
+            "I think that it is useless to swipe.\x02\x03",
+            "#12904F\"Rye\" is a line …\x01",
+            "In short, beat the mountain\x01",
+            "Being able to drop it on line.\x02",
         )
     )
 
@@ -2349,8 +2349,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12506F#5Pあのな……いきなり言われて\x01",
-            "分かるわけないだろ！？\x02",
+            "#12506F#5PYou know … suddenly said\x01",
+            "You do not understand! Is it?\x02",
         )
     )
 
@@ -2359,9 +2359,9 @@ def main():
     ChrTalk(
         0x13,
         (
-            "#12909F#12P#Nあはは、ゴメンゴメン。\x02\x03",
-            "#12900Fま、気を取り直して\x01",
-            "なんとか逆転しようじゃないか。\x02",
+            "#12909F#12P#NHaha, I'm sorry.\x02\x03",
+            "#12900FWell, take care of yourself again\x01",
+            "Let's reverse it somehow.\x02",
         )
     )
 
@@ -2397,9 +2397,9 @@ def main():
     ChrTalk(
         0x12,
         (
-            "#13000F#5P……ゲームセット！！\x02\x03",
-            "#13009F４−１２で、\x01",
-            "イリアさんチームの勝ちです！\x02",
+            "#13000F#5P…… Game set! It is!\x02\x03",
+            "#13009F4-12,\x01",
+            "Iria's team is the winner!\x02",
         )
     )
 
@@ -2407,7 +2407,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12506F#6Pふう、完敗だなあ……\x02",
+        "#12506F#6PHuh, it is totally defeated ……\x02",
     )
 
     CloseMessageWindow()
@@ -2423,7 +2423,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#13002F#5P#Nロイドさんチーム、ポイントです！\x02",
+        "#13002F#5P#NLloyd's team is the point!\x02",
     )
 
     CloseMessageWindow()
@@ -2440,7 +2440,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12500F#6Pよしっ……！\x02",
+        "#12500F#6PAlright ……!\x02",
     )
 
     CloseMessageWindow()
@@ -2448,8 +2448,8 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#13406F#11Pあっちゃ〜……フェイントかあ。\x01",
-            "てっきり強打で来るのかと思ったわ。\x02",
+            "#13406F#11PTea … …. Feinto.\x01",
+            "I thought whether he would come with a strong bang.\x02",
         )
     )
 
@@ -2457,14 +2457,14 @@ def main():
 
     ChrTalk(
         0x11,
-        "#12806F#11Pいや〜、裏をかかれたッスね。\x02",
+        "#12806F#11PWell, it was the backside.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x13,
-        "#12902F#6P#Nフフ、上出来じゃない。\x02",
+        "#12902F#6P#NHuh, it is not good.\x02",
     )
 
     CloseMessageWindow()
@@ -2477,10 +2477,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12504F#11P……ああ、ワジが\x01",
-            "“ライ”って合図をくれたからさ。\x02\x03",
-            "#12502Fライン際が空いてるのに気づいて、\x01",
-            "とっさに切り替えたんだよ。\x02",
+            "#12504F#11P…… Oh, Wadi\x01",
+            "Because they gave me a signal \"Lai\".\x02\x03",
+            "#12502FNoticing that the line is empty,\x01",
+            "I switched quickly.\x02",
         )
     )
 
@@ -2489,9 +2489,9 @@ def main():
     ChrTalk(
         0x13,
         (
-            "#12904F#6P#Nフフ、突然だったから通じるものか\x01",
-            "若干不安だったんだけど。\x02\x03",
-            "#12909Fこれも愛の為せるワザってやつかな？\x02",
+            "#12904F#6P#NHuh, because it was sudden, can you understand?\x01",
+            "I was slightly worried.\x02\x03",
+            "#12909FThis is also a bad guy to let love do?\x02",
         )
     )
 
@@ -2502,9 +2502,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12506F#11Pバカ言ってるなって。\x02\x03",
-            "#12500Fよし、この調子で搦め手を混ぜつつ、\x01",
-            "イリアさんたちを翻弄していくぞ！\x02",
+            "#12506F#11PDo not be stupid.\x02\x03",
+            "#12500FAlright, while mixing hands with this condition,\x01",
+            "I will keep tossing around the Ilia!\x02",
         )
     )
 
@@ -2538,9 +2538,9 @@ def main():
     ChrTalk(
         0x12,
         (
-            "#13000F#5P……ゲームセット！！\x02\x03",
-            "#13009F１２−１０で、\x01",
-            "ロイドさんチームの勝ちです！！\x02",
+            "#13000F#5P…… Game set! It is!\x02\x03",
+            "#13009F12 - 10,\x01",
+            "Lloyd's team is the winner! It is!\x02",
         )
     )
 
@@ -2548,7 +2548,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12509F#6Pよし、なんとか勝ったぞ！！\x02",
+        "#12509F#6PAlright, I managed to win! It is!\x02",
     )
 
     CloseMessageWindow()
@@ -2581,7 +2581,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#6P#5Aふっ……！\x02",
+        "#6P#5APretty!\x02",
     )
 
 
@@ -2686,7 +2686,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#11P#5Aはいっ！\x02",
+        "#11P#5AYes!\x02",
     )
 
 
@@ -2786,7 +2786,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#5Aお返しだっ……！\x02",
+        "#5P#5AIn return … …!\x02",
     )
 
 
@@ -2891,7 +2891,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#11P#5A食らいなっ！\x02",
+        "#11P#5AI am disappointed!\x02",
     )
 
 
@@ -2945,7 +2945,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#6P#5Aライッ！\x02",
+        "#6P#5ARide!\x02",
     )
 
     Sleep(500)
@@ -3016,7 +3016,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#5A#4S……はあっ！#3S\x02",
+        "#5P#5A#4S……What!#3S\x02",
     )
 
     SetChrSubChip(0xFE, 0x1)
@@ -3123,7 +3123,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#5A#4S……はっ！#3S\x02",
+        "#6P#5A#4S…… Ha ha!#3S\x02",
     )
 
     SetChrSubChip(0xFE, 0x1)
@@ -3231,8 +3231,8 @@ def main():
         -1,
         0,
         (
-            "全力を込めて高くトス\x01",      # 0
-            "力を抑えて低くトス\x01",        # 1
+            "Together with all your strength\x01",      # 0
+            "Lower the force and lower the toss\x01",        # 1
         )
     )
 
@@ -3252,7 +3252,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#12902F#5P#Nフフ、お見事。\x02",
+        "#12902F#5P#NHuh, this is brilliant.\x02",
     )
 
     CloseMessageWindow()
@@ -3275,8 +3275,8 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#12806Fさ、さすがイリアさん……\x01",
-            "反則級の身体能力ッスね。\x02",
+            "#12806FWell, surely Iria … …\x01",
+            "It is a physical skill of a foul fight.\x02",
         )
     )
 
@@ -3285,8 +3285,8 @@ def main():
     ChrTalk(
         0x12,
         (
-            "#13006Fあんなとんでもない高さ……\x01",
-            "いくらなんでもブロックできませんよ。\x02",
+            "#13006FSuch a ridiculous height ……\x01",
+            "I can not block anything.\x02",
         )
     )
 
@@ -3296,7 +3296,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#13409F#6Pフフ、ざっとこんなもんよ。\x02",
+        "#13409F#6PHuh, this is roughly like this.\x02",
     )
 
     CloseMessageWindow()
@@ -3305,8 +3305,8 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#13400F#12P弟君も、あんな高いトス\x01",
-            "よく出してくれたわね。\x02",
+            "#13400F#12PMy brother also took such a high toss\x01",
+            "You gave me a lot.\x02",
         )
     )
 
@@ -3315,8 +3315,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12500F#5Pはは、イリアさんの身体能力なら\x01",
-            "いけると思ってましたから。\x02",
+            "#12500F#5PHaha, if Iría's physical ability\x01",
+            "Because I thought I could go.\x02",
         )
     )
 
@@ -3325,9 +3325,9 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#13409F#12Pフフ、えらいえらい♪\x02\x03",
-            "#13400Fさあ、このままゲームを\x01",
-            "一気に獲るわよッ！！\x02",
+            "#13409F#12Pふ ぶ, え い い え い ♪\x02\x03",
+            "#13400FNow leave the game as it is\x01",
+            "I will win it at once! It is!\x02",
         )
     )
 
@@ -3361,10 +3361,10 @@ def main():
     ChrTalk(
         0x13,
         (
-            "#12900F#5P#N……ゲームセット！！\x02\x03",
-            "#12904F１２−４で、\x01",
-            "ロイドチームの勝ち。\x01",
-            "フフ、お疲れ様。\x02",
+            "#12900F#5P#N…… Game set! It is!\x02\x03",
+            "#12904FAt 12 - 4,\x01",
+            "The Lloyd team wins.\x01",
+            "Huh, good job.\x02",
         )
     )
 
@@ -3374,7 +3374,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12509F#6Pよし、圧勝だ！！\x02",
+        "#12509F#6PAlright, it is a victory! It is!\x02",
     )
 
     CloseMessageWindow()
@@ -3392,8 +3392,8 @@ def main():
     ChrTalk(
         0x13,
         (
-            "#12902F#5P#Nフフ、残念。\x01",
-            "チャンスを掴みきれなかったね。\x02",
+            "#12902F#5P#NHuh, sorry.\x01",
+            "I could not grasp the opportunity.\x02",
         )
     )
 
@@ -3411,7 +3411,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#12806Fヒュウ、あっぶねえ……！\x02",
+        "#12806FHie, that's … …!\x02",
     )
 
     CloseMessageWindow()
@@ -3419,9 +3419,9 @@ def main():
     ChrTalk(
         0x12,
         (
-            "#13011Fでも、なんてジャンプ力……\x02\x03",
-            "#13006Fあんな高さからアタックされてたら\x01",
-            "さすがに防ぎきれませんでしたよ。\x02",
+            "#13011FBut what a jumping force ……\x02\x03",
+            "#13006FI was attacked from such a height\x01",
+            "As expected it could not be prevented.\x02",
         )
     )
 
@@ -3435,7 +3435,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#13406F#12Pあちゃー……ゴメン、弟君。\x02",
+        "#13406F#12POh yeah …… Sorry, my brother.\x02",
     )
 
     CloseMessageWindow()
@@ -3443,9 +3443,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12512Fいや、こちらこそ……\x01",
-            "まさかあんなに飛ぶなんて\x01",
-            "思ってもみませんでした。\x02",
+            "#12512FNo, thank you.\x01",
+            "No way I could fly so much\x01",
+            "I did not see it.\x02",
         )
     )
 
@@ -3454,9 +3454,9 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#12800Fハハ、女神は\x01",
-            "俺たちについてるみてえだな。\x01",
-            "一気にけしかけっぞ、ノエル！\x02",
+            "#12800FHaha, the goddess\x01",
+            "Let me know about you.\x01",
+            "Go ahead at once, Noel!\x02",
         )
     )
 
@@ -3464,7 +3464,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#13009Fはいっ！\x02",
+        "#13009FYes!\x02",
     )
 
     CloseMessageWindow()
@@ -3497,10 +3497,10 @@ def main():
     ChrTalk(
         0x13,
         (
-            "#12900F#5P……ゲームセット！！\x02\x03",
-            "#12904F９−１２で、\x01",
-            "ランディチームの勝ち。\x01",
-            "フフ、お疲れ様。\x02",
+            "#12900F#5P…… Game set! It is!\x02\x03",
+            "#12904F9 - 12,\x01",
+            "The Randy team wins.\x01",
+            "Huh, good job.\x02",
         )
     )
 
@@ -3508,7 +3508,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12506F#6Pくっ、負けてしまったか……\x02",
+        "#12506F#6PWell, have you lost? …\x02",
     )
 
     CloseMessageWindow()
@@ -3541,7 +3541,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#5A……はっ！\x02",
+        "#5P#5A…… Ha ha!\x02",
     )
 
 
@@ -3635,7 +3635,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#11P#5A速攻ォ！\x02",
+        "#11P#5AQuick haste!\x02",
     )
 
     Sound(809, 0, 100, 0)
@@ -3697,7 +3697,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#6P#5Aはいっ！\x02",
+        "#6P#5AYes!\x02",
     )
 
 
@@ -3794,7 +3794,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#11P#5A行けェ！\x02",
+        "#11P#5AGo!\x02",
     )
 
 
@@ -3847,7 +3847,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#11P#5Aこれならっ！？\x02",
+        "#11P#5AIn this case! Is it?\x02",
     )
 
     Sound(442, 0, 80, 0)
@@ -3902,7 +3902,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#5Aイリアさん！！\x02",
+        "#5P#5AIria! It is!\x02",
     )
 
     SetChrFlags(0xFE, 0x20)
@@ -3950,7 +3950,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#5P#5A#4Sはあああああっ！！#3S\x02",
+        "#5P#5A#4SHa ha! It is!#3S\x02",
     )
 
     Sound(809, 0, 100, 0)
@@ -4038,7 +4038,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#5Aイリアさん！！\x02",
+        "#5P#5AIria! It is!\x02",
     )
 
     SetChrFlags(0xFE, 0x20)
@@ -4082,7 +4082,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#5P#5A#4Sはああ……#3Sって、ありゃっ！？\x02",
+        "#5P#5A#4SOkay ….#3SWhat is it! Is it?\x02",
     )
 
     Sound(809, 0, 100, 0)

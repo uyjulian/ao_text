@@ -19,9 +19,9 @@ def main():
 
     BuildStringList((
         "e3110",                  # 0
-        "可憐な娘",               # 1
-        "白ハヤブサ",             # 2
-        "女性士官",               # 3
+        "Pretty girl",               # 1
+        "White falcon",             # 2
+        "Female officer",               # 3
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -91,9 +91,9 @@ def main():
     AnonymousTalk(
         0x102,
         (
-            "#00102F綺麗……\x02\x03",
-            "確か、ミシュラムじゃ\x01",
-            "毎晩上がっているのよね。\x02",
+            "#00102FBeautiful\x02\x03",
+            "Surely, Michelam\x01",
+            "You are going up every night.\x02",
         )
     )
 
@@ -110,9 +110,9 @@ def main():
     AnonymousTalk(
         0x103,
         (
-            "#00202F……綺麗です。\x02\x03",
-            "確か、ミシュラムじゃ\x01",
-            "毎晩上がっているんでしたね。\x02",
+            "#00202F……Is beautiful.\x02\x03",
+            "Surely, Michelam\x01",
+            "You are going up every night.\x02",
         )
     )
 
@@ -127,9 +127,9 @@ def main():
     AnonymousTalk(
         0x104,
         (
-            "#00309Fはは、たーまやーってか。\x02\x03",
-            "ミシュラムじゃ\x01",
-            "毎晩やってんだよなあ。\x02",
+            "#00309FHaha, I'm okay?\x02\x03",
+            "Michelam is\x01",
+            "I am doing every night.\x02",
         )
     )
 
@@ -146,9 +146,9 @@ def main():
     AnonymousTalk(
         0x109,
         (
-            "#10102Fふふ、綺麗ですね。\x02\x03",
-            "確か、ミシュラムじゃ\x01",
-            "毎晩上がってるんですよね。\x02",
+            "#10102FHehe, it is beautiful.\x02\x03",
+            "Surely, Michelam\x01",
+            "It is up every night.\x02",
         )
     )
 
@@ -165,9 +165,9 @@ def main():
     AnonymousTalk(
         0x105,
         (
-            "#10302Fフフ、なかなか見事だね。\x02\x03",
-            "こっちじゃ毎晩見れる\x01",
-            "演出らしいけど。\x02",
+            "#10302FHuh, it's pretty brilliant.\x02\x03",
+            "You can watch it every night\x01",
+            "It seems to be directed.\x02",
         )
     )
 
@@ -182,8 +182,8 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00002Fはは、タイミングよく\x01",
-            "見ることができたってとこか。\x02",
+            "#00002FHaha, timely\x01",
+            "I was able to see it.\x02",
         )
     )
 

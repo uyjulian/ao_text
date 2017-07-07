@@ -19,34 +19,34 @@ def main():
 
     BuildStringList((
         "c130b",                  # 0
-        "戦鬼シグムント",         # 1
-        "警備員ポール",           # 2
-        "受付嬢ランフィ",         # 3
-        "ロバーツ主任",           # 4
-        "ヨナ",                   # 5
-        "警備員ビルス",           # 6
-        "警備員ウォング",         # 7
-        "研究員クレイ",           # 8
-        "研究員ダビッド",         # 9
-        "貿易商リゼロ",           # 10
-        "ＩＢＣ客Ａ",             # 11
+        "Kibun Sigmund",         # 1
+        "Security guard Paul",           # 2
+        "Receptionist Lanfi",         # 3
+        "Roberts boss",           # 4
+        "Yona",                   # 5
+        "Security guards",           # 6
+        "Security guard wong",         # 7
+        "Researcher Clay",           # 8
+        "Researcher David",         # 9
+        "Trade quotient rezero",           # 10
+        "IBC customer A",             # 11
         "bc130b",                 # 12
-        "中央広場",               # 13
-        "西通り",                 # 14
-        "行政区",                 # 15
-        "住宅街",                 # 16
-        "歓楽街",                 # 17
-        "東通り",                 # 18
-        "旧市街",                 # 19
-        "港湾区",                 # 20
-        "ＩＢＣ",                 # 21
-        "駅前通り",               # 22
-        "裏通り",                 # 23
-        "ウルスラ間道",           # 24
-        "東クロスベル街道",       # 25
-        "西クロスベル街道",       # 26
-        "マインツ山道",           # 27
-        "オルキスタワー",         # 28
+        "Central square",               # 13
+        "Nishi dori",                 # 14
+        "Administrative district",                 # 15
+        "Residential area",                 # 16
+        "Entertainment district",                 # 17
+        "East Street",                 # 18
+        "old Town",                 # 19
+        "Harbor district",                 # 20
+        "IBC",                 # 21
+        "Beside the station",               # 22
+        "Back street",                 # 23
+        "Ursula interchange",           # 24
+        "East Crossbell Highway",       # 25
+        "West Crossbell Highway",       # 26
+        "Mainz Mountain Road",           # 27
+        "Orchis Tower",         # 28
     ))
 
     ATBonus("ATBonus_508", 100, 5, 1, 5, 1, 5, 1, 5, 5, 0, 0, 0, 1, 0, 0, 0)
@@ -121,22 +121,22 @@ def main():
 
     DeclEvent(0x0000, 0, 5,   0.0,                   -45.0,                 -5.0,                  625.0,                 [0.10000000149011612,  -0.0,                  0.0,                   0.0,                   -0.0,                  0.20000000298023224,   -0.0,                  0.0,                   0.0,                   -0.0,                  0.20000000298023224,   0.0,                   -0.0,                  9.0,                   1.0,                   1.0])
 
-    PlaceName(-133.72000122070312, 0.0, -187.47999572753906, 0x0000, 0x0000, "中央広場")
-    PlaceName(-223.1999969482422, 0.0, -181.35000610351562, 0x0000, 0x0000, "西通り")
-    PlaceName(-96.97000122070312, 0.0, -66.3499984741211, 0x0000, 0x0000, "行政区")
-    PlaceName(-306.2300109863281, 0.0, -79.95999908447266, 0x0000, 0x0000, "住宅街")
-    PlaceName(-206.8699951171875, 0.0, -90.8499984741211, 0x0000, 0x0000, "歓楽街")
-    PlaceName(-23.139999389648438, 0.0, -218.77999877929688, 0x0000, 0x0000, "東通り")
-    PlaceName(25.18000030517578, 0.0, -293.6400146484375, 0x0000, 0x0000, "旧市街")
-    PlaceName(14.970000267028809, 0.0, -128.9499969482422, 0x0000, 0x0000, "港湾区")
-    PlaceName(-20.420000076293945, 0.0, -1.0199999809265137, 0x0000, 0x0000, "ＩＢＣ")
-    PlaceName(-118.41000366210938, 0.0, -281.3900146484375, 0x0000, 0x0000, "駅前通り")
-    PlaceName(-182.3699951171875, 0.0, -139.83999633789062, 0x0000, 0x0000, "裏通り")
-    PlaceName(-122.48999786376953, 0.0, -323.5799865722656, 0x0000, 0x0000, "ウルスラ間道")
-    PlaceName(50.36000061035156, 0.0, -199.72999572753906, 0x0000, 0x0000, "東クロスベル街道")
-    PlaceName(-292.6199951171875, 0.0, -183.38999938964844, 0x0000, 0x0000, "西クロスベル街道")
-    PlaceName(-284.45001220703125, 0.0, -47.290000915527344, 0x0000, 0x0000, "マインツ山道")
-    PlaceName(-107.0, 0.0, 114.0, 0x0000, 0x0000, "オルキスタワー")
+    PlaceName(-133.72000122070312, 0.0, -187.47999572753906, 0x0000, 0x0000, "Central square")
+    PlaceName(-223.1999969482422, 0.0, -181.35000610351562, 0x0000, 0x0000, "Nishi dori")
+    PlaceName(-96.97000122070312, 0.0, -66.3499984741211, 0x0000, 0x0000, "Administrative district")
+    PlaceName(-306.2300109863281, 0.0, -79.95999908447266, 0x0000, 0x0000, "Residential area")
+    PlaceName(-206.8699951171875, 0.0, -90.8499984741211, 0x0000, 0x0000, "Entertainment district")
+    PlaceName(-23.139999389648438, 0.0, -218.77999877929688, 0x0000, 0x0000, "East Street")
+    PlaceName(25.18000030517578, 0.0, -293.6400146484375, 0x0000, 0x0000, "old Town")
+    PlaceName(14.970000267028809, 0.0, -128.9499969482422, 0x0000, 0x0000, "Harbor district")
+    PlaceName(-20.420000076293945, 0.0, -1.0199999809265137, 0x0000, 0x0000, "IBC")
+    PlaceName(-118.41000366210938, 0.0, -281.3900146484375, 0x0000, 0x0000, "Beside the station")
+    PlaceName(-182.3699951171875, 0.0, -139.83999633789062, 0x0000, 0x0000, "Back street")
+    PlaceName(-122.48999786376953, 0.0, -323.5799865722656, 0x0000, 0x0000, "Ursula interchange")
+    PlaceName(50.36000061035156, 0.0, -199.72999572753906, 0x0000, 0x0000, "East Crossbell Highway")
+    PlaceName(-292.6199951171875, 0.0, -183.38999938964844, 0x0000, 0x0000, "West Crossbell Highway")
+    PlaceName(-284.45001220703125, 0.0, -47.290000915527344, 0x0000, 0x0000, "Mainz Mountain Road")
+    PlaceName(-107.0, 0.0, 114.0, 0x0000, 0x0000, "Orchis Tower")
     PlaceName(-163.66000366210938, 0.0, -206.52999877929688, 0x0000, 0x0051, "")
     PlaceName(-90.51000213623047, 0.0, -171.14999389648438, 0x0000, 0x0054, "")
     PlaceName(-130.32000732421875, 0.0, -217.4199981689453, 0x0000, 0x0057, "")
@@ -500,9 +500,9 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#3856V#40W──フフ。\x01",
-            "なかなかいいタイミングで\x01",
-            "駆けつけてくるものだ。\x02",
+            "#3856V#40W── Huff.\x01",
+            "With a good timing\x01",
+            "It is something to come around.\x02",
         )
     )
 
@@ -531,7 +531,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00311F叔父貴、てめえ……\x02",
+        "#6P#00311FUncle Takara, you are … …\x02",
     )
 
     CloseMessageWindow()
@@ -539,10 +539,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#N#00006Fシグムント・オルランド……\x01",
-            "一体どういうつもりだ。\x02\x03",
-            "#00010Fクロスベル市でこんな事を！\x01",
-            "罪もない人々を踏みにじって……！\x02",
+            "#12P#N#00006FSigmund Orlando …\x01",
+            "What on earth does it mean?\x02\x03",
+            "#00010FDo this in Crossbell City!\x01",
+            "Trample on innocent people … …!\x02",
         )
     )
 
@@ -553,8 +553,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#N#00107Fこ、これも帝国政府の\x01",
-            "差し金だと言うんですか……！？\x02",
+            "#6P#N#00107FThis, too, of the Imperial Government\x01",
+            "Do you say that it is a deposit …?! Is it?\x02",
         )
     )
 
@@ -565,10 +565,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04504F#5Pクク、言っただろう。\x01",
-            "契約についてはノーコメントと。\x02\x03",
-            "#04500Fそれよりランドルフ……\x01",
-            "《ベルゼルガー#12Rブ レー ド ラ イ フ ル#》はどうした？\x02",
+            "#04504F#5PWell, I guess.\x01",
+            "No contract and no comment.\x02\x03",
+            "#04500FRandolph than that …\x01",
+            "\"Bergerger#12RBraided life#\"What's up?\x02",
         )
     )
 
@@ -577,10 +577,10 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00306F……せっかく直したのに\x01",
-            "アンタの娘に壊されてな。\x02\x03",
-            "#00311Fだが、あれが無くたって\x01",
-            "アンタは俺がここで止める……\x02",
+            "#6P#00306F…… I fixed my punctuation\x01",
+            "You have been broken by your daughter.\x02\x03",
+            "#00311FBut that was not there\x01",
+            "You stop me here …\x02",
         )
     )
 
@@ -638,8 +638,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00303F《赤き死神》でも\x01",
-            "《闘神の息子》でもなく……\x02",
+            "#6P#00303FEven \"Red Death God\"\x01",
+            "\"Son of the goddess\" Not too … …\x02",
         )
     )
 
@@ -662,8 +662,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00307F#6P#4S特務支援課のメンバー、\x01",
-            "ランディ・オルランドとして！\x02",
+            "#00307F#6P#4SMembers of the Special Affairs Division,\x01",
+            "As Randy Orlando!\x02",
         )
     )
 
@@ -672,14 +672,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000Fランディ……\x02",
+        "#00000FRandy …\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00202F……ランディさん。\x02",
+        "#00202F…… Randy.\x02",
     )
 
     CloseMessageWindow()
@@ -687,9 +687,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04504F#5Pフフ、抗#2Rあらが#うことに決めたか。\x02\x03",
-            "#04501Fならば、その言葉の重みに\x01",
-            "釣り合うだけの証を見せてみろ……\x02",
+            "#04504F#5PGhost#2RArka#Have you decided to do that?\x02\x03",
+            "#04501FThen, to the weight of that word\x01",
+            "Show me a testimony that just balances … …\x02",
         )
     )
 
@@ -739,7 +739,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04507F#5P#30A#5Sこの《赤の戦鬼#8Rオ ー ガ ・ ロ ッ ソ#》……\x02",
+        "#04507F#5P#30A#5SThis \"red war demon#8ROga · Rosso#\"… ….\x02",
     )
 
     Sleep(4000)
@@ -754,7 +754,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04512F#5S#18Aシグムントを退#2Rしりぞ#けてな！\x02",
+        "#04512F#5S#18ARetire Sigmund#2RA number#Wish list!\x02",
     )
 
     CloseMessageWindow()
@@ -826,14 +826,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00310Fくっ……\x02",
+        "#12P#00310FDamn\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#12P#N#10110Fな、なんて闘気……\x02",
+        "#12P#N#10110FWhat a motive ……\x02",
     )
 
     CloseMessageWindow()
@@ -842,7 +842,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#N#10310F……本当に人間かい？\x02",
+        "#12P#N#10310FAre you really human?\x02",
     )
 
     CloseMessageWindow()
@@ -854,10 +854,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04504F#5P#Nクク、貴様らが届けば\x01",
-            "ここで退#2Rひ#いてやってもいい……\x02\x03",
-            "#04502Fだが、こちらも仕事#4Rビジネス#でな。\x02\x03",
-            "制限時間は用意させてもらうぞ？\x02",
+            "#04504F#5P#NKuku, if you deliver\x01",
+            "Retire here#2RFacial#You can do it ……\x02\x03",
+            "#04502FHowever, I also work here#4Rbusiness#You know.\x02\x03",
+            "I will have time limit prepared.\x02",
         )
     )
 
@@ -868,7 +868,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00010Fクッ、何の……！？\x02",
+        "#12P#00010FWhat, what …!! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -876,8 +876,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#12P#00307F分からねぇが……\x01",
-            "全力でやるしかねえッ！！\x02",
+            "#12P#00307FI do not know …\x01",
+            "I only do it with my best! It is!\x02",
         )
     )
 
@@ -906,12 +906,12 @@ def main():
         -1,
         0,
         (
-            "制限時間内に勝利した\x01",      # 0
-            "ＨＰを５０％削った\x01",        # 1
-            "ＨＰを２５％削った\x01",        # 2
-            "ＨＰを１０％削った\x01",        # 3
-            "何もしないで時間ぎれ\x01",      # 4
-            "負け\x01",                      # 5
+            "I won within the time limit\x01",      # 0
+            "We reduced HP by 50\x01",        # 1
+            "We reduced HP by 25\x01",        # 2
+            "We reduced HP by 10\x01",        # 3
+            "Take the time without doing anything\x01",      # 4
+            "Defeat\x01",                      # 5
         )
     )
 
@@ -1143,10 +1143,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04505F#30W……驚いたな。\x02\x03",
-            "#04504Fクク……\x01",
-            "やはり兄貴の血を引いてるだけは\x01",
-            "あるということか……\x02",
+            "#5P#04505F#30W… … I was surprised.\x02\x03",
+            "#04504FPowered by Translate\x01",
+            "As I thought, I only drew my brother's blood\x01",
+            "Is there a … ….\x02",
         )
     )
 
@@ -1155,10 +1155,10 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#12P#00306Fフン……親父は関係ねぇ。\x02\x03",
-            "#00303Fどうやら侮って\x01",
-            "手を抜いてたみてぇだが……\x01",
-            "勝負は勝負だ。\x02",
+            "#12P#00306FHun … … My father is not concerned.\x02\x03",
+            "#00303FApparently despising\x01",
+            "I tried to pull out my hand … …\x01",
+            "The game is a game.\x02",
         )
     )
 
@@ -1168,7 +1168,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00307F#4Sとっとと退いてもらおうか！\x02",
+        "#12P#00307F#4SWould you let me retreat soon!\x02",
     )
 
     CloseMessageWindow()
@@ -1176,9 +1176,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04504F#30Wフ……いいだろう。\x02\x03",
-            "#04500Fただし仕事#4Rビジネス#の仕上げだけは\x01",
-            "させてもらうぞ……？\x02",
+            "#5P#04504F#30WFu … It would be nice.\x02\x03",
+            "#04500FBut work#4Rbusiness#Only the finish of\x01",
+            "I will let you …?\x02",
         )
     )
 
@@ -1186,7 +1186,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00305Fなに……？\x02",
+        "#12P#00305Fwhat……?\x02",
     )
 
     CloseMessageWindow()
@@ -1209,7 +1209,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04502Fクク、時間だ──\x02",
+        "#04502FIt's time, it's time\x02",
     )
 
     CloseMessageWindow()
@@ -1223,9 +1223,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04502Fほう、悪くない。\x02\x03",
-            "仲間との連携も\x01",
-            "それなりに出来ているようだ。\x02",
+            "#5P#04502FIt is not bad.\x02\x03",
+            "Collaboration with friends is also\x01",
+            "It seems like it is.\x02",
         )
     )
 
@@ -1234,8 +1234,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#12P#00307Fハッ……\x01",
-            "当たり前だっつーの！\x02",
+            "#12P#00307FHappy\x01",
+            "It's natural!\x02",
         )
     )
 
@@ -1244,8 +1244,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00010F#N何とかこのまま\x01",
-            "全員で押し切って──\x02",
+            "#12P#00010F#NSomehow this way\x01",
+            "Push out with everyone ──\x02",
         )
     )
 
@@ -1258,8 +1258,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04502Fクク、惜しいな。\x01",
-            "時間のようだ──\x02",
+            "#04502FI am regrettable.\x01",
+            "It seems time is ─\x02",
         )
     )
 
@@ -1274,9 +1274,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04503Fまあ、こんな所か。\x02\x03",
-            "#04500F非力ながらも食い下がった根性は\x01",
-            "誉めてやろう。\x02",
+            "#5P#04503FWell, this is the place.\x02\x03",
+            "#04500FThe guts that despaired powerlessly\x01",
+            "I will compliment you.\x02",
         )
     )
 
@@ -1297,7 +1297,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00006F#Nくっ……はあはあ……\x02",
+        "#12P#00006F#NCut … … Ha ha … ….\x02",
     )
 
     CloseMessageWindow()
@@ -1317,7 +1317,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00310Fこの化物オヤジが……\x02",
+        "#12P#00310FThis monster Oyaji …\x02",
     )
 
     CloseMessageWindow()
@@ -1328,7 +1328,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04502Fさて、時間のようだ──\x02",
+        "#04502Fさて、It seems time is ─\x02",
     )
 
     CloseMessageWindow()
@@ -1342,9 +1342,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04503Fフン、予想通りか……\x02\x03",
-            "#04501Fシャーリィの話を聞いた限り、\x01",
-            "もう少し粘ると思ったが。\x02",
+            "#5P#04503FHun, as expected ……\x02\x03",
+            "#04501FAs long as I heard of Charlie's story,\x01",
+            "I thought it would be a bit more sticky.\x02",
         )
     )
 
@@ -1359,7 +1359,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00310F……クソッ………\x02",
+        "#12P#00310F… … damn … … …\x02",
     )
 
     CloseMessageWindow()
@@ -1374,8 +1374,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#12P#N……駄目だ……\x01",
-            "今の俺たち程度じゃ……\x02",
+            "#00006F#12P#N……It is useless……\x01",
+            "It is about the current we … …\x02",
         )
     )
 
@@ -1387,7 +1387,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04502Fさて、時間のようだ──\x02",
+        "#04502Fさて、It seems time is ─\x02",
     )
 
     CloseMessageWindow()
@@ -1399,10 +1399,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04507F#30W……貴様ら……\x01",
-            "やる気があるのか？\x02\x03",
-            "カカシのように立っているだけなら\x01",
-            "まとめて叩き斬るぞ……？\x02",
+            "#5P#04507F#30W… …. you guys …\x01",
+            "Are you motivated?\x02\x03",
+            "If only you are standing like Kakashi\x01",
+            "You're going to knock it all together … …?\x02",
         )
     )
 
@@ -1410,7 +1410,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00011F#Nくっ……\x02",
+        "#12P#00011F#NDamn\x02",
     )
 
     CloseMessageWindow()
@@ -1419,7 +1419,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00306F怒らせちまったか……\x02",
+        "#12P#00306FDid you get angry …?\x02",
     )
 
     CloseMessageWindow()
@@ -1436,7 +1436,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P#04504F──フン、まあいい。\x02",
+        "#5P#04504F── Hun, oh well.\x02",
     )
 
     CloseMessageWindow()
@@ -1448,8 +1448,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04502F貴様らの無為のツケ、\x01",
-            "阿呆のように眺めておけ。\x02",
+            "#04502FYour untimely curiosity,\x01",
+            "Just look like a fool.\x02",
         )
     )
 

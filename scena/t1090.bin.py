@@ -19,9 +19,9 @@ def main():
 
     BuildStringList((
         "t1090",                  # 0
-        "キーア",                 # 1
-        "ティオ",                 # 2
-        "エリィ",                 # 3
+        "Keya",                 # 1
+        "Tio",                 # 2
+        "Erie",                 # 3
     ))
 
     AddCharChip((
@@ -265,7 +265,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01109Fフカフカベッド、キモチいいよー！\x02",
+        "#01109FFukafukabedo, good morning!\x02",
     )
 
     CloseMessageWindow()
@@ -336,8 +336,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#00202Fこのベッドには心惹かれますが……\x02\x03",
-            "#00206F……とりあえずは荷解きですね。\x02",
+            "#00202FI am attracted to this bed … ….\x02\x03",
+            "#00206F…… In the meantime, is unpacking.\x02",
         )
     )
 
@@ -393,8 +393,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#01109F見て見て、ティオ！\x01",
-            "すっごくフカフカだよー！\x02",
+            "#01109F見て見て、Tio！\x01",
+            "It's so fluffy!\x02",
         )
     )
 
@@ -403,9 +403,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#00202Fこのベッド、かなりいい素材が\x01",
-            "使われているみたいですね。\x02\x03",
-            "#00204Fせっかくです、私も……\x02",
+            "#00202FThis bed, pretty nice material\x01",
+            "It seems to be used.\x02\x03",
+            "#00204FI'm puzzling, myself ….\x02",
         )
     )
 
@@ -438,8 +438,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F２人して騒ぐと\x01",
-            "さすがにうるさいと思うぞ……？\x02",
+            "#00006FIf you make two people and make a noise\x01",
+            "Indeed I think it is noisy … ….?\x02",
         )
     )
 
@@ -448,7 +448,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#00206F……無論、冗談です。\x02",
+        "#00206F… … Of course, it is a joke.\x02",
     )
 
     CloseMessageWindow()
@@ -460,7 +460,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F（ぜってぇ本気だったろ……）\x02",
+        "#00306F(___ ___ ___ 0\x02",
     )
 
     CloseMessageWindow()
@@ -520,10 +520,10 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00100Fまさかセシルさんたちが\x01",
-            "来ているなんて驚いたわね。\x02\x03",
-            "#00106Fこういう事を仕組むのは\x01",
-            "ベルらしいというかなんというか……\x02",
+            "#00100FNo way Cecil's\x01",
+            "I was surprised that he came.\x02\x03",
+            "#00106FIt is because\x01",
+            "It is said that it seems to be a Bell or what ….\x02",
         )
     )
 
@@ -532,8 +532,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10302Fフフ、おかげでいきなり\x01",
-            "脅威の男女比率になったね。\x02",
+            "#10302FHuh, thanks in advance\x01",
+            "It became the men and women ratio of the threat.\x02",
         )
     )
 
@@ -542,8 +542,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009Fでも、嬉しいサプライズ\x01",
-            "だったのは確かだよな。\x02",
+            "#00009FBut, a nice surprise\x01",
+            "It was certain that it was.\x02",
         )
     )
 
@@ -552,10 +552,10 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00109Fま、まあそうだけど。\x02\x03",
-            "#00106F子供の頃からなにかと\x01",
-            "驚かされてばっかりだから、\x01",
-            "ちょっと悔しいのよね。\x02",
+            "#00109FWell, that's right.\x02\x03",
+            "#00106FSomething since childhood\x01",
+            "Since it is only surprised,\x01",
+            "It is a bit frustrating.\x02",
         )
     )
 
@@ -569,10 +569,10 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00100Fそうそう、少し前に\x01",
-            "ベルから聞いたんだけど、\x01",
-            "ビーチはとても綺麗な所みたい。\x02\x03",
-            "#00109Fふふ、楽しみにしておかないとね。\x02",
+            "#00100FOh yeah, a while ago\x01",
+            "I heard it from the bell,\x01",
+            "The beach looks very beautiful.\x02\x03",
+            "#00109FHehe, I have to look forward to it.\x02",
         )
     )
 

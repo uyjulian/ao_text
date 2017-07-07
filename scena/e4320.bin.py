@@ -19,12 +19,12 @@ def main():
 
     BuildStringList((
         "e4320",                  # 0
-        "猟兵ガレス",             # 1
-        "猟兵ザックス",           # 2
-        "メルカバ",               # 3
-        "ベイオウルフ",           # 4
-        "ダミー",                 # 5
-        "SE制御",                 # 6
+        "Hunting soldier Gareth",             # 1
+        "Hunter Sachs",           # 2
+        "Mercapa",               # 3
+        "Beowulf",           # 4
+        "dummy",                 # 5
+        "SE control",                 # 6
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -850,7 +850,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5Pチッ……やりやがるな。\x02",
+        "#5PTsu …… Do not panic.\x02",
     )
 
     CloseMessageWindow()
@@ -858,8 +858,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5Pアンカーで捕まえて白兵戦に\x01",
-            "持ち込んでやるつもりだったが。\x02",
+            "#5PCaught by anchor and fight melee\x01",
+            "I intended to bring it in.\x02",
         )
     )
 
@@ -868,8 +868,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P我らもまだ、空中戦の練度は\x01",
-            "不足しているという事だろう。\x02",
+            "#11PWe still have the skill of air combat\x01",
+            "That would be missing.\x02",
         )
     )
 
@@ -878,8 +878,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11Pまあ、後はシグムント様たちに\x01",
-            "任せておけばいい。\x02",
+            "#11PWell, later on to Sigmunds\x01",
+            "Leave it to me.\x02",
         )
     )
 
@@ -888,8 +888,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5Pヘッ……\x01",
-            "お嬢と副団長が羨ましいぜ。\x02",
+            "#5PHead …\x01",
+            "My lady and deputy headmaster are envious.\x02",
         )
     )
 
@@ -898,8 +898,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5Pあんな凄そうな場所で\x01",
-            "存分にやり合えるんだからな。\x02",
+            "#5PIn such a terrible place\x01",
+            "You can get to know each other.\x02",
         )
     )
 

@@ -19,8 +19,8 @@ def main():
 
     BuildStringList((
         "e0111",                  # 0
-        "シャーリィ",             # 1
-        "猟兵ガレス",             # 2
+        "Charlie",             # 1
+        "Hunting soldier Gareth",             # 2
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -129,9 +129,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10302Fフフ、さすが豪華だねぇ。\x02\x03",
-            "猟兵団ってのは\x01",
-            "そんなに儲かるのかい？\x02",
+            "#12P#10302FHuh, it's gorgeous as expected.\x02\x03",
+            "What is a hunting soldier?\x01",
+            "Do you make so much money?\x02",
         )
     )
 
@@ -142,9 +142,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04600F#5Pうーん、ウチは特別かな？\x02\x03",
-            "#04604F資産家や大貴族のお得意様も多いし、\x01",
-            "１千万ミラとか普通に入ってくるよ。\x02",
+            "#04600F#5PWell, is not it special?\x02\x03",
+            "#04604FMany wealthy people and big noble members,\x01",
+            "It will come in as normal as 10 million mirrors.\x02",
         )
     )
 
@@ -152,14 +152,14 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#10305Fヒュウ♪\x02",
+        "#12P#10305FHu ♪\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#12P#00011Fそんなに……\x02",
+        "#12P#00011Fso much……\x02",
     )
 
     CloseMessageWindow()
@@ -167,10 +167,10 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F……トップクラスの猟兵を抱えたら\x01",
-            "それなりに維持費もかかるしな。\x02\x03",
-            "#00301F当然、武装は最新のものばかり──\x01",
-            "そろそろ飛行船でも手に入れたかよ？\x02",
+            "#00303F…… If you hold a top class hunter\x01",
+            "It costs as much maintenance cost as it is.\x02\x03",
+            "#00301FNaturally, the arms are the latest only - ─\x01",
+            "Have you gotten an airship soon?\x02",
         )
     )
 
@@ -179,12 +179,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04604F#5Pあはは、それはまだ。\x02\x03",
-            "#04602Fやっぱり頑丈さだと\x01",
-            "リベールの軍用艇がいいんだけど\x01",
-            "なかなか裏に流れないからねぇ。\x02\x03",
-            "#04609Fま、いざとなったら潜入して\x01",
-            "奪っちゃうって手もあるんだけど♪\x02",
+            "#04604F#5PHaha, it is still.\x02\x03",
+            "#04602FAfter all it is robust\x01",
+            "I'd like a military boat of Libert, but\x01",
+            "It's hard to get behind.\x02\x03",
+            "#04609FWell, at the time of emergency, infiltrate\x01",
+            "There are hands to take away though ♪\x02",
         )
     )
 
@@ -195,14 +195,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00008F（……冗談だよな？）\x02",
+        "#12P#00008F(… are you kidding?)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00306F（ま、そういう事にしとけ。）\x02",
+        "#00306F(Well, do not do that.\x02",
     )
 
     CloseMessageWindow()

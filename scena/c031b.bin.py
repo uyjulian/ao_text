@@ -19,8 +19,8 @@ def main():
 
     BuildStringList((
         "c031b",                  # 0
-        "ヘルマー",               # 1
-        "ジョアンナ",             # 2
+        "Helmer",               # 1
+        "Joanna",             # 2
     ))
 
     AddCharChip((
@@ -153,9 +153,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "旦那様は最近お忙しく、\x01",
-            "屋敷に帰られずに市庁の方で\x01",
-            "お休みになる事も多かったのですが……\x02",
+            "Husband is busy recently,\x01",
+            "At the city office without returning to the mansion\x01",
+            "Although there were many things to be absent … …\x02",
         )
     )
 
@@ -164,9 +164,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "先ほど連絡がありまして、\x01",
-            "今日は久しぶりに屋敷に\x01",
-            "お戻りになられるようです。\x02",
+            "I have contacted you earlier,\x01",
+            "Today is the first time in a while\x01",
+            "It seems to come back.\x02",
         )
     )
 
@@ -175,9 +175,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "明日の本会議に向けて、\x01",
-            "是非とも英気を養って\x01",
-            "いただきたいですな。\x02",
+            "For tomorrow's plenary session,\x01",
+            "By all means nourish your spirit\x01",
+            "I'd like to.\x02",
         )
     )
 
@@ -191,9 +191,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今宵は旦那様のために、\x01",
-            "栄養価の高いメニューを\x01",
-            "用意させていただいております。\x02",
+            "Tonight for my husband,\x01",
+            "Menu with nutritious value\x01",
+            "We are preparing.\x02",
         )
     )
 
@@ -202,8 +202,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "明日の本会議に向けて、是非とも\x01",
-            "英気を養っていただきたいですな。\x02",
+            "Towards tomorrow's plenary session, by all means\x01",
+            "英気を養ってI'd like to.\x02",
         )
     )
 
@@ -226,9 +226,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今日の晩餐は、\x01",
-            "旦那様お気に入りの\x01",
-            "にがトマト料理です。\x02",
+            "Today's supper,\x01",
+            "My husband's favorite\x01",
+            "It is a tomato dish.\x02",
         )
     )
 
@@ -237,9 +237,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "にがトマトのサラダ、\x01",
-            "にがトマトソースのスパゲッティ、\x01",
-            "にがトマト１００％ジュース……\x02",
+            "Tomato salad,\x01",
+            "Spaghetti with tomato sauce,\x01",
+            "Tomato 100 juice … ….\x02",
         )
     )
 
@@ -248,8 +248,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012F（う、うわあ……\x01",
-            "  徹底したメニューだなあ。）\x02",
+            "#00012F(Well, I suppose …\x01",
+            "It's a thorough menu. )\x02",
         )
     )
 
@@ -258,8 +258,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F（おじいさま、\x01",
-            "  そこまで好きだったなんて……）\x02",
+            "#00106F(Grandfather,\x01",
+            "I liked that much … …)\x02",
         )
     )
 
@@ -273,8 +273,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今日は旦那様の好きな、\x01",
-            "にがトマト料理です。\x02",
+            "Today is my husband's favorite,\x01",
+            "It is a tomato dish.\x02",
         )
     )
 
@@ -283,9 +283,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "健康にいいらしいですし、\x01",
-            "私もガマンして\x01",
-            "食べようと思います……\x02",
+            "It seems to be good for your health,\x01",
+            "I am also gaming.\x01",
+            "I think I will eat … ….\x02",
         )
     )
 
@@ -293,7 +293,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106Fム、ムリしないでね……？\x02",
+        "#00106FDo not touch it … ….?\x02",
     )
 
     CloseMessageWindow()

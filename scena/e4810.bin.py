@@ -19,7 +19,7 @@ def main():
 
     BuildStringList((
         "e4810",                  # 0
-        "SE制御",                 # 1
+        "SE control",                 # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -88,14 +88,14 @@ def main():
     OP_71(0x1, 0x0, 0x12C, 0x0, 0x0)
     BeginChrThread(0x8, 1, 0, 4)
     OP_79(0x1)
-    SetChrName("少年")
+    SetChrName("boy")
 
     AnonymousTalk(
         0xFF,
         (
-            "#04804F《星辰#4Rアストラル#のコード》の\x01",
-            "インストールを完了……\x02\x03",
-            "#04802Fそれじゃあ、始めようかな。\x02",
+            "#04804FHoshin#4RAstral#Code of\x01",
+            "Complete installation …\x02\x03",
+            "#04802FWell then, I guess.\x02",
         )
     )
 
@@ -119,17 +119,17 @@ def main():
     FadeToBright(2000, 16777215)
     OP_0D()
     Sleep(500)
-    SetChrName("少年")
+    SetChrName("boy")
 
     AnonymousTalk(
         0xFF,
         (
-            "#04803F#30W──位相空間にアクセス。\x01",
-            "導力ネットの全領域をサーチ開始。\x02\x03",
-            "複数ルートからの侵入経路を確保。\x02\x03",
-            "#04801F第１、第２、第３防壁をクリア……\x02\x03",
-            "ロジックキーの解析に成功。\x01",
-            "メイン端末への最終防壁を攻略……\x02",
+            "#04803F#30W─ ─ Access to topological space.\x01",
+            "Start searching the whole area of the power net.\x02\x03",
+            "Secure intrusion route from multiple routes.\x02\x03",
+            "#04801FFirst, second and third barriers clear …\x02\x03",
+            "Successful analysis of logic key.\x01",
+            "Capture the final barrier to the main terminal …\x02",
         )
     )
 
@@ -154,15 +154,15 @@ def main():
     OP_0D()
     BeginChrThread(0x8, 1, 0, 5)
     Sleep(2000)
-    SetChrName("少年")
+    SetChrName("boy")
 
     AnonymousTalk(
         0xFF,
         (
-            "#04804Fフフ、さすが博士が\x01",
-            "自慢するだけはあるかもね。\x02\x03",
-            "#04802Fさてと、お楽しみは取っておくとして\x01",
-            "仕掛けのネタを漁ろうかな。\x02",
+            "#04804FPhuff, as expected\x01",
+            "You may just be proud of it.\x02\x03",
+            "#04802FWell, as keeping fun\x01",
+            "I'm going to catch a trick of tricks.\x02",
         )
     )
 

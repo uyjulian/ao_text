@@ -19,25 +19,25 @@ def main():
 
     BuildStringList((
         "t1350",                  # 0
-        "エリィ",                 # 1
-        "ティオ",                 # 2
-        "ランディ",               # 3
-        "キーア",                 # 4
-        "フラン",                 # 5
-        "イリア",                 # 6
-        "リーシャ",               # 7
-        "シュリ",                 # 8
-        "メルスン",               # 9
-        "コロナ",                 # 10
-        "リマ",                   # 11
-        "ＭＷＬスタッフ",         # 12
-        "観光客",                 # 13
-        "観光客",                 # 14
-        "観光客",                 # 15
-        "観光客",                 # 16
-        "ダミー",                 # 17
-        "みーしぇ",               # 18
-        "ワンダーランド入口広場方面",# 19
+        "Erie",                 # 1
+        "Tio",                 # 2
+        "Randy",               # 3
+        "Keya",                 # 4
+        "Franc",                 # 5
+        "Ilia",                 # 6
+        "Lisha",               # 7
+        "Shuri",                 # 8
+        "Marsun",               # 9
+        "corona",                 # 10
+        "Lima",                   # 11
+        "MWL staff",         # 12
+        "tourist",                 # 13
+        "tourist",                 # 14
+        "tourist",                 # 15
+        "tourist",                 # 16
+        "dummy",                 # 17
+        "Misee",               # 18
+        "Directions to Wonderland entrance square",# 19
     ))
 
     AddCharChip((
@@ -94,7 +94,7 @@ def main():
 
     DeclActor(4294961676, 0,       2730,    1200,    4294961676, 2000,    2730,    0x007C, 0,  26, 0x0000)
 
-    PlaceName(-0.17000000178813934, 0.0, -65.44999694824219, 0x0000, 0x0000, "ワンダーランド入口広場方面")
+    PlaceName(-0.17000000178813934, 0.0, -65.44999694824219, 0x0000, 0x0000, "Directions to Wonderland entrance square")
 
     ChipFrameInfo(936, 0)                                        # 0
 
@@ -296,11 +296,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#00106Fはあ……\x01",
-            "苦手なのよね、こういうの。\x02\x03",
-            "#00111Fもしかしたら\x01",
-            "ベルが私を脅かすためだけに\x01",
-            "作ったのかも……\x02",
+            "#00106FHa\x01",
+            "It is not good for you, is not it?\x02\x03",
+            "#00111FMaybe\x01",
+            "Just for Bell to threaten me\x01",
+            "Maybe I made it ……\x02",
         )
     )
 
@@ -356,10 +356,10 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#00203Fここからでも、絶叫や悲鳴が\x01",
-            "はっきりと聞こえてきますね。\x02\x03",
-            "#00204Fああいうのを聞くと、\x01",
-            "怖いと同時にワクワクしてきます。\x02",
+            "#00203FEven from here, screaming and screaming\x01",
+            "You hear clearly.\x02\x03",
+            "#00204FListening to that,\x01",
+            "I'm scared and excited at the same time.\x02",
         )
     )
 
@@ -398,9 +398,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00309Fハハ、お嬢も怖がりだよなあ。\x02\x03",
-            "#00304Fまあ、こういうタイプほど\x01",
-            "乗せてみたくなるもんだが。\x02",
+            "#00309FHa ha, she is also afraid.\x02\x03",
+            "#00304FWell, like this type\x01",
+            "I want to try it on.\x02",
         )
     )
 
@@ -461,10 +461,10 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#01106Fキーアも最後は何がいいか\x01",
-            "考え中だけど……\x02\x03",
-            "#01109Fイリアと一緒に乗るのも\x01",
-            "楽しそうだねー！\x02",
+            "#01106FKeyaも最後は何がいいか\x01",
+            "I'm thinking, but ….\x02\x03",
+            "#01109FIliaと一緒に乗るのも\x01",
+            "Sounds fun!\x02",
         )
     )
 
@@ -502,11 +502,11 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#06402Fこのアトラクションの建物は、\x01",
-            "ミシュラムにもともとあった屋敷を\x01",
-            "ＩＢＣが改築した物らしいです。\x02\x03",
-            "#06409Fいやー、相当本格的ですよね〜。\x01",
-            "なんだかため息が出ちゃいますよ。\x02",
+            "#06402FBuilding of this attraction,\x01",
+            "The mansion which originally existed in Mishram\x01",
+            "It seems that IBC has rebuilt it.\x02\x03",
+            "#06409FWell, it is reasonably authentic ~ is not it?\x01",
+            "Sighs come out somehow.\x02",
         )
     )
 
@@ -535,10 +535,10 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#01702Fヒュウ♪\x01",
-            "雰囲気出てるわね〜！\x02\x03",
-            "#01709Fうーん、ワクワクしてきた。\x01",
-            "早く乗りたいわ〜！\x02",
+            "#01702FHu ♪\x01",
+            "The atmosphere is out!\x02\x03",
+            "#01709FWell, I'm getting excited.\x01",
+            "I want to ride quickly!\x02",
         )
     )
 
@@ -552,8 +552,8 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#01709Fうーん、ワクワクしてきた。\x01",
-            "早く乗りたいわ〜！\x02",
+            "#01709FWell, I'm getting excited.\x01",
+            "I want to ride quickly!\x02",
         )
     )
 
@@ -585,11 +585,11 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#01702F最後だし、どうせなら\x01",
-            "スカッとするヤツに乗らない？\x02\x03",
-            "#01700Fあんたたちだけだと\x01",
-            "制限に引っかかるだろうけど、\x01",
-            "あたしがいれば大丈夫でしょ。\x02",
+            "#01702FIt is the last, in any case\x01",
+            "Why do not you step on a guy that makes you scary?\x02\x03",
+            "#01700FIf only you\x01",
+            "It will be stuck with the limit,\x01",
+            "You should be fine if I am there.\x02",
         )
     )
 
@@ -613,11 +613,11 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#01805Fあっちに見えるのって……\x01",
-            "もしかして乗り物の\x01",
-            "コースでしょうか？\x02\x03",
-            "#01806Fあんな風に外に出てるなんて、\x01",
-            "相当スリルがありそうですね。\x02",
+            "#01805FTo be able to see it ……\x01",
+            "Could it be a ride?\x01",
+            "Is it a course?\x02\x03",
+            "#01806FTo go out like that,\x01",
+            "There seems to be considerable thrill.\x02",
         )
     )
 
@@ -631,9 +631,9 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#01802Fコースがあんな風に\x01",
-            "外に出てるなんて、\x01",
-            "相当スリルがありそうですね。\x02",
+            "#01802FCourse like that\x01",
+            "To go out,\x01",
+            "There seems to be considerable thrill.\x02",
         )
     )
 
@@ -698,7 +698,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#14006Fんー、オレは別に何でもいいけど……\x02",
+        "#14006FHmm, I can do whatever else ……\x02",
     )
 
     CloseMessageWindow()
@@ -730,8 +730,8 @@ def main():
     ChrTalk(
         0x10,
         (
-            "ふう……\x01",
-            "物凄いスリルだったな。\x02",
+            "Fuu …\x01",
+            "It was a terrible thrill.\x02",
         )
     )
 
@@ -740,8 +740,8 @@ def main():
     ChrTalk(
         0x10,
         (
-            "でも、リマにいい所を\x01",
-            "見せられてよかったよ。\x02",
+            "でも、Limaにいい所を\x01",
+            "It was nice to be shown.\x02",
         )
     )
 
@@ -784,8 +784,8 @@ def main():
     ChrTalk(
         0x11,
         (
-            "ふふ……\x01",
-            "お疲れ様、あなた。\x02",
+            "Whatching\x01",
+            "Good work, you.\x02",
         )
     )
 
@@ -827,7 +827,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "パパ、すっごくかっこよかったの。\x02",
+        "Dad, it was sooo cool.\x02",
     )
 
     CloseMessageWindow()
@@ -835,8 +835,8 @@ def main():
     ChrTalk(
         0x12,
         (
-            "モンスターをたっくさん\x01",
-            "やっつけてくれたんだよ〜！\x02",
+            "A lot of monsters\x01",
+            "He blew me!\x02",
         )
     )
 
@@ -869,8 +869,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ホラーコースター、人呼んで\x01",
-            "《ルナティックゾーン》へようこそ……\x02",
+            "Horror coaster, calling people\x01",
+            "Welcome to \"Lunatic Zone\" ……\x02",
         )
     )
 
@@ -879,9 +879,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "こちらは、モンスターの住まう館を\x01",
-            "たった一丁の導力銃で駆け抜ける、\x01",
-            "恐怖のアトラクションでございます。\x02",
+            "This is a monster house where you live\x01",
+            "You can run through with just one conductive gun,\x01",
+            "It is an attraction of fear.\x02",
         )
     )
 
@@ -890,9 +890,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F（みーしぇとかくれんぼ中だし……\x01",
-            "　今アトラクションで遊ぶのは\x01",
-            "　やめておくとしよう。）\x02",
+            "#00003F（Miseeとかくれんぼ中だし……\x01",
+            "What I am playing at attractions now\x01",
+            "Let's stop it. )\x02",
         )
     )
 
@@ -921,9 +921,9 @@ def main():
     ChrTalk(
         0x14,
         (
-            "ハ、ハハハ、ハ……\x01",
-            "怖いなんてこと、\x01",
-            "あるわけないじゃないか……\x02",
+            "Ha, ha ha ha, ha …\x01",
+            "To be scared,\x01",
+            "There is nothing I can do ……\x02",
         )
     )
 
@@ -931,7 +931,7 @@ def main():
 
     ChrTalk(
         0x15,
-        "（明らかに怖がってるわね……）\x02",
+        "(Obviously I am scared … …)\x02",
     )
 
     CloseMessageWindow()
@@ -944,9 +944,9 @@ def main():
     ChrTalk(
         0x14,
         (
-            "何度も乗ってるうちに、\x01",
-            "怖いのを通り越して\x01",
-            "楽しくなってきたよ。\x02",
+            "While I was riding again and again,\x01",
+            "Passing scary things\x01",
+            "It has become fun.\x02",
         )
     )
 
@@ -954,7 +954,7 @@ def main():
 
     ChrTalk(
         0x14,
-        "ハハハ、さあもう一度乗ろう！\x02",
+        "Ha ha ha, now let's ride again!\x02",
     )
 
     CloseMessageWindow()
@@ -976,8 +976,8 @@ def main():
     ChrTalk(
         0x15,
         (
-            "大丈夫？　イヤだったら\x01",
-            "無理して乗らなくてもいいけど。\x02",
+            "All right? If you do not want it\x01",
+            "You do not have to ride by force.\x02",
         )
     )
 
@@ -990,9 +990,9 @@ def main():
     ChrTalk(
         0x15,
         (
-            "彼ったら調子に乗っちゃって\x01",
-            "何度もホラーコースターに\x01",
-            "乗ろうとするのよ。\x02",
+            "He got on a tone\x01",
+            "Many times to a horror coaster\x01",
+            "You are about to ride.\x02",
         )
     )
 
@@ -1001,9 +1001,9 @@ def main():
     ChrTalk(
         0x15,
         (
-            "はあ、ほかにももっと\x01",
-            "色々なアトラクションを\x01",
-            "遊びたいんだけどなー。\x02",
+            "Haa, and more\x01",
+            "Various attractions\x01",
+            "I want to play, but I do not know.\x02",
         )
     )
 
@@ -1026,9 +1026,9 @@ def main():
     ChrTalk(
         0x16,
         (
-            "いやー、叫んだ叫んだ！\x01",
-            "絶叫系のアトラクションは\x01",
-            "やっぱり楽しいねえ！\x02",
+            "Yeah, shouting yelled!\x01",
+            "Screaming attractions are\x01",
+            "After all it was fun!\x02",
         )
     )
 
@@ -1052,9 +1052,9 @@ def main():
     ChrTalk(
         0x17,
         (
-            "お父さんったら、\x01",
-            "銃で撃つのも忘れて\x01",
-            "叫んでばっかりだったんだ。\x02",
+            "When I was a father,\x01",
+            "Also forget to shoot with a gun\x01",
+            "I only screamed.\x02",
         )
     )
 
@@ -1063,8 +1063,8 @@ def main():
     ChrTalk(
         0x17,
         (
-            "次に乗るときは\x01",
-            "僕が銃を撃たせてもらおうっと。\x02",
+            "Next time you ride\x01",
+            "I gotta let the gun shoot.\x02",
         )
     )
 
@@ -1088,8 +1088,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00309Fよっしゃ、お嬢。\x01",
-            "さっそく入るとしようぜ〜♪\x02",
+            "#00309FOkay, girl.\x01",
+            "Let's go in as soon as you enter ~ ♪\x02",
         )
     )
 
@@ -1098,8 +1098,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#00106Fちょ、ちょっと待って。\x01",
-            "もう少し心の準備を……\x02",
+            "#00106FWait a moment.\x01",
+            "Prepare for a little more … ….\x02",
         )
     )
 
@@ -1209,8 +1209,8 @@ def main():
     ChrTalk(
         0x13,
         (
-            "ホラーコースター、人呼んで\x01",
-            "《ルナティックゾーン》へようこそ……\x02",
+            "Horror coaster, calling people\x01",
+            "Welcome to \"Lunatic Zone\" ……\x02",
         )
     )
 
@@ -1219,9 +1219,9 @@ def main():
     ChrTalk(
         0x13,
         (
-            "こちらは、モンスターの住まう館を\x01",
-            "たった一丁の導力銃で駆け抜ける、\x01",
-            "恐怖のアトラクションでございます。\x02",
+            "This is a monster house where you live\x01",
+            "You can run through with just one conductive gun,\x01",
+            "It is an attraction of fear.\x02",
         )
     )
 
@@ -1230,8 +1230,8 @@ def main():
     ChrTalk(
         0x13,
         (
-            "よろしければ、どなたかとご一緒に\x01",
-            "ご入場される事をおすすめしますが……\x02",
+            "If it's okay, with someone\x01",
+            "Although we recommend you to enter the entrance … …\x02",
         )
     )
 
@@ -1239,7 +1239,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00004F#6P（……誰を誘おうかな？）\x02",
+        "#00004F#6P(… … Who should I invite?)\x02",
     )
 
     CloseMessageWindow()
@@ -1255,23 +1255,23 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1K誰を誘う？\x07\x00\x02",
+            "#1KWho invites you?\x07\x00\x02",
         )
     )
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "エリィ")
-    MenuCmd(1, 0, "ティオ")
-    MenuCmd(1, 0, "ランディ")
-    MenuCmd(1, 0, "ノエル")
-    MenuCmd(1, 0, "ワジ")
-    MenuCmd(1, 0, "キーア")
-    MenuCmd(1, 0, "フラン")
-    MenuCmd(1, 0, "セシル")
-    MenuCmd(1, 0, "イリア")
-    MenuCmd(1, 0, "リーシャ")
-    MenuCmd(1, 0, "シュリ")
-    MenuCmd(1, 0, "やめる")
+    MenuCmd(1, 0, "Erie")
+    MenuCmd(1, 0, "Tio")
+    MenuCmd(1, 0, "Randy")
+    MenuCmd(1, 0, "Noel")
+    MenuCmd(1, 0, "Waji")
+    MenuCmd(1, 0, "Keya")
+    MenuCmd(1, 0, "Franc")
+    MenuCmd(1, 0, "Cecil")
+    MenuCmd(1, 0, "Ilia")
+    MenuCmd(1, 0, "Lisha")
+    MenuCmd(1, 0, "Shuri")
+    MenuCmd(1, 0, "quit")
     Jc((scpexpr(EXPR_23, 0x3), scpexpr(EXPR_PUSH_LONG, 0x10000), scpexpr(EXPR_AND), scpexpr(EXPR_END)), "loc_1801")
     MenuCmd(3, 0, 0x0)
 
@@ -1360,7 +1360,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P（よし……エリィを誘ってみよう。）\x02",
+        "#00000F#6P（よし……Erieを誘ってみよう。）\x02",
     )
 
     CloseMessageWindow()
@@ -1379,10 +1379,10 @@ def main():
 
     NpcTalk(
         0x18,
-        "エリィ",
+        "Erie",
         (
-            "#00106F#6Pホラーコースター……\x01",
-            "うう、本当に入るのね。\x02",
+            "#00106F#6PHorror coaster ……\x01",
+            "Huh, you really enter.\x02",
         )
     )
 
@@ -1392,10 +1392,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#5Pはは、俺がついてるし\x01",
-            "大丈夫だよ。\x02\x03",
-            "#00002Fしっかりエスコート\x01",
-            "させてもらうからさ。\x02",
+            "#00004F#5PHaha, I got it on\x01",
+            "It's okay.\x02\x03",
+            "#00002FFirmly escort\x01",
+            "Because I will do it.\x02",
         )
     )
 
@@ -1404,8 +1404,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "エリィ",
-        "#00100F#12Pええ、頼りにしてるわね。\x02",
+        "Erie",
+        "#00100F#12PYes, I'm counting on you.\x02",
     )
 
     CloseMessageWindow()
@@ -1417,7 +1417,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P（よし……ティオを誘ってみよう。）\x02",
+        "#00000F#6P（よし……Tioを誘ってみよう。）\x02",
     )
 
     CloseMessageWindow()
@@ -1433,10 +1433,10 @@ def main():
 
     NpcTalk(
         0x18,
-        "ティオ",
+        "Tio",
         (
-            "#00204F#6P噂の新アトラクション……\x01",
-            "ちょっと楽しみです。\x02",
+            "#00204F#6PRumor new attraction ……\x01",
+            "I am looking forward to it.\x02",
         )
     )
 
@@ -1446,9 +1446,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#5P少し怖いヤツみたいだけど、\x01",
-            "ティオは平気そうだな。\x02\x03",
-            "#00000Fさっそく入ってみるか？\x02",
+            "#00004F#5PIt seems a bit scary,\x01",
+            "Tioは平気そうだな。\x02\x03",
+            "#00000FWhy do not you go in?\x02",
         )
     )
 
@@ -1457,8 +1457,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "ティオ",
-        "#00200F#12Pええ、行きましょう。\x02",
+        "Tio",
+        "#00200F#12PYeah, let's go.\x02",
     )
 
     CloseMessageWindow()
@@ -1470,7 +1470,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P（よし……ランディを誘ってみよう。）\x02",
+        "#00000F#6P（よし……Randyを誘ってみよう。）\x02",
     )
 
     CloseMessageWindow()
@@ -1491,11 +1491,11 @@ def main():
 
     NpcTalk(
         0x18,
-        "ランディ",
+        "Randy",
         (
-            "#00303F#6Pうーむ、ホラー系は\x01",
-            "お目当ての女の子と入るのが\x01",
-            "定石なんだがなあ。\x02",
+            "#00303F#6PHmm, the horror system\x01",
+            "I am going to enter with a girl I want\x01",
+            "I wish I was a regular stone.\x02",
         )
     )
 
@@ -1505,9 +1505,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002F#5Pはは、まあ男２人でも\x01",
-            "楽しいかもしれないしさ。\x02\x03",
-            "#00000Fさっそく入るとしようか。\x02",
+            "#00002F#5PWell, even two men\x01",
+            "It might be fun.\x02\x03",
+            "#00000FLet's get in right now.\x02",
         )
     )
 
@@ -1516,10 +1516,10 @@ def main():
 
     NpcTalk(
         0x18,
-        "ランディ",
+        "Randy",
         (
-            "#00300F#12Pま、せっかく来たし\x01",
-            "付き合ってやるとするか。\x02",
+            "#00300F#12PWell, I came all the way\x01",
+            "I suppose you go out with me.\x02",
         )
     )
 
@@ -1532,7 +1532,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P（よし……ノエルを誘ってみよう。）\x02",
+        "#00000F#6P（よし……Noelを誘ってみよう。）\x02",
     )
 
     CloseMessageWindow()
@@ -1549,10 +1549,10 @@ def main():
 
     NpcTalk(
         0x18,
-        "ノエル",
+        "Noel",
         (
-            "#10100F#6Pモンスター退治……\x01",
-            "なんだか燃えてきますね！\x02",
+            "#10100F#6PMonster ruining …\x01",
+            "Somehow it will burn!\x02",
         )
     )
 
@@ -1562,8 +1562,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009F#5Pはは、ノリノリだなあ。\x02\x03",
-            "#00000Fそれじゃ、入ってみようか。\x02",
+            "#00009F#5PHaha, I'm sorry.\x02\x03",
+            "#00000FWell then, let's enter.\x02",
         )
     )
 
@@ -1572,8 +1572,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "ノエル",
-        "#10100F#12Pええ、行きましょう！\x02",
+        "Noel",
+        "#10100F#12PYeah, let's go!\x02",
     )
 
     CloseMessageWindow()
@@ -1585,7 +1585,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P（よし……ワジを誘ってみよう。）\x02",
+        "#00000F#6P（よし……Wajiを誘ってみよう。）\x02",
     )
 
     CloseMessageWindow()
@@ -1602,11 +1602,11 @@ def main():
 
     NpcTalk(
         0x18,
-        "ワジ",
+        "Waji",
         (
-            "#10304F#6Pホラーコースターか……\x01",
-            "フフ、悲鳴をあげつつ\x01",
-            "抱きついてあげようか？\x02",
+            "#10304F#6PHorror coaster ……\x01",
+            "Hoff, while screaming\x01",
+            "Would you like to embrace it?\x02",
         )
     )
 
@@ -1619,8 +1619,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5Pそんなこと期待してないから。\x02\x03",
-            "#00000Fまあいいや、入るとしよう。\x02",
+            "#00006F#5PI do not expect such a thing.\x02\x03",
+            "#00000FOh well, let's try entering.\x02",
         )
     )
 
@@ -1629,8 +1629,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "ワジ",
-        "#10300F#12Pフフ、了解。\x02",
+        "Waji",
+        "#10300F#12PHuh, I understand.\x02",
     )
 
     CloseMessageWindow()
@@ -1642,7 +1642,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P（よし……キーアを誘ってみよう。）\x02",
+        "#00000F#6P（よし……Keyaを誘ってみよう。）\x02",
     )
 
     CloseMessageWindow()
@@ -1660,10 +1660,10 @@ def main():
 
     NpcTalk(
         0x18,
-        "キーア",
+        "Keya",
         (
-            "#01109F#6Pここってオバケが出るのー？\x01",
-            "わくわくっ、すっごく楽しみー！\x02",
+            "#01109F#6PYou got a gig here?\x01",
+            "It's exciting!\x02",
         )
     )
 
@@ -1673,10 +1673,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012F#5Pはは、さすがに本物は\x01",
-            "出ないだろうけど……\x01",
-            "雰囲気は楽しめると思うよ。\x02\x03",
-            "#00000Fそれじゃあ、入ってみよう。\x02",
+            "#00012F#5PAs expected, the real thing\x01",
+            "It will not come out, though …\x01",
+            "I think that the atmosphere can be enjoyed.\x02\x03",
+            "#00000FWell then, let's enter.\x02",
         )
     )
 
@@ -1685,8 +1685,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "キーア",
-        "#01109F#12Pれっつごー！\x02",
+        "Keya",
+        "#01109F#12PBarely!\x02",
     )
 
     CloseMessageWindow()
@@ -1698,7 +1698,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P（よし……フランを誘ってみよう。）\x02",
+        "#00000F#6P（よし……Francを誘ってみよう。）\x02",
     )
 
     CloseMessageWindow()
@@ -1714,10 +1714,10 @@ def main():
 
     NpcTalk(
         0x18,
-        "フラン",
+        "Franc",
         (
-            "#06409F#6P噂の新アトラクション……\x01",
-            "ドキドキしてきました〜！\x02",
+            "#06409F#6PRumor new attraction ……\x01",
+            "I have been excited.\x02",
         )
     )
 
@@ -1727,9 +1727,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#5Pはは、ホラー系なのに\x01",
-            "随分ノリノリなんだなあ。\x02\x03",
-            "#00000Fよし、そろそろ入るか。\x02",
+            "#00004F#5PHaha, though it is a horror group\x01",
+            "It is quite lively.\x02\x03",
+            "#00000FAlright, are you going to get it soon?\x02",
         )
     )
 
@@ -1738,8 +1738,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "フラン",
-        "#06400F#12Pふふ、よろしくお願いしますね〜。\x02",
+        "Franc",
+        "#06400F#12PHehe, thank you ~.\x02",
     )
 
     CloseMessageWindow()
@@ -1751,7 +1751,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P（よし……セシル姉を誘ってみよう。）\x02",
+        "#00000F#6P（よし……Cecil姉を誘ってみよう。）\x02",
     )
 
     CloseMessageWindow()
@@ -1768,10 +1768,10 @@ def main():
 
     NpcTalk(
         0x18,
-        "セシル",
+        "Cecil",
         (
-            "#05902F#6P噂の新アトラクションね。\x01",
-            "ふふ、楽しみだわ。\x02",
+            "#05902F#6PIt is a rumored new attraction.\x01",
+            "Hehe, I'm looking forward to it.\x02",
         )
     )
 
@@ -1781,9 +1781,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002F#5Pはは、ホラー系なのに結構余裕だね。\x02\x03",
-            "#00000Fセシル姉は俺がしっかりと\x01",
-            "エスコートさせてもらうよ。\x02",
+            "#00002F#5PAlthough it is a horror, it is quite affordable.\x02\x03",
+            "#00000FCecil姉は俺がしっかりと\x01",
+            "I will escort you.\x02",
         )
     )
 
@@ -1792,8 +1792,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "セシル",
-        "#05900F#12Pええ、頼りにしてるわ。\x02",
+        "Cecil",
+        "#05900F#12PYes, I'm counting on you.\x02",
     )
 
     CloseMessageWindow()
@@ -1805,7 +1805,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P（よし……イリアさんを誘ってみよう。）\x02",
+        "#00000F#6P（よし……Iliaさんを誘ってみよう。）\x02",
     )
 
     CloseMessageWindow()
@@ -1826,10 +1826,10 @@ def main():
 
     NpcTalk(
         0x18,
-        "イリア",
+        "Ilia",
         (
-            "#01709F#6Pこういう絶叫系のヤツを\x01",
-            "楽しみにしてたのよね〜！\x02",
+            "#01709F#6PSuch a screaming guy\x01",
+            "I was looking forward to it ~!\x02",
         )
     )
 
@@ -1839,9 +1839,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009F#5Pはは、いかにもイリアさんが\x01",
-            "好きそうなアトラクションですよね。\x02\x03",
-            "#00000Fそれじゃあ、行きましょうか。\x02",
+            "#00009F#5Pはは、いかにもIliaさんが\x01",
+            "It is an attraction you like.\x02\x03",
+            "#00000FWell then, shall we go?\x02",
         )
     )
 
@@ -1850,8 +1850,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "イリア",
-        "#01700F#12Pええ、さっそく行きましょ！\x02",
+        "Ilia",
+        "#01700F#12PYeah, go ahead now!\x02",
     )
 
     CloseMessageWindow()
@@ -1863,7 +1863,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P（よし……リーシャを誘ってみよう。）\x02",
+        "#00000F#6P（よし……Lishaを誘ってみよう。）\x02",
     )
 
     CloseMessageWindow()
@@ -1879,10 +1879,10 @@ def main():
 
     NpcTalk(
         0x18,
-        "リーシャ",
+        "Lisha",
         (
-            "#01802F#6Pふふ、いかにも雰囲気がある\x01",
-            "アトラクションみたいですね。\x02",
+            "#01802F#6PHehu, there is always atmosphere\x01",
+            "It sounds like an attraction.\x02",
         )
     )
 
@@ -1892,8 +1892,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002F#5Pはは、結構余裕みたいだな。\x02\x03",
-            "#00000Fそれじゃあ、入ってみようか。\x02",
+            "#00002F#5PHaha, I guess you can afford it well.\x02\x03",
+            "#00000FWell then, let's enter.\x02",
         )
     )
 
@@ -1902,8 +1902,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "リーシャ",
-        "#01809F#12Pはいっ。\x02",
+        "Lisha",
+        "#01809F#12PYes.\x02",
     )
 
     CloseMessageWindow()
@@ -1915,7 +1915,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P（よし……シュリを誘ってみよう。）\x02",
+        "#00000F#6P（よし……Shuriを誘ってみよう。）\x02",
     )
 
     CloseMessageWindow()
@@ -1931,10 +1931,10 @@ def main():
 
     NpcTalk(
         0x18,
-        "シュリ",
+        "Shuri",
         (
-            "#14004F#6Pフ、フン……\x01",
-            "どうせ大したことないんだろ？\x02",
+            "#14004F#6PFun\x01",
+            "Why is not there anything wrong?\x02",
         )
     )
 
@@ -1944,9 +1944,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#5Pはは、どうかな？\x01",
-            "意外と怖かったりして……\x02\x03",
-            "#00000Fよし、それじゃあ入るぞ。\x02",
+            "#00004F#5PHow is it?\x01",
+            "Surprisingly scared … …\x02\x03",
+            "#00000FOkay, then it's time to enter.\x02",
         )
     )
 
@@ -1958,10 +1958,10 @@ def main():
 
     NpcTalk(
         0x18,
-        "シュリ",
+        "Shuri",
         (
-            "#14011F#12Pちょ、ちょっと待って。\x01",
-            "心の準備が……\x02",
+            "#14011F#12PWait a moment.\x01",
+            "Ready for the mind …\x02",
         )
     )
 
@@ -1973,7 +1973,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "では、チケットをお預かりします。\x02",
+        "Well, we will keep your tickets.\x02",
     )
 
     CloseMessageWindow()
@@ -2003,7 +2003,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "スタッフにチケットを１枚渡した。\x07\x00\x02",
+            "I handed one ticket to the staff.\x07\x00\x02",
         )
     )
 
@@ -2017,8 +2017,8 @@ def main():
     ChrTalk(
         0x13,
         (
-            "モンスターを倒すための導力銃は\x01",
-            "乗り物内に設置されております。\x02",
+            "Conductive gun to defeat monster\x01",
+            "It is installed in the ride.\x02",
         )
     )
 
@@ -2027,8 +2027,8 @@ def main():
     ChrTalk(
         0x13,
         (
-            "フフ……\x01",
-            "どうかご無事に帰られますよう。\x02",
+            "Giggle\x01",
+            "I hope to return home safely.\x02",
         )
     )
 
@@ -2077,7 +2077,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "フフ、お止めになりますか？\x02",
+        "Huh, will you stop it?\x02",
     )
 
     CloseMessageWindow()
@@ -2085,8 +2085,8 @@ def main():
     ChrTalk(
         0x13,
         (
-            "またのご来場を\x01",
-            "お待ちしております……\x02",
+            "Welcoming your visit\x01",
+            "I will be waiting …\x02",
         )
     )
 
@@ -2256,14 +2256,14 @@ def main():
 
     NpcTalk(
         0x18,
-        "エリィ",
+        "Erie",
         (
-            "#00106F#12Pはあ……オバケがあんなに\x01",
-            "近づいてくるなんて、\x01",
-            "びっくりしちゃったわ。\x02\x03",
-            "#00100Fふふ、まあ思っていたよりも\x01",
-            "怖くはなかったし、\x01",
-            "楽しかったのは確かだけど。\x02",
+            "#00106F#12PHaa …… Obake is like that\x01",
+            "To come closer,\x01",
+            "I was surprised.\x02\x03",
+            "#00100FHehe, well than I thought\x01",
+            "I was not scared,\x01",
+            "It is certain that it was fun.\x02",
         )
     )
 
@@ -2272,9 +2272,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009Fはは、楽しんでくれたなら\x01",
-            "誘ってよかったよ。\x02\x03",
-            "#00000Fそれじゃあ、また後で。\x02",
+            "#00009FHaha, if you enjoyed it\x01",
+            "It was nice to invite me.\x02\x03",
+            "#00000FWell then, see you later.\x02",
         )
     )
 
@@ -2282,8 +2282,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "エリィ",
-        "#00100F#12Pええ、また後で。\x02",
+        "Erie",
+        "#00100F#12PWell, see you later.\x02",
     )
 
     CloseMessageWindow()
@@ -2294,12 +2294,12 @@ def main():
 
     NpcTalk(
         0x18,
-        "ティオ",
+        "Tio",
         (
-            "#00204F#12P迫りくるオバケたち……\x01",
-            "なかなかスリルがありました。\x02\x03",
-            "#00200Fさすがは新アトラクションですね。\x01",
-            "大人気というのも頷けます。\x02",
+            "#00204F#12PAppealing obsession … …\x01",
+            "There was quite a thrill.\x02\x03",
+            "#00200FAs expected it is a new attraction.\x01",
+            "It also nods that it is extremely popular.\x02",
         )
     )
 
@@ -2308,9 +2308,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009Fはは、楽しんでくれた\x01",
-            "みたいでよかったよ。\x02\x03",
-            "#00000Fそれじゃあ、また後でな。\x02",
+            "#00009FHaha, he enjoyed it.\x01",
+            "I'm glad that it looks like.\x02\x03",
+            "#00000FWell then, see you later.\x02",
         )
     )
 
@@ -2318,8 +2318,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "ティオ",
-        "#00200F#12Pええ、ではまた。\x02",
+        "Tio",
+        "#00200F#12PWell, see you.\x02",
     )
 
     CloseMessageWindow()
@@ -2330,12 +2330,12 @@ def main():
 
     NpcTalk(
         0x18,
-        "ランディ",
+        "Randy",
         (
-            "#00300F#12Pはは、ホラー系にしては\x01",
-            "なかなかよくできてたよな。\x02\x03",
-            "#00306F相手が綺麗なお姉さんじゃなくて\x01",
-            "お前だったのがちっと残念だが。\x02",
+            "#00300F#12PHaha, for the horror system\x01",
+            "It was pretty good.\x02\x03",
+            "#00306FThe other party is not a beautiful older sister\x01",
+            "I'm sorry I was you.\x02",
         )
     )
 
@@ -2344,9 +2344,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009Fま、まあ楽しかったし\x01",
-            "いいじゃないか。\x02\x03",
-            "#00000Fそれじゃあ、また後でな。\x02",
+            "#00009FWell, it was a lot of fun\x01",
+            "It's fine, is not it.\x02\x03",
+            "#00000FWell then, see you later.\x02",
         )
     )
 
@@ -2354,8 +2354,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "ランディ",
-        "#00300F#12Pおう、またな。\x02",
+        "Randy",
+        "#00300F#12POh, I see you again.\x02",
     )
 
     CloseMessageWindow()
@@ -2366,12 +2366,12 @@ def main():
 
     NpcTalk(
         0x18,
-        "ノエル",
+        "Noel",
         (
-            "#10100F#12Pふう、とっても楽しかったです。\x02\x03",
-            "#10109F警備隊での射撃訓練も、\x01",
-            "こういうゲーム式にすれば\x01",
-            "結構上達しそうな気がしますね。\x02",
+            "#10100F#12PIt was a lot of fun.\x02\x03",
+            "#10109FShooting training at the guard, too,\x01",
+            "In this game formula\x01",
+            "I feel like I'm getting better.\x02",
         )
     )
 
@@ -2380,9 +2380,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009Fはは、確かに……\x01",
-            "いつかそういう時代がきたりしてな。\x02\x03",
-            "#00000Fそれじゃあ、また後で。\x02",
+            "#00009FHaha, indeed …\x01",
+            "Someday such an era has come.\x02\x03",
+            "#00000FWell then, see you later.\x02",
         )
     )
 
@@ -2390,8 +2390,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "ノエル",
-        "#10100F#12Pはい、ではまた！\x02",
+        "Noel",
+        "#10100F#12PYes, but also!\x02",
     )
 
     CloseMessageWindow()
@@ -2402,12 +2402,12 @@ def main():
 
     NpcTalk(
         0x18,
-        "ワジ",
+        "Waji",
         (
-            "#10304F#12Pフフ、なかなか\x01",
-            "骨太なアトラクションだったね。\x02\x03",
-            "#10302F僕としたことが\x01",
-            "なかなか夢中になっちゃったよ。\x02",
+            "#10304F#12PHuh, quite\x01",
+            "It was a great attraction.\x02\x03",
+            "#10302FWhat I've done with you\x01",
+            "I was pretty crazy.\x02",
         )
     )
 
@@ -2416,9 +2416,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009F俺も熱中しちゃったけど……\x01",
-            "楽しんでくれたならよかったよ。\x02\x03",
-            "#00000Fそれじゃあ、また後でな。\x02",
+            "#00009FI also got caught up … ….\x01",
+            "I hope you enjoyed it.\x02\x03",
+            "#00000FWell then, see you later.\x02",
         )
     )
 
@@ -2426,8 +2426,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "ワジ",
-        "#10300F#12Pフフ、また。\x02",
+        "Waji",
+        "#10300F#12PHuh, and more.\x02",
     )
 
     CloseMessageWindow()
@@ -2438,12 +2438,12 @@ def main():
 
     NpcTalk(
         0x18,
-        "キーア",
+        "Keya",
         (
-            "#01109F#12Pはー、面白かったー！\x02\x03",
-            "真っ暗な中を駆け抜けて、\x01",
-            "風がビュンビュンあたって\x01",
-            "すっごい気持ちよかった！\x02",
+            "#01109F#12PHaha, it was fun!\x02\x03",
+            "Run through the dark,\x01",
+            "The wind hit the buunbun\x01",
+            "It was awesome!\x02",
         )
     )
 
@@ -2452,10 +2452,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009Fはは、そこまで\x01",
-            "楽しんでくれたなら\x01",
-            "誘ってよかったよ。\x02\x03",
-            "#00000Fそれじゃあ、また後でな。\x02",
+            "#00009FHaha, to that extent\x01",
+            "If you enjoyed it\x01",
+            "It was nice to invite me.\x02\x03",
+            "#00000FWell then, see you later.\x02",
         )
     )
 
@@ -2463,8 +2463,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "キーア",
-        "#01100F#12Pうん、あとでねー！\x02",
+        "Keya",
+        "#01100F#12PYes, I do not have to!\x02",
     )
 
     CloseMessageWindow()
@@ -2475,12 +2475,12 @@ def main():
 
     NpcTalk(
         0x18,
-        "フラン",
+        "Franc",
         (
-            "#06400F#12Pはあ、スリル満点でしたね〜！\x02\x03",
-            "#06409Fロイドさんが\x01",
-            "撃つのを頑張ってくれて\x01",
-            "助かっちゃいました。\x02",
+            "#06400F#12PHaha, it was a thrilling score!\x02\x03",
+            "#06409FMr. Lloyd\x01",
+            "Good luck fighting for you\x01",
+            "I have been saved.\x02",
         )
     )
 
@@ -2489,10 +2489,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009Fあの数のオバケを相手するのは\x01",
-            "なかなか大変だったけど……\x01",
-            "楽しんでくれてよかったよ。\x02\x03",
-            "#00000Fそれじゃあ、また後でな。\x02",
+            "#00009FThat number of opponents is against\x01",
+            "It was quite difficult, though ….\x01",
+            "It was nice to have fun.\x02\x03",
+            "#00000FWell then, see you later.\x02",
         )
     )
 
@@ -2500,8 +2500,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "フラン",
-        "#06400F#12Pはい、また〜。\x02",
+        "Franc",
+        "#06400F#12PYes, again ~.\x02",
     )
 
     CloseMessageWindow()
@@ -2512,11 +2512,11 @@ def main():
 
     NpcTalk(
         0x18,
-        "セシル",
+        "Cecil",
         (
-            "#05900F#12Pふふ、とっても楽しかったわ。\x02\x03",
-            "#05909Fロイドの射撃している姿も\x01",
-            "なかなか頼もしかったし。\x02",
+            "#05900F#12PHehe, it was a lot of fun.\x02\x03",
+            "#05909FLloyd's shooting figure also\x01",
+            "It was quite dependable.\x02",
         )
     )
 
@@ -2525,10 +2525,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009Fはは、さすがに実際の銃とは\x01",
-            "扱いが全然違うみたいだけど……\x01",
-            "まあ、楽しんでくれてよかったよ。\x02\x03",
-            "#00000Fそれじゃあ、また後で。\x02",
+            "#00009FHahaha, indeed it is an actual gun\x01",
+            "It seems that the treatment is completely different ….\x01",
+            "まあ、It was nice to have fun.\x02\x03",
+            "#00000FWell then, see you later.\x02",
         )
     )
 
@@ -2536,8 +2536,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "セシル",
-        "#05900F#12Pええ、また後でね。\x02",
+        "Cecil",
+        "#05900F#12PWell, see you later.\x02",
     )
 
     CloseMessageWindow()
@@ -2548,12 +2548,12 @@ def main():
 
     NpcTalk(
         0x18,
-        "イリア",
+        "Ilia",
         (
-            "#01704F#12Pうーん、これは期待通りの\x01",
-            "アトラクションだったわね！\x02\x03",
-            "#01702Fフフ、もっとたっくさん\x01",
-            "オバケが出てきてもよかったけど。\x02",
+            "#01704F#12PWell, this is as expected\x01",
+            "It was an attraction!\x02\x03",
+            "#01702FHugh, more tuck\x01",
+            "I could have gotten a gig.\x02",
         )
     )
 
@@ -2562,10 +2562,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012Fさ、さすがにそれは\x01",
-            "大変すぎると思いますけど……\x01",
-            "まあ、楽しんでくれてよかったです。\x02\x03",
-            "#00000Fそれじゃあ、また後で。\x02",
+            "#00012FSurely, that is\x01",
+            "I think it's too hard … ….\x01",
+            "Well, it was nice to have fun.\x02\x03",
+            "#00000FWell then, see you later.\x02",
         )
     )
 
@@ -2573,8 +2573,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "イリア",
-        "#01700F#12Pうん、じゃあね〜。\x02",
+        "Ilia",
+        "#01700F#12PYeah, see you ~.\x02",
     )
 
     CloseMessageWindow()
@@ -2585,12 +2585,12 @@ def main():
 
     NpcTalk(
         0x18,
-        "リーシャ",
+        "Lisha",
         (
-            "#01802F#12Pはあ、なかなか楽しかったです。\x02\x03",
-            "#01806F怪物がめまぐるしく動いて、\x01",
-            "撃っているロイドさんが\x01",
-            "すごく大変そうでしたけど……\x02",
+            "#01802F#12PHaa, it was quite fun.\x02\x03",
+            "#01806FA monster moves swiftly,\x01",
+            "Mr. Lloyd shooting\x01",
+            "It seemed to be very difficult, but ….\x02",
         )
     )
 
@@ -2599,9 +2599,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009Fはは、ちょっと大変だったけど\x01",
-            "俺もなかなか楽しめたよ。\x02\x03",
-            "#00000Fそれじゃあ、また後で。\x02",
+            "#00009FWell, it was a bit tough but\x01",
+            "I also enjoyed it quite well.\x02\x03",
+            "#00000FWell then, see you later.\x02",
         )
     )
 
@@ -2609,8 +2609,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "リーシャ",
-        "#01802F#12Pはい、ではまた。\x02",
+        "Lisha",
+        "#01802F#12PYes, again.\x02",
     )
 
     CloseMessageWindow()
@@ -2621,14 +2621,14 @@ def main():
 
     NpcTalk(
         0x18,
-        "シュリ",
+        "Shuri",
         (
-            "#14006F#12Pはー……乗り物が速くて、\x01",
-            "全然目を開けてらんなかったけど\x01",
-            "スリルはなかなかだったな。\x02\x03",
-            "#14002Fそれにしてもアンタ、\x01",
-            "楽しそうだったな。\x01",
-            "オレも撃つ方がやりたかったよ。\x02",
+            "#14006F#12PHuh …… The vehicle is fast,\x01",
+            "Although I could not open my eyes at all\x01",
+            "The thrill was pretty good.\x02\x03",
+            "#14002FEven so,\x01",
+            "It looked like fun.\x01",
+            "I also wanted to shoot them.\x02",
         )
     )
 
@@ -2637,9 +2637,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009Fはは……これでも\x01",
-            "結構大変だったんだけどな。\x02\x03",
-            "#00000Fそれじゃあ、また後でな。\x02",
+            "#00009FHaha …… even this\x01",
+            "It was pretty tough, though.\x02\x03",
+            "#00000FWell then, see you later.\x02",
         )
     )
 
@@ -2647,8 +2647,8 @@ def main():
 
     NpcTalk(
         0x18,
-        "シュリ",
-        "#14000F#12Pん、そんじゃな。\x02",
+        "Shuri",
+        "#14000F#12PSounds like that.\x02",
     )
 
     CloseMessageWindow()
@@ -2792,7 +2792,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F見つけたぞっ！\x02",
+        "#00002FI found it!\x02",
     )
 
     CloseMessageWindow()
@@ -2807,7 +2807,7 @@ def main():
         0x19,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x15),
-            "きゃっ、見つかっちゃった☆\x07\x00\x02",
+            "Kyat, I found it ☆\x07\x00\x02",
         )
     )
 
@@ -2828,9 +2828,9 @@ def main():
         0x19,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x15),
-            "もー、こんなに早く\x01",
-            "４回も見つかるなんて、\x01",
-            "信じられないナ〜。\x07\x00\x02",
+            "Well, so sooner\x01",
+            "I found it four times,\x01",
+            "I can not believe it ~.\x07\x00\x02",
         )
     )
 
@@ -2840,9 +2840,9 @@ def main():
         0x19,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x15),
-            "みししっ、ノロマな\x01",
-            "みっしぃお兄ちゃんとは\x01",
-            "大違いだヨ〜☆\x07\x00\x02",
+            "Miserable, Nomorous\x01",
+            "With Michio io\x01",
+            "It is a big difference Yo ~ ☆\x07\x00\x02",
         )
     )
 
@@ -2866,8 +2866,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F（みーしぇって、みっしぃに\x01",
-            "  けっこう手厳しいなあ……）\x02",
+            "#00006F（Miseeって、みっしぃに\x01",
+            "I'm pretty strict …\x02",
         )
     )
 
@@ -2877,7 +2877,7 @@ def main():
         0x19,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x15),
-            "……むむっ、次は最後だネ。\x07\x00\x02",
+            "…… Mumu, next is the last.\x07\x00\x02",
         )
     )
 
@@ -2887,8 +2887,8 @@ def main():
         0x19,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x15),
-            "よ〜し、最後はもっと難しい場所に\x01",
-            "隠れてるから、頑張って見つけてネ〜！\x07\x00\x02",
+            "Well, in the end it's a more difficult place\x01",
+            "I'm hiding, so do your best and find out!\x07\x00\x02",
         )
     )
 
@@ -2933,9 +2933,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006Fいよいよ最後の隠れ場所か……\x02\x03",
-            "#00000Fテーマパークの中だけだから\x01",
-            "そこまで難しくはなさそうだけど。\x02",
+            "#00006FAt last the last hiding place ……\x02\x03",
+            "#00000FBecause it's only in the theme park\x01",
+            "Although it seems not to be difficult up to that.\x02",
         )
     )
 
@@ -2945,8 +2945,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100Fそれじゃあ、\x01",
-            "探しに行ってみましょう。\x02",
+            "#00100FWell then,\x01",
+            "Let's go looking.\x02",
         )
     )
 
@@ -2960,8 +2960,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00200Fそれでは、\x01",
-            "探しに行ってみましょう。\x02",
+            "#00200FThen,\x01",
+            "Let's go looking.\x02",
         )
     )
 
@@ -2975,8 +2975,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00300Fそれじゃあ、\x01",
-            "探しに行ってみっか。\x02",
+            "#00300FWell then,\x01",
+            "Why do not you go looking for it.\x02",
         )
     )
 
@@ -2990,8 +2990,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10100Fそれじゃあ、\x01",
-            "探しに行ってみましょう！\x02",
+            "#10100FWell then,\x01",
+            "Let's go looking!\x02",
         )
     )
 
@@ -3005,8 +3005,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10300Fそれじゃあ、\x01",
-            "探しに行ってみるとしようか。\x02",
+            "#10300FWell then,\x01",
+            "Let's go looking for something.\x02",
         )
     )
 
@@ -3019,7 +3019,7 @@ def main():
 
     ChrTalk(
         0x153,
-        "#01100Fそれじゃ、探しにいこー！\x02",
+        "#01100FWell then it's time to look for!\x02",
     )
 
     CloseMessageWindow()
@@ -3032,8 +3032,8 @@ def main():
     ChrTalk(
         0x156,
         (
-            "#06400Fそれじゃあ、\x01",
-            "探しに行ってみましょう〜！\x02",
+            "#06400FWell then,\x01",
+            "Let's go looking ~!\x02",
         )
     )
 
@@ -3047,8 +3047,8 @@ def main():
     ChrTalk(
         0x14C,
         (
-            "#05900Fふふ、それじゃあ\x01",
-            "探しに行ってみましょう。\x02",
+            "#05900FHuhu, then\x01",
+            "Let's go looking.\x02",
         )
     )
 
@@ -3062,8 +3062,8 @@ def main():
     ChrTalk(
         0x134,
         (
-            "#01700Fフフ、それじゃあ、\x01",
-            "探しに行ってみましょ！\x02",
+            "#01700FHuh, then,\x01",
+            "Let's go looking!\x02",
         )
     )
 
@@ -3077,8 +3077,8 @@ def main():
     ChrTalk(
         0x135,
         (
-            "#01802Fそれでは、\x01",
-            "探しに行ってみましょう。\x02",
+            "#01802FThen,\x01",
+            "Let's go looking.\x02",
         )
     )
 
@@ -3091,8 +3091,8 @@ def main():
     ChrTalk(
         0x166,
         (
-            "#14000Fそんじゃ、\x01",
-            "探しに行ってみるか。\x02",
+            "#14000FThen,\x01",
+            "Do you go looking for something?\x02",
         )
     )
 
@@ -3123,8 +3123,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "テーマパークの\x01",
-            "見取り図が描かれている。\x02",
+            "Of the theme park\x01",
+            "A sketch is drawn.\x02",
         )
     )
 

@@ -94,7 +94,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "　　　クラフトビューア",
+            "Craft viewer",
             scpstr(0x18),
             scpstr(0x6),
             scpstr(SCPSTR_CODE_ENTER),
@@ -108,12 +108,12 @@ def main():
         96,
         1,
         (
-            "Ｓクラフト嘆\x01",          # 0
-            "Ｓクラフト嘇\x01",          # 1
-            "Ｓクラフト嘊\x01",          # 2
-            "コンビクラフト嘆\x01",      # 3
-            "コンビクラフト嘇\x01",      # 4
-            "戻る\x01",                  # 5
+            "S Kraft Mourning\x01",          # 0
+            "S craft\x01",          # 1
+            "S craft\x01",          # 2
+            "Combi Craft mourning\x01",      # 3
+            "Combi Craft\x01",      # 4
+            "Return\x01",                  # 5
         )
     )
 
@@ -307,7 +307,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "　　　クラフトビューア",
+            "Craft viewer",
             scpstr(0x18),
             scpstr(0x6),
             scpstr(SCPSTR_CODE_ENTER),
@@ -327,12 +327,12 @@ def main():
         96,
         1,
         (
-            "Ｓクラフト嘆\x01",          # 0
-            "Ｓクラフト嘇\x01",          # 1
-            "Ｓクラフト嘊\x01",          # 2
-            "コンビクラフト嘆\x01",      # 3
-            "コンビクラフト嘇\x01",      # 4
-            "戻る\x01",                  # 5
+            "S Kraft Mourning\x01",          # 0
+            "S craft\x01",          # 1
+            "S craft\x01",          # 2
+            "Combi Craft mourning\x01",      # 3
+            "Combi Craft\x01",      # 4
+            "Return\x01",                  # 5
         )
     )
 
@@ -361,19 +361,19 @@ def main():
         108,
         1,
         (
-            "#176I：タイガーチャージ\x01",        # 0
-            "#176I：ライジングサン\x01",          # 1
-            "#176I：メテオブレイカー\x01",        # 2
-            "#177I：オーラレイン\x01",            # 3
-            "#177I：エアリアルカノン\x01",        # 4
-            "#177I：デバインクルセイド\x01",      # 5
-            "#178I：エーテルバスター\x01",        # 6
-            "#178I：ゼロ・フィールド\x01",        # 7
-            "#178I：エイドロンギア\x01",          # 8
-            "#179I：クリムゾンゲイル\x01",        # 9
-            "#179I：デススコルピオン\x01",        # 10
-            "#179I：ベルゼルガー\x01",            # 11
-            "やめる\x01",                         # 12
+            "#176I: Tiger charge\x01",        # 0
+            "#176I:Rising sun\x01",          # 1
+            "#176I: Meteo Breaker\x01",        # 2
+            "#177I: Aura Rain\x01",            # 3
+            "#177I: Aerial Canon\x01",        # 4
+            "#177I: Devine Crusade\x01",      # 5
+            "#178I: Ether buster\x01",        # 6
+            "#178I: Zero field\x01",        # 7
+            "#178I: Aydron Gear\x01",          # 8
+            "#179I: Crimson Gale\x01",        # 9
+            "#179I: Desscolpion\x01",        # 10
+            "#179I: Bergerger\x01",            # 11
+            "quit\x01",                         # 12
         )
     )
 
@@ -522,16 +522,16 @@ def main():
         108,
         1,
         (
-            "#180I：デッドリーヘヴン\x01",          # 0
-            "#180I：アカシックアーム\x01",          # 1
-            "#184I：ブラストストーム\x01",          # 2
-            "#184I：アームドフォース\x01",          # 3
-            "#181I：幻月の舞\x01",                  # 4
-            "#187I：真・幻月の舞\x01",              # 5
-            "#185I：ジャスティスハンマー\x01",      # 6
-            "#185I：ジャスティスマグナム\x01",      # 7
-            "#186I：キリングドライバー\x01",        # 8
-            "やめる\x01",                           # 9
+            "#180I: Deadly Heaven\x01",          # 0
+            "#180I: Akashic arm\x01",          # 1
+            "#184I: Blast storm\x01",          # 2
+            "#184I: Armed Force\x01",          # 3
+            "#181I: Mizuno no Mai\x01",                  # 4
+            "#187I: True · Mizuno no Mai\x01",              # 5
+            "#185I: Justice Hammer\x01",      # 6
+            "#185I: Justice Magnum\x01",      # 7
+            "#186I: Killing Driver\x01",        # 8
+            "quit\x01",                           # 9
         )
     )
 
@@ -653,15 +653,15 @@ def main():
         108,
         1,
         (
-            "#183I：風神烈破\x01",                    # 0
+            "#183I: Fist of the Wind God\x01",                    # 0
             "#183I：終の太刀-黒皇-\x01",              # 1
-            "#190I：デス・パレード\x01",              # 2
-            "#207I：クリムゾンフォール\x01",          # 3
-            "#189I：偽・塩の杭\x01",                  # 4
-            "#188I：聖技グランドクロス\x01",          # 5
-            "#191I：クリムゾンザンバー\x01",          # 6
-            "#191I：メリーメリーキャッスル\x01",      # 7
-            "やめる\x01",                             # 8
+            "#190I: Death · Parade\x01",              # 2
+            "#207I: Crimson Fall\x01",          # 3
+            "#189I: False Salt Pile\x01",                  # 4
+            "#188I: Stigmata Grand Cross\x01",          # 5
+            "#191I: Crimson Zambar\x01",          # 6
+            "#191I: Mary Mary Castle\x01",      # 7
+            "quit\x01",                             # 8
         )
     )
 
@@ -772,14 +772,14 @@ def main():
         108,
         1,
         (
-            "#176I#177I：スターブラスト\x01",          # 0
-            "#176I#178I：Ωストライク\x01",            # 1
-            "#176I#179I：バーニングレイジ\x01",        # 2
-            "#176I#184I：ブレイブハーツ\x01",          # 3
-            "#176I#180I：ストライクヘヴン\x01",        # 4
-            "#176I#187I：比翼双竜撃\x01",              # 5
-            "#176I#185I：ハーツオブアイアン\x01",      # 6
-            "やめる\x01",                              # 7
+            "#176I#177I: Star Blast\x01",          # 0
+            "#176I#178I: Ω strike\x01",            # 1
+            "#176I#179I: Burning Rage\x01",        # 2
+            "#176I#184I: Brave Hearts\x01",          # 3
+            "#176I#180I: Strike Heaven\x01",        # 4
+            "#176I#187I: Special wing Ssangyong shoot\x01",              # 5
+            "#176I#185I: Hearts of Iron\x01",      # 6
+            "quit\x01",                              # 7
         )
     )
 
@@ -884,17 +884,17 @@ def main():
         108,
         1,
         (
-            "#177I#178I：コールドゲヘナ\x01",        # 0
-            "#177I#179I：ライアットスター\x01",      # 1
-            "#177I#184I：サザンクロス\x01",          # 2
-            "#177I#180I：アカシックスター\x01",      # 3
-            "#178I#179I：ハーケンストーム\x01",      # 4
-            "#178I#184I：ブラストハンマー\x01",      # 5
-            "#178I#180I：Σアセンション\x01",        # 6
-            "#179I#184I：ハウリングレイド\x01",      # 7
-            "#179I#180I：ラストリベリオン\x01",      # 8
-            "#180I#184I：ブルーブレイカー\x01",      # 9
-            "やめる\x01",                            # 10
+            "#177I#178I: Cold Geegenera\x01",        # 0
+            "#177I#179I: Riat Star\x01",      # 1
+            "#177I#184I:Southern Cross\x01",          # 2
+            "#177I#180I: Akashic Star\x01",      # 3
+            "#178I#179I: Haken Storm\x01",      # 4
+            "#178I#184I: Blast hammer\x01",      # 5
+            "#178I#180I: Σ Ascension\x01",        # 6
+            "#179I#184I: Howling raid\x01",      # 7
+            "#179I#180I: Last Rebellion\x01",      # 8
+            "#180I#184I: Blue Breaker\x01",      # 9
+            "quit\x01",                            # 10
         )
     )
 

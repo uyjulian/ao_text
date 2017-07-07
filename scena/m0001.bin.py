@@ -19,7 +19,7 @@ def main():
 
     BuildStringList((
         "m0001",                  # 0
-        "声",                     # 1
+        "voice",                     # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -100,8 +100,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11P……こりゃあいい…………\x01",
-            "…………コイツは最高だ…………\x02",
+            "#50W#11P…… Good afternoon …………\x01",
+            "………… Koitsu is the best …………\x02",
         )
     )
 
@@ -113,7 +113,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11Pクク……これなら絶対に……\x02",
+            "#50W#11PKuku … If this is absolutely … …\x02",
         )
     )
 
@@ -125,7 +125,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11P絶対に“ヤツ”を──！\x02",
+            "#50W#11PAbsolutely \"guy\" ─ ─!\x02",
         )
     )
 
@@ -139,7 +139,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#11Pチッ……\x02",
+            "#11PChit\x02",
         )
     )
 
@@ -164,7 +164,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11Pああ……アンタか……\x02",
+            "#40W#11POh … … or you …?\x02",
         )
     )
 
@@ -188,7 +188,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P……ああ……ああ………\x02",
+            "#40W#11P…… Ah … … ah ………\x02",
         )
     )
 
@@ -200,8 +200,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P問題ねぇ……\x01",
-            "クク……いつでも行ける……\x02",
+            "#40W#11PThat's a problem …\x01",
+            "Kuku …… I can go anytime ……\x02",
         )
     )
 
@@ -226,14 +226,14 @@ def main():
     OP_0D()
     Sleep(500)
     SetMessageWindowPos(-1, -1, -1, -1)
-    SetChrName("声")
+    SetChrName("voice")
 
     AnonymousTalk(
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P……ただし……\x01",
-            "やり方は俺に任せてもらうぜ？\x07\x00\x02",
+            "#40W#11P…… However, …\x01",
+            "Why do you leave it to me?\x07\x00\x02",
         )
     )
 

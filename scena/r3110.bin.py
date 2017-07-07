@@ -19,7 +19,7 @@ def main():
 
     BuildStringList((
         "r3110",                  # 0
-        "ラウ",                   # 1
+        "Row",                   # 1
     ))
 
     AddCharChip((
@@ -185,7 +185,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉は堅く閉ざされている。\x02",
+            "The door is tightly closed.\x02",
         )
     )
 
@@ -212,14 +212,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005Fあなたは黒月の……\x02",
+        "#00005FYou are a black moon ……\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xFE,
-        "……お疲れ様です。\x02",
+        "……Is cheers for good work.\x02",
     )
 
     CloseMessageWindow()
@@ -238,9 +238,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……《赤い星座》への対策のため\x01",
-            "ツァオ様もしばらくは、\x01",
-            "面会の時間を作れないでしょう。\x02",
+            "…… for measures against \"red constellation\"\x01",
+            "Mr. Zhao also for a while,\x01",
+            "I will not be able to make visiting hours.\x02",
         )
     )
 
@@ -249,8 +249,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "《結界》を解除したら、\x01",
-            "改めてこちらに連絡をお願いします。\x02",
+            "When you release \"barrier\"\x01",
+            "Please contact here again.\x02",
         )
     )
 
@@ -267,8 +267,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今、ツァオ様は隠れ処の方で\x01",
-            "お忙しくしていらっしゃいます。\x02",
+            "Mr. Tsao is now in the hiding place\x01",
+            "We are keeping you busy.\x02",
         )
     )
 
@@ -276,7 +276,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "また、別の機会にお越し下さい。\x02",
+        "Also, please come on another occasion.\x02",
     )
 
     CloseMessageWindow()
@@ -295,8 +295,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "状況が進展をみたら、\x01",
-            "再度こちらを訪れてください。\x02",
+            "As the situation develops,\x01",
+            "Please visit this place again.\x02",
         )
     )
 
@@ -305,9 +305,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ツァオ様と面会が可能なときに\x01",
-            "声をかけていただければ、\x01",
-            "再び隠れ家へと案内します。\x02",
+            "When you can visit Mr. Zhao\x01",
+            "If you can speak to me,\x01",
+            "I will show you back to the hideout.\x02",
         )
     )
 
@@ -315,7 +315,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "……それでは。\x02",
+        "… Well then.\x02",
     )
 
     CloseMessageWindow()
@@ -335,8 +335,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今なら、隠れ処にいるツァオ様と\x01",
-            "面会する事が出来ます。\x02",
+            "Right now, Mr. Zhao in the hiding place\x01",
+            "You can visit us.\x02",
         )
     )
 
@@ -344,7 +344,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "……どうなさいますか？\x02",
+        "……How do you like?\x02",
     )
 
     CloseMessageWindow()
@@ -357,8 +357,8 @@ def main():
         -1,
         1,
         (
-            "ツァオに面会する\x01",      # 0
-            "やめる\x01",                # 1
+            "I will meet Tsao\x01",      # 0
+            "quit\x01",                # 1
         )
     )
 
@@ -480,8 +480,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……分かりました。\x01",
-            "では、こちらへ。\x02",
+            "……I understand.\x01",
+            "Well, here.\x02",
         )
     )
 
@@ -490,8 +490,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ツァオ様の元へと\x01",
-            "案内させていただきます。\x02",
+            "To the former Mr. Tsao\x01",
+            "I will show you.\x02",
         )
     )
 
@@ -604,8 +604,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P状況が進展をみたら、\x01",
-            "再度こちらを訪れてください。\x02",
+            "#11PAs the situation develops,\x01",
+            "Please visit this place again.\x02",
         )
     )
 
@@ -614,9 +614,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11Pツァオ様と面会が可能なときに\x01",
-            "声をかけていただければ、\x01",
-            "再び隠れ家へと案内します。\x02",
+            "#11PWhen you can visit Mr. Zhao\x01",
+            "If you can speak to me,\x01",
+            "I will show you back to the hideout.\x02",
         )
     )
 
@@ -624,7 +624,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P……それでは。\x02",
+        "#11P… Well then.\x02",
     )
 
     CloseMessageWindow()
@@ -636,9 +636,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P……《赤い星座》への対策のため\x01",
-            "ツァオ様もしばらくは、\x01",
-            "面会の時間を作れないでしょう。\x02",
+            "#11P…… for measures against \"red constellation\"\x01",
+            "Mr. Zhao also for a while,\x01",
+            "I will not be able to make visiting hours.\x02",
         )
     )
 
@@ -647,8 +647,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P《結界》を解除したら、\x01",
-            "改めてこちらに連絡をお願いします。\x02",
+            "#11PWhen you release \"barrier\"\x01",
+            "Please contact here again.\x02",
         )
     )
 
@@ -657,8 +657,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#6P分かりました。\x02\x03",
-            "#00001F……そちらも気をつけてください。\x02",
+            "#00003F#6PI understand.\x02\x03",
+            "#00001F…… Please be careful there too.\x02",
         )
     )
 
@@ -666,7 +666,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P……それでは。\x02",
+        "#11P… Well then.\x02",
     )
 
     CloseMessageWindow()
@@ -830,7 +830,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#0000Fここなら釣れそうだな。\x02",
+        "#0000FI'm going to catch you here.\x02",
     )
 
     CloseMessageWindow()
@@ -845,7 +845,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "釣りをしますか？\x07\x00\x02",
+            "Do you fish?\x07\x00\x02",
         )
     )
 
@@ -856,8 +856,8 @@ def main():
         -1,
         1,
         (
-            "釣りをする\x01",      # 0
-            "やめる\x01",          # 1
+            "To fish\x01",      # 0
+            "quit\x01",          # 1
         )
     )
 

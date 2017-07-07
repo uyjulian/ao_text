@@ -19,13 +19,13 @@ def main():
 
     BuildStringList((
         "r0100",                  # 0
-        "ゴールデンアクス",       # 1
-        "ゴールデンアクス",       # 2
-        "ブレードファング",       # 3
-        "ブレードファング",       # 4
-        "キラーポポ",             # 5
-        "幻獣",                   # 6
-        "人形",                   # 7
+        "Golden ax",       # 1
+        "Golden ax",       # 2
+        "Blade Fang",       # 3
+        "Blade Fang",       # 4
+        "Killer Popo",             # 5
+        "Eidolon",                   # 6
+        "doll",                   # 7
         "br0100",                 # 8
         "br0100",                 # 9
         "br0100",                 # 10
@@ -36,8 +36,8 @@ def main():
         "br0100",                 # 15
         "br0100",                 # 16
         "br0100",                 # 17
-        "クロスベル市・タングラム門方面",# 18
-        "アルモリカ村方面",       # 19
+        "Crossbell City / Tangram Main Gate",# 18
+        "Direction to Almorika village",       # 19
     ))
 
     ATBonus("ATBonus_55C", 100, 5, 1, 5, 1, 5, 1, 5, 5, 0, 0, 0, 1, 0, 0, 0)
@@ -251,8 +251,8 @@ def main():
     DeclActor(2350,    4294966296, 40530,   1200,    2350,    4294966796, 40530,   0x007C, 0,  14, 0x0000)
     DeclActor(4294937896, 0,       66620,   2000,    4294937896, 1500,    66620,   0x007C, 0,  15, 0x0000)
 
-    PlaceName(-5.0, 0.0, -45.0, 0x0000, 0x0000, "クロスベル市・タングラム門方面")
-    PlaceName(-50.0, 0.0, 172.0, 0x0000, 0x0000, "アルモリカ村方面")
+    PlaceName(-5.0, 0.0, -45.0, 0x0000, 0x0000, "Crossbell City / Tangram Main Gate")
+    PlaceName(-50.0, 0.0, 172.0, 0x0000, 0x0000, "Direction to Almorika village")
 
     ChipFrameInfo(1000, 0, [0, 1, 2, 1, 0, 3, 4, 3])             # 0
     ChipFrameInfo(1299, 0, [0, 1, 2, 3, 4, 5])                   # 1
@@ -692,7 +692,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '凉爽项链'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -712,14 +712,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '凉爽项链'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '凉爽项链'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -744,7 +744,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -783,7 +783,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -803,14 +803,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -835,7 +835,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -885,7 +885,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "A monster appeared!\x07\x00\x02",
         )
     )
 
@@ -935,7 +935,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '耀脉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -954,14 +954,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '耀脉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '耀脉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -984,7 +984,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -1016,8 +1016,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1028,8 +1028,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1061,7 +1061,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1124,8 +1124,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1136,8 +1136,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1169,7 +1169,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1237,8 +1237,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1249,8 +1249,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1282,7 +1282,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1345,8 +1345,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1357,8 +1357,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1390,7 +1390,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1525,7 +1525,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00005F私有地の扉が開いてる……！？\x02",
+        "#6P#00005FThe door of private property is open … …! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -1533,9 +1533,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00105Fこの場所は確か、\x01",
-            "アルモリカ村で管理されていて\x01",
-            "普段は入れなかったはずじゃ……\x02",
+            "#6P#00105FThis place certainly,\x01",
+            "It is managed in Almorika village\x01",
+            "I should not have usually put it in … …\x02",
         )
     )
 
@@ -1543,14 +1543,14 @@ def main():
 
     ChrTalk(
         0x103,
-        "#12P#00200F何者かが鍵を開けたんでしょうか。\x02",
+        "#12P#00200FDid someone open the key?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#6P#10103Fでも、何の目的で……？\x02",
+        "#6P#10103FBut for what purpose … …?\x02",
     )
 
     CloseMessageWindow()
@@ -1558,9 +1558,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00303F……ともかく、また中に魔獣が\x01",
-            "入り込んじまってるみてえだ。\x02\x03",
-            "#00301F調べるなら気をつけねえとな。\x02",
+            "#6P#00303F…… In any case, there is a monster in it\x01",
+            "It is getting involved.\x02\x03",
+            "#00301FYou should be careful if you examine it.\x02",
         )
     )
 
@@ -1568,7 +1568,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#10302Fフフ、了解。\x02",
+        "#12P#10302FHuh, I understand.\x02",
     )
 
     CloseMessageWindow()
@@ -1626,8 +1626,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00000F２つ目の人形のトランク……\x01",
-            "こんなところにあったか。\x02",
+            "#12P#00000F２つ目のdollのトランク……\x01",
+            "Were you in such a place?\x02",
         )
     )
 
@@ -1636,10 +1636,10 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00103F『古の道にて里人が受け継ぎし場所』……\x02\x03",
-            "#00100Fアルモリカ村が古道で\x01",
-            "代々所有しているこの私有地なら、\x01",
-            "確かに当てはまりそうね。\x02",
+            "#6P#00103F\"A villager gets inherited in an old road\" Location …\x02\x03",
+            "#00100FAlmorika village is an old road\x01",
+            "If you own this private estate,\x01",
+            "It looks like true.\x02",
         )
     )
 
@@ -1648,9 +1648,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10300Fそれじゃあ、ここの扉を\x01",
-            "勝手に開けたのは\x01",
-            "怪盗Ｂの仕業ってことになるワケか。\x02",
+            "#12P#10300FWell then, the door here\x01",
+            "What I opened without permission\x01",
+            "Wake will be a thing of Kaitou B?\x02",
         )
     )
 
@@ -1659,8 +1659,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#12P#10106Fはあ……\x01",
-            "かなり迷惑な人物みたいですね。\x02",
+            "#12P#10106FHa\x01",
+            "It sounds like a pretty annoying person.\x02",
         )
     )
 
@@ -1668,7 +1668,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00000Fとにかく、確認してみよう。\x02",
+        "#12P#00000FAnyway, let's check it.\x02",
     )
 
     CloseMessageWindow()
@@ -1684,8 +1684,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "トランクの裏側には\x01",
-            "カードが貼り付けてあった。\x07\x00\x02",
+            "On the back of the trunk\x01",
+            "There was a card attached.\x07\x00\x02",
         )
     )
 
@@ -1705,9 +1705,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "第三の檻は市外に。\x01",
-            "『最も大いなる女神の光を\x01",
-            "  その背に浴びし者』を探せ。\x07\x00\x02",
+            "The third cage is outside the city.\x01",
+            "\"The light of the greatest goddess\x01",
+            "Look for those who are bathed in their backs.\x07\x00\x02",
         )
     )
 
@@ -1723,9 +1723,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00105Fこれは、ベルが\x01",
-            "『リエーテ』って呼んでいる人形ね。\x02\x03",
-            "#00104Fうん、本物に間違いないと思う。\x02",
+            "#6P#00105FThis is because the bell\x01",
+            "『リエーテ』って呼んでいるdollね。\x02\x03",
+            "#00104FYeah, I do not think it's genuine.\x02",
         )
     )
 
@@ -1734,9 +1734,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00306Fカードの方も、\x01",
-            "またワケのわかんねえ\x01",
-            "謎かけが出てきやがったな。\x02",
+            "#6P#00306FAlso,\x01",
+            "Wakana no Ikanasen\x01",
+            "A mystery came out.\x02",
         )
     )
 
@@ -1745,11 +1745,11 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#12P#00203F『最も大いなる女神の光』……\x01",
-            "この言葉がポイントでしょう。\x02\x03",
-            "#00200F『最も大いなる』ということは、\x01",
-            "大きさを比べる対象が\x01",
-            "いくつか存在するのかもしれません。\x02",
+            "#12P#00203F\"The light of the greatest goddess\" …\x01",
+            "This word will be a point.\x02\x03",
+            "#00200FBy saying \"the greatest\"\x01",
+            "Objects to compare sizes\x01",
+            "There may be several.\x02",
         )
     )
 
@@ -1758,8 +1758,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00001Fとにかく探してみるしかないか……\x01",
-            "行くとしよう。\x02",
+            "#12P#00001FAnyway I have to try looking … ….\x01",
+            "Let's go.\x02",
         )
     )
 
@@ -1774,8 +1774,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#16Iローゼンベルク人形・Ｒ\x07\x00",
-            "を手に入れた。\x02",
+            "#16Iローゼンベルクdoll・Ｒ\x07\x00",
+            "I got it.\x02",
         )
     )
 
@@ -1814,7 +1814,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "鍵がかかっているようだ。\x07\x00\x02",
+            "It seems locked up.\x07\x00\x02",
         )
     )
 

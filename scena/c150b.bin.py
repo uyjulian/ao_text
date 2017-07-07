@@ -19,50 +19,50 @@ def main():
 
     BuildStringList((
         "c150b",                  # 0
-        "アリオス",               # 1
-        "ダドリー捜査官",         # 2
-        "警官隊",                 # 3
-        "警官隊",                 # 4
-        "警官隊",                 # 5
-        "警官隊",                 # 6
-        "警官隊",                 # 7
-        "警官隊",                 # 8
-        "警官隊",                 # 9
-        "警官隊",                 # 10
-        "猟兵",                   # 11
-        "猟兵",                   # 12
-        "猟兵",                   # 13
-        "猟兵",                   # 14
-        "猟兵",                   # 15
-        "猟兵",                   # 16
-        "猟兵",                   # 17
-        "猟兵",                   # 18
-        "猟兵",                   # 19
-        "猟兵",                   # 20
-        "猟兵",                   # 21
-        "ダドリーカー",           # 22
-        "パトカー",               # 23
-        "パトカー",               # 24
-        "パトカー",               # 25
-        "パトカー",               # 26
-        "パトカー",               # 27
-        "SE制御",                 # 28
-        "中央広場",               # 29
-        "西通り",                 # 30
-        "行政区",                 # 31
-        "住宅街",                 # 32
-        "歓楽街",                 # 33
-        "東通り",                 # 34
-        "旧市街",                 # 35
-        "港湾区",                 # 36
-        "ＩＢＣ",                 # 37
-        "駅前通り",               # 38
-        "裏通り",                 # 39
-        "ウルスラ間道",           # 40
-        "東クロスベル街道",       # 41
-        "西クロスベル街道",       # 42
-        "マインツ山道",           # 43
-        "オルキスタワー",         # 44
+        "Arios",               # 1
+        "Dudley investigator",         # 2
+        "Police force",                 # 3
+        "Police force",                 # 4
+        "Police force",                 # 5
+        "Police force",                 # 6
+        "Police force",                 # 7
+        "Police force",                 # 8
+        "Police force",                 # 9
+        "Police force",                 # 10
+        "A hunter",                   # 11
+        "A hunter",                   # 12
+        "A hunter",                   # 13
+        "A hunter",                   # 14
+        "A hunter",                   # 15
+        "A hunter",                   # 16
+        "A hunter",                   # 17
+        "A hunter",                   # 18
+        "A hunter",                   # 19
+        "A hunter",                   # 20
+        "A hunter",                   # 21
+        "Dudley car",           # 22
+        "Police car",               # 23
+        "Police car",               # 24
+        "Police car",               # 25
+        "Police car",               # 26
+        "Police car",               # 27
+        "SE control",                 # 28
+        "Central square",               # 29
+        "Nishi dori",                 # 30
+        "Administrative district",                 # 31
+        "Residential area",                 # 32
+        "Entertainment district",                 # 33
+        "East Street",                 # 34
+        "old Town",                 # 35
+        "Harbor district",                 # 36
+        "IBC",                 # 37
+        "Beside the station",               # 38
+        "Back street",                 # 39
+        "Ursula interchange",           # 40
+        "East Crossbell Highway",       # 41
+        "West Crossbell Highway",       # 42
+        "Mainz Mountain Road",           # 43
+        "Orchis Tower",         # 44
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -94,22 +94,22 @@ def main():
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
 
-    PlaceName(-20.690000534057617, 0.0, -334.95001220703125, 0x0000, 0x0000, "中央広場")
-    PlaceName(-176.4499969482422, 0.0, -343.79998779296875, 0x0000, 0x0000, "西通り")
-    PlaceName(21.639999389648438, 0.0, -191.3000030517578, 0x0000, 0x0000, "行政区")
-    PlaceName(-276.45001220703125, 0.0, -223.8000030517578, 0x0000, 0x0000, "住宅街")
-    PlaceName(-142.5, 0.0, -222.60000610351562, 0x0000, 0x0000, "歓楽街")
-    PlaceName(113.25, 0.0, -400.5, 0x0000, 0x0000, "東通り")
-    PlaceName(183.5800018310547, 0.0, -513.25, 0x0000, 0x0000, "旧市街")
-    PlaceName(154.9499969482422, 0.0, -274.3999938964844, 0x0000, 0x0000, "港湾区")
-    PlaceName(126.94999694824219, 0.0, -96.5, 0x0000, 0x0000, "ＩＢＣ")
-    PlaceName(-17.75, 0.0, -493.6000061035156, 0x0000, 0x0000, "駅前通り")
-    PlaceName(-101.80000305175781, 0.0, -283.20001220703125, 0x0000, 0x0000, "裏通り")
-    PlaceName(-21.200000762939453, 0.0, -548.0499877929688, 0x0000, 0x0000, "ウルスラ間道")
-    PlaceName(234.85000610351562, 0.0, -384.6000061035156, 0x0000, 0x0000, "東クロスベル街道")
-    PlaceName(-264.95001220703125, 0.0, -340.3999938964844, 0x0000, 0x0000, "西クロスベル街道")
-    PlaceName(-254.0500030517578, 0.0, -165.39999389648438, 0x0000, 0x0000, "マインツ山道")
-    PlaceName(0.0, 0.0, 55.5, 0x0000, 0x0000, "オルキスタワー")
+    PlaceName(-20.690000534057617, 0.0, -334.95001220703125, 0x0000, 0x0000, "Central square")
+    PlaceName(-176.4499969482422, 0.0, -343.79998779296875, 0x0000, 0x0000, "Nishi dori")
+    PlaceName(21.639999389648438, 0.0, -191.3000030517578, 0x0000, 0x0000, "Administrative district")
+    PlaceName(-276.45001220703125, 0.0, -223.8000030517578, 0x0000, 0x0000, "Residential area")
+    PlaceName(-142.5, 0.0, -222.60000610351562, 0x0000, 0x0000, "Entertainment district")
+    PlaceName(113.25, 0.0, -400.5, 0x0000, 0x0000, "East Street")
+    PlaceName(183.5800018310547, 0.0, -513.25, 0x0000, 0x0000, "old Town")
+    PlaceName(154.9499969482422, 0.0, -274.3999938964844, 0x0000, 0x0000, "Harbor district")
+    PlaceName(126.94999694824219, 0.0, -96.5, 0x0000, 0x0000, "IBC")
+    PlaceName(-17.75, 0.0, -493.6000061035156, 0x0000, 0x0000, "Beside the station")
+    PlaceName(-101.80000305175781, 0.0, -283.20001220703125, 0x0000, 0x0000, "Back street")
+    PlaceName(-21.200000762939453, 0.0, -548.0499877929688, 0x0000, 0x0000, "Ursula interchange")
+    PlaceName(234.85000610351562, 0.0, -384.6000061035156, 0x0000, 0x0000, "East Crossbell Highway")
+    PlaceName(-264.95001220703125, 0.0, -340.3999938964844, 0x0000, 0x0000, "West Crossbell Highway")
+    PlaceName(-254.0500030517578, 0.0, -165.39999389648438, 0x0000, 0x0000, "Mainz Mountain Road")
+    PlaceName(0.0, 0.0, 55.5, 0x0000, 0x0000, "Orchis Tower")
     PlaceName(-75.98999786376953, 0.0, -390.8500061035156, 0x0000, 0x0051, "")
     PlaceName(26.18000030517578, 0.0, -340.75, 0x0000, 0x0054, "")
     PlaceName(-30.809999465942383, 0.0, -400.6499938964844, 0x0000, 0x0057, "")
@@ -578,9 +578,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#00607F#5Pくっ……！\x01",
-            "いつの間にこんな場所まで……\x02\x03",
-            "一体どこから現れたんだ！？\x02",
+            "#00607F#5PCut …!\x01",
+            "Until we got to such a place ……\x02\x03",
+            "Where the hell did you come from? Is it?\x02",
         )
     )
 
@@ -589,10 +589,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#01410F#5P恐らく、飛行艇を使っている\x01",
-            "可能性が高いかもしれんな……\x02\x03",
-            "山道から消えた部隊も\x01",
-            "その飛行艇が回収したのだろう。\x02",
+            "#01410F#5PProbably you are using a flying boat\x01",
+            "It might be more likely … …\x02\x03",
+            "Units that disappeared from the mountain path also\x01",
+            "The flying boat probably recovered.\x02",
         )
     )
 
@@ -603,11 +603,11 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#00610F#11Pバカな……！\x01",
-            "ならば対空レーダー網が\x01",
-            "反応しているはずだ！\x02\x03",
-            "レーダーに気づかれずに\x01",
-            "自治州を行き来するなど──\x02",
+            "#00610F#11Pstupid……!\x01",
+            "Then the aerial radar network\x01",
+            "You should be reacting!\x02\x03",
+            "Without being noticed by radar\x01",
+            "Going back and forth in the autonomous province ──\x02",
         )
     )
 
@@ -619,8 +619,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#00607F#11Pまさか……リベールの異変で\x01",
-            "《結社》が使ったという！？\x02",
+            "#00607F#11PNo way …… Libert's strangeness\x01",
+            "That \"society\" used it! Is it?\x02",
         )
     )
 
@@ -629,11 +629,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#01403F#5P《ステルス機能》……\x01",
-            "それを搭載した飛行艇が\x01",
-            "使われているのかもしれん。\x02\x03",
-            "#01407Fだが──\x01",
-            "今は確かめている暇はない！\x02",
+            "#01403F#5P\"Stealth function\" ……\x01",
+            "A flying boat equipped with it\x01",
+            "Perhaps it is being used.\x02\x03",
+            "#01407FBut\x01",
+            "I do not have time to verify right now!\x02",
         )
     )
 
@@ -651,7 +651,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#00610F#5Pくっ……そのようだ！\x02",
+        "#00610F#5PCut … It seems like that!\x02",
     )
 
     CloseMessageWindow()

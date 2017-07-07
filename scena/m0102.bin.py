@@ -19,14 +19,14 @@ def main():
 
     BuildStringList((
         "m0102",                  # 0
-        "アイスコンドル",         # 1
-        "アイスコンドル",         # 2
-        "アイスコンドル",         # 3
-        "アイスコンドル",         # 4
-        "アイスコンドル",         # 5
-        "アイスコンドル",         # 6
-        "アイスコンドル",         # 7
-        "アイスコンドル",         # 8
+        "Ice Condor",         # 1
+        "Ice Condor",         # 2
+        "Ice Condor",         # 3
+        "Ice Condor",         # 4
+        "Ice Condor",         # 5
+        "Ice Condor",         # 6
+        "Ice Condor",         # 7
+        "Ice Condor",         # 8
         "bm0100",                 # 9
     ))
 
@@ -145,7 +145,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#0000Fここなら釣れそうだな。\x02",
+        "#0000FI'm going to catch you here.\x02",
     )
 
     CloseMessageWindow()
@@ -160,7 +160,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "釣りをしますか？\x07\x00\x02",
+            "Do you fish?\x07\x00\x02",
         )
     )
 
@@ -171,8 +171,8 @@ def main():
         -1,
         1,
         (
-            "釣りをする\x01",      # 0
-            "やめる\x01",          # 1
+            "To fish\x01",      # 0
+            "quit\x01",          # 1
         )
     )
 

@@ -19,9 +19,9 @@ def main():
 
     BuildStringList((
         "m0400",                  # 0
-        "アリオス",               # 1
-        "ダドリー捜査官",         # 2
-        "SE制御",                 # 3
+        "Arios",               # 1
+        "Dudley investigator",         # 2
+        "SE control",                 # 3
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -229,8 +229,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12P#01401F#4052V#30W#15A──時間が惜しい。\x01",
-            "先行するぞ。\x02",
+            "#12P#01401F#4052V#30W#15A── Time is regrettable.\x01",
+            "I will go ahead.\x02",
         )
     )
 
@@ -246,7 +246,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#00607F#3458V#30W#15A#11P遅れずに付いてくるがいい！\x02",
+        "#00607F#3458V#30W#15A#11PCome along without delay!\x02",
     )
 
     CloseMessageWindow()
@@ -268,7 +268,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#11P#10Aあ……\x02",
+        "#00005F#11P#10AAh……\x02",
     )
 
     OP_68(166500, 1100, -100, 2000)
@@ -312,8 +312,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#11Pやれやれ……\x01",
-            "元気な兄さんたちだぜ。\x02",
+            "#00306F#11PWhew ……\x01",
+            "Hey brothers.\x02",
         )
     )
 
@@ -321,14 +321,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#11P私たちも急ぎましょう。\x02",
+        "#00101F#11PLet us also hurry.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#6P#00007F#5Pああ……！\x02",
+        "#6P#00007F#5PAh……!\x02",
     )
 
     CloseMessageWindow()
@@ -742,14 +742,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#11Pこれは……凄い所に出たな。\x02",
+        "#00011F#11PThis … … I got a great place.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10111F#11P何だか圧倒されますね……\x02",
+        "#10111F#11PIt is somewhat overwhelming …\x02",
     )
 
     CloseMessageWindow()
@@ -757,8 +757,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10305F#11Pへえ……\x01",
-            "どういう場所なんだい？\x02",
+            "#10305F#11POh\x01",
+            "What kind of place is it?\x02",
         )
     )
 
@@ -767,10 +767,10 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#11P#00203Fオルキスタワーの\x01",
-            "メインシャフトになりますね。\x02\x03",
-            "#00200F巨大なタワーの重量を\x01",
-            "分散するための場所みたいです。\x02",
+            "#11P#00203FThe Orkis Tower\x01",
+            "It will be the main shaft.\x02\x03",
+            "#00200FWeight of a huge tower\x01",
+            "It looks like a place to disperse.\x02",
         )
     )
 
@@ -779,9 +779,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#11P話は聞いていたけど……\x01",
-            "こんなに大きな空間とは\x01",
-            "知らなかったわ。\x02",
+            "#00106F#11PI was listening to the story, but ….\x01",
+            "What is such a big space\x01",
+            "I did not know.\x02",
         )
     )
 
@@ -791,7 +791,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00301F#5Pま、とにかく急ごうぜ。\x02",
+        "#00301F#5PWell, hurry up anyway.\x02",
     )
 
     CloseMessageWindow()
@@ -800,7 +800,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#00001Fああ、南の方だ。\x02",
+        "#5P#00001FOh, it's towards the south.\x02",
     )
 
     CloseMessageWindow()
@@ -1107,7 +1107,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F俺たちも先を急ごう！\x02",
+        "#00001FLet us hurry ahead!\x02",
     )
 
     CloseMessageWindow()
@@ -1129,8 +1129,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "※　この先、シャフト制御室　※\x01",
-            "※　関係者以外立ち入り禁止　※\x07\x00\x02",
+            "※ In the meantime, shaft control room ※\x01",
+            "※ Staff only ※\x07\x00\x02",
         )
     )
 
@@ -1144,8 +1144,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303Fまさか、こっちの方には\x01",
-            "行ってねえよな？\x02",
+            "#00303FNo way, to this one\x01",
+            "Do not go away.\x02",
         )
     )
 
@@ -1154,9 +1154,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00200Fええ、セキュリティが\x01",
-            "解除された様子もないので\x01",
-            "この先は大丈夫なはずです。\x02",
+            "#00200FYes, security\x01",
+            "Because it does not seem to have been lifted\x01",
+            "You should be fine in the future.\x02",
         )
     )
 
@@ -1165,8 +1165,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F――ならダドリーさんたちを\x01",
-            "追うだけだな。\x02",
+            "#00001F- Then Dudley's guys\x01",
+            "Just to chase.\x02",
         )
     )
 
@@ -1174,7 +1174,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101Fええ、南に向かいましょう。\x02",
+        "#00101FYeah, let 's head south.\x02",
     )
 
     CloseMessageWindow()

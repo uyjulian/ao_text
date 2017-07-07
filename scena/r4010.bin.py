@@ -19,14 +19,14 @@ def main():
 
     BuildStringList((
         "r4010",                  # 0
-        "ハバネリアン",           # 1
-        "ハバネリアン",           # 2
-        "ガンテ",                 # 3
-        "ガンテ",                 # 4
-        "マスタークリオン",       # 5
-        "車",                     # 6
-        "列車",                   # 7
-        "SE制御",                 # 8
+        "Havanellian",           # 1
+        "Havanellian",           # 2
+        "Gante",                 # 3
+        "Gante",                 # 4
+        "Master Clion",       # 5
+        "car",                     # 6
+        "列car",                   # 7
+        "SE control",                 # 8
         "br4000",                 # 9
         "br4000",                 # 10
         "br4000",                 # 11
@@ -35,8 +35,8 @@ def main():
         "br4000",                 # 14
         "br4000",                 # 15
         "br4000",                 # 16
-        "クロスベル市・ベルガード門方面",# 17
-        "警察学校",               # 18
+        "Crossbell City · Belgard gate towards the gate",# 17
+        "Police school",               # 18
     ))
 
     ATBonus("ATBonus_454", 100, 5, 1, 5, 1, 5, 1, 5, 5, 0, 0, 0, 1, 0, 0, 0)
@@ -226,8 +226,8 @@ def main():
     DeclActor(85910,   12000,   42040,   1200,    85910,   12000,   42040,   0x007C, 0,  7,  0x0000)
     DeclActor(20270,   11750,   26950,   1200,    20270,   11750,   26950,   0x007C, 0,  8,  0x0000)
 
-    PlaceName(0.0, 0.0, 150.0, 0x0000, 0x0000, "クロスベル市・ベルガード門方面")
-    PlaceName(-140.0, 0.0, -80.0, 0x0000, 0x0000, "警察学校")
+    PlaceName(0.0, 0.0, 150.0, 0x0000, 0x0000, "Crossbell City · Belgard gate towards the gate")
+    PlaceName(-140.0, 0.0, -80.0, 0x0000, 0x0000, "Police school")
 
     ChipFrameInfo(1000, 0, [0, 1, 2, 3, 4, 3, 2, 1])             # 0
     ChipFrameInfo(1500, 0, [0, 1, 2, 3, 4, 3, 2, 1])             # 1
@@ -774,9 +774,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱の中から強力な魔獣の気配を感じる。\x01",
-            "【推定魔獣レベル１００】\x01",
-            "宝箱を開きますか？\x02",
+            "I feel the signature of powerful demons from the treasure box.\x01",
+            "【Estimated Demonic Level 100】\x01",
+            "Would you like to open a treasure box?\x02",
         )
     )
 
@@ -787,8 +787,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -832,7 +832,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "A monster appeared!\x07\x00\x02",
         )
     )
 
@@ -882,7 +882,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '辰星铃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -901,14 +901,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '辰星铃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '辰星铃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -931,7 +931,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -975,14 +975,14 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#56I地のセピス×４０\x01\x07\x02",
-            "#57I水のセピス×４０\x01\x07\x02",
-            "#58I火のセピス×４０\x01\x07\x02",
-            "#59I風のセピス×４０\x01\x07\x02",
-            "#60I時のセピス×４０\x01\x07\x02",
-            "#61I空のセピス×４０\x01\x07\x02",
-            "#62I幻のセピス×４０\x01\x07\x00",
-            "を手に入れた。\x02",
+            "#56ISepis of the earth × 40\x01\x07\x02",
+            "#57IWater sepis × 40\x01\x07\x02",
+            "#58IFire sepis × 40\x01\x07\x02",
+            "#59IWind sepice × 40\x01\x07\x02",
+            "#60ITime sepis × 40\x01\x07\x02",
+            "#61IEmpty Sepis × 40\x01\x07\x02",
+            "#62IPhantom sepis × 40\x01\x07\x00",
+            "I got it.\x02",
         )
     )
 
@@ -1001,7 +1001,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x02",
+            "In the treasure box何も入っていない。\x02",
         )
     )
 
@@ -1032,8 +1032,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1044,8 +1044,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1077,7 +1077,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1140,8 +1140,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1152,8 +1152,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1185,7 +1185,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1253,8 +1253,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1265,8 +1265,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1298,7 +1298,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1361,8 +1361,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1373,8 +1373,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1406,7 +1406,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1693,7 +1693,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#5Pハアッ、ハアッ……\x02",
+        "#00006F#5PHua, huh ……\x02",
     )
 
     CloseMessageWindow()
@@ -1706,7 +1706,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F#11P……女神の加護を。\x02",
+        "#00003F#11P…… Protecting the goddess.\x02",
     )
 
     CloseMessageWindow()
@@ -1725,11 +1725,11 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00013F（《プレロマ草》がここまで……）\x02\x03",
-            "（俺が捕まっていた間に\x01",
-            "  咲き始めたってことか……）\x02\x03",
-            "#00008F（……もしかして\x01",
-            "  キーアにも関係しているのか？）\x02",
+            "#00013F(\"Pleroma grass\" is here until … …)\x02\x03",
+            "(While I was caught\x01",
+            "Is it that I started to bloom …?)\x02\x03",
+            "#00008FBy chance\x01",
+            "Is it related to Ka'aa too? )\x02",
         )
     )
 
@@ -1757,9 +1757,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P（……全ては\x01",
-            "  ここを切り抜けてからだ。）\x02\x03",
-            "（とにかく一旦、街道を目指そう。）\x02",
+            "#00003F#5P(… … everything\x01",
+            "It is from here. )\x02\x03",
+            "(In any case, let's aim for the highway once.\x02",
         )
     )
 
@@ -1787,8 +1787,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#5P#00010F（……あらゆるルートを想定して、\x01",
-            "  何としても切り抜けてみせる……！）\x02",
+            "#5P#00010F(… … assuming every route,\x01",
+            "I can show it anyhow … …! )\x02",
         )
     )
 
@@ -1807,8 +1807,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ガルシアがパーティメンバーから\x01",
-            "外れました。\x02",
+            "Garcia from party members\x01",
+            "I got out.\x02",
         )
     )
 
@@ -1847,10 +1847,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F（ガルシア、あんたの力添えは\x01",
-            "  絶対に無駄にはしない……）\x02\x03",
-            "#00001F行こう！\x01",
-            "ぐずぐずしている暇はない。\x02",
+            "#00003F(Garcia, your assistance is\x01",
+            "I will not absolutely waste … …)\x02\x03",
+            "#00001Flet's go!\x01",
+            "I have no time to waste.\x02",
         )
     )
 

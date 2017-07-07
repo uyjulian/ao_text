@@ -45,7 +45,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "何かを見つけた。\x02",
+            "I found something.\x02",
         )
     )
 
@@ -137,7 +137,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '解毒药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -160,7 +160,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '软化膏'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -183,7 +183,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '绝缘胶带'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -206,7 +206,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '解冻暖炉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -229,7 +229,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '舒缓凝胶'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -252,7 +252,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '冷却喷雾'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -275,7 +275,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '眼药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -298,7 +298,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '提神薄荷'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -321,7 +321,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '苏醒药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -344,7 +344,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '镇静剂'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -367,7 +367,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -433,8 +433,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#56I地のセピス\x07\x00",
-            "を10個拾った。\x02",
+            "#56ISepis of the earth\x07\x00",
+            "I picked 10 pieces.\x02",
         )
     )
 
@@ -456,8 +456,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#57I水のセピス\x07\x00",
-            "を10個拾った。\x02",
+            "#57IWater sepis\x07\x00",
+            "I picked 10 pieces.\x02",
         )
     )
 
@@ -479,8 +479,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#58I火のセピス\x07\x00",
-            "を10個拾った。\x02",
+            "#58IFire Sepis\x07\x00",
+            "I picked 10 pieces.\x02",
         )
     )
 
@@ -502,8 +502,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#59I風のセピス\x07\x00",
-            "を10個拾った。\x02",
+            "#59IWind sepice\x07\x00",
+            "I picked 10 pieces.\x02",
         )
     )
 
@@ -525,8 +525,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#60I時のセピス\x07\x00",
-            "を10個拾った。\x02",
+            "#60ITime sepis\x07\x00",
+            "I picked 10 pieces.\x02",
         )
     )
 
@@ -548,8 +548,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#61I空のセピス\x07\x00",
-            "を10個拾った。\x02",
+            "#61IEmpty sepis\x07\x00",
+            "I picked 10 pieces.\x02",
         )
     )
 
@@ -571,8 +571,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#62I幻のセピス\x07\x00",
-            "を10個拾った。\x02",
+            "#62IPhantom Sepis\x07\x00",
+            "I picked 10 pieces.\x02",
         )
     )
 
@@ -595,7 +595,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '鲑鱼卵'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -618,7 +618,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '熬炼丸子'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -641,7 +641,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '红虫'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -664,7 +664,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '蚯蚓'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -687,7 +687,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽兽肉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -710,7 +710,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽鱼肉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -733,7 +733,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽之壳'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -756,7 +756,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽之卵'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -779,7 +779,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽羽翼'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -802,7 +802,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽之种'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -825,7 +825,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽明胶'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -848,7 +848,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -910,7 +910,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＨＰ１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -933,7 +933,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -956,7 +956,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '攻击１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -979,7 +979,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '防御１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1002,7 +1002,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '精神１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1025,7 +1025,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔防１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1048,7 +1048,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '命中１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1071,7 +1071,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '回避１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1094,7 +1094,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '移动１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1117,7 +1117,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '行动力１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1140,7 +1140,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '妨害１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1163,7 +1163,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '省ＥＰ１'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1186,7 +1186,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '银胸针'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1209,7 +1209,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '珊瑚戒指'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1232,7 +1232,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '英雄戒指'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1255,7 +1255,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '夜光眼镜'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1278,7 +1278,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '凉爽项链'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1301,7 +1301,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '打火机'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1324,7 +1324,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '幻彩围巾'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1347,7 +1347,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '叮当耳环'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1370,7 +1370,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '钢手镯'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1393,7 +1393,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '花之瓶'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1416,7 +1416,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '神圣之链'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1467,7 +1467,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＨＰ２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1490,7 +1490,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1513,7 +1513,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '攻击２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1536,7 +1536,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '防御２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1559,7 +1559,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '精神２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1582,7 +1582,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔防２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1605,7 +1605,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '命中２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1628,7 +1628,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '回避２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1651,7 +1651,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '移动２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1674,7 +1674,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '行动力２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1697,7 +1697,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '妨害２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1720,7 +1720,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '省ＥＰ２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1769,7 +1769,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＨＰ３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1792,7 +1792,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1815,7 +1815,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '攻击３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1838,7 +1838,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '防御３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1861,7 +1861,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '精神３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1884,7 +1884,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔防３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1907,7 +1907,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '命中３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1930,7 +1930,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '回避３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1953,7 +1953,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '行动力３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -1976,7 +1976,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '省ＥＰ３'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -2006,7 +2006,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "何かを見つけた。\x02",
+            "I found something.\x02",
         )
     )
 
@@ -2057,7 +2057,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '鲑鱼卵'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -2080,7 +2080,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '熬炼丸子'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -2103,7 +2103,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '红虫'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -2126,7 +2126,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '蚯蚓'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -2149,7 +2149,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '熬炼丸子ＤＸ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -2172,7 +2172,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽兽肉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -2195,7 +2195,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽鱼肉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -2218,7 +2218,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽之壳'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -2241,7 +2241,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽之卵'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -2264,7 +2264,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽羽翼'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -2287,7 +2287,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽之种'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -2310,7 +2310,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽明胶'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -2333,7 +2333,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽兽肉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を拾った。\x02",
+            "I picked up.\x02",
         )
     )
 
@@ -2391,7 +2391,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '发芽糙米'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -2414,7 +2414,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '五谷味噌'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -2437,7 +2437,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '百药精酒'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -2460,7 +2460,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '朝摘香叶'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を5個拾った。\x02",
+            "I picked five pieces.\x02",
         )
     )
 
@@ -2483,7 +2483,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '清绿香草'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を5個拾った。\x02",
+            "I picked five pieces.\x02",
         )
     )
 
@@ -2506,7 +2506,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '胡椒粒'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を8個拾った。\x02",
+            "I picked 8 pieces.\x02",
         )
     )
 
@@ -2529,7 +2529,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '热辣椒'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を8個拾った。\x02",
+            "I picked 8 pieces.\x02",
         )
     )
 
@@ -2552,7 +2552,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '香油'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を8個拾った。\x02",
+            "I picked 8 pieces.\x02",
         )
     )
 
@@ -2575,7 +2575,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '蜂蜜糖浆'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を8個拾った。\x02",
+            "I picked 8 pieces.\x02",
         )
     )
 
@@ -2598,7 +2598,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '粗碎岩盐'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を8個拾った。\x02",
+            "I picked 8 pieces.\x02",
         )
     )
 
@@ -2621,7 +2621,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '新磨小麦粉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を8個拾った。\x02",
+            "I picked 8 pieces.\x02",
         )
     )
 
@@ -2644,7 +2644,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '新鲜牛奶'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を4個拾った。\x02",
+            "I picked up 4 pieces.\x02",
         )
     )
 
@@ -2667,7 +2667,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '新鲜奶酪'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を4個拾った。\x02",
+            "I picked up 4 pieces.\x02",
         )
     )
 
@@ -2690,7 +2690,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '新鲜鸡蛋'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を4個拾った。\x02",
+            "I picked up 4 pieces.\x02",
         )
     )
 
@@ -2713,7 +2713,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '铃铛草莓'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を3個拾った。\x02",
+            "I picked up three.\x02",
         )
     )
 
@@ -2736,7 +2736,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '黑暗菇'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を3個拾った。\x02",
+            "I picked up three.\x02",
         )
     )
 
@@ -2759,7 +2759,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '七彩豆'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を3個拾った。\x02",
+            "I picked up three.\x02",
         )
     )
 
@@ -2782,7 +2782,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '国王马铃薯'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を5個拾った。\x02",
+            "I picked five pieces.\x02",
         )
     )
 
@@ -2805,7 +2805,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '万能青葱'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を5個拾った。\x02",
+            "I picked five pieces.\x02",
         )
     )
 
@@ -2828,7 +2828,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '迷你胡萝卜'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を5個拾った。\x02",
+            "I picked five pieces.\x02",
         )
     )
 
@@ -2851,7 +2851,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '苦西红柿'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -2874,7 +2874,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '雪花里脊肉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -2897,7 +2897,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '新鲜白肉鱼'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 
@@ -2920,7 +2920,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '新鲜白肉鱼'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を2個拾った。\x02",
+            "I picked up two.\x02",
         )
     )
 

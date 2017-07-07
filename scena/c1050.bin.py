@@ -19,10 +19,10 @@ def main():
 
     BuildStringList((
         "c1050",                  # 0
-        "モルス老人",             # 1
-        "パーラ夫人",             # 2
-        "ロイ",                   # 3
-        "メイリン",               # 4
+        "Mols old man",             # 1
+        "Mrs. Parla",             # 2
+        "Roy",                   # 3
+        "Meyrin",               # 4
     ))
 
     AddCharChip((
@@ -286,9 +286,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "クロスベルは日常を\x01",
-            "取り戻しつつあるが、\x01",
-            "まだ問題は山積みじゃ。\x02",
+            "Crossbell daily\x01",
+            "Although it is getting back,\x01",
+            "There are still a lot of problems.\x02",
         )
     )
 
@@ -297,9 +297,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "国交を断った影響で\x01",
-            "何処の商店も十分な商品を\x01",
-            "揃えられてはおらぬ。\x02",
+            "With the influence refusing diplomacy\x01",
+            "Any store has enough products\x01",
+            "I have not arranged it.\x02",
         )
     )
 
@@ -308,9 +308,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "マクダエル議長とも\x01",
-            "連絡を取り合いつつ、\x01",
-            "なんとか対策を考えねばな。\x02",
+            "Both Mr. MacDarl\x01",
+            "While keeping in touch,\x01",
+            "I have to think about measures somehow.\x02",
         )
     )
 
@@ -324,9 +324,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "クロスベルは日常を\x01",
-            "取り戻しつつあるが、\x01",
-            "まだ問題は山積みじゃ。\x02",
+            "Crossbell daily\x01",
+            "Although it is getting back,\x01",
+            "There are still a lot of problems.\x02",
         )
     )
 
@@ -335,9 +335,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "マクダエル議長とも\x01",
-            "連絡を取り合いつつ、\x01",
-            "なんとか対策を考えねばな。\x02",
+            "Both Mr. MacDarl\x01",
+            "While keeping in touch,\x01",
+            "I have to think about measures somehow.\x02",
         )
     )
 
@@ -355,8 +355,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ううむ、露店の者たちの\x01",
-            "安否が気がかりじゃな。\x02",
+            "Umu, street vendors\x01",
+            "Safety is anxious.\x02",
         )
     )
 
@@ -365,9 +365,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "戒厳令下でも、どうしても\x01",
-            "商売をつづけたいというから\x01",
-            "許可してしまったが……\x02",
+            "Even under martial law, absolutely\x01",
+            "Because I would like to continue my business\x01",
+            "I have allowed it … ….\x02",
         )
     )
 
@@ -376,8 +376,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "もし、彼らに何かあったら\x01",
-            "わしの責任じゃよ。\x02",
+            "If they have something\x01",
+            "It is my responsibility.\x02",
         )
     )
 
@@ -391,8 +391,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ううむ、露店の者たちの\x01",
-            "安否が気がかりじゃな。\x02",
+            "Umu, street vendors\x01",
+            "Safety is anxious.\x02",
         )
     )
 
@@ -401,9 +401,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "もし、彼らに何かあったら\x01",
-            "戒厳令下の商売を許可した\x01",
-            "わしの責任じゃよ。\x02",
+            "If they have something\x01",
+            "Permitted business under martial law\x01",
+            "It is my responsibility.\x02",
         )
     )
 
@@ -421,9 +421,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "例のディーター殿の演説……\x01",
-            "マクダエル議長が姿を\x01",
-            "見せていなかったのが気になるが。\x02",
+            "Dictator's speech ……\x01",
+            "McDaely's appearance\x01",
+            "I am worried that I did not show it.\x02",
         )
     )
 
@@ -432,8 +432,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "エリィ君、\x01",
-            "何か知ってはおらぬのかね？\x02",
+            "Ellie,\x01",
+            "You do not know anything?\x02",
         )
     )
 
@@ -442,8 +442,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00103F……いえ。\x01",
-            "実は私も少し気になっていまして……\x02",
+            "#00103F……House.\x01",
+            "Actually, I was a little worried … ….\x02",
         )
     )
 
@@ -452,8 +452,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふむ、そうか……\x01",
-            "さぞ心配じゃろう。\x02",
+            "Hmm, I see.\x01",
+            "Let's be worried.\x02",
         )
     )
 
@@ -462,9 +462,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "いずれにせよ\x01",
-            "こうなってしまった以上、\x01",
-            "２大国との対立は避けられまい。\x02",
+            "Anyway\x01",
+            "As it is this way,\x01",
+            "Conflict with two major powers is inevitable.\x02",
         )
     )
 
@@ -473,8 +473,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "有事に備えておくように\x01",
-            "商工会から呼びかけねばな……\x02",
+            "To prepare for emergency\x01",
+            "I have to call out from the Chamber of Commerce ……\x02",
         )
     )
 
@@ -488,8 +488,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "こうなってしまった以上、\x01",
-            "２大国との対立は避けられまい。\x02",
+            "As it is this way,\x01",
+            "Conflict with two major powers is inevitable.\x02",
         )
     )
 
@@ -498,8 +498,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "有事に備えておくように\x01",
-            "商工会から呼びかけねばな……\x02",
+            "To prepare for emergency\x01",
+            "I have to call out from the Chamber of Commerce ……\x02",
         )
     )
 
@@ -522,9 +522,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふむ、住民投票も\x01",
-            "間近に迫ったこの時期に、\x01",
-            "かような事件が起こるとは……\x02",
+            "Hmm, there is also a referendum\x01",
+            "At this closing time,\x01",
+            "It is said that such a case will happen …\x02",
         )
     )
 
@@ -533,9 +533,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "下手をすると、帝国や共和国に\x01",
-            "付け込まれる格好の材料に\x01",
-            "なってしまうかもしれん。\x02",
+            "Poorly, to the Empire and the Republic\x01",
+            "To the suitable material to be attached\x01",
+            "It may become it.\x02",
         )
     )
 
@@ -544,8 +544,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "なんとしても、早急な解決が\x01",
-            "望まれるところじゃな。\x02",
+            "Anyhow, urgent solution\x01",
+            "It is a desired place.\x02",
         )
     )
 
@@ -559,9 +559,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ただでさえ、\x01",
-            "治安の面で帝国や共和国に\x01",
-            "弱みを見せている現状じゃ。\x02",
+            "Even so,\x01",
+            "To the empire and republic in terms of security\x01",
+            "It is the current situation showing weakness.\x02",
         )
     )
 
@@ -570,8 +570,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "なんとしても、早急な解決が\x01",
-            "望まれるところじゃな。\x02",
+            "Anyhow, urgent solution\x01",
+            "It is a desired place.\x02",
         )
     )
 
@@ -589,9 +589,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "昨日の列車事故は\x01",
-            "得体のしれない化け物の\x01",
-            "仕業だったとか……\x02",
+            "Yesterday's train accident\x01",
+            "A monster who might be an acquaintance\x01",
+            "It was a work or …\x02",
         )
     )
 
@@ -600,9 +600,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふむ、最近目撃されるという\x01",
-            "不可思議な怪物と\x01",
-            "同じものなのかのう？\x02",
+            "Hmm, I have been witnessed lately\x01",
+            "With a mysterious monster\x01",
+            "Is it the same thing?\x02",
         )
     )
 
@@ -611,8 +611,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "近頃ただでさえ事件が多い。\x01",
-            "諸君らも充分気をつけるのじゃぞ。\x02",
+            "Even recently there are many incidents.\x01",
+            "You too are careful enough.\x02",
         )
     )
 
@@ -626,9 +626,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "列車事故を起こした化け物が\x01",
-            "最近噂される不可思議な怪物と\x01",
-            "同じものかはわからんが……\x02",
+            "The monster that caused the train accident\x01",
+            "最近噂されるWith a mysterious monster\x01",
+            "I do not know whether it is the same … …\x02",
         )
     )
 
@@ -637,8 +637,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "近頃ただでさえ事件が多い。\x01",
-            "諸君らも充分気をつけるのじゃぞ。\x02",
+            "Even recently there are many incidents.\x01",
+            "You too are careful enough.\x02",
         )
     )
 
@@ -666,9 +666,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "クロスベル自治州の独立……\x01",
-            "ディーター市長も思い切ったことを\x01",
-            "宣言したものじゃ。\x02",
+            "Crossbell autonomous state independence ……\x01",
+            "Mayor Dieter also dared to\x01",
+            "I declared it.\x02",
         )
     )
 
@@ -677,9 +677,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "だが、内外への発言力が\x01",
-            "かつてないほどに高まっておる\x01",
-            "今こそが、好機なのは間違いない。\x02",
+            "However, the ability to say inside and outside\x01",
+            "It is growing more than ever\x01",
+            "There is no doubt that now is the opportunity.\x02",
         )
     )
 
@@ -688,8 +688,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "長い歴史で２大国に支配され続け、\x01",
-            "失われつつあるクロスベルの誇り……\x02",
+            "Continued to be dominated by the two major powers in a long history,\x01",
+            "Pride of crossbell being lost … …\x02",
         )
     )
 
@@ -698,9 +698,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "色々と軋轢はあるだろうが、\x01",
-            "独立の実現という結果を以って\x01",
-            "何としても取り戻してほしいものじゃ。\x02",
+            "There will be various conflicts,\x01",
+            "With the result of realization of independence\x01",
+            "I want you to recover anything.\x02",
         )
     )
 
@@ -714,9 +714,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……そうそう、そんな市長の\x01",
-            "最近の勢いを応援する意味でも、\x01",
-            "ある企画を進めておるのじゃよ。\x02",
+            "… Oh yeah, such a mayor's\x01",
+            "Even in terms of supporting the recent momentum,\x01",
+            "I am promoting some projects.\x02",
         )
     )
 
@@ -725,9 +725,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "クロスベル通信社と共同の企画じゃ、\x01",
-            "市民も活気付いてくれるじゃろう。\x01",
-            "諸君も、楽しみにしておいてくれ。\x02",
+            "In collaboration with Crossbell Communication Company,\x01",
+            "Citizens will notice it.\x01",
+            "Everyone, please look forward to it.\x02",
         )
     )
 
@@ -744,7 +744,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "ついに通商会議が始まるのう。\x02",
+        "At last the trade meeting will start.\x02",
     )
 
     CloseMessageWindow()
@@ -752,9 +752,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "わしら市民は\x01",
-            "クロスベルタイムズでの\x01",
-            "結果を待つのみじゃ。\x02",
+            "Watari citizen\x01",
+            "At the Crossbell Times\x01",
+            "Just wait for the results.\x02",
         )
     )
 
@@ -763,8 +763,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "さて……\x01",
-            "どんな会議になるのやら。\x02",
+            "Now……\x01",
+            "What kind of meeting will it be?\x02",
         )
     )
 
@@ -778,8 +778,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "本来ならば、ぜひとも\x01",
-            "会議の様子を見たかったものじゃ。\x02",
+            "Originally, by all means\x01",
+            "I wanted to see the state of the meeting.\x02",
         )
     )
 
@@ -788,8 +788,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "さて……\x01",
-            "どんな会議になるのやら。\x02",
+            "Now……\x01",
+            "What kind of meeting will it be?\x02",
         )
     )
 
@@ -806,9 +806,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "どうやら孫のロイが、\x01",
-            "露店の仕事に興味を\x01",
-            "持ち始めたそうじゃ。\x02",
+            "どうやら孫のRoyが、\x01",
+            "Interest in stalls work\x01",
+            "I heard you started to have it.\x02",
         )
     )
 
@@ -817,8 +817,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……わしも元は露天商でな。\x01",
-            "ふむ、これも血筋かのう。\x02",
+            "…… Was also originally a street vendor.\x01",
+            "Hmm, this is also bloodline.\x02",
         )
     )
 
@@ -840,9 +840,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ふむ、まさか黒月の\x01",
-            "長老さんのお孫さんが\x01",
-            "ウチに来てくれるなんてね。\x02",
+            "Hmm, it's nothing black\x01",
+            "Elders' grandchildren\x01",
+            "I will not come to my place.\x02",
         )
     )
 
@@ -851,9 +851,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "何はともあれ、\x01",
-            "この街を気に入ってくれると\x01",
-            "私も嬉しいよ。\x02",
+            "Anyway,\x01",
+            "If you like this town\x01",
+            "I am also happy.\x02",
         )
     )
 
@@ -869,9 +869,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "通商会議では、各国の代表者が\x01",
-            "主に経済関係の取り決めについて\x01",
-            "協議を行う。\x02",
+            "At the Trade Council, delegates from each country\x01",
+            "Mainly on economic relationship arrangements\x01",
+            "Talks will be held.\x02",
         )
     )
 
@@ -880,8 +880,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "わしら商工会もその動向には\x01",
-            "注目しているのじゃよ。\x02",
+            "Wheelchair Chamber of Commerce also trends\x01",
+            "You are paying attention.\x02",
         )
     )
 
@@ -902,8 +902,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おや、ロイドくんじゃないか。\x01",
-            "一体どうしたね？\x02",
+            "おや、Royドくんじゃないか。\x01",
+            "What on earth happened?\x02",
         )
     )
 
@@ -912,9 +912,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fえっと……\x01",
-            "メイリンちゃんは\x01",
-            "ご在宅でしょうか？\x02",
+            "#00000FEr …\x01",
+            "Meyrinちゃんは\x01",
+            "Are you at home?\x02",
         )
     )
 
@@ -923,9 +923,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ん、さっき帰ってきたと\x01",
-            "思っておったが……\x01",
-            "またどこかに行ったかの？\x02",
+            "I thought that I came home earlier\x01",
+            "I thought that … ….\x01",
+            "Did you go somewhere again?\x02",
         )
     )
 
@@ -934,8 +934,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "すまないが、婆さんに\x01",
-            "聞いてもらえるかな？\x02",
+            "I'm sorry but my grandmother\x01",
+            "Can you hear me?\x02",
         )
     )
 
@@ -949,9 +949,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "仕事をしていてな。\x01",
-            "孫が出かけたのに\x01",
-            "気づかなんだ。\x02",
+            "You are working.\x01",
+            "My grandchild went out.\x01",
+            "It is noticed.\x02",
         )
     )
 
@@ -960,8 +960,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "孫については婆さんに\x01",
-            "聞いてもらえるかな？\x02",
+            "About grandchildren to an old lady\x01",
+            "Can you hear me?\x02",
         )
     )
 
@@ -977,8 +977,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "さて、商工会の仕事の\x01",
-            "続きをせねばな……\x02",
+            "Well, for the work of the Chamber of Commerce\x01",
+            "Continue if you do … …\x02",
         )
     )
 
@@ -994,9 +994,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ロイのやつに\x01",
-            "説教のひとつでも\x01",
-            "してやろうかと思うたが……\x02",
+            "Royのやつに\x01",
+            "Even one of the sermons\x01",
+            "I thought I'd rather do it … …\x02",
         )
     )
 
@@ -1005,8 +1005,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "メイリンのいるところで\x01",
-            "やるのもなんじゃな。\x02",
+            "Meyrinのいるところで\x01",
+            "I do not want to do it.\x02",
         )
     )
 
@@ -1014,7 +1014,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "今日のところは見逃してやるか。\x02",
+        "Will you miss today.\x02",
     )
 
     CloseMessageWindow()
@@ -1031,9 +1031,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "教団事件直前に行われた\x01",
-            "クロスベル予算議会は、\x01",
-            "一旦仕切りなおしになってな。\x02",
+            "It was held just before the cult incident\x01",
+            "Crossbell Budget Parliament,\x01",
+            "It has become a partition again.\x02",
         )
     )
 
@@ -1042,9 +1042,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "新市長、新議長が中心となって\x01",
-            "利権が絡まない案へと\x01",
-            "予算が組み直されたんじゃ。\x02",
+            "New mayor, new chairperson is the center\x01",
+            "To a plan that does not involve interests\x01",
+            "The budget was reorganized.\x02",
         )
     )
 
@@ -1053,9 +1053,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うむ、市政もようやく\x01",
-            "良い方向へと進みはじめた\x01",
-            "ということかのう。\x02",
+            "Well, the city government finally\x01",
+            "I began to move in a good direction\x01",
+            "I mean that.\x02",
         )
     )
 
@@ -1069,8 +1069,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "市政もようやく良い方向へと\x01",
-            "進み始めたようじゃ。\x02",
+            "Municipal administration finally got better\x01",
+            "You seem to be getting started.\x02",
         )
     )
 
@@ -1079,8 +1079,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "これも新市長と新議長の\x01",
-            "おかげかのう。\x02",
+            "This is also the new mayor and the new chairman\x01",
+            "Thanks.\x02",
         )
     )
 
@@ -1098,8 +1098,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おや……ロイド君に、\x01",
-            "マクダエル議長のお嬢さんか。\x02",
+            "おや……Royド君に、\x01",
+            "Mr. MacDaely Chairman Miss?\x02",
         )
     )
 
@@ -1108,8 +1108,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "久しぶりじゃのう。\x01",
-            "元気そうで何よりじゃ。\x02",
+            "It is a long time ago.\x01",
+            "Looks fine and more than anything.\x02",
         )
     )
 
@@ -1117,14 +1117,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000Fこんにちは、モルス会長。\x02",
+        "#00000FHello, Mr. President Morse.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00100Fご無沙汰しています。\x02",
+        "#00100Flong time no see.\x02",
     )
 
     CloseMessageWindow()
@@ -1132,8 +1132,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10300F確か、東通りの商人をまとめる\x01",
-            "商工会の会長さんだったね。\x02",
+            "#10300FCertainly, put together the merchants of east street\x01",
+            "It was the president of the Chamber of Commerce.\x02",
         )
     )
 
@@ -1142,9 +1142,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10105Fああ、こちらの方が……\x01",
-            "（母さんも露天商時代に\x01",
-            "  お世話になったんだっけ。）\x02",
+            "#10105FOh, this one is … …\x01",
+            "(Mother also in the street vendor's age\x01",
+            "I was indebted to you. )\x02",
         )
     )
 
@@ -1153,9 +1153,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うむ、新顔もおるようだし\x01",
-            "いよいよ特務支援課も\x01",
-            "再始動と言ったところか。\x02",
+            "Well, there seems to be a new face\x01",
+            "The Special Affairs Support Division is finally here\x01",
+            "Where did it say restart?\x02",
         )
     )
 
@@ -1164,9 +1164,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "君たちには\x01",
-            "わしら市民も期待しておる。\x01",
-            "がんばってくれたまえよ。\x02",
+            "To you guys\x01",
+            "We 're expecting citizens as well.\x01",
+            "Do your best.\x02",
         )
     )
 
@@ -1180,8 +1180,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "君たち特務支援課には\x01",
-            "これからも期待しておるぞ。\x02",
+            "You guys at the Special Affairs Support Division\x01",
+            "I am expecting it from now on.\x02",
         )
     )
 
@@ -1190,8 +1190,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "何か力になれることがあったら\x01",
-            "いつでも来るといい。\x02",
+            "If I have something to help with\x01",
+            "You should come at any time.\x02",
         )
     )
 
@@ -1221,8 +1221,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "大統領の拘束を乗り越えて、\x01",
-            "これからどうするか……\x02",
+            "Overcoming President's detention,\x01",
+            "What to do now … ….\x02",
         )
     )
 
@@ -1231,8 +1231,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "それがクロスベルに住む人々にとって\x01",
-            "何より大事なことだと思うわ。\x02",
+            "For those who live in Crossbell\x01",
+            "I think it's more important than anything else.\x02",
         )
     )
 
@@ -1241,8 +1241,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "皆で話し合って、きっといい方向に\x01",
-            "物事が進んでいけばいいわね。\x02",
+            "Talking with everyone, surely in a good direction\x01",
+            "I hope things will progress.\x02",
         )
     )
 
@@ -1256,9 +1256,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "これからどうするか……\x01",
-            "クロスベルに住む人々にとって\x01",
-            "それが何より大事なことだと思うわ。\x02",
+            "What to do now … ….\x01",
+            "For those living in Crossbell\x01",
+            "それがI think it's more important than anything else.\x02",
         )
     )
 
@@ -1267,8 +1267,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "皆で話し合って、きっといい方向に\x01",
-            "物事が進んでいけばいいわね。\x02",
+            "Talking with everyone, surely in a good direction\x01",
+            "I hope things will progress.\x02",
         )
     )
 
@@ -1285,9 +1285,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ロイとおじいさんが\x01",
-            "ちゃあんと見張っているから、\x01",
-            "怖いのもここにはこないわ。\x02",
+            "Royとおじいさんが\x01",
+            "Because I keep on watching him,\x01",
+            "I am not afraid of coming here.\x02",
         )
     )
 
@@ -1296,8 +1296,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "だからメイリン、\x01",
-            "心配しなくていいからね。\x02",
+            "だからMeyrin、\x01",
+            "You do not have to worry.\x02",
         )
     )
 
@@ -1312,8 +1312,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ディーターさんの独立宣言……\x01",
-            "時期尚早ではなかったかしら……\x02",
+            "Dieter's Declaration of Independence ……\x01",
+            "I wonder if it was premature ……\x02",
         )
     )
 
@@ -1322,9 +1322,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "この世のあらゆる物事は\x01",
-            "変わっていくものだとは\x01",
-            "分かっていたつもりだけど……\x02",
+            "Everything in this world\x01",
+            "What is changing things\x01",
+            "I intended to understand, but ….\x02",
         )
     )
 
@@ -1333,9 +1333,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "いや……クロスベルは既に\x01",
-            "そうも言っていられない状況に\x01",
-            "なってしまっていたのかもね……\x02",
+            "No … … Crossbell already\x01",
+            "In a situation I can not say so\x01",
+            "Perhaps it has become … …\x02",
         )
     )
 
@@ -1349,9 +1349,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "物事の急激な変化は、\x01",
-            "私たち年寄りにとっては\x01",
-            "怖いものがあるわ。\x02",
+            "The sudden change of things,\x01",
+            "For us old people\x01",
+            "There is a scary thing.\x02",
         )
     )
 
@@ -1360,9 +1360,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "クロスベルは既に\x01",
-            "引き返せないところまで\x01",
-            "きてしまっていたのね……\x02",
+            "Crossbell already\x01",
+            "Until I can not return\x01",
+            "You had it …\x02",
         )
     )
 
@@ -1379,8 +1379,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おじいさんなら、商工会の用事で\x01",
-            "市民会館に行っているわ。\x02",
+            "If you are a grandfather, at a business of the Chamber of Commerce\x01",
+            "I'm going to the city hall.\x02",
         )
     )
 
@@ -1389,9 +1389,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今回のチャリティイベントは\x01",
-            "ロイも手伝ってるそうだけど……\x01",
-            "どうなるかしらね。\x02",
+            "This charity event\x01",
+            "Royも手伝ってるそうだけど……\x01",
+            "I wonder what happens.\x02",
         )
     )
 
@@ -1405,8 +1405,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今はとにかく、女神様に\x01",
-            "お祈りすることしかできないわ。\x02",
+            "Anyway, now to the goddess\x01",
+            "I can only pray.\x02",
         )
     )
 
@@ -1415,8 +1415,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "これ以上このクロスベルで\x01",
-            "無駄な血が流れませんように……\x02",
+            "With this crossbell no more\x01",
+            "I wish useless blood will not flow ……\x02",
         )
     )
 
@@ -1430,8 +1430,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "最近は本当に何が起こるか\x01",
-            "分からないわねえ……\x02",
+            "Recently what really happens\x01",
+            "I do not know …\x02",
         )
     )
 
@@ -1440,9 +1440,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ロイやメイリンにも、\x01",
-            "出歩くときには充分に\x01",
-            "気をつけるように言わないと。\x02",
+            "RoyやMeyrinにも、\x01",
+            "When going out enough\x01",
+            "I have to tell him to be careful.\x02",
         )
     )
 
@@ -1456,9 +1456,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "さてと……\x01",
-            "おじいさんとメイリンが\x01",
-            "そろそろ帰る頃かしら。\x02",
+            "Well ……\x01",
+            "おじいさんとMeyrinが\x01",
+            "I wonder if it is time to go back.\x02",
         )
     )
 
@@ -1467,8 +1467,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "紅茶とお菓子を用意して\x01",
-            "待っているとしましょうかね。\x02",
+            "Prepare black tea and sweets\x01",
+            "Let's say we are waiting.\x02",
         )
     )
 
@@ -1482,9 +1482,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おじいさんなら今頃、\x01",
-            "表の通りでメイリンと\x01",
-            "遊んでるんじゃないかしら。\x02",
+            "If you are a grandfather,\x01",
+            "表の通りでMeyrinと\x01",
+            "I wonder if you are playing.\x02",
         )
     )
 
@@ -1493,9 +1493,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふふ、おじいさんったら\x01",
-            "久しぶりの休みに孫と遊べて、\x01",
-            "とってもうれしそうだったわ。\x02",
+            "Hehe, grandpa\x01",
+            "I can play with my grandchild on a holiday for the first time in a while,\x01",
+            "I was very happy.\x02",
         )
     )
 
@@ -1509,8 +1509,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "住民投票については、\x01",
-            "商工会でも手伝いにまわるそうよ。\x02",
+            "Regarding referendums,\x01",
+            "It seems that even the Chamber of Commerce will go to help.\x02",
         )
     )
 
@@ -1519,8 +1519,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "一体どうなるのかしら……\x01",
-            "私にはまったく分からないわ。\x02",
+            "I wonder what will happen ….\x01",
+            "I do not understand at all.\x02",
         )
     )
 
@@ -1534,8 +1534,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おじいさん、商工会の長として\x01",
-            "色々と思うところがあるみたいね。\x02",
+            "Grandfather, as chief of the Chamber of Commerce\x01",
+            "It seems there are places to think differently.\x02",
         )
     )
 
@@ -1544,9 +1544,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "もう年なんですから、\x01",
-            "あまり無理しないように\x01",
-            "してもらわないとね。\x02",
+            "Because it is already an age,\x01",
+            "Do not overdo it\x01",
+            "I have to do it.\x02",
         )
     )
 
@@ -1561,9 +1561,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "以前はおじいさんも\x01",
-            "ロイの無気力ぶりには\x01",
-            "手を焼いていたようだけど……\x02",
+            "Old grandfather also\x01",
+            "Royの無気力ぶりには\x01",
+            "It seems he was burning his hands ….\x02",
         )
     )
 
@@ -1572,8 +1572,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "この先ロイががんばって、\x01",
-            "ゆくゆくは商工会に……\x02",
+            "この先Royががんばって、\x01",
+            "Eventually to the Chamber of Commerce ……\x02",
         )
     )
 
@@ -1582,8 +1582,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "なんてことになったら、\x01",
-            "きっと喜ぶわね。\x02",
+            "What is it supposed to be,\x01",
+            "I'm sure you will be pleased.\x02",
         )
     )
 
@@ -1597,8 +1597,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "この先ロイががんばって、\x01",
-            "ゆくゆくは商工会に……\x02",
+            "この先Royががんばって、\x01",
+            "Eventually to the Chamber of Commerce ……\x02",
         )
     )
 
@@ -1607,8 +1607,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "なんてことになったら、\x01",
-            "おじいさん、きっと喜ぶわね。\x02",
+            "What is it supposed to be,\x01",
+            "おじいさん、I'm sure you will be pleased.\x02",
         )
     )
 
@@ -1627,9 +1627,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "あらあら、あなたたち。\x01",
-            "今日はまた可愛らしい子を\x01",
-            "連れているのね。\x02",
+            "Oh no, you guys.\x01",
+            "Today I will have a cute child again\x01",
+            "You are taking them.\x02",
         )
     )
 
@@ -1638,8 +1638,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "フム、ご夫人。\x01",
-            "お邪魔させてもらっています。\x02",
+            "Hm, your wife.\x01",
+            "I'm getting in the way.\x02",
         )
     )
 
@@ -1650,8 +1650,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ふふ、どういたしまして。\x01",
-            "あなた随分お行儀がよろしいのね。\x02",
+            "Hehe, you are welcome.\x01",
+            "You behaved very well.\x02",
         )
     )
 
@@ -1659,7 +1659,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "よければ紅茶でも飲んでいく？\x02",
+        "Would you like to drink tea if you do not mind?\x02",
     )
 
     CloseMessageWindow()
@@ -1667,9 +1667,9 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "ああいえ、\x01",
-            "長居するつもりはないので\x01",
-            "おかまいなく。\x02",
+            "Oh,\x01",
+            "I am not going to stay long\x01",
+            "Unnamed.\x02",
         )
     )
 
@@ -1677,14 +1677,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00100F（ふふ、見事な社交術ね。）\x02",
+        "#00100F(Hehe, you are a brilliant social gift.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00006F（なんていうか……）\x02",
+        "#00006F(What I should say … …)\x02",
     )
 
     CloseMessageWindow()
@@ -1692,7 +1692,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00300F（ああ、ソツがねえな。）\x02",
+        "#00300F(Oh, you do not have any snow.\x02",
     )
 
     CloseMessageWindow()
@@ -1704,7 +1704,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100F（ええ、ソツがないですね。）\x02",
+        "#10100F(Yes, there is not schnitz.\x02",
     )
 
     CloseMessageWindow()
@@ -1716,7 +1716,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10300F（ああ、ソツがないね。）\x02",
+        "#10300F(Oh, I do not have any sorrow.\x02",
     )
 
     CloseMessageWindow()
@@ -1732,8 +1732,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ふふ、本当に\x01",
-            "礼儀正しくて良い子ね。\x02",
+            "Huhu, really\x01",
+            "Be polite and a good child.\x02",
         )
     )
 
@@ -1741,7 +1741,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "ロイにも見習わせたいわ。\x02",
+        "Royにも見習わせたいわ。\x02",
     )
 
     CloseMessageWindow()
@@ -1757,9 +1757,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "政治の話にはうるさいおじいさんも、\x01",
-            "ディーター市長を\x01",
-            "とても評価しているみたいよ。\x02",
+            "A noisy grandfather also talks about politics,\x01",
+            "Mayor Dieter\x01",
+            "It seems to be very appreciated.\x02",
         )
     )
 
@@ -1768,8 +1768,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "なんといっても、天下のＩＢＣを\x01",
-            "取り仕切ってきた人ですものね。\x02",
+            "Anyway, I am going to take IBC\x01",
+            "It is a person who has handled it.\x02",
         )
     )
 
@@ -1778,8 +1778,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "きっと通商会議でも\x01",
-            "活躍してくれることでしょう。\x02",
+            "Surely at the trade meeting\x01",
+            "It will be useful for you.\x02",
         )
     )
 
@@ -1793,8 +1793,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おじいさんも、新しい市長さんを\x01",
-            "とても評価しているみたい。\x02",
+            "My grandfather also has a new mayor\x01",
+            "It seems to be very appreciated.\x02",
         )
     )
 
@@ -1803,8 +1803,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "きっと通商会議でも\x01",
-            "活躍してくれることでしょう。\x02",
+            "Surely at the trade meeting\x01",
+            "It will be useful for you.\x02",
         )
     )
 
@@ -1825,8 +1825,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ロイとメイリンは、\x01",
-            "この雨の中散歩に行ってしまったわ。\x02",
+            "RoyとMeyrinは、\x01",
+            "I went for a walk in this rain.\x02",
         )
     )
 
@@ -1835,9 +1835,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "そこまで遠くには\x01",
-            "行ってないと思うから、\x01",
-            "近くの街区を探してみてちょうだい。\x02",
+            "To far there\x01",
+            "Because I think that I have not gone,\x01",
+            "Please find a neighboring block.\x02",
         )
     )
 
@@ -1846,9 +1846,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ロイの緑色の傘か、\x01",
-            "メイリンのピンク色の傘の\x01",
-            "どちらかを探してみるといいわ。\x02",
+            "Royの緑色の傘か、\x01",
+            "Meyrinのピンク色の傘の\x01",
+            "You may try looking for either.\x02",
         )
     )
 
@@ -1862,9 +1862,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ロイとメイリンは\x01",
-            "そう遠くに行っていないと思うから、\x01",
-            "近くの街区を探してみてちょうだい。\x02",
+            "RoyとMeyrinは\x01",
+            "I think that I have not gone so far,\x01",
+            "Please find a neighboring block.\x02",
         )
     )
 
@@ -1873,9 +1873,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ロイの緑色の傘か、\x01",
-            "メイリンのピンク色の傘の\x01",
-            "どちらかを探してみるといいわ。\x02",
+            "Royの緑色の傘か、\x01",
+            "Meyrinのピンク色の傘の\x01",
+            "You may try looking for either.\x02",
         )
     )
 
@@ -1891,8 +1891,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "孫が２人とも\x01",
-            "帰ってきたことだし……\x02",
+            "Both grandchildren\x01",
+            "It's just that I came back … …\x02",
         )
     )
 
@@ -1901,8 +1901,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ホットレモネードでも\x01",
-            "淹れてあげましょうかね。\x02",
+            "Even at hot lemonade\x01",
+            "Shall I give you a cup of it?\x02",
         )
     )
 
@@ -1919,8 +1919,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うーん、雨足は弱いけど\x01",
-            "なかなか止まないわねえ。\x02",
+            "Well, rain foot is weak, but\x01",
+            "I do not quite stop.\x02",
         )
     )
 
@@ -1929,8 +1929,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ロイたち、どこまで\x01",
-            "買い物に行ったのかしら。\x02",
+            "Royたち、どこまで\x01",
+            "I wonder if I went shopping.\x02",
         )
     )
 
@@ -1944,14 +1944,14 @@ def main():
 
     ChrTalk(
         0xFE,
-        "まあまあ、あなたたちは……！\x02",
+        "Fairly, you guys ……!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00002Fお婆さん、お久しぶりです。\x02",
+        "#00002FOka, it's been a long time.\x02",
     )
 
     CloseMessageWindow()
@@ -1959,8 +1959,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ええ、こちらこそ。\x01",
-            "元気そうでなによりだわ。\x02",
+            "Yes, this is it.\x01",
+            "It seems to be healthy and anything else.\x02",
         )
     )
 
@@ -1969,8 +1969,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おじいさんには\x01",
-            "もう会ったかしら？\x02",
+            "To the grandfather\x01",
+            "I have already met him?\x02",
         )
     )
 
@@ -1979,9 +1979,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "上にいるから、\x01",
-            "よかったら挨拶してあげて\x01",
-            "ちょうだいね。\x02",
+            "Because it is on the top,\x01",
+            "If you do not mind please greet\x01",
+            "Please help me.\x02",
         )
     )
 
@@ -1995,8 +1995,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おじいさんには\x01",
-            "もう会ったかしら？\x02",
+            "To the grandfather\x01",
+            "I have already met him?\x02",
         )
     )
 
@@ -2005,9 +2005,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "上にいるから、\x01",
-            "よかったら挨拶してあげて\x01",
-            "ちょうだいね。\x02",
+            "Because it is on the top,\x01",
+            "If you do not mind please greet\x01",
+            "Please help me.\x02",
         )
     )
 
@@ -2031,9 +2031,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "心配すんなって、じいちゃん。\x01",
-            "クロンクさんたちなら\x01",
-            "きっと大丈夫だからさ。\x02",
+            "Do not worry, Grandpa.\x01",
+            "Mr. Crooks\x01",
+            "Surely it's okay.\x02",
         )
     )
 
@@ -2042,9 +2042,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "市民会館への問合せも\x01",
-            "出来ない状態だし、\x01",
-            "今は家でじっとしてようぜ。\x02",
+            "We also make inquiries to the city hall\x01",
+            "I can not do it,\x01",
+            "Let's keep still at home now.\x02",
         )
     )
 
@@ -2059,8 +2059,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "クロンクさんたちなら\x01",
-            "きっと大丈夫だからさ。\x02",
+            "Mr. Crooks\x01",
+            "Surely it's okay.\x02",
         )
     )
 
@@ -2069,9 +2069,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "市民会館への問合せも\x01",
-            "出来ない状態だし、\x01",
-            "今は家でじっとしてようぜ。\x02",
+            "We also make inquiries to the city hall\x01",
+            "I can not do it,\x01",
+            "Let's keep still at home now.\x02",
         )
     )
 
@@ -2087,8 +2087,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "よお、傘は無事に\x01",
-            "届けてくれたみたいだな。\x02",
+            "Oh, the umbrella is safe\x01",
+            "It seems they delivered it.\x02",
         )
     )
 
@@ -2097,8 +2097,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今度からは俺ももうちょっと\x01",
-            "しっかりしないとなぁ……\x02",
+            "From now on I got a bit more\x01",
+            "I wish it was solid …\x02",
         )
     )
 
@@ -2121,8 +2121,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "兄たんとおじいちゃんに、\x01",
-            "ここにいるように言われたの。\x02",
+            "To my older brother and grandpa,\x01",
+            "I was told to stay here.\x02",
         )
     )
 
@@ -2130,7 +2130,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "とっても怖いの……\x02",
+        "I am very scared …\x02",
     )
 
     CloseMessageWindow()
@@ -2141,14 +2141,14 @@ def main():
 
     ChrTalk(
         0xFE,
-        "もくもく……\x02",
+        "Munching\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xFE,
-        "兄たん、パンおいしーね！\x02",
+        "My older brother, bread is delicious!\x02",
     )
 
     CloseMessageWindow()
@@ -2179,7 +2179,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00000Fあの、こんにちは。\x02",
+        "#6P#00000FHey, hello there.\x02",
     )
 
     CloseMessageWindow()
@@ -2188,8 +2188,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "あら、こんにちは。\x01",
-            "こんな雨の中、珍しいわね？\x02",
+            "Oh, hello there.\x01",
+            "It is unusual in such rain, is not it?\x02",
         )
     )
 
@@ -2198,9 +2198,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00003Fええ、ちょっと\x01",
-            "聞きたい事がありまして。\x02\x03",
-            "#00000Fこれに見覚えはありませんか？\x02",
+            "#6P#00003FYeah, hey\x01",
+            "There was something I wanted to ask.\x02\x03",
+            "#00000FDo not you remember this?\x02",
         )
     )
 
@@ -2211,8 +2211,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはメイリンの傘を\x01",
-            "夫人に見せた。\x07\x00\x02",
+            "RoyドはMeyrinの傘を\x01",
+            "I showed to my wife.\x07\x00\x02",
         )
     )
 
@@ -2223,8 +2223,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "あら、これって……\x01",
-            "メイリンの傘じゃないの。\x02",
+            "Oh, this is ….\x01",
+            "Meyrinの傘じゃないの。\x02",
         )
     )
 
@@ -2232,7 +2232,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "わざわざ届けてくれたの？\x02",
+        "Did you bother delivering it?\x02",
     )
 
     CloseMessageWindow()
@@ -2242,7 +2242,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "あら、でも……\x02",
+        "Oh dear, but ….\x02",
     )
 
     CloseMessageWindow()
@@ -2250,9 +2250,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "あの子がパン屋から\x01",
-            "帰ったとき、ちゃんと\x01",
-            "持ってたと思ったけど。\x02",
+            "That girl from a bakery\x01",
+            "When I return home,\x01",
+            "I thought I had it.\x02",
         )
     )
 
@@ -2260,7 +2260,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00003Fえっと、実はですね……\x02",
+        "#6P#00003FWell, actually it is …\x02",
     )
 
     CloseMessageWindow()
@@ -2270,9 +2270,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドは\x01",
-            "モモの傘探しをしている\x01",
-            "事情を説明した。\x07\x00\x02",
+            "Royドは\x01",
+            "I am looking for umbrella of peach\x01",
+            "I explained the circumstances.\x07\x00\x02",
         )
     )
 
@@ -2283,8 +2283,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "あらあら、そういう\x01",
-            "ことだったのね。\x02",
+            "Oh no, like that\x01",
+            "That was it.\x02",
         )
     )
 
@@ -2293,8 +2293,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "そのモモって子には\x01",
-            "悪い事をしたわねぇ。\x02",
+            "That peach is a child\x01",
+            "You did a bad thing.\x02",
         )
     )
 
@@ -2303,10 +2303,10 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10305Fそれで、ご夫人。\x01",
-            "お孫さんは今、どこに？\x02\x03",
-            "#10300F見たところこちらには\x01",
-            "いないようだけど。\x02",
+            "#6P#10305FWell, your lady.\x01",
+            "Where are your grandchildren now?\x02\x03",
+            "#10300FAs you can see here\x01",
+            "It does not seem to be.\x02",
         )
     )
 
@@ -2315,8 +2315,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ええ、さっきロイと一緒に\x01",
-            "傘を差して散歩に行ったみたいなの。\x02",
+            "ええ、さっきRoyと一緒に\x01",
+            "I guess I went for a walk by putting an umbrella.\x02",
         )
     )
 
@@ -2325,9 +2325,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "……ごめんなさい、\x01",
-            "そういえば行き先を聞くのを\x01",
-            "忘れてしまっていたわ。\x02",
+            "……I'm sorry,\x01",
+            "That reminds me of listening to the destination\x01",
+            "I have forgotten.\x02",
         )
     )
 
@@ -2336,8 +2336,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10103Fうーん、どうやら入れ違いに\x01",
-            "なっちゃったみたいですね。\x02",
+            "#6P#10103FWell, apparently mistaken.\x01",
+            "You seem to have become it.\x02",
         )
     )
 
@@ -2346,11 +2346,11 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00100Fこの雨だし、そこまで遠くには\x01",
-            "行っていないんじゃないかしら。\x02\x03",
-            "#00104F東通りの隣の、\x01",
-            "中央広場か港湾区、旧市街……\x01",
-            "その辺りだと思うわ。\x02",
+            "#6P#00100Fこの雨だし、To far there\x01",
+            "I wonder if it is not going.\x02\x03",
+            "#00104FNext to east street,\x01",
+            "Central square or port area, old city … ….\x01",
+            "I think that's about it.\x02",
         )
     )
 
@@ -2358,7 +2358,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "ええ、たぶんその辺りじゃないかしら。\x02",
+        "Well, maybe it is around.\x02",
     )
 
     CloseMessageWindow()
@@ -2366,9 +2366,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ロイの緑色の傘か、\x01",
-            "メイリンのピンク色の傘の\x01",
-            "どちらかを探してみるといいわ。\x02",
+            "Royの緑色の傘か、\x01",
+            "Meyrinのピンク色の傘の\x01",
+            "You may try looking for either.\x02",
         )
     )
 
@@ -2377,8 +2377,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10100F緑色かピンク色の傘……\x01",
-            "確かに目印になりそうですね。\x02",
+            "#6P#10100FGreen or pink umbrella …\x01",
+            "Surely it seems to be a landmark.\x02",
         )
     )
 
@@ -2387,8 +2387,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00000Fああ、さっそく捜してみよう。\x02\x03",
-            "#00004Fそれでは、ご協力ありがとうございました。\x02",
+            "#6P#00000FOh, let 's search for it.\x02\x03",
+            "#00004FWell then, thank you for your cooperation.\x02",
         )
     )
 
@@ -2397,8 +2397,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "いえいえ。\x01",
-            "またいつでも来てちょうだいね。\x02",
+            "No problem.\x01",
+            "またいつでも来てPlease help me.\x02",
         )
     )
 
@@ -2450,7 +2450,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#12Pふむ、ロイド君たちじゃないか。\x02",
+        "#12Pふむ、Royド君たちじゃないか。\x02",
     )
 
     CloseMessageWindow()
@@ -2471,9 +2471,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12Pそちらのお子さんは……\x01",
-            "東方風の格好をしているが\x01",
-            "この辺では見ない顔だね。\x02",
+            "#12PYour child is … …\x01",
+            "I am wearing an easterly style\x01",
+            "It is a face you do not see around here.\x02",
         )
     )
 
@@ -2486,8 +2486,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#6Pなるほど、あなたが\x01",
-            "クロスベル商工会の会長さんですね。\x02",
+            "#6PIndeed, you\x01",
+            "It is the president of the Cross Bell Chamber of Commerce.\x02",
         )
     )
 
@@ -2496,8 +2496,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#6Pボクの名前はシン。\x01",
-            "《黒月》の将来を背負うオトコです。\x02",
+            "#6PMy name is Shin.\x01",
+            "It is a man who carries the future of \"black moon\".\x02",
         )
     )
 
@@ -2506,9 +2506,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12Pふむ、《黒月》と言うと\x01",
-            "最近クロスベルにも\x01",
-            "進出してきた東方人街の……\x02",
+            "#12PHmm, when we say \"black moon\"\x01",
+            "Recently Cross Bell\x01",
+            "Toho People's Street Entering ……\x02",
         )
     )
 
@@ -2517,8 +2517,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12P今、将来を背負うと言ったが、\x01",
-            "もしかして長老会の関係者なのかな？\x02",
+            "#12PI told you to carry the future now,\x01",
+            "Maybe it is an official of the Presbyterian Association?\x02",
         )
     )
 
@@ -2527,8 +2527,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#6Pええ、そのものズバリ\x01",
-            "ボクのおじいさまが長老なんです。\x02",
+            "#6PYeah, that's it\x01",
+            "My grandfather is an elder.\x02",
         )
     )
 
@@ -2537,8 +2537,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#6Pもしかして、\x01",
-            "モルス殿は長老たちとご面識が？\x02",
+            "#6PPerhaps,\x01",
+            "Does Mrs. are acquainted with the elders?\x02",
         )
     )
 
@@ -2547,9 +2547,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12Pああいや、商売を通して\x01",
-            "軽くやり取りしただけで直接\x01",
-            "お会いしたことはないんだけどね。\x02",
+            "#12POh no, through business\x01",
+            "Just lightly interacted directly\x01",
+            "I have never met you.\x02",
         )
     )
 
@@ -2558,9 +2558,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12Pふむ、しかし\x01",
-            "長老のお孫さんとだけあって\x01",
-            "随分聡明でいらっしゃる。\x02",
+            "#12PHmm, but\x01",
+            "Only with the elder grandchildren\x01",
+            "It is quite intelligent.\x02",
         )
     )
 
@@ -2569,8 +2569,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12Pだけど、どうしてまた\x01",
-            "ロイド君たちと一緒に？\x02",
+            "#12PBut, why\x01",
+            "Royド君たちと一緒に？\x02",
         )
     )
 
@@ -2579,8 +2579,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009Fいやまあ、\x01",
-            "色々と事情がありまして。\x02",
+            "#00009FWell,\x01",
+            "There were various circumstances.\x02",
         )
     )
 
@@ -2589,9 +2589,9 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#6Pフフ、この者たちが\x01",
-            "どうしてもボクに市街を\x01",
-            "案内したいと言うものでしてね。\x02",
+            "#6PHuhu, these guys\x01",
+            "Do not miss the city\x01",
+            "It is what you would like to announce.\x02",
         )
     )
 
@@ -2600,8 +2600,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#6P仕方なく付き合ってあげている\x01",
-            "トコロなんですよ。\x02",
+            "#6PI have no choice but to go out with you\x01",
+            "It is a tokoro.\x02",
         )
     )
 
@@ -2638,7 +2638,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#11P#00306Fおいおい……\x02",
+        "#11P#00306FCome on … …\x02",
     )
 
     CloseMessageWindow()
@@ -2678,7 +2678,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#11P#10106Fえっと……\x02",
+        "#11P#10106FEr …\x02",
     )
 
     CloseMessageWindow()
@@ -2718,7 +2718,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#11P#10306Fふぅ、やれやれだね。\x02",
+        "#11P#10306FWell, I'm pleased.\x02",
     )
 
     CloseMessageWindow()
@@ -2729,8 +2729,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12Pはは、何だかよく分からないが\x01",
-            "仲が良さそうで結構だね。\x02",
+            "#12PHaha, I do not quite understand it\x01",
+            "It seems like good relations, is not it.\x02",
         )
     )
 
@@ -2739,9 +2739,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12Pシン君と言ったかな？\x01",
-            "どうかクロスベルの街を\x01",
-            "気に入ってくれると嬉しいよ。\x02",
+            "#12PHave you said Shin?\x01",
+            "Please cross-town of Crossbell\x01",
+            "I am glad if you like it.\x02",
         )
     )
 
@@ -2750,8 +2750,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#6Pええ、ボクもそう思います。\x01",
-            "ではこれにておイトマを。\x02",
+            "#6PYes, I think so.\x01",
+            "Well, you have it.\x02",
         )
     )
 

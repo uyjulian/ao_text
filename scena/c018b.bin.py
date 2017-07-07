@@ -19,10 +19,10 @@ def main():
 
     BuildStringList((
         "c018b",                  # 0
-        "観光客",                 # 1
-        "観光客",                 # 2
-        "市民",                   # 3
-        "市民",                   # 4
+        "tourist",                 # 1
+        "tourist",                 # 2
+        "Citizen",                   # 3
+        "Citizen",                   # 4
     ))
 
     AddCharChip((
@@ -152,8 +152,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "これが夜のオルキスタワーか……\x01",
-            "何ていうか言葉を失うよ。\x02",
+            "Is this the Orkis Tower at night …?\x01",
+            "I will lose my words.\x02",
         )
     )
 
@@ -171,7 +171,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "うふふ、本当に見事な夜景ね。\x02",
+        "Uhufu, it is a truly spectacular night view.\x02",
     )
 
     CloseMessageWindow()
@@ -189,8 +189,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "確かに夜景は十分過ぎるほど\x01",
-            "綺麗なんだけど……\x02",
+            "Certainly the night view is too much\x01",
+            "It's beautiful, but ….\x02",
         )
     )
 
@@ -199,8 +199,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "やっぱりこういうのって、\x01",
-            "好きな人と一緒に見たいわね。\x02",
+            "After all this kind of thing,\x01",
+            "I want to see it with people I like.\x02",
         )
     )
 
@@ -220,8 +220,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うん、彼氏欲しいなあ……\x01",
-            "――じゃなくて！\x02",
+            "Yeah, I want a boyfriend ….\x01",
+            "- Not!\x02",
         )
     )
 
@@ -234,9 +234,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "こっちは頑張って\x01",
-            "考えないようにしてるんだから。\x01",
-            "余計なこと言わないでよね。\x02",
+            "Do your best at this place.\x01",
+            "Because I try not to think.\x01",
+            "Do not say anything unnecessary.\x02",
         )
     )
 
@@ -252,8 +252,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "オルキスタワーキレイ、\x01",
-            "オルキスタワーキレイ……\x02",
+            "Orkis Tower Clean,\x01",
+            "Orkis Tower Clean …\x02",
         )
     )
 

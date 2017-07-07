@@ -418,7 +418,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '英雄戒指'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -438,14 +438,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '英雄戒指'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '英雄戒指'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -470,7 +470,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -509,7 +509,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅱ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -529,14 +529,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅱ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅱ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -561,7 +561,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -597,8 +597,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ダクトの入口には\x01",
-            "頑丈な南京錠がかかっている。\x07\x00\x02",
+            "At the entrance of the duct\x01",
+            "A solid padlock is on.\x07\x00\x02",
         )
     )
 
@@ -625,8 +625,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "エレベーターの制御パネルがある。\x01",
-            "操作しますか？\x02",
+            "There is an elevator control panel.\x01",
+            "Do you want to operate it?\x02",
         )
     )
 
@@ -637,8 +637,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -746,8 +746,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "エレベーターの制御パネルがある。\x01",
-            "操作しますか？\x02",
+            "There is an elevator control panel.\x01",
+            "Do you want to operate it?\x02",
         )
     )
 
@@ -758,8 +758,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -867,8 +867,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "エレベーターの制御パネルがある。\x01",
-            "操作しますか？\x02",
+            "There is an elevator control panel.\x01",
+            "Do you want to operate it?\x02",
         )
     )
 
@@ -879,8 +879,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1006,8 +1006,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ダクトの入口には\x01",
-            "頑丈な南京錠がかかっている。\x07\x00\x02",
+            "At the entrance of the duct\x01",
+            "A solid padlock is on.\x07\x00\x02",
         )
     )
 
@@ -1019,14 +1019,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305Fあらら？\x02",
+        "#00305FOops?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#11P#00108Fいつの間にこんなものが……\x02",
+        "#11P#00108FI did not know this before …\x02",
     )
 
     CloseMessageWindow()
@@ -1034,11 +1034,11 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#6P#00606F……ひょっとしたら\x01",
-            "市の管理担当が防犯のために\x01",
-            "施錠したのかもしれんな。\x02\x03",
-            "#00600F南京錠も市の施設課の方で\x01",
-            "一般的に使われているものだ。\x02",
+            "#6P#00606F…… perhaps\x01",
+            "City administrator in charge for crime prevention\x01",
+            "Maybe it was locked.\x02\x03",
+            "#00600FThe padlock is also the facility section of the city\x01",
+            "It is commonly used.\x02",
         )
     )
 
@@ -1079,9 +1079,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003Fということは、そのハッカーが\x01",
-            "仕掛けたわけじゃなさそうですね。\x02\x03",
-            "#00001Fどうします、鍵を壊しますか？\x02",
+            "#00003FThat means that the hacker\x01",
+            "I heard that it was not a challenge.\x02\x03",
+            "#00001FWhat do you do, will you break the key?\x02",
         )
     )
 
@@ -1090,10 +1090,10 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#6P#00603Fいや、大きな音を立てて\x01",
-            "相手に気付かれる訳にもいかん。\x02\x03",
-            "#00601Fこのまま先に進んで\x01",
-            "小僧の部屋までたどり着くぞ。\x02",
+            "#6P#00603FNo, make a big noise\x01",
+            "You can not notice the opponent.\x02\x03",
+            "#00601FProceed ahead as it is\x01",
+            "You will reach the room of the boy.\x02",
         )
     )
 
@@ -1101,7 +1101,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F了解しました。\x02",
+        "#00000FOK.\x02",
     )
 
     CloseMessageWindow()
@@ -1109,8 +1109,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10306Fやれやれ、ちょっとした\x01",
-            "腹ごなしじゃなくなったかな？\x02",
+            "#6P#10306FWhew a little\x01",
+            "I guess they are not lost.\x02",
         )
     )
 
@@ -1119,7 +1119,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#11P#10112Fもう、ぼやかないの。\x02",
+        "#11P#10112FAlready, it is not blurry.\x02",
     )
 
     CloseMessageWindow()
@@ -1146,9 +1146,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fおっと、確か端末室へ行くには\x01",
-            "ダクトを使えば近道だったはずだ。\x02\x03",
-            "先にそちらを調べよう。\x02",
+            "#00000FOh, surely to go to the terminal room\x01",
+            "It would have been a short cut if you used a duct.\x02\x03",
+            "Let's investigate over there first.\x02",
         )
     )
 

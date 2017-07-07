@@ -19,8 +19,8 @@ def main():
 
     BuildStringList((
         "m9010",                  # 0
-        "昇降機",                 # 1
-        "SE制御",                 # 2
+        "Elevator",                 # 1
+        "SE control",                 # 2
     ))
 
     DeclNpc(0,       0,       0,       0,    508,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -99,7 +99,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#6P#40Wこ、これは……？\x02",
+        "#00105F#6P#40WTh-This is……?\x02",
     )
 
     CloseMessageWindow()
@@ -119,7 +119,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105F#13P#40Wクロスベル各地の状況……？\x02",
+        "#10105F#13P#40WCrossbell situation around the country … …?\x02",
     )
 
     CloseMessageWindow()
@@ -141,7 +141,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10712F#13P#40Wクロスベル各地の状況……？\x02",
+        "#10712F#13P#40WCrossbell situation around the country … …?\x02",
     )
 
     CloseMessageWindow()
@@ -163,7 +163,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00605F#13P#40Wクロスベル各地の状況か……？\x02",
+        "#00605F#13P#40WCrossbell situation in various parts …?\x02",
     )
 
     CloseMessageWindow()
@@ -176,9 +176,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#6P#40Wいや……それだけじゃねえ。\x02\x03",
-            "#00301F過去の出来事みてぇなのも\x01",
-            "紛れ込んでるみてぇだぞ……？\x02",
+            "#00306F#6P#40WNo … not only that.\x02\x03",
+            "#00301FEven things like past events\x01",
+            "You seem to be misunderstood … ….?\x02",
         )
     )
 
@@ -189,9 +189,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#12P#40W現実世界の欠片……\x02\x03",
-            "#00201F時空を超えて\x01",
-            "連関してゆく因果……？\x02",
+            "#00208F#12P#40WReal world fragment ……\x02\x03",
+            "#00201FBeyond the spacetime\x01",
+            "Causal linkage … ….?\x02",
         )
     )
 
@@ -213,8 +213,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10406F#13P#40W……あり得ないとは\x01",
-            "言い切れないみたいだね。\x02",
+            "#10406F#13P#40W…… What is not possible\x01",
+            "It sounds like it can not be said.\x02",
         )
     )
 
@@ -238,8 +238,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00606F#13P#40W馬鹿な……とも\x01",
-            "言い切れないようだな。\x02",
+            "#00606F#13P#40WFoolishly well\x01",
+            "It seems impossible to say.\x02",
         )
     )
 
@@ -263,8 +263,8 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10706F#13P#40W……あり得ないとは\x01",
-            "言い切れなさそうですね……\x02",
+            "#10706F#13P#40W…… What is not possible\x01",
+            "It seems unlikely to be … …\x02",
         )
     )
 
@@ -278,9 +278,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#6P#40W……《零の至宝》……\x02\x03",
-            "#00001Fその完成形としての\x01",
-            "《碧の大樹》……\x02",
+            "#00003F#6P#40W…… \"Treasure of Zero\" ……\x02\x03",
+            "#00001FAs its finished form\x01",
+            "\"A big blue tree\" ……\x02",
         )
     )
 
@@ -422,14 +422,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#6P#4S……！\x02",
+        "#00007F#6P#4S……!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00310F#12Pな、なんだぁ！？\x02",
+        "#00310F#12PWhat is it! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -453,8 +453,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F#12P今のは《太陽の砦》の\x01",
-            "地下に入った時の……！？\x02",
+            "#00108F#12PNow is the \"Fort of the Sun\"\x01",
+            "When I entered the basement …! Is it?\x02",
         )
     )
 
@@ -463,9 +463,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00201F#6Pいえ、エステルさんたちが\x01",
-            "一緒に居ませんでした……\x02\x03",
-            "#00208F……それに………\x02",
+            "#00201F#6PNo, the esters\x01",
+            "I was not with him ……\x02\x03",
+            "#00208F……in addition………\x02",
         )
     )
 
@@ -496,7 +496,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00601F#13Pなんだ……どうした？\x02",
+        "#00601F#13PWhat was … what?\x02",
     )
 
     CloseMessageWindow()
@@ -518,7 +518,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#13Pど、どうしたんですか？\x02",
+        "#10101F#13PWell, what happened?\x02",
     )
 
     CloseMessageWindow()
@@ -540,7 +540,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10701F#13Pどうしたんですか……？\x02",
+        "#10701F#13PWhat happened……?\x02",
     )
 
     CloseMessageWindow()
@@ -562,8 +562,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10401F#13P……どうやら僕たちには\x01",
-            "見えないものが見えたらしいね？\x02",
+            "#10401F#13P…… Apparently to us\x01",
+            "You seem to have seen something you can not see?\x02",
         )
     )
 
@@ -587,8 +587,8 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10701F#13P私たちには見えないものが\x01",
-            "見えたとか……？\x02",
+            "#10701F#13PWhat we can not see\x01",
+            "You saw it … …?\x02",
         )
     )
 
@@ -612,8 +612,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10101F#13Pあたしたちには見えないものが\x01",
-            "見えたんですか……？\x02",
+            "#10101F#13PWhat we can not see\x01",
+            "Did you see it …?\x02",
         )
     )
 
@@ -627,10 +627,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P……ああ、一瞬だけどね。\x02\x03",
-            "#00008F朧#2Rおぼろ#げながら……\x01",
-            "キーアの真の力というものが\x01",
-            "分かった気がする。\x02",
+            "#00006F#5P…… Oh, for a moment.\x02\x03",
+            "#00008FDazzling#2RA rag#While\x01",
+            "Ka'ah's true power is what\x01",
+            "I feel I understood.\x02",
         )
     )
 

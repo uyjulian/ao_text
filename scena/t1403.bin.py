@@ -19,12 +19,12 @@ def main():
 
     BuildStringList((
         "t1403",                  # 0
-        "観光客",                 # 1
-        "観光客",                 # 2
-        "観光客",                 # 3
-        "観光客",                 # 4
-        "観光客",                 # 5
-        "観光客",                 # 6
+        "tourist",                 # 1
+        "tourist",                 # 2
+        "tourist",                 # 3
+        "tourist",                 # 4
+        "tourist",                 # 5
+        "tourist",                 # 6
     ))
 
     AddCharChip((
@@ -238,9 +238,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ほっほっほ、心配するな。\x01",
-            "わしもまだまだ\x01",
-            "若いモンには負けんぞい。\x02",
+            "Jun, do not worry.\x01",
+            "I also have plenty\x01",
+            "I will lose to the young monkey.\x02",
         )
     )
 
@@ -259,8 +259,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おじいちゃん、\x01",
-            "結構長い階段だけど大丈夫〜？\x02",
+            "Grandpa,\x01",
+            "It's a long stairway but it's okay ~?\x02",
         )
     )
 
@@ -279,8 +279,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ひい、ひい……\x01",
-            "いい加減疲れちゃったよ……\x02",
+            "Hi, hoes ……\x01",
+            "I got tired a lot … …\x02",
         )
     )
 
@@ -299,8 +299,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ほら、がんばって。\x01",
-            "最上階まであと少しなんだから。\x02",
+            "Here, good luck.\x01",
+            "Because it is a little to the top floor.\x02",
         )
     )
 
@@ -318,7 +318,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "はー……すごい高さだなあ……\x02",
+        "Huh …… It is a great height ……\x02",
     )
 
     CloseMessageWindow()
@@ -336,8 +336,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ほんと……\x01",
-            "眩暈がしてきちゃったわ。\x02",
+            "really……\x01",
+            "I got dizzy.\x02",
         )
     )
 

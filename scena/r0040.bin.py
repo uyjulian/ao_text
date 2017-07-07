@@ -19,27 +19,27 @@ def main():
 
     BuildStringList((
         "r0040",                  # 0
-        "列車",                   # 1
-        "パープルシャルロ",       # 2
-        "パープルシャルロ",       # 3
-        "サベージホーン",         # 4
-        "サベージホーン",         # 5
-        "ゴールドスタチュー",     # 6
-        "幻獣",                   # 7
-        "共和国飛行艇",           # 8
-        "共和国飛行艇",           # 9
-        "共和国戦車",             # 10
-        "共和国戦車",             # 11
-        "共和国戦車",             # 12
-        "共和国戦車",             # 13
-        "共和国戦車",             # 14
-        "アイオーン２",           # 15
-        "共和国戦車",             # 16
-        "共和国戦車",             # 17
-        "共和国戦車",             # 18
-        "共和国戦車",             # 19
-        "共和国戦車",             # 20
-        "SE制御",                 # 21
+        "train",                   # 1
+        "Purple Charlot",       # 2
+        "Purple Charlot",       # 3
+        "Savage horn",         # 4
+        "Savage horn",         # 5
+        "Gold Statue",     # 6
+        "Eidolon",                   # 7
+        "Republic flying boat",           # 8
+        "Republic flying boat",           # 9
+        "Republic tank",             # 10
+        "Republic tank",             # 11
+        "Republic tank",             # 12
+        "Republic tank",             # 13
+        "Republic tank",             # 14
+        "Iron 2",           # 15
+        "Republic tank",             # 16
+        "Republic tank",             # 17
+        "Republic tank",             # 18
+        "Republic tank",             # 19
+        "Republic tank",             # 20
+        "SE control",                 # 21
         "br0000",                 # 22
         "br0000",                 # 23
         "br0000",                 # 24
@@ -50,8 +50,8 @@ def main():
         "br0000",                 # 29
         "br0000",                 # 30
         "br0000",                 # 31
-        "クロスベル市・アルモリカ村方面",# 32
-        "タングラム門方面",       # 33
+        "Crossbell City / Almorika village",# 32
+        "To the Tangram main gate",       # 33
     ))
 
     ATBonus("ATBonus_620", 100, 5, 1, 5, 1, 5, 1, 5, 5, 0, 0, 0, 1, 0, 0, 0)
@@ -285,8 +285,8 @@ def main():
     DeclActor(121880,  4294958296, 4294928546, 1200,    121880,  4294958296, 4294928546, 0x007C, 0,  8,  0x0000)
     DeclActor(72540,   4294961296, 4294912466, 1200,    72540,   4294961296, 4294912466, 0x007C, 0,  9,  0x0000)
 
-    PlaceName(-30.0, 0.0, 5.0, 0x0000, 0x0000, "クロスベル市・アルモリカ村方面")
-    PlaceName(182.0, 0.0, -64.0, 0x0000, 0x0000, "タングラム門方面")
+    PlaceName(-30.0, 0.0, 5.0, 0x0000, 0x0000, "Crossbell City / Almorika village")
+    PlaceName(182.0, 0.0, -64.0, 0x0000, 0x0000, "To the Tangram main gate")
 
     ChipFrameInfo(1000, 0, [0, 1, 2, 3, 4])                      # 0
     ChipFrameInfo(2000, 0, [0, 1, 2, 3, 4, 3, 2, 1])             # 1
@@ -721,9 +721,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱の中から強力な魔獣の気配を感じる。\x01",
-            "【推定魔獣レベル１００】\x01",
-            "宝箱を開きますか？\x02",
+            "I feel the signature of powerful demons from the treasure box.\x01",
+            "【Estimated Demonic Level 100】\x01",
+            "Would you like to open a treasure box?\x02",
         )
     )
 
@@ -734,8 +734,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -779,7 +779,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "A monster appeared!\x07\x00\x02",
         )
     )
 
@@ -829,7 +829,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '天王铃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -848,14 +848,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '天王铃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '天王铃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -878,7 +878,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -917,7 +917,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '银胸针'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -937,14 +937,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '银胸针'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '银胸针'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -969,7 +969,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -1001,8 +1001,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1013,8 +1013,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1046,7 +1046,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1109,8 +1109,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1121,8 +1121,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1154,7 +1154,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1222,8 +1222,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1234,8 +1234,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1267,7 +1267,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1330,8 +1330,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1342,8 +1342,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1375,7 +1375,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -2573,9 +2573,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001Fこっちはタングラム門方面か……\x02\x03",
-            "これ以上近付くのは危険だな。\x01",
-            "大人しく引き返そう。\x02",
+            "#00001FこっちはTo the Tangram main gateか……\x02\x03",
+            "It is dangerous to get any closer.\x01",
+            "Let's turn back to life.\x02",
         )
     )
 

@@ -19,20 +19,20 @@ def main():
 
     BuildStringList((
         "e3800",                  # 0
-        "アシュリー",             # 1
-        "ジンゴ",                 # 2
-        "魔人ヴァルド",           # 3
-        "アッバス",               # 4
-        "キーンツ",               # 5
-        "ベッセ",                 # 6
-        "ルガノフ",               # 7
-        "ジェド",                 # 8
-        "ヒューイ",               # 9
-        "スラッシュ",             # 10
-        "コウキ",                 # 11
-        "ディーノ",               # 12
-        "魔人ヴァルド",           # 13
-        "SE制御",                 # 14
+        "Ashley",             # 1
+        "Jingo",                 # 2
+        "Majin Waldo",           # 3
+        "Abbas",               # 4
+        "Keen",               # 5
+        "Besse",                 # 6
+        "Luganoff",               # 7
+        "Jed",                 # 8
+        "Huey",               # 9
+        "Slash",             # 10
+        "Koki",                 # 11
+        "Dino",               # 12
+        "Majin Waldo",           # 13
+        "SE control",                 # 14
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -263,8 +263,8 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#5P#30W#Nクク……\x01",
-            "……いい光景じゃねぇか……\x02",
+            "#5P#30W#NPowered by Translate\x01",
+            "…… It's a nice sight … …\x02",
         )
     )
 
@@ -276,8 +276,8 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#5P#30W#Nこの先もオレが\x01",
-            "強くなり続けるための“贄#2Rニエ#”……\x02",
+            "#5P#30W#NIn the future I will\x01",
+            "Sacrifice to keep getting stronger#2RNie#\"… ….\x02",
         )
     )
 
@@ -291,8 +291,8 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#5P#4S#Nカハハ……\x01",
-            "悪くないアドバイスだぜ……！\x07\x00\x02",
+            "#5P#4S#NKahaha …\x01",
+            "It's not a bad advice …!\x07\x00\x02",
         )
     )
 
@@ -409,8 +409,8 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#3576V#5P#N#4S#40Aククク……\x01",
-            "#5Sカハハハハハハハハハッ！！\x07\x00\x02",
+            "#3576V#5P#N#4S#40AKukuku\x01",
+            "#5SKa Ha ha ha ha ha ha ha! It is!\x07\x00\x02",
         )
     )
 
@@ -430,8 +430,8 @@ def main():
 
     NpcTalk(
         0x11,
-        "声",
-        "な、なんだこりゃあ！？\x02",
+        "voice",
+        "What, what is that! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -448,21 +448,21 @@ def main():
 
     ChrTalk(
         0x11,
-        "#12Pボ、ボロアパートが！？\x02",
+        "#12PBo, boro apartment! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xE,
-        "完全にクラッシュぅぅぅっ！？\x02",
+        "Perfectly crash! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xF,
-        "なんだあの化物は……！？\x02",
+        "What is that herb … …! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -487,8 +487,8 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#6P#30W#Nハハ……\x01",
-            "いい所に来やがったなァ？\x07\x00\x02",
+            "#6P#30W#NHa ha …\x01",
+            "Did you come to a good place?\x07\x00\x02",
         )
     )
 
@@ -634,14 +634,14 @@ def main():
 
     ChrTalk(
         0x10,
-        "うおおっっ……！？\x02",
+        "Uooh … …! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x12,
-        "うわあああっ！？\x02",
+        "Wow ah! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -650,8 +650,8 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#6P#30W#Nクク……てめえらには\x01",
-            "ここで犠牲になってもらうぜ……\x02",
+            "#6P#30W#NKuku … to Tamehara\x01",
+            "I will be sacrificed here …\x02",
         )
     )
 
@@ -663,7 +663,7 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#6P#30W#Nこのオレの過去と弱さ……\x02",
+            "#6P#30W#NThis past and weakness …\x02",
         )
     )
 
@@ -675,8 +675,8 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#6P#30W#N守らなきゃならねぇ“余計なモン”の\x01",
-            "象徴としてなァ……？\x07\x00\x02",
+            "#6P#30W#NYou must protect it \"Unnecessary mon\"\x01",
+            "A symbol as a … …?\x07\x00\x02",
         )
     )
 
@@ -686,7 +686,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "へ……\x02",
+        "What……\x02",
     )
 
     CloseMessageWindow()
@@ -694,8 +694,8 @@ def main():
     ChrTalk(
         0xF,
         (
-            "ま、まさか……\x01",
-            "ヴァルドさ──\x02",
+            "Well, no way … ….\x01",
+            "Waldo ──\x02",
         )
     )
 
@@ -710,7 +710,7 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#6P#5S#N#10Aハアアアアアアアアアアッ！！！\x07\x00\x02",
+            "#6P#5S#N#10AHaaaaaaaaaaaaaa! It is! It is!\x07\x00\x02",
         )
     )
 
@@ -726,7 +726,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "#11P#10Aノオオォォォッ……！！\x02",
+        "#11P#10ANoooo … …! It is!\x02",
     )
 
     OP_68(41120, 800, -23590, 1000)
@@ -760,7 +760,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#12A#60W#2S……う……あ………\x02",
+        "#12A#60W#2SAh ………\x02",
     )
 
     CloseMessageWindow()
@@ -768,7 +768,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#12A#60W#2S………………………（ピクピク）\x02",
+        "#12A#60W#2S……………………… (Pikpiku)\x02",
     )
 
     CloseMessageWindow()
@@ -776,8 +776,8 @@ def main():
 
     NpcTalk(
         0x13,
-        "少年の声",
-        "#1Pせ、先輩たち！？\x02",
+        "少年のvoice",
+        "#1PWell, seniors! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -811,14 +811,14 @@ def main():
 
     ChrTalk(
         0x13,
-        "みんな！？　コウキさん！\x02",
+        "みんな！？　Kokiさん！\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x13,
-        "し、しっかりしてくださいっ！\x02",
+        "Please do it firmly!\x02",
     )
 
     CloseMessageWindow()
@@ -826,8 +826,8 @@ def main():
     ChrTalk(
         0x12,
         (
-            "#12P#60W#2S……だめ……だ……\x01",
-            "お前だけでも……にげ……\x02",
+            "#12P#60W#2S… …. No … ….\x01",
+            "Even just you ……\x02",
         )
     )
 
@@ -837,7 +837,7 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#30W#Nクク……てめぇも居たか……\x07\x00\x02",
+            "#30W#NKuku …… Where have you been ……\x07\x00\x02",
         )
     )
 
@@ -868,8 +868,8 @@ def main():
     ChrTalk(
         0x13,
         (
-            "ひいいいっ！？\x01",
-            "ば、化物──\x02",
+            "Hui Dai! Is it?\x01",
+            "Baked goods ─\x02",
         )
     )
 
@@ -879,8 +879,8 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#6P#30W#N丁度いい……\x01",
-            "……てめぇもこの手で……\x07\x00\x02",
+            "#6P#30W#NJust right……\x01",
+            "…… Tame also with this hand ……\x07\x00\x02",
         )
     )
 
@@ -890,8 +890,8 @@ def main():
 
     NpcTalk(
         0xB,
-        "低い声",
-        "──そのくらいにしておけ。\x02",
+        "低いvoice",
+        "── Keep it for that.\x02",
     )
 
     CloseMessageWindow()
@@ -925,21 +925,21 @@ def main():
 
     ChrTalk(
         0x9,
-        "#6Pおー、でっけーな！？\x02",
+        "#6POh, how are you! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xC,
-        "#6Pな、なんだあれは！？\x02",
+        "#6PWhat is that! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xD,
-        "#6P鬼……！？\x02",
+        "#6Pdemon……! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -947,8 +947,8 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#5P#04100F……お前たちは\x01",
-            "周辺の鎮火に当たれ。\x02",
+            "#5P#04100F…… you guys\x01",
+            "Hit the fire in the neighborhood.\x02",
         )
     )
 
@@ -956,7 +956,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#6Pわ、分かった……！\x02",
+        "#6PI know …!\x02",
     )
 
     CloseMessageWindow()
@@ -964,8 +964,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5Pジンゴ、アンタは\x01",
-            "この辺りの連中を避難させな。\x02",
+            "#5PJingo、アンタは\x01",
+            "Do not evacuate those around here.\x02",
         )
     )
 
@@ -973,7 +973,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#6Pうん、そうするぞー。\x02",
+        "#6PYes, I will.\x02",
     )
 
     CloseMessageWindow()
@@ -1007,7 +1007,7 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#30W#Nハゲ坊主に武器商人か……\x02",
+            "#30W#NIs it a weapon merchant to bald bald … …\x02",
         )
     )
 
@@ -1019,8 +1019,8 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#12P#30W#Nクク……お前らもオレに\x01",
-            "“チカラ”を見せてくれんのか……？\x07\x00\x02",
+            "#12P#30W#NKuku …… you guys too\x01",
+            "Will you show me \"Tikara\" …?\x07\x00\x02",
         )
     )
 
@@ -1030,7 +1030,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#04100F#5P──望みとあらば。\x02",
+        "#04100F#5P── If you have hope.\x02",
     )
 
     CloseMessageWindow()
@@ -1047,8 +1047,8 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04100F#5Pワジの許可は得ているし、\x01",
-            "存分に相手させてもらおう。\x02",
+            "#04100F#5PI got permission of Wadi,\x01",
+            "Let me have opponent.\x02",
         )
     )
 
@@ -1057,8 +1057,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5Pやれやれ、直接ドンパチは\x01",
-            "スタイルじゃないんだが……\x02",
+            "#5PWhew, Direct Denpachi\x01",
+            "It's not a style … …\x02",
         )
     )
 
@@ -1078,9 +1078,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5Pウチの店の近くで\x01",
-            "好き勝手やった落とし前は\x01",
-            "付けてもらおうかねえ？\x02",
+            "#5PIn the vicinity of our store\x01",
+            "The fall as you liked it\x01",
+            "Would you like me to add?\x02",
         )
     )
 
@@ -1091,7 +1091,7 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#12P#30W#Nクカカ……上等だ。\x07\x00\x02",
+            "#12P#30W#NKUKAKA … It is superior.\x07\x00\x02",
         )
     )
 
@@ -1117,8 +1117,8 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#12P#30W#Nこのヴァルド・ヴァレスの\x01",
-            "“チカラ”……\x02",
+            "#12P#30W#NThis Wald Valles'\x01",
+            "\"Tikara\" … ….\x02",
         )
     )
 
@@ -1132,8 +1132,8 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#12P#5S#N骨の髄までタップリと\x01",
-            "味わってもらおうかああああッ！！\x07\x00\x02",
+            "#12P#5S#NTappuri with bone marrow\x01",
+            "Would you taste it ah ah! It is!\x07\x00\x02",
         )
     )
 

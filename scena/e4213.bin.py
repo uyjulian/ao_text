@@ -19,11 +19,11 @@ def main():
 
     BuildStringList((
         "e4213",                  # 0
-        "エステル",               # 1
-        "ヨシュア",               # 2
-        "レン",                   # 3
-        "パテルマテル",           # 4
-        "SE制御",                 # 5
+        "ester",               # 1
+        "Joshua",               # 2
+        "Len",                   # 3
+        "Patel Matel",           # 4
+        "SE control",                 # 5
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -179,11 +179,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03315F#6P#40W……《パテル＝マテル》……\x01",
-            "大丈夫よね……？\x02\x03",
-            "こんな大ケガでも……\x01",
-            "おじいさんに直してもらえば……\x02\x03",
-            "すぐに元通りに……\x02",
+            "#03315F#6P#40W…… \"Patel = Mattel\" … …\x01",
+            "Is not it okay …?\x02\x03",
+            "Even such a big injury ……\x01",
+            "If you change my grandfather … …\x02\x03",
+            "Immediately soon ……\x02",
         )
     )
 
@@ -200,10 +200,10 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03310F#6P#30Wそんな……\x01",
-            "……そんなの嘘……っ！\x02\x03",
-            "#03316F#30W……信じない……！\x01",
-            "ゼッタイに信じないんだからぁっ！\x02",
+            "#03310F#6P#30WSomething like that ….\x01",
+            "… … Such a lie … __!\x02\x03",
+            "#03316F#30W……do not believe……!\x01",
+            "I do not believe in Zettai!\x02",
         )
     )
 
@@ -222,7 +222,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00808F#6P#30W……レン………\x02",
+        "#00808F#6P#30W……Len………\x02",
     )
 
     CloseMessageWindow()
@@ -230,10 +230,10 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#00906F#6P#30W……思考ユニットに\x01",
-            "致命的な損傷を受けたんだ……\x02\x03",
-            "#00908Fゴルディアス級のシステムだと\x01",
-            "バックアップも取れない……\x02",
+            "#00906F#6P#30W…… Thinking unit\x01",
+            "I got fatal damage ……\x02\x03",
+            "#00908FWith Gordius class system\x01",
+            "I can not back up …\x02",
         )
     )
 
@@ -264,9 +264,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03315F#6P《パテル＝マテル》！？\x02\x03",
-            "#03314F大丈夫……！\x01",
-            "必ず直してあげるから……！\x02",
+            "#03315F#6P\"Patel = Mattel\"! Is it?\x02\x03",
+            "#03314FAll right……!\x01",
+            "Be sure to fix it … …!\x02",
         )
     )
 
@@ -312,7 +312,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03316F#12P#40Wあ……………………\x02",
+        "#03316F#12P#40WAh……………………\x02",
     )
 
     CloseMessageWindow()
@@ -335,7 +335,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03313F#11P#60W#30A……ぅぅぅ……ぁぁぁっ……\x02",
+        "#03313F#11P#60W#30A…… ぅ ぅ ぅ …… ぁ ぁ ぁ ……\x02",
     )
 
     WaitChrThread(0xA, 1)
@@ -353,7 +353,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03310F#11P#5S#25Aうあああああああああっ……！\x02",
+        "#03310F#11P#5S#25AWow aaaaaa … …!\x02",
     )
 
     CloseMessageWindow()

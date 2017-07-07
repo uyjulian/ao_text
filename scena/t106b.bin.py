@@ -19,11 +19,11 @@ def main():
 
     BuildStringList((
         "t106b",                  # 0
-        "観光客",                 # 1
-        "観光客",                 # 2
-        "観光客",                 # 3
-        "観光客",                 # 4
-        "男の子",                 # 5
+        "tourist",                 # 1
+        "tourist",                 # 2
+        "tourist",                 # 3
+        "tourist",                 # 4
+        "boy",                 # 5
     ))
 
     AddCharChip((
@@ -179,8 +179,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "僕たち、新婚旅行で\x01",
-            "ミシュラムに来てるんだ。\x02",
+            "We, on a honeymoon\x01",
+            "I am in Mishram.\x02",
         )
     )
 
@@ -189,9 +189,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今日はとても\x01",
-            "素晴らしい一日だったな。\x01",
-            "彼女と女神に感謝しないと。\x02",
+            "Today so much\x01",
+            "It was a wonderful day.\x01",
+            "I must thank her and the goddess.\x02",
         )
     )
 
@@ -224,8 +224,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "こんなに楽しくて美しい場所は\x01",
-            "なかなかないと思うわ。\x02",
+            "This fun and beautiful place is\x01",
+            "I do not think so.\x02",
         )
     )
 
@@ -234,8 +234,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふふ、クロスベルに引っ越すのも\x01",
-            "いいかもしれないわね。\x02",
+            "He also moved to the crossbell\x01",
+            "It might be nice.\x02",
         )
     )
 
@@ -268,8 +268,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "これからテーマパーク夜の部の\x01",
-            "ナイトパレードを見に行くんだ。\x02",
+            "From now on the theme park night part\x01",
+            "I'm going to see the night parade.\x02",
         )
     )
 
@@ -278,9 +278,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "個人的にはもう\x01",
-            "部屋で休んでたいが……\x01",
-            "はは、父親と言うのも大変だよ。\x02",
+            "Personally already\x01",
+            "I would like to take a break in the room ……\x01",
+            "Haha, it is hard to say father.\x02",
         )
     )
 
@@ -313,8 +313,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふふ、あの子も待っているし\x01",
-            "早く準備を済ませなきゃね。\x02",
+            "Huhu, that girl is also waiting\x01",
+            "I have to get ready.\x02",
         )
     )
 
@@ -346,7 +346,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "パパ、ママ、まだー！？\x02",
+        "Dad, mommy, not yet! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -354,8 +354,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "早くしないと\x01",
-            "パレードが終わっちゃうよ！\x02",
+            "If you do not do it quickly\x01",
+            "The parade is over!\x02",
         )
     )
 

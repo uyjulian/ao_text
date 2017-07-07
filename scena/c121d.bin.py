@@ -19,14 +19,14 @@ def main():
 
     BuildStringList((
         "c121d",                  # 0
-        "猟兵",                   # 1
-        "猟兵",                   # 2
-        "戦鬼シグムント",         # 3
-        "構成員",                 # 4
-        "構成員",                 # 5
-        "ツァオ",                 # 6
-        "偃月輪",                 # 7
-        "SE制御",                 # 8
+        "A hunter",                   # 1
+        "A hunter",                   # 2
+        "Kibun Sigmund",         # 3
+        "member",                 # 4
+        "member",                 # 5
+        "Tsao",                 # 6
+        "Moon ring",                 # 7
+        "SE control",                 # 8
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -200,7 +200,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04512F#12P無駄だ。\x02",
+        "#04512F#12PIt's pointless.\x02",
     )
 
     CloseMessageWindow()
@@ -236,7 +236,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#5P#10Aがっ……\x02",
+        "#5P#10ARash\x02",
     )
 
     Sleep(100)
@@ -252,7 +252,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#6P#10A……ぐっ……\x02",
+        "#6P#10A… …. ugh …\x02",
     )
 
     Sleep(1900)
@@ -320,7 +320,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#5P#10Aぎゃっ……！\x02",
+        "#5P#10AJacky …!\x02",
     )
 
     Sleep(100)
@@ -330,7 +330,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#5Pむ、無念……\x02",
+        "#5PMum, please!\x02",
     )
 
     CloseMessageWindow()
@@ -356,10 +356,10 @@ def main():
     Sound(880, 0, 100, 0)
     Sound(165, 0, 100, 0)
     Sound(196, 0, 80, 0)
-    SetMapObjFrame(0x0, "c12dor52:Layer1(1)", 0x2, "アニメ")
-    SetMapObjFrame(0x0, "c12dor52:Layer2(2)", 0x2, "アニメ")
-    SetMapObjFrame(0x0, "c12dor52:Layer3(3)", 0x2, "アニメ")
-    SetMapObjFrame(0x0, "c12dor52:Layer4(4)", 0x2, "アニメ")
+    SetMapObjFrame(0x0, "c12dor52:Layer1(1)", 0x2, "Anime")
+    SetMapObjFrame(0x0, "c12dor52:Layer2(2)", 0x2, "Anime")
+    SetMapObjFrame(0x0, "c12dor52:Layer3(3)", 0x2, "Anime")
+    SetMapObjFrame(0x0, "c12dor52:Layer4(4)", 0x2, "Anime")
     Sleep(1000)
     SetCameraDistance(23000, 2000)
     SetChrChipByIndex(0xA, 0x23)
@@ -420,8 +420,8 @@ def main():
     AnonymousTalk(
         0xD,
         (
-            "やれやれ、もう少し静かに\x01",
-            "訪問していただきたい所ですが。\x02",
+            "Well, a little more quietly\x01",
+            "I would like to visit you.\x02",
         )
     )
 
@@ -437,12 +437,12 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04504F#6Pフフ、この後も\x01",
-            "少々立て込んでいるんでな。\x02\x03",
-            "#04500F──しかし《白蘭竜》。\x01",
-            "さすがと言っておいてやろう。\x02\x03",
-            "この社員の少なさ……\x01",
-            "俺たちの襲撃を読んでいたな？\x02",
+            "#04504F#6PHuh, even after this\x01",
+            "It is a bit standing up.\x02\x03",
+            "#04500F─ ─ But \"White olive dragon\".\x01",
+            "I will say as expected.\x02\x03",
+            "Less of this employee …\x01",
+            "You read our raid?\x02",
         )
     )
 
@@ -451,10 +451,10 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#03203F#11Pええ、一応は。\x02\x03",
-            "#03200F貴方がたのような戦争好きと\x01",
-            "正面からぶつかるほど\x01",
-            "無謀ではありませんので。\x02",
+            "#03203F#11PYes, for the time being.\x02\x03",
+            "#03200FI like war like you like\x01",
+            "The more you hit from the front\x01",
+            "Because it is not reckless.\x02",
         )
     )
 
@@ -463,10 +463,10 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04502F#6Pクク、にも関わらず\x01",
-            "逃げもせずに待っていたとは……\x02\x03",
-            "この“戦鬼#4Rオーガ#”の相手を\x01",
-            "してくれるという事か？\x02",
+            "#04502F#6PDespite of being\x01",
+            "He said that he was waiting without running away ……\x02\x03",
+            "This \"demon#4ROgre#\"Opponents\x01",
+            "Does it mean you do it?\x02",
         )
     )
 
@@ -475,11 +475,11 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#03204F#11Pハハ、それこそまさか。\x02\x03",
-            "貴方相手では、《銀#2Rイン#》どのですら\x01",
-            "分が悪いと言わざるを得ません。\x02\x03",
-            "#03210F少々、確認したいことがあって\x01",
-            "お待ちしていただけですよ。\x02",
+            "#03204F#11PHaha, that is not it.\x02\x03",
+            "In your opponent, \"Silver#2RIn#\"Whatever\x01",
+            "I can not help to say that the minutes are bad.\x02\x03",
+            "#03210FA bit, I have something to confirm\x01",
+            "I was just waiting.\x02",
         )
     )
 
@@ -487,7 +487,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04505F#6Pほう、確認したいこと？\x02",
+        "#04505F#6PWell, what you want to confirm?\x02",
     )
 
     CloseMessageWindow()
@@ -495,9 +495,9 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#03209F#11Pなに、簡単な事です。\x02\x03",
-            "#03202F──貴方がたの今の#4R噵　噵#契約者は\x01",
-            "いったい何者なんですか？\x02",
+            "#03209F#11PWhat is simple.\x02\x03",
+            "#03202F── You now#4R噵 噵#The contractor\x01",
+            "Who on earth are you?\x02",
         )
     )
 
@@ -506,9 +506,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04504F#6Pクク……ハハハ……\x02\x03",
-            "#04512F──やはり貴様は\x01",
-            "なかなか見込みがあるようだ。\x02",
+            "#04504F#6PKuku …… Ha ha ha ……\x02\x03",
+            "#04512F─ ─ you are\x01",
+            "It seems quite likely.\x02",
         )
     )
 
@@ -525,7 +525,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04507F#6P#5S#10Aはあああっ！\x02",
+        "#04507F#6P#5S#10AHa ha!\x02",
     )
 
     CloseMessageWindow()
@@ -539,7 +539,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#03201F#7Aはっ……！\x02",
+        "#03201F#7AHa ha!\x02",
     )
 
     WaitChrThread(0xA, 3)
@@ -580,7 +580,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04504F#5Pフン、逃がしたか。\x02",
+        "#04504F#5PHun, did you escape?\x02",
     )
 
     CloseMessageWindow()
@@ -591,8 +591,8 @@ def main():
 
     NpcTalk(
         0x8,
-        "声",
-        "──シグムント様！\x02",
+        "voice",
+        "── Mr. Sigmund!\x02",
     )
 
     CloseMessageWindow()
@@ -623,7 +623,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04500F#5Pツァオの部下は？\x02",
+        "#04500F#5PTsaoの部下は？\x02",
     )
 
     CloseMessageWindow()
@@ -631,8 +631,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#6P申し訳ありません。\x01",
-            "手傷は負わせましたが……\x02",
+            "#6PI'm sorry.\x01",
+            "I gave a hand injury … ….\x02",
         )
     )
 
@@ -641,9 +641,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04504F#5Pフフ、逃げられたか。\x02\x03",
-            "#04500Fまあいい、せいぜい闇に潜んで\x01",
-            "牙を研いでおくがいい。\x02",
+            "#04504F#5PHuh, could you escape?\x02\x03",
+            "#04500FWell, at most, lurking in the darkness\x01",
+            "Sharpen your fangs.\x02",
         )
     )
 
@@ -654,10 +654,10 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04502F#11P──よし。\x01",
-            "“仕上げ”に入るぞ。\x02\x03",
-            "ここを爆破しだい、\x01",
-            "ＩＢＣビルに向かう。\x02",
+            "#04502F#11P── Okay.\x01",
+            "I'm going into \"finishing\".\x02\x03",
+            "As we blow up here,\x01",
+            "I head to the IBC building.\x02",
         )
     )
 
@@ -665,11 +665,11 @@ def main():
     Sleep(300)
     OP_82(0x64, 0x0, 0xBB8, 0xC8)
     SetMessageWindowPos(80, 50, -1, -1)
-    SetChrName("猟兵たち")
+    SetChrName("A hunterたち")
 
     AnonymousTalk(
         0xFF,
-        "#4S了解#4Rヤ ー#！\x02",
+        "#4Sroger that#4RYa#It is!\x02",
     )
 
     CloseMessageWindow()

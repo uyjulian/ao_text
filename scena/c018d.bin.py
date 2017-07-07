@@ -19,8 +19,8 @@ def main():
 
     BuildStringList((
         "c018d",                  # 0
-        "道化師カンパネルラ",     # 1
-        "アリアンロード",         # 2
+        "Clown Campanella",     # 1
+        "Ariane Road",         # 2
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -113,12 +113,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#6P#04809Fアハハ、綺麗だねぇ。\x02\x03",
-            "金融都市クロスベルの象徴も\x01",
-            "ああなっちゃ大きな松明#4Rたいまつ#だ。\x02\x03",
-            "#04802Fしかし《赤い星座》か……\x02\x03",
-            "ウチの強化猟兵程度じゃ\x01",
-            "太刀打ちできなさそうだね。\x02",
+            "#6P#04809FAhaha, it's beautiful.\x02\x03",
+            "The symbol of the financial city crossbell is also\x01",
+            "Oh mycha big torch#4RA torch#It is.\x02\x03",
+            "#04802FBut \"Red constellation\"? ….\x02\x03",
+            "It is about strengthening hunter of ours\x01",
+            "It looks like we can not compete.\x02",
         )
     )
 
@@ -136,9 +136,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04804F#6Pウフフ……\x02\x03",
-            "#04800Fさすがにこういうのは\x01",
-            "貴女の流儀に反するのかな？\x02",
+            "#04804F#6PUhufu …\x02\x03",
+            "#04800FAs a matter of fact,\x01",
+            "Does it contradict your way?\x02",
         )
     )
 
@@ -147,10 +147,10 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#11P#04923F#30W……そうですね。\x02\x03",
-            "#04920Fですが本来、戦#2Rいくさ#とは非情なるもの。\x02\x03",
-            "あの者たちはあの者たちの流儀で\x01",
-            "戦場#4Rいくさば#に臨んでいるだけでしょう。\x07\x00\x02",
+            "#11P#04923F#30W……I agree.\x02\x03",
+            "#04920FHowever,#2RHow old#And what is heartless.\x02\x03",
+            "They are in the way of theirs\x01",
+            "battlefield#4RTasiba#It will only be in.\x07\x00\x02",
         )
     )
 
@@ -158,7 +158,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04804F#6Pフフ、なるほど。\x02",
+        "#04804F#6PHuh, I see.\x02",
     )
 
     CloseMessageWindow()
@@ -186,12 +186,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04800Fああ、博士。\x01",
-            "いきなりどうしたのさ？\x02\x03",
-            "#04805F──え？\x01",
-            "一機目が完成しそうだって？\x02\x03",
-            "#04806Fハイハイ、分かったよ。\x01",
-            "手伝いに戻ればいいんだね？\x02",
+            "#5P#04800FOh, Dr..\x01",
+            "What happened to suddenly?\x02\x03",
+            "#04805F─ ─?\x01",
+            "Does the first one seem to be completed?\x02\x03",
+            "#04806FHi Hi, I understood.\x01",
+            "You can return to help, is not it?\x02",
         )
     )
 
@@ -213,10 +213,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04804F#6P……というわけで僕も\x01",
-            "しばらく失礼させてもらうよ。\x02\x03",
-            "#04802F『約束の日』までの見届け、\x01",
-            "貴女にお任せしていいんだよね？\x02",
+            "#04804F#6P…… That's why I also\x01",
+            "I will be rude for a while.\x02\x03",
+            "#04802FA witness to \"promised day\"\x01",
+            "You can leave it to me, are not you?\x02",
         )
     )
 
@@ -224,7 +224,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11P#04923F#30Wええ、構いません。\x02",
+        "#11P#04923F#30WWell, I do not mind.\x02",
     )
 
     CloseMessageWindow()
@@ -239,8 +239,8 @@ def main():
     AnonymousTalk(
         0x9,
         (
-            "#3882V#40Wこの地を巡る運命……\x01",
-            "しかと見届けさせて貰いましょう。\x07\x00\x02",
+            "#3882V#40WFate going around this place ……\x01",
+            "Let's just let me see you.\x07\x00\x02",
         )
     )
 

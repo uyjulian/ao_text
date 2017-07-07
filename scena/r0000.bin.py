@@ -19,67 +19,67 @@ def main():
 
     BuildStringList((
         "r0000",                  # 0
-        "ダドリー捜査官",         # 1
-        "ツァオ",                 # 2
-        "ラウ",                   # 3
-        "黒月構成員",             # 4
-        "黒月構成員",             # 5
-        "黒月構成員",             # 6
-        "黒月構成員",             # 7
-        "黒月構成員",             # 8
-        "黒月構成員",             # 9
-        "黒月構成員",             # 10
-        "黒月構成員",             # 11
-        "黒月構成員",             # 12
-        "黒月構成員",             # 13
-        "黒月構成員",             # 14
-        "黒月構成員",             # 15
-        "黒月構成員",             # 16
-        "黒月構成員",             # 17
-        "猟兵ガレス",             # 18
-        "猟兵",                   # 19
-        "猟兵",                   # 20
-        "猟兵",                   # 21
-        "猟兵",                   # 22
-        "猟兵",                   # 23
-        "猟兵",                   # 24
-        "猟兵",                   # 25
-        "猟兵",                   # 26
-        "猟兵",                   # 27
-        "猟兵",                   # 28
-        "クーガー",               # 29
-        "クーガー",               # 30
-        "クーガー",               # 31
-        "偃月輪",                 # 32
-        "偃月輪",                 # 33
-        "バス",                   # 34
-        "黒塗りセダン",           # 35
-        "黒塗りセダン",           # 36
-        "黒塗りセダン",           # 37
-        "黒塗りセダン",           # 38
-        "黒塗りセダン",           # 39
-        "黒塗りセダン",           # 40
-        "大統領リムジン",         # 41
-        "ケイト巡査",             # 42
-        "警官",                   # 43
-        "警官",                   # 44
-        "警官",                   # 45
-        "警官",                   # 46
-        "警官",                   # 47
-        "警官",                   # 48
-        "警官",                   # 49
-        "警官",                   # 50
-        "警官",                   # 51
-        "警官",                   # 52
-        "SE制御",                 # 53
-        "ベルガムシ",             # 54
-        "サベージホーン",         # 55
+        "Dudley investigator",         # 1
+        "Tsao",                 # 2
+        "Row",                   # 3
+        "Black moon member",             # 4
+        "Black moon member",             # 5
+        "Black moon member",             # 6
+        "Black moon member",             # 7
+        "Black moon member",             # 8
+        "Black moon member",             # 9
+        "Black moon member",             # 10
+        "Black moon member",             # 11
+        "Black moon member",             # 12
+        "Black moon member",             # 13
+        "Black moon member",             # 14
+        "Black moon member",             # 15
+        "Black moon member",             # 16
+        "Black moon member",             # 17
+        "Hunting soldier Gareth",             # 18
+        "A hunter",                   # 19
+        "A hunter",                   # 20
+        "A hunter",                   # 21
+        "A hunter",                   # 22
+        "A hunter",                   # 23
+        "A hunter",                   # 24
+        "A hunter",                   # 25
+        "A hunter",                   # 26
+        "A hunter",                   # 27
+        "A hunter",                   # 28
+        "Cougar",               # 29
+        "Cougar",               # 30
+        "Cougar",               # 31
+        "Moon ring",                 # 32
+        "Moon ring",                 # 33
+        "bus",                   # 34
+        "Black sedan",           # 35
+        "Black sedan",           # 36
+        "Black sedan",           # 37
+        "Black sedan",           # 38
+        "Black sedan",           # 39
+        "Black sedan",           # 40
+        "Presidential limousine",         # 41
+        "Kate policing",             # 42
+        "Policeman",                   # 43
+        "Policeman",                   # 44
+        "Policeman",                   # 45
+        "Policeman",                   # 46
+        "Policeman",                   # 47
+        "Policeman",                   # 48
+        "Policeman",                   # 49
+        "Policeman",                   # 50
+        "Policeman",                   # 51
+        "Policeman",                   # 52
+        "SE control",                 # 53
+        "Bergamushi",             # 54
+        "Savage horn",         # 55
         "br0000",                 # 56
         "br0000",                 # 57
         "br0000",                 # 58
         "br0000",                 # 59
-        "クロスベル市方面",       # 60
-        "アルモリカ村・タングラム門方面",# 61
+        "Cross Bell City",       # 60
+        "Armorika village · Tangram main gate",# 61
     ))
 
     ATBonus("ATBonus_878", 100, 5, 1, 5, 1, 5, 1, 5, 5, 0, 0, 0, 1, 0, 0, 0)
@@ -248,8 +248,8 @@ def main():
     DeclActor(15000,   0,       6000,    1200,    15000,   2000,    6000,    0x007C, 0,  14, 0x0000)
     DeclActor(4010,    0,       6840,    1500,    4010,    1700,    6840,    0x007C, 0,  59, 0x0000)
 
-    PlaceName(-17.0, 0.0, -7.0, 0x0000, 0x0000, "クロスベル市方面")
-    PlaceName(203.0, 0.0, 27.5, 0x0000, 0x0000, "アルモリカ村・タングラム門方面")
+    PlaceName(-17.0, 0.0, -7.0, 0x0000, 0x0000, "Cross Bell City")
+    PlaceName(203.0, 0.0, 27.5, 0x0000, 0x0000, "Armorika village · Tangram main gate")
     PlaceName(0.5899999737739563, 0.0, 4.840000152587891, 0x0000, 0x0055, "")
 
     ChipFrameInfo(1000, 0, [0, 1, 2, 3, 4, 3, 2, 1])             # 0
@@ -1190,7 +1190,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅱ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -1210,14 +1210,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅱ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅱ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -1242,7 +1242,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -1281,7 +1281,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '叮当耳环'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -1301,14 +1301,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '叮当耳环'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '叮当耳环'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -1333,7 +1333,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -1365,8 +1365,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1377,8 +1377,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1410,7 +1410,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1473,8 +1473,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1485,8 +1485,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1518,7 +1518,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1594,7 +1594,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "バス停がある。\x02",
+            "bus停がある。\x02",
         )
     )
 
@@ -1614,8 +1614,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1Kバス停がある。\x01",
-            "バスで移動しますか？\x02",
+            "#1Kbus停がある。\x01",
+            "busで移動しますか？\x02",
         )
     )
 
@@ -1626,10 +1626,10 @@ def main():
         -1,
         1,
         (
-            "アルモリカ村\x01",          # 0
-            "タングラム門\x01",          # 1
-            "停留所（三叉路）\x01",      # 2
-            "やめる\x01",                # 3
+            "Almorika Village\x01",          # 0
+            "Tangram Gate\x01",          # 1
+            "Stop (three-way street)\x01",      # 2
+            "quit\x01",                # 3
         )
     )
 
@@ -1819,8 +1819,8 @@ def main():
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_2854")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 5)), scpexpr(EXPR_END)), "loc_2610")
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "メルカバに乗り込む")
-    MenuCmd(1, 0, "やめる")
+    MenuCmd(1, 0, "Board Mercapa")
+    MenuCmd(1, 0, "quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
     OP_60(0x0)
@@ -1849,13 +1849,13 @@ def main():
     label("loc_2610")
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "導力車で移動する")
+    MenuCmd(1, 0, "Travel with a driving car")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_2644")
-    MenuCmd(1, 0, "導力車で休憩する")
+    MenuCmd(1, 0, "Take a break with a driving car")
 
     label("loc_2644")
 
-    MenuCmd(1, 0, "やめる")
+    MenuCmd(1, 0, "quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
     OP_60(0x0)
@@ -2019,7 +2019,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力バスは運行を見合わせているようだ。\x07\x00\x02",
+            "導力busは運行を見合わせているようだ。\x07\x00\x02",
         )
     )
 
@@ -2341,9 +2341,9 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#3463V#30W──こちらダドリー。\x01",
-            "《結界》の消滅を確認した。\x02\x03",
-            "#3464Vこれより教会艇#6Rメ ル カ バ#へのコンタクトを試みる。\x02",
+            "#3463V#30W─ ─ here Dudley.\x01",
+            "I confirmed the disappearance of \"barrier\".\x02\x03",
+            "#3464VFrom this the church boat#6RMel kava#Attempt to contact.\x02",
         )
     )
 
@@ -2583,7 +2583,7 @@ def main():
 
     ChrTalk(
         0x19,
-        "#5P来たか……\x02",
+        "#5PDid you come …?\x02",
     )
 
     CloseMessageWindow()
@@ -2758,7 +2758,7 @@ def main():
 
     ChrTalk(
         0x19,
-        "#5P──迎撃を開始する。\x02",
+        "#5P──Start interception.\x02",
     )
 
     CloseMessageWindow()
@@ -2766,8 +2766,8 @@ def main():
     ChrTalk(
         0x19,
         (
-            "#5P相手は白兵戦の達人どもだ。\x01",
-            "クーガーを出して距離を保て。\x02",
+            "#5PThe opponent is a master of melee fighting.\x01",
+            "Cougarを出して距離を保て。\x02",
         )
     )
 
@@ -2775,11 +2775,11 @@ def main():
     Sleep(500)
     OP_82(0x64, 0x0, 0xBB8, 0x12C)
     SetMessageWindowPos(280, 120, -1, -1)
-    SetChrName("猟兵たち")
+    SetChrName("A hunterたち")
 
     AnonymousTalk(
         0xFF,
-        "#5S了解#4Rヤ ー#！\x02",
+        "#5Sroger that#4RYa#It is!\x02",
     )
 
     CloseMessageWindow()
@@ -2992,9 +2992,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#03209F#11Pフフ……\x01",
-            "血湧き肉踊る展開ですね。\x02\x03",
-            "#03210Fでは、始めるとしましょうか。\x02",
+            "#03209F#11PGiggle\x01",
+            "It is development of blood spring meat dancing.\x02\x03",
+            "#03210FLet's start with that.\x02",
         )
     )
 
@@ -3002,7 +3002,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#11Pかしこまりました。\x02",
+        "#11PCertainly.\x02",
     )
 
     CloseMessageWindow()
@@ -3013,8 +3013,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#11P──獣どもを駆逐しつつ、\x01",
-            "敵猟兵団を翻弄する。\x02",
+            "#11P── While expelling the animals,\x01",
+            "敵A hunter団を翻弄する。\x02",
         )
     )
 
@@ -3023,8 +3023,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#11P狙撃に気をつけながら\x01",
-            "懐を喰い破れ！\x02",
+            "#11PWhile paying attention to sniping\x01",
+            "Eat your bosom and tear it!\x02",
         )
     )
 
@@ -3032,11 +3032,11 @@ def main():
     Sleep(500)
     OP_82(0xC8, 0x0, 0xBB8, 0x1F4)
     SetMessageWindowPos(120, 50, -1, -1)
-    SetChrName("拳士たち")
+    SetChrName("The fists")
 
     AnonymousTalk(
         0xFF,
-        "#5Sは！\x02",
+        "#5SIs!\x02",
     )
 
     CloseMessageWindow()
@@ -4289,9 +4289,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "西・クロスベル市\x01",
-            "東・アルモリカ村　２７４セルジュ\x01",
-            "　　タングラム門　２０６セルジュ\x02",
+            "WEST · Crossbell City\x01",
+            "East · Almorica village 274 Serju\x01",
+            "Tangram main gate 206 Serge\x02",
         )
     )
 

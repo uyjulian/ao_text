@@ -74,7 +74,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "　　　誰と乗りますか？",
+            "Who do you ride with?",
             scpstr(0x18),
             scpstr(0x6),
             scpstr(SCPSTR_CODE_ENTER),
@@ -89,18 +89,18 @@ def main():
         48,
         1,
         (
-            "エリィ\x01",        # 0
-            "ティオ\x01",        # 1
-            "ランディ\x01",      # 2
-            "ワジ\x01",          # 3
-            "ノエル\x01",        # 4
-            "リーシャ\x01",      # 5
-            "キーア\x01",        # 6
-            "フラン\x01",        # 7
-            "セシル\x01",        # 8
-            "イリア\x01",        # 9
-            "シュリ\x01",        # 10
-            "やめる\x01",        # 11
+            "Erie\x01",        # 0
+            "Tio\x01",        # 1
+            "Randy\x01",      # 2
+            "Waji\x01",          # 3
+            "Noel\x01",        # 4
+            "Lisha\x01",      # 5
+            "Keya\x01",        # 6
+            "Franc\x01",        # 7
+            "Cecil\x01",        # 8
+            "Ilia\x01",        # 9
+            "Shuri\x01",        # 10
+            "quit\x01",        # 11
         )
     )
 

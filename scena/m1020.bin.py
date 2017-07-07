@@ -235,7 +235,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '缭乱七彩靴'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -255,14 +255,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '缭乱七彩靴'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '缭乱七彩靴'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -287,7 +287,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -331,14 +331,14 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#56I地のセピス×２００\x01\x07\x02",
-            "#57I水のセピス×２００\x01\x07\x02",
-            "#58I火のセピス×２００\x01\x07\x02",
-            "#59I風のセピス×２００\x01\x07\x02",
-            "#60I時のセピス×２００\x01\x07\x02",
-            "#61I空のセピス×２００\x01\x07\x02",
-            "#62I幻のセピス×２００\x01\x07\x00",
-            "を手に入れた。\x02",
+            "#56ISepis of the earth × 200\x01\x07\x02",
+            "#57IWater sepis × 200\x01\x07\x02",
+            "#58IFire Sepis × 200\x01\x07\x02",
+            "#59IWind sepice × 200\x01\x07\x02",
+            "#60ITime sepis × 200\x01\x07\x02",
+            "#61IEmpty Sepis × 200\x01\x07\x02",
+            "#62IPhantom Sepis × 200\x01\x07\x00",
+            "I got it.\x02",
         )
     )
 
@@ -357,7 +357,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x02",
+            "In the treasure box何も入っていない。\x02",
         )
     )
 
@@ -460,7 +460,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F……静かだな……\x02",
+        "#00003F… … It's quiet ……\x02",
     )
 
     CloseMessageWindow()
@@ -468,11 +468,11 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10104F報告では、教団事件の解決あたりから\x01",
-            "魔物の気配が消えているそうです。\x02\x03",
-            "#10100Fまあ、それもあって\x01",
-            "民間人の調査が許可されることに\x01",
-            "なったんですけど。\x02",
+            "#10104FIn the report, from the solution of the case incident\x01",
+            "It seems that the sign of the demon has disappeared.\x02\x03",
+            "#10100FWell, that too\x01",
+            "To allow civilian investigation\x01",
+            "I got it.\x02",
         )
     )
 
@@ -481,9 +481,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108Fやっぱり《僧院》みたいに\x01",
-            "最上階にある《鐘》が\x01",
-            "関係あるのかしら……\x02",
+            "#00108FAfter all it seems like \"monastery\"\x01",
+            "The \"bell\" on the top floor\x01",
+            "I wonder if there is a relationship ……\x02",
         )
     )
 
@@ -493,8 +493,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203Fあの《鐘》ですか……\x01",
-            "確かにそうなのかもしれません。\x02",
+            "#00203FIs that \"bell\"?\x01",
+            "Maybe it is.\x02",
         )
     )
 
@@ -503,8 +503,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10305Fそういえばそんなものが\x01",
-            "あるって話だったね。\x02",
+            "#10305FBy the way, such a thing\x01",
+            "It was a story.\x02",
         )
     )
 
@@ -517,9 +517,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10303F《鐘》か……\x01",
-            "そういえばそんなものが\x01",
-            "あるって話だったね。\x02",
+            "#10303F\"Bell\" or …\x01",
+            "By the way, such a thing\x01",
+            "It was a story.\x02",
         )
     )
 
@@ -531,9 +531,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00302Fま、敵がいないってんなら\x01",
-            "ある意味ラッキーじゃねえか。\x02\x03",
-            "#00309Fぱぱっと進んでいくとしようぜ。\x02",
+            "#00302FWell, if you do not have an enemy\x01",
+            "In a way it's lucky.\x02\x03",
+            "#00309FLet's move on as far as we can.\x02",
         )
     )
 
@@ -542,9 +542,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fああ……\x01",
-            "一応、警戒だけは\x01",
-            "怠らないようにな。\x02",
+            "#00000FAh……\x01",
+            "Once, only warning\x01",
+            "Do not neglect.\x02",
         )
     )
 

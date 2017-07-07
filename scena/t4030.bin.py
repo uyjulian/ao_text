@@ -19,7 +19,7 @@ def main():
 
     BuildStringList((
         "t4030",                  # 0
-        "シスター・リース",       # 1
+        "Sister · Lease",       # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -98,11 +98,11 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "その後、ロイドたちは\x01",
-            "シスター・リースの個室に案内され……\x02\x03",
-            "蒼い花を摘んだ経緯と\x01",
-            "エラルダ大司教とのやり取りについて\x01",
-            "彼女に一通り説明した。\x07\x00\x02",
+            "After that, Lloyd's\x01",
+            "Sister · Leaseの個室に案内され……\x02\x03",
+            "History of picking a blue flower\x01",
+            "On the interaction with Archbishop Ellarda\x01",
+            "I explained to her all the way.\x07\x00\x02",
         )
     )
 
@@ -118,9 +118,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04406F#11P──なるほど。\x02\x03",
-            "#04408F確かにこれは、大司教ならば\x01",
-            "口を閉ざすのも無理ありませんね。\x02",
+            "#04406F#11P─ ─ I see.\x02\x03",
+            "#04408FCertainly this is the Archbishop\x01",
+            "It is also impossible to close your mouth.\x02",
         )
     )
 
@@ -143,7 +143,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#12Pえ……！？\x02",
+        "#00005F#12PHuh……! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -151,7 +151,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305F#12P分かるのかよ、シスターさん！？\x02",
+        "#00305F#12PDo you understand, Mr. Sister! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -160,10 +160,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04403F#5Pその前に……\x02\x03",
-            "#04402F……エリィさん。\x01",
-            "まだ私の身分について\x01",
-            "説明していないみたいですね？\x02",
+            "#04403F#5Pbefore that……\x02\x03",
+            "#04402F…… Ellie.\x01",
+            "About my status yet\x01",
+            "Does not it seem to explain?\x02",
         )
     )
 
@@ -172,9 +172,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#11Pええ……\x01",
-            "あまり言い回るのも\x01",
-            "どうかと思いまして。\x02",
+            "#00106F#11PYeah ….\x01",
+            "To say too much\x01",
+            "Please feel it.\x02",
         )
     )
 
@@ -182,21 +182,21 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04404F#5Pふふ……感謝します。\x02",
+        "#04404F#5PHehe … … I thank you.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10105F#12Pえっと……\x02",
+        "#10105F#12PEr …\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00201F#6Pその身分というのは一体……？\x02",
+        "#00201F#6PIs that status alright …?\x02",
     )
 
     CloseMessageWindow()
@@ -205,13 +205,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04403F#5Pもう大司教には薄々、\x01",
-            "勘付かれているようですが……\x02\x03",
-            "私は教会内でも、\x01",
-            "特殊な組織に所属しています。\x02\x03",
-            "#04400F──『星杯騎士団』。\x01",
-            "封聖省という機関に所属する\x01",
-            "古代遺物#8Rアーティファクト#を回収する組織です。\x02",
+            "#04403F#5PTo the Archbishop is thin,\x01",
+            "It seems to have been hit … …\x02\x03",
+            "Even within the church,\x01",
+            "I belong to a special organization.\x02\x03",
+            "#04400F── \"Star Cup Order\".\x01",
+            "It belongs to the institution named Seaplane Province\x01",
+            "Ancient artifacts#8RArtifact#It is an organization that collects.\x02",
         )
     )
 
@@ -232,7 +232,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12P星杯騎士団って……！\x02",
+        "#00011F#12PKnights of the Star Cup … …!\x02",
     )
 
     CloseMessageWindow()
@@ -240,8 +240,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10111F#12Pアルタイル・ロッジで\x01",
-            "手を貸してくれた……！？\x02",
+            "#10111F#12PAt Altair Lodge\x01",
+            "He lent me a hand …! Is it?\x02",
         )
     )
 
@@ -250,15 +250,15 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04404F#5Pケビン・グラハムですね。\x02\x03",
-            "#04402Fちなみに私は、彼をサポートする、\x01",
-            "『従騎士』の位階にあります。\x02\x03",
-            "#04406F本来ならば、様々な調査のため\x01",
-            "彼自身がクロスベル入りをするのが\x01",
-            "筋ではあったのですが……\x02\x03",
-            "#04400F大司教の目があったので\x01",
-            "代わりに私が情報収集役として\x01",
-            "派遣されたというわけです。\x02",
+            "#04404F#5PIt is Kevin Graham.\x02\x03",
+            "#04402FBy the way, I support him,\x01",
+            "It is on the rank of \"Adjunctor\".\x02\x03",
+            "#04406FOriginally, for various investigations\x01",
+            "He himself enters the crossbell\x01",
+            "Although it was a line, … ….\x02\x03",
+            "#04400FBecause there was an archbishop's eyes\x01",
+            "Instead I as an information collector\x01",
+            "It was dispatched.\x02",
         )
     )
 
@@ -266,14 +266,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#12Pな、なるほど……\x02",
+        "#00001F#12PI see, I see … ….\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00102F#11Pそうだったんですか……\x02",
+        "#00102F#11PIs that so……\x02",
     )
 
     CloseMessageWindow()
@@ -281,8 +281,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#12Pなんつーか、教会ってのも\x01",
-            "色々しがらみがあるみてぇだな？\x02",
+            "#00306F#12PSomehow, church too\x01",
+            "You seem to have a lot of distortions?\x02",
         )
     )
 
@@ -291,9 +291,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04403F#5Pええ、お恥ずかしながら。\x02\x03",
-            "#04408F──話を戻しますが\x01",
-            "皆さんが採取された花……\x02",
+            "#04403F#5PYeah, shy.\x02\x03",
+            "#04408F── I will return the story\x01",
+            "Flowers from which everyone collected …\x02",
         )
     )
 
@@ -307,14 +307,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305F#12P分かるのかよ、リースちゃん！？\x02",
+        "#00305F#12PDo you understand, Ries-chan! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#04408F#11Pええ、皆さんが採取された花……\x02",
+        "#04408F#11Pええ、Flowers from which everyone collected …\x02",
     )
 
     CloseMessageWindow()
@@ -330,10 +330,10 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#04403F確かに、とある聖典に記されている\x01",
-            "花である可能性は高そうです。\x02\x03",
-            "#04401Fといっても正式な聖典ではなく\x01",
-            "いわゆる“外典#4Rげてん#”にあたりますが。\x02",
+            "#04403FCertainly, it is in a certain scripture\x01",
+            "The possibility that it is a flower seems to be high.\x02\x03",
+            "#04401FAlthough it is not an official scripture\x01",
+            "The so-called \"foreign civilization#4RGesshin#\"Although it corresponds to.\x02",
         )
     )
 
@@ -343,7 +343,7 @@ def main():
 
     AnonymousTalk(
         0x109,
-        "#10105F外典……\x02",
+        "#10105FApocrypha……\x02",
     )
 
     CloseMessageWindow()
@@ -353,8 +353,8 @@ def main():
     AnonymousTalk(
         0x105,
         (
-            "#10301Fつまり正式なものとは\x01",
-            "認められていない異書って事だね？\x02",
+            "#10301FIn other words, what is formal\x01",
+            "Is not it an unauthorized opposition?\x02",
         )
     )
 
@@ -365,12 +365,12 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#04403Fええ、教会内でも限られた者しか\x01",
-            "閲覧は許されていません。\x02\x03",
-            "#04400Fですが『騎士団』に所属する者は\x01",
-            "そうした外典の閲覧を許されています。\x02\x03",
-            "危険なアーティファクトの存在が\x01",
-            "記されているものが多いからです。\x02",
+            "#04403FYes, only limited people in the church\x01",
+            "Browsing is not allowed.\x02\x03",
+            "#04400FBut who belongs to the \"knights\"\x01",
+            "You are allowed to browse such a censure.\x02\x03",
+            "The existence of dangerous artifacts\x01",
+            "It is because there are many things written.\x02",
         )
     )
 
@@ -380,7 +380,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00005Fなるほど……\x02",
+        "#00005FI see……\x02",
     )
 
     CloseMessageWindow()
@@ -394,8 +394,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00101F#11Pでは、その蒼い花は\x01",
-            "一体どのように記されて……？\x02",
+            "#00101F#11PSo, that blue flower\x01",
+            "How is it written …?\x02",
         )
     )
 
@@ -404,11 +404,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04403F#11P外典の１つ『ラダー記』に\x01",
-            "蒼き花についての描写があります。\x02\x03",
-            "#04408F七耀脈の真上に咲く、\x01",
-            "吉兆とも凶兆とも取れる神秘の花……\x02\x03",
-            "#04401Fその名も『プレロマ草』の記述が。\x02",
+            "#04403F#11POne of the outer writings \"ladder note\"\x01",
+            "There is a depiction about the blue flower.\x02\x03",
+            "#04408FIt blooms right above the seven angels,\x01",
+            "Kichiro is a mysterious flower that can be taken as an obsession … …\x02\x03",
+            "#04401FIts name is also the description of \"prelomarium\".\x02",
         )
     )
 
@@ -428,14 +428,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#4S#12Pな……！？\x02",
+        "#00007F#4S#12PI mean …! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00107F#11Pその名前は……！\x02",
+        "#00107F#11PThat name is … …!\x02",
     )
 
     CloseMessageWindow()
@@ -445,7 +445,7 @@ def main():
 
     AnonymousTalk(
         0x109,
-        "#10101Fそ、それって確か……\x02",
+        "#10101FWell, surely ….\x02",
     )
 
     CloseMessageWindow()
@@ -455,8 +455,8 @@ def main():
     AnonymousTalk(
         0x105,
         (
-            "#10305F『教団』の端末に残されてたっていう、\x01",
-            "グノーシスの原料になった植物の名前かい？\x02",
+            "#10305FIt was left in the terminal of \"cult\"\x01",
+            "Is it the name of the plant that became the source of Gnostic?\x02",
         )
     )
 
@@ -466,7 +466,7 @@ def main():
 
     AnonymousTalk(
         0x103,
-        "#00206F………はい…………\x02",
+        "#00206F………Yes…………\x02",
     )
 
     CloseMessageWindow()
@@ -476,8 +476,8 @@ def main():
     AnonymousTalk(
         0x104,
         (
-            "#00301Fまさかこんな場所で\x01",
-            "その名前を聞くとはな……\x02",
+            "#00301FNo way, at such a place\x01",
+            "I do not hear that name … …\x02",
         )
     )
 
@@ -492,12 +492,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04403F#5P……なるほど、そうでしたか。\x02\x03",
-            "#04401Fかの教団の残した謎については\x01",
-            "教会でも殆んど解明されていません。\x02\x03",
-            "エラルダ大司教の意向もあり、\x01",
-            "ヨアヒム・ギュンターが起こした事件も\x01",
-            "殆んど調査されませんでしたが……\x02",
+            "#04403F#5P… Well, I see.\x02\x03",
+            "#04401FAbout the mystery left by the faction\x01",
+            "Almost nothing has been elucidated in the church.\x02\x03",
+            "There was also the intention of Archbishop Ellarda,\x01",
+            "Also the incident caused by Joachim Günter\x01",
+            "Although almost not investigated … …\x02",
         )
     )
 
@@ -506,12 +506,12 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10111F#12Pちょ、ちょっと待ってください。\x02\x03",
-            "#10106Fその花が本当に\x01",
-            "例のグノーシスという薬物の\x01",
-            "原料だったとして……\x02\x03",
-            "#10101Fそれが各地で発見されたことが\x01",
-            "何を意味してるんでしょう……？\x02",
+            "#10111F#12PWait a moment, please.\x02\x03",
+            "#10106FThat flower really\x01",
+            "Examples of drugs of Gnostic\x01",
+            "As a raw material ……\x02\x03",
+            "#10101FIt was discovered in various places\x01",
+            "What does it mean?\x02",
         )
     )
 
@@ -520,8 +520,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F#11Pそ、そうね……\x01",
-            "《幻獣》の出現も気になるし。\x02",
+            "#00108F#11PWell, well …\x01",
+            "The emergence of \"Phantom beast\" is also anxious.\x02",
         )
     )
 
@@ -530,9 +530,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#6P七耀脈の真上に咲く花……\x02\x03",
-            "#00201Fしかも吉兆とも凶兆とも\x01",
-            "取れる花、ですか……\x02",
+            "#00203F#6PA flower blooming just above the seven angels ……\x02\x03",
+            "#00201FBesides, both\x01",
+            "Is it a flower that I can take?\x02",
         )
     )
 
@@ -540,7 +540,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F#12Pああ、どうもイヤな符合だぜ。\x02",
+        "#00306F#12POh, I do not like it anymore.\x02",
     )
 
     CloseMessageWindow()
@@ -551,13 +551,13 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#11P──とにかく、俺たちだけで\x01",
-            "対処できる問題でも無さそうだ。\x02\x03",
-            "いったん支援課に戻って\x01",
-            "詳細な報告書をまとめてみよう。\x02\x03",
-            "#00001Fリースさん。\x01",
-            "教えていただいた情報は\x01",
-            "警備隊やギルドに伝えても？\x02",
+            "#00003F#11P─ ─ Anyway, only us\x01",
+            "It does not seem to be a manageable problem.\x02\x03",
+            "Once you return to the support department\x01",
+            "Let's summarize the detailed report.\x02\x03",
+            "#00001FMr. Lease.\x01",
+            "The information you have taught me\x01",
+            "Even if you tell the guard or guild?\x02",
         )
     )
 
@@ -566,9 +566,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04403F#5Pそうですね……\x02\x03",
-            "#04400Fなるべく私の名前を\x01",
-            "出さないで頂けるのであれば。\x02",
+            "#04403F#5PI agree……\x02\x03",
+            "#04400FMake my name as possible\x01",
+            "If you can not give it out.\x02",
         )
     )
 
@@ -577,8 +577,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10302F#12Pフフ、大司教にとったら\x01",
-            "スパイみたいな立場だろうからね。\x02",
+            "#10302F#12PFor Huff, Archbishop\x01",
+            "It is like a spy.\x02",
         )
     )
 
@@ -587,8 +587,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100F#11Pもちろん、そのあたりは\x01",
-            "極力配慮させていただきます。\x02",
+            "#00100F#11POf course, that\x01",
+            "We will consider as much as possible.\x02",
         )
     )
 
@@ -597,11 +597,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04404F#5Pならば問題ありません。\x02\x03",
-            "#04402F私の方も、騎士団に連絡してから\x01",
-            "調査に入ってみるつもりです。\x02\x03",
-            "お互い、何か進展があったら\x01",
-            "情報交換するのは如何ですか？\x02",
+            "#04404F#5PThen there is no problem.\x02\x03",
+            "#04402FSince I also contacted the Order,\x01",
+            "I am planning to enter the survey.\x02\x03",
+            "If there is any progress with each other\x01",
+            "How is it to exchange information?\x02",
         )
     )
 
@@ -609,14 +609,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#12Pええ、喜んで。\x02",
+        "#00002F#12PYeah, pleased.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00202F#6Pよろしくお願いします。\x02",
+        "#00202F#6PThank you.\x02",
     )
 
     CloseMessageWindow()
@@ -630,14 +630,14 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "その後、ロイドたちは支援課に戻ってから\x01",
-            "幻獣と蒼き花──《プレロマ草》についての\x01",
-            "詳細な報告書を大急ぎでまとめた。\x02\x03",
-            "警備隊の司令部と、ギルドの受付に\x01",
-            "導力ネットを通じて報告書を送った後……\x02\x03",
-            "各地を回って疲れていたロイドたちは\x01",
-            "課長やキーアと遅めの夕食をとってから\x01",
-            "部屋に戻って早めに休むことにした。\x07\x00\x02",
+            "After that, Lloyd's returned to support section\x01",
+            "Phantom Beast and Blue Flower - About \"Praroma Grass\"\x01",
+            "I summarized the detailed report in a hurry.\x02\x03",
+            "For the command of the Guard and the reception of the guild\x01",
+            "After sending the report through the power net … …\x02\x03",
+            "Lloyds who were tired after traveling around the world\x01",
+            "After having taken a late dinner with the section chief and Kaoru\x01",
+            "I decided to go back to the room and take a day off.\x07\x00\x02",
         )
     )
 

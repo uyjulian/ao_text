@@ -19,11 +19,11 @@ def main():
 
     BuildStringList((
         "c024b",                  # 0
-        "サミィ",                 # 1
-        "キンドール",             # 2
-        "ブリジッタ",             # 3
-        "ルーヴィック老人",       # 4
-        "オリガ夫人",             # 5
+        "Sammy",                 # 1
+        "Kindoor",             # 2
+        "Brigitta",             # 3
+        "Louvic's old man",       # 4
+        "Mrs Olga",             # 5
     ))
 
     AddCharChip((
@@ -207,9 +207,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今日は各国の首脳が\x01",
-            "アルカンシェルを観劇している\x01",
-            "らしいわね。\x02",
+            "Today the leaders of each country\x01",
+            "I am watching the alkane shell\x01",
+            "It seems.\x02",
         )
     )
 
@@ -218,8 +218,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うーん、さぞ、いい席で\x01",
-            "楽しんでるんでしょうね。\x02",
+            "Well, sir, in a good seat\x01",
+            "I guess you are enjoying it.\x02",
         )
     )
 
@@ -227,7 +227,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "くう〜、うらやましいわ！\x02",
+        "Kuu ~, I'm so jealous!\x02",
     )
 
     CloseMessageWindow()
@@ -240,8 +240,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "結局、今度のリニューアル公演の\x01",
-            "チケットは買い逃しちゃったのよね。\x02",
+            "After all, this time the renewal performance\x01",
+            "I missed buying tickets.\x02",
         )
     )
 
@@ -249,7 +249,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "はーあ……\x02",
+        "Haa …\x02",
     )
 
     CloseMessageWindow()
@@ -271,8 +271,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "オルキスタワーは、夜になると\x01",
-            "美しくライトアップされるのだよ。\x02",
+            "Orlux tower, at night\x01",
+            "It is beautifully lighted up.\x02",
         )
     )
 
@@ -281,9 +281,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "青と白を基調としたタワーが\x01",
-            "夜の闇に爛々#4Rらんらん#と輝く美しさに、\x01",
-            "息を呑むこと請け合いだ。\x02",
+            "A tower based on blue and white\x01",
+            "Gloomy in the darkness of the night#4RLlan#And shining beauty,\x01",
+            "I guarantee to take a breath.\x02",
         )
     )
 
@@ -292,8 +292,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "フフ、機会があれば是非とも\x01",
-            "見てほしいものだ。\x02",
+            "If there is opportunity, by all means\x01",
+            "I want you to see it.\x02",
         )
     )
 
@@ -307,8 +307,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "オルキスタワーは、夜になると\x01",
-            "美しくライトアップされるのだよ。\x02",
+            "Orlux tower, at night\x01",
+            "It is beautifully lighted up.\x02",
         )
     )
 
@@ -317,8 +317,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "フフ、機会があれば是非とも\x01",
-            "見てほしいものだ。\x02",
+            "If there is opportunity, by all means\x01",
+            "I want you to see it.\x02",
         )
     )
 
@@ -340,9 +340,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "主人ったら聞いてもないのに\x01",
-            "オルキスタワーのことを\x01",
-            "色々と教えてくれるんです。\x02",
+            "I do not even listen if my husband\x01",
+            "About the Orkis Tower\x01",
+            "It tells us various things.\x02",
         )
     )
 
@@ -351,8 +351,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふふ、昼間の除幕式の\x01",
-            "興奮が冷めきらないみたいね。\x02",
+            "Hehu, the unveiling of the daytime\x01",
+            "It seems that the excitement is not overwhelming.\x02",
         )
     )
 
@@ -377,8 +377,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "せっかく一緒に飲もうと思って\x01",
-            "いいワインを買ってきたのに……\x02",
+            "I thought about drinking with me all the time\x01",
+            "I bought a good wine ……\x02",
         )
     )
 
@@ -387,8 +387,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふん、もういいわい。\x01",
-            "一人で飲んでしまうからの。\x02",
+            "Hmm, it is already good.\x01",
+            "Because I will drink alone.\x02",
         )
     )
 
@@ -411,9 +411,9 @@ def main():
     ChrTalk(
         0xB,
         (
-            "あーあ、やっぱり\x01",
-            "このワインは美味いのーう。\x01",
-            "買ってよかったわい。\x02",
+            "Oh, after all\x01",
+            "This wine is delicious.\x01",
+            "I'm glad I bought it.\x02",
         )
     )
 
@@ -422,8 +422,8 @@ def main():
     ChrTalk(
         0xB,
         (
-            "婆さんは要らんようじゃし、\x01",
-            "わしが一人で飲むかのーう。\x02",
+            "The old lady seems to need it,\x01",
+            "I guess I should drink alone.\x02",
         )
     )
 
@@ -431,7 +431,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "……ええ、お好きにどうぞ。\x02",
+        "…… Yes, please.\x02",
     )
 
     CloseMessageWindow()
@@ -439,8 +439,8 @@ def main():
     ChrTalk(
         0xC,
         (
-            "そのために高いミラを支払って\x01",
-            "買ったんでしょうしね。\x02",
+            "For that, pay a high Mira\x01",
+            "I guess I bought it.\x02",
         )
     )
 
@@ -449,8 +449,8 @@ def main():
     ChrTalk(
         0xB,
         (
-            "……ふん！\x01",
-            "ぐびぐびぐびぐび。\x02",
+            "…… Huh!\x01",
+            "Give me a chance.\x02",
         )
     )
 
@@ -480,8 +480,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……ふん、主人のことなんて\x01",
-            "知るもんですか。\x02",
+            "…… Hmm, what about my husband?\x01",
+            "Do you know?\x02",
         )
     )
 
@@ -506,7 +506,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉には鍵がかかっている。\x02",
+            "There is a lock on the door.\x02",
         )
     )
 

@@ -82,7 +82,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "　　　イベントビューア",
+            "Event viewer",
             scpstr(0x18),
             scpstr(0x6),
             scpstr(SCPSTR_CODE_ENTER),
@@ -91,72 +91,72 @@ def main():
 
     MenuCmd(0, 0)
     Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x28, 0x1)"), scpexpr(EXPR_END)), "loc_2BE")
-    MenuCmd(1, 0, "エリィとの絆")
+    MenuCmd(1, 0, "Bonds with Erie")
     Jump("loc_2D2")
 
     label("loc_2BE")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
     MenuCmd(3, 0, 0x0)
 
     label("loc_2D2")
 
     Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x29, 0x1)"), scpexpr(EXPR_END)), "loc_2F1")
-    MenuCmd(1, 0, "ティオとの絆")
+    MenuCmd(1, 0, "Ties with Tio")
     Jump("loc_305")
 
     label("loc_2F1")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
     MenuCmd(3, 0, 0x1)
 
     label("loc_305")
 
     Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x2A, 0x1)"), scpexpr(EXPR_END)), "loc_326")
-    MenuCmd(1, 0, "ランディとの絆")
+    MenuCmd(1, 0, "Bond with Randy")
     Jump("loc_33A")
 
     label("loc_326")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
     MenuCmd(3, 0, 0x2)
 
     label("loc_33A")
 
     Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x25, 0x1)"), scpexpr(EXPR_END)), "loc_359")
-    MenuCmd(1, 0, "ノエルとの絆")
+    MenuCmd(1, 0, "Bonds with Noel")
     Jump("loc_36D")
 
     label("loc_359")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
     MenuCmd(3, 0, 0x3)
 
     label("loc_36D")
 
     Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x26, 0x1)"), scpexpr(EXPR_END)), "loc_38A")
-    MenuCmd(1, 0, "ワジとの絆")
+    MenuCmd(1, 0, "Bonds with Wadi")
     Jump("loc_39E")
 
     label("loc_38A")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
     MenuCmd(3, 0, 0x4)
 
     label("loc_39E")
 
     Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x27, 0x1)"), scpexpr(EXPR_END)), "loc_3BF")
-    MenuCmd(1, 0, "リーシャとの絆")
+    MenuCmd(1, 0, "Bonds with Lisha")
     Jump("loc_3D3")
 
     label("loc_3BF")
 
-    MenuCmd(1, 0, "？？？？？？")
+    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
     MenuCmd(3, 0, 0x5)
 
     label("loc_3D3")
 
-    MenuCmd(1, 0, "戻る")
+    MenuCmd(1, 0, "Return")
     MenuCmd(4, 0, 0x3)
     MenuCmd(2, 0, -1, 56, 1)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AA, 3)), scpexpr(EXPR_END)), "loc_3F9")

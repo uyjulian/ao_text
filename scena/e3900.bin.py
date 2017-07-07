@@ -19,8 +19,8 @@ def main():
 
     BuildStringList((
         "e3900",                  # 0
-        "戦鬼シグムント",         # 1
-        "飛空挺",                 # 2
+        "Kibun Sigmund",         # 1
+        "Airborne",                 # 2
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -144,7 +144,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#6P#N#00106F#12Aきゃああっ……！？\x02",
+        "#6P#N#00106F#12AKyaa …! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -155,7 +155,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#12P#N#00210F#12Aっっ……！\x02",
+        "#12P#N#00210F#12AWhat ?!\x02",
     )
 
     CloseMessageWindow()
@@ -167,7 +167,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#N#00010F#15Aな、何てことを……！\x02",
+        "#12P#N#00010F#15AWhat, what …!\x02",
     )
 
     CloseMessageWindow()
@@ -179,7 +179,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00307F#4S#N#2755V#30W#15A叔父貴ィィィィィッ！！\x02",
+        "#6P#00307F#4S#N#2755V#30W#15AUncle Qwi! It is!\x02",
     )
 
     CloseMessageWindow()
@@ -187,7 +187,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04502F#3839V#15Aククク……\x02",
+        "#04502F#3839V#15AKukuku\x02",
     )
 
     CloseMessageWindow()
@@ -196,7 +196,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04509F#4114V#5S#18Aハ──ッハハハハハハハッ！！\x02",
+        "#04509F#4114V#5S#18AHa - ha ha ha ha ha ha! It is!\x02",
     )
 
     CloseMessageWindow()

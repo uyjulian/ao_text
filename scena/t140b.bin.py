@@ -19,7 +19,7 @@ def main():
 
     BuildStringList((
         "t140b",                  # 0
-        "キーア",                 # 1
+        "Keya",                 # 1
     ))
 
     AddCharChip((
@@ -182,14 +182,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#6P（……いた……！）\x02",
+        "#00002F#6P(… … there …!!)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00106F#6P（よ、よかった……！）\x02",
+        "#00106F#6P(Okay, good … …!)\x02",
     )
 
     CloseMessageWindow()
@@ -222,8 +222,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#05815F#3616V#60W#12P#N…………どうして……………\x02\x03",
-            "#3617V#60W……どうして…………なの……？\x07\x00\x02",
+            "#05815F#3616V#60W#12P#N…………why……………\x02\x03",
+            "#3617V#60W…… How come … … … …?\x07\x00\x02",
         )
     )
 
@@ -235,7 +235,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00007F#4Sキーア#3330V……！\x02",
+        "#00007F#4SKeya#3330V……！\x02",
     )
 
     CloseMessageWindow()
@@ -317,7 +317,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#5Pキーア、大丈夫か！？\x02",
+        "#00013F#5PKeya、大丈夫か！？\x02",
     )
 
     CloseMessageWindow()
@@ -325,8 +325,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00101F#11Pよかった……\x01",
-            "怪我はしていない！？\x02",
+            "#00101F#11PWas good……\x01",
+            "I am not hurt! Is it?\x02",
         )
     )
 
@@ -336,7 +336,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#05815F#40W#5P…………………………………\x07\x00\x02",
+            "#05815F#40W#5P…………………………………….\x07\x00\x02",
         )
     )
 
@@ -360,8 +360,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#05805F#3618V#6P#30Wあれ〜……？\x02\x03",
-            "#05810F#4109Vロイドたち、どうしたのー？\x02",
+            "#05805F#3618V#6P#30Wthat~……?\x02\x03",
+            "#05810F#4109VLloyd, what's wrong?\x02",
         )
     )
 
@@ -375,8 +375,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5Pガクッ……\x02\x03",
-            "#00011Fどうしたのって、あのなぁ。\x02",
+            "#00006F#5PGokutama ……\x02\x03",
+            "#00011FWhat is wrong with that.\x02",
         )
     )
 
@@ -385,9 +385,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00206F#5Pキーア、どうしてここへ？\x02\x03",
-            "#00200Fロイドさんたちの部屋から\x01",
-            "歩いてきたのですよね？\x02",
+            "#00206F#5PKeya、どうしてここへ？\x02\x03",
+            "#00200FFrom Lloyd's room\x01",
+            "You are walking, are not you?\x02",
         )
     )
 
@@ -395,7 +395,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#05805F#6P#30W？？？\x02",
+        "#05805F#6P#30WIs it? Is it? Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -410,8 +410,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#05811F#6P#30Wここって昼間のお城……？\x02\x03",
-            "#05805Fキーア、なんでここにいるのー？\x02",
+            "#05811F#6P#30WHere is a castle in the daytime … …?\x02\x03",
+            "#05805FKeya、なんでここにいるのー？\x02",
         )
     )
 
@@ -433,8 +433,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10306F#5Pやれやれ……\x01",
-            "全然覚えてないみたいだね。\x02",
+            "#10306F#5PWhew ……\x01",
+            "It seems I do not remember at all.\x02",
         )
     )
 
@@ -443,8 +443,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10108F#11Pね、寝ぼけてここまで\x01",
-            "来ちゃったんでしょうか？\x02",
+            "#10108F#11PRight, sleeping like this\x01",
+            "Did they come?\x02",
         )
     )
 
@@ -453,9 +453,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#5Pいや、それにしちゃ、\x01",
-            "壮絶に寝ぼけすぎだろ……\x02\x03",
-            "#00301Fキー坊、何も覚えてないのか？\x02",
+            "#00306F#5PNo, I gotta do it,\x01",
+            "It's too terrible and too sleepy ……\x02\x03",
+            "#00301FKeibo, you do not remember anything?\x02",
         )
     )
 
@@ -464,11 +464,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#05803F#6P#30Wんー……\x02\x03",
-            "#05808F……なんか夢でキーアを\x01",
-            "呼ぶような声が聞こえたような……\x02\x03",
-            "#05805F…………あれ？\x01",
-            "キーアが呼んでたのかな……？\x02",
+            "#05803F#6P#30WHmm……\x02\x03",
+            "#05808F……なんか夢でKeyaを\x01",
+            "It sounds like a calling voice ……\x02\x03",
+            "#05805F…………that?\x01",
+            "Keyaが呼んでたのかな……？\x02",
         )
     )
 
@@ -476,7 +476,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00303F#5Pむう。\x02",
+        "#00303F#5PMuu.\x02",
     )
 
     CloseMessageWindow()
@@ -484,9 +484,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00109F#11Pふふ……\x01",
-            "夢だもの、仕方ないわ。\x02\x03",
-            "#00102Fとにかく無事でよかった……\x02",
+            "#00109F#11PWhatching\x01",
+            "A dream thing, it can not be helped.\x02\x03",
+            "#00102FAnyway it was okay and it was okay …\x02",
         )
     )
 
@@ -495,11 +495,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#5Pそうだな……\x02\x03",
-            "#00002Fよし、俺たちも\x01",
-            "いったんホテルに戻ろう。\x02\x03",
-            "キーア、部屋に戻ったら\x01",
-            "ちゃんと寝るんだぞ？\x02",
+            "#00004F#5PThat's right.\x02\x03",
+            "#00002FOkay, we also\x01",
+            "I will return to the hotel once.\x02\x03",
+            "Keya、部屋に戻ったら\x01",
+            "You are going to sleep properly?\x02",
         )
     )
 
@@ -511,7 +511,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#05809F#6Pはーい。\x02",
+        "#05809F#6PYes.\x02",
     )
 
     CloseMessageWindow()
@@ -529,15 +529,15 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "その後、ホテルに戻ったロイドたちは\x01",
-            "キーアを寝かしつけてから\x01",
-            "ミシュラムの保安部に連絡し……\x02\x03",
-            "事情を説明して再び現場に行ったが\x01",
-            "結局、何の異常も残っていなかった。\x02\x03",
-            "そして明け方──やっとホテルに戻って\x01",
-            "昼近くまで睡眠を取った後……\x02\x03",
-            "迎えに来たマリアベルと共に\x01",
-            "ロイドたちはミシュラムを後にするのだった。\x07\x00\x02",
+            "Lloyds who returned to the hotel afterwards\x01",
+            "Keyaを寝かしつけてから\x01",
+            "Contact the security department of Michelin … …\x02\x03",
+            "Described the situation and went to the scene again\x01",
+            "After all, no abnormality remained.\x02\x03",
+            "And dawn __ - finally back to the hotel\x01",
+            "After taking sleep until near noon ……\x02\x03",
+            "Together with Maria Bell who came to pick me up\x01",
+            "Lloyd's left Michelam.\x07\x00\x02",
         )
     )
 

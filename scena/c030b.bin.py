@@ -19,30 +19,30 @@ def main():
 
     BuildStringList((
         "c030b",                  # 0
-        "レイズ老人",             # 1
-        "ペントス",               # 2
-        "警官",                   # 3
-        "警官",                   # 4
-        "車",                     # 5
-        "車",                     # 6
-        "車",                     # 7
-        "警官",                   # 8
-        "中央広場",               # 9
-        "西通り",                 # 10
-        "行政区",                 # 11
-        "住宅街",                 # 12
-        "歓楽街",                 # 13
-        "東通り",                 # 14
-        "旧市街",                 # 15
-        "港湾区",                 # 16
-        "ＩＢＣ",                 # 17
-        "駅前通り",               # 18
-        "裏通り",                 # 19
-        "ウルスラ間道",           # 20
-        "東クロスベル街道",       # 21
-        "西クロスベル街道",       # 22
-        "マインツ山道",           # 23
-        "オルキスタワー",         # 24
+        "Raise old man",             # 1
+        "Pentos",               # 2
+        "Policeman",                   # 3
+        "Policeman",                   # 4
+        "car",                     # 5
+        "car",                     # 6
+        "car",                     # 7
+        "Policeman",                   # 8
+        "Central square",               # 9
+        "Nishi dori",                 # 10
+        "Administrative district",                 # 11
+        "Residential area",                 # 12
+        "Entertainment district",                 # 13
+        "East Street",                 # 14
+        "old Town",                 # 15
+        "Harbor district",                 # 16
+        "IBC",                 # 17
+        "Beside the station",               # 18
+        "Back street",                 # 19
+        "Ursula interchange",           # 20
+        "East Crossbell Highway",       # 21
+        "West Crossbell Highway",       # 22
+        "Mainz Mountain Road",           # 23
+        "Orchis Tower",         # 24
     ))
 
     AddCharChip((
@@ -68,22 +68,22 @@ def main():
     DeclActor(0,       0,       4294966526, 2000,    0,       1500,    4294966526, 0x007C, 0,  14, 0x0000)
     DeclActor(4294951086, 300,     18010,   1500,    4294951086, 1800,    18010,   0x007C, 0,  16, 0x0000)
 
-    PlaceName(167.6699981689453, 0.0, -124.73999786376953, 0x0000, 0x0000, "中央広場")
-    PlaceName(61.15999984741211, 0.0, -117.44999694824219, 0x0000, 0x0000, "西通り")
-    PlaceName(211.41000366210938, 0.0, 19.440000534057617, 0x0000, 0x0000, "行政区")
-    PlaceName(-37.66999816894531, 0.0, 3.240000009536743, 0x0000, 0x0000, "住宅街")
-    PlaceName(80.5999984741211, 0.0, -9.720000267028809, 0x0000, 0x0000, "歓楽街")
-    PlaceName(299.29998779296875, 0.0, -162.0, 0x0000, 0x0000, "東通り")
-    PlaceName(356.80999755859375, 0.0, -251.10000610351562, 0x0000, 0x0000, "旧市街")
-    PlaceName(344.6600036621094, 0.0, -55.08000183105469, 0x0000, 0x0000, "港湾区")
-    PlaceName(302.5400085449219, 0.0, 97.19999694824219, 0x0000, 0x0000, "ＩＢＣ")
-    PlaceName(185.89999389648438, 0.0, -236.52000427246094, 0x0000, 0x0000, "駅前通り")
-    PlaceName(109.76000213623047, 0.0, -68.04000091552734, 0x0000, 0x0000, "裏通り")
-    PlaceName(181.0399932861328, 0.0, -286.739990234375, 0x0000, 0x0000, "ウルスラ間道")
-    PlaceName(386.7799987792969, 0.0, -139.32000732421875, 0x0000, 0x0000, "東クロスベル街道")
-    PlaceName(-21.469999313354492, 0.0, -119.87999725341797, 0x0000, 0x0000, "西クロスベル街道")
-    PlaceName(-11.75, 0.0, 42.119998931884766, 0x0000, 0x0000, "マインツ山道")
-    PlaceName(200.0, 0.0, 231.5, 0x0000, 0x0000, "オルキスタワー")
+    PlaceName(167.6699981689453, 0.0, -124.73999786376953, 0x0000, 0x0000, "Central square")
+    PlaceName(61.15999984741211, 0.0, -117.44999694824219, 0x0000, 0x0000, "Nishi dori")
+    PlaceName(211.41000366210938, 0.0, 19.440000534057617, 0x0000, 0x0000, "Administrative district")
+    PlaceName(-37.66999816894531, 0.0, 3.240000009536743, 0x0000, 0x0000, "Residential area")
+    PlaceName(80.5999984741211, 0.0, -9.720000267028809, 0x0000, 0x0000, "Entertainment district")
+    PlaceName(299.29998779296875, 0.0, -162.0, 0x0000, 0x0000, "East Street")
+    PlaceName(356.80999755859375, 0.0, -251.10000610351562, 0x0000, 0x0000, "old Town")
+    PlaceName(344.6600036621094, 0.0, -55.08000183105469, 0x0000, 0x0000, "Harbor district")
+    PlaceName(302.5400085449219, 0.0, 97.19999694824219, 0x0000, 0x0000, "IBC")
+    PlaceName(185.89999389648438, 0.0, -236.52000427246094, 0x0000, 0x0000, "Beside the station")
+    PlaceName(109.76000213623047, 0.0, -68.04000091552734, 0x0000, 0x0000, "Back street")
+    PlaceName(181.0399932861328, 0.0, -286.739990234375, 0x0000, 0x0000, "Ursula interchange")
+    PlaceName(386.7799987792969, 0.0, -139.32000732421875, 0x0000, 0x0000, "East Crossbell Highway")
+    PlaceName(-21.469999313354492, 0.0, -119.87999725341797, 0x0000, 0x0000, "West Crossbell Highway")
+    PlaceName(-11.75, 0.0, 42.119998931884766, 0x0000, 0x0000, "Mainz Mountain Road")
+    PlaceName(200.0, 0.0, 231.5, 0x0000, 0x0000, "Orchis Tower")
     PlaceName(132.02999877929688, 0.0, -147.4199981689453, 0x0000, 0x0051, "")
     PlaceName(219.11000061035156, 0.0, -105.30000305175781, 0x0000, 0x0054, "")
     PlaceName(171.72000122070312, 0.0, -160.3800048828125, 0x0000, 0x0057, "")
@@ -281,7 +281,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '弹性大衣'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -301,14 +301,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '弹性大衣'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '弹性大衣'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -333,7 +333,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -359,8 +359,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おお、だいぶ暗くなって\x01",
-            "しもうたな。\x02",
+            "Oh, it's getting darker\x01",
+            "Do not do.\x02",
         )
     )
 
@@ -369,8 +369,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "わしもそろそろ\x01",
-            "家路につくとするかのう。\x02",
+            "We are almost there.\x01",
+            "I am going to get home.\x02",
         )
     )
 
@@ -390,9 +390,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あの屋敷から\x01",
-            "女の子の声のようなものが\x01",
-            "聞こえた気がするのだ。\x02",
+            "From that mansion\x01",
+            "Something like a girl's voice\x01",
+            "I feel like I heard it.\x02",
         )
     )
 
@@ -401,8 +401,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "はて、この屋敷には\x01",
-            "誰も住んでいないはずだが……\x02",
+            "Well, in this mansion\x01",
+            "No one should live … …\x02",
         )
     )
 
@@ -410,7 +410,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "ふむ、まあ空耳だろうな。\x02",
+        "Hmm, it is probably the sky.\x02",
     )
 
     CloseMessageWindow()
@@ -423,9 +423,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "そういえば１０年ほど前に、\x01",
-            "この屋敷にオバケが出るとか\x01",
-            "言われていたことがあったか。\x02",
+            "By the way, about ten years ago,\x01",
+            "You are going to get a gruff at this mansion\x01",
+            "Was there something that was said?\x02",
         )
     )
 
@@ -434,8 +434,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "まあ、愚にも付かない\x01",
-            "ただの噂話だがな。\x02",
+            "Well, I can not accept folly\x01",
+            "It is just a rumor.\x02",
         )
     )
 
@@ -459,8 +459,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "悪いね、会議中は警備のため\x01",
-            "夜の通行を制限しているんだ。\x02",
+            "It's bad, for security during the meeting\x01",
+            "I restrict the passage of the night.\x02",
         )
     )
 
@@ -469,8 +469,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "通りたい場合は身分証明書を\x01",
-            "提示してもらえるかな？\x02",
+            "If you want to pass the identity card\x01",
+            "Can you show me up?\x02",
         )
     )
 
@@ -479,8 +479,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00008F（こちらの身分を明かせば\x01",
-            "  通してくれそうですが……）\x02",
+            "#00008F(If you reveal your identity here\x01",
+            "It seems to let me through … …)\x02",
         )
     )
 
@@ -489,8 +489,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00603F（必要あるまい。\x01",
-            "  早くジオフロントに向かうぞ。）\x02",
+            "#00603F(Required.\x01",
+            "I will head to the geo front early. )\x02",
         )
     )
 
@@ -504,8 +504,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "悪いね、会議中は警備のため\x01",
-            "夜の通行を制限しているんだ。\x02",
+            "It's bad, for security during the meeting\x01",
+            "I restrict the passage of the night.\x02",
         )
     )
 
@@ -514,8 +514,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "通りたい場合は身分証明書を\x01",
-            "提示してもらえるかな？\x02",
+            "If you want to pass the identity card\x01",
+            "Can you show me up?\x02",
         )
     )
 
@@ -542,7 +542,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "皆さん、お疲れ様です。\x02",
+        "Everyone, thanks for your hard work.\x02",
     )
 
     CloseMessageWindow()
@@ -550,8 +550,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今のところ、\x01",
-            "こちらは異常ありません。\x02",
+            "At this point,\x01",
+            "This is normal.\x02",
         )
     )
 
@@ -574,7 +574,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "皆さん、お疲れ様です。\x02",
+        "Everyone, thanks for your hard work.\x02",
     )
 
     CloseMessageWindow()
@@ -583,9 +583,9 @@ def main():
     ChrTalk(
         0xB,
         (
-            "首脳たちの観劇は\x01",
-            "そろそろ終わる予定ですが、\x01",
-            "何かありましたでしょうか？\x02",
+            "The play of the leaders\x01",
+            "It is going to end soon,\x01",
+            "Did something happen?\x02",
         )
     )
 
@@ -594,8 +594,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00603Fいや、特に問題はない。\x01",
-            "封鎖の方、引き続きよろしく頼む。\x02",
+            "#00603FNo, there is no particular problem.\x01",
+            "Thank you for continuing to the blockader.\x02",
         )
     )
 
@@ -603,14 +603,14 @@ def main():
 
     ChrTalk(
         0xA,
-        "了解です！\x02",
+        "I understand.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xB,
-        "了解です！\x02",
+        "I understand.\x02",
     )
 
     CloseMessageWindow()
@@ -638,8 +638,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "首脳たちの観劇は\x01",
-            "そろそろ終了の予定です。\x02",
+            "The play of the leaders\x01",
+            "It is scheduled to close soon.\x02",
         )
     )
 
@@ -648,9 +648,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "それまでの間、ここは\x01",
-            "完全封鎖となりますので\x01",
-            "ご了承ください。\x02",
+            "In the meantime, here\x01",
+            "Because it becomes complete blockade\x01",
+            "Please note.\x02",
         )
     )
 
@@ -677,7 +677,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉には鍵がかかっている。\x07\x00\x02",
+            "There is a lock on the door.\x07\x00\x02",
         )
     )
 
@@ -714,7 +714,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉には鍵がかかっている。\x07\x00\x02",
+            "There is a lock on the door.\x07\x00\x02",
         )
     )
 
@@ -725,8 +725,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00305Fそういや、ここの扉の\x01",
-            "鍵はまだ持っているのか？\x02",
+            "#6P#00305FOh yeah, here's the door\x01",
+            "Do you still have the key?\x02",
         )
     )
 
@@ -735,8 +735,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#5P#00004Fああ、さっき保管していた\x01",
-            "ロッカーから取ってきた。\x02",
+            "#5P#00004FOh, I kept it a little while ago.\x01",
+            "I came from the locker.\x02",
         )
     )
 
@@ -755,7 +755,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドは懐からジオフロントの鍵を取り出した。\x07\x00\x02",
+            "Lloyd took out the key of the geo front from the bosom.\x07\x00\x02",
         )
     )
 
@@ -772,9 +772,9 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00603Fたしか例の小僧の部屋は\x01",
-            "ダクトを通った先だったな。\x02\x03",
-            "#00600F急ぐぞ。\x02",
+            "#00603FThe room of the example of a small priest is certainly\x01",
+            "It was the way through the duct.\x02\x03",
+            "#00600FI will hurry.\x02",
         )
     )
 
@@ -783,7 +783,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00000F了解です。\x02",
+        "#11P#00000FIt is okay.\x02",
     )
 
     CloseMessageWindow()
@@ -933,8 +933,8 @@ def main():
     ChrTalk(
         0xB,
         (
-            "首脳たちの観劇は\x01",
-            "そろそろ終了の予定です。\x02",
+            "The play of the leaders\x01",
+            "It is scheduled to close soon.\x02",
         )
     )
 
@@ -943,9 +943,9 @@ def main():
     ChrTalk(
         0xB,
         (
-            "それまでの間、ここは\x01",
-            "完全封鎖となりますので\x01",
-            "ご了承ください。\x02",
+            "In the meantime, here\x01",
+            "Because it becomes complete blockade\x01",
+            "Please note.\x02",
         )
     )
 
@@ -977,7 +977,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉には鍵がかかっている。\x07\x00\x02",
+            "There is a lock on the door.\x07\x00\x02",
         )
     )
 
@@ -1002,7 +1002,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉には鍵がかかっている。\x07\x00\x02",
+            "There is a lock on the door.\x07\x00\x02",
         )
     )
 
@@ -1028,7 +1028,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ゲートは固く閉ざされている。\x07\x00\x02",
+            "The gate is tightly closed.\x07\x00\x02",
         )
     )
 

@@ -263,14 +263,14 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#56I地のセピス×２００\x01\x07\x02",
-            "#57I水のセピス×２００\x01\x07\x02",
-            "#58I火のセピス×２００\x01\x07\x02",
-            "#59I風のセピス×２００\x01\x07\x02",
-            "#60I時のセピス×２００\x01\x07\x02",
-            "#61I空のセピス×２００\x01\x07\x02",
-            "#62I幻のセピス×２００\x01\x07\x00",
-            "を手に入れた。\x02",
+            "#56ISepis of the earth × 200\x01\x07\x02",
+            "#57IWater sepis × 200\x01\x07\x02",
+            "#58IFire Sepis × 200\x01\x07\x02",
+            "#59IWind sepice × 200\x01\x07\x02",
+            "#60ITime sepis × 200\x01\x07\x02",
+            "#61IEmpty Sepis × 200\x01\x07\x02",
+            "#62IPhantom Sepis × 200\x01\x07\x00",
+            "I got it.\x02",
         )
     )
 
@@ -289,7 +289,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 

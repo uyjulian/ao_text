@@ -19,11 +19,11 @@ def main():
 
     BuildStringList((
         "e4200",                  # 0
-        "神狼ツァイト",           # 1
-        "神狼ツァイト",           # 2
-        "ロイド",                 # 3
-        "ロイド",                 # 4
-        "SE制御",                 # 5
+        "God wolf Zeit",           # 1
+        "God wolf Zeit",           # 2
+        "Lloyd",                 # 3
+        "Lloyd",                 # 4
+        "SE control",                 # 5
     ))
 
     DeclNpc(0,       0,       0,       0,    228,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -140,7 +140,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#00011F#5P女神が遣#2Rつか#わした聖獣……？\x02",
+        "#00011F#5PThe goddess sends#2RMound#My holy beast ……?\x02",
     )
 
     CloseMessageWindow()
@@ -149,8 +149,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pうむ、そのような存在#4Rも の#と\x01",
-            "考えてもらうのが早いだろう。\x02",
+            "#11PWell, such an existence#4Rthing#When\x01",
+            "It will be quick to think.\x02",
         )
     )
 
@@ -160,8 +160,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pかつて女神から人に贈られた、\x01",
-            "大いなる《七の至宝#8Rセプト＝テリオン#》……\x02",
+            "#11POnce a gift from the goddess,\x01",
+            "Great Treasures of the Seven#8RSept-Terion#\"… ….\x02",
         )
     )
 
@@ -171,8 +171,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pそれらの行く末を見守るために\x01",
-            "在り続けているのが我らだ。\x02",
+            "#11PTo watch over those goings\x01",
+            "It is us that keep on staying.\x02",
         )
     )
 
@@ -181,9 +181,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00003F#5P“我ら”ってことは……\x02\x03",
-            "#00001Fひょっとしてリベールの異変で\x01",
-            "現れたっていう“竜”も……？\x02",
+            "#00003F#5PWhat is \"we\" …\x02\x03",
+            "#00001FPossibly due to Libert incident\x01",
+            "Also \"dragon\" that appeared … ….?\x02",
         )
     )
 
@@ -193,7 +193,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pフム、さすがに聡#2Rさと#いな。\x02",
+            "#11PHum, truly Satoshi#2RSato#Ina.\x02",
         )
     )
 
@@ -203,8 +203,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pかの竜レグナートも\x01",
-            "確かに私の同胞#4Rはらから#だ。\x02",
+            "#11PEven the Dragon Regnart\x01",
+            "Surely my brothers#4RHiragana#It is.\x02",
         )
     )
 
@@ -214,8 +214,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P《空の至宝》を見守るため\x01",
-            "リベールの地に残っていたが……\x02",
+            "#11PTo watch \"the treasure of the sky\"\x01",
+            "I remained in the land of Libert … …\x02",
         )
     )
 
@@ -225,8 +225,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P“使命”から解かれた今は\x01",
-            "どこに消えたか私にも判らぬ。\x02",
+            "#11PNow solved from \"mission\"\x01",
+            "I do not know where it disappeared.\x02",
         )
     )
 
@@ -235,9 +235,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5Pな、何がなんだか……\x02\x03",
-            "#00008Fでもそれじゃあ、ツァイトも\x01",
-            "大昔からクロスベルの地に……？\x02",
+            "#00006F#5PWhat, what is it …?\x02\x03",
+            "#00008FBut then also Zeit\x01",
+            "From long ago to the crossbell land …?\x02",
         )
     )
 
@@ -247,8 +247,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pうむ、１２００年前の\x01",
-            "《大崩壊》の前からになるな。\x02",
+            "#11PWell, 1200 years ago\x01",
+            "Before the Great Collapse.\x02",
         )
     )
 
@@ -258,8 +258,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pかつて《幻の至宝》が\x01",
-            "どうして消えてしまったか……\x02",
+            "#11POnce \"the treasure of the phantom\"\x01",
+            "Why has it disappeared ……\x02",
         )
     )
 
@@ -269,8 +269,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pその後、至宝を再現するため\x01",
-            "どのような事が行われたか……\x02",
+            "#11PAfter that, to reproduce the treasure\x01",
+            "What kind of things were done ……\x02",
         )
     )
 
@@ -280,7 +280,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pある程度のことは識#2Rし#っている。\x02",
+            "#11PSomewhat awareness#2RTo#ing.\x02",
         )
     )
 
@@ -303,13 +303,13 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P……正直、調べようにも\x01",
-            "調べきれない部分だったんだ。\x02\x03",
-            "#00008F女神の至宝……\x01",
-            "それを受け継いだクロイス家……\x02\x03",
-            "どうして至宝は失われ、\x01",
-            "キーアがあんな役割を\x01",
-            "背負わされる事になったのか……\x02",
+            "#00006F#5P…… To be honest, to investigate\x01",
+            "It was a part I could not find out.\x02\x03",
+            "#00008FThe treasure of the goddess ……\x01",
+            "Clois family who inherited it … …\x02\x03",
+            "Why is the treasure lost,\x01",
+            "Ka'a has such a role\x01",
+            "Was it supposed to be carried on the back …?\x02",
         )
     )
 
@@ -320,11 +320,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00001F#5P──頼む。\x01",
-            "どうか教えて欲しい。\x02\x03",
-            "１２００年前の出来事を。\x02\x03",
-            "そして５００年前、\x01",
-            "キーアに何が起こったのかを。\x02",
+            "#00001F#5P── I beg you.\x01",
+            "Please let me know.\x02\x03",
+            "The events of 1200 years ago.\x02\x03",
+            "And 500 years ago,\x01",
+            "I wonder what happened to Ka'aa.\x02",
         )
     )
 
@@ -339,7 +339,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P──よかろう。\x02",
+            "#11P── It will be good.\x02",
         )
     )
 
@@ -349,8 +349,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pまあ、そのために私は\x01",
-            "おぬしの前に現れたのでな。\x02",
+            "#11PWell, for that I am\x01",
+            "It appeared before the nakedness.\x02",
         )
     )
 
@@ -368,7 +368,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pこの地に伝わった女神の至宝……\x02",
+            "#11PThe treasure of the goddess transmitted to this place ……\x02",
         )
     )
 
@@ -378,8 +378,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pそれは“幻”を司る\x01",
-            "《虚なる神#8Rデ ミ ウ ル ゴ ス#》と呼ばれた。\x02",
+            "#11PIt governs \"vision\"\x01",
+            "\"The False God#8RDemi-gols#\"It was called.\x02",
         )
     )
 
@@ -396,13 +396,13 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P“幻”は知覚と認識を司り、\x01",
-            "更には《因果》をも御する属性だ。\x02\x03",
-            "その力を秘めた至宝に、\x01",
-            "当時のクロイス家を中心とした\x01",
-            "人間の一派が望んだこと……\x02\x03",
-            "それは女神#4Rエイドス#の代わり……\x01",
-            "地上の《神》としての役割だった。\x07\x00\x02",
+            "#11P\"Phantom\" governs perception and recognition,\x01",
+            "Furthermore, it is an attribute that also controls \"causation\".\x02\x03",
+            "To the treasure harboring its power,\x01",
+            "He focused on the Clois family at the time\x01",
+            "What the human faction wanted … …\x02\x03",
+            "It is a goddess#4REidos#Instead of …\x01",
+            "It was a role as a \"god\" on the earth.\x07\x00\x02",
         )
     )
 
@@ -419,20 +419,20 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P人を識#2Rし#り、地上の全てを識#2Rし#り、\x01",
-            "因果を御することで人間を導く……\x02\x03",
-            "それは一見、人の欲望を無制限に\x01",
-            "叶えてしまった《空の至宝#8Rオ ー リ オ ー ル#》にも\x01",
-            "通じるところがあっただろう。\x02\x03",
-            "だが、《幻の至宝#8Rデ ミ ウ ル ゴ ス#》は……\x01",
-            "高位の人格を与えられることで\x01",
-            "同じ過ちを起こさずに済んだ。\x02\x03",
-            "あくまで人を堕落させず、\x01",
-            "正しく導ける叡智と判断力……\x02\x03",
-            "それをもって、人という存在を\x01",
-            "正しく導けるはずだったのだ。\x02\x03",
-            "──至宝そのものの“心”が\x01",
-            "限界に達しさえしなければ。\x07\x00\x02",
+            "#11PIdentifying people#2RTo#Identify everything on the ground#2RTo#Ri\x01",
+            "Leading humans by controlling causality ……\x02\x03",
+            "It seemingly unlimited human desire\x01",
+            "The treasure of \"Empty treasure#8RAuroru#\"Also\x01",
+            "There would have been anything in common.\x02\x03",
+            "However, \"the treasure of the vision#8RDemi-gols#\"…\x01",
+            "By being given a high personality\x01",
+            "I did not make the same mistake.\x02\x03",
+            "It does not degenerate to the last,\x01",
+            "Wisdom and judgment that can lead correctly …\x02\x03",
+            "With that, the existence of a person\x01",
+            "It was supposed to be guided correctly.\x02\x03",
+            "─ ─ \"heart\" of the treasure itself\x01",
+            "I have only to reach the limit.\x07\x00\x02",
         )
     )
 
@@ -450,18 +450,18 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pあらゆる人の性#2Rさが#と業#2Rごう#、\x01",
-            "あらゆる世界の不条理──\x02\x03",
-            "それを理解し導けるということは\x01",
-            "人と同じ“情”を持つという事だ。\x02\x03",
-            "そして《幻の至宝#8Rデ ミ ウ ル ゴ ス#》の“心”は\x01",
-            "次第に壊れ、病んでいった。\x02\x03",
-            "このままだといずれ暴走し、\x01",
-            "守るべき人々を傷つけてしまう……\x02\x03",
-            "そう悟った至宝は──\x01",
-            "“悩んだ”末に一つの決断をした。\x02\x03",
-            "自分#4R噵　噵#という存在の因果を解き、\x01",
-            "この世から消滅させる#20R噵　噵　噵　噵　噵　噵　噵　噵　噵　噵#という道を。\x07\x00\x02",
+            "#11PEveryone's sex#2RSaka#With#2RLike this#,\x01",
+            "Absurdity of every world -\x02\x03",
+            "To understand and guide it\x01",
+            "It means having the same \"emotions\" as people do.\x02\x03",
+            "And \"the treasure of the vision#8RDemi-gols#\"Heart\" is\x01",
+            "It gradually broke and went sick.\x02\x03",
+            "If it remains as it is,\x01",
+            "It hurts people to protect … …\x02\x03",
+            "The treasure you realized so - ─\x01",
+            "I made one decision at the end of my troubles.\x02\x03",
+            "myself#4R噵 噵#Solving the causal cause of existence,\x01",
+            "To extinguish from this world#20R噵 噵 噵 噵 噵 噵 噵 噵 噵 噵#The way that.\x07\x00\x02",
         )
     )
 
@@ -491,9 +491,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P……そんな事が……\x02\x03",
-            "#00013Fでも、それじゃあ\x01",
-            "後に残された人々は……\x02",
+            "#00006F#5P…… Such a thing ……\x02\x03",
+            "#00013FBut then, then\x01",
+            "People left after … …\x02",
         )
     )
 
@@ -503,8 +503,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pうむ──至宝の消滅に\x01",
-            "ひたすら惑い、嘆き、恐れた。\x02",
+            "#11PWell - to the extinction of treasure\x01",
+            "I was awfully awful, sorrowful, afraid.\x02",
         )
     )
 
@@ -514,9 +514,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pそして、何故そうなったのか、\x01",
-            "至宝が何を思ってそうしたのかを\x01",
-            "省みることなく……\x02",
+            "#11PAnd why was it so,\x01",
+            "I wonder what the treasure thought and thought\x01",
+            "Without worrying ……\x02",
         )
     )
 
@@ -526,8 +526,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P失われた至宝と同等の存在#4Rも の#を\x01",
-            "生み出すことに取り憑かれたのだ。\x02",
+            "#11PEquivalent to the lost treasure#4Rthing#To\x01",
+            "It was possessed by creating.\x02",
         )
     )
 
@@ -543,13 +543,13 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P──もちろん最初は\x01",
-            "ただの手探りだっただろう。\x02\x03",
-            "しかし７００年に渡り、\x01",
-            "彼らは様々な知識を集めながら\x01",
-            "独自の技術を編み出していった。\x02\x03",
-            "すなわち無から有を生み出すという\x01",
-            "《錬金術》という魔導技術を。\x07\x00\x02",
+            "#11POf course at first\x01",
+            "It was just a fumble.\x02\x03",
+            "However over 700 years,\x01",
+            "While collecting various knowledge\x01",
+            "I invented my own technology.\x02\x03",
+            "In other words, it is said to create yes\x01",
+            "Magic skill called \"alchemy\".\x07\x00\x02",
         )
     )
 
@@ -564,17 +564,17 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pそして彼らは、この地で\x01",
-            "途方もなく遠大な計画を立てた。\x02\x03",
-            "《教団》という傀儡を用意し、\x01",
-            "新たな至宝の“核”となる存在を\x01",
-            "委ねて育てさせること……\x02\x03",
-            "そして『錬成』という概念を\x01",
-            "極限まで応用した巨大な“式”を\x01",
-            "この地に用意すること……\x02\x03",
-            "それが数百年前──\x01",
-            "クロイス家の錬金術師たちが\x01",
-            "始めた計画だったのだ。\x07\x00\x02",
+            "#11PAnd they said, in this place\x01",
+            "I made a tremendous and far-reaching plan.\x02\x03",
+            "We prepared a puppet called \"cult\"\x01",
+            "The presence of becoming a \"nucleus\" of new treasure\x01",
+            "To entrust and bring up … …\x02\x03",
+            "And the concept of \"training\"\x01",
+            "Huge \"formula\" applied to the limit\x01",
+            "To prepare in this area …\x02\x03",
+            "It was several hundred years ago ──\x01",
+            "The Alchemist of the Cloyce family\x01",
+            "It was a plan I started.\x07\x00\x02",
         )
     )
 
@@ -592,14 +592,14 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pそれを資金的に可能にするため、\x01",
-            "彼らは『銀行家』という表の仮面を\x01",
-            "被り始めることとなり……\x02\x03",
-            "一方、《教団》の方は\x01",
-            "信仰対象として与えられた“核”を\x01",
-            "目覚めさせるべく蠢き始めた。\x02\x03",
-            "そして５００年の時が過ぎ──\x01",
-            "今の状況へと至ったという訳だ。\x07\x00\x02",
+            "#11PTo make it possible financially,\x01",
+            "They mask the mask of the table \"banker\"\x01",
+            "It will start to suffer … …\x02\x03",
+            "Meanwhile, if you are a \"cult\"\x01",
+            "The \"nuclear\" given as a subject of faith\x01",
+            "I started to wiggle to awaken.\x02\x03",
+            "And the time of 500 years passed …\x01",
+            "It is a translation that it reached the current situation.\x07\x00\x02",
         )
     )
 
@@ -623,9 +623,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P……途方もない話だな。\x02\x03",
-            "#00008Fでもやっと……事件の全貌が\x01",
-            "見え始めてきた気がする。\x02",
+            "#00006F#5P…… It's a tremendous story.\x02\x03",
+            "#00008FBut finally … the whole picture of the incident\x01",
+            "I feel like I'm starting to see it.\x02",
         )
     )
 
@@ -637,12 +637,12 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00003F#5P──ツァイト。\x01",
-            "マリアベルさんはキーアを\x01",
-            "《零#2Rゼロ#の至宝》と言っていた。\x02\x03",
-            "#00013Fそれはどういう意味だ？\x02\x03",
-            "失われた《幻の至宝》とは\x01",
-            "また違うものなのか？\x02",
+            "#00003F#5P─ ─ Zeit.\x01",
+            "Mr. Maria Bell went to Kea\x01",
+            "\"zero#2Rzero#It was said that \"treasure of the.\x02\x03",
+            "#00013FWhat does that mean?\x02\x03",
+            "What is lost \"illusionary treasure\"\x01",
+            "Is it another thing?\x02",
         )
     )
 
@@ -652,8 +652,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P残念ながら……\x01",
-            "私もそれについては判らない。\x02",
+            "#11PUnfortunately……\x01",
+            "I do not even know about that.\x02",
         )
     )
 
@@ -663,9 +663,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P恐らくクロイス家は、\x01",
-            "１２００年に渡る妄執の果てに\x01",
-            "“何か”を掴んだのだろう。\x02",
+            "#11PPerhaps the Clois family,\x01",
+            "At the end of 1200 years of imbalances\x01",
+            "I guessed \"something\".\x02",
         )
     )
 
@@ -675,9 +675,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pそれによって\x01",
-            "《幻の至宝#8Rデ ミ ウ ル ゴ ス#》と同等の存在を\x01",
-            "再現するだけではなく……\x02",
+            "#11PThereby\x01",
+            "\"The treasure of the vision#8RDemi-gols#\"And the equivalent existence\x01",
+            "Not only to reproduce … ….\x02",
         )
     )
 
@@ -687,8 +687,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pそれを超える力を持った\x01",
-            "《零の至宝》を完成させたようだ。\x02",
+            "#11PHas the power beyond that\x01",
+            "It seems that he completed \"Zero's treasure\".\x02",
         )
     )
 
@@ -704,9 +704,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P──あの白き人形#4Rヒトガタ#の力。\x02\x03",
-            "あれは人形そのもの力ではなく、\x01",
-            "《至宝》の力と見るべきだろう。\x02",
+            "#11PThat white doll#4RHuman gutta#Power of.\x02\x03",
+            "That is not the power of the doll itself,\x01",
+            "It should be seen as the power of \"treasure\".\x02",
         )
     )
 
@@ -724,9 +724,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11Pそして、《幻の至宝》には\x01",
-            "あれだけの事を瞬時にやれるほどの\x01",
-            "力までは備わっていなかった。\x02",
+            "#11PAnd, \"The treasure of the vision\"\x01",
+            "I can do that for a moment\x01",
+            "I did not have the power.\x02",
         )
     )
 
@@ -744,12 +744,12 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P空間を消滅させる力は\x01",
-            "どちらかというと“空”の属性に\x01",
-            "由来するものだからな。\x02\x03",
-            "あれが全てでないとすると……\x01",
-            "どれだけの潜在能力を持つのか\x01",
-            "私にも想像が付かないくらいだ。\x07\x00\x02",
+            "#11PThe power to eliminate space is\x01",
+            "Somewhat like \"sky\" attribute\x01",
+            "It is derived.\x02\x03",
+            "If that is not everything ……\x01",
+            "How much potential do you have?\x01",
+            "I can not imagine it.\x07\x00\x02",
         )
     )
 
@@ -767,8 +767,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00008F#5P……そうか……\x02\x03",
-            "#00003F…………………………………\x02",
+            "#00008F#5P……Really……\x02\x03",
+            "#00003F…………………………………….\x02",
         )
     )
 
@@ -781,11 +781,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P──もう一つ教えてくれ。\x02\x03",
-            "#00008F今までの話を聞いた限り、\x01",
-            "あの子は……\x02\x03",
-            "#00001F……キーアは……\x01",
-            "普通の人間じゃないんだな？\x02",
+            "#00006F#5PTell me one more thing.\x02\x03",
+            "#00008FAs long as I heard the story so far,\x01",
+            "That girl … …\x02\x03",
+            "#00001F…… Kaoru ……\x01",
+            "You are not a normal human being, are you?\x02",
         )
     )
 
@@ -795,7 +795,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P…………うむ。\x02",
+            "#11P………… Yes.\x02",
         )
     )
 
@@ -805,7 +805,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P人にして人あらざるもの。\x02",
+            "#11PThose who do not have to do with people.\x02",
         )
     )
 
@@ -815,8 +815,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P《至宝》を再現するための\x01",
-            "“核”として創られた存在──\x02",
+            "#11PTo reproduce \"treasure\"\x01",
+            "The existence created as \"nuclear\" -\x02",
         )
     )
 
@@ -826,8 +826,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P恐らく錬金術の奥義をもって\x01",
-            "錬成された《人造生命#8Rホ ム ン ク ル ス#》だろう。\x02",
+            "#11PPerhaps with the mystery of alchemy\x01",
+            "Rebuilt \"artificial life#8RHomemurkus#\"right.\x02",
         )
     )
 
@@ -875,11 +875,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P#30W（多分……しばらく前から\x01",
-            "  知っていたんだな……）\x02\x03",
-            "（なのに俺たちの前では\x01",
-            "  あんな風に笑って……）\x02\x03",
-            "#00008F（…………キーア……………）\x02",
+            "#00006F#5P#30W(Maybe … … from a while ago\x01",
+            "You knew … …)\x02\x03",
+            "(Nevertheless in front of us\x01",
+            "Laugh like that … …)\x02\x03",
+            "#00008F(………… Keya ……………)\x02",
         )
     )
 

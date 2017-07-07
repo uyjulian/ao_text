@@ -19,9 +19,9 @@ def main():
 
     BuildStringList((
         "c1583",                  # 0
-        "ロバーツ主任の声",       # 1
-        "エニグマ",               # 2
-        "SE制御",                 # 3
+        "Voice of Roberts Director",       # 1
+        "Enigma",               # 2
+        "SE control",                 # 3
     ))
 
     DeclNpc(0,       0,       0,       0,    502,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -225,7 +225,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "オーブメントを回復できる装置がある。\x07\x00\x02",
+            "There are devices that can recover the orbment.\x07\x00\x02",
         )
     )
 
@@ -236,8 +236,8 @@ def main():
         -1,
         1,
         (
-            "ここで休憩する\x01",      # 0
-            "やめる\x01",              # 1
+            "To take a break here\x01",      # 0
+            "quit\x01",              # 1
         )
     )
 
@@ -420,7 +420,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005Fここは……もしかして。\x02",
+        "#00005FHere … … maybe.\x02",
     )
 
     CloseMessageWindow()
@@ -428,10 +428,10 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00204Fはい、主任が言っていた\x01",
-            "制御ターミナルだと思います。\x02\x03",
-            "#00202F早速、導力ネットの物理遮断を\x01",
-            "解除してしまいましょう。\x02",
+            "#00204FYes, the boss said\x01",
+            "I think that it is a control terminal.\x02\x03",
+            "#00202FImmediately, physical blocking of the power net\x01",
+            "Let's cancel it.\x02",
         )
     )
 
@@ -439,7 +439,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306Fふう、いよいよ山場だな。\x02",
+        "#00306FIt is finally a mountain.\x02",
     )
 
     CloseMessageWindow()
@@ -447,9 +447,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00101Fええ、キーアちゃんや\x01",
-            "大統領サイドの居場所も\x01",
-            "掴めるといいけど……\x02",
+            "#00101FYeah, Ka'a-chan and\x01",
+            "The president side's whereabouts are also\x01",
+            "I hope I can grasp it … ….\x02",
         )
     )
 
@@ -557,8 +557,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2S──上層エリアへの\x01",
-            "導力ネットの再接続を確認。\x02",
+            "#11P#2S─ ─ to the upper layer area\x01",
+            "Confirm reconnection of the power net.\x02",
         )
     )
 
@@ -568,8 +568,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2Sよし、これで何とか\x01",
-            "バックアップできそうだねぇ。\x07\x00\x02",
+            "#11P#2SOK, somehow with this\x01",
+            "I guess I can back it up.\x07\x00\x02",
         )
     )
 
@@ -577,7 +577,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#5Pふう……\x02",
+        "#00006F#5PFuu …\x02",
     )
 
     CloseMessageWindow()
@@ -587,8 +587,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00201F#5P直通エレベーターの\x01",
-            "セキュリティ解除は可能ですか？\x02",
+            "#00201F#5PDirect elevator\x01",
+            "Is security cancellation possible?\x02",
         )
     )
 
@@ -611,8 +611,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2S少し時間は掛かりそうだけど\x01",
-            "何とかやってみるよ。\x02",
+            "#11P#2SIt will take a little time though\x01",
+            "I'll try it somehow.\x02",
         )
     )
 
@@ -622,9 +622,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2Sちなみに１Ｆ〜２０Ｆまでは\x01",
-            "大統領やキーア君みたいな\x01",
-            "重要人物は居ないみたいだね。\x02",
+            "#11P#2SBy the way, from 1F to 20F\x01",
+            "President or Ka'a like you\x01",
+            "There seems to be no important person.\x02",
         )
     )
 
@@ -634,8 +634,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2Sタワーの職員や国防軍兵士くらいで\x01",
-            "かなり混乱しているようだ。\x07\x00\x02",
+            "#11P#2SAbout the staff of the tower and soldiers of the defense army\x01",
+            "It seems quite confusing.\x07\x00\x02",
         )
     )
 
@@ -643,7 +643,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#6P#00108Fそうですか……\x02",
+        "#6P#00108FIs that so……\x02",
     )
 
     CloseMessageWindow()
@@ -651,8 +651,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00301Fま、そいつらは放っておいて\x01",
-            "問題は３１Ｆから上か。\x02",
+            "#00301FWell, let them be left alone\x01",
+            "Is the problem from 31F above?\x02",
         )
     )
 
@@ -661,8 +661,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F#5Pどのフロアに誰がいるかとか\x01",
-            "分かりそうにありませんか？\x02",
+            "#00001F#5PWho is on which floor?\x01",
+            "Do not you understand?\x02",
         )
     )
 
@@ -672,8 +672,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2Sちょっと待ってくれたまえ。\x01",
-            "（カタカタ……）\x02",
+            "#11P#2SWait a moment.\x01",
+            "(Catapult … …)\x02",
         )
     )
 
@@ -683,8 +683,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2Sおっと、かなりの人間が\x01",
-            "３６Ｆにいるみたいだね。\x02",
+            "#11P#2SOops, quite a few people\x01",
+            "You seem to be in 36F.\x02",
         )
     )
 
@@ -694,8 +694,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2S誰なのかという事までは\x01",
-            "ちょっと分からないが……\x07\x00\x02",
+            "#11P#2SUntil what the person is\x01",
+            "I do not know for a moment … …\x07\x00\x02",
         )
     )
 
@@ -705,8 +705,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#6P#00605F３６Ｆといえば、通商会議で使われた\x01",
-            "国賓用の控え室のフロアか……\x02",
+            "#6P#00605FSpeaking of 36F, it was used at the trade meeting\x01",
+            "The floor of the waiting room for the state guest ……\x02",
         )
     )
 
@@ -720,8 +720,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10105F３６Ｆといえば、通商会議で\x01",
-            "各国の首脳たちが使っていた……\x02",
+            "#6P#10105FSpeaking of 36F, at a trade meeting\x01",
+            "The heads of the countries used it … …\x02",
         )
     )
 
@@ -735,8 +735,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10405F３６Ｆといえば、通商会議で\x01",
-            "首脳たちの控え室があった階だね。\x02",
+            "#6P#10405FSpeaking of 36F, at a trade meeting\x01",
+            "It is the floor where there was a waiting room for the leaders.\x02",
         )
     )
 
@@ -749,8 +749,8 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#6P#10708F……そのフロアに\x01",
-            "大統領やキーアちゃんたちも？\x02",
+            "#6P#10708F… … on that floor\x01",
+            "Also President and Ka'a-chan?\x02",
         )
     )
 
@@ -764,8 +764,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10408Fそのフロアに\x01",
-            "大統領やキーアたちも？\x02",
+            "#6P#10408FOn that floor\x01",
+            "President and keyers as well?\x02",
         )
     )
 
@@ -779,8 +779,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10108F……そのフロアに\x01",
-            "大統領やキーアちゃんたちも！？\x02",
+            "#6P#10108F… … on that floor\x01",
+            "The President and Ka'aa also! Is it?\x02",
         )
     )
 
@@ -792,8 +792,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00013F#5Pああ……\x01",
-            "その可能性はありそうだ。\x02",
+            "#00013F#5PAh……\x01",
+            "It seems likely.\x02",
         )
     )
 
@@ -810,9 +810,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F上層エリアのロック状況を確認。\x02\x03",
-            "#00201F３６Ｆなら、ここから非常階段で\x01",
-            "直接行くことが出来そうです。\x02",
+            "#00203FConfirm the lock status of the upper layer area.\x02\x03",
+            "#00201FIf it is 36F, here from the emergency staircase\x01",
+            "It seems that you can go directly.\x02",
         )
     )
 
@@ -828,7 +828,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307Fおし、行ってみようぜ。\x02",
+        "#00307FO, let's go.\x02",
     )
 
     CloseMessageWindow()
@@ -836,9 +836,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00104Fロバーツ主任。\x01",
-            "引き続きバックアップを\x01",
-            "よろしくお願いします。\x02",
+            "#6P#00104FRoberts.\x01",
+            "Continue to backup\x01",
+            "Thank you.\x02",
         )
     )
 
@@ -848,9 +848,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2Sああ、上層エリアを調べながら\x01",
-            "エレベーターのセキュリティを\x01",
-            "解除してみるよ。\x07\x00\x02",
+            "#11P#2SOh, while examining the upper area\x01",
+            "Security of the elevator\x01",
+            "I will release it.\x07\x00\x02",
         )
     )
 
@@ -928,7 +928,7 @@ def main():
         0xFF,
         (
             scpstr(0x18),
-            "#1K#30W同日、１２：００──\x02",
+            "#1K#30WSame day, 12: 00 -\x02",
         )
     )
 
@@ -959,9 +959,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "エレベーターは\x01",
-            "他のフロアで使用中らしく、\x01",
-            "止まる気配がない。\x07\x00\x02",
+            "The elevator\x01",
+            "It seems that it is in use on another floor,\x01",
+            "There is no sign of stopping.\x07\x00\x02",
         )
     )
 

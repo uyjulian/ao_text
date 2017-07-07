@@ -399,7 +399,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "オーブメントを回復できる装置がある。\x07\x00\x02",
+            "There are devices that can recover the orbment.\x07\x00\x02",
         )
     )
 
@@ -410,8 +410,8 @@ def main():
         -1,
         1,
         (
-            "ここで休憩する\x01",      # 0
-            "やめる\x01",              # 1
+            "To take a break here\x01",      # 0
+            "quit\x01",              # 1
         )
     )
 
@@ -466,7 +466,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "台座の上に宝珠が置かれている。\x02",
+            "A pearl is placed on the pedestal.\x02",
         )
     )
 
@@ -486,7 +486,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "台座がある。\x02",
+            "There is a pedestal.\x02",
         )
     )
 
@@ -497,8 +497,8 @@ def main():
         -1,
         1,
         (
-            "宝珠を置く\x01",      # 0
-            "やめておく\x01",      # 1
+            "To put a gem\x01",      # 0
+            "To give up\x01",      # 1
         )
     )
 
@@ -536,7 +536,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "台座の上に宝珠を置いた。\x02",
+            "I placed a gem on the pedestal.\x02",
         )
     )
 
@@ -563,7 +563,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "台座がある。\x02",
+            "There is a pedestal.\x02",
         )
     )
 
@@ -592,7 +592,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "台座の上に宝珠が置かれている。\x02",
+            "A pearl is placed on the pedestal.\x02",
         )
     )
 
@@ -612,7 +612,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "台座がある。\x02",
+            "There is a pedestal.\x02",
         )
     )
 
@@ -623,8 +623,8 @@ def main():
         -1,
         1,
         (
-            "宝珠を置く\x01",      # 0
-            "やめておく\x01",      # 1
+            "To put a gem\x01",      # 0
+            "To give up\x01",      # 1
         )
     )
 
@@ -662,7 +662,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "台座の上に宝珠を置いた。\x02",
+            "I placed a gem on the pedestal.\x02",
         )
     )
 
@@ -689,7 +689,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "台座がある。\x02",
+            "There is a pedestal.\x02",
         )
     )
 
@@ -746,7 +746,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "すでにスイッチは押されている。\x02",
+            "The switch has already been pressed.\x02",
         )
     )
 
@@ -765,8 +765,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "スイッチがある。\x01",
-            "操作しますか？\x02",
+            "There is a switch.\x01",
+            "Do you want to operate it?\x02",
         )
     )
 
@@ -777,8 +777,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -851,7 +851,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "すでにスイッチは押されている。\x02",
+            "The switch has already been pressed.\x02",
         )
     )
 
@@ -870,8 +870,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "スイッチがある。\x01",
-            "操作しますか？\x02",
+            "There is a switch.\x01",
+            "Do you want to operate it?\x02",
         )
     )
 
@@ -882,8 +882,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -955,7 +955,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "すでに鍵は外されてる。\x02",
+            "The key has already been removed.\x02",
         )
     )
 
@@ -974,8 +974,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉に鍵が掛けられている。\x01",
-            "外しますか？\x02",
+            "A lock is hanging on the door.\x01",
+            "Would you like to remove it?\x02",
         )
     )
 
@@ -986,8 +986,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1033,7 +1033,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉は固く閉ざされている。\x02",
+            "The door is tightly closed.\x02",
         )
     )
 
@@ -1130,7 +1130,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6Pあれは……\x02",
+        "#00005F#6PThat is……\x02",
     )
 
     CloseMessageWindow()
@@ -1174,9 +1174,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#6Pやはり何らかの術によって\x01",
-            "封印されているようですが……\x02\x03",
-            "#00201F幾つか種類があるみたいですね。\x02",
+            "#00208F#6PAgain by some technique\x01",
+            "It seems that it is sealed … …\x02\x03",
+            "#00201FIt seems there are several types.\x02",
         )
     )
 
@@ -1185,10 +1185,10 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F#6P両脇の扉を封じているのは\x01",
-            "《結社》のものみたいだけど……\x02\x03",
-            "#00101F隠し扉を封じているのは\x01",
-            "《教団》の目の紋章みたいね。\x02",
+            "#00108F#6PIt is the one that seals the doors on both sides\x01",
+            "It seems to be \"Society\"'s thing ….\x02\x03",
+            "#00101FThe one that seals the hidden door\x01",
+            "It seems like a crest of the eyes of the \"cult\".\x02",
         )
     )
 
@@ -1197,8 +1197,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00013F#6Pああ……\x01",
-            "一体どういうつもりだ？\x02",
+            "#00013F#6PAh……\x01",
+            "What on earth are you going to do?\x02",
         )
     )
 
@@ -1208,8 +1208,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10101F#6Pとにかく探索を始めるしか\x01",
-            "ありませんね……！\x02",
+            "#10101F#6PJust to start exploring anyway\x01",
+            "There is not it …!\x02",
         )
     )
 
@@ -1222,8 +1222,8 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10701F#6Pとにかく探索を\x01",
-            "始めるしかなさそうです。\x02",
+            "#10701F#6PAnyway to explore\x01",
+            "It seems to only start.\x02",
         )
     )
 
@@ -1235,7 +1235,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10400F#6Pそれじゃあ行こうか。\x02",
+        "#10400F#6PWell then let's go.\x02",
     )
 
     CloseMessageWindow()
@@ -1246,7 +1246,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10701F#6Pええ、行きましょう。\x02",
+        "#10701F#6PYeah, let's go.\x02",
     )
 
     CloseMessageWindow()

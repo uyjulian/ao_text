@@ -19,7 +19,7 @@ def main():
 
     BuildStringList((
         "m9011",                  # 0
-        "昇降機",                 # 1
+        "Elevator",                 # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    508,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -102,7 +102,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "オーブメントを回復できる装置がある。\x07\x00\x02",
+            "There are devices that can recover the orbment.\x07\x00\x02",
         )
     )
 
@@ -113,8 +113,8 @@ def main():
         -1,
         1,
         (
-            "ここで休憩する\x01",      # 0
-            "やめる\x01",              # 1
+            "To take a break here\x01",      # 0
+            "quit\x01",              # 1
         )
     )
 
@@ -282,9 +282,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00103F#12P#Nもう……\x01",
-            "言葉は要らなさそうね。\x02\x03",
-            "#00101Fロイド、行きましょう。\x02",
+            "#00103F#12P#NAlready……\x01",
+            "I do not need words.\x02\x03",
+            "#00101FLloyd, let's go.\x02",
         )
     )
 
@@ -298,8 +298,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#6P#Nもう……言葉は不要ですね。\x02\x03",
-            "#00201Fロイドさん、行きましょう。\x02",
+            "#00203F#6P#NI already … … I do not need words.\x02\x03",
+            "#00201FLloyd, let's go.\x02",
         )
     )
 
@@ -313,8 +313,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F#12P#Nもう……言葉は要らねぇな。\x02\x03",
-            "#00301Fロイド、行こうぜ。\x02",
+            "#00303F#12P#NAlready … … I do not need words.\x02\x03",
+            "#00301FLloyd, let's go.\x02",
         )
     )
 
@@ -338,9 +338,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10404F#13P……フフ。\x01",
-            "もう言葉は要らないね。\x02\x03",
-            "#10400Fロイド、行こうか。\x02",
+            "#10404F#13P…… Huff.\x01",
+            "I do not need words any more.\x02\x03",
+            "#10400FLloyd, shall we go.\x02",
         )
     )
 
@@ -364,8 +364,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10103F#13Pもう……言葉は要りませんね。\x02\x03",
-            "#10101Fロイドさん、行きましょう！\x02",
+            "#10103F#13PI already need … no words.\x02\x03",
+            "#10101FLloyd, let's go!\x02",
         )
     )
 
@@ -389,8 +389,8 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10700F#13Pもう……言葉は要りませんね。\x02\x03",
-            "ロイドさん、行きましょう。\x02",
+            "#10700F#13PI already need … no words.\x02\x03",
+            "Lloyd, let's go.\x02",
         )
     )
 
@@ -404,7 +404,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#5Pああ……！\x02",
+        "#00013F#5PAh……!\x02",
     )
 
     CloseMessageWindow()
@@ -520,8 +520,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "昇降器がある。\x01",
-            "移動しますか？\x02",
+            "There is a hoist.\x01",
+            "Do you want to move?\x02",
         )
     )
 
@@ -532,8 +532,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 

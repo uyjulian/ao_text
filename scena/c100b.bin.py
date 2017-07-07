@@ -19,30 +19,30 @@ def main():
 
     BuildStringList((
         "c100b",                  # 0
-        "キーア",                 # 1
-        "ツァイト",               # 2
-        "シズク",                 # 3
-        "アリオス",               # 4
-        "受付ミシェル",           # 5
-        "車",                     # 6
-        "モブ",                   # 7
-        "モブ",                   # 8
-        "中央広場",               # 9
-        "西通り",                 # 10
-        "行政区",                 # 11
-        "住宅街",                 # 12
-        "歓楽街",                 # 13
-        "東通り",                 # 14
-        "旧市街",                 # 15
-        "港湾区",                 # 16
-        "ＩＢＣ",                 # 17
-        "駅前通り",               # 18
-        "裏通り",                 # 19
-        "ウルスラ間道",           # 20
-        "東クロスベル街道",       # 21
-        "西クロスベル街道",       # 22
-        "マインツ山道",           # 23
-        "オルキスタワー",         # 24
+        "Keya",                 # 1
+        "Zeit",               # 2
+        "Suzuku",                 # 3
+        "Arios",               # 4
+        "Reception Michelle",           # 5
+        "car",                     # 6
+        "Mob",                   # 7
+        "Mob",                   # 8
+        "Central square",               # 9
+        "Nishi dori",                 # 10
+        "Administrative district",                 # 11
+        "Residential area",                 # 12
+        "Entertainment district",                 # 13
+        "East Street",                 # 14
+        "old Town",                 # 15
+        "Harbor district",                 # 16
+        "IBC",                 # 17
+        "Beside the station",               # 18
+        "Back street",                 # 19
+        "Ursula interchange",           # 20
+        "East Crossbell Highway",       # 21
+        "West Crossbell Highway",       # 22
+        "Mainz Mountain Road",           # 23
+        "Orchis Tower",         # 24
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -57,22 +57,22 @@ def main():
     DeclActor(4294937296, 4294961796, 4000,    1200,    4294937296, 4294962796, 4000,    0x007C, 0,  3,  0x0000)
     DeclActor(4294944286, 4294952396, 4294962466, 1200,    4294944286, 4294953396, 4294962466, 0x007C, 0,  4,  0x0000)
 
-    PlaceName(-111.26000213623047, 0.0, 15.239999771118164, 0x0000, 0x0000, "中央広場")
-    PlaceName(-186.8800048828125, 0.0, 20.40999984741211, 0x0000, 0x0000, "西通り")
-    PlaceName(-80.20999908447266, 0.0, 117.58999633789062, 0x0000, 0x0000, "行政区")
-    PlaceName(-257.0299987792969, 0.0, 106.08999633789062, 0x0000, 0x0000, "住宅街")
-    PlaceName(-173.0800018310547, 0.0, 96.88999938964844, 0x0000, 0x0000, "歓楽街")
-    PlaceName(-17.829999923706055, 0.0, -11.210000038146973, 0x0000, 0x0000, "東通り")
-    PlaceName(23.0, 0.0, -74.45999908447266, 0x0000, 0x0000, "旧市街")
-    PlaceName(14.380000114440918, 0.0, 64.69000244140625, 0x0000, 0x0000, "港湾区")
-    PlaceName(-15.529999732971191, 0.0, 172.7899932861328, 0x0000, 0x0000, "ＩＢＣ")
-    PlaceName(-98.33000183105469, 0.0, -64.11000061035156, 0x0000, 0x0000, "駅前通り")
-    PlaceName(-152.3800048828125, 0.0, 55.4900016784668, 0x0000, 0x0000, "裏通り")
-    PlaceName(-101.77999877929688, 0.0, -99.76000213623047, 0x0000, 0x0000, "ウルスラ間道")
-    PlaceName(44.279998779296875, 0.0, 4.889999866485596, 0x0000, 0x0000, "東クロスベル街道")
-    PlaceName(-245.52999877929688, 0.0, 18.690000534057617, 0x0000, 0x0000, "西クロスベル街道")
-    PlaceName(-238.6300048828125, 0.0, 133.69000244140625, 0x0000, 0x0000, "マインツ山道")
-    PlaceName(-88.0, 0.0, 269.0, 0x0000, 0x0000, "オルキスタワー")
+    PlaceName(-111.26000213623047, 0.0, 15.239999771118164, 0x0000, 0x0000, "Central square")
+    PlaceName(-186.8800048828125, 0.0, 20.40999984741211, 0x0000, 0x0000, "Nishi dori")
+    PlaceName(-80.20999908447266, 0.0, 117.58999633789062, 0x0000, 0x0000, "Administrative district")
+    PlaceName(-257.0299987792969, 0.0, 106.08999633789062, 0x0000, 0x0000, "Residential area")
+    PlaceName(-173.0800018310547, 0.0, 96.88999938964844, 0x0000, 0x0000, "Entertainment district")
+    PlaceName(-17.829999923706055, 0.0, -11.210000038146973, 0x0000, 0x0000, "East Street")
+    PlaceName(23.0, 0.0, -74.45999908447266, 0x0000, 0x0000, "old Town")
+    PlaceName(14.380000114440918, 0.0, 64.69000244140625, 0x0000, 0x0000, "Harbor district")
+    PlaceName(-15.529999732971191, 0.0, 172.7899932861328, 0x0000, 0x0000, "IBC")
+    PlaceName(-98.33000183105469, 0.0, -64.11000061035156, 0x0000, 0x0000, "Beside the station")
+    PlaceName(-152.3800048828125, 0.0, 55.4900016784668, 0x0000, 0x0000, "Back street")
+    PlaceName(-101.77999877929688, 0.0, -99.76000213623047, 0x0000, 0x0000, "Ursula interchange")
+    PlaceName(44.279998779296875, 0.0, 4.889999866485596, 0x0000, 0x0000, "East Crossbell Highway")
+    PlaceName(-245.52999877929688, 0.0, 18.690000534057617, 0x0000, 0x0000, "West Crossbell Highway")
+    PlaceName(-238.6300048828125, 0.0, 133.69000244140625, 0x0000, 0x0000, "Mainz Mountain Road")
+    PlaceName(-88.0, 0.0, 269.0, 0x0000, 0x0000, "Orchis Tower")
     PlaceName(-136.55999755859375, 0.0, -0.8600000143051147, 0x0000, 0x0051, "")
     PlaceName(-74.75, 0.0, 29.040000915527344, 0x0000, 0x0054, "")
     PlaceName(-108.38999938964844, 0.0, -10.0600004196167, 0x0000, 0x0057, "")
@@ -244,7 +244,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -264,14 +264,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -296,7 +296,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -335,7 +335,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '封魔之刃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -355,14 +355,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '封魔之刃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '封魔之刃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -387,7 +387,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 

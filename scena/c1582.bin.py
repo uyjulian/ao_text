@@ -19,7 +19,7 @@ def main():
 
     BuildStringList((
         "c1582",                  # 0
-        "デヴァイン・デルフ",     # 1
+        "Devine Delf",     # 1
         "bc1530",                 # 2
         "bc1530",                 # 3
         "bc1530",                 # 4
@@ -668,7 +668,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "A monster appeared!\x07\x00\x02",
         )
     )
 
@@ -718,7 +718,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '风耀珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -737,14 +737,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '风耀珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '风耀珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -767,7 +767,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -806,7 +806,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "今は動かないようだ。\x02",
+            "It does not seem to work now.\x02",
         )
     )
 
@@ -826,8 +826,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "エレベーターの操作盤がある。\x01",
-            "遠隔操作しますか？\x02",
+            "There is a control panel of the elevator.\x01",
+            "Do you want to operate it remotely?\x02",
         )
     )
 
@@ -838,8 +838,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -916,7 +916,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "今は動かないようだ。\x02",
+            "It does not seem to work now.\x02",
         )
     )
 
@@ -936,8 +936,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "エレベーターの操作盤がある。\x01",
-            "操作しますか？\x02",
+            "There is a control panel of the elevator.\x01",
+            "Do you want to operate it?\x02",
         )
     )
 
@@ -948,8 +948,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1163,7 +1163,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "今は動かないようだ。\x02",
+            "It does not seem to work now.\x02",
         )
     )
 
@@ -1183,8 +1183,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "エレベーターの操作盤がある。\x01",
-            "遠隔操作しますか？\x02",
+            "There is a control panel of the elevator.\x01",
+            "Do you want to operate it remotely?\x02",
         )
     )
 
@@ -1195,8 +1195,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1314,7 +1314,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "今は動かないようだ。\x02",
+            "It does not seem to work now.\x02",
         )
     )
 
@@ -1334,8 +1334,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "エレベーターの操作盤がある。\x01",
-            "遠隔操作しますか？\x02",
+            "There is a control panel of the elevator.\x01",
+            "Do you want to operate it remotely?\x02",
         )
     )
 
@@ -1346,8 +1346,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1514,7 +1514,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10111F#N凄い……\x02",
+        "#10111F#Ngreat……\x02",
     )
 
     CloseMessageWindow()
@@ -1527,7 +1527,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10712F#N……この光は……\x02",
+        "#10712F#N…… This light ……\x02",
     )
 
     CloseMessageWindow()
@@ -1540,8 +1540,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#Nおいおい、こりゃまた\x01",
-            "とんでもない場所に出たな。\x02",
+            "#00306F#NCome on, hey\x01",
+            "I got into a ridiculous place.\x02",
         )
     )
 
@@ -1552,8 +1552,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00101F#Nこれは……\x01",
-            "七耀の霊子エネルギー？\x02",
+            "#00101F#Nthis is……\x01",
+            "Reiko energy of the seven yao?\x02",
         )
     )
 
@@ -1565,9 +1565,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10406F#Nああ、間違いないだろうね。\x02\x03",
-            "#10401F四属性のジオフロントを通って\x01",
-            "純化されているみたいだ。\x02",
+            "#10406F#NOh, it is no doubt.\x02\x03",
+            "#10401FThrough four attribute Geo Front\x01",
+            "It seems that it has been purified.\x02",
         )
     )
 
@@ -1581,11 +1581,11 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#Nどうやら上層に向けて\x01",
-            "吸い上げているようです。\x02\x03",
-            "#00201Fあの光に直接当たると\x01",
-            "エニグマなどの導力器#6Rオーブメント#にも\x01",
-            "影響があるかもしれません。\x02",
+            "#00203F#NApparently toward the upper layer\x01",
+            "It seems to be sucking up.\x02\x03",
+            "#00201FIf you hit that light directly\x01",
+            "Conductors such as Enigma#6RThe auction#Also\x01",
+            "It may be affected.\x02",
         )
     )
 
@@ -1597,9 +1597,9 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00606F#Nチッ、厄介だな……\x02\x03",
-            "#00610F見たところ、上層に抜けるには\x01",
-            "光の流れる場所を通るしかない……\x02",
+            "#00606F#NIt is chubby, it is troublesome …\x02\x03",
+            "#00610FApparently, to get through to the upper layer\x01",
+            "There is no choice but to pass the place where the light flows … …\x02",
         )
     )
 
@@ -1610,8 +1610,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00013F#N通る時は一気に駆け抜けるしか\x01",
-            "方法は無さそうですね。\x02",
+            "#00013F#NWhen passing, you can only run through\x01",
+            "There seems to be no way.\x02",
         )
     )
 
@@ -1626,10 +1626,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#N見たところ、上層に抜けるには\x01",
-            "光の流れる場所を通るしかない……\x02\x03",
-            "#00013F通る時は一気に駆け抜けるしか\x01",
-            "方法は無さそうだな。\x02",
+            "#00006F#NApparently, to get through to the upper layer\x01",
+            "There is no choice but to pass the place where the light flows … …\x02\x03",
+            "#00013FWhen passing, you can only run through\x01",
+            "There seems to be no way.\x02",
         )
     )
 

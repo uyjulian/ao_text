@@ -19,14 +19,14 @@ def main():
 
     BuildStringList((
         "m4190",                  # 0
-        "フェアリードレイク",     # 1
-        "ツァイト",               # 2
-        "鉱員ガンツ",             # 3
-        "鉱員マルロ",             # 4
-        "鉱員マックス",           # 5
-        "鉱山長ホフマン",         # 6
-        "鉱員ロージー",           # 7
-        "SE制御",                 # 8
+        "Fairy Drake",     # 1
+        "Zeit",               # 2
+        "Miner Gantz",             # 3
+        "Miners Mallo",             # 4
+        "Miner Max",           # 5
+        "Mining head Hoffman",         # 6
+        "Miner rosie",           # 7
+        "SE control",                 # 8
         "bm4120",                 # 9
         "bm4120",                 # 10
     ))
@@ -391,7 +391,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#11Pここは……\x02",
+        "#00105F#11Phere……\x02",
     )
 
     CloseMessageWindow()
@@ -405,8 +405,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F#6Pどうやらこの旧鉱山の\x01",
-            "終点みたいだな……\x02",
+            "#00001F#6PApparently this old mine\x01",
+            "It looks like an end point …\x02",
         )
     )
 
@@ -584,9 +584,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10106F#12P……抜け道のたぐいは\x01",
-            "結局、見つかりませんでしたね。\x02\x03",
-            "#10101Fどうしましょうか？\x02",
+            "#10106F#12P…… The reason for the loophole\x01",
+            "After all, it was not found.\x02\x03",
+            "#10101FWhat shall we do?\x02",
         )
     )
 
@@ -595,11 +595,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5Pそうだな……\x02\x03",
-            "#00001F……危険かもしれないけど\x01",
-            "入口に引き返すしかなさそうだ。\x02\x03",
-            "坑道内を調べたかぎり\x01",
-            "他にトラップは無さそうだし。\x02",
+            "#00006F#5PThat's right.\x02\x03",
+            "#00001F…… Although it may be dangerous\x01",
+            "It seems to be back to the entrance.\x02\x03",
+            "As long as I look inside the tunnel\x01",
+            "There seems to be no other traps.\x02",
         )
     )
 
@@ -608,10 +608,10 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10303F#11Pしかし解せないねぇ。\x02\x03",
-            "#10301F結局、入口を破壊して\x01",
-            "トラップを仕掛けた犯人は\x01",
-            "何がしたかったんだい？\x02",
+            "#10303F#11PBut I can not understand.\x02\x03",
+            "#10301FAfter all, destroying the entrance\x01",
+            "The culprit who set the trap\x01",
+            "What did you want?\x02",
         )
     )
 
@@ -622,9 +622,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#5Pそうね……\x01",
-            "この異常な内部についても\x01",
-            "直接関係はしてなさそうだし。\x02",
+            "#00106F#5PI see …\x01",
+            "Also about this abnormal interior\x01",
+            "I do not seem to have a direct relationship.\x02",
         )
     )
 
@@ -636,8 +636,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00101F#5Pひょっとして……\x01",
-            "人形工房を訪ねた人たちとか？\x02",
+            "#00101F#5PPossibly …\x01",
+            "Are they those who visited the puppet factory?\x02",
         )
     )
 
@@ -670,7 +670,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10111F#12Pあ……\x02",
+        "#10111F#12PAh……\x02",
     )
 
     CloseMessageWindow()
@@ -683,8 +683,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10301F#11Pふむ、確かにかなり\x01",
-            "怪しげな連中だったよね。\x02",
+            "#10301F#11PHmm, it certainly is quite\x01",
+            "They were dubious people, were not they?\x02",
         )
     )
 
@@ -692,7 +692,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#6Pそうだな……\x02",
+        "#00008F#6PThat's right.\x02",
     )
 
     CloseMessageWindow()
@@ -705,8 +705,8 @@ def main():
         -1,
         0,
         (
-            "可能性は高い\x01",      # 0
-            "可能性は低い\x01",      # 1
+            "The possibility is high\x01",      # 0
+            "Unlikely\x01",      # 1
         )
     )
 
@@ -744,10 +744,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6P……タイミングからして\x01",
-            "可能性は高いかもしれないな。\x02\x03",
-            "#00001Fただ、動機がはっきりしないから\x01",
-            "確信は持てないけど……\x02",
+            "#00006F#6P… from the timing\x01",
+            "The possibilities may be high.\x02\x03",
+            "#00001FJust because the motive is not clear\x01",
+            "I can not have conviction ….\x02",
         )
     )
 
@@ -755,7 +755,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106F#11Pそうね……\x02",
+        "#00106F#11PI see …\x02",
     )
 
     CloseMessageWindow()
@@ -768,10 +768,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#6Pいや、犯人は頑丈な扉を破壊したり、\x01",
-            "爆薬を使ったトラップを仕掛けている。\x02\x03",
-            "#00001Fそういう荒事をしそうなタイプには\x01",
-            "見えなくなかったか？\x02",
+            "#00003F#6PNo, the perpetrator destroys a sturdy door,\x01",
+            "It is trying to trap using explosives.\x02\x03",
+            "#00001FTo such a type that is likely to make a storm\x01",
+            "Did not you see it?\x02",
         )
     )
 
@@ -779,7 +779,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106F#11Pそうね、確かに……\x02",
+        "#00106F#11PWell, indeed …\x02",
     )
 
     CloseMessageWindow()
@@ -795,8 +795,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10108F#12Pうーん……\x01",
-            "一体何者の仕業なんでしょう？\x02",
+            "#10108F#12PWell …\x01",
+            "Who the hell are they doing?\x02",
         )
     )
 
@@ -808,11 +808,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P（仕掛けられたのが昨日で\x01",
-            "  支援課に連絡があったのが今日。）\x02\x03",
-            "（まるで俺たちを直接、\x01",
-            "  狙ったようなタイミングだけど……）\x02\x03",
-            "#00008F（……さすがに考えすぎか？）\x02",
+            "#00003F#5P(It was yesterday that I was set up\x01",
+            "It was today that the support department contacted us. )\x02\x03",
+            "(As if we were direct,\x01",
+            "It's a timing I aimed at … …)\x02\x03",
+            "#00008F(… … are you thinking too much?\x02",
         )
     )
 
@@ -824,14 +824,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#11Pロイド、どうしたの？\x02",
+        "#00105F#11PLloyd, what's wrong?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10105F#12Pだ、大丈夫ですか？\x02",
+        "#10105F#12PIs that okay?\x02",
     )
 
     CloseMessageWindow()
@@ -839,10 +839,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012F#5Pいや……\x01",
-            "とにかく一旦引き返そう。\x02\x03",
-            "#00000Fひょっとしたらガンツさんが\x01",
-            "応援を呼んだかもしれないし……\x02",
+            "#00012F#5PDisagreeable……\x01",
+            "Let's go back anyway.\x02\x03",
+            "#00000FMaybe Mr. Gantz\x01",
+            "I might have called for support … ….\x02",
         )
     )
 
@@ -859,7 +859,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#11P（……ん……？）\x02",
+        "#00005F#11P(……Hmm……?)\x02",
     )
 
     CloseMessageWindow()
@@ -875,7 +875,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#5P#N……あれは……\x02",
+        "#00001F#5P#N……That is……\x02",
     )
 
     OP_6F(0x79)
@@ -897,7 +897,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10307F#5P#4S──上だ、気をつけろ！\x02",
+        "#10307F#5P#4S── Top, be careful!\x02",
     )
 
     OP_6F(0x79)
@@ -939,7 +939,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013Fなに#5P……！？\x02",
+        "#00013Fwhat#5P……! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -1005,7 +1005,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10110F#6P#N#8Aなっ……\x02",
+        "#10110F#6P#N#8ABecome\x02",
     )
 
     CloseMessageWindow()
@@ -1014,7 +1014,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#6P#N#10Aま、魔獣……！？\x02",
+        "#00107F#6P#N#10AWait … the monster …! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -1054,7 +1054,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#6P#Nな、何だコイツは！？\x02",
+        "#00007F#6P#NWhat is this guy! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -1063,8 +1063,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10310F#6P#N普通の魔獣じゃない！\x01",
-            "とにかく気を付けて──\x02",
+            "#10310F#6P#NIt is not an ordinary demon!\x01",
+            "Anyway be careful - ─\x02",
         )
     )
 
@@ -1144,7 +1144,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106F#6P#Nきゃああっ！？\x02",
+        "#00106F#6P#NKyaa! Is it?\x02",
     )
 
     OP_6F(0x79)
@@ -1153,7 +1153,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10108F#6P#Nか、身体が……！？\x02",
+        "#10108F#6P#NOr, the body …! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -1161,7 +1161,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#6P#N何だ……力が抜けて……！？\x02",
+        "#00010F#6P#NWhat … … the power is missing ……! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -1170,8 +1170,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10307F#6P#Nこ、この振動が\x01",
-            "力を奪っているのか……！\x02",
+            "#10307F#6P#NThis vibration\x01",
+            "Is he taking power?\x02",
         )
     )
 
@@ -1186,7 +1186,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10310F#12P#N……クッ……マズイね……\x02",
+        "#10310F#12P#N… …. Ku … … Masui …\x02",
     )
 
     CloseMessageWindow()
@@ -1195,8 +1195,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00007F#12P#Nくそ……\x01",
-            "エリィとノエルだけでも……！\x02",
+            "#00007F#12P#NFuck……\x01",
+            "Erie and Noel alone ……!\x02",
         )
     )
 
@@ -1206,8 +1206,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00107F#6P#Nば、馬鹿なことを\x01",
-            "言わないでちょうだい……！\x02",
+            "#00107F#6P#NWhat a stupid thing\x01",
+            "Do not tell me …!\x02",
         )
     )
 
@@ -1217,8 +1217,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10107F#12P#Nそうですよ……！\x01",
-            "みんなで切り抜けないと……！\x02",
+            "#10107F#12P#NThat's right……!\x01",
+            "Everyone has to go through … …!\x02",
         )
     )
 
@@ -1244,7 +1244,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00015F#12P#Nくっ……！\x02",
+        "#00015F#12P#NCut …!\x02",
     )
 
     CloseMessageWindow()
@@ -1288,7 +1288,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105F#12P#Nあ……\x02",
+        "#10105F#12P#NAh……\x02",
     )
 
     CloseMessageWindow()
@@ -1296,7 +1296,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12P#Nい、今のは……\x02",
+        "#00011F#12P#NWell, now ……\x02",
     )
 
     CloseMessageWindow()
@@ -1443,21 +1443,21 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#6Pあ……！\x02",
+        "#00002F#6PAh……!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10102F#6Pランディ先輩……！？\x02",
+        "#10102F#6PRandy-senpai …! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00102F#6Pき、来てくれたの……！\x02",
+        "#00102F#6PYou came, …!\x02",
     )
 
     CloseMessageWindow()
@@ -1489,7 +1489,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#01207F#11P#4Sウォン！\x02",
+        "#01207F#11P#4Swon!\x02",
     )
 
     CloseMessageWindow()
@@ -1498,7 +1498,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#6P#Nツァイトも……！\x02",
+        "#00002F#6P#NZeitも……！\x02",
     )
 
     CloseMessageWindow()
@@ -1507,8 +1507,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10309F#6P#Nアハハ！\x01",
-            "すごいタイミングじゃない！\x02",
+            "#10309F#6P#NAhaha!\x01",
+            "It's amazing timing!\x02",
         )
     )
 
@@ -1529,9 +1529,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00307F#2751V#12P#N#30W──話は後だ！\x01",
-            "このデカブツを撃破する！\x02\x03",
-            "#2752V俺たちの全力をぶつけるぞ！\x02",
+            "#00307F#2751V#12P#N#30W── The story is back!\x01",
+            "Defeat this decap!\x02\x03",
+            "#2752VWe will hit our best!\x02",
         )
     )
 
@@ -1590,7 +1590,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#6P#N#30W分かった……！\x02",
+        "#00007F#6P#N#30WI understood……!\x02",
     )
 
     CloseMessageWindow()
@@ -1600,7 +1600,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#6P#N#30W任せて……！\x02",
+        "#00107F#6P#N#30WLeave it to me……!\x02",
     )
 
     CloseMessageWindow()
@@ -1610,7 +1610,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10107F#12P#N#30W目標を撃破します！\x02",
+        "#10107F#12P#N#30WWe will destroy the goal!\x02",
     )
 
     CloseMessageWindow()
@@ -2371,14 +2371,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6Pき、消えた……\x02",
+        "#00005F#6PDid it disappear …?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00101F#6P……今のは一体……\x02",
+        "#00101F#6P…… It is one now ……\x02",
     )
 
     CloseMessageWindow()
@@ -2456,9 +2456,9 @@ def main():
     AnonymousTalk(
         0x104,
         (
-            "ふう、どうやらタダの\x01",
-            "魔獣じゃなかったみてぇだな。\x02\x03",
-            "ま、何とか倒せて良かったぜ。\x02",
+            "Fuu, apparently free\x01",
+            "You looked like you were not a monster.\x02\x03",
+            "Well, I was good to beat you.\x02",
         )
     )
 
@@ -2474,8 +2474,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10109F#12Pあはは……\x01",
-            "さすがランディ先輩。\x02",
+            "#10109F#12PHaha ……\x01",
+            "Sounds like Randy.\x02",
         )
     )
 
@@ -2484,8 +2484,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10302F#12Pやれやれ。\x01",
-            "大した戦闘力だね。\x02",
+            "#10302F#12PWhew.\x01",
+            "It's a great combat strength.\x02",
         )
     )
 
@@ -2494,8 +2494,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012F#6Pはは……\x01",
-            "本当に助かったよ。\x02",
+            "#00012F#6Pmy mother……\x01",
+            "I was really saved.\x02",
         )
     )
 
@@ -2503,7 +2503,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00102F#6Pでも一体、どうして……？\x02",
+        "#00102F#6PBut why the hell …?\x02",
     )
 
     CloseMessageWindow()
@@ -2511,13 +2511,13 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00304F#5Pいや、リハビリ訓練が完了して\x01",
-            "ようやくお役御免になったから\x01",
-            "昼過ぎに支援課に戻ったんだ。\x02\x03",
-            "#00300Fそしたら、お前らが\x01",
-            "マインツに向かったって聞いてな。\x02\x03",
-            "せっかくだから追いかけたら\x01",
-            "ちょうど騒ぎになってたってわけだ。\x02",
+            "#00304F#5PNo, rehabilitation training has been completed\x01",
+            "Finally I became disappointed\x01",
+            "I returned to the support department in the afternoon.\x02\x03",
+            "#00300FThen, you\x01",
+            "I heard you are heading to Mainz.\x02\x03",
+            "Because it's so hard to pursue\x01",
+            "It was just a fuss.\x02",
         )
     )
 
@@ -2525,7 +2525,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6Pそうだったのか……\x02",
+        "#00000F#6PIs that so……\x02",
     )
 
     CloseMessageWindow()
@@ -2533,8 +2533,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00105F#6Pそれじゃあ、ひょっとして\x01",
-            "崩落していた入口も……？\x02",
+            "#00105F#6PWell then, perhaps\x01",
+            "Entrance which collapsed ……?\x02",
         )
     )
 
@@ -2543,10 +2543,10 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00304F#5Pああ、マインツの鉱員が\x01",
-            "総出で撤去してくれたぜ。\x02\x03",
-            "#00300Fそれで俺だけ先行して\x01",
-            "お前らを探そうとしたら……\x02",
+            "#00304F#5POh, Mainz's miners\x01",
+            "It was taken away with the total.\x02\x03",
+            "#00300FSo just go ahead me\x01",
+            "I tried to find you … …\x02",
         )
     )
 
@@ -2557,8 +2557,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00302F#5Pひょっこりコイツまで現れて\x01",
-            "ここまで連れてきてくれてなぁ。\x02",
+            "#00302F#5PIt appears up to coin guys\x01",
+            "You brought me here.\x02",
         )
     )
 
@@ -2601,7 +2601,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#01200F#11Pウォン。\x02",
+        "#01200F#11Pwon.\x02",
     )
 
     EndChrThread(0x9, 0x1)
@@ -2613,7 +2613,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00012F#5Pはは、そうか……\x02",
+        "#00012F#5PHaha, is that so ……\x02",
     )
 
     CloseMessageWindow()
@@ -2623,8 +2623,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10302F#5Pやれやれ。\x01",
-            "相変わらずとんでもないね。\x02",
+            "#10302F#5PWhew.\x01",
+            "As usual I am surprised.\x02",
         )
     )
 
@@ -2632,7 +2632,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00104F#5Pツァイト、ありがとう。\x02",
+        "#00104F#5PZeit、ありがとう。\x02",
     )
 
     CloseMessageWindow()
@@ -2642,8 +2642,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10109F#6Pうーん、これはお礼に\x01",
-            "お肉でも買って来ないと……\x02",
+            "#10109F#6PWell, thanks for this\x01",
+            "Even meat must be bought ……\x02",
         )
     )
 
@@ -2656,8 +2656,8 @@ def main():
 
     NpcTalk(
         0xA,
-        "男の声",
-        "#1P#2Sおーい、大丈夫かああ！？\x02",
+        "Voice of a man",
+        "#1P#2SHey, okay? Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -2797,14 +2797,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#5Pガンツさん、皆さんも……\x02",
+        "#00002F#5PMr. Gantz, everyone too ……\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00309F#5Pおー、お疲れさん。\x02",
+        "#00309F#5POh, you tired.\x02",
     )
 
     CloseMessageWindow()
@@ -2813,8 +2813,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#12Pよかった……\x01",
-            "無事だったみてえだな！\x02",
+            "#12PWas good……\x01",
+            "You guessed it was safe!\x02",
         )
     )
 
@@ -2838,7 +2838,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10304F#5Pフフ、おかげさまでね。\x02",
+        "#10304F#5PHuh, thanks for your help.\x02",
     )
 
     CloseMessageWindow()
@@ -2846,8 +2846,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00102F#5P急いで駆けつけてくださって\x01",
-            "ありがとうございました。\x02",
+            "#00102F#5PHurry up and rush\x01",
+            "Thank you very much.\x02",
         )
     )
 
@@ -2856,8 +2856,8 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#12Pいや、元々こちらが\x01",
-            "アンタらに頼んだ事だからな。\x02",
+            "#12PNo, originally this\x01",
+            "That's because you asked Anta and others.\x02",
         )
     )
 
@@ -2866,8 +2866,8 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#12Pしかしまさか、旧鉱山が\x01",
-            "こんな事になっていたとは……\x02",
+            "#12PHowever, no old mine\x01",
+            "What is it supposed to be like this …?\x02",
         )
     )
 
@@ -2876,8 +2876,8 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#11P俺たちのひい祖父さんあたりが\x01",
-            "掘っていた坑道だよな？\x02",
+            "#11POur grandfather's grandfather is around\x01",
+            "It's a tunnel that I dug?\x02",
         )
     )
 
@@ -2886,8 +2886,8 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#12Pこんな風になっているなんて\x01",
-            "聞いたこと無かったけど……\x02",
+            "#12PI do not think that it is like this\x01",
+            "I never heard of it … ….\x02",
         )
     )
 
@@ -2896,8 +2896,8 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#11Pそ、そもそもどうして\x01",
-            "いきなり入口が崩落したんだ？\x02",
+            "#11PThat's why why\x01",
+            "Suddenly the entrance collapsed?\x02",
         )
     )
 
@@ -2906,8 +2906,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P……とりあえず、\x01",
-            "いったん町に戻りましょう。\x02",
+            "#00003F#5PTentatively,\x01",
+            "Let's go back to town once.\x02",
         )
     )
 
@@ -2916,8 +2916,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00101F#5P町長さんへの報告と合わせて\x01",
-            "起きたことを全てご説明します。\x02",
+            "#00101F#5PTogether with the report to the Mayor\x01",
+            "I will explain everything that happened.\x02",
         )
     )
 
@@ -3107,7 +3107,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "大型の魔獣が徘徊#4Rはいかい#している。\x02",
+            "Large monsters wandering around#4RIt is alright#doing.\x02",
         )
     )
 
@@ -3118,8 +3118,8 @@ def main():
         -1,
         0,
         (
-            "【退治する】\x01",      # 0
-            "【やめる】\x01",        # 1
+            "【Exterminate】\x01",      # 0
+            "【quit】\x01",        # 1
         )
     )
 
@@ -3193,7 +3193,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "手配魔獣を退治した！\x02",
+            "Arranged arrangements devils!\x02",
         )
     )
 
@@ -3208,7 +3208,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '战术书·爆'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -3233,9 +3233,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00104Fふふ、戦術書が手に入ったわね。\x02\x03",
-            "#00100Fこれは、ティオちゃんと\x01",
-            "ノエルさん向きかしら？\x02",
+            "#00104FHuhu, you got the tactics book.\x02\x03",
+            "#00100FThis is Tio\x01",
+            "I wonder if Noel is good for you?\x02",
         )
     )
 
@@ -3244,8 +3244,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00200Fノエルさん、\x01",
-            "さっそく試していいですか？\x02",
+            "#00200FNoel,\x01",
+            "Can I try it now?\x02",
         )
     )
 
@@ -3253,7 +3253,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10109Fうん、やってみよっか！\x02",
+        "#10109FYes, let's do it!\x02",
     )
 
     CloseMessageWindow()
@@ -3269,9 +3269,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ティオとノエルがコンビクラフト\x01\x07\x02",
-            "『ブラストハンマー』\x07\x05",
-            "を修得しました。\x02",
+            "Tio and Noel Combi Craft\x01\x07\x02",
+            "\"Blast hammer\"\x07\x05",
+            "I have learned.\x02",
         )
     )
 
@@ -3281,8 +3281,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ＣＰを１００ずつ消費することで\x01",
-            "強力なコンビネーション攻撃が繰り出せます。\x07\x00\x02",
+            "By consuming CP by 100\x01",
+            "A powerful combination attack can be launched.\x07\x00\x02",
         )
     )
 

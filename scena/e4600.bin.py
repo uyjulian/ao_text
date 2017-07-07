@@ -19,7 +19,7 @@ def main():
 
     BuildStringList((
         "e4600",                  # 0
-        "道化師カンパネルラ",     # 1
+        "Clown Campanella",     # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -85,14 +85,14 @@ def main():
     OP_F3(100000)
     Sleep(1000)
     SetMessageWindowPos(-1, -1, -1, -1)
-    SetChrName("声")
+    SetChrName("voice")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#30W──なるほど。\x01",
-            "なかなか順調のようですね。\x02",
+            "#30W─ ─ I see.\x01",
+            "It seems quite smooth.\x02",
         )
     )
 
@@ -137,31 +137,31 @@ def main():
     OP_0D()
     Sleep(500)
     SetMessageWindowPos(3, 120, -1, -1)
-    SetChrName("第六柱")
+    SetChrName("The sixth pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ああ、こちらの準備も\x01",
-            "９割がた目処が付いた。\x02\x03",
-            "今回のオーダーには\x01",
-            "何とか間に合わせられるだろう。\x02",
+            "Oh, the preparation here too\x01",
+            "There was a prospect of 90.\x02\x03",
+            "In this order\x01",
+            "I will manage in time.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(300, 100, -1, -1)
-    SetChrName("第一柱")
+    SetChrName("First pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "お疲れ様です、博士。\x02\x03",
-            "──カンパネルラ。\x01",
-            "《執行者#6Rレギオン#》たちの動きは？\x02",
+            "Good job, doctor.\x02\x03",
+            "── Campanella.\x01",
+            "\"Enforcer#6RLegion#\"What's their move?\x02",
         )
     )
 
@@ -171,75 +171,75 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04804F#12Pちょっと前にブルブランが\x01",
-            "遊んでいたみたいだけど、\x01",
-            "もう手は引いたみたいだね。\x02\x03",
-            "#04800Fレンはリベールに去ってから\x01",
-            "戻ってくる気配はなさそうだ。\x02\x03",
-            "#04806Fそして“彼女”については……\x01",
-            "ま、様子見でいいんじゃない？\x02\x03",
-            "#04802F式神は貸してくれたけど、\x01",
-            "今のところ介入するつもりは\x01",
-            "一切ないみたいだし。\x02",
+            "#04804F#12PA while ago Bull Blanc\x01",
+            "It seems I was playing,\x01",
+            "It looks like I pulled out my hands already.\x02\x03",
+            "#04800FAfter Ren left to Libert\x01",
+            "There is no sign of returning.\x02\x03",
+            "#04806FAnd about \"her\" …\x01",
+            "Well, is not it good to see?\x02\x03",
+            "#04802FThe expression god lent me,\x01",
+            "For the moment I intend to intervene\x01",
+            "It seems nothing at all.\x02",
         )
     )
 
     CloseMessageWindow()
     SetMessageWindowPos(300, 100, -1, -1)
-    SetChrName("第一柱")
+    SetChrName("First pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ふむ、分かりました。\x02\x03",
-            "マイスターと同様、\x01",
-            "彼らの意志に任せて下さい。\x02",
+            "Hmm, I understand.\x02\x03",
+            "Like Meister,\x01",
+            "Please leave it to their will.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(3, 120, -1, -1)
-    SetChrName("第六柱")
+    SetChrName("The sixth pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "しかし《執行者》には\x01",
-            "全ての行動の自由を与えるか……\x02\x03",
-            "あの方の決めた事とはいえ、\x01",
-            "いささか理不尽な《掟》だねぇ。\x02",
+            "But \"enforcer\"\x01",
+            "Do you give all the freedom of action …?\x02\x03",
+            "Despite what he decided,\x01",
+            "It is somewhat unreasonable \"rule\".\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(300, 100, -1, -1)
-    SetChrName("第一柱")
+    SetChrName("First pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "全ては《盟主》の思し召し……\x01",
-            "是非を問う必要はありません。\x02\x03",
-            "それより──\x01",
-            "いらっしゃったようですね。\x02",
+            "Everything is an \"owner\" 's thought …\x01",
+            "There is no need to ask anything.\x02\x03",
+            "More than that ──\x01",
+            "You seem to have come.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(3, 120, -1, -1)
-    SetChrName("第六柱")
+    SetChrName("The sixth pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "おや、来たかね。\x02",
+            "Oh, did you come.\x02",
         )
     )
 
@@ -249,7 +249,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04809F#5Pフフ、時間通りだねぇ。\x02",
+        "#04809F#5PHuh, it's on time.\x02",
     )
 
     CloseMessageWindow()
@@ -286,14 +286,14 @@ def main():
     CancelBlur(1000)
     OP_C9(0x0, 0x80000000)
     SetMessageWindowPos(235, 130, -1, -1)
-    SetChrName("第七柱")
+    SetChrName("The seventh pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#3885V#40W──お待たせしました。\x02\x03",
-            "#3886Vもう、始めているようですね。\x02",
+            "#3885V#40W── We kept you waiting.\x02\x03",
+            "#3886VIt seems you are already starting.\x02",
         )
     )
 
@@ -304,15 +304,15 @@ def main():
     OP_C9(0x1, 0x80000000)
     Sleep(300)
     SetMessageWindowPos(0, 100, -1, -1)
-    SetChrName("第一柱")
+    SetChrName("First pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "いえ、始めたばかりです。\x02\x03",
-            "例の件については\x01",
-            "もう宜しいのですか？\x02",
+            "No, I just started.\x02\x03",
+            "About the case of example\x01",
+            "Are you sure?\x02",
         )
     )
 
@@ -320,18 +320,18 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(250, 130, -1, -1)
-    SetChrName("第七柱")
+    SetChrName("The seventh pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ええ、後は《破戒》殿に\x01",
-            "全てをお任せしてきました。\x02\x03",
-            "それで──\x01",
-            "《クロスベル》でしたね。\x02\x03",
-            "かの地に赴くのは\x01",
-            "私もいささか久しぶりです。\x02",
+            "Yeah, afterwards to \"Catch\"\x01",
+            "I left everything to you.\x02\x03",
+            "So then\x01",
+            "It was \"crossbell\".\x02\x03",
+            "To go to this place is\x01",
+            "I also have not seen for a long time.\x02",
         )
     )
 
@@ -342,10 +342,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04804F#6P#Nウフフ、あまりの変わりように\x01",
-            "目を丸くするんじゃない？\x02\x03",
-            "#04800F現代の導力文明では\x01",
-            "最先端の大都市だろうしね。\x02",
+            "#04804F#6P#NUhufu, like so much change\x01",
+            "Do not you make your eyes round?\x02\x03",
+            "#04800FIn modern power civilization\x01",
+            "It will be a state-of-the-art big city.\x02",
         )
     )
 
@@ -353,16 +353,16 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(130, 170, -1, -1)
-    SetChrName("第六柱")
+    SetChrName("The sixth pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "私も完成前にもう一度、\x01",
-            "顔を出してみるつもりだよ。\x02\x03",
-            "どうだね、せっかくだから\x01",
-            "現地で落ち合うとしようか？\x02",
+            "Again before I completed it again,\x01",
+            "I am going to look out.\x02\x03",
+            "Please do not worry\x01",
+            "Shall we meet in the field?\x02",
         )
     )
 
@@ -370,13 +370,13 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(250, 130, -1, -1)
-    SetChrName("第七柱")
+    SetChrName("The seventh pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ええ、異存はありません。\x02",
+            "Yes, there is no objection.\x02",
         )
     )
 
@@ -395,45 +395,45 @@ def main():
     CancelBlur(1000)
     SetCameraDistance(23500, 50000)
     SetMessageWindowPos(-1, 120, -1, -1)
-    SetChrName("第一柱")
+    SetChrName("First pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "──では、お二方。\x01",
-            "以後は委細をお任せします。\x02\x03",
-            "『幻焔#4Rげんえん#計画』……\x01",
-            "あの方の最終計画のためには\x01",
-            "欠かせないステップです。\x02\x03",
-            "第一段階としての仕掛け、\x01",
-            "よろしくお願いしますよ？\x02",
+            "── Then, you two.\x01",
+            "After that we will leave the restriction.\x02\x03",
+            "\"Phantomhurgh#4RNuclear power plant#plan\"……\x01",
+            "For his final plan\x01",
+            "It is an indispensable step.\x02\x03",
+            "A mechanism as a first step,\x01",
+            "Thank you for your consideration.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(0, 170, -1, -1)
-    SetChrName("第六柱")
+    SetChrName("The sixth pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "フフ、了解だ。\x02",
+            "Huh, I understand.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(300, 170, -1, -1)
-    SetChrName("第七柱")
+    SetChrName("The seventh pillar")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "全ては《盟主》のために。\x02",
+            "Everything is for the \"owner\".\x02",
         )
     )
 

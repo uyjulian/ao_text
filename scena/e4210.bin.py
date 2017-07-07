@@ -19,13 +19,13 @@ def main():
 
     BuildStringList((
         "e4210",                  # 0
-        "アイオーン３",           # 1
-        "帝国軍戦車",             # 2
-        "帝国軍戦車",             # 3
-        "帝国軍戦車",             # 4
-        "帝国軍戦車",             # 5
-        "帝国軍戦車・壊れ",       # 6
-        "SE制御",                 # 7
+        "Iron 3",           # 1
+        "Imperial army tank",             # 2
+        "Imperial army tank",             # 3
+        "Imperial army tank",             # 4
+        "Imperial army tank",             # 5
+        "Imperial army tank・壊れ",       # 6
+        "SE control",                 # 7
     ))
 
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)

@@ -19,12 +19,12 @@ def main():
 
     BuildStringList((
         "c014b",                  # 0
-        "チャコ",                 # 1
-        "ウェンディ",             # 2
-        "フェルナンド",           # 3
-        "ミゼット",               # 4
-        "バジリオ",               # 5
-        "観光客",                 # 6
+        "Chaco",                 # 1
+        "Wendy",             # 2
+        "Fernando",           # 3
+        "Midget",               # 4
+        "Basilio",               # 5
+        "tourist",                 # 6
     ))
 
     AddCharChip((
@@ -217,11 +217,11 @@ def main():
         -1,
         1,
         (
-            "話をする\x01",                            # 0
-            "エニグマカバーを購入・交換する\x01",      # 1
-            "マスタークオーツを購入する\x01",          # 2
-            "導力車オプションを購入する\x01",          # 3
-            "やめる\x01",                              # 4
+            "talk\x01",                            # 0
+            "Purchase and exchange an enigma cover\x01",      # 1
+            "Purchase Master Quartz\x01",          # 2
+            "Purchase a power train option\x01",          # 3
+            "quit\x01",                              # 4
         )
     )
 
@@ -317,53 +317,53 @@ def main():
 
     ChrTalk(
         0x8,
-        "どれに交換しますか〜？\x02",
+        "Which one do you exchange?\x02",
     )
 
     CloseMessageWindow()
     Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_85B")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2E, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_68A")
-    MenuCmd(1, 0, "ＣＰＤ（ロイド）　　　装着中")
+    MenuCmd(1, 0, "Wearing CPD (Lloyd)")
     Jump("loc_6AC")
 
     label("loc_68A")
 
-    MenuCmd(1, 0, "ＣＰＤ（ロイド）　　　交換する")
+    MenuCmd(1, 0, "Exchange CPD (Lloyd)")
 
     label("loc_6AC")
 
     RunExpression(0x5, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     RunExpression(0x6, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 5)), scpexpr(EXPR_END)), "loc_6EE")
-    MenuCmd(1, 0, "ブルーシェリフ　　　　装着中")
+    MenuCmd(1, 0, "Blue Sheriff on board")
     Jump("loc_740")
 
     label("loc_6EE")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 0)), scpexpr(EXPR_END)), "loc_71E")
-    MenuCmd(1, 0, "ブルーシェリフ　　　　交換する")
+    MenuCmd(1, 0, "Blue Sherif replace")
     Jump("loc_740")
 
     label("loc_71E")
 
-    MenuCmd(1, 0, "ブルーシェリフ　　　　1000ミラ")
+    MenuCmd(1, 0, "Blue Sheriff 1000 Mira")
 
     label("loc_740")
 
     RunExpression(0x6, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2E, 0)), scpexpr(EXPR_END)), "loc_778")
-    MenuCmd(1, 0, "ハウリングウルフ　　　装着中")
+    MenuCmd(1, 0, "Howling wolf installed")
     Jump("loc_7CA")
 
     label("loc_778")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 1)), scpexpr(EXPR_END)), "loc_7A8")
-    MenuCmd(1, 0, "ハウリングウルフ　　　交換する")
+    MenuCmd(1, 0, "Change howling wolf")
     Jump("loc_7CA")
 
     label("loc_7A8")
 
-    MenuCmd(1, 0, "ハウリングウルフ　　　1000ミラ")
+    MenuCmd(1, 0, "Howling Wolf 1000 Mira")
 
     label("loc_7CA")
 
@@ -393,47 +393,47 @@ def main():
 
     Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x1)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_A70")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2E, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_8BD")
-    MenuCmd(1, 0, "ＣＰＤ（エリィ）　　　装着中")
+    MenuCmd(1, 0, "Wearing CPD (Ellie)")
     Jump("loc_8DF")
 
     label("loc_8BD")
 
-    MenuCmd(1, 0, "ＣＰＤ（エリィ）　　　交換する")
+    MenuCmd(1, 0, "Exchange CPD (Eiry)")
 
     label("loc_8DF")
 
     RunExpression(0x8, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     RunExpression(0x9, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 6)), scpexpr(EXPR_END)), "loc_921")
-    MenuCmd(1, 0, "ピースグリーン　　　　装着中")
+    MenuCmd(1, 0, "Wearing piece green")
     Jump("loc_973")
 
     label("loc_921")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 2)), scpexpr(EXPR_END)), "loc_951")
-    MenuCmd(1, 0, "ピースグリーン　　　　交換する")
+    MenuCmd(1, 0, "Piece green exchange")
     Jump("loc_973")
 
     label("loc_951")
 
-    MenuCmd(1, 0, "ピースグリーン　　　　1000ミラ")
+    MenuCmd(1, 0, "Peace Green 1000 Mira")
 
     label("loc_973")
 
     RunExpression(0x9, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2E, 1)), scpexpr(EXPR_END)), "loc_9AB")
-    MenuCmd(1, 0, "スプリングバード　　　装着中")
+    MenuCmd(1, 0, "Spring bird installed")
     Jump("loc_9FD")
 
     label("loc_9AB")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 3)), scpexpr(EXPR_END)), "loc_9DB")
-    MenuCmd(1, 0, "スプリングバード　　　交換する")
+    MenuCmd(1, 0, "Replace spring bird")
     Jump("loc_9FD")
 
     label("loc_9DB")
 
-    MenuCmd(1, 0, "スプリングバード　　　1000ミラ")
+    MenuCmd(1, 0, "Spring Bird 1000 Mira")
 
     label("loc_9FD")
 
@@ -460,47 +460,47 @@ def main():
 
     Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x2)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_C69")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2E, 2)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_AD2")
-    MenuCmd(1, 0, "ＣＰＤ（ティオ）　　　装着中")
+    MenuCmd(1, 0, "Wearing CPD (Tio)")
     Jump("loc_AF4")
 
     label("loc_AD2")
 
-    MenuCmd(1, 0, "ＣＰＤ（ティオ）　　　交換する")
+    MenuCmd(1, 0, "Exchange CPD (Tio)")
 
     label("loc_AF4")
 
     RunExpression(0xB, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     RunExpression(0xC, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 7)), scpexpr(EXPR_END)), "loc_B38")
-    MenuCmd(1, 0, "ブラックキャット　　　交換済み")
+    MenuCmd(1, 0, "Black Cat replaced")
     Jump("loc_B8A")
 
     label("loc_B38")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 4)), scpexpr(EXPR_END)), "loc_B68")
-    MenuCmd(1, 0, "ブラックキャット　　　交換する")
+    MenuCmd(1, 0, "Exchange black cat")
     Jump("loc_B8A")
 
     label("loc_B68")
 
-    MenuCmd(1, 0, "ブラックキャット　　　1000ミラ")
+    MenuCmd(1, 0, "Black Cat 1000 Mira")
 
     label("loc_B8A")
 
     RunExpression(0xC, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2E, 2)), scpexpr(EXPR_END)), "loc_BC2")
-    MenuCmd(1, 0, "シャドーサークル　　　装着中")
+    MenuCmd(1, 0, "Shadow circle installed")
     Jump("loc_C14")
 
     label("loc_BC2")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 5)), scpexpr(EXPR_END)), "loc_BF2")
-    MenuCmd(1, 0, "シャドーサークル　　　交換する")
+    MenuCmd(1, 0, "Shadow circle exchange")
     Jump("loc_C14")
 
     label("loc_BF2")
 
-    MenuCmd(1, 0, "シャドーサークル　　　1000ミラ")
+    MenuCmd(1, 0, "Shadow Circle 1000 Mira")
 
     label("loc_C14")
 
@@ -524,47 +524,47 @@ def main():
 
     Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x3)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_E42")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF1, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2E, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_CCB")
-    MenuCmd(1, 0, "ＣＰＤ（ランディ）　　装着中")
+    MenuCmd(1, 0, "Wearing CPD (Randy)")
     Jump("loc_CED")
 
     label("loc_CCB")
 
-    MenuCmd(1, 0, "ＣＰＤ（ランディ）　　交換する")
+    MenuCmd(1, 0, "Exchange CPD (Randy)")
 
     label("loc_CED")
 
     RunExpression(0xE, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     RunExpression(0xF, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF1, 0)), scpexpr(EXPR_END)), "loc_D2F")
-    MenuCmd(1, 0, "デンジャーオレンジ　　装着中")
+    MenuCmd(1, 0, "Danger orange installed")
     Jump("loc_D81")
 
     label("loc_D2F")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 6)), scpexpr(EXPR_END)), "loc_D5F")
-    MenuCmd(1, 0, "デンジャーオレンジ　　交換する")
+    MenuCmd(1, 0, "Exchange Danger Orange")
     Jump("loc_D81")
 
     label("loc_D5F")
 
-    MenuCmd(1, 0, "デンジャーオレンジ　　1000ミラ")
+    MenuCmd(1, 0, "Danger Orange 1000 Mira")
 
     label("loc_D81")
 
     RunExpression(0xF, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2E, 3)), scpexpr(EXPR_END)), "loc_DB9")
-    MenuCmd(1, 0, "ミッドナイトキス　　　装着中")
+    MenuCmd(1, 0, "Midnight kiss on board")
     Jump("loc_E0B")
 
     label("loc_DB9")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 7)), scpexpr(EXPR_END)), "loc_DE9")
-    MenuCmd(1, 0, "ミッドナイトキス　　　交換する")
+    MenuCmd(1, 0, "Midnight kiss to exchange")
     Jump("loc_E0B")
 
     label("loc_DE9")
 
-    MenuCmd(1, 0, "ミッドナイトキス　　　1000ミラ")
+    MenuCmd(1, 0, "Midnight kiss 1000 Mira")
 
     label("loc_E0B")
 
@@ -585,29 +585,29 @@ def main():
 
     Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F6E")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2F, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_E9F")
-    MenuCmd(1, 0, "ＣＧＦ（ノエル）　　　装着中")
+    MenuCmd(1, 0, "Wearing CGF (Noel)")
     Jump("loc_EC1")
 
     label("loc_E9F")
 
-    MenuCmd(1, 0, "ＣＧＦ（ノエル）　　　交換する")
+    MenuCmd(1, 0, "Exchange CGF (Noel)")
 
     label("loc_EC1")
 
     RunExpression(0x11, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2F, 0)), scpexpr(EXPR_END)), "loc_EF9")
-    MenuCmd(1, 0, "リバティーロード　　　装着中")
+    MenuCmd(1, 0, "Liberty Road installed")
     Jump("loc_F4B")
 
     label("loc_EF9")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2D, 1)), scpexpr(EXPR_END)), "loc_F29")
-    MenuCmd(1, 0, "リバティーロード　　　交換する")
+    MenuCmd(1, 0, "Exchange Liberty Road")
     Jump("loc_F4B")
 
     label("loc_F29")
 
-    MenuCmd(1, 0, "リバティーロード　　　1000ミラ")
+    MenuCmd(1, 0, "Liberty Road 1000 Mira")
 
     label("loc_F4B")
 
@@ -625,29 +625,29 @@ def main():
 
     Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_107C")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2E, 4)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_FC1")
-    MenuCmd(1, 0, "ホワイトクリード　　　装着中")
+    MenuCmd(1, 0, "Wearing white creed")
     Jump("loc_FE3")
 
     label("loc_FC1")
 
-    MenuCmd(1, 0, "ホワイトクリード　　　交換する")
+    MenuCmd(1, 0, "Exchange white creed")
 
     label("loc_FE3")
 
     RunExpression(0x13, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2E, 4)), scpexpr(EXPR_END)), "loc_101B")
-    MenuCmd(1, 0, "クレストフェイス　　　装着中")
+    MenuCmd(1, 0, "Crest face is being worn")
     Jump("loc_106D")
 
     label("loc_101B")
 
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2D, 0)), scpexpr(EXPR_END)), "loc_104B")
-    MenuCmd(1, 0, "クレストフェイス　　　交換する")
+    MenuCmd(1, 0, "Crest face replacement")
     Jump("loc_106D")
 
     label("loc_104B")
 
-    MenuCmd(1, 0, "クレストフェイス　　　1000ミラ")
+    MenuCmd(1, 0, "Crest Face 1000 Mira")
 
     label("loc_106D")
 
@@ -661,7 +661,7 @@ def main():
 
     label("loc_1090")
 
-    MenuCmd(1, 0, "やめる")
+    MenuCmd(1, 0, "quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
     OP_60(0x0)
@@ -776,9 +776,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "このカバーはロイド専用です。\x01",
+            "This cover is only for Lloyd.\x01",
             "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
-            "戦術オーブメントのカバーが変わります。\x07\x00\x02",
+            "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
 
@@ -793,9 +793,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "このカバーはエリィ専用です。\x01",
+            "This cover is for Ellie only.\x01",
             "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
-            "戦術オーブメントのカバーが変わります。\x07\x00\x02",
+            "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
 
@@ -810,9 +810,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "このカバーはティオ専用です。\x01",
+            "This cover is only for Tio.\x01",
             "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
-            "戦術オーブメントのカバーが変わります。\x07\x00\x02",
+            "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
 
@@ -827,9 +827,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "このカバーはランディ専用です。\x01",
+            "This cover is only for Randy.\x01",
             "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
-            "戦術オーブメントのカバーが変わります。\x07\x00\x02",
+            "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
 
@@ -844,9 +844,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "このカバーはノエル専用です。\x01",
+            "This cover is only for Noel.\x01",
             "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
-            "戦術オーブメントのカバーが変わります。\x07\x00\x02",
+            "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
 
@@ -861,9 +861,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "このカバーはワジ専用です。\x01",
+            "This cover is only for wadi.\x01",
             "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
-            "戦術オーブメントのカバーが変わります。\x07\x00\x02",
+            "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
 
@@ -874,7 +874,7 @@ def main():
 
     AnonymousTalk(
         0x8,
-        "はい、これでいいですか〜？\x02",
+        "Yes, is this OK?\x02",
     )
 
     CloseMessageWindow()
@@ -887,8 +887,8 @@ def main():
         -1,
         1,
         (
-            "【交換を頼む】\x01",      # 0
-            "【やめておく】\x01",      # 1
+            "【Asking for exchange】\x01",      # 0
+            "【I will stop it】\x01",      # 1
         )
     )
 
@@ -1098,8 +1098,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "あれ〜、すでに装着中ですよ？\x01",
-            "ほかのを選んでくださいねぇ。\x02",
+            "That ~ is already wearing it?\x01",
+            "Please choose another one.\x02",
         )
     )
 
@@ -1113,8 +1113,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "あれ〜、ミラが足りないみたいですよ？\x01",
-            "それじゃ交換はできないですぅ。\x02",
+            "It seems that Mira is not enough?\x01",
+            "Then we can not exchange it.\x02",
         )
     )
 
@@ -1127,8 +1127,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "了解ですぅ。\x01",
-            "ちょっと待っててくださいですぅ〜噴\x02",
+            "I understand.\x01",
+            "Please wait a moment ~ Eruption\x02",
         )
     )
 
@@ -1142,7 +1142,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "はい、お待たせですぅ。\x02",
+        "Yes, I will keep you waiting.\x02",
     )
 
     CloseMessageWindow()
@@ -1154,7 +1154,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドのエニグマカバーを交換した。\x07\x00\x02",
+            "I replaced Lloyd's Enigma cover.\x07\x00\x02",
         )
     )
 
@@ -1198,7 +1198,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "エリィのエニグマカバーを交換した。\x07\x00\x02",
+            "I replaced Elie 's Enigma cover.\x07\x00\x02",
         )
     )
 
@@ -1244,7 +1244,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ティオのエニグマカバーを交換した。\x07\x00\x02",
+            "I exchanged Tio's Enigma cover.\x07\x00\x02",
         )
     )
 
@@ -1290,7 +1290,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ランディのエニグマカバーを交換した。\x07\x00\x02",
+            "I replaced Randy 's Enigma cover.\x07\x00\x02",
         )
     )
 
@@ -1336,7 +1336,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ノエルのエニグマカバーを交換した。\x07\x00\x02",
+            "I exchanged noel's enigma cover.\x07\x00\x02",
         )
     )
 
@@ -1367,7 +1367,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ワジのエニグマカバーを交換した。\x07\x00\x02",
+            "I exchanged wadi's Enigma cover.\x07\x00\x02",
         )
     )
 
@@ -1399,8 +1399,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ふふ、またのご利用を\x01",
-            "お待ちしてま〜す。\x02",
+            "Hehe, use of\x01",
+            "We look forward.\x02",
         )
     )
 
@@ -1441,51 +1441,51 @@ def main():
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x63), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_29E5")
     MenuCmd(0, 0)
     Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('白金', 0x4)"), scpexpr(EXPR_END)), "loc_2221")
-    MenuCmd(1, 0, "プラチナ　　　　購入済み")
+    MenuCmd(1, 0, "Platinum purchased")
     MenuCmd(3, 0, 0x0)
     Jump("loc_223D")
 
     label("loc_2221")
 
-    MenuCmd(1, 0, "プラチナ　　　　1000ミラ")
+    MenuCmd(1, 0, "Platinum 1000 Mira")
 
     label("loc_223D")
 
     Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('幻象', 0x4)"), scpexpr(EXPR_END)), "loc_226D")
-    MenuCmd(1, 0, "ミラージュ　　　購入済み")
+    MenuCmd(1, 0, "Mirage purchased")
     MenuCmd(3, 0, 0x1)
     Jump("loc_2289")
 
     label("loc_226D")
 
-    MenuCmd(1, 0, "ミラージュ　　　5000ミラ")
+    MenuCmd(1, 0, "Mirage 5000 Mira")
 
     label("loc_2289")
 
     Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_232F")
     Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('神佑', 0x4)"), scpexpr(EXPR_END)), "loc_22C7")
-    MenuCmd(1, 0, "イージス　　　　購入済み")
+    MenuCmd(1, 0, "Aegis purchased")
     MenuCmd(3, 0, 0x2)
     Jump("loc_22E3")
 
     label("loc_22C7")
 
-    MenuCmd(1, 0, "イージス　　　 20000ミラ")
+    MenuCmd(1, 0, "Aegis 20000 Mira")
 
     label("loc_22E3")
 
     Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('王权', 0x4)"), scpexpr(EXPR_END)), "loc_2313")
-    MenuCmd(1, 0, "セプター　　　　購入済み")
+    MenuCmd(1, 0, "Buyer purchased")
     MenuCmd(3, 0, 0x3)
     Jump("loc_232F")
 
     label("loc_2313")
 
-    MenuCmd(1, 0, "セプター　　　 50000ミラ")
+    MenuCmd(1, 0, "Scepter 50000 Mira")
 
     label("loc_232F")
 
-    MenuCmd(1, 0, "やめる")
+    MenuCmd(1, 0, "quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
     OP_60(0x0)
@@ -1534,8 +1534,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "空属性のマスタークオーツです。\x01",
-            "※HP/ADF強化型・敵に止めを刺すとHP回復\x07\x00\x02",
+            "Master quartz with sky attribute.\x01",
+            "* HP / ADF reinforced type · HP recovery when stabbing the enemy\x07\x00\x02",
         )
     )
 
@@ -1550,8 +1550,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "幻属性のマスタークオーツです。\x01",
-            "※EP/ATS強化型・敵に止めを刺すとEP回復\x07\x00\x02",
+            "It is a phantom attribute master quartz.\x01",
+            "※ EP / ATS reinforced type · Episodic recovery by stabbing the enemy\x07\x00\x02",
         )
     )
 
@@ -1566,8 +1566,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "地属性のマスタークオーツです。\x01",
-            "※DEF/ADF強化型・特定条件で「完全防御」効果\x07\x00\x02",
+            "It is master quartz of earth attribute.\x01",
+            "※ DEF / ADF reinforced type · \"complete defense\" effect under specified conditions\x07\x00\x02",
         )
     )
 
@@ -1582,8 +1582,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "水属性のマスタークオーツです。\x01",
-            "※STR/ATS強化型・攻撃毎にセピス入手\x07\x00\x02",
+            "It is Master Quartz with water attribute.\x01",
+            "※ STR / ATS reinforced type · Sepis obtained for each attack\x07\x00\x02",
         )
     )
 
@@ -1594,7 +1594,7 @@ def main():
 
     AnonymousTalk(
         0x8,
-        "はい、これでいいですか〜？\x02",
+        "Yes, is this OK?\x02",
     )
 
     CloseMessageWindow()
@@ -1607,8 +1607,8 @@ def main():
         -1,
         1,
         (
-            "【購入する】\x01",        # 0
-            "【やめておく】\x01",      # 1
+            "【Purchase】\x01",        # 0
+            "【I will stop it】\x01",      # 1
         )
     )
 
@@ -1626,8 +1626,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "あれ〜、ミラが足りないみたいですよ？\x01",
-            "それじゃ購入はできないですぅ。\x02",
+            "It seems that Mira is not enough?\x01",
+            "Then you can not purchase.\x02",
         )
     )
 
@@ -1640,8 +1640,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "了解ですぅ。\x01",
-            "ちょっと待っててくださいですぅ〜噴\x02",
+            "I understand.\x01",
+            "Please wait a moment ~ Eruption\x02",
         )
     )
 
@@ -1655,7 +1655,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "はい、お待たせですぅ。\x02",
+        "Yes, I will keep you waiting.\x02",
     )
 
     CloseMessageWindow()
@@ -1670,7 +1670,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '白金'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -1695,7 +1695,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '幻象'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -1720,7 +1720,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '神佑'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -1745,7 +1745,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '王权'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -1762,8 +1762,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ふふ、またのご利用を\x01",
-            "お待ちしてま〜す。\x02",
+            "Hehe, use of\x01",
+            "We look forward.\x02",
         )
     )
 
@@ -1799,8 +1799,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "さてと、今日もそろそろ\x01",
-            "店じまいの時間ですねぇ。\x02",
+            "Well, today is almost time.\x01",
+            "It's time for a shop.\x02",
         )
     )
 
@@ -1809,9 +1809,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "パパは相変わらず\x01",
-            "お店にいるみたいですけど……\x01",
-            "早く帰って欲しいです。\x02",
+            "Papa as usual\x01",
+            "It looks like you are in a shop ….\x01",
+            "I want you to return soon.\x02",
         )
     )
 
@@ -1847,10 +1847,10 @@ def main():
         -1,
         1,
         (
-            "話をする\x01",            # 0
-            "改造・合成する\x01",      # 1
-            "質問する\x01",            # 2
-            "やめる\x01",              # 3
+            "talk\x01",            # 0
+            "To remodel and synthesize\x01",      # 1
+            "Question\x01",            # 2
+            "quit\x01",              # 3
         )
     )
 
@@ -1900,8 +1900,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "あっ、ロイドたち。\x01",
-            "こんな時間に珍しいね。\x02",
+            "Oh, Lloyd.\x01",
+            "It is unusual at such time.\x02",
         )
     )
 
@@ -1910,9 +1910,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004Fああ、ちょっと\x01",
-            "緊急の捜査が入ってさ。\x02\x03",
-            "#00000F店の方はまだ大丈夫だよな？\x02",
+            "#00004FOh, hey\x01",
+            "An urgent investigation has entered.\x02\x03",
+            "#00000FThe shop is still okay?\x02",
         )
     )
 
@@ -1921,8 +1921,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ああうん、基本的に８時までは\x01",
-            "普通にやってるからね。\x02",
+            "Oh yeah, basically until 8 o'clock\x01",
+            "I do it normally.\x02",
         )
     )
 
@@ -1931,8 +1931,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fそうか、よかった。\x01",
-            "じゃあ必要な時は調整を頼むよ。\x02",
+            "#00000FI see, I am glad.\x01",
+            "Then I will ask for adjustments when necessary.\x02",
         )
     )
 
@@ -1941,8 +1941,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "うん、了解。\x01",
-            "それじゃいつでも声掛けてね。\x02",
+            "Yes, I got it.\x01",
+            "Then call me out anytime.\x02",
         )
     )
 
@@ -1956,8 +1956,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "エニグマ嘦関係で何かあったら\x01",
-            "いつでも言ってね。\x02",
+            "If there is something related to Enigma\x01",
+            "Say it anytime you'd like.\x02",
         )
     )
 
@@ -1965,7 +1965,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "さくっとバッチリ調整しちゃうから。\x02",
+        "I'll adjust it perfectly.\x02",
     )
 
     CloseMessageWindow()
@@ -1984,8 +1984,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "オッケー。\x01",
-            "何について聞きたいの？\x02",
+            "Okay.\x01",
+            "What do you want to ask?\x02",
         )
     )
 
@@ -2003,14 +2003,14 @@ def main():
         -1,
         1,
         (
-            "戦術オーブメントについて\x01",        # 0
-            "クオーツについて\x01",                # 1
-            "スロットの開封について\x01",          # 2
-            "スロットの強化について\x01",          # 3
-            "導力魔法（アーツ）について\x01",      # 4
-            "エニグマ嘦について\x01",              # 5
-            "マスタークオーツについて\x01",        # 6
-            "やめる\x01",                          # 7
+            "About tactical auction\x01",        # 0
+            "About Quartz\x01",                # 1
+            "About opening the slot\x01",          # 2
+            "About slot reinforcement\x01",          # 3
+            "About conductivity magic (Arts)\x01",      # 4
+            "About Enigma\x01",              # 5
+            "マスターAbout Quartz\x01",        # 6
+            "quit\x01",                          # 7
         )
     )
 
@@ -2041,9 +2041,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "《戦術オーブメント》は、\x01",
-            "戦闘用に特化した\x01",
-            "小型の携帯導力器のことよ。\x02",
+            "\"Tactical orbement\"\x01",
+            "Specialized for battle\x01",
+            "It's a small portable power guide.\x02",
         )
     )
 
@@ -2052,8 +2052,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "使用者の能力を強化してくれるほか\x01",
-            "導力魔法#8Rア  ー  ツ#の使用もサポートしてくれるの。\x02",
+            "In addition to enhancing the user's abilities\x01",
+            "Power magic#8RArts#It also supports the use of.\x02",
         )
     )
 
@@ -2062,8 +2062,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "一般的には、単に『オーブメント』って\x01",
-            "呼ばれることも多いわね。\x02",
+            "Generally, simply \"an aim\"\x01",
+            "There are many things called.\x02",
         )
     )
 
@@ -2072,9 +2072,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "オーブメントは個人に合わせて\x01",
-            "完璧に調整されてるから、\x01",
-            "持ち主によって構造が異なるわよ。\x02",
+            "Ordered to individuals\x01",
+            "Because it is perfectly adjusted,\x01",
+            "The structure differs depending on the owner.\x02",
         )
     )
 
@@ -2083,9 +2083,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "属性限定のスロットがあったり、\x01",
-            "スロットを結ぶ線#2Rライン#の形が違ったりするわ。\x01",
-            "一度みんなで見比べてみるといいかもね。\x02",
+            "There are slots with attribute limitations,\x01",
+            "Line connecting slots#2Rline#There are different forms.\x01",
+            "It may be good to compare them once.\x02",
         )
     )
 
@@ -2098,8 +2098,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "クオーツは、セピスを精錬して作られる\x01",
-            "オーブメント用の『結晶回路』のことね。\x02",
+            "Quartz is made by refining sepis\x01",
+            "About \"crystal circuit\" for the orbment.\x02",
         )
     )
 
@@ -2108,8 +2108,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "必要なセピスさえ持ってきてくれれば\x01",
-            "ウチで合成ができるわ。\x02",
+            "If you bring even the necessary sepises\x01",
+            "I can synthesize with my house.\x02",
         )
     )
 
@@ -2118,9 +2118,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "クオーツによって色々な効果があるし、\x01",
-            "属性値が一定以上になると\x01",
-            "導力魔法#8Rア  ー  ツ#が使えるようになるの。\x02",
+            "There are various effects depending on quartz,\x01",
+            "When the attribute value becomes equal to or greater than a certain value\x01",
+            "Power magic#8RArts#You will be able to use it.\x02",
         )
     )
 
@@ -2128,7 +2128,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "セピスが溜まったら色々試してみてね。\x02",
+        "If sepis gathers up try it a lot.\x02",
     )
 
     CloseMessageWindow()
@@ -2140,8 +2140,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "オーブメントのスロットは\x01",
-            "初めはほとんどが未開封の状態よ。\x02",
+            "The slot of the auction\x01",
+            "In the beginning most of it is unopened.\x02",
         )
     )
 
@@ -2150,8 +2150,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "だからクオーツをセットするには\x01",
-            "まずはスロットを開封する必要があるの。\x02",
+            "So to set quartz\x01",
+            "First of all I need to open the slot.\x02",
         )
     )
 
@@ -2160,9 +2160,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "スロットを開封すれば、\x01",
-            "それだけクオーツも沢山付けられるし\x01",
-            "最大ＥＰも上昇するわ。\x02",
+            "If you open the slot,\x01",
+            "That's why we can also add quartz\x01",
+            "The maximum EP will also rise.\x02",
         )
     )
 
@@ -2171,8 +2171,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "開封にはセピスが必要になるけど、\x01",
-            "早めに開封して損はないと思うわよ。\x02",
+            "For opening it requires sepice,\x01",
+            "I think it will not be damaged as soon as possible to open it.\x02",
         )
     )
 
@@ -2185,8 +2185,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "クオーツの中には『上位クオーツ』と\x01",
-            "呼ばれるものがあってね。\x02",
+            "In the quartz, \"Top Quartz\" and\x01",
+            "There is something called.\x02",
         )
     )
 
@@ -2195,8 +2195,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "これは強力すぎて、普通のスロットだと\x01",
-            "セットすることが出来ないの。\x02",
+            "This is too strong, it's an ordinary slot\x01",
+            "I can not set it.\x02",
         )
     )
 
@@ -2205,8 +2205,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "そこで必要になるのが、\x01",
-            "スロット自体の強化ってわけ。\x02",
+            "Then,\x01",
+            "It is strengthening the slot itself.\x02",
         )
     )
 
@@ -2215,8 +2215,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "開封と同様にセピスが必要になるけど、\x01",
-            "最大ＥＰも上昇するからね。\x02",
+            "Sepis is necessary as well as opening,\x01",
+            "The maximum EP will also rise.\x02",
         )
     )
 
@@ -2225,9 +2225,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "強化を焦ることはないと思うけど、\x01",
-            "オーブメントのパワーアップには\x01",
-            "欠かせない要素と言えるでしょうね。\x02",
+            "I do not think that strengthening will be impatient,\x01",
+            "To power up the auction\x01",
+            "It can be said to be an indispensable element.\x02",
         )
     )
 
@@ -2240,8 +2240,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "戦術オーブメントを使って発動する魔法が\x01",
-            "いわゆる導力魔法#8Rオーバルアーツ#ね。\x02",
+            "Magic to activate using tactical orbient\x01",
+            "The so-called guiding magic#8ROval Arts#Right.\x02",
         )
     )
 
@@ -2249,7 +2249,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "単純に『アーツ』って呼ばれる事が多いわ。\x02",
+        "There are many things called simply \"Arts\".\x02",
     )
 
     CloseMessageWindow()
@@ -2257,20 +2257,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "アーツは、セットしたクオーツの\x01",
-            "『ラインごとの属性値の合計』によって\x01",
-            "発動できる種類が決まってくるの。\x02",
-        )
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x9,
-        (
-            "つまり、セットしたクオーツの\x01",
-            "属性値が高ければ高いほど、\x01",
-            "使えるアーツも増えるってわけね。\x02",
+            "Arts, the set quartz\x01",
+            "By \"sum of attribute values per line\"\x01",
+            "The type that can be activated is decided.\x02",
         )
     )
 
@@ -2279,9 +2268,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ちなみに、より強力なアーツを\x01",
-            "使いたい場合は属性値の組み合わせも\x01",
-            "重要になってくるわ。\x02",
+            "In other words, the set quartz\x01",
+            "The higher the attribute value,\x01",
+            "You can increase the number of available arts.\x02",
         )
     )
 
@@ -2290,9 +2279,20 @@ def main():
     ChrTalk(
         0x9,
         (
-            "その辺りの詳しい情報は、\x01",
-            "捜査手帳にリストが載っているから\x01",
-            "そちらを参照してね。\x02",
+            "Incidentally, more powerful arts\x01",
+            "If you want to use it, also combine attribute values\x01",
+            "It gets important.\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x9,
+        (
+            "For more information about that,\x01",
+            "Because the list is listed in the investigation notebook\x01",
+            "Please refer to that.\x02",
         )
     )
 
@@ -2305,9 +2305,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "エニグマの通信機能を引き継ぎ、\x01",
-            "大胆な改造が施された後継機――\x01",
-            "それが『エニグマ嘦』よ。\x02",
+            "Taking over the communication function of Enigma,\x01",
+            "A successor to which a bold remodeling was given -\x01",
+            "That is \"Enigma 嘦\".\x02",
         )
     )
 
@@ -2316,9 +2316,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "唯一にして最大の変更点は、\x01",
-            "新たに『マスタークオーツ』という\x01",
-            "特別なクオーツに対応されたことね。\x02",
+            "The only biggest change is that,\x01",
+            "Newly referred to as \"Master Quartz\"\x01",
+            "It has been dealt with special quartz.\x02",
         )
     )
 
@@ -2327,9 +2327,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ちなみに大抵そうなんだけど……\x01",
-            "今回のバージョンアップによって\x01",
-            "基本アーキテクチャに変更があってね。\x02",
+            "By the way, it seems mostly ….\x01",
+            "With this version upgrade\x01",
+            "There is a change in the basic architecture.\x02",
         )
     )
 
@@ -2338,9 +2338,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "だから、互換性の問題で\x01",
-            "旧エニグマで使っていたクオーツは\x01",
-            "一切セットができないの。\x02",
+            "So, with compatibility issues\x01",
+            "Quartz used in old Enigma\x01",
+            "I can not do any set.\x02",
         )
     )
 
@@ -2349,8 +2349,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "てわけで、エニグマ嘦を使うには\x01",
-            "新しい規格のクオーツが必要になるわよ。\x02",
+            "So, to use Enigma\x01",
+            "You will need a new standard quartz.\x02",
         )
     )
 
@@ -2363,9 +2363,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "マスタークオーツは、\x01",
-            "エニグマ嘦の中心に嵌める\x01",
-            "特別なクオーツのことよ。\x02",
+            "Master Quartz,\x01",
+            "Fits in the center of Enigma\x01",
+            "It's about special quartz.\x02",
         )
     )
 
@@ -2374,8 +2374,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "従来のクオーツと決定的に違うのは\x01",
-            "それ自身が『成長する』ということね。\x02",
+            "What is decisively different from traditional quartz\x01",
+            "That means that it \"grows\".\x02",
         )
     )
 
@@ -2384,9 +2384,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "オーブメントにセットした状態で\x01",
-            "戦闘を重ねることで、レベルが上がって\x01",
-            "より強力な効果を発揮してくれるわ。\x02",
+            "With it set in the auction\x01",
+            "By repeating battle, the level got higher\x01",
+            "It will show more powerful effect.\x02",
         )
     )
 
@@ -2395,9 +2395,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "使用者の能力強化、\x01",
-            "クオーツの特殊効果、そして属性値……\x01",
-            "大きな成長要素はこの３点ね。\x02",
+            "Enhance user ability,\x01",
+            "Special effect of quartz, attribute value … ….\x01",
+            "These are three major growth factors.\x02",
         )
     )
 
@@ -2406,9 +2406,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ちなみにマスタークオーツは\x01",
-            "どんなものでも最後まで育てれば\x01",
-            "非常に強力なものになるらしいわ。\x02",
+            "By the way Master Quartz\x01",
+            "If you nurture anything to the end\x01",
+            "It seems to be very powerful.\x02",
         )
     )
 
@@ -2417,8 +2417,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "レベルを上げるには\x01",
-            "かなりの時間がかかるみたいだし……\x02",
+            "How to raise the level\x01",
+            "It seems that it will take quite a while … …\x02",
         )
     )
 
@@ -2427,8 +2427,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "浮気せずに、気に入ったものを\x01",
-            "使い続けることが重要かもしれないわね。\x02",
+            "Without cheating, what you like\x01",
+            "It may be important to keep using it.\x02",
         )
     )
 
@@ -2460,7 +2460,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "こんばんは、《ゲンテン》へようこそ。\x02",
+        "Good evening, Welcome to \"Genten\".\x02",
     )
 
     CloseMessageWindow()
@@ -2468,8 +2468,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "閉店までまだ時間はありますので、\x01",
-            "焦らずにごゆっくりご覧ください。\x02",
+            "Since there is still time until closing,\x01",
+            "Please slowly see without being rash.\x02",
         )
     )
 
@@ -2488,7 +2488,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "あら、もうこんな時間なのね。\x02",
+        "Oh, it is already such a time.\x02",
     )
 
     CloseMessageWindow()
@@ -2496,8 +2496,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うふふ、早く帰って自慢の\x01",
-            "導力レンジでお料理しなくっちゃ。\x02",
+            "Uhufu, boasting back home soon\x01",
+            "I have to cook with a range of power.\x02",
         )
     )
 
@@ -2511,9 +2511,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "最新型の導力レンジはね、\x01",
-            "ただ暖めるだけじゃなくて\x01",
-            "色んな調理にも使えるのよ。\x02",
+            "For the latest type of power range,\x01",
+            "Not just warming up\x01",
+            "You can use it for various cooking.\x02",
         )
     )
 
@@ -2522,8 +2522,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うふふ、便利な\x01",
-            "世の中になったものよね〜。\x02",
+            "Uhufu, handy\x01",
+            "It is something that has become world.\x02",
         )
     )
 
@@ -2546,8 +2546,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "さて、まだ時間はあるけど、\x01",
-            "言っている間に閉店時間だね。\x02",
+            "Well, I still have time,\x01",
+            "It's time to close while I was talking.\x02",
         )
     )
 
@@ -2556,8 +2556,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "夜道は危ないし、本当は\x01",
-            "チャコと一緒に帰りたい所だけど……\x02",
+            "The night road is dangerous, in reality\x01",
+            "Chacoと一緒に帰りたい所だけど……\x02",
         )
     )
 
@@ -2566,8 +2566,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "流石にそこまですると、\x01",
-            "チャコに嫌われてしまうしなぁ。\x02",
+            "To that extent,\x01",
+            "Chacoに嫌われてしまうしなぁ。\x02",
         )
     )
 
@@ -2575,7 +2575,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "ふむ、どうしたものか……\x02",
+        "Hmm, what is it ……\x02",
     )
 
     CloseMessageWindow()
@@ -2588,8 +2588,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "後ろからコッソリ付いていくと\x01",
-            "私が不審人物になってしまうしなぁ。\x02",
+            "As you go along with Kosori from behind\x01",
+            "I will become a suspicious person.\x02",
         )
     )
 
@@ -2597,7 +2597,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "今日も大人しく帰るとするか……\x02",
+        "I suppose I should go home quietly today ….\x02",
     )
 
     CloseMessageWindow()
@@ -2619,9 +2619,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "もうすぐ営業終了時間かぁ。\x01",
-            "お客さんはまだ\x01",
-            "結構いるみたいだけど……\x02",
+            "It will be business closing time soon.\x01",
+            "The customer is still\x01",
+            "It seems quite enough ….\x02",
         )
     )
 
@@ -2629,7 +2629,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "…………声、かけてみるか？\x02",
+        "………… Voice, why do not you try it?\x02",
     )
 
     CloseMessageWindow()
@@ -2642,8 +2642,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "勇気を振り絞って\x01",
-            "チャコちゃんに声を……\x02",
+            "Sprinkle courage\x01",
+            "Chacoちゃんに声を……\x02",
         )
     )
 
@@ -2652,8 +2652,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふう、ちょっと\x01",
-            "落ち着いて考えるか。\x02",
+            "Fuu, hey\x01",
+            "Do you think calmly?\x02",
         )
     )
 

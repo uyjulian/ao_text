@@ -19,19 +19,19 @@ def main():
 
     BuildStringList((
         "e4000",                  # 0
-        "ガレリア要塞司令",       # 1
-        "帝国軍兵士",             # 2
-        "帝国軍兵士",             # 3
-        "帝国軍兵士",             # 4
-        "帝国軍兵士",             # 5
-        "帝国軍兵士",             # 6
-        "帝国軍兵士",             # 7
-        "帝国軍兵士",             # 8
-        "帝国軍兵士",             # 9
-        "帝国軍兵士",             # 10
-        "帝国軍兵士",             # 11
-        "帝国軍兵士",             # 12
-        "帝国軍兵士",             # 13
+        "Galleria Fortress Command",       # 1
+        "Imperial army soldier",             # 2
+        "Imperial army soldier",             # 3
+        "Imperial army soldier",             # 4
+        "Imperial army soldier",             # 5
+        "Imperial army soldier",             # 6
+        "Imperial army soldier",             # 7
+        "Imperial army soldier",             # 8
+        "Imperial army soldier",             # 9
+        "Imperial army soldier",             # 10
+        "Imperial army soldier",             # 11
+        "Imperial army soldier",             # 12
+        "Imperial army soldier",             # 13
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -177,7 +177,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P#4Sば、馬鹿な……！？\x02",
+        "#5P#4SStupid, stupid …! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -185,8 +185,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P第５機甲師団が\x01",
-            "壊滅しただと！？\x02",
+            "#5PThe 5th Armored Division\x01",
+            "It has been destroyed! Is it?\x02",
         )
     )
 
@@ -203,7 +203,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#11Pし、信じ難いことですが……\x02",
+        "#11PAnd, it is unbelievable ……\x02",
     )
 
     CloseMessageWindow()
@@ -211,8 +211,8 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#11P巨大な人型が現れて\x01",
-            "全てを薙ぎ払ったと……\x02",
+            "#11PA huge humanoid appears.\x01",
+            "I paid everything away ……\x02",
         )
     )
 
@@ -220,7 +220,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5Pな、何を馬鹿な……\x02",
+        "#5PWhat, stupid ……\x02",
     )
 
     CloseMessageWindow()
@@ -228,9 +228,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P……まあいい。\x01",
-            "そっちがその気ならば\x01",
-            "こちらも容赦はせん。\x02",
+            "#5P… Well good.\x01",
+            "If you feel like that\x01",
+            "There is no mercy here either.\x02",
         )
     )
 
@@ -251,8 +251,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#4S列車砲起動！\x01",
-            "目標、クロスベル市！\x02",
+            "#5P#4STrain cannon launch!\x01",
+            "Goal, Crossbell City!\x02",
         )
     )
 
@@ -261,8 +261,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#4Sせめてもの情けだ！\x01",
-            "民間人の密集地は避けてやれ！\x02",
+            "#5P#4SIt is least embarrassing!\x01",
+            "Avoid crowds of civilians!\x02",
         )
     )
 
@@ -270,11 +270,11 @@ def main():
     Sleep(500)
     SetMessageWindowPos(330, 140, -1, -1)
     OP_82(0xC8, 0x0, 0xBB8, 0x12C)
-    SetChrName("兵士たち")
+    SetChrName("Soldiers")
 
     AnonymousTalk(
         0xFF,
-        "#5S了解#4Rヤ ー#！\x02",
+        "#5Sroger that#4RYa#It is!\x02",
     )
 
     CloseMessageWindow()

@@ -20,10 +20,10 @@ def main():
     BuildStringList((
         "c1581",                  # 0
         " ",                      # 1
-        "フラッグトルーパー",     # 2
-        "フラッグトルーパー",     # 3
-        "フラッグトルーパー",     # 4
-        "フラッグトルーパー",     # 5
+        "Flag Trooper",     # 2
+        "Flag Trooper",     # 3
+        "Flag Trooper",     # 4
+        "Flag Trooper",     # 5
         "bc1520",                 # 6
         "bc1520",                 # 7
         "bc1520",                 # 8
@@ -414,7 +414,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药·改'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -434,14 +434,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '圣灵药·改'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '圣灵药·改'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -466,7 +466,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -505,7 +505,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '混乱之刃２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -525,14 +525,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '混乱之刃２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '混乱之刃２'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -557,7 +557,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -596,7 +596,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅲ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -616,14 +616,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅲ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, 'ＥＰ填充剂Ⅲ'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -648,7 +648,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -687,7 +687,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '红色卡片钥匙'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -707,14 +707,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '红色卡片钥匙'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '红色卡片钥匙'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -739,7 +739,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -776,7 +776,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "オーブメントを回復できる装置がある。\x07\x00\x02",
+            "There are devices that can recover the orbment.\x07\x00\x02",
         )
     )
 
@@ -787,8 +787,8 @@ def main():
         -1,
         1,
         (
-            "ここで休憩する\x01",      # 0
-            "やめる\x01",              # 1
+            "To take a break here\x01",      # 0
+            "quit\x01",              # 1
         )
     )
 
@@ -843,7 +843,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "もう動かないようだ。\x02",
+            "It does not seem to move anymore.\x02",
         )
     )
 
@@ -862,8 +862,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "スイッチがある。\x01",
-            "操作しますか？\x02",
+            "There is a switch.\x01",
+            "Do you want to operate it?\x02",
         )
     )
 
@@ -874,8 +874,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -932,7 +932,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉は固く閉ざされている。\x02",
+            "The door is tightly closed.\x02",
         )
     )
 
@@ -952,8 +952,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "セキュリティーでロックされている扉がある。\x01",
-            "赤いカードキーを使いますか？\x02",
+            "There is a door locked by security.\x01",
+            "Do you use the red card key?\x02",
         )
     )
 
@@ -964,8 +964,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1029,7 +1029,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00011Fな、なんだこれ……！？\x02",
+        "#12P#00011FWhat is this …! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -1038,9 +1038,9 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#12P#10712F人形兵器……でしょうか。\x02\x03",
-            "#10701F動き出す気配は\x01",
-            "感じられませんが……\x02",
+            "#12P#10712FPuppet weapon … is it?\x02\x03",
+            "#10701FThe sign of moving\x01",
+            "I can not feel it … …\x02",
         )
     )
 
@@ -1054,9 +1054,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10405F人形兵器……かな？\x02\x03",
-            "#10401Fどうも、動き出す気配は\x01",
-            "ないみたいだけど。\x02",
+            "#12P#10405FPuppet weapon … Is it kana?\x02\x03",
+            "#10401FThanks,\x01",
+            "There seems to be no such thing.\x02",
         )
     )
 
@@ -1070,9 +1070,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#12P#10111Fに、人形兵器でしょうか？\x02\x03",
-            "#10106F動き出す気配は\x01",
-            "ないみたいですけど……\x02",
+            "#12P#10111FIs it a puppet weapon?\x02\x03",
+            "#10106FThe sign of moving\x01",
+            "I do not see that ….\x02",
         )
     )
 
@@ -1087,9 +1087,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#11Pこれは……間違いありません。\x02\x03",
-            "#00201Fエプスタイン財団で開発されていた\x01",
-            "《エイドロンギア》です。\x02",
+            "#00208F#11PThis … … there is no mistake.\x02\x03",
+            "#00201FIt was developed by Epstein Foundation\x01",
+            "It is \"AIDLONGEAR\".\x02",
         )
     )
 
@@ -1150,14 +1150,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305F#6Pなんだと……！？\x02",
+        "#00305F#6Pwhat……! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00101F#6Pそ、それって……\x02",
+        "#00101F#6PWell, that is ….\x02",
     )
 
     CloseMessageWindow()
@@ -1165,16 +1165,16 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#11P……リベールの異変の後、\x01",
-            "《結社》の人形兵器に対抗するべく\x01",
-            "ある計画が立ち上がりました。\x02\x03",
-            "#00201F《オーバルギア計画》……\x02\x03",
-            "リベールのＺＣＦで着手され、\x01",
-            "財団がソフト面で協力することで\x01",
-            "本格始動したプロジェクトです。\x02\x03",
-            "#00204Fこれは、高名なＡ・ラッセル博士を\x01",
-            "レマン自治州にお招きして共同開発した\x01",
-            "最新鋭のテスト機体になります。\x02",
+            "#00203F#11P… … After the incident of Libert,\x01",
+            "To combat \"pilot\" puppet weapons\x01",
+            "A certain plan has come up.\x02\x03",
+            "#00201F\"Oval gear plan\" … ….\x02\x03",
+            "It was undertaken by Libert's ZCF,\x01",
+            "By the foundation's cooperation on the software side\x01",
+            "It is a project that started full-scale.\x02\x03",
+            "#00204FThis is because Dr. A · Russell, the prestigious name\x01",
+            "Invited to Leman Autonomous Region and jointly developed\x01",
+            "It becomes the state-of-the-art test fuselage.\x02",
         )
     )
 
@@ -1183,9 +1183,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F#6Pそんな計画が……\x02\x03",
-            "#00001Fでも、どうしてそのテスト機体が\x01",
-            "こんな場所に？\x02",
+            "#00005F#6PThat plan …\x02\x03",
+            "#00001FBut why did the test airframe\x01",
+            "In this place?\x02",
         )
     )
 
@@ -1194,9 +1194,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#11Pそれが……\x02\x03",
-            "#00201F……半年ほど前、完成間際に\x01",
-            "何者かによって盗まれてしまって……\x02",
+            "#00208F#11Pthat is……\x02\x03",
+            "#00201F…… About half a year ago, just before completion\x01",
+            "It was stolen by someone … …\x02",
         )
     )
 
@@ -1205,10 +1205,10 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#6P……ベルの仕業かもしれないわ。\x02\x03",
-            "#00108F彼女は財団で学んだ経験もあるし、\x01",
-            "導力ネット事業で、レマン自治州には\x01",
-            "頻繁に出張していたから……\x02",
+            "#00106F#6P…… It might be the work of the bell.\x02\x03",
+            "#00108FShe has experiences of learning at the Foundation,\x01",
+            "In the power net business, in the Leman Autonomous Region\x01",
+            "I was on a business trip often … ….\x02",
         )
     )
 
@@ -1218,8 +1218,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00601F#12Pなるほど……\x01",
-            "いかにも怪しいな。\x02",
+            "#00601F#12PI see……\x01",
+            "It is quite suspicious.\x02",
         )
     )
 
@@ -1232,7 +1232,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10106F#12P……怪しいですね。\x02",
+        "#10106F#12P… … It is suspicious.\x02",
     )
 
     CloseMessageWindow()
@@ -1245,8 +1245,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10402F#12Pフフ、確かにそれは\x01",
-            "真っ黒かもしれないね。\x02",
+            "#10402F#12PHuh, indeed it is\x01",
+            "It may be completely black.\x02",
         )
     )
 
@@ -1258,8 +1258,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#6P気に入ったものを手に入れるためなら\x01",
-            "何でもしそうなタイプだしなぁ。\x02",
+            "#00306F#6PIf you want to get something you like\x01",
+            "It is a type that seems to do anything.\x02",
         )
     )
 
@@ -1271,12 +1271,12 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#11P#00203F…………ふむ…………\x02\x03",
-            "#00202Fどうやら、制御を司る部分に\x01",
-            "マトリクス化されたシステムが\x01",
-            "用いられているようですね。\x02\x03",
-            "エイオンシステムに連動させれば、\x01",
-            "わたしでも操ることができそうです。\x02",
+            "#11P#00203F…………HM…………\x02\x03",
+            "#00202FApparently, in the part that controls\x01",
+            "Matrixed system is\x01",
+            "It seems to be used.\x02\x03",
+            "If linked to the Aion system,\x01",
+            "I seem to be able to handle it.\x02",
         )
     )
 
@@ -1297,7 +1297,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00307F……マ、マジか！？\x02",
+        "#6P#00307F…… Ma, Maji! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -1307,9 +1307,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#11P#00204Fええ、おそらく問題ないかと。\x02\x03",
-            "#00202Fせっかく見つけたんですし、\x01",
-            "ありがたく回収していきましょう。\x02",
+            "#11P#00204FWell, probably there is no problem.\x02\x03",
+            "#00202FI found it at my heart,\x01",
+            "Let's collect it gratefully.\x02",
         )
     )
 
@@ -1318,11 +1318,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00012Fま、まあ、元々財団の機体なら\x01",
-            "回収しても問題ないか……\x02\x03",
-            "#00004Fこれから戦いも激しくなるだろうし、\x01",
-            "活用できるなら確かに心強いな。\x02\x03",
-            "#00000F……ティオ、任せてもいいか？\x02",
+            "#6P#00012FWell, well, if it was originally the Foundation's body\x01",
+            "It does not matter if I recover …\x02\x03",
+            "#00004FThe fight will be intense from now on,\x01",
+            "If you can utilize it certainly encouraging.\x02\x03",
+            "#00000F… … Tio, can I leave it?\x02",
         )
     )
 
@@ -1330,7 +1330,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#11P#00202Fええ、了解しました。\x02",
+        "#11P#00202FYes, sorry.\x02",
     )
 
     CloseMessageWindow()
@@ -1345,7 +1345,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "『エイドロンギア』を手に入れた。\x07\x00\x02",
+            "I got \"Aidrongea\".\x07\x00\x02",
         )
     )
 
@@ -1364,9 +1364,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ティオがＳクラフト\x01\x07\x02",
-            "『エイドロンギア』\x07\x05",
-            "を修得しました。\x02",
+            "Tio S craft\x01\x07\x02",
+            "\"Aidrongea\"\x07\x05",
+            "I have learned.\x02",
         )
     )
 

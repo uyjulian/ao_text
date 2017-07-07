@@ -92,7 +92,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "扉は結界によって封じられている。\x02",
+            "The door is sealed by the barrier.\x02",
         )
     )
 

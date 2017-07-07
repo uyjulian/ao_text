@@ -54,8 +54,8 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00005Fはい、特務支援課、\x01",
-            "ロイド・バニングスです。\x02",
+            "#00005FYes, Special Affairs Support Division,\x01",
+            "It is Lloyd · Bannings.\x02",
         )
     )
 
@@ -64,14 +64,14 @@ def main():
     OP_5A()
     OP_C9(0x0, 0x80000000)
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("フランの声")
+    SetChrName("Voice of Franc")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#2711V#30Wどうも、ロイドさん〜！\x02\x03",
-            "#2712V#30W雨の中ご苦労さまですー。\x02",
+            "#2711V#30WMr. Lloyd ~!\x02\x03",
+            "#2712V#30WIt is a hard work in the rain.\x02",
         )
     )
 
@@ -86,9 +86,9 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00002Fああ、フランか。\x02\x03",
-            "#00000Fどうしたんだ？\x01",
-            "緊急要請でも入ったか？\x02",
+            "#00002FOh, Fran?\x02\x03",
+            "#00000FWhat happened?\x01",
+            "Did you also enter an emergency request?\x02",
         )
     )
 
@@ -96,15 +96,15 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("フランの声")
+    SetChrName("Voice of Franc")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "えっと、それが……\x02\x03",
-            "マインツのビクセン町長を\x01",
-            "覚えてらっしゃいますか？\x02",
+            "Er, that is ……\x02\x03",
+            "Mayex's Mayor of town\x01",
+            "Do you remember?\x02",
         )
     )
 
@@ -117,7 +117,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00005Fああ、もちろん。\x02",
+            "#00005FOh, of course.\x02",
         )
     )
 
@@ -140,8 +140,8 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00001F……ひょっとして\x01",
-            "鉱山町で何かあったのか？\x02",
+            "#00001FPossibly\x01",
+            "Did something happen in the mining town?\x02",
         )
     )
 
@@ -149,17 +149,17 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("フランの声")
+    SetChrName("Voice of Franc")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ええ、それが鉱山に\x01",
-            "魔獣が現れたらしくって……\x02\x03",
-            "あ、といっても、\x01",
-            "町から少し離れた場所にある\x01",
-            "旧鉱山らしいんですけど。\x02",
+            "Yeah, that is to mine\x01",
+            "It seems that a monster has appeared … …\x02\x03",
+            "Oh, by the way,\x01",
+            "It is a little away from the town\x01",
+            "It seems to be the former mine.\x02",
         )
     )
 
@@ -172,9 +172,9 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00005F……？\x02\x03",
-            "#00001Fそんな場所なら魔獣が現れても\x01",
-            "おかしくはないと思うけど……\x02",
+            "#00005F……?\x02\x03",
+            "#00001FEven if a monster appears at such a place\x01",
+            "I do not think it's strange … ….\x02",
         )
     )
 
@@ -182,18 +182,18 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("フランの声")
+    SetChrName("Voice of Franc")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "はい、鉱員の方たちが被害に\x01",
-            "遭ったわけじゃなさそうです。\x02\x03",
-            "ただ内部が、どうもおかしな事に\x01",
-            "なっちゃっているみたいで……\x02\x03",
-            "念のため調べてもらえないかと\x01",
-            "いうことでした。\x02",
+            "Yes, the miners hurt\x01",
+            "I heard that he did not come across.\x02\x03",
+            "Just inside, something strange\x01",
+            "It seems they are getting … ….\x02\x03",
+            "Just to be sure you can check it\x01",
+            "That was it.\x02",
         )
     )
 
@@ -206,11 +206,11 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00003Fおかしな事……\x01",
-            "ちょっと要領を得ないな。\x02\x03",
-            "#00000F──判った。\x01",
-            "市内の緊急要請は片付けたし、\x01",
-            "これからマインツに向かうよ。\x02",
+            "#00003FFunny thing …\x01",
+            "There is little point.\x02\x03",
+            "#00000F─ ─ It turned out.\x01",
+            "I cleared up the emergency request in the city,\x01",
+            "I will head to Mainz from now.\x02",
         )
     )
 
@@ -218,18 +218,18 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("フランの声")
+    SetChrName("Voice of Franc")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "はい、お願いしますー。\x02\x03",
-            "あ、ついでにお伝えしますが\x01",
-            "先ほどマインツ山道方面に\x01",
-            "手配魔獣の指定が出ました。\x02\x03",
-            "余裕があったら\x01",
-            "対応してみてください。\x02",
+            "Yes, please.\x02\x03",
+            "Oh, I will tell you\x01",
+            "In the direction of Mainz train direction earlier\x01",
+            "Designation of an arrangement magical beast came out.\x02\x03",
+            "If there is room\x01",
+            "Please try to correspond.\x02",
         )
     )
 
@@ -242,7 +242,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00002Fそうか、了解だ。\x02",
+            "#00002FThat's right, OK.\x02",
         )
     )
 
@@ -250,16 +250,16 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("フランの声")
+    SetChrName("Voice of Franc")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "それと、クロスベル市と違って\x01",
-            "山道方面は晴れているみたいです。\x02\x03",
-            "せっかくだから導力車で\x01",
-            "行ってみたらどうですか〜？\x02",
+            "Also, unlike Crossbell City\x01",
+            "The mountain road seems to be sunny.\x02\x03",
+            "Because it's so hard to drive with a car\x01",
+            "Why do not you visit?\x02",
         )
     )
 
@@ -272,9 +272,9 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00004Fそうなのか……判った。\x02\x03",
-            "#00000Fありがとう、フラン。\x01",
-            "何かあったらまた連絡してくれ。\x02",
+            "#00004FIs it so … I knew.\x02\x03",
+            "#00000FThank you, Fran.\x01",
+            "Please contact me again if there is something.\x02",
         )
     )
 
@@ -282,13 +282,13 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("フランの声")
+    SetChrName("Voice of Franc")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "はい、それでは失礼しますー。\x07\x00\x02",
+            "Yes, I will excuse myself.\x07\x00\x02",
         )
     )
 
@@ -306,7 +306,7 @@ def main():
 
     AnonymousTalk(
         0x109,
-        "#10105Fフランからみたいですね。\x02",
+        "#10105FI'd like to be from Franc.\x02",
     )
 
     CloseMessageWindow()
@@ -317,8 +317,8 @@ def main():
     AnonymousTalk(
         0x102,
         (
-            "#00101Fマインツ方面で\x01",
-            "何かあったみたいだけど？\x02",
+            "#00101FDirections to Mainz\x01",
+            "It looks like something happened?\x02",
         )
     )
 
@@ -330,12 +330,12 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00006Fああ、旧鉱山という所で\x01",
-            "妙なことが起きたらしい。\x02\x03",
-            "#00000F市内の支援要請も片付けたし、\x01",
-            "準備ができたら行ってみよう。\x02\x03",
-            "#00002Fあ、山道方面は晴れているそうだから\x01",
-            "車で行ってもいいかもしれないな。\x02",
+            "#00006FOh, in the place called the former mine\x01",
+            "It seems that strange things have happened.\x02\x03",
+            "#00000FI have also cleared up the city's support request,\x01",
+            "Let's go when you are ready.\x02\x03",
+            "#00002FOh, it seems that the direction of the mountain road is sunny\x01",
+            "It may be good to go by car.\x02",
         )
     )
 
@@ -346,7 +346,7 @@ def main():
 
     AnonymousTalk(
         0x105,
-        "#10304F了解、リーダー。\x02",
+        "#10304FOK, the leader.\x02",
     )
 
     CloseMessageWindow()
@@ -357,8 +357,8 @@ def main():
     AnonymousTalk(
         0x109,
         (
-            "#10100Fもし車で鉱山町に行くなら\x01",
-            "支援課の裏口に行きましょう。\x02",
+            "#10100FIf you go to mining town by car\x01",
+            "Let's go to the back door of the support department.\x02",
         )
     )
 
@@ -374,8 +374,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "捜査手帳と支援課の端末に\x01",
-            "新たな手配魔獣が追加されました。\x07\x00\x02",
+            "To the terminal of the investigation notebook and support department\x01",
+            "A new arrangement demon was added.\x07\x00\x02",
         )
     )
 

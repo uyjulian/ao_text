@@ -93,9 +93,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fこっちはクロスベル市方面か。\x02\x03",
-            "距離も距離だし、わざわざ\x01",
-            "線路を辿って行くことはないな。\x02",
+            "#00000FIs this direction to Crossbell City?\x02\x03",
+            "The distance is also a distance, so bother\x01",
+            "I will not go along the railroad tracks.\x02",
         )
     )
 

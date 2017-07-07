@@ -19,14 +19,14 @@ def main():
 
     BuildStringList((
         "c115d",                  # 0
-        "フラン",                 # 1
-        "ドノバン警部",           # 2
-        "レイモンド捜査官",       # 3
-        "警官隊",                 # 4
-        "警官隊",                 # 5
-        "警官隊",                 # 6
-        "警官隊",                 # 7
-        "SE制御",                 # 8
+        "Franc",                 # 1
+        "Donovan",           # 2
+        "Raymond investigator",       # 3
+        "Police force",                 # 4
+        "Police force",                 # 5
+        "Police force",                 # 6
+        "Police force",                 # 7
+        "SE control",                 # 8
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -158,7 +158,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#5Pひ、ひいいいっ……！\x02",
+        "#5PHie, huh …!\x02",
     )
 
     CloseMessageWindow()
@@ -168,8 +168,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#5P警部、早く僕らも\x01",
-            "地下に避難しましょうよ〜！\x02",
+            "#5PDepartment, as soon as we are\x01",
+            "Let's evacuate to the basement ~!\x02",
         )
     )
 
@@ -179,9 +179,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "バカヤロウ！\x01",
-            "まだ各階の避難が\x01",
-            "完了してねぇだろうが！\x02",
+            "Bakayarou!\x01",
+            "Evacuation on each floor is still\x01",
+            "I guess it has not been completed!\x02",
         )
     )
 
@@ -190,9 +190,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "それより気を抜くな！\x01",
-            "いつシャッターが破られても\x01",
-            "おかしくねえんだぞ！\x02",
+            "Do not be more careful than that!\x01",
+            "No matter when the shutter is broken\x01",
+            "It's strange!\x02",
         )
     )
 
@@ -201,9 +201,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#5Pだ、大丈夫ですよ！\x01",
-            "警備隊が暴れた時だって\x01",
-            "破られなかったくらいですから！\x02",
+            "#5PAll right!\x01",
+            "Even when the guard went rampage\x01",
+            "Because it was not broken!\x02",
         )
     )
 
@@ -211,7 +211,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#5Pだから僕らも早く避難を……！\x02",
+        "#5PSo we also evacuate soon …!\x02",
     )
 
     CloseMessageWindow()
@@ -235,9 +235,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#01901F#2720V#6P#30W全職員、地下の機密区画に\x01",
-            "避難完了しましたー！\x02\x03",
-            "#2721V#30W皆さんも早く来てください！\x02",
+            "#01901F#2720V#6P#30WAll officials, confidential underground in the basement\x01",
+            "Evacuation was completed!\x02\x03",
+            "#2721V#30WEveryone please come quickly!\x02",
         )
     )
 
@@ -288,14 +288,14 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11Pおお、ご苦労さん！\x02",
+        "#11POh, it was a hard work!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xA,
-        "#5P助かった、これで──\x02",
+        "#5PIt helped, with this - ─\x02",
     )
 
     CloseMessageWindow()
@@ -399,7 +399,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#5Pへ……\x02",
+        "#5PWhat……\x02",
     )
 
     CloseMessageWindow()
@@ -407,8 +407,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5Pしまった！\x01",
-            "急いで地下へ──\x02",
+            "#5POops!\x01",
+            "Hurry to the basement ──\x02",
         )
     )
 
@@ -485,7 +485,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#5P#6Aば、爆弾……\x02",
+        "#5P#6ABombs ……\x02",
     )
 
     CloseMessageWindow()
@@ -494,7 +494,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5P#8Aくそおおおおおっ！\x02",
+        "#5P#8ADammit, oh!\x02",
     )
 
     CloseMessageWindow()
@@ -505,7 +505,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01911F#2722V#6P#40W#10Aお姉ちゃん──\x02",
+        "#01911F#2722V#6P#40W#10AOnee-san\x02",
     )
 
     CloseMessageWindow()

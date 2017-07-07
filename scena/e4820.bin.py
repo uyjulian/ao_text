@@ -19,7 +19,7 @@ def main():
 
     BuildStringList((
         "e4820",                  # 0
-        "SE制御",                 # 1
+        "SE control",                 # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -90,13 +90,13 @@ def main():
     OP_0D()
     Sleep(500)
     SetMessageWindowPos(-1, 140, -1, -1)
-    SetChrName("？？？")
+    SetChrName("Is it? Is it? Is it?")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "へえ、これはこれは。\x07\x00\x02",
+            "Oh, this is this.\x07\x00\x02",
         )
     )
 
@@ -111,17 +111,17 @@ def main():
     OP_71(0x0, 0x0, 0x257, 0x0, 0x20)
     Sleep(1000)
     SetMessageWindowPos(30, 140, -1, -1)
-    SetChrName("ヨナ")
+    SetChrName("Yona")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#02310Fハッ……\x01",
-            "てめえがボクのベースを\x01",
-            "滅茶苦茶にした犯人か！\x02\x03",
-            "#02307Fゼッテー許さねえ！\x01",
-            "吠え面かかせてやるっ！\x07\x00\x02",
+            "#02310FHappy\x01",
+            "Tommy makes my base\x01",
+            "Is he the culprit who made it a mess!\x02\x03",
+            "#02307FI will not forgive you!\x01",
+            "I'll let you make it bark!\x07\x00\x02",
         )
     )
 
@@ -130,13 +130,13 @@ def main():
     OP_5A()
     Sleep(300)
     SetMessageWindowPos(80, 50, -1, -1)
-    SetChrName("？？？")
+    SetChrName("Is it? Is it? Is it?")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "あはは、威勢がいいなぁ。\x07\x00\x02",
+            "Haha, we are aggressive.\x07\x00\x02",
         )
     )
 
@@ -163,13 +163,13 @@ def main():
     Sleep(600)
     BeginChrThread(0x8, 1, 0, 5)
     SetMessageWindowPos(100, 30, -1, -1)
-    SetChrName("ティオの声")
+    SetChrName("Voice of Tio")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#10A……そこまでです。\x02",
+            "#10A… … That's it.\x02",
         )
     )
 
@@ -179,14 +179,14 @@ def main():
     OP_AD(0x0)
     ClearScenarioFlags(0x0, 0)
     SetMessageWindowPos(50, 10, -1, -1)
-    SetChrName("ティオ")
+    SetChrName("Tio")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#00201F大人しくタワーの制御を\x01",
-            "解放してもらいましょうか。\x07\x00\x02",
+            "#00201FAdultly control the tower\x01",
+            "Shall I let you release?\x07\x00\x02",
         )
     )
 
@@ -194,17 +194,17 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(200, 50, -1, -1)
-    SetChrName("？？？")
+    SetChrName("Is it? Is it? Is it?")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "うふふ、仕方ない。\x02\x03",
-            "まあ、ほんの暇潰しだったし\x01",
-            "愉しめたから満足かな。\x02\x03",
-            "それじゃあせいぜい\x01",
-            "死なないように頑張ってね噴\x02",
+            "Uhufu, there is no choice.\x02\x03",
+            "Well, it was just killing time\x01",
+            "It was satisfying from pleasure.\x02\x03",
+            "Then at most\x01",
+            "Good luck not to die\x02",
         )
     )
 
@@ -223,13 +223,13 @@ def main():
     Sound(223, 0, 100, 0)
     Sleep(500)
     SetMessageWindowPos(30, 130, -1, -1)
-    SetChrName("ヨナ")
+    SetChrName("Yona")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#02310Fああっ！？\x02",
+            "#02310FAhh! Is it?\x02",
         )
     )
 
@@ -239,14 +239,14 @@ def main():
     OP_AD(0x0)
     ClearScenarioFlags(0x0, 0)
     SetMessageWindowPos(50, 10, -1, -1)
-    SetChrName("ティオ")
+    SetChrName("Tio")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#00207Fそちらは後です！\x01",
-            "早くタワーの制御を！\x07\x00\x02",
+            "#00207FThere it is after!\x01",
+            "Control the tower as soon as possible!\x07\x00\x02",
         )
     )
 

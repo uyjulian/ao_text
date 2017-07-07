@@ -19,13 +19,13 @@ def main():
 
     BuildStringList((
         "r1540",                  # 0
-        "海刃シャークマン",       # 1
-        "ファイヤービートル",     # 2
-        "ファイヤービートル",     # 3
-        "ゴーディ・オッサー",     # 4
-        "ゴーディ・オッサー",     # 5
-        "クリドゥヴァー",         # 6
-        "幻獣",                   # 7
+        "Sharp Edge Shark Man",       # 1
+        "Fire Beetle",     # 2
+        "Fire Beetle",     # 3
+        "Goddy Osser",     # 4
+        "Goddy Osser",     # 5
+        "Clitvor",         # 6
+        "Eidolon",                   # 7
         "br1530",                 # 8
         "br1530",                 # 9
         "br1530",                 # 10
@@ -36,8 +36,8 @@ def main():
         "br1530",                 # 15
         "br1530",                 # 16
         "br1530",                 # 17
-        "クロスベル市方面",       # 18
-        "ウルスラ医科大学方面",   # 19
+        "Cross Bell City",       # 18
+        "Direction to Ursula Medical University",   # 19
     ))
 
     ATBonus("ATBonus_564", 100, 5, 1, 5, 1, 5, 1, 5, 5, 0, 0, 0, 1, 0, 0, 0)
@@ -253,8 +253,8 @@ def main():
     DeclActor(4294930056, 4294966886, 4294887626, 1200,    4294924406, 4294964496, 4294888626, 0x007C, 0,  15, 0x0000)
     DeclActor(4294964846, 4294966596, 4294875286, 1500,    4294964846, 1000,    4294875286, 0x007C, 0,  24, 0x0000)
 
-    PlaceName(27.450000762939453, 0.0, 1.25, 0x0000, 0x0000, "クロスベル市方面")
-    PlaceName(26.0, 0.0, -92.0, 0x0000, 0x0000, "ウルスラ医科大学方面")
+    PlaceName(27.450000762939453, 0.0, 1.25, 0x0000, 0x0000, "Cross Bell City")
+    PlaceName(26.0, 0.0, -92.0, 0x0000, 0x0000, "Direction to Ursula Medical University")
 
     ChipFrameInfo(1000, 0, [0, 1, 2, 1, 0, 3, 4, 3])             # 0
     ChipFrameInfo(1000, 0, [0, 1, 2, 1, 0, 3, 4, 3])             # 1
@@ -992,14 +992,14 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#56I地のセピス×６０\x01\x07\x02",
-            "#57I水のセピス×６０\x01\x07\x02",
-            "#58I火のセピス×６０\x01\x07\x02",
-            "#59I風のセピス×６０\x01\x07\x02",
-            "#60I時のセピス×６０\x01\x07\x02",
-            "#61I空のセピス×６０\x01\x07\x02",
-            "#62I幻のセピス×６０\x01\x07\x00",
-            "を手に入れた。\x02",
+            "#56ISepis of the earth × 60\x01\x07\x02",
+            "#57IWater sepis × 60\x01\x07\x02",
+            "#58IFire sepis × 60\x01\x07\x02",
+            "#59IWind sepice × 60\x01\x07\x02",
+            "#60ITime sepis × 60\x01\x07\x02",
+            "#61IEmpty Sepis × 60\x01\x07\x02",
+            "#62IPhantom Sepis × 60\x01\x07\x00",
+            "I got it.\x02",
         )
     )
 
@@ -1018,7 +1018,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -1067,7 +1067,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "A monster appeared!\x07\x00\x02",
         )
     )
 
@@ -1117,7 +1117,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '幸运'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -1136,14 +1136,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '幸运'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '幸运'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -1166,7 +1166,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -1205,7 +1205,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -1225,14 +1225,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -1257,7 +1257,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -1289,8 +1289,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1301,8 +1301,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1334,7 +1334,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1397,8 +1397,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1409,8 +1409,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1442,7 +1442,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1510,8 +1510,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1522,8 +1522,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1555,7 +1555,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1618,8 +1618,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "何かが埋まっているようだ。\x01",
-            "掘り出しますか？\x07\x00\x02",
+            "Something seems to be buried.\x01",
+            "Do you dig it?\x07\x00\x02",
         )
     )
 
@@ -1630,8 +1630,8 @@ def main():
         -1,
         1,
         (
-            "は  い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1663,7 +1663,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1773,8 +1773,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "がはは、\x01",
-            "アンタは釣公師団のモンだな？\x02",
+            "Haha\x01",
+            "You are monk of the fishing public division?\x02",
         )
     )
 
@@ -1783,8 +1783,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "オレッちはシャークマン。\x01",
-            "《海刃》シャークマンだ。\x02",
+            "Olechi is Shark Man.\x01",
+            "\"Sea blade\" Sharkman.\x02",
         )
     )
 
@@ -1792,7 +1792,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005Fか、怪人……？\x02",
+        "#00005FOr a monster …?\x02",
     )
 
     CloseMessageWindow()
@@ -1803,8 +1803,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ちがーう！　海刃だ、海刃！！\x01",
-            "海の刃で海刃んんっ！\x02",
+            "Well! Sea blade, sea blade! It is!\x01",
+            "Sea blade with sea bumps!\x02",
         )
     )
 
@@ -1813,8 +1813,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "というわけで、オレッちと\x01",
-            "『爆釣サドンデス』で勝負だ！\x02",
+            "That's why, oretti\x01",
+            "It's a game with \"Bombing Sudden Death\"!\x02",
         )
     )
 
@@ -1822,7 +1822,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006Fは、はあ……\x02",
+        "#00006FHaha …\x02",
     )
 
     CloseMessageWindow()
@@ -1832,8 +1832,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "おっと、いけねえ。\x01",
-            "その前に条件があるんだった。\x02",
+            "Oops, hey.\x01",
+            "There was a condition before that.\x02",
         )
     )
 
@@ -1842,8 +1842,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "俺はこう見えて、四天王随一の\x01",
-            "テクニシャンと呼ばれていてな。\x02",
+            "I look like this, the best of the four heavenly kings\x01",
+            "It is called a technician.\x02",
         )
     )
 
@@ -1852,9 +1852,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "俺と戦うにはいわゆる\x01",
-            "ゲームフィッシュと言われる魚を\x01",
-            "いくつか釣って来てもらうぞ。\x02",
+            "To fight me, what is called\x01",
+            "Fish called Gamefish\x01",
+            "I'll get some caught.\x02",
         )
     )
 
@@ -1863,8 +1863,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ま、詳しい種類が知りたい場合は\x01",
-            "街にいるセイラームに聞いてくんな。\x02",
+            "Well, if you want to know the detailed type\x01",
+            "Please do not hesitate to Sayram in the city.\x02",
         )
     )
 
@@ -1872,7 +1872,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00012Fりょ、了解です……\x02",
+        "#00012FRyo, OK.\x02",
     )
 
     CloseMessageWindow()
@@ -1894,9 +1894,9 @@ def main():
         -1,
         1,
         (
-            "話をする\x01",            # 0
-            "爆釣勝負を挑む\x01",      # 1
-            "やめる\x01",              # 2
+            "talk\x01",            # 0
+            "Tackle bomb victory\x01",      # 1
+            "quit\x01",              # 2
         )
     )
 
@@ -1920,8 +1920,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "おう、そんじゃ釣り手帳を\x01",
-            "見させてもらうぜ！\x02",
+            "Oh, then the fishing diary\x01",
+            "Let me see you!\x02",
         )
     )
 
@@ -1935,8 +1935,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "がはは、やるじぇねえか。\x01",
-            "見事条件を満たしてやがる！\x02",
+            "In the meanwhile, you do it?\x01",
+            "I will fulfill superb conditions!\x02",
         )
     )
 
@@ -1945,8 +1945,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "よしっ、そんじゃ\x01",
-            "さっそく勝負と行こうぜ！\x02",
+            "Yosh!\x01",
+            "Let's go with the game immediately!\x02",
         )
     )
 
@@ -1955,9 +1955,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "前にも言ったが、\x01",
-            "オレッちとの勝負は\x01",
-            "『爆釣サドンデス』！\x02",
+            "As I mentioned earlier,\x01",
+            "The match with Oretchi\x01",
+            "\"Bomb Sudden Death\"!\x02",
         )
     )
 
@@ -1966,9 +1966,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ひたすら交互に竿を振り、\x01\x07\x02",
-            "先に釣り損ねた方の負け\x07\x00",
-            "ってわけだ。\x02",
+            "Shake the rods alternately,\x01\x07\x02",
+            "The loss of one who failed to fish first\x07\x00",
+            "That's why.\x02",
         )
     )
 
@@ -1982,8 +1982,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "がはは、『爆釣サドンデス』で\x01",
-            "オレッちと勝負するかい？\x02",
+            "Hahaha, \"Bombing Sudden Death\"\x01",
+            "Do you want to compete with Ole?\x02",
         )
     )
 
@@ -1992,9 +1992,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ひたすら交互に竿を振り、\x01\x07\x02",
-            "先に釣れなく方の負け\x07\x00",
-            "ってわけだ。\x02",
+            "Shake the rods alternately,\x01\x07\x02",
+            "The losing of one who can not be caught first\x07\x00",
+            "That's why.\x02",
         )
     )
 
@@ -2010,8 +2010,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "《海刃》シャークマンに、\x01",
-            "『爆釣サドンデス』を挑みますか？\x07\x00\x02",
+            "\"Sea blade\" To Shakeman,\x01",
+            "Do you challenge \"Bomb Sudden Death\"?\x07\x00\x02",
         )
     )
 
@@ -2022,8 +2022,8 @@ def main():
         -1,
         0,
         (
-            "勝負を挑む\x01",      # 0
-            "やめておく\x01",      # 1
+            "Challenge a game\x01",      # 0
+            "To give up\x01",      # 1
         )
     )
 
@@ -2047,8 +2047,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "がはは、\x01",
-            "そんじゃさっそく始めるか！\x02",
+            "Haha\x01",
+            "Well then shall we start!\x02",
         )
     )
 
@@ -2126,7 +2126,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "んあ？　そうか……\x02",
+        "Huh? Really……\x02",
     )
 
     CloseMessageWindow()
@@ -2134,8 +2134,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "まあやりたくなけりゃあ\x01",
-            "仕方ねえやな。\x02",
+            "Well I want to do it\x01",
+            "Hey there.\x02",
         )
     )
 
@@ -2154,8 +2154,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "おう、そんじゃ釣り手帳を\x01",
-            "見させてもらうぜ！\x02",
+            "Oh, then the fishing diary\x01",
+            "Let me see you!\x02",
         )
     )
 
@@ -2167,8 +2167,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "まあ、努力は認めるがよ。\x01",
-            "まだちょっち足りねえな。\x02",
+            "Well, I will appreciate your efforts.\x01",
+            "It is not enough yet.\x02",
         )
     )
 
@@ -2177,9 +2177,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "オレッちがこよなく愛する\x01",
-            "ゲームフィッシュ……\x01",
-            "見事全部揃えて来いってんだ！\x02",
+            "Oretchi is loveable\x01",
+            "Gamefish ……\x01",
+            "I'm gonna get all the brilliant!\x02",
         )
     )
 
@@ -2193,8 +2193,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "おう、そんじゃ釣り手帳を\x01",
-            "見させてもらうぜ！\x02",
+            "Oh, then the fishing diary\x01",
+            "Let me see you!\x02",
         )
     )
 
@@ -2206,8 +2206,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "なんじゃこりゃ？\x01",
-            "まだまだ全然じゃねえか。\x02",
+            "What's this?\x01",
+            "It is not at all yet.\x02",
         )
     )
 
@@ -2216,9 +2216,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "オレッちがこよなく愛する\x01",
-            "ゲームフィッシュ……\x01",
-            "さっさと釣って来いってんだ！\x02",
+            "Oretchi is loveable\x01",
+            "Gamefish ……\x01",
+            "I'm going caught quickly!\x02",
         )
     )
 
@@ -2247,8 +2247,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "オレぇはシャークマン〜っ。\x01",
-            "海ぃに惚れた〜テクニシャン〜〜っ。\x02",
+            "Oreye is Shark man ~ っ.\x01",
+            "I fell in love with the sea ~ Technician ~ ~ っ.\x02",
         )
     )
 
@@ -2262,8 +2262,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "雨に打たれてぇ、\x01",
-            "漢ぉは強くなるぅ〜っ。\x02",
+            "Beaten by the rain,\x01",
+            "Han will be strong.\x02",
         )
     )
 
@@ -2277,8 +2277,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "人間ん〜、みんなぁあ、\x01",
-            "海から生まれた兄弟だものぉ〜っ。\x02",
+            "Human being, everyone,\x01",
+            "It is a brother who was born from the sea.\x02",
         )
     )
 
@@ -2292,8 +2292,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "海のぉ漢はよぉ〜、\x01",
-            "黙ってぇ背中で語りゃあいい〜っ。\x02",
+            "Oh no ooh, yo ~\x01",
+            "Keep silent talking with your back.\x02",
         )
     )
 
@@ -2307,8 +2307,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "面舵ぃいっぱい〜、\x01",
-            "夢ぇいっぱい〜〜っ。\x02",
+            "A lot of surface trips ~\x01",
+            "Dream a lot ~ ~ っ.\x02",
         )
     )
 
@@ -2317,8 +2317,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "オレぇは夢にぃ〜、\x01",
-            "人生を売った漢ぉ〜だぜぇ〜っ。\x02",
+            "Ore is my dream ~,\x01",
+            "Hannah who sold his life ~ Why?\x02",
         )
     )
 
@@ -2332,8 +2332,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "オレぇはシャークマン〜っ。\x01",
-            "船を出すぅ〜っ。\x02",
+            "Oreye is Shark man ~ っ.\x01",
+            "I will leave the ship.\x02",
         )
     )
 
@@ -2341,7 +2341,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "世間と言う名のぉ、荒波にぃ〜っ。\x02",
+        "A name called the world, Raicho.\x02",
     )
 
     CloseMessageWindow()
@@ -2354,8 +2354,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "オレぇはシャークマン〜っ。\x01",
-            "海ぃの〜漢ぉお〜〜っ。\x02",
+            "Oreye is Shark man ~ っ.\x01",
+            "Haiyin ~ 漢 ぉ ー ~ ~ っ.\x02",
         )
     )
 
@@ -2365,8 +2365,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F（ここなら何か釣れそうだけど……\x01",
-            "  先客がいるなら止めておくか。）\x02",
+            "#00003F(In this case I will catch something ….\x01",
+            "Shall we stop if there is a prior guest? )\x02",
         )
     )
 
@@ -2444,7 +2444,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#0000Fここなら釣れそうだな。\x02",
+        "#0000FI'm going to catch you here.\x02",
     )
 
     CloseMessageWindow()
@@ -2459,7 +2459,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "釣りをしますか？\x07\x00\x02",
+            "Do you fish?\x07\x00\x02",
         )
     )
 
@@ -2470,8 +2470,8 @@ def main():
         -1,
         1,
         (
-            "釣りをする\x01",      # 0
-            "やめる\x01",          # 1
+            "To fish\x01",      # 0
+            "quit\x01",          # 1
         )
     )
 
@@ -2511,13 +2511,13 @@ def main():
 
     NpcTalk(
         0x0,
-        "ロイド",
+        "Lloyd",
         (
-            "#00011Fう、うわ……\x01",
-            "何だか凄く凶暴そうな魚だな。\x02\x03",
-            "#00003Fピラーニャに似てるけど……\x01",
-            "もしかして特別な魚だったり\x01",
-            "するのかな。\x02",
+            "#00011FUwa …\x01",
+            "It is a fish that sounds bad.\x02\x03",
+            "#00003FIt resembles Piragna, but …\x01",
+            "Perhaps it's a special fish\x01",
+            "I wonder.\x02",
         )
     )
 
@@ -2762,10 +2762,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#12Pふう……いきなりだったな。\x02\x03",
-            "#00013Fしかしあんなのがいる状況で、\x01",
-            "街から病院へのバスなんて\x01",
-            "ちゃんと運行できているのか？\x02",
+            "#00006F#12PFu … … it was sudden.\x02\x03",
+            "#00013FBut in such a situation,\x01",
+            "Bus from the city to the hospital\x01",
+            "Are you able to operate properly?\x02",
         )
     )
 
@@ -2774,9 +2774,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10403F#5P難しいかもしれないね。\x02\x03",
-            "#10408F国防軍の装甲車とかなら\x01",
-            "何とか行き来できそうだけど。\x02",
+            "#10403F#5PIt may be difficult.\x02\x03",
+            "#10408FArmored cars of the Defense Forces\x01",
+            "It seems to be able to come back and forth somehow.\x02",
         )
     )
 
@@ -2785,9 +2785,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#12Pということは、\x01",
-            "市民の健康が損なわれている\x01",
-            "可能性もありそうだな……\x02",
+            "#00006F#12PThat means,\x01",
+            "The health of the citizen is damaged\x01",
+            "There seems to be possibilities …\x02",
         )
     )
 
@@ -2796,9 +2796,9 @@ def main():
     ChrTalk(
         0x107,
         (
-            "#01203F#5P#3Cふむ、因果なものだ。\x02\x03",
-            "ウルスラが見たら\x01",
-            "さぞ嘆くかもしれんな。\x02",
+            "#01203F#5P#3CHmm, it is a causal thing.\x02\x03",
+            "Ursula watching\x01",
+            "Somewhere you may lament.\x02",
         )
     )
 
@@ -2827,10 +2827,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F#12Pウルスラって……\x01",
-            "『聖女と白い狼』の？\x02\x03",
-            "#00011Fって、白い狼って\x01",
-            "やっぱりツァイトなのか！\x02",
+            "#00005F#12PUrsula …\x01",
+            "\"Saint and white wolf\"?\x02\x03",
+            "#00011FWhat is a white wolf?\x01",
+            "After all it is Zeit!\x02",
         )
     )
 
@@ -2839,10 +2839,10 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10404F#11P中世の時代に実在した\x01",
-            "領主を諌#2Rいさ#めた治療師の娘だね。\x02\x03",
-            "#10400F教会でも一応、\x01",
-            "聖人認定されているけど。\x02",
+            "#10404F#11PIt existed in the medieval era\x01",
+            "Lord#2RIsasa#You are the daughter of a curer.\x02\x03",
+            "#10400FEven in the church,\x01",
+            "I am accredited as a saint.\x02",
         )
     )
 
@@ -2851,11 +2851,11 @@ def main():
     ChrTalk(
         0x107,
         (
-            "#01203F#5P#3Cうむ、心優しき娘だった。\x02\x03",
-            "#01200Fちなみに物語では命を落としたが、\x01",
-            "実は一命を取り留めてな……\x02\x03",
-            "後に騎士と添い遂げて\x01",
-            "末裔#4Rす え#もこの地に残っているぞ。\x02",
+            "#01203F#5P#3CWell, it was a kind hearted girl.\x02\x03",
+            "#01200FBy the way, in the story I lost my life,\x01",
+            "Actually, I have to take a life … …\x02\x03",
+            "Later on with the knight\x01",
+            "Descendant#4RRice#You are still in this place.\x02",
         )
     )
 
@@ -2863,7 +2863,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00012F#12Pそ、そうだったのか……\x02",
+        "#00012F#12PWell, was that so ……\x02",
     )
 
     CloseMessageWindow()
@@ -2871,8 +2871,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10409F#11Pあはは。\x01",
-            "事実は小説より奇なりだね。\x02",
+            "#10409F#11PHaha.\x01",
+            "The fact is stranger than the novel.\x02",
         )
     )
 
@@ -2943,7 +2943,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#5P（あれは……！）\x02",
+        "#00007F#5P(That is……!)\x02",
     )
 
     CloseMessageWindow()
@@ -2985,8 +2985,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P……さすがにここで国防軍に\x01",
-            "見つかるわけにはいかないか。\x02",
+            "#00006F#5P…… Indeed to the Defense Forces here\x01",
+            "Can not you find it?\x02",
         )
     )
 
@@ -2995,9 +2995,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10403F#6Pまあ、避けた方が無難だろうね。\x02\x03",
-            "#10408Fもっともいつになったら\x01",
-            "居なくなるかは判らないけど。\x02",
+            "#10403F#6PWell, it would be safe to avoid them.\x02\x03",
+            "#10408FWhen will it be the best?\x01",
+            "I do not know if I will lose it.\x02",
         )
     )
 
@@ -3010,9 +3010,9 @@ def main():
     ChrTalk(
         0x107,
         (
-            "#01203F#5P#3C……ふむ。\x02\x03",
-            "#01200Fどうやらこの病院内に\x01",
-            "ティオがいるようだな。\x02",
+            "#01203F#5P#3C……HM.\x02\x03",
+            "#01200FApparently within this hospital\x01",
+            "It seems there is Tio.\x02",
         )
     )
 
@@ -3039,14 +3039,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#11Pな……！？\x02",
+        "#00007F#11PI mean …! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10401F#12Pマジかい……？\x02",
+        "#10401F#12PAre you serious?\x02",
     )
 
     CloseMessageWindow()
@@ -3054,9 +3054,9 @@ def main():
     ChrTalk(
         0x107,
         (
-            "#01203F#5P#3Cうむ、微かに匂いを感じる。\x02\x03",
-            "#01201Fそれ以外の支援課のメンバーは\x01",
-            "居ないようだが。\x02",
+            "#01203F#5P#3CWell, I feel a slight smell.\x02\x03",
+            "#01201FOther members of the support department\x01",
+            "It does not seem to be.\x02",
         )
     )
 
@@ -3065,9 +3065,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#11Pま、まさかティオ……\x02\x03",
-            "#00010Fあれからどこかで\x01",
-            "ケガを負って入院を……？\x02",
+            "#00006F#11PWell, no doubt Tio …\x02\x03",
+            "#00010FFrom somewhere from that\x01",
+            "I get injured and get hospitalized … ….?\x02",
         )
     )
 
@@ -3076,9 +3076,9 @@ def main():
     ChrTalk(
         0x107,
         (
-            "#01200F#5P#3Cふむ、そこまでは\x01",
-            "私の鼻でも分からぬが……\x02\x03",
-            "#01203Fさすがに少々心配だな。\x02",
+            "#01200F#5P#3CHmm, until that\x01",
+            "I do not even know my nose … …\x02\x03",
+            "#01203FI'm a bit worried as expected.\x02",
         )
     )
 
@@ -3086,7 +3086,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#11Pくっ、一体どうしたら……\x02",
+        "#00008F#11PCome on, how do you …?\x02",
     )
 
     CloseMessageWindow()
@@ -3098,9 +3098,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10403F#6P……少し裏技になるけど。\x02\x03",
-            "#10400Fここで兵士たちと交戦しても\x01",
-            "増援を呼ばれずに済むかもしれない。\x02",
+            "#10403F#6P… … It will be a bit of a trick.\x02\x03",
+            "#10400FEven if you fought with soldiers here\x01",
+            "It may not be necessary to call reinforcements.\x02",
         )
     )
 
@@ -3122,7 +3122,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#11Pほ、本当か……！？\x02",
+        "#00005F#11PIs it true? Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -3130,8 +3130,8 @@ def main():
     ChrTalk(
         0x107,
         (
-            "#01200F#5P#3Cふむ、何やら\x01",
-            "手立てがあるようだな？\x02",
+            "#01200F#5P#3CHmm, what the\x01",
+            "You seem to have a way?\x02",
         )
     )
 
@@ -3140,8 +3140,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10404F#6Pフフ、まあね。\x02\x03",
-            "#10402Fどうする、ロイド？\x02",
+            "#10404F#6PWow, well.\x02\x03",
+            "#10402Fどうする、Lloyd？\x02",
         )
     )
 
@@ -3150,10 +3150,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#11P……言うまでもない。\x01",
-            "すぐにでも仕掛けよう。\x02\x03",
-            "#00013F何としてもティオの様子を\x01",
-            "確かめないと……！\x02",
+            "#00003F#11P… Needless to say.\x01",
+            "Let's try it right away.\x02\x03",
+            "#00013FA state of Tio at any rate\x01",
+            "I have to make sure … ….!\x02",
         )
     )
 
@@ -3161,7 +3161,7 @@ def main():
 
     ChrTalk(
         0x107,
-        "#01201F#5P#3Cうむ、やるか。\x02",
+        "#01201F#5P#3CWell, I'll do it.\x02",
     )
 
     CloseMessageWindow()
@@ -3169,8 +3169,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10404F#6Pそれじゃあ電光石火で\x01",
-            "ケリを付けるとしようか。\x02",
+            "#10404F#6PWell then, with lightning fires\x01",
+            "Shall I put a kelly?\x02",
         )
     )
 
@@ -3203,8 +3203,8 @@ def main():
         -1,
         0,
         (
-            "このまま突入する\x01",          # 0
-            "いったん準備を整える\x01",      # 1
+            "To rush as it is\x01",          # 0
+            "Get ready\x01",      # 1
         )
     )
 
@@ -3254,9 +3254,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "まさか、このオレッちが\x01",
-            "アンタみたいな\x01",
-            "優男に負けちまうとはな……\x02",
+            "No way, this ore is\x01",
+            "I feel like you\x01",
+            "I do not think I will lose to the superior … …\x02",
         )
     )
 
@@ -3265,8 +3265,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ほらよ、コイツを受け取りな。\x01",
-            "オレッちに勝った証だ。\x02",
+            "Hey yo, do not accept Koitsu.\x01",
+            "It is a proof that I won Oretchi.\x02",
         )
     )
 
@@ -3281,7 +3281,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '海刃奖牌'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を受け取った。\x02",
+            "Received.\x02",
         )
     )
 
@@ -3293,7 +3293,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00012Fど、どうも……\x02",
+        "#00012FHow about you?\x02",
     )
 
     CloseMessageWindow()
@@ -3301,8 +3301,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "さてと、これでアンタは\x01",
-            "これから『海刃バスター』だ。\x02",
+            "Well, with this,\x01",
+            "Now it's \"sea blade buster\".\x02",
         )
     )
 
@@ -3311,8 +3311,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "だが……あんまし\x01",
-            "調子に乗るんじゃねえぞ？\x02",
+            "However … …\x01",
+            "Do not ride in tone?\x02",
         )
     )
 
@@ -3321,8 +3321,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "オレッちは《海刃》シャークマン。\x01",
-            "すなわち、海の漢なんだ。\x02",
+            "Orechi is \"Shiftake\" Shark Man.\x01",
+            "That is, it is a sea han.\x02",
         )
     )
 
@@ -3331,8 +3331,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "これが海釣りだったら、\x01",
-            "アンタなんかにゃ絶対に……！\x02",
+            "If this is sea fishing,\x01",
+            "Absolutely for you …!\x02",
         )
     )
 
@@ -3343,7 +3343,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006Fは、はあ……\x02",
+        "#00006FHaha …\x02",
     )
 
     CloseMessageWindow()
@@ -3368,9 +3368,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "がはは、ってことで\x01",
-            "勝負はオレッちの勝ちだが、\x01",
-            "気に病むことはないぜ。\x02",
+            "Hahaha\x01",
+            "Oretchi wins the game,\x01",
+            "There is nothing to worry about.\x02",
         )
     )
 
@@ -3379,9 +3379,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ただオレッちが\x01",
-            "強すぎるってだけだからな。\x01",
-            "ぐわははははっ！\x02",
+            "Just Oretachi\x01",
+            "Because it's just too strong.\x01",
+            "Hahahahahah!\x02",
         )
     )
 
@@ -3397,7 +3397,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "おいおい、試合放棄かよ？\x02",
+        "Hey, is not it a game abandonment?\x02",
     )
 
     CloseMessageWindow()
@@ -3405,8 +3405,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ちっ、まあいい。\x01",
-            "次はこうはいかねえからな。\x02",
+            "It is okay.\x01",
+            "Next will not be this way.\x02",
         )
     )
 
@@ -3427,8 +3427,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "東・聖ウルスラ医科大学\x01",
-            "北・クロスベル市　１５３セルジュ\x02",
+            "East · St. Ursula Medical University\x01",
+            "North · Crossbell City 153 Serju\x02",
         )
     )
 

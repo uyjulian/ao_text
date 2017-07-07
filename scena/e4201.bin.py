@@ -19,12 +19,12 @@ def main():
 
     BuildStringList((
         "e4201",                  # 0
-        "従騎士セサル",           # 1
-        "従騎士マーカス",         # 2
-        "シスター・リース",       # 3
-        "ケビン神父",             # 4
-        "APL表示用",              # 5
-        "SE制御",                 # 6
+        "Knight Cesar",           # 1
+        "Adjunct Marcus",         # 2
+        "Sister · Lease",       # 3
+        "Father Kevin",             # 4
+        "For APL display",              # 5
+        "SE control",                 # 6
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -155,9 +155,9 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04306F#6P#40W………ぐううっ…………\x02\x03",
-            "#04310F……ぶっつけ本番は\x01",
-            "さすがに無茶やったか……\x02",
+            "#04306F#6P#40W……… Hokkaido …………\x02\x03",
+            "#04310F…… Battle duty is\x01",
+            "Was it impolite truly ……\x02",
         )
     )
 
@@ -166,11 +166,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#13811F#11P……自業自得。\x02\x03",
-            "#13806F現実世界で《聖痕#4Rスティグマ#》の力を\x01",
-            "あそこまで解放するなんて……\x02\x03",
-            "#13801F姉さまがいたらそんな無茶、\x01",
-            "きっと怒ったと思う。\x02",
+            "#13811F#11P……what goes around comes around.\x02\x03",
+            "#13806FIn the real world \"Stigmata#4RStigma#The power of\x01",
+            "I do not want to release it over there ……\x02\x03",
+            "#13801FIf my sister were there,\x01",
+            "I think he got angry.\x02",
         )
     )
 
@@ -179,9 +179,9 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04306F#6P#30Wそやな……総長にも\x01",
-            "メッチャ怒鳴られそうや……\x02\x03",
-            "#04308Fメルカバも壊してしもたし……\x02",
+            "#04306F#6P#30WNo good …… Also to the president\x01",
+            "Meguro is likely to be scolded … …\x02\x03",
+            "#04308FYou also destroy Mercapa …\x02",
         )
     )
 
@@ -200,12 +200,12 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04303F#6P#30Wはあ……修理不能とかなったら\x01",
-            "守護騎士クビになるんかなぁ……？\x02\x03",
-            "#04300Fま、そうなったらもう一度、\x01",
-            "従騎士から出直せばええか……\x02\x03",
-            "#04304Fお前が正騎士になったら\x01",
-            "サポートに付いてもええし……\x02",
+            "#04303F#6P#30WHaa … when it comes to repair impossible\x01",
+            "I guess I'm going to be a guardian knight … …?\x02\x03",
+            "#04300FWell, once that happens,\x01",
+            "Do you want to get back from the rookie?\x02\x03",
+            "#04304FIf you become a regular knight\x01",
+            "Even if it comes with support … well …\x02",
         )
     )
 
@@ -213,7 +213,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#13812F#11P……馬鹿。\x02",
+        "#13812F#11P……fool.\x02",
     )
 
     CloseMessageWindow()
@@ -222,7 +222,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#04305F#5P#30Wお、おい……？\x02",
+        "#04305F#5P#30WOya … Hey …?\x02",
     )
 
     CloseMessageWindow()
@@ -230,11 +230,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#13813F#11P#30W……よかった……\x01",
-            "………本当に無事で………\x02\x03",
-            "姉さまの目指していた場所は\x01",
-            "まだずっと先にあるのに……\x02\x03",
-            "#13812F本当に……無茶ばかりして……\x02",
+            "#13813F#11P#30W……Was good……\x01",
+            "……… It's really safe ………\x02\x03",
+            "The place my sister was aiming for was\x01",
+            "I still have been a long time ago ……\x02\x03",
+            "#13812FReally … … to be unreasonable ……\x02",
         )
     )
 
@@ -243,9 +243,9 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04308F#5P#30Wリース……\x02\x03",
-            "#04304F……そやな……\x01",
-            "まだまだ先は長いか……\x02",
+            "#04308F#5P#30Wlease……\x02\x03",
+            "#04304F… …. Sorry ….\x01",
+            "Is there still a long way to go …?\x02",
         )
     )
 
@@ -259,10 +259,10 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04303F#5P#30W……これから先も\x01",
-            "呆れさせてしまうことが\x01",
-            "あるかもしれへんけど……\x02\x03",
-            "#04300F懲りずに支えてくれるか……？\x02",
+            "#04303F#5P#30W…… From now on\x01",
+            "To be amazed\x01",
+            "There may be something … …\x02\x03",
+            "#04300FWill you support without discernment …?\x02",
         )
     )
 
@@ -271,8 +271,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#13814F#11P#30W……当たり前……\x01",
-            "放っておけるわけない……\x02",
+            "#13814F#11P#30W… … Naturally …\x01",
+            "It can not be left alone … …\x02",
         )
     )
 

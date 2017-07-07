@@ -19,7 +19,7 @@ def main():
 
     BuildStringList((
         "m0011",                  # 0
-        "SE制御",                 # 1
+        "SE control",                 # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)

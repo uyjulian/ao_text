@@ -19,9 +19,9 @@ def main():
 
     BuildStringList((
         "c013b",                  # 0
-        "キーア",                 # 1
-        "ダミー",                 # 2
-        "SE制御",                 # 3
+        "Keya",                 # 1
+        "dummy",                 # 2
+        "SE control",                 # 3
     ))
 
     AddCharChip((
@@ -232,8 +232,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fここはティオの部屋だ。\x01",
-            "入るのはやめておこう。\x02",
+            "#00000FThis is the room of Tio.\x01",
+            "Let's stop entering.\x02",
         )
     )
 
@@ -301,7 +301,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#0100Fここでいいかしら。\x02",
+        "#0100FI wonder if I can do it here.\x02",
     )
 
     CloseMessageWindow()
@@ -313,8 +313,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "エリィの部屋に\x01",
-            "新しい家具が追加されました。\x07\x00\x02",
+            "In the room of Eli\x01",
+            "New furniture was added.\x07\x00\x02",
         )
     )
 
@@ -414,7 +414,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#0100Fここでいいかしら。\x02",
+        "#0100FI wonder if I can do it here.\x02",
     )
 
     CloseMessageWindow()
@@ -426,8 +426,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "エリィの部屋に\x01",
-            "新しい家具が追加されました。\x07\x00\x02",
+            "In the room of Eli\x01",
+            "New furniture was added.\x07\x00\x02",
         )
     )
 
@@ -524,7 +524,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#0200Fここでいいでしょう。\x02",
+        "#0200FHere it is good.\x02",
     )
 
     CloseMessageWindow()
@@ -536,8 +536,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ティオの部屋に\x01",
-            "新しい家具が追加されました。\x07\x00\x02",
+            "In Tio's room\x01",
+            "New furniture was added.\x07\x00\x02",
         )
     )
 
@@ -634,7 +634,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#0200Fここでいいでしょう。\x02",
+        "#0200FHere it is good.\x02",
     )
 
     CloseMessageWindow()
@@ -646,8 +646,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ティオの部屋に\x01",
-            "新しい家具が追加されました。\x07\x00\x02",
+            "In Tio's room\x01",
+            "New furniture was added.\x07\x00\x02",
         )
     )
 
@@ -744,7 +744,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100Fここでよさそうですね。\x02",
+        "#10100FIt looks good here.\x02",
     )
 
     CloseMessageWindow()
@@ -756,8 +756,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ノエルの部屋に\x01",
-            "新しい家具が追加されました。\x07\x00\x02",
+            "Noel's room\x01",
+            "New furniture was added.\x07\x00\x02",
         )
     )
 
@@ -854,7 +854,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100Fここでよさそうですね。\x02",
+        "#10100FIt looks good here.\x02",
     )
 
     CloseMessageWindow()
@@ -866,8 +866,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ノエルの部屋に\x01",
-            "新しい家具が追加されました。\x07\x00\x02",
+            "Noel's room\x01",
+            "New furniture was added.\x07\x00\x02",
         )
     )
 
@@ -925,8 +925,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fそうだ、このぬいぐるみ……\x01",
-            "キーアの部屋にぴったりかもしれないな。\x02",
+            "#00000FYes, this stuffed animal ……\x01",
+            "Keyaの部屋にぴったりかもしれないな。\x02",
         )
     )
 
@@ -937,8 +937,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはキーアを捜してきて、\x01",
-            "持っていたぬいぐるみをプレゼントした。\x07\x00\x02",
+            "ロイドはKeyaを捜してきて、\x01",
+            "I gave a stuffed toy I had.\x07\x00\x02",
         )
     )
 
@@ -991,7 +991,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100Fここに置こうっと！\x02",
+        "#01100FLet's put it here!\x02",
     )
 
     CloseMessageWindow()
@@ -1003,8 +1003,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "キーアの部屋に\x01",
-            "新しい家具が追加されました。\x07\x00\x02",
+            "Keyaの部屋に\x01",
+            "New furniture was added.\x07\x00\x02",
         )
     )
 
@@ -1063,8 +1063,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fそうだ、このぬいぐるみ……\x01",
-            "キーアの部屋にぴったりかもしれないな。\x02",
+            "#00000FYes, this stuffed animal ……\x01",
+            "Keyaの部屋にぴったりかもしれないな。\x02",
         )
     )
 
@@ -1075,8 +1075,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはキーアを捜してきて、\x01",
-            "持っていたぬいぐるみをプレゼントした。\x07\x00\x02",
+            "ロイドはKeyaを捜してきて、\x01",
+            "I gave a stuffed toy I had.\x07\x00\x02",
         )
     )
 
@@ -1129,7 +1129,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100Fここに置こうっと！\x02",
+        "#01100FLet's put it here!\x02",
     )
 
     CloseMessageWindow()
@@ -1141,8 +1141,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "キーアの部屋に\x01",
-            "新しい家具が追加されました。\x07\x00\x02",
+            "Keyaの部屋に\x01",
+            "New furniture was added.\x07\x00\x02",
         )
     )
 
@@ -1201,8 +1201,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fそうだ、このぬいぐるみ……\x01",
-            "キーアの部屋にぴったりかもしれないな。\x02",
+            "#00000FYes, this stuffed animal ……\x01",
+            "Keyaの部屋にぴったりかもしれないな。\x02",
         )
     )
 
@@ -1213,8 +1213,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはキーアを捜してきて、\x01",
-            "持っていたぬいぐるみをプレゼントした。\x07\x00\x02",
+            "ロイドはKeyaを捜してきて、\x01",
+            "I gave a stuffed toy I had.\x07\x00\x02",
         )
     )
 
@@ -1267,7 +1267,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100Fここに置こうっと！\x02",
+        "#01100FLet's put it here!\x02",
     )
 
     CloseMessageWindow()
@@ -1279,8 +1279,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "キーアの部屋に\x01",
-            "新しい家具が追加されました。\x07\x00\x02",
+            "Keyaの部屋に\x01",
+            "New furniture was added.\x07\x00\x02",
         )
     )
 
@@ -1339,8 +1339,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fそうだ、このぬいぐるみ……\x01",
-            "キーアの部屋にぴったりかもしれないな。\x02",
+            "#00000FYes, this stuffed animal ……\x01",
+            "Keyaの部屋にぴったりかもしれないな。\x02",
         )
     )
 
@@ -1351,8 +1351,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはキーアを捜してきて、\x01",
-            "持っていたぬいぐるみをプレゼントした。\x07\x00\x02",
+            "ロイドはKeyaを捜してきて、\x01",
+            "I gave a stuffed toy I had.\x07\x00\x02",
         )
     )
 
@@ -1405,7 +1405,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100Fここに置こうっと！\x02",
+        "#01100FLet's put it here!\x02",
     )
 
     CloseMessageWindow()
@@ -1417,8 +1417,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "キーアの部屋に\x01",
-            "新しい家具が追加されました。\x07\x00\x02",
+            "Keyaの部屋に\x01",
+            "New furniture was added.\x07\x00\x02",
         )
     )
 
@@ -1477,8 +1477,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fそうだ、このぬいぐるみ……\x01",
-            "キーアの部屋にぴったりかもしれないな。\x02",
+            "#00000FYes, this stuffed animal ……\x01",
+            "Keyaの部屋にぴったりかもしれないな。\x02",
         )
     )
 
@@ -1489,8 +1489,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはキーアを捜してきて、\x01",
-            "持っていたぬいぐるみをプレゼントした。\x07\x00\x02",
+            "ロイドはKeyaを捜してきて、\x01",
+            "I gave a stuffed toy I had.\x07\x00\x02",
         )
     )
 
@@ -1543,7 +1543,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100Fここに置こうっと！\x02",
+        "#01100FLet's put it here!\x02",
     )
 
     CloseMessageWindow()
@@ -1555,8 +1555,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "キーアの部屋に\x01",
-            "新しい家具が追加されました。\x07\x00\x02",
+            "Keyaの部屋に\x01",
+            "New furniture was added.\x07\x00\x02",
         )
     )
 
@@ -1615,8 +1615,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "家具アイテムを入手すると\x01",
-            "支援課メンバーの部屋に置く事ができます。\x07\x00\x02",
+            "When I get furniture items\x01",
+            "You can put it in the support room 's room.\x07\x00\x02",
         )
     )
 
@@ -1644,8 +1644,8 @@ def main():
         -1,
         1,
         (
-            "ここで休憩する\x01",      # 0
-            "やめる\x01",              # 1
+            "To take a break here\x01",      # 0
+            "quit\x01",              # 1
         )
     )
 
@@ -1696,8 +1696,8 @@ def main():
         -1,
         1,
         (
-            "ここで休憩する\x01",      # 0
-            "やめる\x01",              # 1
+            "To take a break here\x01",      # 0
+            "quit\x01",              # 1
         )
     )
 
@@ -1748,8 +1748,8 @@ def main():
         -1,
         1,
         (
-            "ここで休憩する\x01",      # 0
-            "やめる\x01",              # 1
+            "To take a break here\x01",      # 0
+            "quit\x01",              # 1
         )
     )
 
@@ -1802,7 +1802,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "瀟洒な姿見がある。\x02",
+            "There is an elegant appearance.\x02",
         )
     )
 
@@ -1836,7 +1836,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "オルゴールがある。\x02",
+            "There is a music box.\x02",
         )
     )
 
@@ -1891,7 +1891,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "カゲマル貯金箱がある。\x02",
+            "There is a piggy banker.\x02",
         )
     )
 
@@ -1925,7 +1925,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "みーしぇぐるみがある。\x02",
+            "There is Meeeeee.\x02",
         )
     )
 
@@ -1959,7 +1959,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "レース用フラッグがある。\x02",
+            "There is a flag for the race.\x02",
         )
     )
 
@@ -1993,7 +1993,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ミニベロ自転車がある。\x02",
+            "There is a mini bell bike.\x02",
         )
     )
 
@@ -2027,7 +2027,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ポムクッションがある。\x02",
+            "There is a pom cushion.\x02",
         )
     )
 
@@ -2061,7 +2061,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "変なクッションがある。\x02",
+            "There is a strange cushion.\x02",
         )
     )
 
@@ -2095,7 +2095,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "黒テディベアがある。\x02",
+            "There is a black teddy bear.\x02",
         )
     )
 
@@ -2129,7 +2129,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "にがとまとにあんがある。\x02",
+            "There is an annoyance for a while.\x02",
         )
     )
 
@@ -2163,7 +2163,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ＺＷＥＩ２ペンギンがある。\x02",
+            "There is ZWEI 2 penguin.\x02",
         )
     )
 

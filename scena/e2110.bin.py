@@ -19,10 +19,10 @@ def main():
 
     BuildStringList((
         "e2110",                  # 0
-        "ロックスミス大統領",     # 1
-        "キリカ",                 # 2
-        "共和国軍仕官",           # 3
-        "共和国軍仕官",           # 4
+        "President Lock Smith",     # 1
+        "Kirika",                 # 2
+        "Republican Army Officer",           # 3
+        "Republican Army Officer",           # 4
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)

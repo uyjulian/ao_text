@@ -19,11 +19,11 @@ def main():
 
     BuildStringList((
         "m4160",                  # 0
-        "イベント用モンスター",   # 1
-        "イベント用モンスター",   # 2
-        "オルゴンスパイド",       # 3
-        "ゲルマー",               # 4
-        "SE制御",                 # 5
+        "Event monster",   # 1
+        "Event monster",   # 2
+        "Orgon Spide",       # 3
+        "Germar",               # 4
+        "SE control",                 # 5
         "bm4150",                 # 6
         "bm4150",                 # 7
         "bm4150",                 # 8
@@ -435,9 +435,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱の中から強力な魔獣の気配を感じる。\x01",
-            "【推定魔獣レベル８５】\x01",
-            "宝箱を開きますか？\x02",
+            "I feel the signature of powerful demons from the treasure box.\x01",
+            "【Estimated Demonic Level 85】\x01",
+            "Would you like to open a treasure box?\x02",
         )
     )
 
@@ -448,8 +448,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -493,7 +493,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "A monster appeared!\x07\x00\x02",
         )
     )
 
@@ -543,7 +543,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '岁星铃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -562,14 +562,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '岁星铃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '岁星铃'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -592,7 +592,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -643,7 +643,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "A monster appeared!\x07\x00\x02",
         )
     )
 
@@ -693,7 +693,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '光耀珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -712,14 +712,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '光耀珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '光耀珠'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -742,7 +742,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -788,7 +788,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "魔獣が現れた！\x07\x00\x02",
+            "A monster appeared!\x07\x00\x02",
         )
     )
 
@@ -838,7 +838,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '无限'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -857,14 +857,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '无限'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '无限'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -887,7 +887,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -929,7 +929,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '全回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "を手に入れた。\x02",
+            "I got it.\x02",
         )
     )
 
@@ -949,14 +949,14 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "宝箱には",
+            "In the treasure box",
             scpstr(SCPSTR_CODE_ITEM, '全回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "が入っている。\x01",
-            "持ち物が一杯なので、",
+            "Is contained.\x01",
+            "Because my belongings are full,",
             scpstr(SCPSTR_CODE_ITEM, '全回复药'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "をあきらめた。\x02",
+            "I gave up.\x02",
         )
     )
 
@@ -981,7 +981,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "宝箱には何も入っていない。\x07\x00\x02",
+            "In the treasure box何も入っていない。\x07\x00\x02",
         )
     )
 
@@ -1009,8 +1009,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ハシゴがある。\x01",
-            "降りますか？\x02",
+            "There is a ladder.\x01",
+            "Are you getting off?\x02",
         )
     )
 
@@ -1021,8 +1021,8 @@ def main():
         -1,
         1,
         (
-            "は　い\x01",      # 0
-            "いいえ\x01",      # 1
+            "Yes\x01",      # 0
+            "No\x01",      # 1
         )
     )
 
@@ -1048,7 +1048,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "壊れたハシゴがある。\x02",
+            "There is a broken ladder.\x02",
         )
     )
 
@@ -1167,14 +1167,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#11P……？\x02",
+        "#00005F#11P……?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10108F#12P上……？\x02",
+        "#10108F#12PUp……?\x02",
     )
 
     CloseMessageWindow()
@@ -1255,14 +1255,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#11Pなっ……！\x02",
+        "#00007F#11PBecome\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00101F#11Pあの時に見かけた……！\x02",
+        "#00101F#11PI saw you at that time …!\x02",
     )
 
     CloseMessageWindow()
@@ -1273,14 +1273,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#11Pなに……！？\x02",
+        "#00010F#11Pwhat……! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00201F#11P普通の魔獣と雰囲気が……\x02",
+        "#00201F#11POrdinary monsters and atmosphere …\x02",
     )
 
     CloseMessageWindow()
@@ -1290,7 +1290,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10307F#5P挟み込まれた──来る！\x02",
+        "#10307F#5PIt caught in - ─ coming!\x02",
     )
 
     CloseMessageWindow()
@@ -1446,9 +1446,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5Pくっ……恐ろしく手強かったな。\x02\x03",
-            "#00013Fどうやら軍用犬と同じように\x01",
-            "訓練された魔獣みたいだけど……\x02",
+            "#00006F#5PKu … … It was terribly tough.\x02\x03",
+            "#00013FApparently just like a military dog\x01",
+            "It looks like a trained devil … …\x02",
         )
     )
 
@@ -1457,9 +1457,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#6Pええ、イヌ科じゃなくて\x01",
-            "ネコ科みたいだっただけど……\x02\x03",
-            "#00108Fやっぱり《赤い星座》が……？\x02",
+            "#00106F#6PYeah, not a canine\x01",
+            "It was like a cat family … …\x02\x03",
+            "#00108FAfter all \"Red constellation\" … ….?\x02",
         )
     )
 
@@ -1468,9 +1468,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10106F#6P多分……\x01",
-            "猟兵団が軍用魔獣を使役するのは\x01",
-            "よくある事だと聞きますし。\x02",
+            "#10106F#6PMaybe……\x01",
+            "The hunting corps uses military demons\x01",
+            "I hear that it is common.\x02",
         )
     )
 
@@ -1479,8 +1479,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10306F#12Pさすがにマフィアの軍用犬とは\x01",
-            "格が違うみたいだったけどね。\x02",
+            "#10306F#12PIndeed with Mafia's military dog\x01",
+            "It seems that the case is different.\x02",
         )
     )
 
@@ -1489,8 +1489,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00211F#11Pええ……生意気にも\x01",
-            "挟み撃ちにしてきましたし。\x02",
+            "#00211F#11PYeah …… cheeky too\x01",
+            "I've been trying to pinch it.\x02",
         )
     )
 
@@ -1500,10 +1500,10 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00103F#6Pでも、あのミンネスという男が\x01",
-            "今のを使っていたとなると……\x02\x03",
-            "#00101Fひょっとしたら《赤い星座》とも\x01",
-            "関わりがあるかもしれないわね。\x02",
+            "#00103F#6PBut the man named Mineness\x01",
+            "When you are using the present … …\x02\x03",
+            "#00101FPerhaps \"red constellation\"\x01",
+            "You may have something to do with it.\x02",
         )
     )
 
@@ -1512,12 +1512,12 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5Pああ、御用商人か資金調達係……\x01",
-            "そんなところかも知れない。\x02\x03",
-            "#00003F──とりあえず、\x01",
-            "何とか撃退できて良かった。\x02\x03",
-            "#00013F終点も近そうだし、\x01",
-            "このまま先を急ごう。\x02",
+            "#00006F#5POh, a servant merchant or a fundraiser … …\x01",
+            "It might be such a place.\x02\x03",
+            "#00003FTentatively,\x01",
+            "I was glad that I managed to repel anyhow.\x02\x03",
+            "#00013FThe end point seems to be close,\x01",
+            "Let 's hurry ahead as usual.\x02",
         )
     )
 
@@ -1530,10 +1530,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P──とりあえず、\x01",
-            "何とか撃退できて良かった。\x02\x03",
-            "#00013F終点も近そうだし、\x01",
-            "このまま先を急ごう。\x02",
+            "#00003F#5PTentatively,\x01",
+            "I was glad that I managed to repel anyhow.\x02\x03",
+            "#00013FThe end point seems to be close,\x01",
+            "Let 's hurry ahead as usual.\x02",
         )
     )
 
@@ -1544,7 +1544,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#6Pはい……！\x02",
+        "#10101F#6PYes……!\x02",
     )
 
     CloseMessageWindow()
@@ -1644,8 +1644,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002F#11Pここは……\x01",
-            "旧鉱山の入口近くか！\x02",
+            "#00002F#11Phere……\x01",
+            "Is it near the entrance of the old mine!\x02",
         )
     )
 
@@ -1654,8 +1654,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#11Pよかった……\x01",
-            "無事たどり着けたわね。\x02",
+            "#00106F#11PWas good……\x01",
+            "You have arrived safely.\x02",
         )
     )
 
@@ -1664,8 +1664,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10108F#11Pですが……\x01",
-            "ランディ先輩はどこに？\x02",
+            "#10108F#11Pbut……\x01",
+            "Where is Randy-senpai?\x02",
         )
     )
 
@@ -1674,8 +1674,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10301F#11Pまだ仕掛けてないんなら\x01",
-            "合流できそうだけど……\x02",
+            "#10301F#11PIf you have not done it yet\x01",
+            "It seems that they can join together ….\x02",
         )
     )
 
@@ -1709,8 +1709,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00205F#11P出口の外から爆薬の使用音……！\x02\x03",
-            "#00207F銃撃戦の音も聞こえます！\x02",
+            "#00205F#11PUsing sound of explosive from outside the exit … …!\x02\x03",
+            "#00207FYou can hear the sound of the gun battle!\x02",
         )
     )
 
@@ -1718,7 +1718,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#11Pランディ……！\x02",
+        "#00107F#11PRandy …!\x02",
     )
 
     CloseMessageWindow()
@@ -1758,21 +1758,21 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#6Pクッ、俺たちも出るぞ！\x02",
+        "#00010F#6PGood morning, we'll get out too!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10107F#11Pイエス・サー！\x02",
+        "#10107F#11PYes, sir!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10308F#11P（……間に合うかな？）\x02",
+        "#10308F#11P(… … I will make it in time?)\x02",
     )
 
     CloseMessageWindow()
@@ -1802,8 +1802,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F時間がない――\x01",
-            "急いで出口に向かおう！\x02",
+            "#00001Fno time--\x01",
+            "Let's hurry and head to the exit!\x02",
         )
     )
 

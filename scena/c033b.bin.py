@@ -19,9 +19,9 @@ def main():
 
     BuildStringList((
         "c033b",                  # 0
-        "ハロルド",               # 1
-        "ソフィア",               # 2
-        "コリン",                 # 3
+        "Harold",               # 1
+        "Sofia",               # 2
+        "Choline",                 # 3
     ))
 
     AddCharChip((
@@ -155,7 +155,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "車雑誌『月間カーマニアvol.1』がある。\x07\x00\x02",
+            "There is a car magazine \"Monthly Carmania vol.1\".\x07\x00\x02",
         )
     )
 
@@ -171,9 +171,9 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "ペイントパターン\x01\x07\x02",
-            "『スカイカラー』\x07\x00",
-            "を覚えた。\x02",
+            "Paint pattern\x01\x07\x02",
+            "\"Sky color\"\x07\x00",
+            "I learned.\x02",
         )
     )
 
@@ -199,14 +199,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#03605Fおや、みなさん。\x02",
+        "#03605FAw, everyone.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00000Fこんばんは、ハロルドさん。\x02",
+        "#00000Fこんばんは、Haroldさん。\x02",
     )
 
     CloseMessageWindow()
@@ -214,9 +214,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00104F２階からいい匂い……\x01",
-            "奥様が夕食の準備を\x01",
-            "されてるみたいですね。\x02",
+            "#00104FGood smell from the second floor …\x01",
+            "Wife prepares for dinner\x01",
+            "It seems to be done.\x02",
         )
     )
 
@@ -225,12 +225,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#03600Fええ、そうなんですよ。\x01",
-            "それに今日はコリンも\x01",
-            "手伝っているみたいでして。\x02\x03",
-            "#03609Fいやあ、私も出先から\x01",
-            "戻ってきたところなので、\x01",
-            "お腹がペコペコですよ。\x02",
+            "#03600FWell, that's right.\x01",
+            "それに今日はCholineも\x01",
+            "He seems to be helping.\x02\x03",
+            "#03609FWell, I am from the outset\x01",
+            "As I came back,\x01",
+            "My stomach is stupid.\x02",
         )
     )
 
@@ -244,11 +244,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#03600Fどうやら今日は、\x01",
-            "コリンが料理を手伝っている\x01",
-            "みたいでしてね。\x02\x03",
-            "#03609Fふふ、どんな料理が\x01",
-            "出てくるか楽しみですよ。\x02",
+            "#03600FApparently today,\x01",
+            "Cholineが料理を手伝っている\x01",
+            "It looks like it.\x02\x03",
+            "#03609FHehe, what kind of dish\x01",
+            "I am looking forward to coming out.\x02",
         )
     )
 
@@ -270,9 +270,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#03700Fさ、あとは煮立つのを待つだけよ。\x02\x03",
-            "#03709Fふふ、よく出来たわねコリン。\x01",
-            "きっとパパも喜んでくれるわ。\x02",
+            "#03700FLet's just wait for boiling.\x02\x03",
+            "#03709Fふふ、よく出来たわねCholine。\x01",
+            "I'm sure Papa will be pleased.\x02",
         )
     )
 
@@ -291,11 +291,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03802Fきょうのばんごはんは\x01",
-            "カレーなんだよ〜。\x02\x03",
-            "#03809Fえへへ、ぼくが\x01",
-            "おやさいを切ったんだ〜。\x01",
-            "すごいでしょ〜？\x02",
+            "#03802FToday 's dinner is\x01",
+            "It's curry.\x02\x03",
+            "#03809FEh, I\x01",
+            "I cut a piece of chicken ~.\x01",
+            "Is not it amazing?\x02",
         )
     )
 

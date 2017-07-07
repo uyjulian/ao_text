@@ -19,8 +19,8 @@ def main():
 
     BuildStringList((
         "m3099",                  # 0
-        "魔人ヨアヒム",           # 1
-        "SE制御",                 # 2
+        "Majin Joachim",           # 1
+        "SE control",                 # 2
     ))
 
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -137,8 +137,8 @@ def main():
 
     NpcTalk(
         0x102,
-        "　",
-        "#20A#00117F#6P#50W　　　　　　\x02",
+        "In the case of",
+        "#20A#00117F#6P#50WIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case of\x02",
     )
 
     CloseMessageWindow()
@@ -146,10 +146,10 @@ def main():
 
     NpcTalk(
         0x104,
-        "　",
+        "In the case of",
         (
-            "#25A#6P#00317F#50W　　　　\x01",
-            "　　　　　　　　　\x02",
+            "#25A#6P#00317F#50WIn the case ofIn the case ofIn the case ofIn the case of\x01",
+            "In the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case of\x02",
         )
     )
 
@@ -158,8 +158,8 @@ def main():
 
     NpcTalk(
         0x103,
-        "　",
-        "#20A#6P#00217F#50W　　　　　　\x02",
+        "In the case of",
+        "#20A#6P#00217F#50WIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case of\x02",
     )
 
     CloseMessageWindow()
@@ -167,10 +167,10 @@ def main():
 
     NpcTalk(
         0x101,
-        "　",
+        "In the case of",
         (
-            "#20A#6P#00016F#50W　　　　　　　　　　\x01",
-            "　　　　　　　\x02",
+            "#20A#6P#00016F#50WIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case of\x01",
+            "In the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case of\x02",
         )
     )
 

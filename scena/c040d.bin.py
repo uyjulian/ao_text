@@ -19,41 +19,41 @@ def main():
 
     BuildStringList((
         "c040d",                  # 0
-        "ポリセ",                 # 1
-        "タップ",                 # 2
-        "ソフィーユ",             # 3
-        "テージョ",               # 4
-        "客引きピム",             # 5
-        "ラマンダ",               # 6
-        "バニーガール",           # 7
-        "車",                     # 8
-        "国防軍兵士",             # 9
-        "国防軍兵士",             # 10
-        "市民１",                 # 11
-        "市民２",                 # 12
-        "市民３",                 # 13
-        "市民４",                 # 14
-        "市民５",                 # 15
-        "市民６",                 # 16
-        "市民７",                 # 17
-        "市民８",                 # 18
+        "Police",                 # 1
+        "Tap",                 # 2
+        "Sofeille",             # 3
+        "Tejo",               # 4
+        "Buddy Pim",             # 5
+        "Ramanda",               # 6
+        "Bunny girl",           # 7
+        "car",                     # 8
+        "Defense Forces soldier",             # 9
+        "Defense Forces soldier",             # 10
+        "Citizen 1",                 # 11
+        "Citizen 2",                 # 12
+        "Citizen 3",                 # 13
+        "Citizen 4",                 # 14
+        "Citizen 5",                 # 15
+        "Citizen 6",                 # 16
+        "Citizen 7",                 # 17
+        "Citizen 8",                 # 18
         "bc0400",                 # 19
-        "中央広場",               # 20
-        "西通り",                 # 21
-        "行政区",                 # 22
-        "住宅街",                 # 23
-        "歓楽街",                 # 24
-        "東通り",                 # 25
-        "旧市街",                 # 26
-        "港湾区",                 # 27
-        "ＩＢＣ",                 # 28
-        "駅前通り",               # 29
-        "裏通り",                 # 30
-        "ウルスラ間道",           # 31
-        "東クロスベル街道",       # 32
-        "西クロスベル街道",       # 33
-        "マインツ山道",           # 34
-        "オルキスタワー",         # 35
+        "Central square",               # 20
+        "Nishi dori",                 # 21
+        "Administrative district",                 # 22
+        "Residential area",                 # 23
+        "Entertainment district",                 # 24
+        "East Street",                 # 25
+        "old Town",                 # 26
+        "Harbor district",                 # 27
+        "IBC",                 # 28
+        "Beside the station",               # 29
+        "Back street",                 # 30
+        "Ursula interchange",           # 31
+        "East Crossbell Highway",       # 32
+        "West Crossbell Highway",       # 33
+        "Mainz Mountain Road",           # 34
+        "Orchis Tower",         # 35
     ))
 
     ATBonus("ATBonus_5AC", 100, 5, 1, 5, 1, 5, 1, 5, 5, 5, 5, 5, 5, 0, 0, 0)
@@ -141,22 +141,22 @@ def main():
     DeclMonster(4294949206, 8970,    0,       0x10100DC,    "BattleInfo_67C", 0,   16,  0xFFFF, 0,  1)
     DeclMonster(9570,    3690,    0,       0x10100E1,    "BattleInfo_67C", 0,   16,  0xFFFF, 0,  1)
 
-    PlaceName(90.5999984741211, 0.0, -111.88999938964844, 0x0000, 0x0000, "中央広場")
-    PlaceName(-19.209999084472656, 0.0, -104.37999725341797, 0x0000, 0x0000, "西通り")
-    PlaceName(135.69000244140625, 0.0, 36.7400016784668, 0x0000, 0x0000, "行政区")
-    PlaceName(-121.08000183105469, 0.0, 20.040000915527344, 0x0000, 0x0000, "住宅街")
-    PlaceName(0.8399999737739563, 0.0, 6.679999828338623, 0x0000, 0x0000, "歓楽街")
-    PlaceName(226.2899932861328, 0.0, -150.3000030517578, 0x0000, 0x0000, "東通り")
-    PlaceName(285.57000732421875, 0.0, -242.14999389648438, 0x0000, 0x0000, "旧市街")
-    PlaceName(273.04998779296875, 0.0, -40.08000183105469, 0x0000, 0x0000, "港湾区")
-    PlaceName(229.6300048828125, 0.0, 116.9000015258789, 0x0000, 0x0000, "ＩＢＣ")
-    PlaceName(109.38999938964844, 0.0, -227.1199951171875, 0x0000, 0x0000, "駅前通り")
-    PlaceName(30.899999618530273, 0.0, -53.439998626708984, 0x0000, 0x0000, "裏通り")
-    PlaceName(104.37999725341797, 0.0, -278.8900146484375, 0x0000, 0x0000, "ウルスラ間道")
-    PlaceName(316.4700012207031, 0.0, -126.91999816894531, 0x0000, 0x0000, "東クロスベル街道")
-    PlaceName(-104.37999725341797, 0.0, -106.87999725341797, 0x0000, 0x0000, "西クロスベル街道")
-    PlaceName(-94.36000061035156, 0.0, 60.119998931884766, 0x0000, 0x0000, "マインツ山道")
-    PlaceName(124.0, 0.0, 255.0, 0x0000, 0x0000, "オルキスタワー")
+    PlaceName(90.5999984741211, 0.0, -111.88999938964844, 0x0000, 0x0000, "Central square")
+    PlaceName(-19.209999084472656, 0.0, -104.37999725341797, 0x0000, 0x0000, "Nishi dori")
+    PlaceName(135.69000244140625, 0.0, 36.7400016784668, 0x0000, 0x0000, "Administrative district")
+    PlaceName(-121.08000183105469, 0.0, 20.040000915527344, 0x0000, 0x0000, "Residential area")
+    PlaceName(0.8399999737739563, 0.0, 6.679999828338623, 0x0000, 0x0000, "Entertainment district")
+    PlaceName(226.2899932861328, 0.0, -150.3000030517578, 0x0000, 0x0000, "East Street")
+    PlaceName(285.57000732421875, 0.0, -242.14999389648438, 0x0000, 0x0000, "old Town")
+    PlaceName(273.04998779296875, 0.0, -40.08000183105469, 0x0000, 0x0000, "Harbor district")
+    PlaceName(229.6300048828125, 0.0, 116.9000015258789, 0x0000, 0x0000, "IBC")
+    PlaceName(109.38999938964844, 0.0, -227.1199951171875, 0x0000, 0x0000, "Beside the station")
+    PlaceName(30.899999618530273, 0.0, -53.439998626708984, 0x0000, 0x0000, "Back street")
+    PlaceName(104.37999725341797, 0.0, -278.8900146484375, 0x0000, 0x0000, "Ursula interchange")
+    PlaceName(316.4700012207031, 0.0, -126.91999816894531, 0x0000, 0x0000, "East Crossbell Highway")
+    PlaceName(-104.37999725341797, 0.0, -106.87999725341797, 0x0000, 0x0000, "West Crossbell Highway")
+    PlaceName(-94.36000061035156, 0.0, 60.119998931884766, 0x0000, 0x0000, "Mainz Mountain Road")
+    PlaceName(124.0, 0.0, 255.0, 0x0000, 0x0000, "Orchis Tower")
     PlaceName(53.86000061035156, 0.0, -135.27000427246094, 0x0000, 0x0051, "")
     PlaceName(143.6199951171875, 0.0, -91.8499984741211, 0x0000, 0x0054, "")
     PlaceName(94.7699966430664, 0.0, -148.6300048828125, 0x0000, 0x0057, "")
@@ -624,9 +624,9 @@ def main():
         -1,
         1,
         (
-            "話をする\x01",          # 0
-            "買い物をする\x01",      # 1
-            "やめる\x01",            # 2
+            "talk\x01",          # 0
+            "to shop\x01",      # 1
+            "quit\x01",            # 2
         )
     )
 
@@ -657,9 +657,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "せっかく商売再開……\x01",
-            "と思いきや、なんかあり得ないことが\x01",
-            "起こってるみたいですねー。\x02",
+            "Resume business so much ……\x01",
+            "And I think that something is impossible\x01",
+            "It looks like it's happening.\x02",
         )
     )
 
@@ -668,8 +668,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……これは一度、アイスで\x01",
-            "頭を冷やした方がいいかもしれません。\x02",
+            "…… This once at an ice cream\x01",
+            "You may as well as cool your head.\x02",
         )
     )
 
@@ -687,7 +687,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "本当に凄い騒ぎですねー。\x02",
+        "It really is a terrible noise.\x02",
     )
 
     CloseMessageWindow()
@@ -695,8 +695,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "何だか熱気で、アイスが\x01",
-            "溶けてしまいそうな気がしますー。\x02",
+            "I feel something hot and ice cream\x01",
+            "I feel that it will melt.\x02",
         )
     )
 
@@ -710,7 +710,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "イリアさん……本当に心配ですよね。\x02",
+        "Iria … … I am really worried.\x02",
     )
 
     CloseMessageWindow()
@@ -718,8 +718,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "わたしにはアイスを売るくらいしか\x01",
-            "能がないですけど……\x02",
+            "Only to sell ice to me\x01",
+            "I do not have the ability, but ….\x02",
         )
     )
 
@@ -728,8 +728,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "ここで商売を続けて、\x01",
-            "イリアさんの復帰を待つつもりです。\x02",
+            "Continue to do business here,\x01",
+            "I will wait for Mr. Iria to return.\x02",
         )
     )
 
@@ -742,7 +742,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "アイス〜、アイスはいかが〜？\x02",
+        "Ice ~, how about ice cream?\x02",
     )
 
     CloseMessageWindow()
@@ -750,8 +750,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "ひんやりさわやか、\x01",
-            "とってもおいしいですよ〜。\x02",
+            "Cool and refreshing,\x01",
+            "It is very tasty ~.\x02",
         )
     )
 
@@ -779,8 +779,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ぼんやり光る樹……\x01",
-            "ホントなんなんだろうねえ、アレ？\x02",
+            "A vagrant shining tree …\x01",
+            "I guess it's true, are not you?\x02",
         )
     )
 
@@ -789,9 +789,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ってまあ、考えてもしゃーないか。\x01",
-            "とにかく働ける内に仕事して\x01",
-            "たんまり稼いでおかないとねー。\x02",
+            "Well, maybe you do not care.\x01",
+            "Anyway I am able to work inside\x01",
+            "I need to earn a lot of money.\x02",
         )
     )
 
@@ -805,8 +805,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "とにかく働ける内に仕事して\x01",
-            "たんまり稼いでおかないとねー。\x02",
+            "Anyway I am able to work inside\x01",
+            "I need to earn a lot of money.\x02",
         )
     )
 
@@ -815,8 +815,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……って、流石に客も\x01",
-            "ほとんど引っかからないんだが。\x02",
+            "…… People in the stones\x01",
+            "I can hardly catch it.\x02",
         )
     )
 
@@ -838,8 +838,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "いやはや……何だか\x01",
-            "とんでもないことになってるねぇ。\x02",
+            "No, no … what …\x01",
+            "It is becoming ridiculous.\x02",
         )
     )
 
@@ -848,8 +848,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "とにかく、面倒事だけは\x01",
-            "カンベンして欲しいモンだよ。\x02",
+            "Anyway, only troubleshooting\x01",
+            "I want a cabbage, MON.\x02",
         )
     )
 
@@ -863,8 +863,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "へっへっへっ、あんたら\x01",
-            "ウチの店で飲んでかないかい？\x02",
+            "Hello, hey, you\x01",
+            "Would you like to drink it at our store?\x02",
         )
     )
 
@@ -873,8 +873,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "チャリティサービスっつうことで、\x01",
-            "かなり勉強させてもらうからさ。\x02",
+            "By doing charity service,\x01",
+            "I will learn quite a bit.\x02",
         )
     )
 
@@ -898,8 +898,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "シュ・リ・ちゃ〜〜ん！！\x01",
-            "他の皆さんも、頑張ってくださ〜い！\x02",
+            "Sh · R · chan ~ ~! It is!\x01",
+            "Good luck with everyone else!\x02",
         )
     )
 
@@ -908,8 +908,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "アルカンシェルの復活を\x01",
-            "心待ちにしていますわ〜！！\x02",
+            "Revive the alkane shell\x01",
+            "I am looking forward to it! It is!\x02",
         )
     )
 
@@ -924,8 +924,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "イリア様は、絶対に復帰するって\x01",
-            "約束してくださったわ。\x02",
+            "Iria-sama, I definitely will return\x01",
+            "I promised you.\x02",
         )
     )
 
@@ -934,9 +934,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "その日が来るまで、\x01",
-            "私たちは精一杯アルカンシェルを\x01",
-            "応援していかなくっちゃ！\x02",
+            "Until that day comes,\x01",
+            "We have the utmost Alkan Shell\x01",
+            "I have to support you!\x02",
         )
     )
 
@@ -958,8 +958,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "イリア様に怪我を\x01",
-            "負わせたのはきっと帝国の仕業……\x02",
+            "Irier-sama injured\x01",
+            "It is certainly the work of the empire that we owe ……\x02",
         )
     )
 
@@ -968,8 +968,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "だから……帝国は許せない………！\x01",
-            "言いなりになってたまるものですかっ！！\x02",
+            "So … … Empire can not forgive ………!\x01",
+            "Does not it fell underfill! It is!\x02",
         )
     )
 
@@ -983,7 +983,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "…………………………………\x02",
+        "…………………………………….\x02",
     )
 
     CloseMessageWindow()
@@ -991,8 +991,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……イリア様………\x01",
-            "どうしてこんなことに………\x02",
+            "…… Iria-sama ………\x01",
+            "Why is this ………\x02",
         )
     )
 
@@ -1006,8 +1006,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "犯人のヤツラ……許せない……\x01",
-            "……絶対に許せない………！\x02",
+            "The culprit Yatsura … I can not forgive … …\x01",
+            "…… Absolutely unforgivable ………!\x02",
         )
     )
 
@@ -1031,8 +1031,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "俺たち、病院で手伝いをしてる時に\x01",
-            "イリアさまをお見舞いできたんだ。\x02",
+            "When we are helping at the hospital\x01",
+            "I was able to see Mr. Iria.\x02",
         )
     )
 
@@ -1041,9 +1041,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "そしたら、今まさに稽古を\x01",
-            "頑張ってる人たちを\x01",
-            "応援してあげてって言われてさ。\x02",
+            "Then, now I will practice\x01",
+            "People trying hard\x01",
+            "I was told to give you support.\x02",
         )
     )
 
@@ -1052,8 +1052,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "イリア様のお願いとあらば、\x01",
-            "気合入れて応援するぜ！\x02",
+            "If there is Iria-sama's request,\x01",
+            "I will cheer and support you!\x02",
         )
     )
 
@@ -1067,8 +1067,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "イリア様のお願いとあらば、\x01",
-            "気合入れて応援するぜ！\x02",
+            "If there is Iria-sama's request,\x01",
+            "I will cheer and support you!\x02",
         )
     )
 
@@ -1090,8 +1090,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うおおっ……\x01",
-            "よく言ってくれたぜ、大統領！\x02",
+            "Uooh ……\x01",
+            "You said well, President!\x02",
         )
     )
 
@@ -1099,7 +1099,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "俺たちは今こそ自由になるんだ！！\x02",
+        "We are now free now! It is!\x02",
     )
 
     CloseMessageWindow()
@@ -1112,8 +1112,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "イリア様……\x01",
-            "まだ目を覚まさないんだってな。\x02",
+            "Iria-sama ……\x01",
+            "I do not wake up yet.\x02",
         )
     )
 
@@ -1122,8 +1122,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……くそっ、\x01",
-            "マジでワケ分かんねえよ。\x02",
+            "Damn it,\x01",
+            "Seriously I do not understand well.\x02",
         )
     )
 
@@ -1146,8 +1146,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふう、どうにもクロスベルを\x01",
-            "取り巻く状況は不穏な感じね……\x02",
+            "Well, everything is crossbell\x01",
+            "The circumstances surrounding me feel uneasy …\x02",
         )
     )
 
@@ -1156,8 +1156,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "どうにかして、今の内に\x01",
-            "外国にでも逃げようかしら？\x02",
+            "Somehow, within now\x01",
+            "Shall we escape to a foreign country?\x02",
         )
     )
 
@@ -1176,9 +1176,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "何となく噂はあったけど、\x01",
-            "まさか２大国がそんな\x01",
-            "卑劣なことをしていたなんて……！\x02",
+            "There was some rumor,\x01",
+            "No two major powers like that\x01",
+            "I was doing sneaky things …!\x02",
         )
     )
 
@@ -1187,9 +1187,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "私は大統領の主張に心から賛成よ。\x01",
-            "今立ち上がらなきゃ、\x01",
-            "同じ悲劇を繰り返すだけだもの！\x02",
+            "I fully agree with the President 's assertion.\x01",
+            "I have to stand up now.\x01",
+            "Just repeat the same tragedy!\x02",
         )
     )
 
@@ -1203,9 +1203,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "アルカンシェルの舞台、\x01",
-            "本当なら今日観る\x01",
-            "予定だったんだけど……\x02",
+            "The stage of the alkane shell,\x01",
+            "If true, watch today\x01",
+            "It was a schedule ……\x02",
         )
     )
 
@@ -1214,9 +1214,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あんな事が起こったんじゃ\x01",
-            "仕方ないわよね……\x01",
-            "イリア様、大丈夫かしら。\x02",
+            "Such a thing happened.\x01",
+            "There is no choice but …\x01",
+            "Ilia-sama, I wonder if it's okay.\x02",
         )
     )
 
@@ -1239,9 +1239,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "はぁ、あり得ねえ……\x01",
-            "なんなんだ、あの物理法則を\x01",
-            "無視した巨大な樹は？\x02",
+            "Hey, there is nothing I can do ……\x01",
+            "What is that physical law\x01",
+            "Is there a huge tree ignored?\x02",
         )
     )
 
@@ -1250,8 +1250,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "なんか、今日は\x01",
-            "遊ぶ気になれねえな……\x02",
+            "Something, today\x01",
+            "I do not feel like playing …\x02",
         )
     )
 
@@ -1270,8 +1270,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "『クロスベル独立国』か……\x01",
-            "へへ、悪くない響きだな。\x02",
+            "\"Crossbell independent country\"? …\x01",
+            "Wow, that's not bad.\x02",
         )
     )
 
@@ -1280,8 +1280,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "これから俺たちは、\x01",
-            "市民じゃなくて国民ってわけだ。\x02",
+            "From now on,\x01",
+            "It is a citizen rather than a citizen.\x02",
         )
     )
 
@@ -1296,9 +1296,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "最近やっと落ち着いて来たけど、\x01",
-            "あの襲撃があってから\x01",
-            "何か街全体が暗い感じがするよな。\x02",
+            "Recently I finally calmed down,\x01",
+            "Since that raid took place\x01",
+            "I feel that the whole city is dark.\x02",
         )
     )
 
@@ -1307,9 +1307,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "でも俺は思うんだ。\x01",
-            "だからこそ、いつもより余計に遊んで\x01",
-            "景気を活性化させないとってな。\x02",
+            "But I think.\x01",
+            "That's why I played extra than usual\x01",
+            "It is said not to not activate the economy.\x02",
         )
     )
 
@@ -1322,7 +1322,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "さて、ってなわけで今日も遊ぶぞ〜。\x02",
+        "Well then, I will play today as well ~.\x02",
     )
 
     CloseMessageWindow()
@@ -1344,7 +1344,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "ハロー、いかが〜ん☆\x02",
+        "Hello, how come ☆ ☆\x02",
     )
 
     CloseMessageWindow()
@@ -1352,8 +1352,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "モヤも晴れたことだし、\x01",
-            "さっそく営業も再開よ〜ン。\x02",
+            "Moya is also sunny,\x01",
+            "Sales resumed immediately.\x02",
         )
     )
 
@@ -1361,7 +1361,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "みんな、遊んで行ってね〜ン。\x02",
+        "Everyone, please go playing.\x02",
     )
 
     CloseMessageWindow()
@@ -1374,8 +1374,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "モヤも晴れたことだし、\x01",
-            "さっそく営業も再開よ〜ン。\x02",
+            "Moya is also sunny,\x01",
+            "Sales resumed immediately.\x02",
         )
     )
 
@@ -1383,7 +1383,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "みんな、遊んで行ってね〜ン。\x02",
+        "Everyone, please go playing.\x02",
     )
 
     CloseMessageWindow()
@@ -1404,7 +1404,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "ハロー、いかが〜ん☆\x02",
+        "Hello, how come ☆ ☆\x02",
     )
 
     CloseMessageWindow()
@@ -1412,8 +1412,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "カジノハウス《バルカ》は\x01",
-            "今日もアゲアゲよ〜。\x02",
+            "Casino House \"Barca\" is\x01",
+            "Today too, Agave!\x02",
         )
     )
 
@@ -1421,7 +1421,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "みんな、遊んで行ってね〜ン。\x02",
+        "Everyone, please go playing.\x02",
     )
 
     CloseMessageWindow()
@@ -1434,8 +1434,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "カジノハウス《バルカ》は\x01",
-            "今日もアゲアゲよ〜。\x02",
+            "Casino House \"Barca\" is\x01",
+            "Today too, Agave!\x02",
         )
     )
 
@@ -1443,7 +1443,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "みんな、遊んで行ってね〜ン。\x02",
+        "Everyone, please go playing.\x02",
     )
 
     CloseMessageWindow()
@@ -1458,14 +1458,14 @@ def main():
 
     ChrTalk(
         0xFE,
-        "ハロー、いかが〜ん☆\x02",
+        "Hello, how come ☆ ☆\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xFE,
-        "カジノで元気注入してかな〜い？\x02",
+        "Can I inject cheaply at the casino?\x02",
     )
 
     CloseMessageWindow()
@@ -1573,17 +1573,17 @@ def main():
     FadeToBright(1500, 0)
     OP_0D()
     SetMessageWindowPos(-1, 90, -1, -1)
-    SetChrName("ディーター大統領")
+    SetChrName("President Dieter")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "この地が、彼らの覇権を巡る\x01",
-            "争いの場であったことは\x01",
-            "皆さんもよくご存知でしょう。\x02\x03",
-            "あくまで昔の話？\x01",
-            "……いいえ、とんでもありません。\x02",
+            "This land goes around their hegemony\x01",
+            "What was in a place of conflict\x01",
+            "You guys know well.\x02\x03",
+            "To the end story of the past?\x01",
+            "…… No, I do not have anything.\x02",
         )
     )
 
@@ -1594,17 +1594,17 @@ def main():
     OP_70(0x6, 0x3)
     Sleep(600)
     SetMessageWindowPos(-1, 90, -1, -1)
-    SetChrName("ディーター大統領")
+    SetChrName("President Dieter")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "近年、幾度となく起きていた\x01",
-            "不可解で謎めいた『事故』……\x02\x03",
-            "それは爆発事故であったり\x01",
-            "飛行船の落下事故であったりと\x01",
-            "様々な形をとっていましたが……\x02",
+            "In recent years, it has happened many times\x01",
+            "Inexplicable and mysterious \"accident\" … …\x02\x03",
+            "It was an explosion accident\x01",
+            "It was a fall accident of an airship\x01",
+            "I had taken various forms … …\x02",
         )
     )
 
@@ -1617,17 +1617,17 @@ def main():
     Sleep(500)
     SetMessageWindowPos(-1, 90, -1, -1)
     OP_82(0xC8, 0x0, 0xBB8, 0x1F4)
-    SetChrName("ディーター大統領")
+    SetChrName("President Dieter")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#4S──だが！\x01",
-            "我々はどこかで気付いていた筈だ！\x02\x03",
-            "#4S原因不明で、泣き寝入りするしか\x01",
-            "なかったそれらの『事故』が……\x02\x03",
-            "#5S彼らの“暗闘”の結果であることを！\x02",
+            "#4S── However!\x01",
+            "We should have noticed somewhere!\x02\x03",
+            "#4SUnknown reason, only to fall asleep\x01",
+            "Those \"accidents\" that did not exist …\x02\x03",
+            "#5SIt is the result of their \"fighting\"!\x02",
         )
     )
 
@@ -1656,14 +1656,14 @@ def main():
 
     ChrTalk(
         0xA,
-        "アイスクリームはいかがですか〜？\x02",
+        "How about ice cream?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xA,
-        "ひんやりさわやか、おいしいですよ〜。\x02",
+        "Cool and refreshing, it is tasty ~.\x02",
     )
 
     CloseMessageWindow()
@@ -1671,11 +1671,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F（もしかしたら、\x01",
-            "  『メイド』枠でミスコンに\x01",
-            "  出場してくれるかも……？）\x02\x03",
-            "あの、すみません。\x01",
-            "ちょっと相談なのですが……\x02",
+            "#00000F(Maybe,\x01",
+            "To \"Maid\" frame to Miscon\x01",
+            "Maybe he will participate …? )\x02\x03",
+            "Excuse me.\x01",
+            "It is a little consultation … …\x02",
         )
     )
 
@@ -1686,8 +1686,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "チャリティイベントの\x01",
-            "ミスコンへの参加を頼んでみた。\x07\x00\x02",
+            "Charity event\x01",
+            "I asked for participation in Miscon.\x07\x00\x02",
         )
     )
 
@@ -1698,9 +1698,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "ミスコンですか〜？\x01",
-            "うーん、お誘いは\x01",
-            "ありがたいんですけど〜……\x02",
+            "Is it Miscon?\x01",
+            "Well, the teaser\x01",
+            "I appreciate it, but … ….\x02",
         )
     )
 
@@ -1709,8 +1709,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "別に私はメイドってワケじゃ\x01",
-            "ないですよ〜？\x02",
+            "Separately I am a maid.\x01",
+            "Is not it ~?\x02",
         )
     )
 
@@ -1719,8 +1719,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "この服も、可愛くて目をひくから\x01",
-            "着てるだけですし。\x02",
+            "I also love this clothes because I am pretty\x01",
+            "I'm just wearing it.\x02",
         )
     )
 
@@ -1729,8 +1729,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006Fそ、そうですか……\x01",
-            "失礼しました。\x02",
+            "#00006FIs that so …?\x01",
+            "Excuse me.\x02",
         )
     )
 
@@ -1744,8 +1744,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "ミスコンのお誘いは\x01",
-            "ありがたいんですけど……\x02",
+            "Miscon's teaser\x01",
+            "I appreciate it, but ….\x02",
         )
     )
 
@@ -1754,8 +1754,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "私は別に、メイドじゃ\x01",
-            "ありませんからね〜。\x02",
+            "I am a maid,\x01",
+            "I do not have it.\x02",
         )
     )
 
