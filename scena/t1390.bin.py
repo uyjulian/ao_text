@@ -120,7 +120,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "#05200FHow about …?\x02",
+            "#05200FHow do I look \x02",
         )
     )
 
@@ -128,14 +128,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00100FUh, you are cute.\x02",
+        "#00100FSuper cute \x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10109FYes, it suits you!\x02",
+        "#10109FYeah it suits you!\x02",
     )
 
     CloseMessageWindow()
@@ -219,7 +219,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "── Here it is.\x02",
+            "I'm here \x02",
         )
     )
 
@@ -355,7 +355,7 @@ def main():
         0x103,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x15),
-            "#2679VMisashi, Meeeeee Yo ☆\x07\x00\x02",
+            "#2679VMishishi\x07\x00\x02",
         )
     )
 
@@ -449,7 +449,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "#05212F(Warm, warm … …)\x02\x03",
+            "#05212F(Awesome)\x02\x03",
             "#05203Fby the way,\x01",
             "Even when I came to MWL before\x01",
             "I was seeing you …\x07\x00\x02",
@@ -492,7 +492,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "#05212F(Warm, warm … …)\x02\x03",
+            "#05212F(Awesome)\x02\x03",
             "#05203Fby the way,\x01",
             "I have a Mister's sister\x01",
             "I heard it before ….\x07\x00\x02",
@@ -529,7 +529,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10105FI see, I see … ….\x02\x03",
+            "#10105FI see…\x02\x03",
             "But, suddenly\x01",
             "It means that it appeared on wearing ……\x02",
         )
@@ -567,7 +567,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "#05206FI want you to forgive me ….\x07\x00\x02",
+            "#05206FAlmost too realistic \x07\x00\x02",
         )
     )
 
@@ -655,7 +655,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "#05206F(ふ, I am worried … …)\x07\x00\x02",
+            "#05206F(I'm worried)\x07\x00\x02",
         )
     )
 
@@ -735,7 +735,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306FHere, this ……\x02",
+        "#00306FThis is\x02",
     )
 
     CloseMessageWindow()
@@ -799,7 +799,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "#05206FWell, what are you going to do ……\x07\x00\x02",
+            "#05206FI'll do my best…\x07\x00\x02",
         )
     )
 
@@ -858,7 +858,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10300FHuh, I will pray for good luck.\x02",
+        "#10300FHaha good luck \x02",
     )
 
     CloseMessageWindow()
@@ -867,7 +867,7 @@ def main():
         0x103,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x15),
-            "#05520FLet's go, Mr. Lloyd.\x07\x00\x02",
+            "#05520FSo shall we go Lloyd?\x07\x00\x02",
         )
     )
 
@@ -877,7 +877,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "#05205FOh, ah ……\x02\x03",
+            "#05205FS-sure \x02\x03",
             "#05203F(Anyway … I got it so far\x01",
             "An image of Misashi\x01",
             "I have no choice but to squeeze out. )\x02\x03",
@@ -1012,7 +1012,7 @@ def main():
         0x103,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x15),
-            "#05520F…… Good point.\x07\x00\x02",
+            "#05520FOk then\x07\x00\x02",
         )
     )
 
@@ -1028,7 +1028,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#05526FFuu …… I am sweating.\x02",
+        "#05526FOh I'm so sweaty\x02",
     )
 
     CloseMessageWindow()
@@ -1038,7 +1038,7 @@ def main():
         (
             "#00009Fmy mother……\x01",
             "It seems I tried hard.\x02\x03",
-            "#00000FGood day, Tio.\x02",
+            "#00000FNice job, Tio\x02",
         )
     )
 
@@ -1109,12 +1109,12 @@ def main():
 
     ChrTalk(
         0x103,
-        "#05520FSpeaking of which, it seems to be slow -\x02",
+        "#05520FOh right where are they\x02",
     )
 
     CloseMessageWindow()
     SetMessageWindowPos(30, 120, -1, -1)
-    SetChrName("Middle-aged manの声")
+    SetChrName("Middle-aged male voice")
 
     AnonymousTalk(
         0xFF,
@@ -1166,14 +1166,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011FWhat…………?\x02",
+        "#00011FHuh!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#05521F…………! Is it?\x02",
+        "#05521F?!\x02",
     )
 
     CloseMessageWindow()
@@ -1182,7 +1182,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "burp……!\x02",
+        "Howdy!\x02",
     )
 
     CloseMessageWindow()
@@ -1191,7 +1191,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Gach Ha ha, bad bad!\x02",
+        "Oh sorry sorry\x02",
     )
 
     CloseMessageWindow()
@@ -1402,7 +1402,7 @@ def main():
             "#00005F(P, Pro, … ….\x01",
             "Voice color is completely different … …)\x02\x03",
             "#00006F(Too so perfectly\x01",
-            "  Missiだ……けど……）\x02",
+            "Mitsida … … but …).\x02",
         )
     )
 
@@ -1425,7 +1425,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F…… Kohon, ummm … ….\x02",
+        "#00006FAhem, uhhh\x02",
     )
 
     CloseMessageWindow()
@@ -1443,7 +1443,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#05520F………………………………\x02",
+        "#05520F….\x02",
     )
 
     CloseMessageWindow()

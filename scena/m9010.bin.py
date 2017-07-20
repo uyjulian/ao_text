@@ -99,7 +99,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#6P#40WTh-This is……?\x02",
+        "#00105F#6P#40WT-this is\x02",
     )
 
     CloseMessageWindow()
@@ -119,7 +119,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105F#13P#40WCrossbell situation around the country … …?\x02",
+        "#10105F#13P#40WEvents from around Crossbell?\x02",
     )
 
     CloseMessageWindow()
@@ -141,7 +141,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10712F#13P#40WCrossbell situation around the country … …?\x02",
+        "#10712F#13P#40WEvents from around Crossbell?\x02",
     )
 
     CloseMessageWindow()
@@ -176,7 +176,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#6P#40WNo … not only that.\x02\x03",
+            "#00306F#6P#40WNo, not just that\x02\x03",
             "#00301FEven things like past events\x01",
             "You seem to be misunderstood … ….?\x02",
         )
@@ -189,7 +189,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#12P#40WReal world fragment ……\x02\x03",
+            "#00208F#12P#40WFragments of the true world\x02\x03",
             "#00201FBeyond the spacetime\x01",
             "Causal linkage … ….?\x02",
         )
@@ -278,7 +278,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#6P#40W…… \"Treasure of Zero\" ……\x02\x03",
+            "#00003F#6P#40WThe Master of Zero\x02\x03",
             "#00001FAs its finished form\x01",
             "\"A big blue tree\" ……\x02",
         )
@@ -422,14 +422,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#6P#4S……!\x02",
+        "#00007F#6P#4S…!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00310F#12PWhat is it! Is it?\x02",
+        "#00310F#12PW-what!?\x02",
     )
 
     CloseMessageWindow()
@@ -465,7 +465,7 @@ def main():
         (
             "#00201F#6PNo, the esters\x01",
             "I was not with him ……\x02\x03",
-            "#00208F……in addition………\x02",
+            "#00208FAnd also…\x02",
         )
     )
 
@@ -473,7 +473,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#6P………………………………\x02",
+        "#00013F#6P…\x02",
     )
 
     CloseMessageWindow()
@@ -540,7 +540,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10701F#13PWhat happened……?\x02",
+        "#10701F#13PWhat's wrong?\x02",
     )
 
     CloseMessageWindow()
@@ -627,7 +627,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P…… Oh, for a moment.\x02\x03",
+            "#00006F#5PYeah, for just a moment\x02\x03",
             "#00008FDazzling#2RA rag#While\x01",
             "Ka'ah's true power is what\x01",
             "I feel I understood.\x02",

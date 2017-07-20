@@ -223,7 +223,7 @@ def main():
             "#12P#02913FBecause I could grasp the intrusion route,\x01",
             "Physical blocking\x01",
             "I am in the middle of doing it.\x02\x03",
-            "#02912FIt will be another two minutes.\x02",
+            "#02912FRoughly 2 more minutes\x02",
         )
     )
 
@@ -234,7 +234,7 @@ def main():
         (
             "#10503FAbout the street screens\x01",
             "We have already started withdrawal.\x02\x03",
-            "#10500FThe citizen will soon leave.\x02",
+            "#10500FThe citizens have mostly dispersed\x02",
         )
     )
 
@@ -242,7 +242,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P#11303FHM……\x02",
+        "#5P#11303FHmmm\x02",
     )
 
     CloseMessageWindow()
@@ -250,7 +250,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#12P#04500FHuh, it was a good surprise.\x02\x03",
+            "#12P#04500FHaha, not a bad surprise attack\x02\x03",
             "#04504FBangs that interweave falsehood#4RMogyu#… ….\x01",
             "Is it the meaning of an old soldier?\x02",
         )
@@ -261,7 +261,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11306F#5PWhat is like other people's affairs ……\x02\x03",
+            "#11306F#5PWhy are you praising them\x02\x03",
             "#11310FBecause you guys missed the chairman\x01",
             "I wonder if it was like this?\x02",
         )
@@ -308,7 +308,7 @@ def main():
         (
             "#10503F…… even for the military officers outside the city\x01",
             "There should be not a little influence.\x02\x03",
-            "#10500FLet's restore it somehow.\x02",
+            "#10500FI will try to recover it\x02",
         )
     )
 
@@ -316,7 +316,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P#11303FOh, I beg you.\x02",
+        "#5P#11303FYes, I'll leave it to you\x02",
     )
 
     CloseMessageWindow()
@@ -409,7 +409,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P#11301FOh, go ahead.\x02",
+        "#5P#11301FYes. Go ahead\x02",
     )
 
     CloseMessageWindow()
@@ -502,7 +502,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5P#04504FHuh, good grief.\x02\x03",
+            "#5P#04504FHaha, well then\x02\x03",
             "#04500FDear Father\x01",
             "It seems that the ending is not enough.\x02",
         )
@@ -538,7 +538,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#12P#02913FHuh, that is it.\x02",
+        "#12P#02913FEhe, that is exactly right\x02",
     )
 
     CloseMessageWindow()
@@ -553,7 +553,7 @@ def main():
     NpcTalk(
         0xA,
         "Voice of a girl",
-        "Dad, are you finished talking?\x02",
+        "Papa, are you done talking?\x02",
     )
 
     CloseMessageWindow()
@@ -611,7 +611,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#01608F#11P………………………………\x02",
+        "#01608F#11P…\x02",
     )
 
     CloseMessageWindow()
@@ -619,7 +619,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#6P#02909Fふふ、Charlieさんは\x01",
+            "#6P#02909FHuhu, Ms. Charlie\x01",
             "I am always fine.\x02\x03",
             "#02902FAbout the story of the example\x01",
             "Did you think about it?\x02",
@@ -657,7 +657,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#12P#02904FOh, this is rude.\x02\x03",
+            "#12P#02904FAh, well I apologize\x02\x03",
             "#02912FWell then, Sigmund.\x01",
             "Regarding future arrangements\x01",
             "As I told you earlier.\x02",
@@ -668,7 +668,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5P#04504FOh, I got it.\x02",
+        "#5P#04504FYeah, I know\x02",
     )
 
     CloseMessageWindow()
@@ -696,7 +696,7 @@ def main():
         (
             "#01603F#11P…… I am your\x01",
             "Remember I did not become a friend.\x02\x03",
-            "#01600FI will let you do it on my own.\x02",
+            "#01600FI'll be acting as I wish\x02",
         )
     )
 
@@ -704,7 +704,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#04504FFu … Well it will be nice.\x02",
+        "#04504FHa. Well whatever\x02",
     )
 
     CloseMessageWindow()
@@ -713,7 +713,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#5P#04602FWald、その気があれば\x01",
+            "#5P#04602FWaldo, if you feel like that\x01",
             "Because I'll train you\x01",
             "You can come any time is not it ~?\x02",
         )
@@ -723,7 +723,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#01601F#11PPhew\x02",
+        "#01601F#11PUgh…\x02",
     )
 
     CloseMessageWindow()
@@ -775,7 +775,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#6P#02909FUhufu …\x02\x03",
+            "#6P#02909FAhaha\x02\x03",
             "#02912FDo you regret it?\x01",
             "I got on my invitation.\x02",
         )
@@ -787,7 +787,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#11P#01604FHappy … is not it?\x02\x03",
+            "#11P#01604FHa! Of course not\x02\x03",
             "#01603FThanks to the medicine you gave me\x01",
             "I got \"Tikara\" ……\x02\x03",
             "#01602FIt seems like everyone can not master\x01",
@@ -800,8 +800,8 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#6P#02913FHuh, that's right.\x02\x03",
-            "魔人化した時のWaldさんは\x01",
+            "#6P#02913FEhe, that's true\x02\x03",
+            "Mr. Wald when he became a monster\x01",
             "Power#4RLaw#Then the strongest person … …\x02\x03",
             "#02902FFor us as well\x01",
             "It is a unique sample.\x02",
@@ -975,7 +975,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#11307F#4S\"The barrier\" has disappeared! Is it?\x02\x03",
+            "#5P#11307F#4SThe Barrier was taken down!?\x02\x03",
             "#11310FDamn\x01",
             "The members of \"Society\" are also not good.\x02\x03",
             "#11303FIn this way all \"God machine#4RIron#The\x01",
@@ -989,7 +989,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "#12PWell, I understand!\x02",
+        "#12PR-roger that!\x02",
     )
 
     CloseMessageWindow()

@@ -535,7 +535,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04001Fそう……Ariosを倒したのね。\x02",
+        "#04001FYes … you've defeated Arios.\x02",
     )
 
     CloseMessageWindow()
@@ -560,7 +560,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04003F……Ariosは“理”に通じる\x01",
+            "#04003F…… Arios leads to \"Ri\"\x01",
             "A true genuine master.\x02\x03",
             "That, too, just with talent alone\x01",
             "I can never reach …\x01",
@@ -593,9 +593,9 @@ def main():
         0x8,
         (
             "#04004FHuh, then then\x01",
-            "あのKeyaってコだけね。\x02\x03",
-            "#04000F待っているSuzukuちゃんのためにも、\x01",
-            "Ariosと一緒に何としても\x01",
+            "That Ka'aa is the only one.\x02\x03",
+            "#04000FFor Shizuku who is waiting,\x01",
+            "With Arios anyhow\x01",
             "Please come back.\x02",
         )
     )
@@ -618,13 +618,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04003FAriosは“理”に通じる\x01",
+            "#04003FArios leads to \"reason\"\x01",
             "A true genuine master.\x02\x03",
             "#04011FHuff, I can not get over it\x01",
             "You also became stronger.\x02\x03",
-            "#04000F待っているSuzukuちゃんのためにも、\x01",
-            "あのKeyaってコと一緒に\x01",
-            "何としてもPlease come back.\x02",
+            "#04000FFor Shizuku who is waiting,\x01",
+            "That Keya is with Ko\x01",
+            "Bring me aside anything.\x02",
         )
     )
 
@@ -638,10 +638,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04004Fフフ、あとはKeyaってコを\x01",
+            "#04004FHuh, and then Ka'a\x01",
             "Just get it back.\x02\x03",
-            "#04000F待っているSuzukuちゃんのためにも、\x01",
-            "Ariosと一緒に何としても\x01",
+            "#04000FFor Shizuku who is waiting,\x01",
+            "With Arios anyhow\x01",
             "Please come back.\x02",
         )
     )
@@ -748,8 +748,8 @@ def main():
         0x101,
         (
             "#00003FYeah, you are right.\x02\x03",
-            "あそこにはKeya……\x01",
-            "そしてAriosさんもいます。\x02\x03",
+            "It's over there …\x01",
+            "And there are also Arios.\x02\x03",
             "#00001FWith our hands, anything\x01",
             "I will bring you back … …!\x02",
         )
@@ -772,7 +772,7 @@ def main():
         0x8,
         (
             "#04004FUhufu, that is the only one.\x02\x03",
-            "#04001F……Ariosの力は、正直言って\x01",
+            "#04001F…… Arios' power, to be honest\x01",
             "I think it can be said that you are wrong.\x02\x03",
             "It worked together.\x01",
             "I know the best of us.\x02\x03",
@@ -798,13 +798,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04003F……Ariosの力は、正直言って\x01",
+            "#04003F…… Arios' power, to be honest\x01",
             "I think it can be said that you are wrong.\x02\x03",
             "#04001FIt worked together.\x01",
             "I know the best of us.\x02\x03",
             "Although a tough battle is waiting for him,\x01",
-            "あのKeyaってコと一緒に、\x01",
-            "何としてもPlease come back.\x02\x03",
+            "With that Ka'a,\x01",
+            "Bring me aside anything.\x02\x03",
             "#04011FHuh, I handed out my resignation on my own\x01",
             "As a cross, I have to preach.\x02",
         )
@@ -821,8 +821,8 @@ def main():
         0x8,
         (
             "#04003FAlthough a tough battle is waiting for him,\x01",
-            "あのKeyaってコと一緒に、Ariosを\x01",
-            "何としてもPlease come back.\x02\x03",
+            "Together with that key, Arios\x01",
+            "Bring me aside anything.\x02\x03",
             "#04011FHuh, I handed out my resignation on my own\x01",
             "As a cross, I have to preach.\x02",
         )
@@ -887,12 +887,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04006Fフウ、まさかAriosが\x01",
+            "#04006FFu, No way, Arios\x01",
             "Until you deceive your schedule\x01",
             "Mayor … … I met the president.\x02\x03",
             "I thought it was unnatural but I did not notice it,\x01",
             "It is completely my mistake.\x02\x03",
-            "#04008FやっぱりSuzukuちゃんの事故の件が、\x01",
+            "#04008FAfter all the case of Shizuku 's accident,\x01",
             "I wonder if it has been caught all the way ……\x02",
         )
     )
@@ -930,7 +930,7 @@ def main():
         0x8,
         (
             "#04005FOh, you guys ……\x01",
-            "Ariosは見かけたかしら？\x02\x03",
+            "Did you see Arios?\x02\x03",
             "#04006FFu, I have not come back yet …\x02",
         )
     )
@@ -949,7 +949,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005FAriosさんなら\x01",
+            "#00005FIf Arios\x01",
             "I met in the cemetery a while ago.\x02\x03",
             "What Michelle was looking for\x01",
             "I told you … …\x01",
@@ -993,7 +993,7 @@ def main():
         (
             "#04005FOh, you guys ……\x01",
             "I'd like to ask you something.\x02\x03",
-            "#04001FどこかでAriosを見なかった？\x02",
+            "#04001FDid not you see Arios somewhere?\x02",
         )
     )
 
@@ -1003,7 +1003,7 @@ def main():
         0x101,
         (
             "#00005Feh……?\x01",
-            "Ariosさんなら、さっき\x01",
+            "If Arios is a sister,\x01",
             "I met at the cemetery.\x02",
         )
     )
@@ -1027,7 +1027,7 @@ def main():
             "#04000FYeah, the future response of the guild\x01",
             "To consult with the mayor,\x01",
             "I went to the Orkis Tower ….\x02\x03",
-            "#04006FAriosはこの間の襲撃事件の時に\x01",
+            "#04006FArios said at the time of the raid incident during this time\x01",
             "Please break the enigma ね.\x02\x03",
             "Something busy from that incident,\x01",
             "Because I can not prepare for a spare,\x01",
@@ -1050,7 +1050,7 @@ def main():
         0x8,
         (
             "#04003FBut, indeed …\x01",
-            "Ariosは墓地に行ってたのね。\x02\x03",
+            "Arios went to the cemetery.\x02\x03",
             "#04000FWell, to visit Saya's grave\x01",
             "It is not unusual to go,\x01",
             "I will come back later.\x02\x03",
@@ -1106,7 +1106,7 @@ def main():
         (
             "#04005FOh, you guys ……\x01",
             "I'd like to ask you something.\x02\x03",
-            "#04001FどこかでAriosを見なかった？\x02",
+            "#04001FDid not you see Arios somewhere?\x02",
         )
     )
 
@@ -1122,7 +1122,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00105FAriosさんが\x01",
+            "#00105FMr. Arios\x01",
             "What's wrong?\x02",
         )
     )
@@ -1135,7 +1135,7 @@ def main():
             "#04000FYeah, the future response of the guild\x01",
             "To consult with the mayor,\x01",
             "I'm going to the Orkis Tower ….\x02\x03",
-            "#04006FAriosはこの間の襲撃事件の時に\x01",
+            "#04006FArios said at the time of the raid incident during this time\x01",
             "Please break the enigma ね.\x02\x03",
             "Something busy from that incident,\x01",
             "Because I can not prepare for a spare,\x01",
@@ -1158,7 +1158,7 @@ def main():
         0x101,
         (
             "#00000FI understand,\x01",
-            "Ariosさんを見かけたら\x01",
+            "If you see Arios\x01",
             "I will call out.\x02",
         )
     )
@@ -1378,7 +1378,7 @@ def main():
             "If you know something here\x01",
             "Please contact me.\x02\x03",
             "#04001FIn some cases\x01",
-            "Ariosたちを呼び戻すわ。\x02",
+            "I will call Arios back.\x02",
         )
     )
 
@@ -1396,7 +1396,7 @@ def main():
             "#04007FThe contact arrived just now … …\x01",
             "A train accident happened! Is it?\x02\x03",
             "#04006FNo, I was in trouble.\x01",
-            "Ariosたちは今、幻獣の調査で\x01",
+            "Arios are now in the investigation of the eidolon\x01",
             "I can not come back soon ……\x02",
         )
     )
@@ -1432,7 +1432,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04006FAriosたちは今、幻獣の調査で\x01",
+            "#04006FArios are now in the investigation of the eidolon\x01",
             "I will not come back soon.\x02\x03",
             "#04000FBecause I will leave the derailment accident,\x01",
             "Please let me know as soon as there is something.\x02",
@@ -1538,7 +1538,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04000F今日はAriosも復帰してるし、\x01",
+            "#04000FToday Arios is returning,\x01",
             "Please leave the survey here.\x02\x03",
             "#04011FSince I will contact you when I know something,\x01",
             "Please continue to investigate there as well.\x02",
@@ -1561,7 +1561,7 @@ def main():
         (
             "#04000FThe matter of you, \"phantom beast\"\x01",
             "I'm begging for you.\x02\x03",
-            "#04006FAriosが動けない今の状況じゃ\x01",
+            "#04006FIn the current situation where Arios can not move\x01",
             "Just me, I guess.\x01",
             "What is not enough to do.\x02\x03",
             "#04000FScott and somehow,\x01",
@@ -1581,8 +1581,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106FSuzukuちゃんのことで\x01",
-            "Ariosさんが動けないのは\x01",
+            "#00106FAbout Shizuku-chan\x01",
+            "Arios can not move\x01",
             "It is unavoidable ……\x02",
         )
     )
@@ -1631,7 +1631,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04000F今日はAriosが本会議中の\x01",
+            "#04000FToday Arios is in the plenary session\x01",
             "It is supposed to be security.\x02\x03",
             "Even with consideration given to the leaders of each country,\x01",
             "There should be no more security system.\x02",
@@ -1664,7 +1664,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04003Fとはいえ、いくらAriosでも\x01",
+            "#04003FNonetheless, even Arios\x01",
             "From terrorists alone\x01",
             "We can not protect the leaders.\x02\x03",
             "#04000FCooperation with police and security guards\x01",
@@ -1729,7 +1729,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04000F事情はAriosから聞いたわ。\x02\x03",
+            "#04000FI heard about the situation from Arios.\x02\x03",
             "The crossbell guild is\x01",
             "I also have connections with foreign countries\x01",
             "I have all the goods of their own.\x02\x03",
@@ -1750,7 +1750,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04000Fさっき、Ariosのほうから\x01",
+            "#04000FArial from the earlier afternoon\x01",
             "There was contact.\x01",
             "Patient seems to have been saved.\x02\x03",
             "Huh, you too\x01",
@@ -1863,8 +1863,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04000FKeyaちゃんなら今も２階で\x01",
-            "Suzukuちゃんと遊んでるわよ。\x02\x03",
+            "#04000FEven now Ka'aa is on the second floor\x01",
+            "I'm playing with Shizuoka.\x02\x03",
             "#04011FThe trouble with the two people is fine.\x01",
             "Do not worry, I will look it up.\x02",
         )
@@ -1881,8 +1881,8 @@ def main():
         0x8,
         (
             "#04000FOh, you guys.\x01",
-            "Keyaちゃんなら２階で\x01",
-            "Suzukuちゃんと遊んでるわよ。\x02",
+            "If you are Kaea, on the second floor\x01",
+            "I'm playing with Shizuoka.\x02",
         )
     )
 
@@ -1939,7 +1939,7 @@ def main():
         0x102,
         (
             "#00109FEr, uh … ….\x01",
-            "そういえば、Ariosさんは？\x02",
+            "By the way, Arios?\x02",
         )
     )
 
@@ -1948,7 +1948,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04000Fああ、Suzukuちゃんを\x01",
+            "#04000FOh, Shizuku-chan\x01",
             "After brought from the hospital,\x01",
             "I headed for the Republic immediately.\x02\x03",
             "#04004FWhile clearing the request before the trade meeting,\x01",
@@ -1995,10 +1995,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04000FKeyaちゃんなら２階で\x01",
-            "Suzukuちゃんと遊んでるわよ。\x02\x03",
+            "#04000FIf you are Kaea, on the second floor\x01",
+            "I'm playing with Shizuoka.\x02\x03",
             "#04011FPlease leave that for those girls.\x01",
-            "Ariosが共和国から戻るまで\x01",
+            "Until Arios comes back from the Republic\x01",
             "I will take care of me firmly.\x02",
         )
     )
@@ -2063,7 +2063,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04000FちなみにAriosは、\x01",
+            "#04000FBy the way,\x01",
             "As soon as I return from Altair\x01",
             "I went to Remyferia.\x02\x03",
             "To the crossbell at the end of monthly trade meeting\x01",
@@ -2077,7 +2077,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FAriosさんも\x01",
+            "#00000FArios also\x01",
             "It sounds pretty busy.\x02",
         )
     )
@@ -2087,7 +2087,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04006Fまあ、Ariosに\x01",
+            "#04006FWell, to Arios\x01",
             "It's not limited, but …\x02\x03",
             "#04000FAs a trade meeting is held\x01",
             "It is certain that everyone is getting busy.\x02",
@@ -2124,7 +2124,7 @@ def main():
             "#04006FWell, actually Esther and Joshua\x01",
             "The hole I missed was big.\x02\x03",
             "#04008FWork is on the increase,\x01",
-            "いくらAriosやスコットたちが\x01",
+            "How much did Arios and Scott\x01",
             "Even saying it is excellent, there is a limit.\x02",
         )
     )
@@ -2144,7 +2144,7 @@ def main():
             "#04000FWell, if you get busier in the future,\x01",
             "You can also turn this job\x01",
             "It could be quite possible.\x02\x03",
-            "#04011Fフフ、色々とI'm begging for you.\x02",
+            "#04011FHuh, I'll depend on you for everything.\x02",
         )
     )
 
@@ -2172,7 +2172,7 @@ def main():
             "I will be busy from now on.\x02\x03",
             "#04011FYou can also turn this job\x01",
             "It could be quite possible.\x01",
-            "色々とI'm begging for you.\x02",
+            "I will depend on you in various ways.\x02",
         )
     )
 
@@ -2201,7 +2201,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "憧れていたKirikaさんと\x01",
+            "Mr. Kirika who I was longing for\x01",
             "To be able to fight with his back … …\x01",
             "It was a great experience for me.\x02",
         )
@@ -2269,7 +2269,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "市内で、Somehow I have noticed something I knew\x01",
+            "In the city, some signified sign\x01",
             "I feel like I felt.\x01",
             "That was probably ……\x02",
         )
@@ -2392,7 +2392,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Kirika先輩は、大統領のお付きとして\x01",
+            "Kirika-senpai, as president's attachment\x01",
             "You seem to have gone to the Orkis Tower …\x02",
         )
     )
@@ -2403,7 +2403,7 @@ def main():
         0x101,
         (
             "#00000FBy the way, Mr. Lin also said,\x01",
-            "Kirikaさんとお知り合いなんですね？\x02",
+            "You know him, Kirika?\x02",
         )
     )
 
@@ -2458,7 +2458,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Kirika先輩は、今回の通商会議でも\x01",
+            "Kirika-senpai, at this trade meeting\x01",
             "It seems they were moving a lot … ….\x02",
         )
     )
@@ -2585,7 +2585,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "Kirikaさん、お疲れ様でした！\x02",
+        "Mr. Kirika, thanks for your hard work!\x02",
     )
 
     CloseMessageWindow()
@@ -2626,7 +2626,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "Kirikaさんやジンさんのような\x01",
+            "Like Kirika-san and Jin-san\x01",
             "If you bring it closer to the domain of experts\x01",
             "I'm happy, but …\x02",
         )
@@ -2651,7 +2651,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "はは、Kirikaさんに言わせると\x01",
+            "Hello, if you let Kirika say\x01",
             "There is no shape for A gravel fighter.\x02",
         )
     )
@@ -3234,7 +3234,7 @@ def main():
         0xFE,
         (
             "As from the same crossbell,\x01",
-            "Ariosさんの気持ちは\x01",
+            "Arios' feelings\x01",
             "I feel like understanding.\x02",
         )
     )
@@ -3271,7 +3271,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Ariosさんの事はこの際\x01",
+            "In this case Arios' thing\x01",
             "Even though I think about it, it can not be helped.\x02",
         )
     )
@@ -3842,7 +3842,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FKirikaさんも、\x01",
+            "#00000FKirika also,\x01",
             "Thank you for your cooperation.\x02",
         )
     )
@@ -4065,8 +4065,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　：　　　 −\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: -\x01",
             "Scott: Village of Almorica\x01",
             "Wenzel: Main city Mainz\x01",
             "Rin: \"Stand by\"\x01",
@@ -4088,8 +4088,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　：　　　 −\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: -\x01",
             "Scott: \"Waiting\"\x01",
             "Wenzel: \"Waiting\"\x01",
             "Rin: \"Stand by\"\x01",
@@ -4111,8 +4111,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　：　　　 −\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: -\x01",
             "Scott: \"Waiting\"\x01",
             "Wenzel: \"Waiting\"\x01",
             "Rin: \"Stand by\"\x01",
@@ -4134,8 +4134,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　： オルキスタワー\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: Orkis Tower\x01",
             "Scott: The Belgard gate\x01",
             "Wenzel: The Belgard gate\x01",
             "Rin: Main town mining town\x01",
@@ -4157,8 +4157,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　： オルキスタワー\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: Orkis Tower\x01",
             "Scott: \"Waiting\"\x01",
             "Wenzel: \"Waiting\"\x01",
             "Rin: \"Stand by\"\x01",
@@ -4180,8 +4180,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　：リン・エオリアの捜索\x01",
+            "━━━━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: Search for Lin · Aeoria\x01",
             "Scott: Search for Lin · Aeoria\x01",
             "Wenzel: Searching for Lin · Eolia\x01",
             "Rin: * unknown\x01",
@@ -4203,8 +4203,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　：　《幻獣退治》\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: \"Phantom Beasts\"\x01",
             "Scott: Tangram main gate\x01",
             "Wenzel: Tangram gate\x01",
             "Lynn: Ursula Hospital\x01",
@@ -4226,8 +4226,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　：幻獣退治及び調査\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: Phantom Beast Eradication and Investigation\x01",
             "Scott: Tangram main gate\x01",
             "Wenzel: Tangram gate\x01",
             "Lynn: Ursula Hospital\x01",
@@ -4249,8 +4249,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　：　　※休暇\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: ※ Vacation\x01",
             "Scott: Phantom Beast Extermination and Investigation\x01",
             "Wenzel: Phantom Beast Eradicate and Investigation\x01",
             "Phosphorus: Phantom Beast Extermination and Investigation\x01",
@@ -4272,8 +4272,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　： オルキスタワー\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: Orkis Tower\x01",
             "Scott: Village of Almorica\x01",
             "Wenzel: \"Waiting\"\x01",
             "Rin: \"Stand by\"\x01",
@@ -4295,8 +4295,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　：　ウルスラ病院\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: Ursula Hospital\x01",
             "Scott: ※ Responding to requests\x01",
             "Wenzel: ※ Responding to requests\x01",
             "Lynn: Village of Almorika\x01",
@@ -4318,8 +4318,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　：カルバード共和国\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: Republic of Calvert\x01",
             "Scott: Mainz in the mining town\x01",
             "Wenzel: The Belgard gate\x01",
             "Rin: ※ We are responding to requests\x01",
@@ -4341,8 +4341,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　：レミフェリア公国\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: Democratic Republic\x01",
             "Scott: \"Waiting\"\x01",
             "Wenzel: \"Waiting\"\x01",
             "Lynn: Ursula Hospital\x01",
@@ -4364,8 +4364,8 @@ def main():
         (
             scpstr(0x6),
             "Name\x01",
-            "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\x01",
-            " 　Arios　：レミフェリア公国\x01",
+            "━━━━━━━━━━━━━━━━━━━\x01",
+            "Arios: Democratic Republic\x01",
             "Scott: Village of Almorica\x01",
             "Wenzel: Eleven Empire\x01",
             "Rin: \"Stand by\"\x01",
@@ -4468,7 +4468,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#01109FSuzuku、あとで支援課に行こっ。\x02",
+        "#01109FShizuku, I will go to the support department later.\x02",
     )
 
     CloseMessageWindow()
@@ -4514,7 +4514,7 @@ def main():
         (
             "#01105FOh, then tomorrow's tower\x01",
             "Where do you see the Ochori ~?\x02\x03",
-            "#01102FKeyaたち、デパートの屋上で\x01",
+            "#01102FKeaans at the roof of a department store\x01",
             "I'm planning to see but how about together?\x02",
         )
     )
@@ -4647,7 +4647,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#01109FそれじゃあSuzukuも一緒に行こー！\x02",
+        "#01109FWell then, go shizuku together!\x02",
     )
 
     CloseMessageWindow()
@@ -4670,7 +4670,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#01104FSuzukuー、シンも行っちゃったし\x01",
+            "#01104FShizuku, Shin has also gone\x01",
             "Want to play outside somewhere?\x02",
         )
     )
@@ -4732,7 +4732,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#01109FそれじゃあSuzukuも一緒に行こー！\x02",
+        "#01109FWell then, go shizuku together!\x02",
     )
 
     CloseMessageWindow()
@@ -5107,7 +5107,7 @@ def main():
         0x101,
         (
             "#12P#00000FThank you very much.\x01",
-            "こちらこそ、Ariosさんたちの\x01",
+            "You are also here, Arios' s\x01",
             "It was saved because of cooperation.\x02",
         )
     )
@@ -5146,7 +5146,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#12P#10100Fでも、Ariosさんや\x01",
+            "#12P#10100FBut, Arios and\x01",
             "With other Hijackers\x01",
             "You seem to be turning well?\x02",
         )
@@ -5267,7 +5267,7 @@ def main():
             "#04004FHuh, since I first met\x01",
             "It has become a nice face.\x02\x03",
             "#04011FWell then … again.\x01",
-            "これからThank you.\x02",
+            "I look forward to hearing from you.\x02",
         )
     )
 
@@ -5880,7 +5880,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "あれ、by the way……\x01",
+            "Well, that's … …\x01",
             "What happened to that redhead?\x02",
         )
     )
@@ -6042,7 +6042,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "今、Ariosさんが市長の所へ\x01",
+            "Now, Arios to the mayor's place\x01",
             "I am going to negotiate.\x02",
         )
     )
@@ -6144,7 +6144,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P#04005FOh … …. you! Is it?\x02",
+        "#5P#04005FOh, you guys!\x02",
     )
 
     CloseMessageWindow()
@@ -6187,7 +6187,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Haha, I feel fine and tomorrow.\x02",
+        "Haha, you seem like you're doing well\x02",
     )
 
     CloseMessageWindow()
@@ -6204,14 +6204,14 @@ def main():
 
     ChrTalk(
         0x103,
-        "#12P#00202FHehe, it is safe and than anything else.\x02",
+        "#12P#00202FEheh, so glad you're all ok\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xB,
-        "Huhu, you guys.\x02",
+        "Same to you guys\x02",
     )
 
     CloseMessageWindow()
@@ -6240,7 +6240,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00000FYes, that's OK.\x02",
+        "#12P#00000FYes, let's do that\x02",
     )
 
     CloseMessageWindow()
@@ -6298,7 +6298,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "No way, it is not esters.\x02",
+        "That's our Estelle\x02",
     )
 
     CloseMessageWindow()
@@ -6326,7 +6326,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00300FHaha, well like that.\x02",
+        "#12P#00300FHaha, well that's true\x02",
     )
 
     CloseMessageWindow()
@@ -6344,7 +6344,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "Yeah, for now.\x02",
+        "Yes, for now.\x02",
     )
 
     CloseMessageWindow()
@@ -6510,7 +6510,7 @@ def main():
         (
             "#5P#04003FHowever, …\x01",
             "Perhaps at the Orchis Tower\x01",
-            "Ariosがいるわ。\x02\x03",
+            "There is Arios.\x02\x03",
             "That Marybele missy,\x01",
             "\"Battle\" something as well\x01",
             "I will be waiting.\x02\x03",
@@ -6523,7 +6523,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00303F…… I am well-informed.\x02",
+        "#12P#00303FWe know that all too well\x02",
     )
 
     CloseMessageWindow()
@@ -6554,7 +6554,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00000FWell … then, later.\x02",
+        "#12P#00000FYes. Well then see you later\x02",
     )
 
     CloseMessageWindow()
@@ -6612,7 +6612,7 @@ def main():
         0x8,
         (
             "Oh, you came a lot.\x02\x03",
-            "まだAriosは戻ってないけど\x01",
+            "Arios is not back yet\x01",
             "Are you waiting on the second floor if it is okay?\x02\x03",
             "What if I had done errands\x01",
             "You may come.\x02",
@@ -6649,7 +6649,7 @@ def main():
         0,
         (
             "【There are still other things to do】\x01",          # 0
-            "【Ariosが戻るのを待つ】\x01",      # 1
+            "【Wait for Arios to return】\x01",      # 1
         )
     )
 
@@ -6760,7 +6760,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "After that, sooner\x01",
-            "Ariosがギルドに戻ってきた。\x02\x03",
+            "Arios came back to the guild.\x02\x03",
             "Lloyd's again, the trade council,\x01",
             "About \"black moon\" and \"red constellation\"\x01",
             "I decided to exchange information.\x07\x00\x02",
@@ -7210,7 +7210,7 @@ def main():
         (
             "#04001FThat's it ….\x01",
             "One, there is information to worry about.\x02\x03",
-            "共和国方面でAriosが\x01",
+            "Arios in the direction of the Republic\x01",
             "It grabbed me though.\x02",
         )
     )
@@ -7297,7 +7297,7 @@ def main():
             "#04006F… That's right.\x01",
             "It is another point though.\x02\x03",
             "#04001FHe led the transaction\x01",
-            "Kirika・ロウランって女性なの。\x02",
+            "Kirika Lawran is a woman.\x02",
         )
     )
 
@@ -7327,7 +7327,7 @@ def main():
         0x102,
         (
             "#12P#00107Fthat's……\x01",
-            "まさか、あのKirikaさん！？\x02",
+            "No way, Mr. Kirika! Is it?\x02",
         )
     )
 
@@ -7348,7 +7348,7 @@ def main():
         (
             "#5P#01403FTo tell the truth, she is both the Association of Sagittarius\x01",
             "It is a person with a rim ……\x02\x03",
-            "リベールのツァchair支部で\x01",
+            "At the Zeiss branch of Libert\x01",
             "There are also experiences that I was accepting.\x02\x03",
             "#01400FHowever, retired about a year ago,\x01",
             "He moved to the information agency of Calvert.\x02\x03",
@@ -7610,10 +7610,10 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "その後、Zeitと共に\x01",
-            "KeyaとSuzukuがギルドに戻って来た。\x02\x03",
+            "After that, with Zeit\x01",
+            "Kia ah and Shizuku came back to the guild.\x02\x03",
             "Lloyd's, father daughter in the water\x01",
-            "夕食に行くというAriosたちに\x01",
+            "To the Arios who go to dinner\x01",
             "I decided to say good-by and decided to return to the support department.\x07\x00\x02",
         )
     )
@@ -7722,7 +7722,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04003Fええ、Ariosたちが\x01",
+            "#5P#04003FYes, Arios are\x01",
             "I'm hitting it by hand … …\x02\x03",
             "#04008F…… Really really.\x01",
             "I wonder what he is doing.\x02",
@@ -7952,9 +7952,9 @@ def main():
             "#5P#04006F… … It does not end.\x01",
             "I will really be saved.\x02\x03",
             "#04000FIf you know something\x01",
-            "こちらにもPlease contact me.\x02\x03",
+            "Please contact here as well.\x02\x03",
             "In some cases\x01",
-            "Ariosたちを呼び戻すから。\x02",
+            "I will call Arios back.\x02",
         )
     )
 
@@ -8216,7 +8216,7 @@ def main():
             "#5P#04006F─ ─ Regarding this time\x01",
             "It has become reliable.\x02\x03",
             "#04001FBut is it really okay?\x02\x03",
-            "１時間もすればAriosたちが\x01",
+            "In an hour, Arios will\x01",
             "I think that it will come back ….\x02",
         )
     )
@@ -8651,7 +8651,7 @@ def main():
         0xB,
         (
             "#5PMore than\x01",
-            "何でAriosさんが……\x02\x03",
+            "Why did Mr. Arios … ….\x02\x03",
             "Haa … it's too late for my bedding.\x02",
         )
     )
@@ -8689,7 +8689,7 @@ def main():
         (
             "#12P#00006F…… Actually that around\x01",
             "I wanted to ask you.\x02\x03",
-            "#00001FAriosさんはまだ、\x01",
+            "#00001FMr. Arios,\x01",
             "Do you belong to the guild?\x02",
         )
     )
@@ -8719,7 +8719,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#12P#00206F確かにAriosさんらしい\x01",
+            "#12P#00206FIt certainly seems to be Arios\x01",
             "It is polite.\x02",
         )
     )
@@ -8775,7 +8775,7 @@ def main():
         0x9,
         (
             "#11P… but ….\x01",
-            "Ariosさんの気持ちも\x01",
+            "Arios' feelings also\x01",
             "I can not understand it.\x02",
         )
     )
@@ -8865,7 +8865,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#11P俺もAriosさんと同じ\x01",
+            "#11PI am the same as Arios\x01",
             "I am from Crosbell City, but … …\x02",
         )
     )
@@ -8921,8 +8921,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#11P５年前、Ariosさんの奥さんと\x01",
-            "Suzukuちゃんが巻き込まれた事故が\x01",
+            "#11PFive years ago, with Arios' wife\x01",
+            "The accident involving Suzuku was\x01",
             "It may be said that it is the last.\x02",
         )
     )
@@ -8971,7 +8971,7 @@ def main():
             "Surely there were too many suspicious points.\x02\x03",
             "#04001FAnd caught up in that accident\x01",
             "Saya's wife dies … …\x01",
-            "Suzukuちゃんは光を失った。\x02",
+            "Shizuku lost his light.\x02",
         )
     )
 
@@ -8997,7 +8997,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00106FそれでAriosさんは\x01",
+            "#6P#00106FSo Arios\x01",
             "I left the police station and moved to the guild …\x02",
         )
     )
@@ -9007,7 +9007,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04006FアタシもAriosとは\x01",
+            "#5P#04006FAtsuke is also with Arios\x01",
             "I am going out from then on ….\x02\x03",
             "He did not say a word\x01",
             "You must have been caught for a long time.\x02\x03",
@@ -9038,7 +9038,7 @@ def main():
         (
             "#12P#00003F── Mr. Michelle.\x02\x03",
             "#00001FAlthough I am rude, I ask you … …\x01",
-            "Ariosさんのスケジュールで\x01",
+            "With Arios' schedule\x01",
             "Did you have any suspicious points?\x02",
         )
     )
@@ -9199,9 +9199,9 @@ def main():
             "What is wrong with the report\x01",
             "Sometimes it happened.\x02\x03",
             "#04008FIf I had a job for that much\x01",
-            "当然だとはI thought that … ….\x02\x03",
+            "I thought that was natural, but ….\x02\x03",
             "#04001F…… Think about it,\x01",
-            "Ariosが報告を間違うなんて\x01",
+            "Arios' mistake in reporting\x01",
             "It's unnatural, is not it?\x02",
         )
     )
@@ -9237,7 +9237,7 @@ def main():
             "Sorry to say rude things.\x02\x03",
             "#00003FIn addition to that rude\x01",
             "I will ask you ….\x02\x03",
-            "#00008FそうしたAriosさんの行き先や\x01",
+            "#00008FSuch Arios's destination and\x01",
             "Different schedule ──\x02\x03",
             "#00013FOver half a year ago#10R噵 噵 噵 噵 噵#so\x01",
             "Do not you remember?\x02",
@@ -9985,7 +9985,7 @@ def main():
             "No, the referendum vote\x01",
             "Whether to do \"representation of determination\"\x01",
             "It should have been only a question.\x02\x03",
-            "Defense Forces and Crossbell Independent Countries ……\x02\x03",
+            "The Defense Army and the Crossbell Soverign Nation\x02\x03",
             "Not to mention the legitimacy of the presidential system\x01",
             "There is never a thing to connect!\x07\x00\x02",
         )
@@ -10566,7 +10566,7 @@ def main():
         0x8,
         (
             "#04004F#5POh, you have a lot of way of saying.\x02\x03",
-            "#04000Fまあ、Ariosなら留守にしてるけど？\x02",
+            "#04000FWell, if you are Arios you are out.\x02",
         )
     )
 
@@ -10771,7 +10771,7 @@ def main():
         0x8,
         (
             "#04000F#5PAnyway why\x01",
-            "Ariosのことを\x01",
+            "About Arios\x01",
             "I wonder if I will be wary of that?\x02\x03",
             "Separately we also clearly said \"black moon\"\x01",
             "It's not hostile.\x02",
@@ -10947,7 +10947,7 @@ def main():
             "#04006F#5PYeah yeah, criticism of the guild is fine, though\x01",
             "Children are like children.\x02\x03",
             "#04000FSo, now on the second floor\x01",
-            "KeyaちゃんとSuzukuちゃんがいるから。\x02\x03",
+            "Because there are Kea - chan and Shizuku - chan.\x02\x03",
             "Try to talk with each other happily.\x02",
         )
     )
@@ -10958,7 +10958,7 @@ def main():
         0x101,
         (
             "#12P#00000FOh, that's right.\x01",
-            "Keyaがお邪魔していましたね。\x02",
+            "Kaaa was disturbing.\x02",
         )
     )
 
@@ -11108,7 +11108,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00000Fやあ、Keya。\x01",
+            "#6P#00000FHey, Kea.\x01",
             "It looks like you're having fun.\x02",
         )
     )
@@ -11117,7 +11117,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#6P#00102FSuzukuちゃんも久しぶりね。\x02",
+        "#6P#00102FShizuoka is also a long time.\x02",
     )
 
     CloseMessageWindow()
@@ -11130,7 +11130,7 @@ def main():
     AnonymousTalk(
         0xE,
         (
-            "ふふ、Long time no see.\x02\x03",
+            "Huhuu, it's been a long time.\x02\x03",
             "Apparently,\x01",
             "It looks like you are at work.\x02",
         )
@@ -11271,7 +11271,7 @@ def main():
         0x109,
         (
             "#11P#10109FHaha ……\x01",
-            "（さすがKeyaちゃん。）\x02",
+            "(As expected, Kea).\x02",
         )
     )
 
@@ -11294,7 +11294,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#11P#10309Fフフ、Keyaにかかったら\x01",
+            "#11P#10309FHuff, if you get on Kea\x01",
             "The black moon cape also has no form.\x02",
         )
     )
@@ -11310,8 +11310,8 @@ def main():
         0x102,
         (
             "#5P#00109FHuh, Shin.\x02\x03",
-            "こちらはKeyaちゃんに\x01",
-            "Suzukuちゃんていうの。\x02\x03",
+            "This is Ka'a-chan\x01",
+            "It is Shizuoka-chan.\x02\x03",
             "#00100FBoth of us, a little less than Shin\x01",
             "I wonder if you become a sister?\x02",
         )
@@ -11324,8 +11324,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#11P#00000Fあ、ちなみにSuzukuちゃんは\x01",
-            "さっき言っていたAriosさんの\x01",
+            "#11P#00000FOh, by the way, Shizuku-chan\x01",
+            "Mr. Arios who was talking about a while ago\x01",
             "You are going to be a daughter.\x02",
         )
     )
@@ -11540,7 +11540,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00000Fやあ、Keya。\x01",
+            "#6P#00000FHey, Kea.\x01",
             "It looks like you're having fun.\x02",
         )
     )
@@ -11549,14 +11549,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#6P#00100FSuzukuちゃんも久しぶりね。\x02",
+        "#6P#00100FShizuoka is also a long time.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xE,
-        "#11P#06000Fふふ、Long time no see.\x02",
+        "#11P#06000FHuhuu, it's been a long time.\x02",
     )
 
     CloseMessageWindow()
@@ -11611,7 +11611,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#11P#06002Fえへへ、Keyaちゃんに\x01",
+            "#11P#06002FHey, Ka'aa\x01",
             "A new member entered\x01",
             "I heard it.\x02\x03",
             "#06000FWell then … Who's there?\x02",
@@ -11647,7 +11647,7 @@ def main():
         0xE,
         (
             "#11P#06005FEr … … Who's there?\x02\x03",
-            "Keyaちゃんに新しいメンバーが\x01",
+            "Ka'a-chan has new members\x01",
             "I heard that I entered,\x01",
             "Did you mean ……\x02",
         )
@@ -11704,7 +11704,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#11P#01109Fほらほら、Suzukuも\x01",
+            "#11P#01109FHirahara, Shizuku too\x01",
             "I have to introduce myself!\x02",
         )
     )
@@ -11729,8 +11729,8 @@ def main():
     AnonymousTalk(
         0xE,
         (
-            "えっと、Keyaちゃんのお友達の\x01",
-            "Suzuku・マクレインって言います。\x02\x03",
+            "Well, Ka'a-chan's friends\x01",
+            "I say Sizuku · McLaein.\x02\x03",
             "To all of the support department, both fathers\x01",
             "I am taking care of me.\x02\x03",
             "Again, thank you.\x02",
@@ -11750,7 +11750,7 @@ def main():
         0x102,
         (
             "#6P#00102FHaha, well …\x01",
-            "Ariosさんにお世話になってるのは\x01",
+            "I am indebted to Mr. Arios\x01",
             "Rather, it is a person of this place.\x02",
         )
     )
@@ -11792,7 +11792,7 @@ def main():
         0xD,
         (
             "#11P#01102FNe, everyone too\x01",
-            "Keyaたちと遊んでくのー？\x02",
+            "Why are you playing with Kea?\x02",
         )
     )
 
@@ -11802,10 +11802,10 @@ def main():
         0x101,
         (
             "#6P#00009FAh, no way,\x01",
-            "Suzukuちゃんが来てるから\x01",
+            "Because Shizuoka is coming\x01",
             "Please do not hesitate to ask me a greeting.\x02\x03",
             "#00000FBecause we go to work as it is,\x01",
-            "今日一日、KeyaはSuzukuちゃんと\x01",
+            "Today the day, Kia ah and Shizuku\x01",
             "Please enjoy slowly.\x02",
         )
     )

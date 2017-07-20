@@ -1283,7 +1283,7 @@ def main():
         (
             "If it is only fake brand quotient,\x01",
             "Terrorists to the general public\x01",
-            "紛れ込めるIs it thing?\x02",
+            "Is it something you can miss?\x02",
         )
     )
 
@@ -2151,7 +2151,7 @@ def main():
         (
             "However,\x01",
             "After all it seems to be developing huge.\x01",
-            "共和国がI can think of the countryside.\x02",
+            "The Republic seems to be a country.\x02",
         )
     )
 
@@ -3055,7 +3055,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "自分の名はMuller……\x01",
+            "My name is Muller ……\x01",
             "Music manager in the empire\x01",
             "It is those who do.\x02\x03",
             "Although it is short,\x01",
@@ -4104,7 +4104,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00306FThere is no one there.\x02\x03",
+            "#6P#00306FBut there's really noone here\x02\x03",
             "#00301FTranscontinental railroad\x01",
             "If it stops it's the way it is.\x02",
         )

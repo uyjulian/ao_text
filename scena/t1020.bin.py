@@ -494,7 +494,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "いつもはtouristも入ってこない\x01",
+            "Tourists are not always coming in as usual\x01",
             "It is my favorite in a quiet place ……\x02",
         )
     )
@@ -616,7 +616,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "私はIn the villa ground this far\x01",
+            "I am in a villa place in the future\x01",
             "It is often visited.\x02",
         )
     )
@@ -1047,7 +1047,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "最近、Janettaちゃんが\x01",
+            "Recently, Janetta\x01",
             "Because I fell down on mismatch\x01",
             "I tried inviting my mind.\x02",
         )
@@ -1090,7 +1090,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "それじゃあJanettaちゃん、\x01",
+            "Well then, Janetta,\x01",
             "Shall we eat here tonight?\x02",
         )
     )
@@ -1125,7 +1125,7 @@ def main():
         0xE,
         (
             "… … That's right, I have a bit of business\x01",
-            "Janettaちゃんは他のお店でも\x01",
+            "Janetta is also another shop\x01",
             "I wonder if you can see it?\x02",
         )
     )
@@ -1178,7 +1178,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "今日はSouthwarkさんが\x01",
+            "Today Mr. Sa'zark\x01",
             "It is said that they will write to us,\x01",
             "I am enjoying it very much!\x02",
         )
@@ -1664,7 +1664,7 @@ def main():
     NpcTalk(
         0x10,
         "Voice of a man",
-        "You guys …! Is it?\x02",
+        "You assholes…\x02",
     )
 
     CloseMessageWindow()
@@ -1720,7 +1720,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#5PCaptain Randolph … …!\x02",
+        "#5PCommander Randolph\x02",
     )
 
     CloseMessageWindow()
@@ -1757,14 +1757,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00312F#12PWell, that kind of thing.\x02",
+        "#00312F#12PWell I guess so\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00007F#12PIt's bad, but let's get through!\x02",
+        "#00007F#12PSorry but we'll be pushing through!\x02",
     )
 
     CloseMessageWindow()
@@ -1783,7 +1783,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#5PCut … … please!\x02",
+        "#5PGet them!\x02",
     )
 
     CloseMessageWindow()
@@ -1792,7 +1792,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#5PGet it all out!\x02",
+        "#5PStop them, full force!\x02",
     )
 
     CloseMessageWindow()
@@ -2087,7 +2087,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F（Keya、何かあったのか……？）\x02\x03",
+            "#00005F(Kaor, was there anything …?.?)\x02\x03",
             "#00003F(Villa Regional Surface ……\x01",
             "Why do not you go for a moment. )\x02",
         )
@@ -2154,7 +2154,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FKeyaはそんな遠くへは\x01",
+            "#00000FKa'a to such a long distance\x01",
             "I think that I have not gone ……\x02\x03",
             "Someone may be watching.\x01",
             "I guess I'll try to listen a little.\x02",
@@ -2170,7 +2170,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FKeyaは別荘地方面に\x01",
+            "#00000FKia au villa on the local side\x01",
             "It was a story about going.\x02\x03",
             "…… Do you go looking for something?\x02",
         )

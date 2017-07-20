@@ -279,7 +279,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Yuriのやつ、\x01",
+            "Yuri's guy,\x01",
             "It is truly a bad mood … ….\x02",
         )
     )
@@ -335,7 +335,7 @@ def main():
         0x9,
         (
             "Okay, if you decide so\x01",
-            "Yuriに提案してみるか。\x02",
+            "Do you propose to Yuri?\x02",
         )
     )
 
@@ -343,7 +343,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Reggie、お前車の準備しとけよ。\x02",
+        "Reggie, you should prepare your car.\x02",
     )
 
     CloseMessageWindow()

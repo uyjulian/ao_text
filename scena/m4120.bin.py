@@ -376,7 +376,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -467,7 +467,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -616,7 +616,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -823,7 +823,7 @@ def main():
         (
             "#00008F#6PIn this way ……\x01",
             "This purple light seems to belong to plants.\x02\x03",
-            "#00001FIt seems there are many mushrooms on moss.\x02",
+            "#00001FThere are lots of mushrooms around\x02",
         )
     )
 
@@ -863,7 +863,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6PWell, is there such a thing?\x02",
+        "#00005F#6POh really, I didn't know\x02",
     )
 
     CloseMessageWindow()
@@ -873,7 +873,7 @@ def main():
         (
             "#00106F#5PBut, what color are you listening to?\x01",
             "It's different at all …\x02\x03",
-            "#00100FIt may be another kind.\x02",
+            "#00100FMight be a different type\x02",
         )
     )
 
@@ -914,7 +914,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#5PHuh.\x02",
+        "#00105F#5PHuh?\x02",
     )
 
     CloseMessageWindow()
@@ -933,7 +933,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00100F#5PWas it so……\x02",
+        "#00100F#5PIs that right?\x02",
     )
 
     CloseMessageWindow()
@@ -954,7 +954,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#5PAbnormalities in the flow of the seven anger … …\x02",
+        "#00101F#5PThe flow of the septium veins\x02",
     )
 
     CloseMessageWindow()
@@ -964,7 +964,7 @@ def main():
         (
             "#00003F#6PThat means I set up a trap\x01",
             "I do not seem to have any relationship with the criminal.\x02\x03",
-            "#00008FIt was yesterday that the entrance door was broken ……\x02\x03",
+            "#00008FThe door was broken down yesterday\x02\x03",
             "#00001FIn a day or so, like this\x01",
             "I do not expect to breed in mass.\x02",
         )
@@ -974,7 +974,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10300F#11PWell, that's right.\x02",
+        "#10300F#11PWell, that's true\x02",
     )
 
     CloseMessageWindow()
@@ -982,8 +982,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10102F#6PBut Waji, you are quite knowledgeable.\x02\x03",
-            "Where did you purchase knowledge?\x02",
+            "#10102F#6PBut Wazy, you have impressive knowledge\x02\x03",
+            "Where did you learn about all this\x02",
         )
     )
 
@@ -1005,7 +1005,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10106F#6P…… I did not listen.\x02",
+        "#10106F#6PI shouldn't have asked\x02",
     )
 
     CloseMessageWindow()
@@ -1035,7 +1035,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10304F#11PHuh, I do not have enough people to listen.\x02\x03",
+            "#10304F#11PHaha, don't think badly of me\x02\x03",
             "#10302FTo the end non alcoholic\x01",
             "It's a cocktail, though.\x02",
         )
@@ -1045,7 +1045,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6P(Are you sure? …)\x02",
+        "#00006F#6P(I wonder…)\x02",
     )
 
     CloseMessageWindow()
@@ -1060,7 +1060,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "About usage of burst\x07\x00\x02",
+            "About Burst mode use\x07\x00\x02",
         )
     )
 

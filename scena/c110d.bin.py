@@ -30,14 +30,14 @@ def main():
         "car",                     # 9
         "Defense Forces soldier",             # 10
         "Defense Forces soldier",             # 11
-        "Citizen１",                 # 12
-        "Citizen２",                 # 13
-        "Citizen３",                 # 14
-        "Citizen４",                 # 15
-        "Citizen５",                 # 16
-        "Citizen６",                 # 17
-        "Citizen７",                 # 18
-        "Citizen８",                 # 19
+        "Citizen 1",                 # 12
+        "Citizen 2",                 # 13
+        "Citizen 3",                 # 14
+        "Citizen 4",                 # 15
+        "Citizen 5",                 # 16
+        "Citizen 6",                 # 17
+        "Citizen 7",                 # 18
+        "Citizen 8",                 # 19
         "Central square",               # 20
         "Nishi dori",                 # 21
         "Administrative district",                 # 22
@@ -883,7 +883,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今、Citizen会館でやってる\x01",
+            "I am doing at the city hall now.\x01",
             "It's a charity event,\x01",
             "It's fun to have various events.\x02",
         )
@@ -985,24 +985,24 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "Depending on \"red constellation\"\x01",
             "Crossbell City Trampling#4RA carpet#One week from ──\x02\x03",
-            "IBCビルが爆破されたことで\x01",
+            "As the IBC building was blown up\x01",
             "Tensions in neighboring countries increased at a stretch.\x02\x03",
             "In response, Mr. Marybele\x01",
-            "Orchis Towerにバックアップしていた\x01",
+            "I was backing up to the Orchis Tower\x01",
             "We promptly restore customer data etc. …\x02\x03",
             "By showing perfect correspondence\x01",
             "The ups and downs of neighboring countries were getting drawn.\x02\x03",
             "─ ─ But the scratches left by the hunters are deep,\x01",
-            "多くのCitizenはいまだ呆然としていた。\x02\x03",
+            "Many citizens were still stunned.\x02\x03",
             "Among them, the big star, Iria · Platier\x01",
             "The news that he suffered a serious injury of mourning\x01",
             "It also gives a great impact to domestic and overseas … ….\x02\x03",
             "Furthermore, the fact that the police headquarters was attacked\x01",
             "The thing that \"red constellation\" can not be grasped\x01",
-            "Citizenを言い知れぬ不安に陥れていた。\x02\x03",
+            "I was caught in uneasy anxiety of the citizens.\x02\x03",
             "And ─ ─ behind the \"red constellation\"\x01",
             "Rumors that the Eleventh Empire was\x01",
-            "Citizenの間でも囁かれ始めた頃……\x02\x03",
+            "When it began to whisp even among citizens … …\x02\x03",
             "It was put off for the incident\x01",
             "A referendum on inquiries about \"the independence of the state\"\x01",
             "Three days later, it was held to be held.\x07\x00\x02",
@@ -1430,7 +1430,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "  場所 ：クロスベルCitizen会館・多目的ホール \x01",
+            "Place: Crossbell Civic Center · Multipurpose Hall\x01",
             "Hall\x01",
             "Date: Today\x01",
             "Organizer: Cross Bell Chamber of Commerce / Crosbell City\x01",

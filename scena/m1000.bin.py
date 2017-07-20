@@ -1012,7 +1012,7 @@ def main():
     AnonymousTalk(
         0x105,
         (
-            "#10401F《Vanguard》だったかな？\x01",
+            "#10401FWas it \"Vanguard\"?\x01",
             "It should be a high-performance melee type.\x02",
         )
     )
@@ -1029,7 +1029,7 @@ def main():
             "#10403FEven when that happens to Libert\x01",
             "It is said that the association used it,\x01",
             "It should be a high-performance melee type.\x02\x03",
-            "#10400F確か、《Vanguard》だったかな？\x02",
+            "#10400FCertainly, was it \"Vanguard\"?\x02",
         )
     )
 
@@ -1359,7 +1359,7 @@ def main():
     AnonymousTalk(
         0x105,
         (
-            "#10401F《Vanguard》だったかな？\x01",
+            "#10401FWas it \"Vanguard\"?\x01",
             "It should be a high-performance melee type.\x02",
         )
     )
@@ -2109,7 +2109,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#12PWhite puppet weapon ……\x02",
+        "#00108F#12PWhite doll soldiers…\x02",
     )
 
     CloseMessageWindow()
@@ -2140,7 +2140,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10401F#12P《Vanguard》だったかな？\x01",
+            "#10401F#12PWas it \"Vanguard\"?\x01",
             "It should be a high-performance melee type.\x02",
         )
     )
@@ -2173,7 +2173,7 @@ def main():
         0x105,
         (
             "#10401F#12PPuppet weapons handled by association\x01",
-            "《Vanguard》みたいだね。\x02",
+            "It sounds like \"Vanguard\".\x02",
         )
     )
 
@@ -2228,7 +2228,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#3895V#30A#30WVanguardＦ３《スレイプニル》……\x02\x03",
+            "#3895V#30A#30WVanguard, F Type, Sleipnir Class\x02\x03",
             "#3896V#40A#30WOur \"iron fleet\" is operated\x01",
             "It is a specially adjusted aircraft.\x07\x00\x02",
         )
@@ -2264,7 +2264,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#3P#N#15Ayou……!\x02",
+        "#00007F#3P#N#15AYou are…!\x02",
     )
 
     CloseMessageWindow()
@@ -2371,7 +2371,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#12PCut …!\x02",
+        "#00010F#12PUgh!\x02",
     )
 
     CloseMessageWindow()
@@ -2408,7 +2408,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "#30WFirst of all, they protect\x01",
             "Please break through.\x02\x03",
-            "The story is then.\x07\x00\x02",
+            "We shall talk then\x07\x00\x02",
         )
     )
 
@@ -2420,7 +2420,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#12P#NHappy … It is superior!\x02",
+        "#00307F#12P#NHa. Perfect!\x02",
     )
 
     CloseMessageWindow()
@@ -2429,7 +2429,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#12PDefeat at full power!\x02",
+        "#00007F#12PWe'll take them out!\x02",
     )
 
     CloseMessageWindow()
@@ -2873,14 +2873,14 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00205F#6P… … Elly?\x02",
+        "#00205F#6PElie?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00001F#5PDo you have something to worry about?\x02",
+        "#00001F#5PDid you notice something?\x02",
     )
 
     CloseMessageWindow()
@@ -2903,7 +2903,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305F#12PThat's … … that's true.\x02",
+        "#00305F#12PYeah… that's true\x02",
     )
 
     CloseMessageWindow()
@@ -2996,7 +2996,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P… … That's right.\x02\x03",
+            "#00003F#5PI wonder\x02\x03",
             "#00008FAlso in the confrontation with them\x01",
             "You may be able to see it.\x02\x03",
             "#00013F─ ─ It's not her words\x01",
@@ -3008,7 +3008,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#11PYeah … …!\x02",
+        "#00107F#11PYes!\x02",
     )
 
     CloseMessageWindow()
@@ -3049,7 +3049,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10707F#13PYes……!\x02",
+        "#10707F#13PRight!\x02",
     )
 
     CloseMessageWindow()

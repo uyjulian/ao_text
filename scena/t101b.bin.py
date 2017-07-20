@@ -375,7 +375,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Gelったら……\x01",
+            "If it is Zel ……\x01",
             "Only gentlemanly behavior is first class.\x02",
         )
     )
@@ -422,7 +422,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "いいこと、Gel？\x02",
+        "Good thing, Zel?\x02",
     )
 
     CloseMessageWindow()
@@ -441,7 +441,7 @@ def main():
         0x9,
         (
             "Well, I know.\x01",
-            "僕はEmmyの許婚だからね。\x02",
+            "I am Emily 's marriage.\x02",
         )
     )
 
@@ -489,7 +489,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "それじゃあね、Emmy。\x01",
+            "Well then, Emmy.\x01",
             "Because it cools down in the middle of the night\x01",
             "You have to warm it up.\x02",
         )
@@ -735,7 +735,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00000FCecil姉、それにZeit。\x01",
+            "#12P#00000FCecil elder sister, and Zeit.\x01",
             "Have you been in such a place?\x02",
         )
     )
@@ -824,7 +824,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#5P#05909Fええ、さっきZeit君が\x01",
+            "#5P#05909FYes, you Mr. Zeit earlier\x01",
             "Bring me here.\x02\x03",
             "#05904FIt is quiet away from the theme park,\x01",
             "I thought that it would be cool for a while.\x02",
@@ -839,7 +839,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00003FCecil姉……\x01",
+            "#12P#00003FCecil elder sister …\x01",
             "Is it also a matter of trouble?\x02",
         )
     )
@@ -1095,7 +1095,7 @@ def main():
         0xE,
         "Female voice",
         (
-            "#Nあら、Cecil。\x01",
+            "#NOh, Cecil.\x01",
             "Have you been here yet?\x02",
         )
     )
@@ -1144,7 +1144,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#5P#05905FIlia、どうしたの？\x02",
+        "#5P#05905FIria, what's wrong?\x02",
     )
 
     CloseMessageWindow()
@@ -1196,7 +1196,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00000Fああ、ありがとうCecil姉。\x02",
+        "#12P#00000FOh, thank you Cecil elder sister.\x02",
     )
 
     CloseMessageWindow()
@@ -1349,7 +1349,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00004Fああ、Cecil姉らしいよ。\x02\x03",
+            "#6P#00004FOh, it seems to be Cecil 's older sister.\x02\x03",
             "#00000F… … Well, we're almost done.\x01",
             "Shall we go to the guest house?\x02",
         )
@@ -1383,7 +1383,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00100F行ってくるわね、Zeit。\x02",
+        "#12P#00100FI'm going, Zeit.\x02",
     )
 
     CloseMessageWindow()
@@ -1397,7 +1397,7 @@ def main():
         0x103,
         (
             "#12P#00200FYeah ….\x01",
-            "行ってきますね、Zeit。\x02",
+            "I'm off, Zeit.\x02",
         )
     )
 
@@ -1410,7 +1410,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00300F行ってくるぜ、Zeit。\x02",
+        "#12P#00300FI'm coming, Zeit.\x02",
     )
 
     CloseMessageWindow()
@@ -1422,7 +1422,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#12P#10100F行ってくるね、Zeit君。\x02",
+        "#12P#10100FYou're coming, Zeit.\x02",
     )
 
     CloseMessageWindow()
@@ -1436,7 +1436,7 @@ def main():
         0x105,
         (
             "#12P#10300FHuh, are you waiting for me?\x01",
-            "また後で、Zeit。\x02",
+            "See you later, Zeit.\x02",
         )
     )
 

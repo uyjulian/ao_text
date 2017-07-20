@@ -580,7 +580,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -671,7 +671,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -762,7 +762,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -832,7 +832,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -922,7 +922,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1013,7 +1013,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1098,7 +1098,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105F#12PThis place……?\x02",
+        "#10105F#12PThis place is\x02",
     )
 
     CloseMessageWindow()
@@ -1219,7 +1219,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#5PReally……\x02",
+        "#00002F#5PI see…\x02",
     )
 
     CloseMessageWindow()
@@ -1275,14 +1275,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00100F#6PYeah … …!\x02",
+        "#00100F#6PRight!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10100F#6PI understand.\x02",
+        "#10100F#6PRoger!\x02",
     )
 
     CloseMessageWindow()

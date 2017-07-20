@@ -401,7 +401,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#07900F今、Sonya CommandとDouglas deputy commandが\x01",
+            "#07900FNow, Sonja command and Douglas deputy commander\x01",
             "I am making arrangements for countering terrorism.\x02\x03",
             "#07903FDo not disturb too much.\x02",
         )
@@ -427,7 +427,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#07900FSonya Commandなら、\x01",
+            "#07900FIf you are Sonya commander,\x01",
             "Today is a resort area Michelin\x01",
             "I am taking command of security.\x02\x03",
             "#07903FState guests to the guesthouse\x01",
@@ -445,7 +445,7 @@ def main():
             "Today you are the commander\x01",
             "Will you put together the Belgard gate?\x02\x03",
             "#00306FHa, Mireille something\x01",
-            "あのSonya Commandの\x01",
+            "That Sonja command\x01",
             "Will the agent act as a proxy?\x02",
         )
     )
@@ -460,7 +460,7 @@ def main():
             "#07903F…… Hmm, your worries are fine.\x01",
             "When the former commander was there, do something similar\x01",
             "What was well done.\x02\x03",
-            "#07907FSonya Commandのお留守は、\x01",
+            "#07907FAbsence of Sonya command,\x01",
             "I will absolutely protect you!\x02",
         )
     )
@@ -485,7 +485,7 @@ def main():
             "#07903FWhen the former commander was around\x01",
             "Commanding the gate as a proxy\x01",
             "Things that were left.\x02\x03",
-            "#07901FSonya Commandのお留守は、\x01",
+            "#07901FAbsence of Sonya command,\x01",
             "I will absolutely protect you!\x02",
         )
     )
@@ -677,7 +677,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00309Fいよっ、Warrant Mireille殿。\x01",
+            "#00309FWell, Mireille warrant.\x01",
             "Were you doing well?\x02",
         )
     )
@@ -939,7 +939,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001FSonya Command……\x01",
+            "#00001FCommander Sonya..\x01",
             "Is there something wrong with me?\x02",
         )
     )
@@ -1365,7 +1365,7 @@ def main():
         (
             "Commander who accepted Defense Forces,\x01",
             "I started resistance activities\x01",
-            "Lieutenant Mireilleたち……\x02",
+            "Three Lieutenant Mireille ……\x02",
         )
     )
 
@@ -1407,7 +1407,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "Sonya CommandもLieutenant Mireilleたちも、\x01",
+            "Sonja Commander and the three Lieutenant Mireille,\x01",
             "After thinking into ideas\x01",
             "I chose each way.\x02",
         )
@@ -1489,7 +1489,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#10206F#5PWell, that's … …\x02",
+        "#10206F#5PS-so that's what happened..\x02",
     )
 
     CloseMessageWindow()
@@ -1497,7 +1497,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#10603F#5P……I see.\x02\x03",
+            "#10603F#5PI see…\x02\x03",
             "#10601FInexplicable behavior of the President\x01",
             "It has finally come to light.\x02",
         )
@@ -1507,7 +1507,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305F#12PDo you mean that?\x02",
+        "#00305F#12PSo then could it be\x02",
     )
 
     CloseMessageWindow()
@@ -1525,7 +1525,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#10603F#5PUnfortunately that is impossible.\x02\x03",
+            "#10603F#5PUnfortunatly that's not possible\x02\x03",
             "Whether it is a guard or a defense army,\x01",
             "Civilian control#8RCivilian control#\"Principle does not change.\x02\x03",
             "#10608FAlthough there are problems,\x01",
@@ -1540,14 +1540,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#12P……Is that so.\x02",
+        "#00006F#12PI see…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xC,
-        "#10208F#5P………………………………\x02",
+        "#10208F#5P…\x02",
     )
 
     CloseMessageWindow()
@@ -1575,7 +1575,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#10603F#5PWell, that will be true.\x02\x03",
+            "#10603F#5PYes, that is the case\x02\x03",
             "#10608F── Even if it is not so,\x01",
             "Defense Secretary Arios is excellent.\x02\x03",
             "If the troops of the Belgard gate are\x01",
@@ -1590,7 +1590,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#12PReally……\x02",
+        "#00201F#12PIs that right..\x02",
     )
 
     CloseMessageWindow()
@@ -1623,9 +1623,9 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#10206F#11PBut, it is …!\x02\x03",
+            "#10206F#11PB-But!\x02\x03",
             "#10201FEven if you are Arios' counterpart\x01",
-            "タングラム門のDouglas deputy commandと\x01",
+            "Douglas deputy commander of Tangram main gate\x01",
             "If you can cooperate …!\x02",
         )
     )
@@ -1636,7 +1636,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#10605F#5POh, noel.\x02\x03",
+            "#10605F#5POh Noel?\x02\x03",
             "#10604FWhy cooperate with them\x01",
             "Is it supposed to be a premise?\x02",
         )
@@ -1646,14 +1646,14 @@ def main():
 
     ChrTalk(
         0xC,
-        "#10208F#11P…… Well ………\x02",
+        "#10208F#11P…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00202F#12PNoel ……\x02",
+        "#00202F#12PNoel\x02",
     )
 
     CloseMessageWindow()
@@ -1674,11 +1674,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#12P──Sonya Command。\x02\x03",
+            "#00003F#12PCommander Sonya\x02\x03",
             "#00008FIf President Dieter and\x01",
             "The \"justification\" of the Crossbell independent country is\x01",
             "In case of shaking …\x02\x03",
-            "#00001FWhat will happen to the defense force's response?\x02",
+            "#00001FWhat would the response of the defense army be?\x02",
         )
     )
 
@@ -1697,14 +1697,14 @@ def main():
 
     ChrTalk(
         0xC,
-        "#10205F#5PHuh……\x02",
+        "#10205F#5PHuh?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x106,
-        "#10712F#12Pthat's……\x02",
+        "#10712F#12PThat is\x02",
     )
 
     CloseMessageWindow()
@@ -1712,11 +1712,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#10604F#5PHuhu, well … …\x02\x03",
+            "#10604F#5PHmm, true\x02\x03",
             "It depends to some extent\x01",
             "Until the truth of things is clear\x01",
             "\"Determine the situation carefully\" … …\x02\x03",
-            "#10602FIt may be necessary.\x02",
+            "#10602FThat might become necessary\x02",
         )
     )
 
@@ -1724,7 +1724,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#10202F#5P……!\x02",
+        "#10202F#5P…!\x02",
     )
 
     CloseMessageWindow()
@@ -1732,7 +1732,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10404F#12PHuh, I see.\x02\x03",
+            "#10404F#12PEhe, I see\x02\x03",
             "#10402FAnd then, how\x01",
             "Whether it will shake \"justification\"\x01",
             "It is becoming a key.\x02",
@@ -1745,7 +1745,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#5PAh……\x02\x03",
+            "#00004F#5PRight\x02\x03",
             "Eli's judgment is like this\x01",
             "It seems to be the most reliable, but ….\x02\x03",
             "#00000FPerhaps the key is McDowell's chairman\x01",
@@ -1789,14 +1789,14 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00205F#12PAh……\x02",
+        "#00205F#12PAh\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00300F#6PIs she your dear Josser? …\x02",
+        "#00300F#6PThe princess's grandfather\x02",
     )
 
     CloseMessageWindow()
@@ -1838,7 +1838,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#10201F#5PIf so, the defense army … ….!\x02",
+        "#10201F#5PIn that case the Defense Army would\x02",
     )
 
     CloseMessageWindow()
@@ -1900,7 +1900,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#10603F#5P──Lieutenant Noel。\x02\x03",
+            "#10603F#5PLt. Noel\x02\x03",
             "#10601FMcDael's former chairman,\x01",
             "I wonder if it was a Michelin?\x02",
         )
@@ -1912,7 +1912,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#10211F#11PEr … Oh, yes!\x02\x03",
+            "#10211F#11PHuh? Uh, Yes!\x02\x03",
             "#10203FTogether with my granddaughter Ellie\x01",
             "It is under arrest inside the guest house!\x02",
         )
@@ -1947,7 +1947,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#10201F#11PThat is right.\x02",
+        "#10201F#11PRight. That is correct.\x02",
     )
 
     CloseMessageWindow()
@@ -1955,7 +1955,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#12PSonya Command……\x02",
+        "#00002F#12PCommander Sonya..\x02",
     )
 
     CloseMessageWindow()
@@ -1976,7 +1976,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00209F#12PHehu ……\x02",
+        "#00209F#12PEhe…\x02",
     )
 
     CloseMessageWindow()
@@ -1985,7 +1985,7 @@ def main():
         0x104,
         (
             "#00309F#12PHa ha …\x01",
-            "さすがSonya Command。\x02",
+            "Truly Sonja Commander.\x02",
         )
     )
 
@@ -2006,7 +2006,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#10603F#5P──それとLieutenant Noel。\x02\x03",
+            "#10603F#5PAlso, Lt. Noel\x02\x03",
             "#10601FAlthough it is one fight with the previous time,\x01",
             "It can not be helped even if it is said that it is sweet.\x02",
         )
@@ -2016,7 +2016,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#10206F#11P……Yes.\x02",
+        "#10206F#11P…yes\x02",
     )
 
     CloseMessageWindow()
@@ -2038,7 +2038,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#10202F#11PAh……\x02",
+        "#10202F#11PAh\x02",
     )
 
     CloseMessageWindow()
@@ -2046,10 +2046,10 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#10604F#5PWhat was missing to me ……\x02\x03",
+            "#10604F#5PWhat are you lacking?\x02\x03",
             "And for the future of Crossbell\x01",
             "What should I do?\x02\x03",
-            "#10602FPlease make a firm decision.\x02",
+            "#10602FYou should figure those things out well\x02",
         )
     )
 
@@ -2106,7 +2106,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#12P#10100Fお疲れ様です、Sonya Command！\x02",
+        "#12P#10100FGood job, Sonya command!\x02",
     )
 
     CloseMessageWindow()
@@ -2361,7 +2361,7 @@ def main():
         (
             "#12P#00303F…… It is about that the skin of the face is thick,\x01",
             "I do not manage a high-class club dignitely.\x02\x03",
-            "#00300FSonya Command、情報どうもッス。\x02",
+            "#00300FSonja command, information things.\x02",
         )
     )
 
@@ -2538,7 +2538,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fはは……Warrant Mireille、\x01",
+            "#00000FHahaha …… Mireille warrant,\x01",
             "I'm glad that you are fine.\x02",
         )
     )
@@ -2919,7 +2919,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FSonya CommandとDouglas deputy commandが\x01",
+            "#00000FCommander Sogna and Douglas deputy commander\x01",
             "It seems they are talking about terrorism countermeasures.\x01",
             "… … let's stop going inside.\x02",
         )

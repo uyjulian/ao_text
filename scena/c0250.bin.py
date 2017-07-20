@@ -1048,7 +1048,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふふ、If time is available\x01",
+            "Huhuu, if time is available again\x01",
             "Let 's eat meals together.\x02",
         )
     )
@@ -1464,7 +1464,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あら、Oh dear……\x01",
+            "Oh no … Oh no.\x01",
             "Lloyd is not you!\x02",
         )
     )
@@ -1473,7 +1473,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FLeyteおばさん、ただいま。\x02",
+        "#00000FLady Aunt, I'm home.\x02",
     )
 
     CloseMessageWindow()
@@ -1756,7 +1756,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今日って、Of alkane shell\x01",
+            "Today, alkane shell\x01",
             "There is a renewal performance on the day.\x02",
         )
     )
@@ -2204,7 +2204,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "パ、Pance〜！\x01",
+            "Papacy\x01",
             "Finally on your way to the technician\x01",
             "I was interested!\x02",
         )
@@ -2323,7 +2323,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Pance、外に出ちゃダメだぞ。\x01",
+            "Pans, do not go outside.\x01",
             "Like staying at home with your father.\x02",
         )
     )
@@ -2469,7 +2469,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Panceもお姉ちゃんの姿を見て、\x01",
+            "Pansa looked at her sister's appearance,\x01",
             "You should study engineers.\x02",
         )
     )
@@ -2497,7 +2497,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Panceもお姉ちゃんの姿を見て、\x01",
+            "Pansa looked at her sister's appearance,\x01",
             "You should study engineers.\x02",
         )
     )
@@ -2634,7 +2634,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Pance、悪いけど\x01",
+            "Panse, it's bad though\x01",
             "Rice is to eat alone … …\x02",
         )
     )
@@ -2663,7 +2663,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……あれ、Panceは\x01",
+            "…… That, PANSE\x01",
             "Where have you been ……\x02",
         )
     )
@@ -2699,7 +2699,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Ryuのやつ、何やら子供たちだけで\x01",
+            "Ryu's fellow, just like children\x01",
             "I suppose I'm going to help with my neighborhood.\x02",
         )
     )
@@ -2735,8 +2735,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Ryuはまあいいが……\x01",
-            "ChiluruはChiluruで、旅を再開して\x01",
+            "Ryu is okay, but ….\x01",
+            "Chillul is Chillur, resuming his trip\x01",
             "I went to the Tangram gate.\x02",
         )
     )
@@ -2800,7 +2800,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……ともかく、Chiluruが無事に\x01",
+            "…… In any case, Chillul successfully\x01",
             "I came back and I was relieved.\x02",
         )
     )
@@ -2888,7 +2888,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "旅に出ておるChiluruは大丈夫かのう……\x02",
+        "Chillle on a journey will be fine ……\x02",
     )
 
     CloseMessageWindow()
@@ -2914,7 +2914,7 @@ def main():
         0xFE,
         (
             "In that sense,\x01",
-            "Ryuはわしの子供のころに\x01",
+            "Ryu was my childhood\x01",
             "It closely resembles.\x02",
         )
     )
@@ -2929,7 +2929,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Ryuはわしの子供のころに\x01",
+            "Ryu was my childhood\x01",
             "It closely resembles.\x02",
         )
     )
@@ -2974,7 +2974,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "娘のChiluruが、\x01",
+            "My daughter, Chiluru,\x01",
             "Come back from the trip.\x01",
             "Now I am out with my friends.\x02",
         )
@@ -2985,7 +2985,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "RyuにしろChiluruにしろ、\x01",
+            "Do it for Ryu Chillul,\x01",
             "A lot in my friendship\x01",
             "You seem to have been blessed.\x02",
         )
@@ -3011,7 +3011,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Chiluruはほとんど家におらんのに、\x01",
+            "Even though Chillul is almost in my house,\x01",
             "Katerina is\x01",
             "They are going out with each other.\x02",
         )
@@ -3040,7 +3040,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今日はRyuのやつに\x01",
+            "Today is my partner in Ryu\x01",
             "Trying to help with work\x01",
             "I thought … …\x02",
         )
@@ -3067,7 +3067,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今日もRyuたちは\x01",
+            "Today Ryu also\x01",
             "To see the Orkis Tower\x01",
             "You seem to have gone out.\x02",
         )
@@ -3094,7 +3094,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Ryuにはいつか問屋の仕事を\x01",
+            "Ryu will someday get the wholesale job\x01",
             "Well, I thought I wanted to make a connection … …\x02",
         )
     )
@@ -3120,7 +3120,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Ryuの奴は日曜学校の成績も\x01",
+            "Ryu's guys also got the results of the Sunday school\x01",
             "It's fresh.\x02",
         )
     )
@@ -3212,7 +3212,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Ryuのやつ、最近は\x01",
+            "Ryu's guy, recently\x01",
             "Momo-chan of Tully's place\x01",
             "You seem to invite you to play well.\x02",
         )
@@ -3249,7 +3249,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Ryuのやつには\x01",
+            "Ryu's fellow\x01",
             "I should keep my precaution.\x02",
         )
     )
@@ -3268,7 +3268,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Chiluruもすぐ旅に出て\x01",
+            "Chilur also got on a trip soon\x01",
             "Is not it …?\x02",
         )
     )
@@ -3363,7 +3363,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "おうChiluru、戻ったか。\x01",
+            "Ou Chilur, did you come back?\x01",
             "The trip this time was quite long.\x02",
         )
     )

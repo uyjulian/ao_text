@@ -129,7 +129,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10302FHuh, it's gorgeous as expected.\x02\x03",
+            "#12P#10302FHaha, as glamorous as I thought\x02\x03",
             "What is a hunting soldier?\x01",
             "Do you make so much money?\x02",
         )
@@ -142,7 +142,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04600F#5PWell, is not it special?\x02\x03",
+            "#04600F#5PUhh, we might be a special case\x02\x03",
             "#04604FMany wealthy people and big noble members,\x01",
             "It will come in as normal as 10 million mirrors.\x02",
         )
@@ -152,14 +152,14 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#10305FHu ♪\x02",
+        "#12P#10305FHyuuu!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#12P#00011Fso much……\x02",
+        "#12P#00011FThat much…\x02",
     )
 
     CloseMessageWindow()
@@ -179,7 +179,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04604F#5PHaha, it is still.\x02\x03",
+            "#04604F#5PAhaha, not yet\x02\x03",
             "#04602FAfter all it is robust\x01",
             "I'd like a military boat of Libert, but\x01",
             "It's hard to get behind.\x02\x03",
@@ -195,14 +195,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00008F(… are you kidding?)\x02",
+        "#12P#00008F(Was that a joke?)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00306F(Well, do not do that.\x02",
+        "#00306F(You can think of it like that)\x02",
     )
 
     CloseMessageWindow()

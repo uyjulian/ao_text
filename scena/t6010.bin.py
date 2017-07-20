@@ -667,7 +667,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '极苦面『断头』'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -690,7 +690,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '炼狱麻婆『阎魔』'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -713,7 +713,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '杂色锅巴饭'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -736,7 +736,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '顽固肉排『岩』'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -759,7 +759,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '混沌久煮『浊』'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -782,7 +782,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '男人料理『山』'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -805,7 +805,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '男人料理『川』'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -828,7 +828,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '箭之鱼'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -851,7 +851,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '激辣炸弹蛋包饭'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -874,7 +874,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '细针面'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -897,7 +897,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '苦味汉堡'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -920,7 +920,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '四重番茄比萨'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -943,7 +943,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '守护三明治'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -966,7 +966,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '不可思议盒饭『仰天』'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -989,7 +989,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '奇妙汤'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -1012,7 +1012,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '秘密棉花糖'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -1035,7 +1035,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '反射巧克力蛋糕'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -1058,7 +1058,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '爽弹布丁'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -1081,7 +1081,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '痊愈冰激凌'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -1104,7 +1104,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '隐秘爆米花'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -1127,7 +1127,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '良药『熊竹』'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -1150,7 +1150,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '紫色液体'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -1173,7 +1173,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '褐色液体'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -1196,7 +1196,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Secretary General Huangに",
+            "To Hoang Secretary",
             scpstr(SCPSTR_CODE_ITEM, '粉红液体'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             ".\x02",
@@ -1308,7 +1308,7 @@ def main():
         0x101,
         (
             "#00000FThank you,\x01",
-            "Secretary General Huang。\x02",
+            "Secretary Huang.\x02",
         )
     )
 
@@ -1844,7 +1844,7 @@ def main():
         0x8,
         (
             "Douglas who became the deputy commander of the guard,\x01",
-            "しばらくの間、ここでInstructorをしていた。\x02",
+            "For a while, I was an instructor here.\x02",
         )
     )
 
@@ -2154,7 +2154,7 @@ def main():
         0x8,
         (
             "He said, at the police school\x01",
-            "車両運転のInstructorを\x01",
+            "Vehicle driving instructor\x01",
             "Because I was concurrent.\x02",
         )
     )
@@ -2184,7 +2184,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10104Fうーん、Sergey Managerも\x01",
+            "#10104FWell, Sergey manager also\x01",
             "It is quite a rich mystery.\x02\x03",
             "#10101FPersonally with Sonja command\x01",
             "I also care about relationships.\x02",
@@ -2812,7 +2812,7 @@ def main():
         0x9,
         (
             "Even though I had training from morning today ….\x01",
-            "Instructorに怒鳴られちゃうよ〜。\x02",
+            "The instructor will yell at me ~.\x02",
         )
     )
 
@@ -3043,7 +3043,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "今回の独立提唱、私たちTraineeも\x01",
+            "Independent advocacy of this time, our trainee also\x01",
             "I feel a big meaning.\x02",
         )
     )
@@ -3129,7 +3129,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "Traineeたちも昨日の列車事故に\x01",
+            "Trainees also took a train accident yesterday\x01",
             "It seems to be gloomy.\x02",
         )
     )
@@ -3165,7 +3165,7 @@ def main():
         0xB,
         (
             "Yesterday's train accident,\x01",
-            "ここにいるTraineeたちが騒いだとて\x01",
+            "It is said that the trainees here are making noise\x01",
             "There is nothing I can not do.\x02",
         )
     )
@@ -3210,7 +3210,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "近頃のTraineeたちは、\x01",
+            "Recently trained students,\x01",
             "The attitude towards the curriculum\x01",
             "It is more positive than before.\x02",
         )
@@ -3233,7 +3233,7 @@ def main():
         0xB,
         (
             "For the juniors who have not yet seen,\x01",
-            "是非とも現役のPolicemanには\x01",
+            "By all means to the active police officer\x01",
             "I would like you to keep showing its success.\x02",
         )
     )
@@ -3250,7 +3250,7 @@ def main():
         (
             "A big incident called a cult incident\x01",
             "What the police solved mainly as a result,\x01",
-            "Traineeたちにいい影響を与えている。\x02",
+            "It has a good influence on trainees.\x02",
         )
     )
 
@@ -3260,7 +3260,7 @@ def main():
         0xB,
         (
             "For the juniors who have not yet seen,\x01",
-            "是非とも現役のPolicemanには\x01",
+            "By all means to the active police officer\x01",
             "I would like you to keep showing its success.\x02",
         )
     )
@@ -3610,7 +3610,7 @@ def main():
         0x102,
         (
             "#00105FWell then, then …\x01",
-            "By Joachim Günter\x01",
+            "By Joachim Gunter\x01",
             "To be able to read hidden sentences …! Is it?\x02",
         )
     )
@@ -3990,7 +3990,7 @@ def main():
         0x101,
         (
             "#12P#00003FYes …\x01",
-            "Joachim Günter's\x01",
+            "Joachim Gunter's\x01",
             "I also agree with the testimony.\x02\x03",
             "#00001FAnd this word \"D\" …\x02",
         )
@@ -4080,7 +4080,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#12P#10101FJoachim Günter\x01",
+            "#12P#10101FJoachim Gunter\x01",
             "How far did you know … ….\x02\x03",
             "…… I do not know yet by just this.\x02",
         )
@@ -4761,7 +4761,7 @@ def main():
         0xC,
         (
             "#5P…… For now, the cult's data\x01",
-            "これで全てThe analysis is completed.\x02",
+            "All analysis is completed with this.\x02",
         )
     )
 
@@ -4863,7 +4863,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000Fええ、Thank you very much.\x02",
+        "#00000FYeah, thank you.\x02",
     )
 
     CloseMessageWindow()
@@ -4986,7 +4986,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "#2S\"About the cult\"\x01\x01",
-            "── My name is Joachim Günter.\x01",
+            "── My name is Joachim Gunter.\x01",
             "It is an executive priest belonging to the \"D∴G organization\".\x01",
             "Six years ago, with the hands of many forces, including hushman\x01",
             "Our group fell into destruction.\x01",
@@ -5013,7 +5013,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "#2S\"About the cult\"\x01\x01",
-            "── My name is Joachim Günter.\x01",
+            "── My name is Joachim Gunter.\x01",
             "It is an executive priest belonging to the \"D∴G organization\".\x01",
             "Six years ago, with the hands of many forces, including hushman\x01",
             "Our group fell into destruction.\x01",
@@ -5903,7 +5903,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "１500 Mira\x07\x00",
+            "1500 Mira\x07\x00",
             "Received.\x02",
         )
     )
@@ -5961,7 +5961,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "２500 Mira\x07\x00",
+            "2500 Mira\x07\x00",
             "Received.\x02",
         )
     )
@@ -6019,7 +6019,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "３500 Mira\x07\x00",
+            "3500 Mira\x07\x00",
             "Received.\x02",
         )
     )
@@ -6077,7 +6077,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "４500 Mira\x07\x00",
+            "4500 Mira\x07\x00",
             "Received.\x02",
         )
     )
@@ -6429,7 +6429,7 @@ def main():
         0xFE,
         (
             "Although it is the command direction after a long absence,\x01",
-            "若いPolicemanたちのためにも、\x01",
+            "Even for young policemen,\x01",
             "I do not know what to do.\x02",
         )
     )
@@ -6455,7 +6455,7 @@ def main():
         0xFE,
         (
             "This is an emergency,\x01",
-            "若いPolicemanたちのためにも、\x01",
+            "Even for young policemen,\x01",
             "I do not know what to do.\x02",
         )
     )
@@ -6481,7 +6481,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "やはりTraineeたちに\x01",
+            "Again to the trainees\x01",
             "It seems that anxiety is spreading.\x02",
         )
     )
@@ -6544,7 +6544,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "Traineeたちや市民の対応は\x01",
+            "Response of trainees and citizens\x01",
             "Let's do with me and women police officers.\x02",
         )
     )
@@ -6632,7 +6632,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#01005F#5POh, I finally came.\x02",
+        "#01005F#5POh, you're finally here\x02",
     )
 
     CloseMessageWindow()
@@ -6708,8 +6708,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012F#11Pはは、Thank you very much.\x02\x03",
-            "#00002Fそれと、Secretary General Huang、\x01",
+            "#00012F#11PThank you.\x02\x03",
+            "#00002FAlso, Secretary Huang,\x01",
             "long time no see.\x02",
         )
     )
@@ -6774,8 +6774,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#11PI just arrived.\x02\x03",
-            "#00002FSecretary General Huang、\x01",
+            "#00004F#11PWe just arrived\x02\x03",
+            "#00002FSecretary Huang,\x01",
             "long time no see.\x02",
         )
     )
@@ -6787,7 +6787,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10109F#12PI'm glad that you are fine.\x02",
+        "#10109F#12PI'm glad you look so good\x02",
     )
 
     CloseMessageWindow()
@@ -6834,7 +6834,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#12PEr …\x02",
+        "#00105F#12PUh\x02",
     )
 
     CloseMessageWindow()
@@ -6853,7 +6853,7 @@ def main():
         0xF,
         (
             "#01004F#5POh, the general management of the surrounding facilities\x01",
-            "担当されているSecretary General Huangだ。\x02",
+            "He is in charge of secretary Juan.\x02",
         )
     )
 
@@ -6885,7 +6885,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#01002F#11PYes, I will do so.\x02",
+        "#01002F#11PYeah we will\x02",
     )
 
     CloseMessageWindow()
@@ -6896,7 +6896,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#01003F#5PWell, time is regrettable.\x02\x03",
+            "#01003F#5PWell then we don't have much time\x02\x03",
             "#01000FI will start right away.\x01",
             "Come along quickly.\x02",
         )
@@ -6962,7 +6962,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#12Pあの、Sergey Manager？\x02",
+        "#00105F#12PUh, Director Sergei…\x02",
     )
 
     CloseMessageWindow()
@@ -6970,7 +6970,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F#6PEr …\x01",
+            "#00001F#6PUh\x01",
             "In the end what kind of business is it?\x02",
         )
     )
@@ -6983,7 +6983,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#01005F#11PWhat, have not you noticed yet?\x02\x03",
+            "#01005F#11PYou still haven't noticed?\x02\x03",
             "#01004FThere should have been various hints … …\x01",
             "Kuku, are you still having Toyoko?\x02",
         )
@@ -6994,10 +6994,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00011F#6POooh … wait, please wait!\x02\x03",
+            "#00011F#6PW-wait a second!\x02\x03",
             "#00003FVarious tips ……\x01",
             "The meaning of calling us in this place ……\x02\x03",
-            "#00000FDid you mean ──\x02",
+            "#00000FCould it be\x02",
         )
     )
 
@@ -7071,7 +7071,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00102F#12PTo say that, maybe …\x02",
+        "#00102F#12PSo could that be\x02",
     )
 
     CloseMessageWindow()
@@ -7093,14 +7093,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#12PAh……!\x02",
+        "#00105F#12PAh\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xF,
-        "#01004F#11PIt is a correct answer.\x02",
+        "#01004F#11PHah. Exactly\x02",
     )
 
     CloseMessageWindow()
@@ -7108,7 +7108,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10105F#6PEr …\x01",
+            "#10105F#6PUh\x01",
             "Could it be?\x02",
         )
     )
@@ -7142,7 +7142,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00102F#12PTo say that, maybe …\x02",
+        "#00102F#12PSo could that be\x02",
     )
 
     CloseMessageWindow()
@@ -7204,7 +7204,7 @@ def main():
         (
             "#01003F#5P── This is the reason why\x01",
             "It is the basic transportation law to remember at minimum.\x02\x03",
-            "#01000FTentatively, did you drown into your head?\x02",
+            "#01000FDid I manage to drill it into your heads?\x02",
         )
     )
 
@@ -7212,7 +7212,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#11PNee, somehow.\x02",
+        "#00006F#11PI- I guess\x02",
     )
 
     CloseMessageWindow()
@@ -7247,7 +7247,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#01006F#5PThat's a future task.\x02\x03",
+            "#01006F#5PThat's something we're thinking\x02\x03",
             "#01001FSince private-use guided vehicles started to spread\x01",
             "It has not passed ten years.\x02\x03",
             "Both, more rigid rules\x01",
@@ -7278,7 +7278,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#01006F#5PThat's a future task.\x02\x03",
+            "#01006F#5PThat's something we're thinking\x02\x03",
             "#01001FSince private-use guided vehicles started to spread\x01",
             "It has not passed ten years.\x02\x03",
             "Both, more rigid rules\x01",
@@ -7321,7 +7321,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10102F#11PYes, sir.\x02",
+        "#10102F#11PYes, roger that!\x02",
     )
 
     CloseMessageWindow()
@@ -7353,7 +7353,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10305F#6POh, is that so?\x02",
+        "#10305F#6POh is that right\x02",
     )
 
     CloseMessageWindow()
@@ -7375,7 +7375,7 @@ def main():
         (
             "#01003F#5PWell then, then,\x01",
             "I will give you guided cars.\x02\x03",
-            "#01000FCome along as we prepare outside.\x02",
+            "#01000FIt's parked just outside so come along\x02",
         )
     )
 
@@ -7402,7 +7402,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00102F#6PYes, people are bad for the section chief too.\x02",
+        "#00102F#6PYeah the director has his moments\x02",
     )
 
     CloseMessageWindow()
@@ -7410,7 +7410,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10304F#6PBut it is a driving force car.\x02\x03",
+            "#10304F#6PBut an orbal car…\x02\x03",
             "#10300FI am not really familiar with it\x01",
             "Verne or Rheinfault's\x01",
             "Is it going to be one?\x02",
@@ -7461,7 +7461,7 @@ def main():
             "#00004F#5PWell …\x01",
             "I did not realize it suddenly\x01",
             "I was a bit nervous.\x02\x03",
-            "#00000FOK, let's go and see.\x02",
+            "#00000FOk let's go check it out\x02",
         )
     )
 
@@ -7564,7 +7564,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00000FSecretary General Huang……\x01",
+            "#12P#00000FSecretary Huang ……\x01",
             "That is safe and than anything else.\x02",
         )
     )
@@ -7574,7 +7574,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00105FこちらにはPoliceman隊が\x01",
+            "#12P#00105FHere is the police force\x01",
             "You seem to be coming.\x02\x03",
             "#00103FAround this area the National Defense Forces\x01",
             "You guarded it … ….?\x02",
@@ -7586,8 +7586,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ああ、The President was detained\x01",
-            "一報が入って、I withdrew.\x02",
+            "Oh, it is said that the President was detained\x01",
+            "I got a newsletter and withdrew.\x02",
         )
     )
 
@@ -7878,7 +7878,7 @@ def main():
         (
             "#12P#00003F(To Garcia, at that time\x01",
             "I should reward you … …)\x02\x03",
-            "#00000F……Secretary General Huang、是非お願いします。\x02",
+            "#00000F…… Hoang Secretary, please come.\x02",
         )
     )
 
@@ -7951,7 +7951,7 @@ def main():
         (
             "#12P#00003F(To Garcia, at that time\x01",
             "I should reward you … …)\x02\x03",
-            "#00000F……Secretary General Huang、是非お願いします。\x02",
+            "#00000F…… Hoang Secretary, please come.\x02",
         )
     )
 

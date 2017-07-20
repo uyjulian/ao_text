@@ -767,7 +767,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1527,7 +1527,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10712F#N…… This light ……\x02",
+        "#10712F#NThis light is…\x02",
     )
 
     CloseMessageWindow()
@@ -1597,7 +1597,7 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00606F#NIt is chubby, it is troublesome …\x02\x03",
+            "#00606F#NTch.. That's annoying\x02\x03",
             "#00610FApparently, to get through to the upper layer\x01",
             "There is no choice but to pass the place where the light flows … …\x02",
         )

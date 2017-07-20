@@ -689,7 +689,7 @@ def main():
         0x101,
         (
             "#00009Fmy mother……\x02\x03",
-            "#00005F……あれ、そういえばRandy、\x01",
+            "#00005F… …. That's right, Randy,\x01",
             "Did you buy something here?\x02",
         )
     )
@@ -712,7 +712,7 @@ def main():
         0x101,
         (
             "#00005FWell ~, I see. ….\x02\x03",
-            "#00012Fあのさ、もしかしてRandyって\x01",
+            "#00012FWell, maybe Randy\x01",
             "About Mireille warrante … ….?\x02",
         )
     )
@@ -752,7 +752,7 @@ def main():
         0xF,
         (
             "#00300FOnce I got well,\x01",
-            "Noelたちと集合場所に向かうぜ。\x02\x03",
+            "I will head to the meeting place with Noel.\x02\x03",
             "#00304FUntil then to window shopping\x01",
             "I guess you are working.\x02",
         )
@@ -949,7 +949,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "宝飾品とはまさにThe gift of life …\x02",
+        "Jewelry is just a gift for life ……\x02",
     )
 
     CloseMessageWindow()
@@ -1985,7 +1985,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5P左様、As a special member in the future\x01",
+            "#5PLeft, as a special member in the future\x01",
             "We will respectfully hospitate.\x02",
         )
     )
@@ -2040,7 +2040,7 @@ def main():
         0x104,
         (
             "#5P#00306FThat's it.\x01",
-            "変わり身の早えClerkだなあ。\x02\x03",
+            "It is an early change clerk of a change.\x02\x03",
             "#00300FWell, if you decide so\x01",
             "Would you let me use the cancer gun?\x02",
         )
@@ -2679,7 +2679,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Lloyd and Eli each\x01",
-            "買った宝飾品をClerkに包んでもらい、\x01",
+            "Have the sales clerk wrap the jewelry I bought,\x01",
             "They gave presents to each other.\x07\x00\x02",
         )
     )
@@ -3438,7 +3438,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Lloyd and Tio then\x01",
-            "買った宝飾品をClerkに包んでもらい、\x01",
+            "Have the sales clerk wrap the jewelry I bought,\x01",
             "They gave presents to each other.\x07\x00\x02",
         )
     )
@@ -3757,7 +3757,7 @@ def main():
         (
             "#00302FHa ha, this is a joke.\x02\x03",
             "#00304FThen, a little\x01",
-            "Clerkに包んでもらってくるとすっかね。\x02",
+            "Would it be wrapped by a clerk.\x02",
         )
     )
 
@@ -3830,7 +3830,7 @@ def main():
         0x101,
         (
             "#5P#00000F(This bracelet with red gemstone … …\x01",
-            "  Randyに似合うかもな。）\x02\x03",
+            "It might suit Randy. )\x02\x03",
             "#00003F(The price is … 10000 Mira.\x01",
             "I do quite well … …)\x02",
         )
@@ -3893,8 +3893,8 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Lloyd then failed to Nampa\x01",
-            "肩をすくめているRandyを冗談交じりに慰め……\x02\x03",
-            "買った宝飾品をClerkに包んでもらい、\x01",
+            "Comforting joke with Randy who is shrugging his shoulders ……\x02\x03",
+            "Have the sales clerk wrap the jewelry I bought,\x01",
             "They gave presents to each other.\x07\x00\x02",
         )
     )
@@ -3914,7 +3914,7 @@ def main():
         (
             "#5P#00006F(… It's kind of embarrassingly embarrassing\x01",
             "Let's stop it. )\x02\x03",
-            "#00000F（Randyへの感謝の気持ちは\x01",
+            "#00000F(Thanksgiving to Randy is\x01",
             "I have to show it again in another form at a later date. )\x02",
         )
     )
@@ -3929,8 +3929,8 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Lloyd then failed to Nampa\x01",
-            "肩をすくめているRandyを冗談交じりに慰め……\x02\x03",
-            "Randyから宝飾品を贈られてから、\x01",
+            "Comforting joke with Randy who is shrugging his shoulders ……\x02\x03",
+            "Since I was given a jewelry item from Randy,\x01",
             "I left the jewelry store.\x07\x00\x02",
         )
     )
@@ -3968,8 +3968,8 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Lloyd then failed to Nampa\x01",
-            "肩をすくめているRandyを冗談交じりに慰め……\x02\x03",
-            "Randyから宝飾品を贈られてから、\x01",
+            "Comforting joke with Randy who is shrugging his shoulders ……\x02\x03",
+            "Since I was given a jewelry item from Randy,\x01",
             "I left the jewelry store.\x07\x00\x02",
         )
     )
@@ -4030,7 +4030,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10108Fうーん、昼間Francと一緒に\x01",
+            "#10108FWell, with the daytime franc\x01",
             "I went around looking all along … ….\x02\x03",
             "#10106FHa, after all\x01",
             "I feel like I'm out of place.\x02",
@@ -4079,7 +4079,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005Fどうした、Noel？\x02",
+        "#00005FWhat is wrong, Noel?\x02",
     )
 
     CloseMessageWindow()
@@ -4120,8 +4120,8 @@ def main():
         0x101,
         (
             "#00012FHa ha … … no, somehow\x01",
-            "Noelらしい意見だな。\x02\x03",
-            "#00000FそういえばNoelの私服って\x01",
+            "It seems Noel's opinion.\x02\x03",
+            "#00000FThat reminds me, my clothes for Noel\x01",
             "It seems to be easy to move.\x02",
         )
     )
@@ -4137,7 +4137,7 @@ def main():
             "#10106FThanks for choosing by yourself\x01",
             "It tends to be manish\x01",
             "I am in trouble, though.\x02\x03",
-            "#10100FだからいつもはFrancに頼んで、\x01",
+            "#10100FSo I usually asked Fran,\x01",
             "Have them coordinate …\x02",
         )
     )
@@ -4173,7 +4173,7 @@ def main():
         (
             "#5P#10102FOh, of this Amoya\x01",
             "Addicted choker ……\x02\x03",
-            "#10109F昼間、Francと一緒に見てから\x01",
+            "#10109FFrom the day, watching with franc\x01",
             "A bit better\x01",
             "I thought that.\x02",
         )
@@ -4183,7 +4183,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002Fはは、確かにNoelに似合いそうだな。\x02",
+        "#00002FIt seems that it surely suits Noel.\x02",
     )
 
     CloseMessageWindow()
@@ -4230,8 +4230,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FNoel、このチョーカー……\x01",
-            "君にWill you give me a present?\x02",
+            "#00000FNoel, this choker ……\x01",
+            "Will you give me a gift?\x02",
         )
     )
 
@@ -4363,8 +4363,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "その後、ロイドとNoelはそれぞれ\x01",
-            "買った宝飾品をClerkに包んでもらい、\x01",
+            "Lloyd and Noel each\x01",
+            "Have the sales clerk wrap the jewelry I bought,\x01",
             "They gave presents to each other.\x07\x00\x02",
         )
     )
@@ -4401,7 +4401,7 @@ def main():
         0x101,
         (
             "#00006F(… Well, after all it stops.\x01",
-            "  Francとかにも誤解を生みそうだし……）\x02",
+            "Francs and others are also likely to make misunderstanding … …)\x02",
         )
     )
 
@@ -4440,7 +4440,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "その後、ロイドはNoelとひとしきり\x01",
+            "After that, Lloyd and Noel at once\x01",
             "Enjoy window shopping,\x01",
             "I left the jewelry store.\x07\x00\x02",
         )
@@ -4503,7 +4503,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "その後、ロイドはNoelとひとしきり\x01",
+            "After that, Lloyd and Noel at once\x01",
             "Enjoy window shopping,\x01",
             "I left the jewelry store.\x07\x00\x02",
         )
@@ -4618,7 +4618,7 @@ def main():
         (
             "#00006FHey Hey,\x01",
             "It will not give children.\x02\x03",
-            "#00005F……そういえばWajiって、\x01",
+            "#00005F… … Wagy, that's it,\x01",
             "Before entering the support department\x01",
             "I'd like to wear a lot of wings.\x02\x03",
             "#00003FTactical auctions as well\x01",
@@ -4807,7 +4807,7 @@ def main():
             "I just got it … …)\x02\x03",
             "#00004F(Also from returning something from here\x01",
             "It might be nice. )\x02\x03",
-            "#00000F（Wajiが来たおかげで、\x01",
+            "#00000F(Thanks to Wazi,\x01",
             "The flexibility of the support department also increased in a certain sense,\x01",
             "I also put the meaning of that thank … ….)\x02",
         )
@@ -4825,7 +4825,7 @@ def main():
         0x101,
         (
             "#00000F(If this pendant of Kim,\x01",
-            "  Wajiに似合うかもしれない。）\x02\x03",
+            "It might become a wax. )\x02\x03",
             "#00003F(The price is … 10000 Mira.\x01",
             "I do quite well … …)\x02",
         )
@@ -4907,7 +4907,7 @@ def main():
         0x101,
         (
             "#00002F…… Well, well.\x01",
-            "Clerkさんを呼んでこよう。\x02",
+            "I will call a clerk.\x02",
         )
     )
 
@@ -4921,8 +4921,8 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Lloyd then\x01",
-            "買った宝飾品をClerkに包んでもらい、\x01",
-            "Wajiにプレゼントするのだった。\x07\x00\x02",
+            "Have the sales clerk wrap the jewelry I bought,\x01",
+            "I gave him to Waji.\x07\x00\x02",
         )
     )
 
@@ -4979,7 +4979,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "その後、ロイドはWajiとひとしきり\x01",
+            "After that, Lloyd and Wadi once\x01",
             "Enjoy window shopping,\x01",
             "I left the jewelry store.\x07\x00\x02",
         )
@@ -5042,7 +5042,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "その後、ロイドはWajiとひとしきり\x01",
+            "After that, Lloyd and Wadi once\x01",
             "Enjoy window shopping,\x01",
             "I left the jewelry store.\x07\x00\x02",
         )

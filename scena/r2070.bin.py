@@ -827,7 +827,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -918,7 +918,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1009,7 +1009,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1100,7 +1100,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1937,7 +1937,7 @@ def main():
             "It seems they are protecting here.\x02\x03",
             "#10401FStanding in front of the door,\x01",
             "Bases of association Heavy doll weapons for defense\x01",
-            "《Role Ganaisi》だ。\x02",
+            "It's \"Role Gungey\".\x02",
         )
     )
 
@@ -2137,7 +2137,7 @@ def main():
             "#10403FHere also \"snake snake#10RUroboros#Or\x02\x03",
             "#10401FStanding in front of the door,\x01",
             "Bases of association Heavy doll weapons for defense\x01",
-            "《Role Ganaisi》だ。\x02",
+            "It's \"Role Gungey\".\x02",
         )
     )
 
@@ -2736,7 +2736,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10107F#6PEveryone, that …!\x02",
+        "#10107F#6PLook at that!\x02",
     )
 
     CloseMessageWindow()
@@ -2767,7 +2767,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101FThat big bell …\x02",
+        "#00101FThat Great Bell…\x02",
     )
 
     CloseMessageWindow()
@@ -2791,7 +2791,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#3720V#30W#25AUhu, that's right.\x07\x00\x02",
+            "#3720V#30W#25AEhe, that's exactly right\x07\x00\x02",
         )
     )
 
@@ -2805,7 +2805,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013FIt is! It is!\x02",
+        "#00013F!!\x02",
     )
 
     CloseMessageWindow()
@@ -2846,14 +2846,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00304F#6POh, I was stupid.\x02",
+        "#00304F#6POh, he's pretty pissed\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00211F#6PWell, is it self-owned?\x02",
+        "#00211F#6PWell, you reap what you sow\x02",
     )
 
     CloseMessageWindow()
@@ -2866,7 +2866,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "Well, my doctor and hunter\x01",
             "I also feel like I got a bitter ahead … …\x02\x03",
-            "Huh, whatever.\x07\x00\x02",
+            "But, well, whatever\x07\x00\x02",
         )
     )
 
@@ -3019,7 +3019,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "── What I came here\x01",
             "There is a certain amount of preparedness, is not it?\x02\x03",
-            "Uhufu, you will have fun.\x07\x00\x02",
+            "Ehe, I'm looking forward to it\x07\x00\x02",
         )
     )
 
@@ -3045,7 +3045,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#6PCut … …. Puppet weapon! Is it?\x02",
+        "#00007F#6PTch… millitary dolls!?\x02",
     )
 
     CloseMessageWindow()
@@ -3054,7 +3054,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10410F#6P《Role Ganaisi》！\x02\x03",
+            "#10410F#6PReol Gaize?\x02\x03",
             "#10407FBases of association for defense\x01",
             "Heavy doll weapon …!\x02",
         )
@@ -3082,7 +3082,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#6PAnyway he will beat him!\x02",
+        "#00307F#6PAnyway let's take them out!\x02",
     )
 
     CloseMessageWindow()
@@ -3321,7 +3321,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#3721V#30W#25AUhufu, wonderful.\x02\x03",
+            "#3721V#30W#25AEheh, wonderful\x02\x03",
             "#3722V#30W#32AWell then, without hesitation\x01",
             "Please stay inside.\x02\x03",
             "#3723V#30W#27AI'll be waiting in front of the bell.\x07\x00\x02",
@@ -3350,7 +3350,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#5P……What do you think?\x02",
+        "#00108F#5PWhat do you think?\x02",
     )
 
     CloseMessageWindow()
@@ -4189,7 +4189,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Sister · Leaseが護衛対象に加わりました。\x01",
+            "Sister · Lease joined the escort subject.\x01",
             "Game over when HP becomes 0.\x07\x00\x02",
         )
     )
@@ -4251,7 +4251,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "#6P#04405F《僧院》の探索をquitのですか？\x02",
+        "#6P#04405FDo you quit exploring \"monastery\"?\x02",
     )
 
     CloseMessageWindow()
@@ -4332,7 +4332,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "#6P#04400F《僧院》の探索をquitのですか？\x02",
+        "#6P#04400FDo you quit exploring \"monastery\"?\x02",
     )
 
     CloseMessageWindow()

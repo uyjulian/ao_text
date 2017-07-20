@@ -785,7 +785,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -876,7 +876,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1421,21 +1421,21 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00102F#5PBeautiful\x02",
+        "#00102F#5PPretty!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10109F#11PIt is a magnificent scene …\x02",
+        "#10109F#11PNice scenery!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10302F#11PWell, it's a glance at a glance.\x02",
+        "#10302F#11PMy first time seeing this\x02",
     )
 
     CloseMessageWindow()
@@ -1443,7 +1443,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#5POh, it was a fine day.\x02\x03",
+            "#00004F#5PYeah. It's great that it cleared up here\x02\x03",
             "#00000FThe way the mountain road is clear is\x01",
             "It sounds like it was certain.\x02",
         )
@@ -2053,7 +2053,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00100FNoel, could I try it?\x02",
+        "#00100FNoel, should we try it?\x02",
     )
 
     CloseMessageWindow()

@@ -915,7 +915,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1006,7 +1006,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -2237,7 +2237,7 @@ def main():
         0x8,
         (
             "Oh, Lake Road-sama ……\x01",
-            "私は自分の才能が恐ろしいIs not it.\x02",
+            "I am terrified of my talent.\x02",
         )
     )
 
@@ -2815,8 +2815,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00305FHmm, is it a tactics note?\x02\x03",
-            "#00300FIs this a direction for Wadi and Noel?\x02",
+            "#00305FOh another one of there books with skills\x02\x03",
+            "#00300FAnd this one seems to match Wazy and Noel\x02",
         )
     )
 
@@ -2824,14 +2824,14 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10302FNoel, will you give it a try?\x02",
+        "#10302FNoel, should we give it a shot?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10102FYes, of course!\x02",
+        "#10102FYes of course!\x02",
     )
 
     CloseMessageWindow()

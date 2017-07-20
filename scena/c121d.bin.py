@@ -200,7 +200,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04512F#12PIt's pointless.\x02",
+        "#04512F#12PNo good.\x02",
     )
 
     CloseMessageWindow()
@@ -236,7 +236,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#5P#10ARash\x02",
+        "#5P#10AUgh\x02",
     )
 
     Sleep(100)
@@ -252,7 +252,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#6P#10A… …. ugh …\x02",
+        "#6P#10AAhh\x02",
     )
 
     Sleep(1900)
@@ -320,7 +320,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#5P#10AJacky …!\x02",
+        "#5P#10ANo!\x02",
     )
 
     Sleep(100)
@@ -330,7 +330,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#5PMum, please!\x02",
+        "#5PNo good..\x02",
     )
 
     CloseMessageWindow()
@@ -451,7 +451,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#03203F#11PYes, for the time being.\x02\x03",
+            "#03203F#11PYes, more or less\x02\x03",
             "#03200FI like war like you like\x01",
             "The more you hit from the front\x01",
             "Because it is not reckless.\x02",
@@ -475,7 +475,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#03204F#11PHaha, that is not it.\x02\x03",
+            "#03204F#11PHaha, of course not\x02\x03",
             "In your opponent, \"Silver#2RIn#\"Whatever\x01",
             "I can not help to say that the minutes are bad.\x02\x03",
             "#03210FA bit, I have something to confirm\x01",
@@ -487,7 +487,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04505F#6PWell, what you want to confirm?\x02",
+        "#04505F#6POh? And what exactly is that?\x02",
     )
 
     CloseMessageWindow()
@@ -495,7 +495,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#03209F#11PWhat is simple.\x02\x03",
+            "#03209F#11PIt's a simple matter really\x02\x03",
             "#03202F── You now#4R噵 噵#The contractor\x01",
             "Who on earth are you?\x02",
         )
@@ -506,7 +506,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04504F#6PKuku …… Ha ha ha ……\x02\x03",
+            "#04504F#6PHehe, hahaha\x02\x03",
             "#04512F─ ─ you are\x01",
             "It seems quite likely.\x02",
         )
@@ -525,7 +525,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04507F#6P#5S#10AHa ha!\x02",
+        "#04507F#6P#5S#10AHaa!\x02",
     )
 
     CloseMessageWindow()
@@ -539,7 +539,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#03201F#7AHa ha!\x02",
+        "#03201F#7AHa!\x02",
     )
 
     WaitChrThread(0xA, 3)
@@ -580,7 +580,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04504F#5PHun, did you escape?\x02",
+        "#04504F#5PHumph. He got away\x02",
     )
 
     CloseMessageWindow()
@@ -592,7 +592,7 @@ def main():
     NpcTalk(
         0x8,
         "voice",
-        "── Mr. Sigmund!\x02",
+        "Sigmund…\x02",
     )
 
     CloseMessageWindow()
@@ -623,7 +623,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04500F#5PTsaoの部下は？\x02",
+        "#04500F#5PCao's subordinates?\x02",
     )
 
     CloseMessageWindow()
@@ -641,7 +641,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04504F#5PHuh, could you escape?\x02\x03",
+            "#04504F#5PHmm. They got away?\x02\x03",
             "#04500FWell, at most, lurking in the darkness\x01",
             "Sharpen your fangs.\x02",
         )
@@ -665,7 +665,7 @@ def main():
     Sleep(300)
     OP_82(0x64, 0x0, 0xBB8, 0xC8)
     SetMessageWindowPos(80, 50, -1, -1)
-    SetChrName("A hunterたち")
+    SetChrName("Hunters")
 
     AnonymousTalk(
         0xFF,

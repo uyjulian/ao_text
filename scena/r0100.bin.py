@@ -744,7 +744,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -835,7 +835,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -984,7 +984,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1525,7 +1525,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00005FThe door of private property is open … …! Is it?\x02",
+        "#6P#00005FThe gate is open…\x02",
     )
 
     CloseMessageWindow()
@@ -1543,14 +1543,14 @@ def main():
 
     ChrTalk(
         0x103,
-        "#12P#00200FDid someone open the key?\x02",
+        "#12P#00200FI wonder who opened it up\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#6P#10103FBut for what purpose … …?\x02",
+        "#6P#10103FAnd why…\x02",
     )
 
     CloseMessageWindow()
@@ -1560,7 +1560,7 @@ def main():
         (
             "#6P#00303F…… In any case, there is a monster in it\x01",
             "It is getting involved.\x02\x03",
-            "#00301FYou should be careful if you examine it.\x02",
+            "#00301FWe might find something interesting\x02",
         )
     )
 
@@ -1568,7 +1568,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#10302FHuh, I understand.\x02",
+        "#12P#10302FHeh, roger\x02",
     )
 
     CloseMessageWindow()
@@ -1626,7 +1626,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00000F２つ目のdollのトランク……\x01",
+            "#12P#00000FThe trunk of the second doll ……\x01",
             "Were you in such a place?\x02",
         )
     )
@@ -1636,7 +1636,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00103F\"A villager gets inherited in an old road\" Location …\x02\x03",
+            "#6P#00103FThe old road which the villiagers inherited\x02\x03",
             "#00100FAlmorika village is an old road\x01",
             "If you own this private estate,\x01",
             "It looks like true.\x02",
@@ -1668,7 +1668,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00000FAnyway, let's check it.\x02",
+        "#12P#00000FOK let's open it\x02",
     )
 
     CloseMessageWindow()
@@ -1724,8 +1724,8 @@ def main():
         0x102,
         (
             "#6P#00105FThis is because the bell\x01",
-            "『リエーテ』って呼んでいるdollね。\x02\x03",
-            "#00104FYeah, I do not think it's genuine.\x02",
+            "It's a doll that calls \"Riete\".\x02\x03",
+            "#00104FIt's definitely the real thing\x02",
         )
     )
 
@@ -1774,7 +1774,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#16Iローゼンベルクdoll・Ｒ\x07\x00",
+            "#16IRosenberg doll · R\x07\x00",
             "I got it.\x02",
         )
     )

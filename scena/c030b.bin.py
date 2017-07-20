@@ -333,7 +333,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -677,7 +677,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a lock on the door.\x07\x00\x02",
+            "The door is locked\x07\x00\x02",
         )
     )
 
@@ -714,7 +714,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a lock on the door.\x07\x00\x02",
+            "The door is locked\x07\x00\x02",
         )
     )
 
@@ -755,7 +755,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd took out the key of the geo front from the bosom.\x07\x00\x02",
+            "Lloyd unlocked the door\x07\x00\x02",
         )
     )
 
@@ -774,7 +774,7 @@ def main():
         (
             "#00603FThe room of the example of a small priest is certainly\x01",
             "It was the way through the duct.\x02\x03",
-            "#00600FI will hurry.\x02",
+            "#00600FLet's hurry\x02",
         )
     )
 
@@ -783,7 +783,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00000FIt is okay.\x02",
+        "#11P#00000FRoger\x02",
     )
 
     CloseMessageWindow()
@@ -977,7 +977,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a lock on the door.\x07\x00\x02",
+            "The door is locked\x07\x00\x02",
         )
     )
 
@@ -1002,7 +1002,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a lock on the door.\x07\x00\x02",
+            "The door is locked\x07\x00\x02",
         )
     )
 

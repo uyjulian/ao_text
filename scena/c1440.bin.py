@@ -486,7 +486,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FAshleyさん、お久しぶりです。\x02\x03",
+            "#00000FAshley, it's been a long time.\x02\x03",
             "#00012F… or so, in this situation\x01",
             "It does not seem to work at all.\x02",
         )
@@ -583,7 +583,7 @@ def main():
         (
             "I pulled it out from the back of the warehouse\x01",
             "There are plenty of good stuff as it is.\x01",
-            "必要ならJingoと交渉しな。\x02",
+            "Negotiate with Jingo if necessary.\x02",
         )
     )
 
@@ -609,7 +609,7 @@ def main():
         (
             "I pulled it out from the back of the warehouse\x01",
             "There are plenty of good stuff as it is.\x01",
-            "必要ならJingoと交渉しな。\x02",
+            "Negotiate with Jingo if necessary.\x02",
         )
     )
 
@@ -888,7 +888,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FAshleyさん……\x02",
+        "#00005FAshley…\x02",
     )
 
     CloseMessageWindow()
@@ -920,7 +920,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Jingoのこともあるし、\x01",
+            "There are things of Jingo,\x01",
             "I have to decide how to shake it.\x02",
         )
     )
@@ -957,7 +957,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Jingoのこともあるし、\x01",
+            "There are things of Jingo,\x01",
             "I have to decide how to shake it.\x02",
         )
     )
@@ -1053,7 +1053,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012F（流石はAshleyさん、\x01",
+            "#00012F(Ashuri-san,\x01",
             "Ears are early. )\x02",
         )
     )
@@ -1200,7 +1200,7 @@ def main():
         0xFE,
         (
             "There are also holes in the roof\x01",
-            "Jingoに任せたのさ。\x02",
+            "I left it to Jingo.\x02",
         )
     )
 
@@ -1516,7 +1516,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105FAshleyさん？\x02",
+        "#00105FMr. Ashley?\x02",
     )
 
     CloseMessageWindow()
@@ -1783,7 +1783,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "おう、Jingo。\x01",
+            "Oh, Jingo.\x01",
             "The grenades brought in yesterday\x01",
             "Do you remember where you went to?\x02",
         )
@@ -1832,7 +1832,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "サンクス、Jingo。\x01",
+            "Thanks, Jingo.\x01",
             "As much as I should have is my daughter.\x02",
         )
     )
@@ -1912,9 +1912,9 @@ def main():
         1,
         (
             "talk\x01",                # 0
-            "交換する(装備)\x01",          # 1
-            "交換する(クオーツ)\x01",      # 2
-            "交換する(その他)\x01",        # 3
+            "Replace (Equipment)\x01",          # 1
+            "Exchange (quartz)\x01",      # 2
+            "Exchange (Other)\x01",        # 3
             "quit\x01",                  # 4
         )
     )
@@ -2027,7 +2027,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "VanとRuzeにもこれ着せて、\x01",
+            "Also put this on Van and Ruze,\x01",
             "Chamber of Love.\x02",
         )
     )
@@ -2072,7 +2072,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "VanとRuzeにもこれ着せて、\x01",
+            "Also put this on Van and Ruze,\x01",
             "Chamber of Love.\x02",
         )
     )
@@ -2120,7 +2120,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Jingo、それのフク探してんだ。\x02",
+        "Jingo, I'm looking for it.\x02",
     )
 
     CloseMessageWindow()
@@ -2321,7 +2321,7 @@ def main():
         0x9,
         (
             "I will make it for honor but,\x01",
-            "ママとJingoもちょこちょこ\x01",
+            "Mom and Jingo are also chalky\x01",
             "You are helping.\x02",
         )
     )
@@ -2546,7 +2546,7 @@ def main():
         0x9,
         (
             "Nishishi …\x01",
-            "やっぱ、Jingoがいねえとダメだな。\x02",
+            "I guess it is impossible to have a gym.\x02",
         )
     )
 
@@ -2602,7 +2602,7 @@ def main():
         (
             "That building,\x01",
             "I'm really stupid.\x01",
-            "Jingoもビックリしたぞ。\x02",
+            "Jingo was surprised.\x02",
         )
     )
 
@@ -2618,7 +2618,7 @@ def main():
         (
             "That building,\x01",
             "I'm really stupid.\x01",
-            "Jingoもビックリしたぞ。\x02",
+            "Jingo was surprised.\x02",
         )
     )
 
@@ -3043,7 +3043,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "ちなみにAshleyさん。\x01",
+            "By the way Ashley.\x01",
             "If I buy it properly\x01",
             "How long is it to be a monkey?\x02",
         )
@@ -3158,7 +3158,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "くっそー、Jingoの母ちゃん、\x01",
+            "Kisso, Jingo's mother,\x01",
             "As usual I'm okay.\x02",
         )
     )
@@ -3241,7 +3241,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "ねえねえ、Van。\x01",
+            "Hey, hey, Van.\x01",
             "I wonder if I can bake Niku?\x02",
         )
     )
@@ -3287,7 +3287,7 @@ def main():
         0xD,
         (
             "Couscous……\x01",
-            "Jingoちゃんのお母さん、\x01",
+            "Jingo-chan's mother,\x01",
             "You have power.\x02",
         )
     )
@@ -3316,7 +3316,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "よお、Jingo。\x01",
+            "Well, Jingo.\x01",
             "I came to see you.\x02",
         )
     )
@@ -3379,7 +3379,7 @@ def main():
         0xC,
         (
             "Gothak is good.\x01",
-            "恵んでくれよ、Jingo。\x02",
+            "Please bless me, Jingo.\x02",
         )
     )
 
@@ -3399,7 +3399,7 @@ def main():
         0xD,
         (
             "Couscous……\x01",
-            "Jingoちゃんのオニー。\x02",
+            "Jingo's ony.\x02",
         )
     )
 
@@ -3451,7 +3451,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00108F相変わらずJingoちゃんが\x01",
+            "#6P#00108FAs usual Jingo chan\x01",
             "You are doing a store number ……\x02",
         )
     )
@@ -3518,7 +3518,7 @@ def main():
             "※ At the exchange shop \"Ninevali\"\x01",
             "Instead of consuming certain items\x01",
             "Items with high scarcity value are available.\x02\x03",
-            "※カウンターにいるJingoに話しかけて\x01",
+            "Talk to Jingo at the counter\x01",
             "If you select \"Replace\"\x01",
             "A menu is displayed and you can exchange.\x07\x00\x02",
         )
@@ -3575,7 +3575,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00108F相変わらずJingoちゃんが\x01",
+            "#6P#00108FAs usual Jingo chan\x01",
             "You are doing a store number ……\x02",
         )
     )
@@ -3624,7 +3624,7 @@ def main():
         0x101,
         (
             "#5P#00003FI see that …\x02\x03",
-            "#00001FとにかくAshleyさんに\x01",
+            "#00001FAnyway Mr. Ashley\x01",
             "Let's ask about the example man.\x02",
         )
     )
@@ -3643,7 +3643,7 @@ def main():
             "※ At the exchange shop \"Ninevali\"\x01",
             "Instead of consuming certain items\x01",
             "Items with high scarcity value are available.\x02\x03",
-            "※カウンターにいるJingoに話しかけて\x01",
+            "Talk to Jingo at the counter\x01",
             "If you select \"Replace\"\x01",
             "A menu is displayed and you can exchange.\x07\x00\x02",
         )
@@ -3688,7 +3688,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#11P#00101Fとりあえず、Ashleyさんに\x01",
+            "#11P#00101FAnyway, to Ashley\x01",
             "Let's ask about the example man.\x02",
         )
     )
@@ -3829,7 +3829,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00103F実は、Ashleyさんに\x01",
+            "#6P#00103FActually, to Ashley\x01",
             "I have something to ask.\x02\x03",
             "#00100FTo you as a former weapon merchant.\x02",
         )
@@ -3859,7 +3859,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00103Fはい、実はAshleyさんに\x01",
+            "#6P#00103FYes, in fact, Ashley\x01",
             "I have something to ask.\x02\x03",
             "#00100FTo you as a former weapon merchant.\x02",
         )
@@ -4096,7 +4096,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00005FAshleyさん、\x01",
+            "#12P#00005FAshley,\x01",
             "My older brother and acquaintance …! Is it?\x02",
         )
     )
@@ -4334,7 +4334,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "……それよりJingo。\x02",
+        "… From then on Jingo.\x02",
     )
 
     CloseMessageWindow()
@@ -4446,7 +4446,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PGee\x02",
+        "#5POhh\x02",
     )
 
     CloseMessageWindow()
@@ -4494,7 +4494,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10309FAhaha, indeed.\x02",
+        "#10309FHaha, of course\x02",
     )
 
     CloseMessageWindow()
@@ -4511,7 +4511,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#12P#00201FIs it still a driving-type rifle?\x02",
+        "#12P#00201FWas it an orbal rifle of some kind\x02",
     )
 
     CloseMessageWindow()
@@ -4560,8 +4560,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00006FI see……\x02\x03",
-            "#00008F… … It's truly amply prepared.\x02",
+            "#12P#00006FI see.\x02\x03",
+            "#00008FIt seems very carefully prepared\x02",
         )
     )
 
@@ -4622,14 +4622,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00011FAshleyさん……\x02",
+        "#12P#00011FAshley…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#6P#00106FDid you know ……\x02",
+        "#6P#00106FSo you knew\x02",
     )
 
     CloseMessageWindow()
@@ -4677,7 +4677,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#12P#00201F…… I will not let it.\x02",
+        "#12P#00201FWe won't let them\x02",
     )
 
     CloseMessageWindow()
@@ -4697,7 +4697,7 @@ def main():
         (
             "#10304FHuff, from a little while ago\x01",
             "It is always in this condition.\x02\x03",
-            "#10302FIt seems like waste even if provoking?\x02",
+            "#10302FBut there's no point provoking him huh\x02",
         )
     )
 
@@ -4705,7 +4705,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWhew, it seems so.\x02",
+        "#5PYes, it seems that way\x02",
     )
 
     CloseMessageWindow()
@@ -4732,14 +4732,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#12P#10101FYes……!\x02",
+        "#12P#10101FRight!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#6P#00103FThank you for the information.\x02",
+        "#6P#00103FThank you for the info\x02",
     )
 
     CloseMessageWindow()
@@ -4810,7 +4810,7 @@ def main():
         0x9,
         (
             "…… Hey, customer.\x01",
-            "Jingoの目はごまかせねえかんな。\x02",
+            "The eyes of Jingo are not cheap.\x02",
         )
     )
 
@@ -4836,7 +4836,7 @@ def main():
         0x9,
         (
             "Hey, customers?\x01",
-            "Jingoのハナシ聞いてたか？\x02",
+            "Did you hear Jingo's Hanashi?\x02",
         )
     )
 

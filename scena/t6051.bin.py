@@ -476,7 +476,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -512,7 +512,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Defense Forces soldierは気を失っている。\x07\x00\x02",
+            "Defense forces soldiers are fainting.\x07\x00\x02",
         )
     )
 
@@ -530,7 +530,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Defense Forces soldierは気を失っている。\x07\x00\x02",
+            "Defense forces soldiers are fainting.\x07\x00\x02",
         )
     )
 
@@ -1127,14 +1127,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#6PLet's!\x02",
+        "#6PThere they are!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "Do not move there!\x02",
+        "Don't move!\x02",
     )
 
     CloseMessageWindow()
@@ -1287,7 +1287,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#11P… … Have you started using military dogs?\x02\x03",
+            "#00006F#11PThey started using guard dogs too\x02\x03",
             "#00008FAt the time of the guard like that\x01",
             "I should have never used it … ….\x02",
         )
@@ -1313,7 +1313,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00010F#12PCow … you do not say!\x02\x03",
+            "#00010F#12PDon't' start that!\x02\x03",
             "#00008F(Sonja command and Douglas deputy commander\x01",
             "I do not think it is a judgment … …)\x02",
         )
@@ -1468,14 +1468,14 @@ def main():
 
     ChrTalk(
         0xA,
-        "#5PGa Garcia! Is it?\x02",
+        "#5PGarcia!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xB,
-        "#5PThere are also young people of the support department! Is it?\x02",
+        "#5PAnd the SSS brat too!\x02",
     )
 
     CloseMessageWindow()
@@ -1687,7 +1687,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00015F#11PCut … … Ha ha.\x02",
+        "#00015F#11PAhh ahh\x02",
     )
 
     CloseMessageWindow()
@@ -1726,7 +1726,7 @@ def main():
             "I think that it is impossible, but …\x02\x03",
             "#00000FWith your help\x01",
             "Escape from detention centers is possible.\x02\x03",
-            "I will use the power that I can use.\x02",
+            "Keep giving me your strength\x02",
         )
     )
 
@@ -1953,7 +1953,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#5P── Two deserters!\x02",
+        "#5P2 escapees!\x02",
     )
 
     CloseMessageWindow()
@@ -1980,11 +1980,11 @@ def main():
     Sleep(500)
     SetMessageWindowPos(260, 30, -1, -1)
     OP_82(0xC8, 0x0, 0xBB8, 0x190)
-    SetChrName("Defense Forces soldierたち")
+    SetChrName("Defense Forces soldiers")
 
     AnonymousTalk(
         0xFF,
-        "#4SYes, sir!\x02",
+        "#4SYes sir!\x02",
     )
 
     CloseMessageWindow()
@@ -1994,7 +1994,7 @@ def main():
 
     ChrTalk(
         0x10B,
-        "#11109FHappy … did you take pride?\x02",
+        "#11109FHa, seems like you're mad\x02",
     )
 
     CloseMessageWindow()
@@ -2080,14 +2080,14 @@ def main():
 
     ChrTalk(
         0xE,
-        "#11PBecome\x02",
+        "#11PAh..\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xD,
-        "#11PWell, have you already come down? Is it?\x02",
+        "#11PY-you're already here\x02",
     )
 
     CloseMessageWindow()
@@ -2137,7 +2137,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#11P#4SCut … … please!\x02",
+        "#11P#4SStop them!\x02",
     )
 
     CloseMessageWindow()
@@ -2321,7 +2321,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#5PWhew … … did something happen.\x02",
+        "#00006F#5PHa, we did it somehow\x02",
     )
 
     CloseMessageWindow()
@@ -2383,7 +2383,7 @@ def main():
         (
             "#11104F#11PKuku, with such things\x01",
             "Is there a necessity to meet up next?\x02\x03",
-            "#11102FIt's hard to go ahead, okay?\x02",
+            "#11102FIt's not gonna be easy\x02",
         )
     )
 
@@ -2391,7 +2391,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6POh, it's totally.\x02",
+        "#00006F#6PYeah, seriously\x02",
     )
 
     CloseMessageWindow()
@@ -2414,7 +2414,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F#11PIt is blocked …\x02\x03",
+            "#00001F#11PIt's locked\x02\x03",
             "Rock nearby\x01",
             "I think that it can be canceled.\x02",
         )
@@ -2430,8 +2430,8 @@ def main():
     ChrTalk(
         0x10B,
         (
-            "#11104F#5PHah, it will be the room there.\x02\x03",
-            "#11100FI will finally release it.\x02",
+            "#11104F#5PHa, in that room\x02\x03",
+            "#11100FLet's get out of here\x02",
         )
     )
 
@@ -2603,14 +2603,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#5PHooray……!\x02",
+        "#00002F#5PDid it!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x10B,
-        "#11100F#5PAlright, I will finally come out.\x02",
+        "#11100F#5PGood, let's get out of here already\x02",
     )
 
     CloseMessageWindow()
@@ -2684,7 +2684,7 @@ def main():
     ChrTalk(
         0x10B,
         (
-            "#11103F#5POla, you will be on the go.\x02\x03",
+            "#11103F#5POk let's go already\x02\x03",
             "#11100FSurrounded by soldiers\x01",
             "I do not want to be crowded.\x02",
         )
@@ -2694,7 +2694,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#5PAh……!\x02",
+        "#00000F#5PRight!\x02",
     )
 
     CloseMessageWindow()

@@ -1098,7 +1098,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1247,7 +1247,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1396,7 +1396,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1487,7 +1487,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1636,7 +1636,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1785,7 +1785,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1934,7 +1934,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -2870,7 +2870,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10712F#13P……here……\x02",
+        "#10712F#13PThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -2979,7 +2979,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10401F#13PIs this the inside of \"Kusandai\" …?\x02",
+        "#10401F#13PThis is the inside of the Divine Blade…\x02",
     )
 
     CloseMessageWindow()
@@ -3019,7 +3019,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#11P…………………………………….\x02",
+        "#00008F#11P…\x02",
     )
 
     CloseMessageWindow()
@@ -3299,7 +3299,7 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#3328V#40WBrother … Please wait.\x02\x03",
+            "#3328V#40W(Brother… wait for me)\x02\x03",
             "#3329VThe darkness of that day ……\x01",
             "Surely I will light out! )\x02",
         )

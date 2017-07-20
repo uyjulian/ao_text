@@ -243,7 +243,7 @@ def main():
         0x8,
         (
             "Today at the end of work,\x01",
-            "シンシア先輩とJanettaちゃんの\x01",
+            "Cynthia-senpai and Janetta-chan's\x01",
             "I go to dinner with three people.\x02",
         )
     )
@@ -301,7 +301,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Janettaさん、\x01",
+            "Mr. Janetta,\x01",
             "Today bashfully\x01",
             "I wonder what happened.\x02",
         )
@@ -549,7 +549,7 @@ def main():
         0xB,
         (
             "Good evening.\x01",
-            "《Regionフード》へようこそ〜。\x02",
+            "Welcome to \"Region Food\".\x02",
         )
     )
 
@@ -873,7 +873,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "Janettaちゃんが、\x01",
+            "Janetta,\x01",
             "It seems like it will be funny this morning.\x02",
         )
     )
@@ -883,7 +883,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "明日にはスーパーJanettaに\x01",
+            "To super jeannetta tomorrow\x01",
             "I was born again,\x01",
             "I was saying something I do not know well … …\x02",
         )
@@ -906,7 +906,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "Janettaちゃんが、\x01",
+            "Janetta,\x01",
             "It seems like it will be funny this morning.\x02",
         )
     )
@@ -997,7 +997,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "いい、Ken。\x02",
+        "Good, Ken.\x02",
     )
 
     CloseMessageWindow()
@@ -1094,10 +1094,10 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "2F Boutique \"Lucca\"\x01",
-            "２Ｆ　Hansonシューズ\x01",
-            "２Ｆ　アクセサリ《Baker》\x01",
-            "１Ｆ　《Regionフード》\x01",
-            "１Ｆ　雑貨コーナー《Southwark》\x02",
+            "2F Hanson Shoes\x01",
+            "2F Accessory \"Baker\"\x01",
+            "1F \"Region food\"\x01",
+            "1F miscellaneous goods section \"Sazak\"\x02",
         )
     )
 

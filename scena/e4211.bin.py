@@ -281,7 +281,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11PI wonder … Is not it going to be dangerous?\x02",
+        "#11PYeah, isn't this bad?\x02",
     )
 
     CloseMessageWindow()
@@ -348,14 +348,14 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5PWhat is it …?\x02",
+        "#5PWhat?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#11PThis sound …… somewhere ……\x02",
+        "#11PI've heard this sound…\x02",
     )
 
     CloseMessageWindow()
@@ -737,7 +737,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5P#4SHey ah! Is it?\x02",
+        "#5P#4SWHAAAAA!\x02",
     )
 
     CloseMessageWindow()
@@ -763,7 +763,7 @@ def main():
     AnonymousTalk(
         0xC,
         (
-            "Couscous … … as hesitation.\x02\x03",
+            "Ehehe, good day\x02\x03",
             "But, this \"Patel = Mattel\"\x01",
             "Do not do with such dolls.\x02\x03",
             "It is much cooler, with good attitude,\x01",
@@ -790,14 +790,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PWell, no way …!\x02",
+        "#11PN-no way!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#11PThen, is it an enemy …?! Is it?\x02",
+        "#11PA-are you an enemy!?\x02",
     )
 
     CloseMessageWindow()
@@ -809,7 +809,7 @@ def main():
             "I do not care.\x02\x03",
             "#03300FIf you do not want to be crushed\x01",
             "You should go down.\x02\x03",
-            "#03302F─ ─ Here you come.\x02",
+            "#03302FLook, they came\x02",
         )
     )
 
@@ -817,7 +817,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PHuh……\x02",
+        "#11PHuh…\x02",
     )
 
     OP_6F(0x79)
@@ -883,7 +883,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P#4SVoice! Is it?\x02",
+        "#11P#4SAHHH\x02",
     )
 
     CloseMessageWindow()
@@ -906,7 +906,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#03302F#5PUhufu … … I came.\x02",
+        "#03302F#5PEheh, you came\x02",
     )
 
     CloseMessageWindow()
@@ -963,14 +963,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PUu … …!!\x02",
+        "#5PUhh!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#11PWell, it will go down to the iron bridge!\x02",
+        "#11PF-fall back to the railway!\x02",
     )
 
     CloseMessageWindow()
@@ -1046,8 +1046,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00808F#6PLen……無茶しないで。\x02\x03",
-            "#00801FBecause we also support you with full power.\x02",
+            "#00808F#6PRenne… don't overdo it!\x02\x03",
+            "#00801FWe're backing you up!\x02",
         )
     )
 
@@ -1059,7 +1059,7 @@ def main():
         (
             "#00903F#12PPatel-Mattel was also strengthened\x01",
             "Still power is over there.\x02\x03",
-            "#00901FThere is no choice but to find a winner while tossing!\x02",
+            "#00901FWe have to cautiously engage\x02",
         )
     )
 
@@ -1068,12 +1068,12 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#03303F#5PYeah, I know.\x02\x03",
+            "#03303F#5PYeah, I know\x02\x03",
             "#03308F── Any more,\x01",
             "The land where they live\x01",
             "I will not let it happen … …\x02\x03",
             "#03307Flet's go!\x01",
-            "ester、Joshua！\x01",
+            "Esther, Joshua!\x01",
             "\"Patel = Mattel\"!\x02",
         )
     )

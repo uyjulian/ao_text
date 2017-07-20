@@ -376,7 +376,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Nielsen君が\x01",
+            "Nielsen\x01",
             "You seem to be coming to a grave of a guy.\x02",
         )
     )
@@ -853,7 +853,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふむ、しかしNielsen君が\x01",
+            "Hmm, but Nielsen\x01",
             "It is said that he came back.\x02",
         )
     )
@@ -1165,7 +1165,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "悪いのう、Nielsen君。\x01",
+            "Bad, Nielsen.\x01",
             "Such a nice drink.\x02",
         )
     )
@@ -1357,7 +1357,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00005Fあれ、君はShuri……？\x01",
+            "#12P#00005FWell, you shuri …?\x01",
             "Do not meet at unusual places.\x02",
         )
     )
@@ -1415,7 +1415,7 @@ def main():
         0xA,
         (
             "I am a jackpot of a troupe\x01",
-            "Shuri・アトレイドだ。\x02\x03",
+            "It's Shri · Atlaid.\x02\x03",
             "Well, thank you.\x02",
         )
     )
@@ -1432,7 +1432,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00109Fふふ、よろしくねShuriちゃん。\x02\x03",
+            "#12P#00109FHello, thanks Shuri.\x02\x03",
             "#00100FEr, why on earth?\x02",
         )
     )
@@ -1456,7 +1456,7 @@ def main():
         0x8,
         (
             "Invited me to the hut,\x01",
-            "温かいcocoaを淹れてやった\x01",
+            "I brewed warm cocoa\x01",
             "It was where it was.\x02",
         )
     )
@@ -1470,7 +1470,7 @@ def main():
         (
             "#14002F…… Did she take shelter from the rain?\x01",
             "Thank you, Mr. Ju.\x02\x03",
-            "#14004Fこのcocoaも……\x01",
+            "#14004FEven this cocoa ……\x01",
             "Thanks body got warm.\x02",
         )
     )
@@ -1536,7 +1536,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00105Fそれじゃあ、Shuriちゃんが\x01",
+            "#12P#00105FWell then, Shri-chan\x01",
             "Slum is … …\x02",
         )
     )
@@ -1647,7 +1647,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00108FShuriちゃん……\x02",
+        "#12P#00108FShri-chan ……\x02",
     )
 
     CloseMessageWindow()
@@ -1711,7 +1711,7 @@ def main():
         (
             "#12P#00006FWaji, you say that.\x02\x03",
             "#00000FWell, what do you mean?\x01",
-            "俺たちとShuriがこうして\x01",
+            "This way with us and Sri\x01",
             "I guess I was acquainted with something.\x02\x03",
             "If there is something in trouble\x01",
             "Could you talk to me anytime?\x02",

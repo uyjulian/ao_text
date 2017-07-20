@@ -1159,7 +1159,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Nielsenさんは、\x01",
+            "Mr. Nielsen said,\x01",
             "As a free reporter you can see the continent\x01",
             "He seems to be busy and flying.\x02",
         )
@@ -1186,7 +1186,7 @@ def main():
         0xFE,
         (
             "When the director, today\x01",
-            "Nielsenさんが来るからって\x01",
+            "Because Nielsen is coming\x01",
             "I am fidgeting.\x02",
         )
     )
@@ -1197,7 +1197,7 @@ def main():
         0xFE,
         (
             "Huhu, well\x01",
-            "Nielsenさんとお話するのが\x01",
+            "I would like to talk to Mr. Nielsen\x01",
             "You seem to like it.\x02",
         )
     )
@@ -1843,7 +1843,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Milesさんに言って\x01",
+            "Tell Miles\x01",
             "I will let you investigate again later\x01",
             "I'm gonna get it.\x02",
         )
@@ -1972,7 +1972,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あの事件でAbbyが\x01",
+            "In that incident Abbey\x01",
             "Because I feel uneasy, even a fun book\x01",
             "I thought about reading it.\x02",
         )
@@ -2089,7 +2089,7 @@ def main():
         0xFE,
         (
             "To the town, that is what\x01",
-            "Abbyくらいの子供も\x01",
+            "Children of Abby as well\x01",
             "I think there are many people … ….\x02",
         )
     )
@@ -2115,7 +2115,7 @@ def main():
         0xFE,
         (
             "To the town, that is what\x01",
-            "Abbyくらいの子供も\x01",
+            "Children of Abby as well\x01",
             "I think there are many people … ….\x02",
         )
     )
@@ -2177,7 +2177,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今日もKeyaちゃんは熱心に\x01",
+            "Even today Kaia enthusiastically\x01",
             "You seem to be doing research.\x02",
         )
     )
@@ -2187,7 +2187,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふふ、Abbyには\x01",
+            "Huhu, to Abbey\x01",
             "Enviously it is enviable\x01",
             "It looks like it can not be helped.\x02",
         )
@@ -2204,7 +2204,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うちのAbbyも来年にもなれば、\x01",
+            "My Abbey will be next year,\x01",
             "I am going to be able to attend Sunday school.\x02",
         )
     )
@@ -2237,7 +2237,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Abbyには、とにかく元気よく\x01",
+            "To Abbey, anyhow well\x01",
             "And I want you to grow straight.\x02",
         )
     )
@@ -2265,7 +2265,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "ふふ、Abbyはお利口さんね。\x02",
+        "Huhu, Abbey is a wise gate.\x02",
     )
 
     CloseMessageWindow()
@@ -2325,7 +2325,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふふ、Abbyったら\x01",
+            "Huhu, Abby\x01",
             "I got tired from the sightseeing of the unveiling ceremony,\x01",
             "It seems I have become Onemu-san.\x02",
         )
@@ -2351,7 +2351,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふふ、Abbyったら\x01",
+            "Huhu, Abby\x01",
             "Have such a safe face ……\x01",
             "It's really cute.\x02",
         )
@@ -2453,8 +2453,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うちのAbbyは、\x01",
-            "Keyaちゃんのことが\x01",
+            "Our Abbey,\x01",
+            "Ka'a thing\x01",
             "I really love it.\x02",
         )
     )
@@ -2490,7 +2490,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "あっ、Keyaおねーちゃんの\x01",
+            "Oh, Ka'aa-chan's\x01",
             "Oya-chan and Oya-chan!\x02",
         )
     )
@@ -2501,7 +2501,7 @@ def main():
         0xB,
         (
             "Hey, today\x01",
-            "Keyaおねえちゃんは来ないのー？\x02",
+            "Kaea Grandpa does not come?\x02",
         )
     )
 
@@ -2520,7 +2520,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00102FちゃんとKeyaちゃんにも伝えておくから\x01",
+            "#00102FI will also tell Kaya-chan properly\x01",
             "Can you endure for today?\x02",
         )
     )
@@ -2538,7 +2538,7 @@ def main():
         0xB,
         (
             "Well then,\x01",
-            "Keyaおねーちゃんに\x01",
+            "To Keia Oya-chan\x01",
             "Nice to meet you!\x02",
         )
     )
@@ -2566,7 +2566,7 @@ def main():
         0x109,
         (
             "#10102FYes, drift\x01",
-            "Keyaちゃんって感じだね。\x02",
+            "I feel like Ka'aa.\x02",
         )
     )
 
@@ -2643,7 +2643,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ねえHey, Mommy.\x01",
+            "Hey, mommy.\x01",
             "What kind of imitation is this word?\x02",
         )
     )
@@ -2659,7 +2659,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あれ、Keyaおねえちゃん、\x01",
+            "Oh, Kaea Oya-chan,\x01",
             "Before I knew it, I got home.\x02",
         )
     )
@@ -2716,7 +2716,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Keyaおねーちゃん、\x01",
+            "Kea Oya-chan,\x01",
             "Alone\x01",
             "It is amazing to read your book.\x02",
         )
@@ -2743,7 +2743,7 @@ def main():
         0xFE,
         (
             "I will come soon\x01",
-            "Keyaおねーちゃんと同じように\x01",
+            "Just like Ka'aaa-chan\x01",
             "You can go to Higuchi prefecture.\x02",
         )
     )
@@ -2768,7 +2768,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あのね、Keyaおねーちゃん、\x01",
+            "Well, Kaoru Oya-chan,\x01",
             "Today I have something to investigate.\x02",
         )
     )
@@ -2896,7 +2896,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Keyaおねーちゃんに\x01",
+            "To Keia Oya-chan\x01",
             "Nice to meet you!\x02",
         )
     )
@@ -3001,7 +3001,7 @@ def main():
         0x8,
         (
             "When the director was a director,\x01",
-            "またNielsenさんと\x01",
+            "Also with Mr. Nielsen\x01",
             "You seem to be talking.\x02",
         )
     )
@@ -3194,7 +3194,7 @@ def main():
         0xC,
         (
             "Actually, I came to the library exactly\x01",
-            "Nielsenさんも\x01",
+            "Nielsen also\x01",
             "You got trapped.\x02",
         )
     )
@@ -3498,7 +3498,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "いや、Keya君は実に勉強熱心だね。\x02",
+        "No, Kaea is really keen to study.\x02",
     )
 
     CloseMessageWindow()
@@ -3680,7 +3680,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "He took the Fürlitza Prize\x01",
+            "He took the Furlitza Prize\x01",
             "After first raising its name,\x01",
             "Is it over ten years already …?\x02",
         )
@@ -3710,7 +3710,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "ふむ、Nielsenさんが来ると\x01",
+            "Hmm, when Nielsen came\x01",
             "I will not stop talking.\x02",
         )
     )
@@ -3768,7 +3768,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "ああ、Nielsenさんと言って\x01",
+            "Oh, you say Nielsen\x01",
             "He is active internationally\x01",
             "He is a journalist.\x02",
         )
@@ -3818,7 +3818,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "Nielsenさんは、\x01",
+            "Mr. Nielsen said,\x01",
             "I should be back in a while.\x02",
         )
     )
@@ -4063,7 +4063,7 @@ def main():
             "#00004FYeah, well.\x01",
             "I studied variously.\x02\x03",
             "#00000FBy the way, the uncle\x01",
-            "Nielsenさんのことを\x01",
+            "Nielsen's thing\x01",
             "Did you know from before?\x02",
         )
     )
@@ -4073,7 +4073,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "ああ、Nielsenさんは\x01",
+            "Oh, Mr. Nielsen\x01",
             "I originally came from Crossbell.\x02",
         )
     )
@@ -4634,7 +4634,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002F（はは、Keyaの知的好奇心は\x01",
+            "#00002F(Hell, Ka'a's intellectual curiosity is\x01",
             "It seems more than our imagination. )\x02",
         )
     )
@@ -4722,7 +4722,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002FKeya……\x01",
+            "#00002FKeya …\x01",
             "Do you have something to investigate?\x02",
         )
     )
@@ -4767,7 +4767,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#12P#00202FKeya、スゴすぎです……\x02",
+        "#12P#00202FKEYER, it's too amazing … …\x02",
     )
 
     CloseMessageWindow()
@@ -4784,7 +4784,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "#01100Fえー、Keyaそうなのかなー？\x02",
+        "#01100FEr, Ka aa I wonder?\x02",
     )
 
     CloseMessageWindow()
@@ -4854,7 +4854,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FKeya、何の本を読んでるんだ？\x02",
+        "#00000FKaor, what book are you reading?\x02",
     )
 
     CloseMessageWindow()
@@ -4879,7 +4879,7 @@ def main():
             "#00105FOh, but that shelf … …\x01",
             "Is not it a corner of Braille books?\x02\x03",
             "\"It sounds interesting\" ….\x01",
-            "もしかしてKeyaちゃん、\x01",
+            "Perhaps Kaaya,\x01",
             "Can you read this book?\x02",
         )
     )
@@ -4937,7 +4937,7 @@ def main():
         0x103,
         (
             "#12P#00202FHuhu, how fast is this swallowing\x01",
-            "Keyaならではですね。\x02",
+            "It is unique to Kea.\x02",
         )
     )
 
@@ -5015,7 +5015,7 @@ def main():
         0xC,
         (
             "This is where you come,\x01",
-            "さっき話したNielsenさんだよ。\x02",
+            "Nielsen who I talked about earlier.\x02",
         )
     )
 
@@ -5053,7 +5053,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "ああ、彼はNielsenさんといってね。\x02",
+        "Oh, he said Mr. Nielsen.\x02",
     )
 
     CloseMessageWindow()
@@ -5062,7 +5062,7 @@ def main():
         0xC,
         (
             "He is active internationally\x01",
-            "有名なHe is a journalist.\x02",
+            "It is a famous journalist.\x02",
         )
     )
 
@@ -5072,7 +5072,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "ささ、Nielsenさん。\x01",
+            "Sasa, Nielsen.\x01",
             "Recently they are recently something\x01",
             "It is Crossbell Police Department of Special Affairs.\x02",
         )
@@ -5266,7 +5266,7 @@ def main():
         (
             "Nice to meet you.\x01",
             "I'm letting a reporter freelance\x01",
-            "Nielsenと言う者です。\x02",
+            "He is a person who says Nielsen.\x02",
         )
     )
 
@@ -5282,7 +5282,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F（Nielsenさん――\x01",
+            "#00108F(Mr. Nielsen -\x01",
             "What I heard somewhere\x01",
             "Something like … …)\x02",
         )
@@ -5432,7 +5432,7 @@ def main():
         -1,
         0,
         (
-            "Nielsenの取材に協力する\x01",      # 0
+            "Cooperate with Nielsen's coverage\x01",      # 0
             "I think once\x01",                  # 1
         )
     )
@@ -5492,7 +5492,7 @@ def main():
             "#00002FI see……\x01",
             "Thank you for understanding.\x02\x03",
             "#00005FBut what about the place?\x01",
-            "ここだと問題がありそうbut……\x02",
+            "It seems that there is a problem here … …\x02",
         )
     )
 
@@ -5736,7 +5736,7 @@ def main():
         (
             "At that time, the cults scattered throughout the continent\x01",
             "Detect and caught the lodge all at once\x01",
-            "大規模な作戦が行われたわけbut……\x02",
+            "A large scale strategy was done … …\x02",
         )
     )
 
@@ -6013,7 +6013,7 @@ def main():
         0xD,
         (
             "#11PAs I am also a reporter,\x01",
-            "彼女の活躍は知る所but……\x02",
+            "It is a place to know about her success … …\x02",
         )
     )
 
@@ -6056,7 +6056,7 @@ def main():
         (
             "#11PThen, it was a hoardman at the time\x01",
             "According to the command of Casius Bright\x01",
-            "実行された検挙作戦but……\x02",
+            "It was a cleared cleavage strategy executed ……\x02",
         )
     )
 
@@ -6123,7 +6123,7 @@ def main():
         (
             "#00105F#6PCertainly, the information about that\x01",
             "Only a part of the police\x01",
-            "知られていないはずbut……\x02",
+            "It should not be known … …\x02",
         )
     )
 
@@ -6344,7 +6344,7 @@ def main():
         0x101,
         (
             "#00006F#6PYes, it is a remnant of the cult\x01",
-            "The presence of Joachim Günter\x01",
+            "The presence of Joachim Gunter\x01",
             "It is because it came to light.\x02",
         )
     )
@@ -6362,7 +6362,7 @@ def main():
         0xD,
         (
             "#11PBy the way he is a variety of cults\x01",
-            "裏事情に詳しかったようbut……\x02",
+            "It seems that it was detailed in the back circumstances … …\x02",
         )
     )
 
@@ -6371,7 +6371,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#11PJoachim Günter,\x01",
+            "#11PJoachim Gunter,\x01",
             "Was it the leader of the cult?\x02",
         )
     )
@@ -6388,7 +6388,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1KJoachim Günter\x01",
+            "#1KJoachim Gunter\x01",
             "Were you the leader of the D∴G organization?\x07\x00\x02",
         )
     )
@@ -6561,7 +6561,7 @@ def main():
         0x102,
         (
             "#00101F#6PAmbassador's ambition …\x02\x03",
-            "#00108F（確か、Keyaちゃんを\x01",
+            "#00108F(Certainly, Ka'aa\x01",
             "To become \"God\"\x01",
             "I was saying that … …)\x02",
         )
@@ -6586,7 +6586,7 @@ def main():
         0xD,
         (
             "#11P…… Hmm, as usual\x01",
-            "不明な箇所も多いわけbut……\x02",
+            "There are many unknown places, but …\x02",
         )
     )
 
@@ -6756,7 +6756,7 @@ def main():
             "#00001FFrom the time of the cult\x01",
             "They used their skills.\x02\x03",
             "#00006FHowever,\x01",
-            "前身については不明but……\x02",
+            "About the predecessor is unknown … …\x02",
         )
     )
 
@@ -6835,7 +6835,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#6P…………………………….\x02",
+        "#00013F#6P………………………………\x02",
     )
 
     CloseMessageWindow()
@@ -7030,7 +7030,7 @@ def main():
         (
             "#00006F#6PWhat I should say …\x01",
             "He was a wonderful person.\x02\x03",
-            "#00000FKeyaの件については\x01",
+            "#00000FRegarding the matter of Kea\x01",
             "Apparently I can trust him.\x02",
         )
     )
@@ -7072,8 +7072,8 @@ def main():
         0x102,
         (
             "#00101F#5PI finally remembered.\x01",
-            "今の人はマルセル・Nielsen――\x02\x03",
-            "Around 10 years ago I won the Fülitza Prize\x01",
+            "The current person is Marcel Nielsen -\x02\x03",
+            "Around 10 years ago I won the Fulitza Prize\x01",
             "Award-winning, famous from Crossbell\x01",
             "You are a journalist.\x02",
         )
@@ -7090,7 +7090,7 @@ def main():
         0x105,
         (
             "#10305F#11POh, I am not really familiar with it\x01",
-            "When I say the Füritsa Prize ……\x02",
+            "When I say the Furitsa Prize ……\x02",
         )
     )
 
@@ -7150,7 +7150,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#12PNielsenさんか……\x02\x03",
+            "#00004F#12PAre you Nielsen? …\x02\x03",
             "#00000FIf the opportunity arises,\x01",
             "I'd love to talk to you in the future.\x02",
         )
@@ -7258,7 +7258,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000Fこんにちは、Milesおじさん。\x02",
+        "#00000FGood day, Miles\x02",
     )
 
     CloseMessageWindow()
@@ -7277,7 +7277,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002FOh, that sort of thing.\x02\x03",
+            "#00002FYes, exactly\x02\x03",
             "If it is okay, let me know the circumstances\x01",
             "Can I get it?\x02",
         )
@@ -7297,7 +7297,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "Oh, I see.\x02",
+        "Yes that's right\x02",
     )
 
     CloseMessageWindow()
@@ -7352,7 +7352,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FOh, is that so ……\x02",
+        "#00005FOh is that right\x02",
     )
 
     CloseMessageWindow()
@@ -7362,7 +7362,7 @@ def main():
         0xC,
         (
             "Well, during this time,\x01",
-            "例のNielsenさんが\x01",
+            "An example of Nielsen\x01",
             "I heard that he started investigating.\x02",
         )
     )
@@ -7383,7 +7383,7 @@ def main():
         0x101,
         (
             "#00000FThat reporter says … …\x02\x03",
-            "#00005Fで、でもNielsenさんって、\x01",
+            "#00005FBut, Nielsen says,\x01",
             "Somehow my eyes ……\x02",
         )
     )
@@ -7417,7 +7417,7 @@ def main():
         0xC,
         (
             "Well, during this time,\x01",
-            "例のNielsenさんが\x01",
+            "An example of Nielsen\x01",
             "I heard that he started investigating.\x02",
         )
     )
@@ -7437,7 +7437,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FNielsenさん……\x01",
+            "#00000FMr. Nielsen …\x01",
             "The old man had said before.\x01",
             "He is a journalist.\x02\x03",
             "Bother to such a place\x01",
@@ -7476,7 +7476,7 @@ def main():
         0xC,
         (
             "Well, during this time,\x01",
-            "私の知り合いのNielsenさんという\x01",
+            "Nielsen, my acquaintant, said\x01",
             "A reporter is in the investigation.\x02",
         )
     )
@@ -7496,7 +7496,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fへえ、Bother to such a place\x01",
+            "#00000FWell, bother for such a place\x01",
             "To investigate,\x01",
             "You seem to have someone with action.\x02",
         )
@@ -7596,7 +7596,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "How about it, I wonder if I can ask.\x02",
+        "Would you help us out?\x02",
     )
 
     CloseMessageWindow()
@@ -7626,7 +7626,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FThat 's right.\x02",
+        "#00005FT-that's true\x02",
     )
 
     CloseMessageWindow()
@@ -7687,7 +7687,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10304FIndeed, that's what it is.\x02\x03",
+            "#10304FI see. So that's it\x02\x03",
             "#10300FBased on the survey results,\x01",
             "We will move forward with the collection plan of the book.\x02",
         )
@@ -7711,7 +7711,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "How are you going to take care?\x02",
+        "So won't you accept?\x02",
     )
 
     CloseMessageWindow()
@@ -7944,7 +7944,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "Thank you, I will be saved.\x02",
+        "Oh thanks, that's wonderful\x02",
     )
 
     CloseMessageWindow()
@@ -8122,7 +8122,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Oh, for example.\x02\x03",
+            "Oh that\x02\x03",
             "A story has arrived here as well.\x01",
             "Surely if you are\x01",
             "It can be said that you are qualified.\x02\x03",
@@ -8141,7 +8141,7 @@ def main():
         0x109,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#10101FHaa, thank you!\x02",
+            "#10101FRight, thank you!\x02",
         )
     )
 
@@ -8182,14 +8182,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100F…… Yes, this is fine.\x02",
+        "#10100FOk, all set\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00002FThank you, Noel.\x02",
+        "#00002FThanks Noel\x02",
     )
 
     CloseMessageWindow()
@@ -8256,7 +8256,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00102FHehe, it is.\x02\x03",
+            "#00102FThat's right\x02\x03",
             "Well then, get ready\x01",
             "Shall I head to the Tower of Hoshi?\x02",
         )
@@ -8267,8 +8267,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004FOh, let's do that.\x02\x03",
-            "#00002FMilesおじさん、\x01",
+            "#00004FYep let's do that\x02\x03",
+            "#00002FUncle Miles,\x01",
             "Please wait looking forward.\x02",
         )
     )
@@ -8277,7 +8277,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "Oh, be careful.\x02",
+        "Take care.\x02",
     )
 
     CloseMessageWindow()
@@ -8352,7 +8352,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Lloyd 's bookshelf' s book\x01",
-            "消えていた事をMilesに報告した。\x07\x00\x02",
+            "I reported to Miles that I had disappeared.\x07\x00\x02",
         )
     )
 
@@ -8362,7 +8362,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F… That is why.\x02",
+        "#00003FSo that's what happened…\x02",
     )
 
     CloseMessageWindow()
@@ -8399,7 +8399,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "…… Ha, it can not be helped ……\x02",
+        "Oh well I guess there's no helping it\x02",
     )
 
     CloseMessageWindow()
@@ -8438,7 +8438,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "Huh, it is true! Is it?\x02",
+        "R-really!?\x02",
     )
 
     CloseMessageWindow()
@@ -8462,7 +8462,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Book collected in the tower\x01",
-            "Milesに渡した。\x07\x00\x02",
+            "I gave it to Miles.\x07\x00\x02",
         )
     )
 
@@ -8472,7 +8472,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "Th-This is……\x02",
+        "This is…\x02",
     )
 
     CloseMessageWindow()
@@ -8495,7 +8495,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105FWell, what did you do?\x02",
+        "#10105FW-what is it\x02",
     )
 
     CloseMessageWindow()
@@ -8512,14 +8512,14 @@ def main():
 
     ChrTalk(
         0xC,
-        "This book is a medieval magical book!\x02",
+        "This is a magic book from the middle ages!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00105FMagical book … …?\x02",
+        "#00105FMagic book?\x02",
     )
 
     CloseMessageWindow()
@@ -8602,14 +8602,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001FAh……\x02",
+        "#00001FRight…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00108FThere's a cryptic mystery left … …\x02",
+        "#00108FIt's a mystery why they left them\x02",
     )
 
     CloseMessageWindow()
@@ -8637,7 +8637,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100FHaha … I'm afraid.\x02",
+        "#10100FIt was our pleasure…\x02",
     )
 
     CloseMessageWindow()
@@ -8655,7 +8655,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "Nielsenさんたちとも\x01",
+            "Nielsen and others\x01",
             "I can seem to think a lot.\x02",
         )
     )
@@ -9535,7 +9535,7 @@ def main():
             "Although it sometimes exposes the figure with the mask and white cloak,\x01",
             "The identity is enveloped in a mystery.\x01",
             "In recent years, the person himself himself talks about \"release of beauty\"\x01",
-            "Eleventh Empireで実行された、不可解ながらも\x01",
+            "Even though it is incomprehensible, executed in Eleven Empire\x01",
             "A brilliant series of crime is new to the topic.\x07\x00\x02",
         )
     )
@@ -9565,7 +9565,7 @@ def main():
             "Because I accepted immigrants from the east\x01",
             "Have diverse cultural backgrounds.\x02\x03",
             "After concluding the \"treaty of non-war,\" calm down\x01",
-            "見せているが、歴史上Eleventh Empireと\x01",
+            "I am showing it, but with the Erebonia Empire in history\x01",
             "I have repeated collisions many times.\x07\x00\x02",
         )
     )
@@ -9589,7 +9589,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "An autonomous state in the western part of the continent.\x01",
-            "Eleventh Empire、Republic of Calvertという\x01",
+            "Eleven Empire, called the Republic of Calvert\x01",
             "It is sandwiched between two major countries,\x01",
             "It has been the subject of fierce territorial disputes,\x01",
             "It was established as an autonomous state 70 years ago.\x02\x03",
@@ -9719,7 +9719,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Most widely believed in the continent of Zemria\x01",
             "Religious organizations that serve \"the goddess of the sky Eidos\".\x01",
-            "Alteria Countryに総本山を持つ。\x02\x03",
+            "Have a head temple in Alteria law country.\x02\x03",
             "Although the influence has declined since the power revolution\x01",
             "Even now it has strong influence across the continent,\x01",
             "Through fields such as academic, educational, medical,\x01",
@@ -9819,7 +9819,7 @@ def main():
             "It is said to have occurred about 1,200 years ago,\x01",
             "The collapse of the ancient Zemrian civilization.\x01",
             "It is said that a natural disaster is the cause, but details are unknown.\x02\x03",
-            "《Great collapse》によって文明が失われた後、\x01",
+            "After the civilization was lost by \"the collapse\"\x01",
             "People followed the long dark era.\x02",
         )
     )
@@ -9877,7 +9877,7 @@ def main():
             "Technological innovation on continental scale.\x02\x03",
             "Despite being an epoch-making invention\x01",
             "People of those days were skeptical,\x01",
-            "Epstein Foundationの導力通信器や\x01",
+            "The Epstein Foundation's power communications equipment\x01",
             "As the ZCF's leading airships come into the world,\x01",
             "Its usefulness was recognized throughout the continent.\x02\x03",
             "Currently from daily necessities such as heating and lighting\x01",
@@ -9886,7 +9886,7 @@ def main():
             "For the people the orbment no longer\x01",
             "It has become indispensable.\x02\x03",
             "In recent years, along with the miniaturization of power-assisted engines,\x01",
-            "Verne CompanyやRheinfaultによって\x01",
+            "By Verne and Rhinefault\x01",
             "Development of high-performance guided vehicles is progressing,\x01",
             "Popularization to the general level has also begun.\x07\x00\x02",
         )
@@ -9982,7 +9982,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Epstein Foundationによって特別に設計された\x01",
+            "Designed specifically by the Epstein Foundation\x01",
             "Crystal circuit on \"Tactical Orbement\"#8RQuotes#By incorporating\x01",
             "\"Magic\" that can be activated.\x02\x03",
             "Generally called \"arts\"\x01",
@@ -10009,7 +10009,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Epstein Foundationが研究開発を進めている\x01",
+            "The Epstein Foundation is promoting research and development\x01",
             "Innovative information network plan.\x01",
             "Terminals are connected with a power cable,\x01",
             "Enabling enormous exchange of information and processing.\x02\x03",
@@ -10038,7 +10038,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Republic of Calvertに存在する、\x01",
+            "Present in the Republic of Calvert,\x01",
             "A large-scale city built by Toho-immigrants.\x01",
             "Various cultures, people, supplies go and go,\x01",
             "It is called \"intersection of east and western culture\".\x02\x03",
@@ -10106,9 +10106,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "七耀暦１１９２年、Eleventh Empire・\x01",
+            "In September 1192, Eleven Empire ·\x01",
             "An aggressive war between Ribeau kingdoms.\x01",
-            "帝国による宣戦布告から、Seven Chaos Churchの\x01",
+            "From the declaration of declaration of war by the empire,\x01",
             "Until the end of the war realized with brokerage,\x01",
             "Because it saw settlement in about 100 days\x01",
             "This is called.\x02\x03",
@@ -10145,12 +10145,12 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "In seventeen calendars 1202, the King of Liber ·\x01",
-            "Eleventh Empire・Republic of Calvertの\x01",
+            "Eleventh Empire · The Republic of Calvert\x01",
             "International treaty concluded between the three countries.\x01",
             "Proposed by Queen Alicia of Libert,\x01",
             "A signing ceremony was held at Elbe Rikyu in the country.\x02\x03",
             "There is no legal enforcement in this Convention,\x01",
-            "条約締結後は、Crossbell Autonomous Region近郊で\x01",
+            "After the conclusion of the treaty, in the vicinity of Crossbell Autonomous Region\x01",
             "It depended on each of the empire and republic which had been deployed\x01",
             "Large-scale military exercises are withdrawn,\x01",
             "Tension condition has been relaxed considerably,\x01",
@@ -10321,14 +10321,14 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Eleventh Empireに本拠を置く\x01",
+            "Based in Erebonia Empire\x01",
             "A huge comprehensive technology maker.\x01",
             "Originally of cannon and heavy weapons using explosive\x01",
             "It was a weapon workshop that was specializing in manufacturing.\x02\x03",
             "Since the invention was invented,\x01",
             "In addition to conducting guns and powered weapons,\x01",
             "We also expanded to fields such as power train and airship,\x01",
-            "Republic of Calvertの《Verne Company》と並んで、\x01",
+            "Alongside the \"Verne company\" of the Republic of Calvert,\x01",
             "It has grown to be called the world largest manufacturer.\x07\x00\x02",
         )
     )
@@ -10359,8 +10359,8 @@ def main():
             "It is also famous as a medical advanced country,\x01",
             "Medical equipment manufacturers representing the continent concentrated,\x01",
             "I am producing many excellent doctors.\x01",
-            "Crossbell Autonomous Regionの聖ウルスラ医科大学も\x01",
-            "Democratic Republicの協力によって設立された。\x07\x00\x02",
+            "St. Ursula Medical University in Crossbell Autonomous Region also\x01",
+            "Established in cooperation with the Prime Minister of Remifferia.\x07\x00\x02",
         )
     )
 
@@ -10383,7 +10383,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "An autonomous state located in the central part of the continent.\x01",
-            "Epstein Foundationの本部があり、\x01",
+            "There is the headquarters of the Epstein Foundation,\x01",
             "It is also home to Dr. C · Epstein.\x02\x03",
             "In addition, have chapters in every continent\x01",
             "It is famous also that there is a headquarters of the Association of Association of Associations.\x07\x00\x02",

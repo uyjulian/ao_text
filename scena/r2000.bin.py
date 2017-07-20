@@ -905,7 +905,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Examining the sign at the bus stop,\x01",
-            "導力busに乗ることができます。\x07\x00\x02",
+            "You can ride the power bus.\x07\x00\x02",
         )
     )
 
@@ -915,7 +915,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力carと同様に、\x01",
+            "As with a powered car,\x01",
             "Please use it to move to various places.\x07\x00\x02",
         )
     )
@@ -936,8 +936,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1Kbus停がある。\x01",
-            "busで移動しますか？\x02",
+            "#1KThere is a bus stop.\x01",
+            "Do you want to move by bus?\x02",
         )
     )
 
@@ -1206,9 +1206,9 @@ def main():
     label("loc_17CC")
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "導力carで移動する")
+    MenuCmd(1, 0, "Travel with a driving car")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_1800")
-    MenuCmd(1, 0, "導力carで休憩する")
+    MenuCmd(1, 0, "Take a break with a driving car")
 
     label("loc_1800")
 
@@ -1382,7 +1382,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "bus停がある。\x07\x00\x02",
+            "There is a bus stop.\x07\x00\x02",
         )
     )
 
@@ -1409,7 +1409,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "bus停がある。\x07\x00\x02",
+            "There is a bus stop.\x07\x00\x02",
         )
     )
 
@@ -1441,7 +1441,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力busは運行を見合わせているようだ。\x07\x00\x02",
+            "The guiding bus seems to be out of service.\x07\x00\x02",
         )
     )
 
@@ -1462,7 +1462,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "bus停がある。\x07\x00\x02",
+            "There is a bus stop.\x07\x00\x02",
         )
     )
 
@@ -1474,7 +1474,7 @@ def main():
         0x101,
         (
             "#00001FThere is no business on Mainz.\x01",
-            "busを待つ必要はないな。\x02",
+            "There is no need to wait for the bus.\x02",
         )
     )
 
@@ -1494,7 +1494,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力busは運行を見合わせているようだ。\x07\x00\x02",
+            "The guiding bus seems to be out of service.\x07\x00\x02",
         )
     )
 
@@ -1523,7 +1523,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "bus停がある。\x07\x00\x02",
+            "There is a bus stop.\x07\x00\x02",
         )
     )
 
@@ -1535,7 +1535,7 @@ def main():
         0x101,
         (
             "#00000FThere is no business on Mainz.\x01",
-            "busを待つ必要はないな。\x02",
+            "There is no need to wait for the bus.\x02",
         )
     )
 
@@ -1553,7 +1553,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "As the story progresses,\x01",
-            "各地の停留所からbusを\x01",
+            "From the bus stops at various stops\x01",
             "It will be available.\x07\x00\x02",
         )
     )
@@ -1741,7 +1741,7 @@ def main():
         0x105,
         (
             "#10304F#5PHuh, that is rather rather\x01",
-            "アッbusの趣味なんだけど。\x02",
+            "It is a hobby of Abbas.\x02",
         )
     )
 
@@ -2661,7 +2661,7 @@ def main():
         0x101,
         (
             "#00004F#11PKa aa, surprise by listening.\x02\x03",
-            "#00000F何を隠そう、このcarは\x01",
+            "#00000FWhat hides this car\x01",
             "We got on.\x02",
         )
     )
@@ -2706,7 +2706,7 @@ def main():
         (
             "#00109F#11PWell, if you are in the crossbell\x01",
             "I will often hear it … …\x02\x03",
-            "#00100Fキーアちゃん、このcarは\x01",
+            "#00100FKa'a-chan, this car\x01",
             "It was provided for work.\x02\x03",
             "So exactly\x01",
             "It's not ours.\x02",
@@ -3004,7 +3004,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10106F#12P…… It certainly may be so.\x02\x03",
+            "#10106F#12PThat's probably true…\x02\x03",
             "#10101FAnyway this way\x01",
             "Let's go until just before the suspension bridge.\x02",
         )
@@ -3095,7 +3095,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10106F#6P…… It certainly may be so.\x02\x03",
+            "#10106F#6PThat's probably true…\x02\x03",
             "#10101FAnyway this way\x01",
             "Let's go until just before the suspension bridge.\x02",
         )
@@ -3144,7 +3144,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "After that, Lloyd's\x01",
-            "Sister · Leaseを導力carで\x01",
+            "Drive Sister · Lease with a driving car\x01",
             "I sent it to Crossbell Cathedral.\x07\x00\x02",
         )
     )
@@ -3162,7 +3162,7 @@ def main():
         (
             "#11P#04404FEveryone, you bother to send me\x01",
             "Thank you very much.\x02\x03",
-            "#04402F皆さんの導力car……\x01",
+            "#04402FYour guided car …\x01",
             "Very comfortable ride.\x02",
         )
     )
@@ -3189,7 +3189,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "After that, Lloyd's\x01",
-            "Sister · Leaseと一緒にbusに乗り、\x01",
+            "Take a bus with Sister Lease,\x01",
             "I sent it to Crossbell Cathedral.\x07\x00\x02",
         )
     )
@@ -3216,7 +3216,7 @@ def main():
         0x109,
         (
             "#6P#10102FNo, that's a big deal ….\x02\x03",
-            "#10106F本当ならあたしたちの導力carに\x01",
+            "#10106FIf it is true our guiding car\x01",
             "It is a place I wanted to give you.\x02",
         )
     )
@@ -3227,7 +3227,7 @@ def main():
         0x18D,
         (
             "#11P#04402FHehe, let's do it.\x01",
-            "次の機会にThank you.\x02",
+            "I look forward to your next opportunity.\x02",
         )
     )
 

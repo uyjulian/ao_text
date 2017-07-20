@@ -113,7 +113,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11PKuku … If this is absolutely … …\x02",
+            "#50W#11PHehe, with this, for sure\x02",
         )
     )
 
@@ -125,7 +125,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11PAbsolutely \"guy\" ─ ─!\x02",
+            "#50W#11PHe will…\x02",
         )
     )
 
@@ -139,7 +139,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#11PChit\x02",
+            "#11PHuh\x02",
         )
     )
 
@@ -164,7 +164,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11POh … … or you …?\x02",
+            "#40W#11POh you\x02",
         )
     )
 
@@ -176,7 +176,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P……………………………………\x02",
+            "#40W#11P….\x02",
         )
     )
 
@@ -188,7 +188,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P…… Ah … … ah ………\x02",
+            "#40W#11PRight… right\x02",
         )
     )
 

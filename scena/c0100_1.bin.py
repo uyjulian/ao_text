@@ -426,7 +426,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……Or, if you stand on your own\x01",
+            "…… Or, if you stand on your own\x01",
             "I must search bytes before that.\x02",
         )
     )
@@ -2205,7 +2205,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "えー、You can see behind everyone on the right hand side,\x01",
+            "Eh, what you can see right behind everyone,\x01",
             "Oval store \"Genten\" is.\x02",
         )
     )
@@ -2299,7 +2299,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "えー、You can see it on your right hand side,\x01",
+            "Well, you can see it on your right,\x01",
             "It is \"Bell of Crossbell\".\x02",
         )
     )
@@ -4605,7 +4605,7 @@ def main():
         (
             "How about a balloon?\x01",
             "Cross Bell sightseeing\x01",
-            "お供にPlease do come!\x02",
+            "Please come along with us ~ ~.\x02",
         )
     )
 
@@ -5691,7 +5691,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#01111F……………………………………….\x02",
+        "#01111F……………………………………\x02",
     )
 
     CloseMessageWindow()
@@ -6097,7 +6097,7 @@ def main():
     label("loc_7C86")
 
     Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('金鲑', 0x0)"), scpexpr(EXPR_END)), "loc_7CAD")
-    MenuCmd(1, 1, "ゴルドSamona")
+    MenuCmd(1, 1, "Gordosamna")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_7CAD")
@@ -6109,7 +6109,7 @@ def main():
     label("loc_7CD2")
 
     Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('锦鲤', 0x0)"), scpexpr(EXPR_END)), "loc_7CF9")
-    MenuCmd(1, 1, "ノーブルCalf")
+    MenuCmd(1, 1, "Noble Carb")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_7CF9")
@@ -6121,7 +6121,7 @@ def main():
     label("loc_7D1A")
 
     Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber('琥耀岩穴鱼', 0x0)"), scpexpr(EXPR_END)), "loc_7D3F")
-    MenuCmd(1, 1, "ティガLock")
+    MenuCmd(1, 1, "Tiga rock")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
     label("loc_7D3F")
@@ -7014,7 +7014,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '魔兽鱼肉'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "×３Received.\x02",
+            "× 3 was received.\x02",
         )
     )
 
@@ -7633,7 +7633,7 @@ def main():
         0x105,
         (
             "#10300FBut, well now.\x01",
-            "お腹いっぱいLooks like it.\x02",
+            "It seems to be full of stomach.\x02",
         )
     )
 
@@ -7676,7 +7676,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "にゃSay hello to me\x02",
+        "Nyanaya ~ spray\x02",
     )
 
     CloseMessageWindow()

@@ -34,7 +34,7 @@ def main():
         "Citizen",                   # 13
         "Citizen",                   # 14
         "Republic Bus",             # 15
-        "護送car",                 # 16
+        "Escort car",                 # 16
         "Fake brand quotient",           # 17
         "Republican soldier",             # 18
         "Republican soldier",             # 19
@@ -363,7 +363,7 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00603F#5P──Father Kevin。\x01",
+            "#00603F#5P__ - Father Kevin.\x01",
             "Let me thank you.\x02\x03",
             "#00600FWell, if it is true in advance,\x01",
             "police#4RHere#I wanted you to contact.\x02",
@@ -470,7 +470,7 @@ def main():
         (
             "#5P#01403FWell, incident concerning \"ancient relics\"\x01",
             "It means that we can not finish with just beautiful things.\x02\x03",
-            "#01402F──Father Kevin。\x01",
+            "#01402F__ - Father Kevin.\x01",
             "Anyway this time I was saved.\x02\x03",
             "Please let me thank you again.\x02",
         )
@@ -794,7 +794,7 @@ def main():
         0x8,
         (
             "#04300F#11PSo what do you do?\x02\x03",
-            "このまま列carで\x01",
+            "By train as it is\x01",
             "Are you planning on going back to the crossbell?\x02",
         )
     )
@@ -806,7 +806,7 @@ def main():
         (
             "#00004F#6PYes, I will do so.\x02\x03",
             "#00005FThat's it……\x01",
-            "Father Kevin、この後のご予定は？\x02\x03",
+            "Kevin Father, what are your plans for the rest of this time?\x02\x03",
             "#00000FIt's only one station to crossbell … ….\x01",
             "If you do not mind, please drop in\x01",
             "I'd like to thank you.\x02",
@@ -925,7 +925,7 @@ def main():
             "#00002F#6PIs that so……\x02\x03",
             "#00004FBut thanks to that, keeping the criminal alive\x01",
             "I was able to catch it.\x02\x03",
-            "#00000FThank you very much.\x01",
+            "#00000FThank you\x01",
             "……it was a great help.\x02",
         )
     )
@@ -1549,7 +1549,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FThank you very much.\x02",
+        "#00000FThank you\x02",
     )
 
     CloseMessageWindow()
@@ -1563,7 +1563,7 @@ def main():
 
     ChrTalk(
         0x1A,
-        "See, walk around the millet.\x02",
+        "Ok then let's get going\x02",
     )
 
     CloseMessageWindow()
@@ -1605,7 +1605,7 @@ def main():
 
     ChrTalk(
         0x18,
-        "A, you guys ……\x02",
+        "You guys…\x02",
     )
 
     CloseMessageWindow()
@@ -1631,7 +1631,7 @@ def main():
 
     ChrTalk(
         0x1A,
-        "Here, refrain from my language!\x02",
+        "Ok get in\x02",
     )
 
     CloseMessageWindow()
@@ -1661,7 +1661,7 @@ def main():
 
     ChrTalk(
         0x1A,
-        "Po, Ponkotsu! Is it?\x02",
+        "Wannabes?\x02",
     )
 
     CloseMessageWindow()
@@ -1669,7 +1669,7 @@ def main():
 
     ChrTalk(
         0x19,
-        "… … so please take me with you.\x02",
+        "It's fine, get her in\x02",
     )
 
     CloseMessageWindow()
@@ -1718,7 +1718,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00206FI'm with you.\x02",
+        "#00206FAgreed\x02",
     )
 
     CloseMessageWindow()
@@ -1785,7 +1785,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FAh … yes, thanks for your effort.\x02",
+        "#00000FRight, thanks a lot\x02",
     )
 
     CloseMessageWindow()
@@ -2091,7 +2091,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006FDo it this time … …\x02",
+        "#00006FN-not this time\x02",
     )
 
     CloseMessageWindow()
@@ -2140,7 +2140,7 @@ def main():
 
     ChrTalk(
         0x1B,
-        "Oh, I see. …\x02",
+        "Yeah right\x02",
     )
 
     CloseMessageWindow()
@@ -2161,7 +2161,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "After that, Lloyd's are as it is\x01",
-            "クロスベル行きの列carを待ち……\x02\x03",
+            "Wait for the train bound for Crossbell ……\x02\x03",
             "Raymond dressed behind on a souvenir shop\x01",
             "While tilting, I left the Republic.\x07\x00\x02",
         )

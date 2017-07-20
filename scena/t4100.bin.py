@@ -28,7 +28,7 @@ def main():
         "Nielsen",             # 7
         "Arios",               # 8
         "Flowers in front of the guy",           # 9
-        "Arios家墓前の花",     # 10
+        "Arios family Flower in front of the grave",     # 10
         "Claudia Hime",         # 11
         "Assistant Julia",             # 12
     ))
@@ -852,7 +852,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ガイやAriosの妻の墓を\x01",
+            "The grave of Guy and Arios' wife\x01",
             "You seemed to have visited them.\x02",
         )
     )
@@ -898,7 +898,7 @@ def main():
         0xFE,
         (
             "Ian recently\x01",
-            "ガイやAriosの妻の墓を\x01",
+            "The grave of Guy and Arios' wife\x01",
             "You seemed to have visited them.\x02",
         )
     )
@@ -1306,7 +1306,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "普段、わしはI manage the graveyard.\x01",
+            "I usually manage this cemetery.\x01",
             "I will come whenever I feel well.\x02",
         )
     )
@@ -1873,7 +1873,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Claudia Himeって、\x01",
+            "Claudia princess,\x01",
             "It seems to be very kind.\x02",
         )
     )
@@ -2779,7 +2779,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Claudia Hime殿下とAssistant Juliaが\x01",
+            "Prince Claudia and Associate Julia Julia\x01",
             "I will come to this destination.\x02",
         )
     )
@@ -2804,7 +2804,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Claudia Hime殿下とAssistant Juliaが\x01",
+            "Prince Claudia and Associate Julia Julia\x01",
             "I will come to this destination.\x02",
         )
     )
@@ -2813,7 +2813,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "どうぞ、Please do.\x02",
+        "Please, come along.\x02",
     )
 
     CloseMessageWindow()
@@ -3350,7 +3350,7 @@ def main():
         0x101,
         (
             "#00000FThis bouquet …\x01",
-            "多分、Ariosさんが\x01",
+            "Maybe, Arios\x01",
             "I wonder what he gave us.\x02",
         )
     )
@@ -3414,12 +3414,12 @@ def main():
         0x101,
         (
             "#00000FHaha … no.\x01",
-            "Ariosさんに兄貴の最期を\x01",
+            "I will give Arios the end of my big brother\x01",
             "I heard it, but ……\x02\x03",
             "#00004FReally, until the very end\x01",
             "Only me and Cecil's older sister\x01",
             "I am worried ……\x02\x03",
-            "しかも、Ariosさんや\x01",
+            "Moreover, Arios and\x01",
             "Mr. Ian also\x01",
             "I did not hurt a bit … …\x02\x03",
             "#00000FExactly, how much\x01",
@@ -3548,7 +3548,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F……After that it will only rescue Kia.\x02\x03",
+            "#00000F…… Afterwards it only helps Ka'aa.\x02\x03",
             "#00004FBrother … Please be watchful.\x02",
         )
     )
@@ -3659,7 +3659,7 @@ def main():
         0x101,
         (
             "#00000FOriginally the manager of Sergey manager,\x01",
-            "あのAriosさんと\x01",
+            "With that Arios\x01",
             "It seems they had organized a combination … …\x02\x03",
             "#00003FEven after there were various things and the group broke up,\x01",
             "Mr. Dudley with the investigation one section\x01",
@@ -4055,7 +4055,7 @@ def main():
         0x101,
         (
             "#00008F\"The sword of the wind\",\x01",
-            "Arios・マクレイン。\x02\x03",
+            "Arios McClein.\x02\x03",
             "#00003FI have not heard it directly,\x01",
             "I guess he is his wife.\x02",
         )
@@ -4079,7 +4079,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003Fああ、そしてAriosさんは\x01",
+            "#00003FOh, and Arios are\x01",
             "I quit the police and became a hawk.\x02",
         )
     )
@@ -4347,7 +4347,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#12P#00303F多分、あのAriosのオッサンと\x01",
+            "#12P#00303FPerhaps, with the Arios' Osan\x01",
             "I wonder what it was like when fighting … …\x02",
         )
     )
@@ -4422,7 +4422,7 @@ def main():
         (
             "#00008FThis case, and brother's case ……\x02\x03",
             "#00001FIn order to reach that truth,\x01",
-            "Ariosさんを……そしてイアン先生を\x01",
+            "Mr. Arios … and Ian Professor\x01",
             "You have to get over it.\x02\x03",
             "#00004FI will borrow this tofa for a while.\x01",
             "…… Brother, please lend it to us.\x02",
@@ -4592,7 +4592,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#12P#N#10105FそれにAssistant Juliaっ！\x02",
+        "#12P#N#10105FAlso, Assistant Yulia!\x02",
     )
 
     CloseMessageWindow()
@@ -5186,7 +5186,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00005FAriosさん……？\x02",
+        "#6P#00005FArios … …?\x02",
     )
 
     CloseMessageWindow()
@@ -5209,9 +5209,9 @@ def main():
         0x101,
         (
             "#6P#00000FA little while ago, Mr. Michelle\x01",
-            "Ariosさんを探してた\x01",
+            "I was looking for Arios\x01",
             "Looks like it?\x02\x03",
-            "#00003F確かAriosさんは、\x01",
+            "#00003FCertainly Arios said,\x01",
             "I was asked by the mayor\x01",
             "I was listening.\x02",
         )
@@ -5387,7 +5387,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10105F……Ariosさん？\x02",
+        "#6P#10105F… … Arios?\x02",
     )
 
     CloseMessageWindow()
@@ -5573,7 +5573,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00001F（……Ariosさん……？）\x02",
+        "#11P#00001F(…… Arios … …?\x02",
     )
 
     CloseMessageWindow()
@@ -5623,7 +5623,7 @@ def main():
         0x101,
         (
             "#00000F(this person is……\x01",
-            "  確かNielsenだったな。）\x02",
+            "It sure was Nielsen. )\x02",
         )
     )
 
@@ -5752,7 +5752,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FNielsenさん……\x01",
+            "#00000FMr. Nielsen …\x01",
             "You came to visit my big brother's grave.\x02",
         )
     )
@@ -5851,7 +5851,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FNielsenさん……\x02",
+        "#00005FMr. Nielsen …\x02",
     )
 
     CloseMessageWindow()
@@ -6006,7 +6006,7 @@ def main():
         (
             "#00006FDare now ……\x01",
             "No, right now, is it?\x02\x03",
-            "#00001FNielsenさんには、\x01",
+            "#00001FTo Nielsen,\x01",
             "Did you see something …?\x02",
         )
     )
@@ -6058,7 +6058,7 @@ def main():
         -1,
         0,
         (
-            "Nielsenの検証に付き合う\x01",      # 0
+            "Meet Nielsen's verification\x01",      # 0
             "I think once\x01",                  # 1
         )
     )
@@ -6083,7 +6083,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F……………………………\x02\x03",
+            "#00003F………………………….\x02\x03",
             "#00001FI understand.\x01",
             "Please join us.\x02",
         )

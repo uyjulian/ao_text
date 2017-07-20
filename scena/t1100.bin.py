@@ -217,7 +217,7 @@ def main():
 
     ChrTalk(
         0x153,
-        "#01108F#40W#11P………………………………\x02",
+        "#01108F#40W#11P…\x02",
     )
 
     CloseMessageWindow()
@@ -311,7 +311,7 @@ def main():
         0x101,
         (
             "#00002F#12P#N……that's right.\x02\x03",
-            "#00008F………………………………\x02",
+            "#00008F…\x02",
         )
     )
 
@@ -964,7 +964,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P…… Oh, Captain Randolph.\x02",
+        "#5PYes, Randolph \x02",
     )
 
     CloseMessageWindow()
@@ -984,7 +984,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P#4STry, add a fight!\x02",
+        "#5P#4SYOU GUYS! GET READY\x02",
     )
 
     CloseMessageWindow()
@@ -1013,14 +1013,14 @@ def main():
 
     ChrTalk(
         0xC,
-        "#5PDefeat at full power!\x02",
+        "#5PWe'll push them back with full strength!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00007F#12PI hope!\x02",
+        "#00007F#12PBring it on!\x02",
     )
 
     CloseMessageWindow()
@@ -1270,7 +1270,7 @@ def main():
         (
             "#00306F#12PWell, at various places in my current workplace\x01",
             "I'm being trained.\x02\x03",
-            "#00300FIt is the difference in the number of places, the number of places.\x02",
+            "#00300FIt's a difference of experience\x02",
         )
     )
 
@@ -1289,7 +1289,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P#40WWhat kind of workplace … …\x02",
+        "#5P#40WWhat battlefield were you on?\x02",
     )
 
     CloseMessageWindow()
@@ -1314,7 +1314,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#60W#5P#2S… … … … … Tsukemori ………\x02",
+        "#60W#5P#2SBe… careful\x02",
     )
 
     CloseMessageWindow()
@@ -1331,7 +1331,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#60W#5P#2S………………………………\x02",
+        "#60W#5P#2S…\x02",
     )
 
     CloseMessageWindow()
@@ -1341,7 +1341,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#12P… … Have you fainted?\x02",
+        "#00008F#12PWe knocked him out?\x02",
     )
 
     CloseMessageWindow()

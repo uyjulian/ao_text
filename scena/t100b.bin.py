@@ -626,7 +626,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "《クロスベル市》行きWater-bus・時刻表\x01\x01",
+            "Water crossing bus · timetable to \"Crossbell City\"\x01\x01",
             "※ For further visit\x01",
             "We are waiting for you!\x02",
         )

@@ -1380,7 +1380,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00205F#12P運搬car……？\x02",
+        "#00205F#12PCarrier … …?\x02",
     )
 
     CloseMessageWindow()
@@ -1663,7 +1663,7 @@ def main():
         0xC,
         (
             "#5PYes, I'm in charge of the stage equipment\x01",
-            "Heinzです。\x02",
+            "It is Heinz.\x02",
         )
     )
 
@@ -3614,7 +3614,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Well, I'm not going out.\x07\x00\x02",
+            "Right, I am not out\x07\x00\x02",
         )
     )
 
@@ -3637,14 +3637,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12PWow\x02",
+        "#00011F#12PAhh\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x106,
-        "#10701F#12P… …. Voice tube?\x02",
+        "#10701F#12PVoice pipe?\x02",
     )
 
     CloseMessageWindow()
@@ -3698,7 +3698,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10712F#6P#N……!\x02",
+        "#10712F#6P#N…!\x02",
     )
 
     CloseMessageWindow()
@@ -3707,7 +3707,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10400F#6P#NA doll of a guide rider.\x02",
+        "#10400F#6P#NIt's a doll which will lead us \x02",
     )
 
     CloseMessageWindow()
@@ -3720,7 +3720,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Come in.\x02",
+            "Come in\x02",
         )
     )
 
@@ -3783,14 +3783,14 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10710F#12PWell ……\x02",
+        "#10710F#12PUhhh\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x107,
-        "#01203F#12P#3CFu … as usual.\x02",
+        "#01203F#12P#3CHmm. As always\x02",
     )
 
     CloseMessageWindow()
@@ -3800,7 +3800,7 @@ def main():
         (
             "#00006F#11PTomorrow\x01",
             "The story was early and it helped.\x02\x03",
-            "#00000FLet me interfere.\x02",
+            "#00000FLet's head in\x02",
         )
     )
 
@@ -3808,7 +3808,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00202F#12Pis not it.\x02",
+        "#00202F#12PRight.\x02",
     )
 
     CloseMessageWindow()
@@ -4008,7 +4008,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#12POh, I will.\x02\x03",
+            "#00004F#12PYeah. Got it\x02\x03",
             "#00000F── Well then.\x01",
             "I will be heading for mining town soon.\x02\x03",
             "Trends of resistance forces as well\x01",
@@ -4020,14 +4020,14 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10702F#11POK.\x02",
+        "#10702F#11PUnderstood\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10402F#5PWell then let's go.\x02",
+        "#10402F#5POk then let's go.\x02",
     )
 
     CloseMessageWindow()

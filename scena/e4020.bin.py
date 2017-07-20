@@ -1513,7 +1513,7 @@ def main():
         0xB,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#40W…………………………………….\x02",
+            "#40W….\x02",
         )
     )
 
@@ -1529,7 +1529,7 @@ def main():
     NpcTalk(
         0xC,
         "Voice of a girl",
-        "Keyaちゃん……\x02",
+        "KeA?\x02",
     )
 
     CloseMessageWindow()
@@ -1555,8 +1555,8 @@ def main():
         0xB,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12302F#5Pあ、Suzuku……\x02\x03",
-            "Is your eyes going well now?\x07\x00\x02",
+            "#12302F#5PAh, Shizuku\x02\x03",
+            "How is your vision coming?\x07\x00\x02",
         )
     )
 
@@ -1585,8 +1585,8 @@ def main():
             "#30WYeah … … already dizzy#4Rdizzy#If not,\x01",
             "I got to see the color … ….\x02\x03",
             "All …\x01",
-            "Keyaちゃんのおかげだよ。\x02\x03",
-            "……Thank you very much.\x02",
+            "I owe it to Keia.\x02\x03",
+            "Thank you so much\x02",
         )
     )
 
@@ -1603,10 +1603,10 @@ def main():
         0xB,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#5P#12309FWell … good.\x02\x03",
-            "#12302Fでも、Suzukuと病院の人たちが\x01",
+            "#5P#12309FEhe, that's good\x02\x03",
+            "#12302FBut Shizuku and people at the hospital\x01",
             "Because I've been working hard all the time?\x02\x03",
-            "Keyaはあくまで\x01",
+            "Ka'a to the last\x01",
             "I only did the last push.\x07\x00\x02",
         )
     )
@@ -1615,7 +1615,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#11P#11226Fis that so……\x02",
+        "#11P#11226FIs that right\x02",
     )
 
     CloseMessageWindow()
@@ -1626,7 +1626,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0xD),
             "#5P#12304FBesides that, the \"power\" of\x01",
             "It is OK to make effective use.\x02\x03",
-            "#12314Fえへへ、Suzukuの目が治せたなら\x01",
+            "#12314FIf eh could be cured\x01",
             "It was worth it this way …\x02",
         )
     )
@@ -1645,7 +1645,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#11P#11232F#4S─ ─ ─ but!\x02",
+        "#11P#11232F#4SBut!\x02",
     )
 
     CloseMessageWindow()
@@ -1661,10 +1661,10 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#11P#11226F#30W…, I'm glad you … ….?\x02\x03",
+            "#11P#11226F#30WI'm was happy!\x02\x03",
             "I was anxious because my eyes could not be seen forever ……\x01",
             "…… Become my dad's luggage ……\x02\x03",
-            "#11228FKeyaちゃんと友だちになれたのに\x01",
+            "#11228FI thought I could be friends with Ka'aa.\x01",
             "I do not know what kind of face it is …!\x02\x03",
             "#11227FIn this way you can see the face\x01",
             "I am glad that tears come out … but …!\x02",
@@ -1693,13 +1693,13 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#11P#11232F#4Sでも……Keyaちゃんは\x01",
+            "#11P#11232F#4SBut … Ka'aa\x01",
             "You can truly keep this as it is! Is it?\x02\x03",
             "#3SSeparate with Lloyd's\x01",
             "I was forced to do something serious … ….!\x02\x03",
             "#11227FI …\x01",
             "I think it is absolutely wrong!\x02\x03",
-            "Mariavel and Dieter too!\x02\x03",
+            "Mariabelle too, Dieter too…\x02\x03",
             "#11232F#40W……in addition…#500W…#40WDad too …!\x02",
         )
     )
@@ -1710,7 +1710,7 @@ def main():
         0xB,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#5P#12312F#30WSuzuku……\x07\x00\x02",
+            "#5P#12312F#30WShizuku..\x07\x00\x02",
         )
     )
 
@@ -1774,8 +1774,8 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
             "#5P#12304F#40WThank you……\x01",
-            "大好きだよ、Suzuku。\x02\x03",
-            "#12302FBut … It's okay.\x02\x03",
+            "I love you, Shizuku.\x02\x03",
+            "#12302FBut it's fine\x02\x03",
             "With all the things understood\x01",
             "Because I decided on my own … …\x02\x03",
             "#12309FSo I……?\x01",

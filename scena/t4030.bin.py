@@ -99,7 +99,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "After that, Lloyd's\x01",
-            "Sister · Leaseの個室に案内され……\x02\x03",
+            "It was guided to Sister · Lease's private room … …\x02\x03",
             "History of picking a blue flower\x01",
             "On the interaction with Archbishop Ellarda\x01",
             "I explained to her all the way.\x07\x00\x02",
@@ -118,7 +118,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04406F#11P─ ─ I see.\x02\x03",
+            "#04406F#11PI see\x02\x03",
             "#04408FCertainly this is the Archbishop\x01",
             "It is also impossible to close your mouth.\x02",
         )
@@ -143,7 +143,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#12PHuh……! Is it?\x02",
+        "#00005F#12P!?\x02",
     )
 
     CloseMessageWindow()
@@ -307,14 +307,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305F#12PDo you understand, Ries-chan! Is it?\x02",
+        "#00305F#12PYou know it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#04408F#11Pええ、Flowers from which everyone collected …\x02",
+        "#04408F#11PYes. The flower you found\x02",
     )
 
     CloseMessageWindow()
@@ -343,7 +343,7 @@ def main():
 
     AnonymousTalk(
         0x109,
-        "#10105FApocrypha……\x02",
+        "#10105FEvil scripture…\x02",
     )
 
     CloseMessageWindow()
@@ -380,7 +380,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00005FI see……\x02",
+        "#00005FI see\x02",
     )
 
     CloseMessageWindow()
@@ -408,7 +408,7 @@ def main():
             "There is a depiction about the blue flower.\x02\x03",
             "#04408FIt blooms right above the seven angels,\x01",
             "Kichiro is a mysterious flower that can be taken as an obsession … …\x02\x03",
-            "#04401FIts name is also the description of \"prelomarium\".\x02",
+            "#04401FIt's called the Pleroma Flower\x02",
         )
     )
 
@@ -428,14 +428,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#4S#12PI mean …! Is it?\x02",
+        "#00007F#4S#12PAh!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00107F#11PThat name is … …!\x02",
+        "#00107F#11PThat name is!\x02",
     )
 
     CloseMessageWindow()
@@ -445,7 +445,7 @@ def main():
 
     AnonymousTalk(
         0x109,
-        "#10101FWell, surely ….\x02",
+        "#10101FThat is…\x02",
     )
 
     CloseMessageWindow()
@@ -466,7 +466,7 @@ def main():
 
     AnonymousTalk(
         0x103,
-        "#00206F………Yes…………\x02",
+        "#00206FRight..\x02",
     )
 
     CloseMessageWindow()
@@ -492,11 +492,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04403F#5P… Well, I see.\x02\x03",
+            "#04403F#5PI see, so that's it\x02\x03",
             "#04401FAbout the mystery left by the faction\x01",
             "Almost nothing has been elucidated in the church.\x02\x03",
             "There was also the intention of Archbishop Ellarda,\x01",
-            "Also the incident caused by Joachim Günter\x01",
+            "Also the incident caused by Joachim Gunter\x01",
             "Although almost not investigated … …\x02",
         )
     )
@@ -506,7 +506,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10111F#12PWait a moment, please.\x02\x03",
+            "#10111F#12PW-wait a second \x02\x03",
             "#10106FThat flower really\x01",
             "Examples of drugs of Gnostic\x01",
             "As a raw material ……\x02\x03",
@@ -530,7 +530,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#6PA flower blooming just above the seven angels ……\x02\x03",
+            "#00203F#6PA flower right above the church\x02\x03",
             "#00201FBesides, both\x01",
             "Is it a flower that I can take?\x02",
         )
@@ -540,7 +540,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F#12POh, I do not like it anymore.\x02",
+        "#00306F#12PIt gives you a bad feeling\x02",
     )
 
     CloseMessageWindow()
@@ -566,7 +566,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04403F#5PI agree……\x02\x03",
+            "#04403F#5PWell\x02\x03",
             "#04400FMake my name as possible\x01",
             "If you can not give it out.\x02",
         )
@@ -597,7 +597,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04404F#5PThen there is no problem.\x02\x03",
+            "#04404F#5PIn that case there's no problem\x02\x03",
             "#04402FSince I also contacted the Order,\x01",
             "I am planning to enter the survey.\x02\x03",
             "If there is any progress with each other\x01",
@@ -609,14 +609,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#12PYeah, pleased.\x02",
+        "#00002F#12PYes, gladly\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00202F#6PThank you.\x02",
+        "#00202F#6PThanks for your help\x02",
     )
 
     CloseMessageWindow()

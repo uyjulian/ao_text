@@ -1092,7 +1092,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1183,7 +1183,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1274,7 +1274,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1365,7 +1365,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1456,7 +1456,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1605,7 +1605,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1696,7 +1696,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -2295,21 +2295,21 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12P……this is……\x02",
+        "#00011F#12PThis is…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00108F#6PWhat a scene ……\x02",
+        "#00108F#6PWhat a sight….\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00206F#12P…… That's unexpected …\x02",
+        "#00206F#12PIt's insane…\x02",
     )
 
     CloseMessageWindow()
@@ -2328,7 +2328,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10403F#12PFire in purgatory is also ….\x02",
+        "#10403F#12PIt's like the fires of hell\x02",
     )
 
     CloseMessageWindow()
@@ -2339,7 +2339,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10708F#12PThis is the inside of the \"battle\" …\x02",
+        "#10708F#12PThis is the true inside of the War Ogre…\x02",
     )
 
     CloseMessageWindow()
@@ -2364,7 +2364,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00304F#11P#30WKuku … You came over.\x02\x03",
+            "#00304F#11P#30WHaha, well this sucks\x02\x03",
             "#00312FThis sight …… somewhere also to me\x01",
             "I feel nostalgic …\x02",
         )
@@ -2414,14 +2414,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#6P…… Randy.\x02",
+        "#00108F#6PRandy…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00208F#12PRandy san ……\x02",
+        "#00208F#12PRandy…\x02",
     )
 
     CloseMessageWindow()
@@ -2439,7 +2439,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#11P#30WOh … That's right.\x02\x03",
+            "#00306F#11P#30WYeah. That's right\x02\x03",
             "#00308FTwo years ago, I am from this sight\x01",
             "I ran away to deflect my eyes ……\x02\x03",
             "#00311FHowever, I do not care, my own work#2RLike this#\"When\x01",
@@ -2469,7 +2469,7 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "#4SHuh …!\x02",
+        "#4SYeah!\x02",
     )
 
     CloseMessageWindow()

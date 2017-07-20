@@ -1498,7 +1498,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#6P#NZeitも……！\x02",
+        "#00002F#6P#NAlso Zeit …!\x02",
     )
 
     CloseMessageWindow()
@@ -2632,7 +2632,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00104F#5PZeit、ありがとう。\x02",
+        "#00104F#5PThank you, Zeit.\x02",
     )
 
     CloseMessageWindow()
@@ -3233,7 +3233,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00104FHuhu, you got the tactics book.\x02\x03",
+            "#00104FAnother combat book\x02\x03",
             "#00100FThis is Tio\x01",
             "I wonder if Noel is good for you?\x02",
         )
@@ -3253,7 +3253,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10109FYes, let's do it!\x02",
+        "#10109FYes of course!\x02",
     )
 
     CloseMessageWindow()

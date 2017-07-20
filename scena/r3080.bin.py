@@ -571,7 +571,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -720,7 +720,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1250,7 +1250,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FThe current … …\x02",
+        "#00005FThat was\x02",
     )
 
     CloseMessageWindow()
@@ -1347,7 +1347,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00310FChit is surrounded ……\x02",
+        "#00310FCrap we're surronded\x02",
     )
 
     CloseMessageWindow()
@@ -1356,7 +1356,7 @@ def main():
         0x101,
         (
             "#00005FOh, that big demon ……\x01",
-            "《Fort of the Sun》をうろついていた！？\x02",
+            "I was hanging around the \"Fort of the Sun\"! Is it?\x02",
         )
     )
 
@@ -1366,7 +1366,7 @@ def main():
         0x103,
         (
             "#00203FApparently, that monster\x01",
-            "Military dogたちを従えているようですね。\x02",
+            "You seem to be following military dogs.\x02",
         )
     )
 
@@ -1615,7 +1615,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FWell, I did it ……\x02",
+        "#00000FAhh, we did it\x02",
     )
 
     CloseMessageWindow()
@@ -1694,7 +1694,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105FWell, what do you mean …?\x02",
+        "#10105FW-what do you mean?\x02",
     )
 
     CloseMessageWindow()
@@ -1702,7 +1702,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10304Fもちろん、このMilitary dogたちを\x01",
+            "#10304FOf course, these military dogs\x01",
             "Whether it will be cleaned up or not.\x02\x03",
             "#10302FWithout this difficulty in this state\x01",
             "It seems I can annihilate it, though?\x02",
@@ -1713,7 +1713,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F… … Maybe so.\x02",
+        "#00003FThat's true..\x02",
     )
 
     CloseMessageWindow()
@@ -1741,7 +1741,7 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#01200F……won.\x01",
+            "#01200FWoof,\x01",
             "Gurururu …\x02",
         )
     )
@@ -1815,7 +1815,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FZeit……\x02",
+        "#00005FZeit..\x02",
     )
 
     CloseMessageWindow()
@@ -1843,8 +1843,8 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#01203FGuru …… Won.\x02\x03",
-            "#01200FGurururu …… won.\x02",
+            "#01203FGrrr. Woof\x02\x03",
+            "#01200FGrrrr. Woof\x02",
         )
     )
 
@@ -1869,11 +1869,11 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306FHaha, I see.\x02\x03",
+            "#00306FOh I see\x02\x03",
             "#00301FWell,\x01",
             "Now that the ordering boss no longer exists,\x01",
             "Is it no longer dangerous?\x02\x03",
-            "What will you do, Lloyd.\x02",
+            "What do we do, Lloyd?\x02",
         )
     )
 
@@ -1889,7 +1889,7 @@ def main():
             "\"If you do not attack the village again\x01",
             "If you can promise,\x01",
             "I will not do it until I get rid of it. \"\x02\x03",
-            "#00000FCan you tell that much?\x02",
+            "#00000FCan we tell them that?\x02",
         )
     )
 
@@ -1897,7 +1897,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#01200F……won.\x02",
+        "#01200FWoof,\x02",
     )
 
     CloseMessageWindow()
@@ -1992,7 +1992,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#01200FGuru …… Won.\x02",
+        "#01200FGrrr. Woof\x02",
     )
 
     CloseMessageWindow()
@@ -2007,7 +2007,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#01200FGurururu …… won, won.\x02",
+        "#01200FGrrrr. Woof woof\x02",
     )
 
     CloseMessageWindow()
@@ -2023,7 +2023,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "……won.\x02",
+        "Woof,\x02",
     )
 
     CloseMessageWindow()
@@ -2169,7 +2169,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F… … Did you understand?\x02",
+        "#00005FDid they get it?\x02",
     )
 
     CloseMessageWindow()
@@ -2177,9 +2177,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00200Fええ、Zeitの言葉は\x01",
+            "#00200FWell, the words of Zeit are\x01",
             "I seemed to be able to communicate … ….\x02\x03",
-            "I think that it will be okay.\x02",
+            "So it should be fine\x02",
         )
     )
 
@@ -2260,7 +2260,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10102FI understand.\x02",
+        "#10102FRoger!\x02",
     )
 
     CloseMessageWindow()

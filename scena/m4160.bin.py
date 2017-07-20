@@ -592,7 +592,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -742,7 +742,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -887,7 +887,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -981,7 +981,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1167,14 +1167,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#11P……?\x02",
+        "#00005F#11P…?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10108F#12PUp……?\x02",
+        "#10108F#12PHuh?\x02",
     )
 
     CloseMessageWindow()
@@ -1255,14 +1255,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#11PBecome\x02",
+        "#00007F#11PAh!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00101F#11PI saw you at that time …!\x02",
+        "#00101F#11PThe ones we saw that time\x02",
     )
 
     CloseMessageWindow()
@@ -1290,7 +1290,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10307F#5PIt caught in - ─ coming!\x02",
+        "#10307F#5PWe're surrounded.. Here they come!\x02",
     )
 
     CloseMessageWindow()
@@ -1446,7 +1446,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5PKu … … It was terribly tough.\x02\x03",
+            "#00006F#5PThey were stronger than I thought\x02\x03",
             "#00013FApparently just like a military dog\x01",
             "It looks like a trained devil … …\x02",
         )
@@ -1459,7 +1459,7 @@ def main():
         (
             "#00106F#6PYeah, not a canine\x01",
             "It was like a cat family … …\x02\x03",
-            "#00108FAfter all \"Red constellation\" … ….?\x02",
+            "#00108FCould it be by Red Constellation\x02",
         )
     )
 
@@ -1544,7 +1544,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#6PYes……!\x02",
+        "#10101F#6PRight!\x02",
     )
 
     CloseMessageWindow()
@@ -1709,8 +1709,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00205F#11PUsing sound of explosive from outside the exit … …!\x02\x03",
-            "#00207FYou can hear the sound of the gun battle!\x02",
+            "#00205F#11PThe sound of a bomb from outside the exit!\x02\x03",
+            "#00207FI hear gunfire too!\x02",
         )
     )
 
@@ -1718,7 +1718,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#11PRandy …!\x02",
+        "#00107F#11PRandy!\x02",
     )
 
     CloseMessageWindow()
@@ -1758,21 +1758,21 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#6PGood morning, we'll get out too!\x02",
+        "#00010F#6PUgh. We're heading out!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10107F#11PYes, sir!\x02",
+        "#10107F#11PYes sir!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10308F#11P(… … I will make it in time?)\x02",
+        "#10308F#11P(Will we make it in time)\x02",
     )
 
     CloseMessageWindow()

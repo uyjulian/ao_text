@@ -27,8 +27,8 @@ def main():
         "God wolf Zeit",           # 6
         "Mercapa",               # 7
         "Mercapa",               # 8
-        "Mercapa光学迷彩",       # 9
-        "Mercapa光学迷彩",       # 10
+        "Mercapa optical camouflage",       # 9
+        "Mercapa optical camouflage",       # 10
         "SE control",                 # 11
     ))
 
@@ -285,7 +285,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5PFirst of all, you should take a breath.\x02",
+            "#5PYou should take a breath\x02",
         )
     )
 
@@ -313,7 +313,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5PHuh\x02",
+        "#00011F#5PHuh-\x02",
     )
 
     CloseMessageWindow()
@@ -325,7 +325,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#6P#NThat is……! Is it?\x02",
+        "#00007F#6P#NThat is!?\x02",
     )
 
     CloseMessageWindow()
@@ -342,7 +342,7 @@ def main():
             "It seems I can freely go in and out ……\x02\x03",
             "Not being present\x01",
             "It seems that there is nothing to pass through.\x02\x03",
-            "Either for people or for vehicles.\x02",
+            "People, vehicles…\x02",
         )
     )
 
@@ -352,7 +352,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#6P#N…… Such a thing ……\x02",
+        "#00013F#6P#NThey have that now…\x02",
     )
 
     CloseMessageWindow()
@@ -444,7 +444,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#12PI see……\x02\x03",
+            "#00006F#12PI see…\x02\x03",
             "#00008F…… Once the \"D∴G Church\"\x01",
             "A number of outrageous ceremonies that came … …\x02\x03",
             "#00013FIt was made from pre-prawn grass as raw material\x01",
@@ -503,7 +503,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#12P#40W…………………….\x02",
+        "#00006F#12P#40W…\x02",
     )
 
     CloseMessageWindow()
@@ -558,7 +558,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#12PHaha, that's right ……\x02\x03",
+            "#00004F#12PHaha, that is true\x02\x03",
             "#00008F… … If it's a clubber\x01",
             "I have my uncle's house,\x01",
             "It may not be bad.\x02",
@@ -579,7 +579,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6P─ ─ But I will stop it.\x02\x03",
+            "#00006F#6PBut no thanks\x02\x03",
             "#00000FThe truth that I want to know most\x01",
             "I have not checked it yet.\x02",
         )
@@ -591,7 +591,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5Pwhat……?\x02",
+            "#5PWhat?\x02",
         )
     )
 
@@ -617,7 +617,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5P……………………………………\x02",
+            "#5P….\x02",
         )
     )
 
@@ -627,7 +627,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5PWhat is the truth that I want to check?\x02",
+            "#5PWhat is the truth you want to find?\x02",
         )
     )
 
@@ -635,7 +635,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00004F#6P─ ─ It is decided.\x02",
+        "#00004F#6PIt's obvious\x02",
     )
 
     CloseMessageWindow()
@@ -651,7 +651,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00008F#12PRegardless of power and birth … …\x02\x03",
+            "#00008F#12PIt has nothing to do with power or growth\x02\x03",
             "#00000FThat girl is ── Ka\x01",
             "What do you really want?#20R噵 噵 噵 噵 噵 噵 噵 噵 噵 噵#That is it.\x02\x03",
             "Perhaps, unless you regain that child,\x01",
@@ -665,7 +665,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5P#N…………………………………….\x02",
+            "#5P#N…\x02",
         )
     )
 
@@ -702,7 +702,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5P#NGiggle\x02",
+            "#5P#NHah\x02",
         )
     )
 
@@ -732,7 +732,7 @@ def main():
     NpcTalk(
         0x9,
         "Voice of a boy",
-        "#11P#2917V#30W#25A#NAhaha, you really are stupid.\x02",
+        "#11P#2917V#30W#25A#NAhah, you really are an overobsessed parent\x02",
     )
 
     CloseMessageWindow()
@@ -743,7 +743,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12PHuh……\x02",
+        "#00011F#12PHuh…\x02",
     )
 
     CloseMessageWindow()
@@ -771,7 +771,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F#6P#NWadi, why … ….\x02\x03",
+            "#00005F#6P#NWazy… why…\x02\x03",
             "#00011FAnd to Abbas …\x01",
             "To Lease, you are! Is it?\x02",
         )
@@ -790,7 +790,7 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "── It's been a while, Bannings.\x02",
+        "Long time no see, Bannings\x02",
     )
 
     CloseMessageWindow()
@@ -811,7 +811,7 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "long time no see.\x02",
+        "Nice to see you again\x02",
     )
 
     CloseMessageWindow()
@@ -835,7 +835,7 @@ def main():
         (
             "Yeah, with me\x01",
             "Is it the first time in 4 months?\x02\x03",
-            "I am glad that I remember it.\x02",
+            "I'm happy you remember me\x02",
         )
     )
 
@@ -853,7 +853,7 @@ def main():
         (
             "#00006F#6P#NCertainly you and Lease\x01",
             "Church's \"Star Cup Order\" … …\x02\x03",
-            "#00007FWadi, maybe you … ─ ─! Is it?\x02",
+            "#00007FWazy, no way, you…!?\x02",
         )
     )
 
@@ -864,7 +864,7 @@ def main():
     NpcTalk(
         0x9,
         "Waji",
-        "#10404F#5PGiggle\x02",
+        "#10404F#5PHah\x02",
     )
 
     CloseMessageWindow()
@@ -885,10 +885,10 @@ def main():
     AnonymousTalk(
         0x9,
         (
-            "#2918V#30WSeven Yi Church, belonging to the Star Cup Order.\x02\x03",
+            "#2918V#30WMember of the Septian Church Order of Chivarly\x02\x03",
             "#2919VGuardian Knight#8RDominion#No. 9 -\x01",
-            "《蒼の聖典》Waji・ヘミスフィアさ。\x02\x03",
-            "#2920VI'm begging to ask you again.\x02",
+            "\"The Blue Book\" Wadi Hemisphere.\x02\x03",
+            "#2920VNice to see you again\x02",
         )
     )
 
@@ -905,7 +905,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#6P……………………… (Pakpaku)\x02",
+        "#00011F#6P………\x02",
     )
 
     CloseMessageWindow()
@@ -915,7 +915,7 @@ def main():
         (
             "#12102F#5PBy the way, myself\x01",
             "It is in the position of a regular knight of the Order.\x02\x03",
-            "Wajiの補佐が主な任務だ。\x02",
+            "Wazy's principal assistant\x02",
         )
     )
 
@@ -936,7 +936,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00011F#6PWell then, then.\x02\x03",
+            "#00011F#6PSo that means…\x02\x03",
             "When I first met with Lease,\x01",
             "Why did not you say anything …?\x02",
         )
@@ -962,7 +962,7 @@ def main():
             "#10404F#5PSo thanks to her coming\x01",
             "Eldar Archbishop's attention\x01",
             "It was not surprising that he diverted completely.\x02\x03",
-            "#10402FNo, it really helped me.\x02",
+            "#10402FIt was really a help\x02",
         )
     )
 
@@ -970,7 +970,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#13804F#11PI am fortunate to serve you.\x02",
+        "#13804F#11PI'm honored that I could be helpful\x02",
     )
 
     CloseMessageWindow()
@@ -981,7 +981,7 @@ def main():
             "#04306F#11PIn the case of leasing,\x01",
             "Whatever you think about ordinary sister\x01",
             "Let's see it.\x02\x03",
-            "#04302FThe Archbishop was also seriously caught.\x02",
+            "#04302FThe Archbishop was totally confused\x02",
         )
     )
 
@@ -990,7 +990,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#13803F#11P……None of your business.\x02\x03",
+            "#13803F#11PI was quite helpful\x02\x03",
             "#13811FI mean Kevin\x01",
             "I think that I can not say people.\x02",
         )
@@ -1028,7 +1028,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#6PTo Zeit …?\x02",
+        "#00011F#6PBy Zeit?\x02",
     )
 
     CloseMessageWindow()
@@ -1040,7 +1040,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P#NWell, I let you down.\x02",
+            "#11P#NYes, that is true\x02",
         )
     )
 
@@ -1059,7 +1059,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6PAh……\x02",
+        "#00005F#6PAh….\x02",
     )
 
     CloseMessageWindow()
@@ -1120,7 +1120,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#6P……!\x02",
+        "#00001F#6P…!\x02",
     )
 
     CloseMessageWindow()
@@ -1128,11 +1128,11 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#10404F#5PSuch a thing ─ ─\x02\x03",
+            "#10404F#5PSo that's it\x02\x03",
             "#10402FIn a way that will cooperate with you\x01",
             "For us this incident\x01",
             "I think that I will intervene.\x02\x03",
-            "How about you, Lloyd?\x02",
+            "How about it Lloyd\x02",
         )
     )
 
@@ -1140,7 +1140,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#6P#30W………………………………\x02",
+        "#00008F#6P#30W…..\x02",
     )
 
     CloseMessageWindow()
@@ -1151,7 +1151,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6P── Let me check one.\x02\x03",
+            "#00006F#6PLet me confirm one thing\x02\x03",
             "#00013FYou guys ……\x01",
             "What are you going to do with Kaoru?\x02",
         )
@@ -1173,14 +1173,14 @@ def main():
 
     ChrTalk(
         0x9,
-        "#10408F#5P………………………………\x02",
+        "#10408F#5P…..\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xA,
-        "#04306F#11P… … It's a difficult question.\x02",
+        "#04306F#11PThat's a difficult question…\x02",
     )
 
     CloseMessageWindow()
@@ -1208,7 +1208,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#10403F#5P……Yeah.\x02\x03",
+            "#10403F#5PRight…\x02\x03",
             "#10401F\"zero#2Rzero#The treasure of \"But, ──\x01",
             "To be honest, \"the treasure of the sky#8RAuroru#\"Than\x01",
             "It is far more dangerous and troublesome.\x02\x03",
@@ -1225,7 +1225,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F#6PDisagreeable……\x02\x03",
+            "#00005F#6PNo…\x02\x03",
             "#00001F… … The civil war on the empire\x01",
             "I heard rumors about it that started.\x02",
         )
@@ -1280,7 +1280,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6P……Is that so……\x02",
+        "#00006F#6PIs that right…\x02",
     )
 
     CloseMessageWindow()
@@ -1308,7 +1308,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00013F#6P…………………………………….\x02\x03",
+            "#00013F#6P…\x02\x03",
             "#00003F…… Of course, in the background\x01",
             "Is there the power of \"treasure\"?\x02",
         )
@@ -1319,7 +1319,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#10404F#5Pof course.\x02\x03",
+            "#10404F#5POf course\x02\x03",
             "The Imperial Army that is said to be the strongest continent on the continent\x01",
             "It's just enough to repel.\x02\x03",
             "#10408FMoreover, now \"association\" prepared\x01",
@@ -1335,7 +1335,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00010F#6PDamn\x02\x03",
+            "#00010F#6PUgh\x02\x03",
             "#00007F…… Kaoru ……\x01",
             "That child does not do such a thing!\x02",
         )
@@ -1359,7 +1359,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#6PAh……\x02",
+        "#00011F#6PAh….\x02",
     )
 
     CloseMessageWindow()
@@ -1380,7 +1380,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#13806F#11PApart from Ka'a's will … …\x02\x03",
+            "#13806F#11PKeA's will aside\x02\x03",
             "#13808FThe danger that that \"power\" has is\x01",
             "It can be ignored.\x02",
         )
@@ -1390,7 +1390,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#6P………………………………\x02",
+        "#00008F#6P…..\x02",
     )
 
     CloseMessageWindow()
@@ -1408,7 +1408,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#11P── You know your opinion.\x02\x03",
+            "#00003F#11PI understand your opinion\x02\x03",
             "#00001FI do not mind that … …\x01",
             "I would like to ask for cooperation now.\x02",
         )
@@ -1427,7 +1427,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#10405F#6POh ….?\x02\x03",
+            "#10405F#6PHuh?\x02\x03",
             "#10402FMake a clear offer\x01",
             "I thought I'd be wrong.\x02",
         )
@@ -1442,7 +1442,7 @@ def main():
             "It is certain that there is no … …\x02\x03",
             "#00008FThe longer the solution prolongs\x01",
             "That girl may also suffer … …\x02\x03",
-            "#00010F─ ─ ─ But!\x02",
+            "#00010FBut!\x02",
         )
     )
 
@@ -1483,14 +1483,14 @@ def main():
 
     ChrTalk(
         0xB,
-        "#13805F#6PAh……\x02",
+        "#13805F#6PAh….\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xC,
-        "#12102F#6P………HM……………\x02",
+        "#12102F#6PHmm\x02",
     )
 
     CloseMessageWindow()
@@ -1500,7 +1500,7 @@ def main():
         (
             "#04304F#6PHa ha, like a brilliant person\x01",
             "Mechamacha hot brother and.\x02\x03",
-            "#04302FWaji、お前が気に入るのも\x01",
+            "#04302FWas this review helpful?\x01",
             "I feel like I can understand.\x02",
         )
     )
@@ -1519,7 +1519,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#11PWaji、俺は本気で──！\x02",
+        "#00010F#11PWazy… I'm being serious!\x02",
     )
 
     CloseMessageWindow()
@@ -1572,7 +1572,7 @@ def main():
         (
             "#10406F#5P…… as our position\x01",
             "This neighborhood is the limit though.\x02\x03",
-            "#10402FHow about?\x02",
+            "#10402FHow's that?\x02",
         )
     )
 
@@ -1580,14 +1580,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6POh … enough.\x02",
+        "#00006F#6PYeah, that's fine\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xC,
-        "#12102F#5P─ ─ It's a rule.\x02",
+        "#12102F#5PThen it's decided\x02",
     )
 
     CloseMessageWindow()
@@ -1614,7 +1614,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6PWhat is it …?\x02",
+        "#00005F#6PW-what?\x02",
     )
 
     CloseMessageWindow()
@@ -1625,7 +1625,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x3),
             "#12PHm …\x01",
             "It sounds a lot of nostalgic.\x02\x03",
-            "The \"heavenly car\" of the church?\x02",
+            "Is that the Heavenly Ship of the church?\x02",
         )
     )
 
@@ -1706,7 +1706,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12P#NHi flying boat ……! Is it?\x02",
+        "#00011F#12P#NA-airships!?\x02",
     )
 
     CloseMessageWindow()
@@ -1728,7 +1728,7 @@ def main():
         0xB,
         (
             "#13804F#5PI use it in the Star Cup Order\x01",
-            "《Mercapa》という作戦艇です。\x02\x03",
+            "It is a strategy boat called \"Mercapa\".\x02\x03",
             "#13802FIn addition to the stealth function,\x01",
             "It has optical camouflage function.\x02",
         )
@@ -1741,7 +1741,7 @@ def main():
         (
             "#10403F#5PUse this to keep secrets behind\x01",
             "Sneak into Cross Bell airspace … …\x02\x03",
-            "#10400FAre you ready for your heart, Lloyd?\x02",
+            "#10400FAre you prepared, Lloyd?\x02",
         )
     )
 
@@ -1751,7 +1751,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#11P#4SOh - of course!\x02",
+        "#00007F#11P#4SYeah, of course!\x02",
     )
 
     CloseMessageWindow()
@@ -1775,7 +1775,7 @@ def main():
         (
             "#00003F#6P#N#30W(Keya …\x01",
             "… and everyone … …)\x02\x03",
-            "#00013F#30W(Please wait … …!)\x02",
+            "#00013F#30W(Wait for me..!)\x02",
         )
     )
 

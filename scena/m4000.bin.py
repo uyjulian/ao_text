@@ -620,7 +620,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "It is arrival.\x02",
+        "…Here we are.\x02",
     )
 
     CloseMessageWindow()
@@ -630,7 +630,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#3306V#5P#30WAh……!\x02",
+        "#00005F#3306V#5P#30WAh…\x02",
     )
 
     CloseMessageWindow()
@@ -658,7 +658,7 @@ def main():
 
     ChrTalk(
         0x108,
-        "#01400F#4042V#3P#N#30W…… I have not changed.\x02",
+        "#01400F#4042V#3P#N#30WHasn't changed at all huh\x02",
     )
 
     CloseMessageWindow()
@@ -667,7 +667,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#3307V#4P#N#30WThis is Altair · Lodge …\x02",
+        "#00001F#3307V#4P#N#30WThis is Altair Lodge…\x02",
     )
 
     CloseMessageWindow()
@@ -756,7 +756,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PMy guidance is here.\x02",
+        "#11PThis is as far as I take you\x02",
     )
 
     CloseMessageWindow()
@@ -786,7 +786,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#3P#00603F#3444V……understood.\x02",
+        "#3P#00603F#3444VUnderstood.\x02",
     )
 
     CloseMessageWindow()
@@ -795,7 +795,7 @@ def main():
 
     ChrTalk(
         0x108,
-        "#01400F#4043VA polite guide, thank you.\x02",
+        "#01400F#4043VWe appreciate your help\x02",
     )
 
     CloseMessageWindow()
@@ -806,7 +806,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PWell, at best, please take care.\x02",
+        "#11PJust try to be careful. Although since \x02",
     )
 
     CloseMessageWindow()
@@ -935,7 +935,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#6P#00603F#3445V#30WOh, there is no longer grace.\x02",
+        "#6P#00603F#3445V#30WYes, no more time for delay.\x02",
     )
 
     CloseMessageWindow()
@@ -972,7 +972,7 @@ def main():
         (
             "#01403F#4044V#5P#30WMost of the time, six years ago\x01",
             "It will be crushed by the control strategy.\x02\x03",
-            "#01401F#4045VBut those who wander around are ─ ─\x02",
+            "#01401F#4045VBut the monsters on the other hand--\x02",
         )
     )
 
@@ -1058,28 +1058,28 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#3P#00610F#3447V#30WBecome! Is it?\x02",
+        "#3P#00610F#3447V#30WAhh!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#6P#10107F#3510V#30WWell, the demon …! Is it?\x02",
+        "#6P#10107F#3510V#30WM-Monsters!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#6P#00010F#3310V#30WI was in the basement of the lodge …!\x02",
+        "#6P#00010F#3310V#30WThey were hiding under the lodge!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x108,
-        "#01407F#4046V#30W── I'm coming!\x02",
+        "#01407F#4046V#30WHere they come!\x02",
     )
 
     CloseMessageWindow()
@@ -1497,7 +1497,7 @@ def main():
         (
             "#01403F#4047V#5P#30W─ ─ No time.\x01",
             "Let's say we enter it anyway.\x02\x03",
-            "#01401F#4048VIt should still be in time now.\x02",
+            "#01401F#4048VWe should be able to make it if we move now\x02",
         )
     )
 
@@ -1515,14 +1515,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#2P#00007F#3313V#30WYeah … …!\x02",
+        "#2P#00007F#3313V#30WRight!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#4P#10107F#3512V#30WI understand.\x02",
+        "#4P#10107F#3512V#30WRoger!\x02",
     )
 
     CloseMessageWindow()

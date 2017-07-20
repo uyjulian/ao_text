@@ -506,7 +506,7 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "Uhufu, I'm tired.\x02\x03",
+            "Eheh, nice work\x02\x03",
             "\"ruins#4RDungeon#Search for \"Treasure hunt#6RTreasure Hunt#\"… ….\x02\x03",
             "Occasionally the royal taste\x01",
             "Was not it bad?\x02",
@@ -524,7 +524,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6PIs it still your business?\x02",
+        "#00006F#6PSo it was thanks to you\x02",
     )
 
     CloseMessageWindow()
@@ -557,7 +557,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00211F#6P#NI'm not at all pleased …\x02",
+        "#00211F#6P#NWell it wasn't fun at all\x02",
     )
 
     CloseMessageWindow()
@@ -584,7 +584,7 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10703F#6P#NBut you ….\x02\x03",
+            "#10703F#6P#NBut you…\x02\x03",
             "#10701FSuch as \"association\" etc\x01",
             "You do not look old?\x02",
         )
@@ -626,7 +626,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#6P…… It is on resolution.\x02",
+        "#00013F#6PWe're more than prepared\x02",
     )
 
     CloseMessageWindow()
@@ -647,7 +647,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04804F#11PUhufu, whatever.\x02\x03",
+            "#04804F#11PEheh, well whatever\x02\x03",
             "#04802FWhat about crossbells\x01",
             "I am out of my mission.\x02\x03",
             "In that sense, barely\x01",
@@ -724,7 +724,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#3P#NTh-This is……?\x02",
+        "#00011F#3P#NT-this is!\x02",
     )
 
     CloseMessageWindow()
@@ -803,7 +803,7 @@ def main():
         (
             "#3724V#40A#35WExecutor No. 0,\x01",
             "\"Clown\" Campanella.\x02\x03",
-            "#3725V#30A#30WIt is victory at all times ─ ─ Anyway ♪\x02",
+            "#3725V#30A#30WNow comes the ultimate fight -- just kidding!\x02",
         )
     )
 
@@ -985,7 +985,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04806F#11P#30WHuh, well … h.\x02\x03",
+            "#04806F#11P#30WAhh, well then\x02\x03",
             "#04801FAfter all it does not get used to\x01",
             "I do not want to do much.\x02",
         )
@@ -995,7 +995,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#6P#30WHa ha … … how are you!\x02",
+        "#00010F#6P#30WHaa Haa how's that\x02",
     )
 
     CloseMessageWindow()
@@ -1052,7 +1052,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04804F#11P#30W… … Uhu, there is no objection.\x02\x03",
+            "#04804F#11P#30WEhe, no argument here\x02\x03",
             "#04802FWell, \"steel saint\" to opponent\x01",
             "I do not think I can win.\x02",
         )
@@ -1062,7 +1062,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#6P#30WDamn\x02",
+        "#00013F#6P#30WUgh\x02",
     )
 
     CloseMessageWindow()
@@ -1086,7 +1086,7 @@ def main():
         (
             "#04804F#11P#30WHugh, this is me\x01",
             "I will let the crossbell leave.\x02\x03",
-            "#04800FA place created by people and the place of \"treasure\" …\x02\x03",
+            "#04800FThe plans of the Master created by man\x02\x03",
             "#04802FActually I wanted to see more\x01",
             "Because the direction towards the empire has become busy.\x02",
         )
@@ -1140,7 +1140,7 @@ def main():
             "Thing by the will of the \"owner\" …\x02\x03",
             "#04800FBut always to answer\x01",
             "The children of those who are in fate.\x02\x03",
-            "You guys are the same.\x02",
+            "Same with you guys\x02",
         )
     )
 
@@ -1148,7 +1148,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6Pwhat……?\x02",
+        "#00005F#6PWhat?\x02",
     )
 
     CloseMessageWindow()
@@ -1157,7 +1157,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00205F#6P#N… … Are you answering?\x02",
+        "#00205F#6P#NGive our answer?\x02",
     )
 
     CloseMessageWindow()
@@ -1214,7 +1214,7 @@ def main():
             "Let's meet again if you are lucky.\x02\x03",
             "#3727V#40AYou guys are\x01",
             "What kind of answer was given ……\x02\x03",
-            "#3728V#25ACome and let me know ♪\x02",
+            "#3728V#25AI look forward to hearing it\x02",
         )
     )
 
@@ -1240,7 +1240,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#12P#N#30WAh……\x02",
+        "#00201F#12P#N#30WAh…\x02",
     )
 
     CloseMessageWindow()
@@ -1300,7 +1300,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10403F#5PHM……\x02\x03",
+            "#10403F#5PHmm.\x02\x03",
             "#10400FWell, I tentatively\x01",
             "Shall I stop the resonance of the bell?\x02",
         )
@@ -1351,7 +1351,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10703F#5PI will help you as well.\x02",
+        "#10703F#5PI will help too\x02",
     )
 
     CloseMessageWindow()
@@ -1499,7 +1499,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#11PStopped……\x02",
+        "#00105F#11PIt stopped…\x02",
     )
 
     CloseMessageWindow()
@@ -1534,7 +1534,7 @@ def main():
             "#00000FIf the story of Meister is true\x01",
             "The barrier that wraps the crossbell city is also\x01",
             "It may be able to be released …\x02\x03",
-            "#00007FLet's go - \"To the Tower of Hoshi\"!\x02",
+            "#00007FLet's go - to the Stargaze Tower!\x02",
         )
     )
 
@@ -1554,7 +1554,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10702F#11PYes……!\x02",
+        "#10702F#11PRight!\x02",
     )
 
     CloseMessageWindow()
@@ -1565,7 +1565,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10402F#11POK, leader.\x02",
+        "#10402F#11POk, Leader!\x02",
     )
 
     CloseMessageWindow()
@@ -1771,7 +1771,7 @@ def main():
 
     ChrTalk(
         0x18D,
-        "#12P#04403FHM……\x02",
+        "#12P#04403FHmm.\x02",
     )
 
     CloseMessageWindow()

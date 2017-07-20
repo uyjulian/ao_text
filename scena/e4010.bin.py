@@ -92,7 +92,7 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "─ ─ Are you still awake?\x02",
+        "So you were still awake?\x02",
     )
 
     CloseMessageWindow()
@@ -165,7 +165,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07208F#30WOh … yeah ….\x02\x03",
+            "#11P#07208F#30WOh, right\x02\x03",
             "#07203FOnce, also in this report\x01",
             "I want to keep it through.\x02",
         )
@@ -176,7 +176,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07303FMilitary academy? ….\x02\x03",
+            "#6P#07303FFor the millitary school?\x02\x03",
             "#07302FYou surely will not\x01",
             "It is nice to seriously take care of your duties.\x02",
         )
@@ -199,7 +199,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07304FFu … Well it will be nice.\x02\x03",
+            "#6P#07304FHm. Well that's fine\x02\x03",
             "#07300F─ ─ But apparently\x01",
             "The story of the example seems to be certain.\x02\x03",
             "The hand of the Duke of Cayenne\x01",
@@ -214,7 +214,7 @@ def main():
         (
             "#11P#07206FThat human … ….\x01",
             "I thought it was such a place though.\x02\x03",
-            "#07200FDo you grasp the scale?\x02",
+            "#07200FDid we grasp their plan?\x02",
         )
     )
 
@@ -223,7 +223,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07303FNo, that is unknown.\x02\x03",
+            "#6P#07303FNo, it's still not clear\x02\x03",
             "#07300FThe information station is also around here\x01",
             "It seems like I misplaced you.\x02",
         )
@@ -246,10 +246,10 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07306F…… It is not stylish.\x02\x03",
+            "#6P#07306FDon't joke about that\x02\x03",
             "#07301FAgain the escort from the seventh division\x01",
             "Is not it better to increase the number?\x02\x03",
-            "It will be possible to screw in from now.\x02",
+            "It's still possible to mobilize them\x02",
         )
     )
 
@@ -258,11 +258,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07204FNo, it does not reach that.\x02\x03",
+            "#11P#07204FNo, no need\x02\x03",
             "Regardless of the cabinet minister,\x01",
             "I will do it with my character\x01",
             "It will also spoil the image we have built.\x02\x03",
-            "#07202FAnd besides\x02",
+            "#07202FNot to mention\x02",
         )
     )
 
@@ -300,7 +300,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11P#07303F─ ─ Well, I also want to sleep early.\x02",
+        "#11P#07303FWell then I'm going to bed\x02",
     )
 
     CloseMessageWindow()
@@ -318,10 +318,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07206FSumimasen, I rode.\x02\x03",
+            "#11P#07206FSorry, I got off track\x02\x03",
             "#07200FEither way, within tomorrow\x01",
             "I wish I could talk to Hime Hime.\x02\x03",
-            "How 's your arrangement?\x02",
+            "How are the arrangements for that coming?\x02",
         )
     )
 
@@ -331,7 +331,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07304FOh, I got in touch with Associate.\x02\x03",
+            "#6P#07304FYes. The rear guard is prepared\x02\x03",
             "#07302FAfter the luncheon tomorrow ─ ─\x01",
             "It will be about evening.\x02",
         )
@@ -355,7 +355,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#6P#07303F… … That's right.\x02",
+        "#6P#07303FThat's true…\x02",
     )
 
     CloseMessageWindow()
@@ -379,7 +379,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07306F── It is unnecessary care, fool.\x02\x03",
+            "#6P#07306FThat's enough, you ass\x02\x03",
             "#07303FBut more than usual\x01",
             "It seems that there are a lot of downplay drama.\x02\x03",
             "#07301F…… No wonder thing\x01",
@@ -392,7 +392,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07211FGiggle\x02\x03",
+            "#11P#07211FUgh….\x02\x03",
             "#07209FHa ha ha, Yadanabe.\x01",
             "Sonna Wake ni Yanaika.\x02",
         )
@@ -441,7 +441,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#6P#07304FHuh, of course.\x02",
+        "#6P#07304FOf course.\x02",
     )
 
     CloseMessageWindow()

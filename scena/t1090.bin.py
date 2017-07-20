@@ -393,7 +393,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#01109F見て見て、Tio！\x01",
+            "#01109FLook at it, Tio!\x01",
             "It's so fluffy!\x02",
         )
     )

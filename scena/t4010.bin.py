@@ -1101,7 +1101,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Sister · Leaseが\x01",
+            "Sister · Lease\x01",
             "Have you returned to the Alteria head office …?\x02",
         )
     )
@@ -1465,7 +1465,7 @@ def main():
         0x9,
         (
             "Other people in the church ……\x01",
-            "例えばSister Marbleでも\x01",
+            "For example in Sister Marble\x01",
             "I do not know its existence.\x02",
         )
     )
@@ -1605,7 +1605,7 @@ def main():
         0x9,
         (
             "On the day of the plenary session of the Trade Council ……\x01",
-            "Sister · Leaseのマインツへの出張が\x01",
+            "A business trip to Mainz in Sister Lease\x01",
             "It took a long time to burn.\x02",
         )
     )
@@ -1940,7 +1940,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Sister Hatina。\x01",
+            "Sister · Hatina.\x01",
             "Work hard on her\x01",
             "Tell me please.\x02",
         )
@@ -1968,8 +1968,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "……Lease Argento …\x01",
-            "あのDaughterは……\x02",
+            "… … Lease Argento …\x01",
+            "That girl ……\x02",
         )
     )
 
@@ -2016,8 +2016,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "……Lease Argento …\x01",
-            "あのDaughterは……\x02",
+            "… … Lease Argento …\x01",
+            "That girl ……\x02",
         )
     )
 
@@ -2027,7 +2027,7 @@ def main():
         0x153,
         (
             "#01100FPlease tell me if you are tummy.\x01",
-            "Keya、救急箱とってくるからー！\x02",
+            "Ka ah, I'll come up with a first aid kit!\x02",
         )
     )
 
@@ -2038,7 +2038,7 @@ def main():
         0x9,
         (
             "Well, yes.\x01",
-            "……Please do not mind.\x02",
+            "… … Do not mind.\x02",
         )
     )
 
@@ -2193,7 +2193,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10400Fやあ、Archbishop Ellarda。\x01",
+            "#10400FHi, Archbishop Ellarda.\x01",
             "Long time no see.\x02",
         )
     )
@@ -2214,7 +2214,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Sister · Leaseを隠れ蓑に、\x01",
+            "With Sister · Lease hiding behind,\x01",
             "This eyes of me\x01",
             "That is why it was devastated.\x02",
         )
@@ -2314,7 +2314,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "このI also cooled my head\x01",
+            "I also cooled my head\x01",
             "Time to look back on yourself\x01",
             "It seems necessary.\x02",
         )
@@ -2336,7 +2336,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "……彼女はSister Marbleの\x01",
+            "…… She is Sister Marble's\x01",
             "You seem to be helping.\x02",
         )
     )
@@ -2345,7 +2345,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "Sister · Leaseですか？\x02",
+        "Sister · Lease?\x02",
     )
 
     CloseMessageWindow()
@@ -2397,7 +2397,7 @@ def main():
         0x9,
         (
             "HM……\x01",
-            "Sister · Leaseに\x01",
+            "To Sister Lease\x01",
             "Have you leave a business trip tomorrow?\x02",
         )
     )
@@ -2418,7 +2418,7 @@ def main():
         0xD,
         (
             "Oh, the Archbishop.\x01",
-            "Sister · Leaseが何か……？\x02",
+            "What is Sister · Lease …?\x02",
         )
     )
 
@@ -2584,7 +2584,7 @@ def main():
         0xFE,
         (
             "Still,\x01",
-            "Archbishop Ellardaに\x01",
+            "To Archbishop Ellarda\x01",
             "I am willing to follow.\x02",
         )
     )
@@ -2802,7 +2802,7 @@ def main():
         0xFE,
         (
             "Not only to others, but also tough\x01",
-            "律することができるArchbishop Ellardaは、\x01",
+            "Archbishop Ellarda, who can rule,\x01",
             "He is the most respected person for me.\x02",
         )
     )
@@ -3184,7 +3184,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Keyaちゃんの理解力は\x01",
+            "Kaea's understanding power is\x01",
             "There are wonderful things.\x02",
         )
     )
@@ -3216,7 +3216,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Keyaちゃんは、ともすれば\x01",
+            "Ka'aa, if you do\x01",
             "Problems that even adults would consider\x01",
             "I will understand Sararito … …\x02",
         )
@@ -3247,8 +3247,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Archbishop Ellardaは、\x01",
-            "新しく来たSister · Leaseと\x01",
+            "Archbishop Ellarda,\x01",
+            "With the new Sister Lease\x01",
             "It seems they are visiting.\x02",
         )
     )
@@ -3284,7 +3284,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister · Leaseの名前に、\x01",
+            "To the name of Sister Lease,\x01",
             "Archbishop was a little surprised\x01",
             "It seems like ……\x02",
         )
@@ -3421,7 +3421,7 @@ def main():
         0xFE,
         (
             "Well, for the time Sunday school restarted\x01",
-            "Sister Marbleと授業内容を\x01",
+            "Sister · Marble with class content\x01",
             "Should I consult with you?\x02",
         )
     )
@@ -3485,7 +3485,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "先日、Sister · Leaseが\x01",
+            "The other day, Sister Lease\x01",
             "I left the crossbell.\x02",
         )
     )
@@ -3529,7 +3529,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "先日、Sister · Leaseが\x01",
+            "The other day, Sister Lease\x01",
             "I left the crossbell.\x02",
         )
     )
@@ -3681,7 +3681,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あとでSister Marbleに\x01",
+            "Later to Sister Marble\x01",
             "I have to consult the lesson content.\x02",
         )
     )
@@ -3696,7 +3696,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "Sister Marbleに御用ですか？\x02",
+        "Do you have a sister marble?\x02",
     )
 
     CloseMessageWindow()
@@ -3714,7 +3714,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今日はSister Juzyに\x01",
+            "Today is Sister Juju\x01",
             "It seems to teach the way of teaching,\x01",
             "I may not be able to take my hand … …\x02",
         )
@@ -3730,7 +3730,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister Marbleはたった今、\x01",
+            "Sister Marble just now,\x01",
             "I am in the middle of an older class.\x02",
         )
     )
@@ -3740,7 +3740,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今日はSister Juzyの\x01",
+            "Today is Sister Juju's\x01",
             "Because it also serves as an education,\x01",
             "You may not be able to take your hand.\x02",
         )
@@ -3760,8 +3760,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今日は、Sister Juzyが\x01",
-            "Sister Marbleに授業のやり方を\x01",
+            "Today, Sister Juju\x01",
+            "Sister · Marble on how to teach classes\x01",
             "It seems they are learning.\x02",
         )
     )
@@ -3772,8 +3772,8 @@ def main():
         0xFE,
         (
             "During this time, a business trip to Mainz\x01",
-            "Sister · Leaseに任せたことが\x01",
-            "いい刺激になったLooks like it.\x02",
+            "I leave it to Sister Lease.\x01",
+            "It sounds like a good stimulation.\x02",
         )
     )
 
@@ -3798,7 +3798,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister Juzyは\x01",
+            "Sister Juju\x01",
             "I have a talent for children.\x02",
         )
     )
@@ -3828,7 +3828,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister · Leaseが\x01",
+            "Sister · Lease\x01",
             "Earlier on Sunday school business trip\x01",
             "It seems they came back.\x02",
         )
@@ -3864,7 +3864,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister · Leaseが\x01",
+            "Sister · Lease\x01",
             "Earlier on Sunday school business trip\x01",
             "It seems they came back.\x02",
         )
@@ -3875,7 +3875,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今はSister Marbleの所へ\x01",
+            "Now to Sister · Marble\x01",
             "I'm going to report.\x02",
         )
     )
@@ -3893,7 +3893,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister · Leaseは今日、\x01",
+            "Sister Lease today,\x01",
             "Sunday school in the direction of Mainz\x01",
             "I'm going on a business trip.\x02",
         )
@@ -3939,7 +3939,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister · Lease、\x01",
+            "Sister · Lease,\x01",
             "Even if I come back from my business trip soon\x01",
             "It's a good time, but ….\x02",
         )
@@ -3974,8 +3974,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Archbishop Ellarda……\x01",
-            "以前からSister · Leaseのことを\x01",
+            "Archbishop Ellarda … …\x01",
+            "From Sister Lease as before\x01",
             "It seems to be bothering to burn.\x02",
         )
     )
@@ -4038,7 +4038,7 @@ def main():
         0xFE,
         (
             "By the way, today,\x01",
-            "Sister · Leaseに旧市街へ\x01",
+            "Sister · Lease to the old city\x01",
             "I'm having a business trip.\x02",
         )
     )
@@ -4054,7 +4054,7 @@ def main():
         0xFE,
         (
             "By the way, today,\x01",
-            "Sister · Leaseに旧市街へ\x01",
+            "Sister · Lease to the old city\x01",
             "I'm having a business trip.\x02",
         )
     )
@@ -4088,7 +4088,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister · Leaseはとても\x01",
+            "Sister · lease is very\x01",
             "It is early to memorize the job ……\x01",
             "We have been helped a lot.\x02",
         )
@@ -4099,7 +4099,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Archbishop Ellarda……\x01",
+            "Archbishop Ellarda … …\x01",
             "Anything to worry about her\x01",
             "Is it there?\x02",
         )
@@ -4145,7 +4145,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister · Leaseは\x01",
+            "Sister · Lease\x01",
             "It was kind of calm,\x01",
             "It is a very atmosphereful person.\x02",
         )
@@ -4212,7 +4212,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister · Leaseは\x01",
+            "Sister · Lease\x01",
             "It was kind of calm,\x01",
             "It is a very atmosphereful person.\x02",
         )
@@ -4223,7 +4223,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister Juzyにとっても\x01",
+            "Also for Sister Juju\x01",
             "It is going to be a nice stimulation.\x02",
         )
     )
@@ -4798,7 +4798,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "Archbishop Ellardaは\x01",
+            "Archbishop Ellarda\x01",
             "Because it is a very strict person,\x01",
             "There are many conflicts in the church.\x02",
         )
@@ -4981,7 +4981,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "ここはArchbishop Ellardaの\x01",
+            "Here is Archbishop Ellarda\x01",
             "I am in the office.\x02",
         )
     )
@@ -6009,7 +6009,7 @@ def main():
         (
             "I am a trading trader.\x01",
             "To pray for business here,\x01",
-            "よく来るようにYou are doing.\x02",
+            "It is trying to come often.\x02",
         )
     )
 
@@ -6091,13 +6091,13 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04400FYes, that is the place.\x02\x03",
+            "#04400FYes, pretty soon\x02\x03",
             "#04408F…… To this mass,\x01",
             "Especially many visitors\x01",
             "You seem to be visiting.\x02\x03",
             "My precious place was attacked,\x01",
             "Fearfulness to be hurt ……\x02\x03",
-            "#04403F…… I also understand it.\x02",
+            "#04403FI understand it too\x02",
         )
     )
 
@@ -6105,7 +6105,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105FMr. Lease ……\x02",
+        "#00105FReis…\x02",
     )
 
     CloseMessageWindow()
@@ -6140,7 +6140,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00200F(While staying ….?\x02",
+        "#00200F(While you're here…)\x02",
     )
 
     CloseMessageWindow()
@@ -6440,7 +6440,7 @@ def main():
             "#04400F…… Indeed, this education\x01",
             "You seem to be quite moving.\x02\x03",
             "#04404FTruly cutting edge\x01",
-            "近代都市Is that so?\x02",
+            "Is it a modern city?\x02",
         )
     )
 
@@ -6529,7 +6529,7 @@ def main():
         0xA,
         (
             "#04403FOh really……\x02\x03",
-            "#04400Fあの、Sister Marble。\x01",
+            "#04400FUmm, Sister Marble.\x01",
             "Will you do me a favor……\x02",
         )
     )
@@ -6730,7 +6730,7 @@ def main():
         0x8,
         (
             "To that big tree … …\x01",
-            "Keyaちゃんがいるのですね？\x02",
+            "Is Ka'a-chan there?\x02",
         )
     )
 
@@ -6772,7 +6772,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Keyaちゃんの保護者として、\x01",
+            "As a guardian of Ka'aa,\x01",
             "Be sure to regain it in your hands.\x01",
             "……Sounds good?\x02",
         )
@@ -6797,7 +6797,7 @@ def main():
         0x8,
         (
             "Regardless of circumstances,\x01",
-            "Keyaちゃんには\x01",
+            "To Kea - chan\x01",
             "We still need you.\x02",
         )
     )
@@ -6807,7 +6807,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Keyaちゃんにとっても、\x01",
+            "For Kia-chan,\x01",
             "It should be the same …\x02",
         )
     )
@@ -6834,7 +6834,7 @@ def main():
         0x8,
         (
             "Regardless of circumstances,\x01",
-            "Keyaちゃんには\x01",
+            "To Kea - chan\x01",
             "We still need you.\x02",
         )
     )
@@ -6906,7 +6906,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ところで……Keyaちゃんは、\x01",
+            "By the way … Ka'aa,\x01",
             "I wonder if they are with you?\x02",
         )
     )
@@ -6962,7 +6962,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "Keyaちゃん……心配ですね。\x02",
+        "Kia-chan … I am worried.\x02",
     )
 
     CloseMessageWindow()
@@ -7036,7 +7036,7 @@ def main():
         0x8,
         (
             "Lloyd …\x01",
-            "Keyaちゃんは大丈夫ですか？\x02",
+            "Is Kei-chan OK?\x02",
         )
     )
 
@@ -7096,7 +7096,7 @@ def main():
         0x8,
         (
             "Lloyd, as a guardian\x01",
-            "しっかりとKeyaちゃんを\x01",
+            "Firmly Kia-chan\x01",
             "I will watch over you.\x02",
         )
     )
@@ -7129,7 +7129,7 @@ def main():
         0x8,
         (
             "Lloyd, as a guardian\x01",
-            "しっかりとKeyaちゃんを\x01",
+            "Firmly Kia-chan\x01",
             "I will watch over you.\x02",
         )
     )
@@ -7244,7 +7244,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "今日はSister Hatinaに、\x01",
+            "Today to Sister Hatina,\x01",
             "Sunday school to Almorika village\x01",
             "I am going on a business trip.\x02",
         )
@@ -7280,7 +7280,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "今日はSister Hatinaに、\x01",
+            "Today to Sister Hatina,\x01",
             "Sunday school to Almorika village\x01",
             "I am going on a business trip.\x02",
         )
@@ -7592,7 +7592,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Sister Juzyの授業は\x01",
+            "Sister Juju's lesson\x01",
             "Still, it is frustrating,\x01",
             "As for hard work, it is a passing score.\x02",
         )
@@ -7608,7 +7608,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Sister Juzyの授業は\x01",
+            "Sister Juju's lesson\x01",
             "Still it is frustrating\x01",
             "As for hard work, it is a passing score.\x02",
         )
@@ -7675,7 +7675,7 @@ def main():
         (
             "His Highness, Claudia,\x01",
             "Libert's strange thing a while ago\x01",
-            "解決に貢献したI agree.\x02",
+            "It seems they contributed to the solution.\x02",
         )
     )
 
@@ -7925,7 +7925,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ふふ、Keyaちゃん。\x01",
+            "Huhu, Ka'aa-chan.\x01",
             "Next senior class\x01",
             "We look forward to.\x02",
         )
@@ -7947,7 +7947,7 @@ def main():
         0x153,
         (
             "#01109FYeah, I understand.\x01",
-            "Keya、がんばって予習するね！\x02",
+            "Kaoru, I will do my best to prepare!\x02",
         )
     )
 
@@ -7991,7 +7991,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Keyaちゃんが来てから、\x01",
+            "Since Ka'aa came,\x01",
             "Also in senior class lessons\x01",
             "More vibrancy came out.\x02",
         )
@@ -8089,7 +8089,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000Fお久しぶりです、Marble teacher.\x02",
+        "#00000FLong time no see, mr. marble.\x02",
     )
 
     CloseMessageWindow()
@@ -8107,7 +8107,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ふふ、さっきKeyaちゃんが\x01",
+            "Huhu, Ka'a-chan ago\x01",
             "\"Came back~! \"\x01",
             "Because I was talking happily.\x02",
         )
@@ -8207,7 +8207,7 @@ def main():
     ChrTalk(
         0x13,
         (
-            "もう、Ryuってば。\x01",
+            "I already have Ryu.\x01",
             "It seems like a reunited meeting\x01",
             "Let 's give it water.\x02",
         )
@@ -8457,7 +8457,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister Marbleの教えは\x01",
+            "The teachings of Sister · Marble\x01",
             "It really becomes study.\x02",
         )
     )
@@ -8486,7 +8486,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "やっぱりSister Marbleの授業は\x01",
+            "After all Sister · Marble classes\x01",
             "It will be useless …\x02",
         )
     )
@@ -8512,7 +8512,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister Marbleの授業を見て\x01",
+            "Look at Sister · Marble classes\x01",
             "I am studying how to teach.\x02",
         )
     )
@@ -8634,9 +8634,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sister · Leaseって、\x01",
+            "Sister · lease,\x01",
             "Several years in Alteria\x01",
-            "シスターをやってたLooks like it.\x02",
+            "You seem to have done sister.\x02",
         )
     )
 
@@ -8670,7 +8670,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "はあ、まさかSister · Leaseが\x01",
+            "Ha, Sister · Reese\x01",
             "I was a senior for years.\x02",
         )
     )
@@ -8722,7 +8722,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "Sister Marble。\x01",
+            "Sister marble.\x01",
             "Today I learned a lot.\x02",
         )
     )
@@ -8780,9 +8780,9 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#01100FKeya、日曜学校大好きだよ。\x02\x03",
+            "#01100FKa'a, I love Sunday school.\x02\x03",
             "#01109FI can study various things everyday,\x01",
-            "RyuやHenryたちと\x01",
+            "With Ryu and Henry\x01",
             "It is fun to see you.\x02",
         )
     )
@@ -8878,7 +8878,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "Ryu、ちゃんとしなよ。\x02",
+        "Ryu, do it properly.\x02",
     )
 
     CloseMessageWindow()
@@ -8886,7 +8886,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "このままじゃKeyaちゃんに\x01",
+            "Ka'aa as it is\x01",
             "All I can do is put it in?\x02",
         )
     )
@@ -8911,7 +8911,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "僕も、Ryuのことばかり\x01",
+            "Besides, I'm also talking about Ryu\x01",
             "I can not say.\x02",
         )
     )
@@ -8921,7 +8921,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Keyaちゃんに\x01",
+            "To Kea-chan\x01",
             "I have to try not to lose.\x02",
         )
     )
@@ -8959,7 +8959,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ねえKeyaちゃん……\x01",
+            "Hey, Kea-chan ……\x01",
             "What should I do here?\x02",
         )
     )
@@ -9015,7 +9015,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fやあ、Panceじゃないか。\x01",
+            "#00000FHey, is not it panacey?\x01",
             "Have you been doing fine?\x02",
         )
     )
@@ -9256,8 +9256,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ちぇっ、Hamillのやつ\x01",
-            "Keyaにいいトコ見せたいからって\x01",
+            "Chee, Hamir's fellow\x01",
+            "I want to show off to Kea\x01",
             "Recently I'm tiny.\x02",
         )
     )
@@ -9378,7 +9378,7 @@ def main():
         0xFE,
         (
             "Ha ~ …\x01",
-            "Keyaちゃん、かわいいなあ。\x01",
+            "Ka'a-chan, you are cute.\x01",
             "I am glad that I could study together.\x02",
         )
     )
@@ -9667,7 +9667,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "（Linally……\x01",
+            "(Linally …\x01",
             "You are my fault and I\x01",
             "I got angry … …)\x02",
         )
@@ -9887,7 +9887,7 @@ def main():
         0xFE,
         (
             "Well, today.\x01",
-            "あのKeyaちゃんって子、\x01",
+            "That kea-chan is a child,\x01",
             "You have not come.\x02",
         )
     )
@@ -9923,7 +9923,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "いつもはKeyaちゃん、\x01",
+            "Always Kaaya,\x01",
             "I'm sitting in front of me.\x02",
         )
     )
@@ -10128,7 +10128,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "部屋の中でSister · Leaseが\x01",
+            "Sister · lease in the room\x01",
             "It seems that he is greeting the archbishop.\x07\x00\x02",
         )
     )
@@ -10140,7 +10140,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F……ひとまずKeyaを迎えに行こう。\x01",
+            "#00000F… … Let's pick up Ka'aa for the moment.\x01",
             "I should be in the classroom at Sunday school.\x02",
         )
     )
@@ -10175,7 +10175,7 @@ def main():
         0x102,
         (
             "#12P#00100FFor sure,\x01",
-            "Archbishop Ellardaのお部屋よね。\x02",
+            "It is a room of Archbishop Ellarda.\x02",
         )
     )
 
@@ -10257,7 +10257,7 @@ def main():
         0x9,
         (
             "#11PLet me be welcomed,\x01",
-            "Sister · Lease。\x01",
+            "Sister · Lease.\x01",
             "Please do your best from now on.\x02",
         )
     )
@@ -10314,7 +10314,7 @@ def main():
         (
             "#12P#00103F……Everyone.\x01",
             "I do not like eavesdropping.\x02\x03",
-            "#00100F今はKeyaちゃんを\x01",
+            "#00100FRight now Ka'a-chan\x01",
             "Let's pick it up.\x02",
         )
     )
@@ -10380,7 +10380,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10100FKeyaちゃん、\x01",
+            "#6P#10100FKa'a-chan,\x01",
             "Are you studying hard?\x02",
         )
     )
@@ -10392,7 +10392,7 @@ def main():
         (
             "#11P#01110FYup!\x02\x03",
             "#01109FI can study various things everyday,\x01",
-            "RyuやHenryたちと\x01",
+            "With Ryu and Henry\x01",
             "It is fun to meet.\x02",
         )
     )
@@ -10421,7 +10421,7 @@ def main():
         (
             "#6P#00004FOh, I was worried at first, but …\x01",
             "I think it was honest fear.\x02\x03",
-            "#00000FKeya、しっかりがんばるんだぞ。\x02",
+            "#00000FKaaa, you are working hard.\x02",
         )
     )
 
@@ -10590,7 +10590,7 @@ def main():
         (
             "#01104F#11PWell, this way of doing\x01",
             "Because it was somewhat comfortable.\x02\x03",
-            "#01110FKeya、まちがってた？\x02",
+            "#01110FKa'a, were you mistaken?\x02",
         )
     )
 
@@ -10675,7 +10675,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10105F#6PKeyaちゃん、凄い……\x02\x03",
+            "#10105F#6PKa'a-chan, amazing … …\x02\x03",
             "#10106FThat problem, if I were you\x01",
             "It seems quite handy, but …\x02",
         )
@@ -10698,7 +10698,7 @@ def main():
         0x101,
         (
             "#00004F#5POh, indeed\x01",
-            "うちのKeyaだよな……\x02",
+            "It's keyer of us ……\x02",
         )
     )
 
@@ -10707,7 +10707,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00109F#5Pそうね、Keyaちゃんなら\x01",
+            "#00109F#5PWell, Kaea-chan\x01",
             "Even if I could do that … ….\x02",
         )
     )
@@ -10831,7 +10831,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "えっと、Keya？\x02",
+        "Er, key ah?\x02",
     )
 
     CloseMessageWindow()
@@ -10943,7 +10943,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6Pいや、Keyaが遅いから\x01",
+            "#00006F#6PNo, because Kea is slow.\x01",
             "I came to pick you up ….\x02",
         )
     )
@@ -10955,7 +10955,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00102F#5Pそ、それよりKeyaちゃん。\x01",
+            "#00102F#5PWell, than that, Ka'a.\x01",
             "Why are older class lessons?\x02",
         )
     )
@@ -11037,7 +11037,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00103F#5PまさかKeyaちゃんが\x01",
+            "#00103F#5PNo way, Ka'a-chan\x01",
             "I was smart so far … …\x02",
         )
     )
@@ -11049,7 +11049,7 @@ def main():
         (
             "#01112F#11PEr …\x01",
             "Sorry to be sick … ….?\x02\x03",
-            "#01106FKeya、まだコドモなのに\x01",
+            "#01106FKa'a, you're still a kid,\x01",
             "I studied mathematics … …\x02",
         )
     )
@@ -11060,7 +11060,7 @@ def main():
         0x101,
         (
             "#00012F#6PDo not you apologize, do you?\x02\x03",
-            "#00002FKeyaが興味あるんだったら\x01",
+            "#00002FIf Ka'aa is interested\x01",
             "I will not disagree.\x02",
         )
     )
@@ -11088,7 +11088,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#6Pただし、Ryuたちと一緒の\x01",
+            "#00004F#6PHowever, with Ryuu\x01",
             "You will receive classes properly, right?\x02\x03",
             "#00000FWhat you can get at Sunday School\x01",
             "It's not just studying.\x02",
@@ -11101,7 +11101,7 @@ def main():
         0x153,
         (
             "#01109F#11PYeah, I know!\x02\x03",
-            "Ryuとpeachに、わからない所を\x01",
+            "In Ryu and peach, a place you do not know\x01",
             "I also enjoy telling you!\x02",
         )
     )
@@ -11118,7 +11118,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10102F#6PKeyaちゃん……\x01",
+            "#10102F#6PKa'a-chan ……\x01",
             "You are really smart, are not you?\x02",
         )
     )
@@ -11293,7 +11293,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00200F#5P今日はKeyaは\x01",
+            "#00200F#5PToday is Kaoru\x01",
             "I do not seem to have participated … …\x02",
         )
     )
@@ -11393,7 +11393,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#12PArchbishop Ellarda……\x02",
+        "#00105F#12PArchbishop Ellarda … …\x02",
     )
 
     CloseMessageWindow()
@@ -11425,7 +11425,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5PSister Marbleに用かね？\x02",
+        "#5PIs it for sister marble?\x02",
     )
 
     CloseMessageWindow()
@@ -11612,7 +11612,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10308F#11P…………………………………\x02",
+        "#10308F#11P…………………………………….\x02",
     )
 
     CloseMessageWindow()
@@ -11979,7 +11979,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#11Pああ、Sister Marbleに\x01",
+            "#11POh, to Sister Marble\x01",
             "It is useless where I heard it.\x02",
         )
     )
@@ -12328,7 +12328,7 @@ def main():
 
     NpcTalk(
         0xA,
-        "Daughterの声",
+        "Daughter's voice",
         (
             "#1P#2S… … Maybe, in ordinary scriptures\x01",
             "Details should not be listed.\x02",
@@ -12904,7 +12904,7 @@ def main():
         0x101,
         (
             "#00003F(That's right … let's ask.)\x02\x03",
-            "#00000FWell, I have consultation with Mr. Reese … …\x02",
+            "#00000FHey Reis, can we ask you for a favor\x02",
         )
     )
 
@@ -12928,13 +12928,13 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04400FYes, that is the place.\x02\x03",
+            "#04400FYes, pretty soon\x02\x03",
             "#04400F…… To this mass,\x01",
             "Especially many visitors\x01",
             "You seem to be visiting.\x02\x03",
             "My precious place was attacked,\x01",
             "Fearfulness to be hurt ……\x02\x03",
-            "#04403F…… I also understand it.\x02",
+            "#04403FI understand it too\x02",
         )
     )
 
@@ -12942,7 +12942,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105FMr. Lease ……\x02",
+        "#00105FReis…\x02",
     )
 
     CloseMessageWindow()
@@ -12977,7 +12977,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00200F(While staying ….?\x02",
+        "#00200F(While you're here…)\x02",
     )
 
     CloseMessageWindow()
@@ -12998,7 +12998,7 @@ def main():
         0xA,
         (
             "#04405Fby the way……\x01",
-            "もしかしてDo you need something for me?\x02",
+            "Do you mean something to me?\x02",
         )
     )
 
@@ -13006,7 +13006,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00012FWell, well, well …\x02",
+        "#00012FU-uhh, well\x02",
     )
 
     CloseMessageWindow()
@@ -13027,7 +13027,7 @@ def main():
         (
             "#00003F(That's right ……\x01",
             "Let's go ask someone after we came. )\x02\x03",
-            "#00000FWell, I have consultation with Mr. Reese … …\x02",
+            "#00000FHey Reis, can we ask you for a favor\x02",
         )
     )
 
@@ -13054,7 +13054,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04405FMiscon … …?\x02\x03",
+            "#04405FA pagent?\x02\x03",
             "#04402FCharity event is\x01",
             "I think it's a very good thing … …\x01",
             "I am busy today.\x02\x03",
@@ -13067,7 +13067,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106FWell, that's right, is not it …?\x02",
+        "#00106FWell, I understand that\x02",
     )
 
     CloseMessageWindow()
@@ -13097,7 +13097,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105FWell, other than Miscon is certain ……\x02",
+        "#10105FUhh, besides the pagent…\x02",
     )
 
     CloseMessageWindow()
@@ -13141,8 +13141,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012FWell, well … it does not matter.\x02\x03",
-            "#00004F(Have you been hungry for a party party …?)\x02",
+            "#00012FW-well it's fine…\x02\x03",
+            "#00004F(Even if she can just come to the party)\x02",
         )
     )
 
@@ -13150,7 +13150,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10309F(Ahaha, it looks like.)\x02",
+        "#10309F(Haha, true)\x02",
     )
 
     CloseMessageWindow()
@@ -13169,7 +13169,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FYes, I understand.\x02",
+        "#00000FGot it…\x02",
     )
 
     CloseMessageWindow()
@@ -13251,7 +13251,7 @@ def main():
         0x101,
         (
             "#6P#00005FNo.\x01",
-            "そういうわけではI do not think so.\x02",
+            "I do not mean that ….\x02",
         )
     )
 
@@ -13338,7 +13338,7 @@ def main():
         0x101,
         (
             "#6P#00012FWell then, well then …\x02\x03",
-            "#00000FArchbishop Ellarda。\x01",
+            "#00000FArchbishop Ellarda.\x01",
             "Let me look under that teacher\x01",
             "Could you please?\x02",
         )
@@ -13370,7 +13370,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドたちはArchbishop Ellardaに\x01",
+            "Lloyd's to Archbishop Ellarda\x01",
             "I explained the circumstances and examined the teaching.\x07\x00\x02",
         )
     )
@@ -13470,7 +13470,7 @@ def main():
         0x102,
         (
             "#6P#00100FThis is bell pretty\x01",
-            "『ミステル』ってdollだったはずよ。\x02",
+            "\"Mister\" should have been a doll.\x02",
         )
     )
 
@@ -13533,7 +13533,7 @@ def main():
             "There should be a meaning \"a guard.\"\x02\x03",
             "#00103F\"To the west\"\x01",
             "\"The one who is in the west side of Crossbells\"\x01",
-            "っていうことなんじゃI wonder if.\x02",
+            "I wonder if that is what I mean.\x02",
         )
     )
 
@@ -13629,7 +13629,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#16Iローゼンベルクdoll・Ｍ\x07\x00",
+            "#16IRosenberg doll · M\x07\x00",
             "I got it.\x02",
         )
     )

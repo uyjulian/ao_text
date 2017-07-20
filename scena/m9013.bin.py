@@ -136,7 +136,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F#11P#30Where……\x02\x03",
+            "#00005F#11P#30WThis is…\x02\x03",
             "#00008F……Everyone……\x01",
             "Where did Kiaa go?\x02",
         )
@@ -159,7 +159,7 @@ def main():
             "It looks like it's not an ordinary place.\x02\x03",
             "#00008FEven as I move around indiscriminately\x01",
             "I heard he will not go ……\x02\x03",
-            "#00003F……………………………………\x02",
+            "#00003F….\x02",
         )
     )
 
@@ -180,7 +180,7 @@ def main():
             "Even though there is not such a place ……\x02\x03",
             "#00000FWhy? … Anxiety and fear are\x01",
             "I do not feel such a mysterious thing …\x02\x03",
-            "#00008F…… What on earth is this place …?\x02",
+            "#00008FWhat is this place…?\x02",
         )
     )
 
@@ -240,7 +240,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6P#30W─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─\x02",
+        "#00005F#6P#30W…..\x02",
     )
 
     CloseMessageWindow()
@@ -252,7 +252,7 @@ def main():
     NpcTalk(
         0x8,
         "Is it? Is it? Is it?",
-        "#11P#30WWhat is, Lloyd?\x02",
+        "#11P#30WWhat's wrong Lloyd?\x02",
     )
 
     CloseMessageWindow()
@@ -275,8 +275,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00011F#6P#40WOh, older brother ……\x02\x03",
-            "#00002FBrother is … ….?\x02",
+            "#00011F#6P#40WB-Brother…\x02\x03",
+            "#00002FAre you my … Brother?\x02",
         )
     )
 
@@ -330,7 +330,7 @@ def main():
             "It seems to be part of the inner face of that child.\x02\x03",
             "#07808FIncluding all possibilities,\x01",
             "A world of \"zero\" that can reconstruct the world ……\x02\x03",
-            "#07800FApparently it seems to be such a place.\x02",
+            "#07800FIt looks like that's the kind of place\x02",
         )
     )
 
@@ -339,7 +339,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F#6P#30WThe world of \"zero\" …\x02\x03",
+            "#00005F#6P#30WThe World of Zero?\x02\x03",
             "#00013FOnii-chan …\x01",
             "…… Big brother is also appearing\x01",
             "Is there a relationship?\x02",
@@ -369,7 +369,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#6P#30WBig brother …… Revive! Is it?\x02",
+        "#00011F#6P#30WBrother… resurrected?!\x02",
     )
 
     CloseMessageWindow()
@@ -382,7 +382,7 @@ def main():
             "#07800F#11P#30WWell exactly, the world now\x01",
             "\"In the world where I did not die\"\x01",
             "I guess it will be spinning.\x02\x03",
-            "#07802F─ ─ How is Lloyd?\x02\x03",
+            "#07802FWhat do you think, Lloyd?\x02\x03",
             "#07809FWould you be happy if your older brother comes back?\x01",
             "Or do you want to do it?\x02",
         )
@@ -393,10 +393,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002F#6P#40W…………my mother……………\x02\x03",
+            "#00002F#6P#40WAhaha…\x02\x03",
             "#00004FSuch a … … I'm happy.\x01",
             "… … It will be decided … ….?\x02\x03",
-            "#00008F……… But … … … it is …………\x02",
+            "#00008FBut… that is…\x02",
         )
     )
 
@@ -409,7 +409,7 @@ def main():
             "#07804F#11P#30W── Time after I died,\x01",
             "The efforts of the people who have worked there\x01",
             "It will also be denying … ….\x02\x03",
-            "#07810FWell, of course it will be.\x02",
+            "#07810FWell, of course that's what would happen\x02",
         )
     )
 
@@ -417,7 +417,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#6P#40W…………………….\x02",
+        "#00008F#6P#40W….\x02",
     )
 
     CloseMessageWindow()
@@ -425,11 +425,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#07803F#11P#30W\"The mission support section\" was … …\x02\x03",
+            "#07803F#11P#30WThe Special Support Section, was it?\x02\x03",
             "#07802FI joined and together with you\x01",
             "The world that solves various cases also\x01",
             "Perhaps it was possible … …\x02\x03",
-            "#07804FThat is not your world right now.\x02",
+            "#07804FBut that's not your world now.\x02",
         )
     )
 
@@ -438,11 +438,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002F#6P#40W…………Ah………………\x02\x03",
+            "#00002F#6P#40WYeah……\x02\x03",
             "#00006FIf there really was such a world,\x01",
             "No matter how pleasant and happy ……\x01",
             "…… I think I'll be happy, but …\x02\x03",
-            "#00008F#50W…… Still … … I … … …\x02",
+            "#00008F#50WEven so… I…\x02",
         )
     )
 
@@ -462,7 +462,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#07804F#11P#30WOh ─ ─ That's fine.\x02\x03",
+            "#07804F#11P#30WYeah… that's enough\x02\x03",
             "#07800FI can say that you can say so\x01",
             "I am proud.\x02",
         )
@@ -501,7 +501,7 @@ def main():
         (
             "#00015F#6P#50WTo my older brother\x01",
             "I do not have amenable memory …\x02\x03",
-            "#00008F…… regardless of Cecil's older sister ……\x02",
+            "#00008FI was to Cecil I guess\x02",
         )
     )
 
@@ -509,7 +509,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#07804F#11P#40WHaha … that was right.\x02",
+        "#07804F#11P#40WHaha, I guess so\x02",
     )
 
     CloseMessageWindow()
@@ -561,7 +561,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#07804F#11P#30WHaha, there is no difference.\x02\x03",
+            "#07804F#11P#30WHaha, no doubt\x02\x03",
             "#07800FWell you too, your opponent\x01",
             "Because I seemed to have found it properly\x01",
             "I do not care too much.\x02\x03",
@@ -594,7 +594,7 @@ def main():
             "I grew up as a good boy and I'm nothing more than anything.\x02\x03",
             "#07800FRandy is stupid too\x01",
             "It looks pretty funny.\x02\x03",
-            "#07809FYou seem to have been blessed with good friends?\x02",
+            "#07809FLooks like you found some great friends\x02",
         )
     )
 
@@ -608,7 +608,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#07804F#11P#30WHaha, there is no difference.\x02\x03",
+            "#07804F#11P#30WHaha, no doubt\x02\x03",
             "#07800FWell you too, your opponent\x01",
             "Because I seemed to have found it properly\x01",
             "I do not care too much.\x02\x03",
@@ -662,7 +662,7 @@ def main():
             "Was it a lady with action ability?\x02\x03",
             "#07800FRandy is stupid too\x01",
             "It looks pretty funny.\x02\x03",
-            "#07809FYou seem to have been blessed with good friends?\x02",
+            "#07809FLooks like you found some great friends\x02",
         )
     )
 
@@ -676,7 +676,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#07804F#11P#30WHaha, there is no difference.\x02\x03",
+            "#07804F#11P#30WHaha, no doubt\x02\x03",
             "#07800FWell you too, your opponent\x01",
             "Because I seemed to have found it properly\x01",
             "I do not care too much.\x02\x03",
@@ -712,7 +712,7 @@ def main():
             "Was it a lady with action ability?\x02\x03",
             "Randy is stupid too\x01",
             "It looks pretty funny.\x02\x03",
-            "#07809FYou seem to have been blessed with good friends?\x02",
+            "#07809FLooks like you found some great friends\x02",
         )
     )
 
@@ -726,7 +726,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#07804F#11P#30WHaha, there is no difference.\x02\x03",
+            "#07804F#11P#30WHaha, no doubt\x02\x03",
             "#07800FWell you too, your opponent\x01",
             "Because I seemed to have found it properly\x01",
             "I do not care too much.\x02\x03",
@@ -764,7 +764,7 @@ def main():
             "Was it a lady with action ability?\x02\x03",
             "Randy is stupid too\x01",
             "It looks pretty funny.\x02\x03",
-            "#07809FYou seem to have been blessed with good friends?\x02",
+            "#07809FLooks like you found some great friends\x02",
         )
     )
 
@@ -778,7 +778,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#07804F#11P#30WHaha, there is no difference.\x02\x03",
+            "#07804F#11P#30WHaha, no doubt\x02\x03",
             "#07802FWell you too, your opponent\x01",
             "Have you found it properly?\x02\x03",
             "Hanging with each other's buddies\x01",
@@ -827,7 +827,7 @@ def main():
             "I grew up as a good boy and I'm nothing more than anything.\x02\x03",
             "#07800FEli is a talented person\x01",
             "Was it a lady with action ability?\x02\x03",
-            "#07809FYou seem to have been blessed with good friends?\x02",
+            "#07809FLooks like you found some great friends\x02",
         )
     )
 
@@ -841,7 +841,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#07804F#11P#30WHaha, there is no difference.\x02\x03",
+            "#07804F#11P#30WHaha, no doubt\x02\x03",
             "#07802FWell you too, your opponent\x01",
             "Have you found it properly?\x02\x03",
             "There are bastards hanging with each other\x01",
@@ -893,7 +893,7 @@ def main():
             "Was it a lady with action ability?\x02\x03",
             "Randy is stupid too\x01",
             "It looks pretty funny.\x02\x03",
-            "#07809FYou seem to have been blessed with good friends?\x02",
+            "#07809FLooks like you found some great friends\x02",
         )
     )
 
@@ -906,7 +906,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#07804F#11P#30WHaha, there is no difference.\x02\x03",
+            "#07804F#11P#30WHaha, no doubt\x02\x03",
             "#07803FWell you too, your opponent\x01",
             "Have you found it properly?\x02\x03",
             "#07802FHanging friends with each other\x01",
@@ -938,7 +938,7 @@ def main():
             "Was it a lady with action ability?\x02\x03",
             "Randy is stupid too\x01",
             "It looks pretty funny.\x02\x03",
-            "#07809FYou seem to have been blessed with good friends?\x02",
+            "#07809FLooks like you found some great friends\x02",
         )
     )
 
@@ -949,7 +949,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#6P#30WOh …… It is the best companion.\x02",
+        "#00002F#6P#30WYeah…they're the best friends you could ask for\x02",
     )
 
     CloseMessageWindow()
@@ -980,10 +980,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#6P#30W…… My older brother, I'm about to go.\x02\x03",
+            "#00004F#6P#30WBrother… I'm going now\x02\x03",
             "Take back the important things\x01",
             "To return to everyone's place.\x02\x03",
-            "#00000FYou can meet again someday?\x02",
+            "#00000FWe'll be able to meet again sometime right?\x02",
         )
     )
 
@@ -992,8 +992,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#07804F#11P#30WOh, of course.\x02\x03",
-            "#07810FI'm close to you.\x02\x03",
+            "#07804F#11P#30WYeah. Of course\x02\x03",
+            "#07810FI'm always nearby \x02\x03",
             "If I want to cry, I want to give up\x01",
             "It is nice to call you anytime.\x02",
         )
@@ -1004,7 +1004,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012F#6P#30WHa … … I understand.\x02\x03",
+            "#00012F#6P#30WHaha, got it\x02\x03",
             "#00002FBut no matter how painful she is\x01",
             "I think that \"wall\" can be overcome.\x02\x03",
             "#00004FEveryone is there, beyond that\x01",
@@ -1019,7 +1019,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#07809F#11P#30WHaha, saying cheeky.\x02\x03",
+            "#07809F#11P#30WHahah, don't get cocky\x02\x03",
             "#07804F── If you are the one you are, I will give that girl\x01",
             "It should be found in the true sense.\x02\x03",
             "#07800F#30W#11PA princess shut up in the shell\x01",
@@ -1034,8 +1034,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F#6P#30W#4SAh……!\x02\x03",
-            "#00014F#3SGoodbye - big brother!\x02",
+            "#00000F#6P#30W#4SYeah!\x02\x03",
+            "#00014F#3SFarewell… Brother!\x02",
         )
     )
 
@@ -1088,7 +1088,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#07804F#11P#30WDo not feel bad - Lloyd Bannings.\x02",
+        "#07804F#11P#30WGo all out, Lloyd Bannings.\x02",
     )
 
     CloseMessageWindow()

@@ -395,7 +395,7 @@ def main():
         0x8,
         "Soldier Furmy",
         (
-            "Douglas deputy commandは、\x01",
+            "Douglas deputy commander,\x01",
             "Today's response in Crosbell City\x01",
             "It seems that we are considering it.\x02",
         )
@@ -446,7 +446,7 @@ def main():
         0x8,
         "Soldier Furmy",
         (
-            "Douglas deputy commandは、\x01",
+            "Douglas deputy commander,\x01",
             "Today's response in Crosbell City\x01",
             "It seems that we are considering it.\x02",
         )
@@ -729,7 +729,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Douglas deputy commandは、\x01",
+            "Douglas deputy commander,\x01",
             "For a meeting of measures against terrorism\x01",
             "I headed to the Belgard gate.\x02",
         )
@@ -756,7 +756,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Douglas deputy commandは、\x01",
+            "Douglas deputy commander,\x01",
             "For a meeting of measures against terrorism\x01",
             "I headed to the Belgard gate.\x02",
         )
@@ -902,7 +902,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Douglas deputy commandは以前、\x01",
+            "Prior to Douglas,\x01",
             "It has been released and for a long time to the police school\x01",
             "I heard he was working … …\x02",
         )
@@ -939,7 +939,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Douglas deputy commandは、昔から\x01",
+            "Douglas deputy commander, from long ago\x01",
             "As a very good security guard\x01",
             "It was known.\x02",
         )
@@ -1371,7 +1371,7 @@ def main():
         (
             "In order to rebuild the guard,\x01",
             "About the proper post to the sergeant\x01",
-            "力を貸してもらうIt will be.\x02",
+            "You will be asked to lend your power.\x02",
         )
     )
 
@@ -1411,7 +1411,7 @@ def main():
         (
             "As soon as Sergeant Noel returns to the guard,\x01",
             "To properly rebuild the organization with appropriate post\x01",
-            "貢献してもらうIt will be.\x02",
+            "It will be a contribution.\x02",
         )
     )
 
@@ -1529,7 +1529,7 @@ def main():
         (
             "In order to rebuild the guard,\x01",
             "About the proper post to the sergeant\x01",
-            "力を貸してもらうIt will be.\x02",
+            "You will be asked to lend your power.\x02",
         )
     )
 
@@ -1741,7 +1741,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000Fええ、Thank you very much.\x02",
+        "#00000FYeah, thank you.\x02",
     )
 
     CloseMessageWindow()
@@ -2506,7 +2506,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10100FDouglas deputy command……\x01",
+            "#10100FDouglas deputy commander ……\x01",
             "Is cheers for good work!\x02",
         )
     )
@@ -3211,7 +3211,7 @@ def main():
         0x9,
         (
             "#11P── Once again,\x01",
-            "演習への参加It was a pain.\x02",
+            "It was a hard time to participate in the exercise.\x02",
         )
     )
 
@@ -3643,7 +3643,7 @@ def main():
         (
             "#6P#10304FHuh, I see.\x01",
             "Adult man and woman unique\x01",
-            "ドラマがあったLooks like it.\x02",
+            "It seems there was a drama.\x02",
         )
     )
 
@@ -3719,7 +3719,7 @@ def main():
         0x9,
         (
             "#11PKohon, for now tentatively …\x01",
-            "演習の件に関してはIt was a pain.\x02",
+            "It was a pain to work on the exercise.\x02",
         )
     )
 
@@ -3727,7 +3727,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11Pまた何かあったらI'm counting on you.\x02",
+        "#11PIf there is something again, I will ask you for my best regards.\x02",
     )
 
     CloseMessageWindow()
@@ -3801,7 +3801,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00000FDouglas deputy command、\x01",
+            "#6P#00000FDouglas deputy commander,\x01",
             "Is cheers for good work.\x02",
         )
     )
@@ -3831,7 +3831,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00300FWell, that's why ….\x02\x03",
+            "#6P#00300FYeah, that's right\x02\x03",
             "#00303F…… Brother Douglas,\x01",
             "I'm kind of sick.\x02",
         )
@@ -4034,7 +4034,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11POh, do not be like that.\x02",
+        "#11PYes, exactly\x02",
     )
 
     CloseMessageWindow()
@@ -4172,14 +4172,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00000FWell, thank you.\x02",
+        "#6P#00000FYes, go ahead\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#11PWell, I'll wear it.\x02",
+        "#11POh great\x02",
     )
 
     CloseMessageWindow()
@@ -4264,7 +4264,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11PPossibilities will never be low.\x02",
+        "#11PBut there might be some connection to the same mechanism\x02",
     )
 
     CloseMessageWindow()
@@ -4324,7 +4324,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10302FI understood the circumstances largely.\x02\x03",
+            "#6P#10302FI think we get the details\x02\x03",
             "#10303FEven so, after all\x01",
             "You seem to be busy, are not you?\x02\x03",
             "#10300FThis kind of work\x01",
@@ -4410,7 +4410,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11P…… Well.\x02",
+        "#11PRight\x02",
     )
 
     CloseMessageWindow()
@@ -4451,7 +4451,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00003F…… I understand the situation in general.\x02\x03",
+            "#6P#00003FI think we get the idea\x02\x03",
             "#00000FThen, \"Black Demonic Beast\"\x01",
             "Please leave the survey here.\x02",
         )
@@ -4461,14 +4461,14 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11PSorry, sorry.\x02",
+        "#11PRight. Sorry to spring this on you\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#11PI'm counting on you, the Special Affairs Division.\x02",
+        "#11PWe're counting on you, SSS\x02",
     )
 
     CloseMessageWindow()
@@ -4536,7 +4536,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00000F── These are the reasons for this request.\x02\x03",
+            "#6P#00000FThat's the end of the report\x02\x03",
             "#00003FPerhaps, no more by military dogs\x01",
             "I do not think there will be any damage.\x02",
         )
@@ -4546,7 +4546,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11P……got it……\x02",
+        "#11PI see…\x02",
     )
 
     CloseMessageWindow()
@@ -4556,7 +4556,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00012FLet me see……\x02",
+        "#6P#00012FU-uhh\x02",
     )
 
     CloseMessageWindow()
@@ -4583,7 +4583,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11P… Well, it will be good.\x02",
+        "#11PNo, it was good work\x02",
     )
 
     CloseMessageWindow()
@@ -4601,7 +4601,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10300FWell, it will be so.\x02\x03",
+            "#6P#10300FWell that's true\x02\x03",
             "#10309F\"I persuaded military dogs\"\x01",
             "Usually it is a story of a bastard.\x02",
         )
@@ -4631,7 +4631,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11P… Well, that's fine.\x02",
+        "#11PNo, that's fine\x02",
     )
 
     CloseMessageWindow()
@@ -4660,7 +4660,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00004FIt was good.\x02\x03",
+            "#6P#00004FThat's great\x02\x03",
             "#00000FAlso whenever something happens\x01",
             "please call me.\x02",
         )
@@ -4670,7 +4670,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11POh, let me do that.\x02",
+        "#11PYes, will do\x02",
     )
 
     CloseMessageWindow()
@@ -4687,14 +4687,14 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11PTry to be careful there as well.\x02",
+        "#11PTake care you all\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#6P#00000F……Yes!\x02",
+        "#6P#00000FRight!\x02",
     )
 
     CloseMessageWindow()

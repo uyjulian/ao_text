@@ -689,7 +689,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10301F……Abbasたちも\x01",
+            "#10301F…… Abbas also\x01",
             "You do not see it?\x02",
         )
     )
@@ -736,7 +736,7 @@ def main():
         0x105,
         (
             "#10304FOh … That's right.\x02\x03",
-            "#10302Fありがとう、Abbas。\x02",
+            "#10302FThank you, Abbas.\x02",
         )
     )
 
@@ -791,7 +791,7 @@ def main():
         0x105,
         (
             "#10300FGiggle\x01",
-            "ありがとう、Abbas。\x02",
+            "Thank you, Abbas.\x02",
         )
     )
 
@@ -837,7 +837,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10300Fああ……ありがとう、Abbas。\x02",
+        "#10300FOh …… Thank you, Abbas.\x02",
     )
 
     CloseMessageWindow()
@@ -897,7 +897,7 @@ def main():
         0x105,
         (
             "#10306F(Well ……\x01",
-            "  フフ、君たちAbbasを\x01",
+            "Hugh, you guys Abbas\x01",
             "What do you think? )\x02",
         )
     )
@@ -936,7 +936,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10300FAbbas、考え事かい？\x02",
+        "#10300FAbbas, are you thinking?\x02",
     )
 
     CloseMessageWindow()
@@ -1293,7 +1293,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "実は今朝、俺とBesseの２人で\x01",
+            "Actually this morning, with me and Besse\x01",
             "I saw him with that redhead … …\x02",
         )
     )
@@ -1395,7 +1395,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10300FそういえばAbbas……\x01",
+            "#10300FBy the way, Abbas …\x01",
             "Did you gather information on Wald?\x02",
         )
     )
@@ -1733,7 +1733,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今朝、Abbasがみんなを集めて\x01",
+            "This morning, Abbas gathered everyone\x01",
             "\"For the time being, I left Trinity ahead\"\x01",
             "Just saying I just went somewhere.\x02",
         )
@@ -1753,7 +1753,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FAbbasが……？\x02",
+        "#00005FIs Abbas …?\x02",
     )
 
     CloseMessageWindow()
@@ -1825,7 +1825,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ワジやAbbasも心配だけど……\x01",
+            "I am worried about Wadi and Abbas ….\x01",
             "…… Father in Ursula hospital\x01",
             "Is it alright.\x02",
         )
@@ -2191,7 +2191,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Abbasから聞いていた\x01",
+            "I was listening from Abbas\x01",
             "It was a workaround,\x01",
             "It is really effective.\x02",
         )
@@ -2208,7 +2208,7 @@ def main():
         0xFE,
         (
             "Is this a peaceful coping method …?\x01",
-            "Abbasから学ぶべきことは\x01",
+            "What you should learn from Abbas\x01",
             "There are so many.\x02",
         )
     )
@@ -2544,7 +2544,7 @@ def main():
         0xB,
         (
             "Even so … I was surprised.\x01",
-            "ワジとAbbasが教会の関係者だとは。\x02",
+            "Wasi and Abbas are officials of the church.\x02",
         )
     )
 
@@ -2609,7 +2609,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "ワ、ワジとAbbasが\x01",
+            "Wa, Wasi and Abbas\x01",
             "You are a stakeholder in the church.\x02",
         )
     )
@@ -2663,7 +2663,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "Azelは、ひ、東通りにいる\x01",
+            "Azer is in the eastern street\x01",
             "I went back to my family once.\x02",
         )
     )
@@ -2688,7 +2688,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "Abbasにも……\x01",
+            "Also in Abbas …\x01",
             "There must be something wrong.\x02",
         )
     )
@@ -2884,7 +2884,7 @@ def main():
         0xB,
         (
             "My cocktail,\x01",
-            "ア、Ashleyさんに大量に\x01",
+            "A large amount to Ashley\x01",
             "I bought it.\x02",
         )
     )
@@ -2913,7 +2913,7 @@ def main():
         (
             "And anyway … …\x01",
             "My cocktail is\x01",
-            "Ashleyさんのお墨付きだ。\x02",
+            "It is Ashley's certificate.\x02",
         )
     )
 
@@ -2982,7 +2982,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "ア、AzelとLiang、\x01",
+            "A, Azel and Liang,\x01",
             "Always going to have fun with two people\x01",
             "I am studying cocktails.\x02",
         )
@@ -3082,7 +3082,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "け、今朝はKeenと一緒に\x01",
+            "Well, this morning together with Keynes\x01",
             "I went to stock,\x01",
             "I came across with Viper.\x02",
         )
@@ -3095,7 +3095,7 @@ def main():
         (
             "In spite of himself\x01",
             "Although it became it,\x01",
-            "Keenに止められたんだ。\x02",
+            "I was stopped by Keantz.\x02",
         )
     )
 
@@ -3148,7 +3148,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "くそっ、ついにLiangまで……\x02",
+        "Damn, until eventually Leang …\x02",
     )
 
     CloseMessageWindow()
@@ -3318,7 +3318,7 @@ def main():
         0x9,
         (
             "Oh, at times like this\x01",
-            "Abbasがいてくれたらな……\x02",
+            "I wish you had an Abbas …\x02",
         )
     )
 
@@ -3429,7 +3429,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Abbasがしばらく\x01",
+            "Abbas for a while\x01",
             "To live is\x01",
             "Sometimes there are … …\x02",
         )
@@ -3570,7 +3570,7 @@ def main():
         0x105,
         (
             "#10300FHuh, that's it for the number of people.\x01",
-            "ありがとう、Liang。\x02",
+            "Thank you, Ryan.\x02",
         )
     )
 
@@ -3615,7 +3615,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Azelたちの作った豚汁、\x01",
+            "Pork soup made by Azeles,\x01",
             "It sounds like it was popular.\x02",
         )
     )
@@ -3745,7 +3745,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ふふ、流石はAbbas秘伝の\x01",
+            "Huhu, fluffy is Abbas secret\x01",
             "Is it a special recipe?\x02",
         )
     )
@@ -3865,7 +3865,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Besse、シェイカーに\x01",
+            "Besse, on the shaker\x01",
             "I was putting something suspicious though\x01",
             "Are you OK……?\x02",
         )
@@ -3983,7 +3983,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "はは、Azelのお姉さんも\x01",
+            "Hello, Azel's older sister also\x01",
             "As usual I am anxious.\x02",
         )
     )
@@ -4044,7 +4044,7 @@ def main():
         0x9,
         (
             "For cocktails or knobs,\x01",
-            "Abbas直伝の腕前を\x01",
+            "Abbas direct business skill\x01",
             "Because I will show off to you in full.\x02",
         )
     )
@@ -4121,7 +4121,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "姉さんやYuggottも\x01",
+            "My sister and Yuggott as well\x01",
             "I support you,\x01",
             "I have to stop firmly.\x02",
         )
@@ -4150,7 +4150,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "姉さんやYuggottも\x01",
+            "My sister and Yuggott as well\x01",
             "I support you,\x01",
             "I have to stop firmly.\x02",
         )
@@ -4185,7 +4185,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "……姉さんとYuggottの様子を見に\x01",
+            "…… to see the state of Yuggott with her sister\x01",
             "I will probably return home.\x02",
         )
     )
@@ -4270,7 +4270,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "ヴァルドがあのDinoって新米と\x01",
+            "Wald finds that Dino is a new rice\x01",
             "I might have drunk the same medicine ….?\x02",
         )
     )
@@ -4361,7 +4361,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "Keenの奴、\x01",
+            "Kent 's fellow,\x01",
             "About the future about recently\x01",
             "He seems to be suffering.\x02",
         )
@@ -4407,7 +4407,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "そういえば昔、Keenの奴、\x01",
+            "By the way, long ago,\x01",
             "My father's existence is complex\x01",
             "I had something to say.\x02",
         )
@@ -4437,7 +4437,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "Abbasってあらゆることに\x01",
+            "To everything about Abbas\x01",
             "I am familiar with knowledge.\x02",
         )
     )
@@ -4494,7 +4494,7 @@ def main():
         0xC,
         (
             "As a result, everyone loses\x01",
-            "今は最後の砦のLiangとやってるよ。\x02",
+            "Now I'm doing with my last fortress, Liang.\x02",
         )
     )
 
@@ -4560,7 +4560,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "Liangに教わりながら、\x01",
+            "While learning to Liang,\x01",
             "Cocktail occasionally occasionally\x01",
             "I'm making it.\x02",
         )
@@ -4611,7 +4611,7 @@ def main():
         0xC,
         (
             "Originally doubled as a team hangout\x01",
-            "Abbasが細々とやっていた\x01",
+            "Abbas was doing fine\x01",
             "It's a shop, though.\x02",
         )
     )
@@ -5251,7 +5251,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Azelの作った\x01",
+            "Azel made\x01",
             "Non alcoholic cocktail ……\x01",
             "It is quite delicious.\x02",
         )
@@ -5277,7 +5277,7 @@ def main():
         0xFE,
         (
             "Who is\x01",
-            "みんなAzel兄ちゃんと\x01",
+            "Everyone with Azela-chan\x01",
             "It is like a dress.\x02",
         )
     )
@@ -5629,7 +5629,7 @@ def main():
             "#12P#10304FHugh, seriously\x01",
             "It seems that it is open.\x01",
             "Anything else.\x02\x03",
-            "#10302Fフフ、どうだいAbbas。\x01",
+            "#10302FHuh, how about Abbas.\x01",
             "I wonder if it's a little flourishing?\x02",
         )
     )
@@ -5960,7 +5960,7 @@ def main():
         0x105,
         (
             "#6P#10304FWell, originally Testerants\x01",
-            "ほとんどAbbasに任せてたしね。\x02\x03",
+            "It was almost left to Abbas.\x02\x03",
             "#10300FEven if I do not exist, everyone\x01",
             "I thought that I could get along well.\x02",
         )
@@ -6291,7 +6291,7 @@ def main():
         0x9,
         (
             "#11PThat's right. …\x01",
-            "それにAbbasは一緒じゃないのか？\x02",
+            "Besides, are not Abbas together?\x02",
         )
     )
 
@@ -6353,8 +6353,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10402Fフフ、Even so ……\x01",
-            "僕やAbbasの留守をしっかりと\x01",
+            "#12P#10402FHuh, even so … …\x01",
+            "I and Abbas are outstanding firmly\x01",
             "You seem to have kept it?\x02",
         )
     )
@@ -6371,7 +6371,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#11PワジとAbbasは\x01",
+            "#11PWasi and Abbas\x01",
             "Be sure to come back\x01",
             "I promised you.\x02",
         )
@@ -6444,7 +6444,7 @@ def main():
         0x102,
         (
             "#12P#00109FHehe, very good,\x01",
-            "Dino君。\x02",
+            "Mr. Dino.\x02",
         )
     )
 
@@ -6465,7 +6465,7 @@ def main():
     ChrTalk(
         0x15,
         (
-            "#5Pハハッ、Dinoお前、\x01",
+            "#5PHaha, Dino you,\x01",
             "What are you shy about!\x02",
         )
     )

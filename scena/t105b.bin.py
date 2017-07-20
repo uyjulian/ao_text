@@ -572,8 +572,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "アルカンシェルのArtists\x01",
-            "真上の部屋にThere may be … …\x02",
+            "The artists of alkane shell\x01",
+            "You may be in a room directly above … ….\x02",
         )
     )
 
@@ -794,14 +794,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6PIs that so, after all, also to 2F …?\x02",
+        "#00006F#6PI see.. So she's no on 2F either\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#5PI am sorry, too.\x02",
+        "#5PS-so sorry\x02",
     )
 
     CloseMessageWindow()
@@ -838,7 +838,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#05906F#6PYou are a little worrying as expected …\x02",
+        "#05906F#6PI'm pretty worried…\x02",
     )
 
     CloseMessageWindow()
@@ -855,7 +855,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#01808F#12P………………………………\x02",
+        "#01808F#12P….\x02",
     )
 
     CloseMessageWindow()
@@ -865,7 +865,7 @@ def main():
         (
             "#00206F#6P…… even in my search\x01",
             "I did not find it ……\x02\x03",
-            "#00208FWhere is Kea anyway ……\x02",
+            "#00208FWhere is KeA…\x02",
         )
     )
 
@@ -969,14 +969,14 @@ def main():
 
     ChrTalk(
         0x12,
-        "#01705F#12POh……\x02",
+        "#01705F#12POh\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00300F#11POh, you were there!\x02",
+        "#00300F#11POh you're here\x02",
     )
 
     CloseMessageWindow()
@@ -986,7 +986,7 @@ def main():
 
     ChrTalk(
         0x15,
-        "#01201F#5P#30WGuru …… Won.\x02",
+        "#01201F#5P#30WGrrrr, Woof!\x02",
     )
 
     Sleep(300)
@@ -998,7 +998,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#11POya … Hey …?\x02",
+        "#00011F#11PW-wait\x02",
     )
 
     CloseMessageWindow()
@@ -1015,7 +1015,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#12PLet's chase anyway!\x02",
+        "#10101F#12PLet's get moving!\x02",
     )
 
     CloseMessageWindow()

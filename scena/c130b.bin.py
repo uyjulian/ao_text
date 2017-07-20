@@ -531,7 +531,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00311FUncle Takara, you are … …\x02",
+        "#6P#00311FUncle… you asshole\x02",
     )
 
     CloseMessageWindow()
@@ -672,14 +672,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FRandy …\x02",
+        "#00000FRandy!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00202F…… Randy.\x02",
+        "#00202FRandy-san\x02",
     )
 
     CloseMessageWindow()
@@ -826,14 +826,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00310FDamn\x02",
+        "#12P#00310FUgh\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#12P#N#10110FWhat a motive ……\x02",
+        "#12P#N#10110FWhat a crazy aura\x02",
     )
 
     CloseMessageWindow()
@@ -842,7 +842,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#N#10310FAre you really human?\x02",
+        "#12P#N#10310FIs he really human?\x02",
     )
 
     CloseMessageWindow()
@@ -857,7 +857,7 @@ def main():
             "#04504F#5P#NKuku, if you deliver\x01",
             "Retire here#2RFacial#You can do it ……\x02\x03",
             "#04502FHowever, I also work here#4Rbusiness#You know.\x02\x03",
-            "I will have time limit prepared.\x02",
+            "So I'll be imposing a time minute\x02",
         )
     )
 
@@ -868,7 +868,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00010FWhat, what …!! Is it?\x02",
+        "#12P#00010FTch what!?\x02",
     )
 
     CloseMessageWindow()
@@ -1274,7 +1274,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04503FWell, this is the place.\x02\x03",
+            "#5P#04503FHumph. Well that's it then\x02\x03",
             "#04500FThe guts that despaired powerlessly\x01",
             "I will compliment you.\x02",
         )
@@ -1297,7 +1297,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00006F#NCut … … Ha ha … ….\x02",
+        "#12P#00006F#NAhh Ahhh\x02",
     )
 
     CloseMessageWindow()
@@ -1317,7 +1317,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00310FThis monster Oyaji …\x02",
+        "#12P#00310FThis monster..\x02",
     )
 
     CloseMessageWindow()
@@ -1328,7 +1328,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04502Fさて、It seems time is ─\x02",
+        "#04502FWell, it looks like time -\x02",
     )
 
     CloseMessageWindow()
@@ -1387,7 +1387,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04502Fさて、It seems time is ─\x02",
+        "#04502FWell, it looks like time -\x02",
     )
 
     CloseMessageWindow()
@@ -1410,7 +1410,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00011F#NDamn\x02",
+        "#12P#00011F#NUgh\x02",
     )
 
     CloseMessageWindow()

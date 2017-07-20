@@ -158,7 +158,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12306F#11P#60W……………………………………\x02",
+            "#12306F#11P#60W….\x02",
         )
     )
 
@@ -169,7 +169,7 @@ def main():
     NpcTalk(
         0x101,
         "voice",
-        "#3336V#5P#N#40W#20A─ ─ ─ ─ found.\x02",
+        "#3336V#5P#N#40W#20AFound you.\x02",
     )
 
     CloseMessageWindow()
@@ -187,7 +187,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12305F#11P#60W#20A………………………………\x02",
+            "#12305F#11P#60W#20A…\x02",
         )
     )
 
@@ -199,7 +199,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12306F#3649V#11P#60W#30A……why………?\x02",
+            "#12306F#3649V#11P#60W#30AWhy…?\x02",
         )
     )
 
@@ -210,11 +210,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F#5P#30Wvoiceが、聞こえたからさ。\x02\x03",
+            "#00000F#5P#30WBecause I heard your voice.\x02\x03",
             "#00004FAlways … I …\x01",
-            "Keyaのvoiceが聞こえていた。\x02\x03",
-            "If you listen carefully and feel it ……\x02\x03",
-            "#00002FKeyaの心のvoiceが……\x01",
+            "Ka'a voice was heard.\x02\x03",
+            "In through my ears, I can feel it\x02\x03",
+            "#00002FThe voice of the heart of Kia ah … ….\x01",
             "…… I know where you are.\x02",
         )
     )
@@ -227,11 +227,11 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12314F#11P#40WI see … … Hehe …\x02\x03",
-            "#12308F……でもKeya……\x01",
+            "#12314F#11P#40WI see.. Ehe\x02\x03",
+            "#12308F…… But Kea …\x01",
             "Have Lloyd do that\x01",
             "I do not have a qualification …\x02\x03",
-            "#12306Fだって……だってKeyaは……\x02",
+            "#12306FBecause… Because KeA is…\x02",
         )
     )
 
@@ -240,8 +240,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P#30WKeya、それは違う。\x02\x03",
-            "#00013FWhatever was born ──\x02",
+            "#00003F#5P#30WKeA, you're wrong.\x02\x03",
+            "#00013FNo matter how you are born-\x02",
         )
     )
 
@@ -254,7 +254,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12311F#3650V#11P#4S#30W#20ADoes not seem to be different!\x02",
+            "#12311F#3650V#11P#4S#30W#20AI'M NOT WRONG!\x02",
         )
     )
 
@@ -269,12 +269,12 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12307F#12P#40WKeyaは本物の人間じゃないし、\x01",
+            "#12307F#12P#40WKa'a is not a real person,\x01",
             "Heart and soul are not real …!\x02\x03",
             "You can be kind to such a wind,\x01",
             "There was no qualification to be protected!\x02\x03",
             "#12311FAnd yet …\x01",
-            "……それなのにKeyaは……っ！\x02",
+            "…… But Ka'a … …!\x02",
         )
     )
 
@@ -300,7 +300,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#5P#40W……………………………………\x02",
+        "#00008F#5P#40W….\x02",
     )
 
     CloseMessageWindow()
@@ -317,8 +317,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002F#5P#30W──なあ、Keya。\x02\x03",
-            "Keyaが俺たちの所に来てから\x01",
+            "#00002F#5P#30WHey KeA\x02\x03",
+            "Since Ka'a came to us\x01",
             "More than half a year ……\x02\x03",
             "#00004FHow much happiness\x01",
             "Do you think we got it?\x02",
@@ -331,7 +331,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12306F#12P#40W……………………………………\x02",
+            "#12306F#12P#40W….\x02",
         )
     )
 
@@ -342,9 +342,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F#5P#30W多分それはKeyaが感じた\x01",
+            "#00000F#5P#30WPerhaps it felt Ka'aa\x01",
             "I think that it is the same as happiness or more.\x02\x03",
-            "#00002FKeyaはさ……\x01",
+            "#00002FKaori ……\x01",
             "Were not you having fun with us?\x02",
         )
     )
@@ -361,7 +361,7 @@ def main():
             "It was awful … … Shiawase …!!\x02\x03",
             "#12311FBut it is …\x01",
             "Just like Lloyd's feeling\x01",
-            "Keyaが仕向けただけかもしれない！\x02\x03",
+            "Ka'a may just have sent!\x02\x03",
             "The hearts of precious people\x01",
             "I might just be manipulating!\x02\x03",
             "#12316F#40WSuch a thing ……\x01",
@@ -391,7 +391,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#5P#30W……………………………………\x02",
+        "#00001F#5P#30W….\x02",
     )
 
     CloseMessageWindow()
@@ -404,7 +404,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F#5P#30WHey.\x02",
+        "#00003F#5P#30WHere.\x02",
     )
 
     CloseMessageWindow()
@@ -432,7 +432,7 @@ def main():
             "#00000FKitten and human baby\x01",
             "Unconditionally adorable\x01",
             "Will you want to protect?\x02\x03",
-            "Keyaのそうした“力”だって\x01",
+            "Ka'a's \"power\" is that\x01",
             "Is not it at most that extent?\x02",
         )
     )
@@ -443,8 +443,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12317F#12P#40W………….. Ah ……………\x02\x03",
-            "……………………………………\x02",
+            "#12317F#12P#40W…Ah…\x02\x03",
+            "….\x02",
         )
     )
 
@@ -573,7 +573,7 @@ def main():
         0x101,
         (
             "#00000F#5P─ ─ that it was \"lie\"\x01",
-            "本当にKeyaは思うのか？\x02",
+            "Do you really think Ka'aa?\x02",
         )
     )
 
@@ -583,7 +583,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12308F#12P#40W………that is……………\x02",
+            "#12308F#12P#40WThat is…\x02",
         )
     )
 
@@ -599,7 +599,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12306F#12P#40W… … … It's a lie … I do not think so.\x02",
+            "#12306F#12P#40WI don't think it was a lie\x02",
         )
     )
 
@@ -610,12 +610,12 @@ def main():
         (
             "#00002F#5P#30WWell it is\x01",
             "It is \"truth\" for us.\x02\x03",
-            "#00004FAnd as long as there is that \"truth\" ……\x02\x03",
+            "#00004FAnd as long as we have that \"Truth\"\x02\x03",
             "In the future, no matter what difficulties to press\x01",
             "We never lose.\x02\x03",
-            "#00000FだからKeya……\x01",
+            "#00000FThat's why Ka'a …\x01",
             "I do not have to shoulder them all by themselves.\x02\x03",
-            "それは、Keyaも含めて\x01",
+            "That includes Ka'aa\x01",
             "Because we only have to work hard with everyone.\x02\x03",
             "#00009FThat is \"Fellow\" ……\x01",
             "Is it \"family\"?\x02",
@@ -631,8 +631,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#12317F#3651V#12P#40W#30A…… Roy …… Do …………\x02\x03",
-            "#12316F#3652V#50W#35ALloyd …… Lloyd's … oh!\x02",
+            "#12317F#3651V#12P#40W#30ALloyd…\x02\x03",
+            "#12316F#3652V#50W#35ALloyd… Lloyd!\x02",
         )
     )
 
@@ -658,8 +658,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#05817F#3653V#12P#40W#70A… …. ugh ugh … …. ah ah …!\x02\x03",
-            "#3654V#35A#4SWow awesome … …!\x02",
+            "#05817F#3653V#12P#40W#70ASob…….!\x02\x03",
+            "#3654V#35A#4SWAHHHHH!\x02",
         )
     )
 
@@ -672,7 +672,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002F#5P#30W……Keya………\x02\x03",
+            "#00002F#5P#30WKeA…\x02\x03",
             "#00004Fmy mother……\x01",
             "It's as good a tackle as ever.\x02",
         )
@@ -714,7 +714,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#05818F#12P#20A#40WWell … …. Well …!!\x02",
+        "#05818F#12P#20A#40WYeah… Yeah!\x02",
     )
 
     CloseMessageWindow()

@@ -851,7 +851,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -2444,9 +2444,9 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#07903F── Start a strategy.\x02\x03",
+            "#07903FBegin the operation\x02\x03",
             "#07901FCrossbell Guard belongs,\x01",
-            "独立解放部隊、および神wolf部隊……\x02",
+            "Independent release force, and god war troops ……\x02",
         )
     )
 
@@ -2467,11 +2467,11 @@ def main():
     Sleep(500)
     OP_82(0xC8, 0x0, 0xBB8, 0x1F4)
     SetMessageWindowPos(80, 0, -1, -1)
-    SetChrName("A security guardたち")
+    SetChrName("Security guards")
 
     AnonymousTalk(
         0xFF,
-        "#5SJesus Mum!\x02",
+        "#5SYES MA'AM!\x02",
     )
 
     CloseMessageWindow()
@@ -2488,11 +2488,11 @@ def main():
     OP_82(0xC8, 0x0, 0xBB8, 0x1F4)
     Sound(1001, 0, 100, 0)
     SetMessageWindowPos(40, 30, -1, -1)
-    SetChrName("wolfたち")
+    SetChrName("Wolves")
 
     AnonymousTalk(
         0xFF,
-        "#5Swon!\x02",
+        "#5SWOOF!\x02",
     )
 
     CloseMessageWindow()
@@ -4210,7 +4210,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "……It's Nut Buriho.\x02",
+        "…… Nut Burriho.\x02",
     )
 
     CloseMessageWindow()

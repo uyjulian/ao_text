@@ -777,7 +777,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is only for Lloyd.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -794,7 +794,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is for Ellie only.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -811,7 +811,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is only for Tio.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -828,7 +828,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is only for Randy.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -845,7 +845,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is only for Noel.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -862,7 +862,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is only for wadi.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -2009,7 +2009,7 @@ def main():
             "About slot reinforcement\x01",          # 3
             "About conductivity magic (Arts)\x01",      # 4
             "About Enigma\x01",              # 5
-            "マスターAbout Quartz\x01",        # 6
+            "About Master Quartz\x01",        # 6
             "quit\x01",                          # 7
         )
     )
@@ -2557,7 +2557,7 @@ def main():
         0xFE,
         (
             "The night road is dangerous, in reality\x01",
-            "Chacoと一緒に帰りたい所だけど……\x02",
+            "I'd like to return with Chaco … …\x02",
         )
     )
 
@@ -2567,7 +2567,7 @@ def main():
         0xFE,
         (
             "To that extent,\x01",
-            "Chacoに嫌われてしまうしなぁ。\x02",
+            "Chako will hate you.\x02",
         )
     )
 
@@ -2643,7 +2643,7 @@ def main():
         0xFE,
         (
             "Sprinkle courage\x01",
-            "Chacoちゃんに声を……\x02",
+            "Voice to Chaco-chan ……\x02",
         )
     )
 

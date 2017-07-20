@@ -533,7 +533,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "何気にIBCのあり方にも\x01",
+            "To what mind the IBC way\x01",
             "I think that it is a story involved … …\x01",
             "I can not imagine a fine place like running around.\x02",
         )
@@ -551,7 +551,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "昨日、IBCに訪れていた\x01",
+            "Yesterday, I was visiting IBC\x01",
             "President Rock Smith\x01",
             "I could see it at close range, but ….\x02",
         )
@@ -590,7 +590,7 @@ def main():
         0xFE,
         (
             "Sounds suspicious person this morning\x01",
-            "このIBCに侵入したらしいんだ。\x02",
+            "It seems that it broke into this IBC.\x02",
         )
     )
 
@@ -649,7 +649,7 @@ def main():
         (
             "Oh, you guys.\x01",
             "I am sorry,\x01",
-            "本日IBCは休行日なんだ。\x02",
+            "IBC is a closed day today.\x02",
         )
     )
 
@@ -732,7 +732,7 @@ def main():
         0xFE,
         (
             "I am sorry,\x01",
-            "本日IBCは休行日なんだ。\x02",
+            "IBC is a closed day today.\x02",
         )
     )
 
@@ -831,7 +831,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "クロスベル市長とIBC総裁……\x01",
+            "Crossbell mayor and IBC president ……\x01",
             "Thinking carefully,\x01",
             "These two stadts are terrible.\x02",
         )
@@ -887,7 +887,7 @@ def main():
         0xFE,
         (
             "Hello.\x01",
-            "IBC本社ビルへようこそ。\x02",
+            "Welcome to the IBC head office building.\x02",
         )
     )
 
@@ -992,7 +992,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#11P…… It's a big deal.\x02",
+        "#11PIt's really something else\x02",
     )
 
     CloseMessageWindow()
@@ -1000,7 +1000,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#03209F#11PHuh, that's great.\x02\x03",
+            "#03209F#11PHehe, wonderful\x02\x03",
             "#03210FEven just seeing this sight\x01",
             "It is worth the effort to come to Crossbell\x01",
             "It was that it was there.\x02",
@@ -1018,7 +1018,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P#00702F…… That is a victory.\x02",
+            "#11P#00702FHah, it's truly admirable\x02",
         )
     )
 
@@ -1030,7 +1030,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5P#00700F─ ─ oh well, I will go.\x02\x03",
+            "#5P#00700FWell anyway I'm leaving\x02\x03",
             "Somehow strange rats\x01",
             "You seem to be entering.\x02",
         )
@@ -1058,7 +1058,7 @@ def main():
         0xE,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#03204F#5PYes, I will leave it there.\x02\x03",
+            "#03204F#5PYes, I'll lave that to you\x02\x03",
             "#03200FAnd tomorrow's event\x01",
             "Do you have a cooperation by all means?\x02\x03",
             "Just because you will come\x01",
@@ -1072,7 +1072,7 @@ def main():
         0xD,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5P#00702FHun, that's okay.\x02",
+            "#5P#00702FHumph. Well whatever\x02",
         )
     )
 
@@ -1149,21 +1149,21 @@ def main():
 
     ChrTalk(
         0xF,
-        "#11PIs that so, right?\x02",
+        "#11PI-is that right?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xF,
-        "#11PBut with that rule ……?\x02",
+        "#11PBut that rule, what is it…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xE,
-        "#03209F#5PHuh, it is still a secret.\x02",
+        "#03209F#5PHehe, it's still secret\x02",
     )
 
     CloseMessageWindow()
@@ -1187,7 +1187,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#03204F#11P── So far this is the setup.\x02\x03",
+            "#03204F#11PThis has all gone according to plan\x02\x03",
             "#03202FFor the success of the event tomorrow,\x01",
             "Let's keep on trying hard.\x02",
         )
@@ -1199,7 +1199,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#11PIs!\x02",
+        "#11PRight!\x02",
     )
 
     CloseMessageWindow()
@@ -1347,7 +1347,7 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#5PIBCか……\x01",
+            "#5PIs it IBC?\x01",
             "Hmm, it's a fine building as ever.\x02",
         )
     )
@@ -1370,7 +1370,7 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#6Pええ、IBCには当然\x01",
+            "#6PYeah, naturally in IBC\x01",
             "Because there is a black moon account as well.\x02",
         )
     )
@@ -1716,7 +1716,7 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "だからー、別にIBCを\x01",
+            "So, separate IBC\x01",
             "You do not need to show me around.\x02",
         )
     )

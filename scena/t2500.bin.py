@@ -851,7 +851,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -881,8 +881,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1Kbus停がある。\x01",
-            "busで移動しますか？\x02",
+            "#1KThere is a bus stop.\x01",
+            "Do you want to move by bus?\x02",
         )
     )
 
@@ -1308,7 +1308,7 @@ def main():
         0x8,
         (
             "By 10 tax revenue by independence\x01",
-            "収めるIf the system is abolished,\x01",
+            "If the system to be included is abolished,\x01",
             "A considerable budget will emerge.\x02",
         )
     )
@@ -1386,7 +1386,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "いやあ、The mayor also dared\x01",
+            "Well, mayor has also dreamed\x01",
             "You did it.\x02",
         )
     )
@@ -1565,7 +1565,7 @@ def main():
         0x8,
         (
             "I newly arrived at the Tangram gate\x01",
-            "Douglas deputy commandは、\x01",
+            "Douglas deputy commander,\x01",
             "It is quite easy-going person.\x02",
         )
     )
@@ -1600,7 +1600,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Douglas deputy commandは、\x01",
+            "Douglas deputy commander,\x01",
             "It is quite easy-going person.\x02",
         )
     )
@@ -1938,7 +1938,7 @@ def main():
         0x9,
         (
             "Even though there is Sergeant Noel,\x01",
-            "Douglas deputy commandとあそこまでの\x01",
+            "Douglas deputy commander and so far\x01",
             "To fight a good battle … …\x02",
         )
     )
@@ -3091,7 +3091,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "Douglas deputy commandは気さくだが、\x01",
+            "Douglas deputy commander is friendly,\x01",
             "That is pretty cool person.\x02",
         )
     )
@@ -3613,7 +3613,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力busは運行を見合わせているようだ。\x07\x00\x02",
+            "The guiding bus seems to be out of service.\x07\x00\x02",
         )
     )
 
@@ -4415,7 +4415,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FWell, I arrived at the Tangram main gate.\x02",
+        "#00000FOk we're finally at Tangram Gate\x02",
     )
 
     CloseMessageWindow()
@@ -4433,7 +4433,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10100FYes, that's right.\x02\x03",
+            "#10100FYes, that's right\x02\x03",
             "This side is towards the Republic\x01",
             "It will be a security border gate.\x02",
         )
@@ -4444,7 +4444,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100F今は新しくDouglas deputy commandという方が\x01",
+            "#00100FNow I am new to Douglas deputy commander\x01",
             "You are taking command.\x02",
         )
     )
@@ -4643,7 +4643,7 @@ def main():
 
     ChrTalk(
         0x14,
-        "#11PBoth, are you ready?\x02",
+        "#11PEveryone ready?\x02",
     )
 
     CloseMessageWindow()
@@ -4651,7 +4651,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5PDaimon Members以下５名、\x01",
+            "#5PFive people below Daimon,\x01",
             "We are ready.\x02",
         )
     )
@@ -4660,14 +4660,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00000FThe mission support section is also similar.\x02",
+        "#12P#00000FWe are ready too\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x14,
-        "#11PAlright.\x02",
+        "#11PGood\x02",
     )
 
     CloseMessageWindow()
@@ -4754,7 +4754,7 @@ def main():
 
     ChrTalk(
         0x14,
-        "#11PExactly.\x02",
+        "#11PExactly\x02",
     )
 
     CloseMessageWindow()
@@ -4841,7 +4841,7 @@ def main():
 
     ChrTalk(
         0x14,
-        "#11PYou seem to have got a story?\x02",
+        "#11PLet's talk later\x02",
     )
 
     CloseMessageWindow()
@@ -4862,7 +4862,7 @@ def main():
     NpcTalk(
         0x9,
         "Members",
-        "#5P#4S#NHa ha! It is!\x02",
+        "#5P#4S#NRight!\x02",
     )
 
     CloseMessageWindow()
@@ -4912,14 +4912,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#12P#10101FRyo, OK!\x02",
+        "#12P#10101FRoger!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x14,
-        "#5S#11P… …. First time!\x02",
+        "#5S#11PBegin!\x02",
     )
 
     CloseMessageWindow()
@@ -4968,14 +4968,14 @@ def main():
 
     ChrTalk(
         0x14,
-        "#11PAlright, until then!\x02",
+        "#11POk that's enough\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x15,
-        "One day … … you do it.\x02",
+        "Ugh…\x02",
     )
 
     CloseMessageWindow()
@@ -4993,7 +4993,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#10302FIt looks like I managed somehow.\x02",
+        "#12P#10302FWe managed to beat them\x02",
     )
 
     CloseMessageWindow()
@@ -5098,7 +5098,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#12P#00306FHey hey, are you still sick? Is it?\x02\x03",
+            "#12P#00306FOi oi seriously?\x02\x03",
             "#00301FMoreover,#4RCraft#Prohibited! Is it?\x02",
         )
     )
@@ -5201,7 +5201,7 @@ def main():
     NpcTalk(
         0x9,
         "Members",
-        "#4S#NHa! It is!\x02",
+        "#4S#NRight!\x02",
     )
 
     CloseMessageWindow()
@@ -5253,14 +5253,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00101F…… Yeah!\x02",
+        "#12P#00101FRoger!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x14,
-        "#5S#11P… …. First time!\x02",
+        "#5S#11PBegin!\x02",
     )
 
     CloseMessageWindow()
@@ -5310,21 +5310,21 @@ def main():
 
     ChrTalk(
         0x14,
-        "#11PWell, that far!\x02",
+        "#11PThat's enough\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "Well, are you serious ……\x02",
+        "Ugh, seriously?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x17,
-        "No way, I do not have to do so far.\x02",
+        "They're that good?\x02",
     )
 
     CloseMessageWindow()
@@ -5355,7 +5355,7 @@ def main():
         (
             "#12P#00304FWell, it seems that something seems to be done\x01",
             "Is not it nice?\x02\x03",
-            "#00301FOh my, do not complain with this!\x02",
+            "#00301FOK then no more complaints\x02",
         )
     )
 
@@ -5411,7 +5411,7 @@ def main():
     NpcTalk(
         0x9,
         "Members",
-        "#5S#NHa ha!\x02",
+        "#5S#NRIGHT!\x02",
     )
 
     CloseMessageWindow()
@@ -5459,7 +5459,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00101Fthis is……!\x02",
+        "#12P#00101FThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -5524,14 +5524,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00301FHeck, that's what I want!\x02",
+        "#12P#00301FS-sounds good!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#12P#10107Fto go!\x02",
+        "#12P#10107FHere we go!\x02",
     )
 
     CloseMessageWindow()
@@ -5584,7 +5584,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00002FAnd he did it …!\x02",
+        "#12P#00002FW-we did it\x02",
     )
 
     CloseMessageWindow()
@@ -5628,7 +5628,7 @@ def main():
 
     ChrTalk(
         0x14,
-        "#5PNo, it never works.\x02",
+        "#5PNo this time was my loss\x02",
     )
 
     CloseMessageWindow()
@@ -5645,21 +5645,21 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00109FHave you humbled ……\x02",
+        "#12P#00109FY-you flatter us\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#12P#10106FIt is truly, deputy commander.\x02",
+        "#12P#10106FYou're humble as expected commander\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#12P#10306FWell, hat off.\x02",
+        "#12P#10306FSeriously, you were tough\x02",
     )
 
     CloseMessageWindow()
@@ -5818,7 +5818,7 @@ def main():
     NpcTalk(
         0x9,
         "Members",
-        "#4S#NHa!\x02",
+        "#4S#NYes!\x02",
     )
 
     CloseMessageWindow()
@@ -5849,7 +5849,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00000FYes.\x02",
+        "#12P#00000FR-right\x02",
     )
 
     CloseMessageWindow()
@@ -5940,7 +5940,7 @@ def main():
         0x101,
         (
             "#00000FWell ……\x01",
-            "黒いTruckは来ているかな？\x02",
+            "Is the black truck come?\x02",
         )
     )
 
@@ -6068,7 +6068,7 @@ def main():
         0x101,
         (
             "#00000FWell ……\x01",
-            "黒いTruckは来ているかな？\x02",
+            "Is the black truck come?\x02",
         )
     )
 
@@ -6096,7 +6096,7 @@ def main():
         0x105,
         (
             "#10300FThat seems likely.\x01",
-            "busの待ち時間で少し\x01",
+            "A bit in the waiting time of the bus\x01",
             "I took time and effort ……\x02",
         )
     )
@@ -6467,7 +6467,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001FMinnes……\x01",
+            "#00001FMinnes ……\x01",
             "Although he was conscious,\x01",
             "It was you.\x02",
         )
@@ -6594,7 +6594,7 @@ def main():
         0x18,
         "Merchant-style man",
         (
-            "私の名はMinnes……\x01",
+            "My name is Minnes ……\x01",
             "It is a sharp merchant from the empire.\x02",
         )
     )
@@ -6634,7 +6634,7 @@ def main():
     ChrTalk(
         0x18,
         (
-            "ふむ、確かにこのTruckには\x01",
+            "Hmm, indeed for this transporter\x01",
             "I have medical supplies ……\x02",
         )
     )

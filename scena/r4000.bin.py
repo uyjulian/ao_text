@@ -39,7 +39,7 @@ def main():
         "Gante",                 # 18
         "Gante",                 # 19
         "car",                     # 20
-        "装甲car",                 # 21
+        "Armored car",                 # 21
         "Eidolon",                   # 22
         "SE control",                 # 23
         "br4000",                 # 24
@@ -704,7 +704,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -795,7 +795,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1954,7 +1954,7 @@ def main():
         0x109,
         (
             "#10112F#6PHaha ……\x02\x03",
-            "#10105Fそういえば、Randy先輩、\x01",
+            "#10105FBy the way, Randy - senpai,\x01",
             "Are they doing the training here?\x02",
         )
     )
@@ -2090,7 +2090,7 @@ def main():
         "Voice of a young man",
         (
             "#2750V#2P#30WHu!\x01",
-            "すげえ導力carだな。\x02",
+            "It's a fucking power car.\x02",
         )
     )
 
@@ -2122,7 +2122,7 @@ def main():
     AnonymousTalk(
         0x9,
         (
-            "Randy、あなたね……\x02\x03",
+            "Randy, you …\x02\x03",
             "Even though the survival training on the 5th day is on end\x01",
             "Why is that so fine ……\x02",
         )
@@ -2170,7 +2170,7 @@ def main():
             "#07906F#6PEven ….\x01",
             "Just say stupid things.\x02\x03",
             "#07900FEven so ……\x01",
-            "見たことのないcarだったわね。\x02\x03",
+            "It was a car I had never seen before.\x02\x03",
             "It was introduced to the police\x01",
             "Is it a new model per Verne?\x02",
         )
@@ -2182,7 +2182,7 @@ def main():
         0x8,
         (
             "#11004F#11PNo, it looks like ZCF made.\x02\x03",
-            "#11002Fまさかあんな高そうなcarが\x01",
+            "#11002FNo wonder that such a car seems to be high\x01",
             "I wish you to be paid to the support section.\x02",
         )
     )
@@ -2195,7 +2195,7 @@ def main():
         0x9,
         (
             "#07905F#6PWhat is ZCF …?\x01",
-            "導力carは作ってないはずだけど。\x02\x03",
+            "I should not have made a guided car.\x02\x03",
             "#07900FAnd why to your department\x01",
             "Do you understand that it was paid?\x02",
         )
@@ -2207,7 +2207,7 @@ def main():
         0x8,
         (
             "#11005F#11PNo, Lloyd and Miss\x01",
-            "car内に座っていたからさ。\x02\x03",
+            "I was sitting in the car.\x02\x03",
             "#11004FThe section chief and the rookie were also on board\x01",
             "Perhaps, it was paid to us.\x02",
         )
@@ -2219,9 +2219,9 @@ def main():
         0x9,
         (
             "#07906F#6POkay, so far away\x01",
-            "car内まで確認できるわね……\x02\x03",
+            "You can check in the car …\x02\x03",
             "#07902FI mean ZCF made\x01",
-            "car体に書かれていたから？\x02",
+            "Because it was written on the car body?\x02",
         )
     )
 
@@ -2245,7 +2245,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#07908F#6P……ねえ、Randy。\x02\x03",
+            "#07908F#6P…… Hey, Randy.\x02\x03",
             "#07900FAs it is this way\x01",
             "Would you like to come back to the guard?\x02",
         )
@@ -2424,7 +2424,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#07907F#6P#4Sうるさいっ、馬鹿Randy！\x02",
+        "#07907F#6P#4SNoisy, idiot RANDY!\x02",
     )
 
     CloseMessageWindow()
@@ -2960,7 +2960,7 @@ def main():
         0x101,
         (
             "#00003F#5P── Alright, first of all\x01",
-            "俺とRandyが降りよう。\x02\x03",
+            "Randy will come down with me.\x02\x03",
             "#00001FThen, in order of Eli, Tio, Wadi\x01",
             "Finally Noel comes down.\x02",
         )
@@ -3154,7 +3154,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#11P#10AOops……!\x02",
+        "#00011F#11P#10ACrap\x02",
     )
 
     CloseMessageWindow()
@@ -3209,7 +3209,7 @@ def main():
     NpcTalk(
         0x11,
         "Voice of a man",
-        "#2S── Target discovery!\x02",
+        "#2STarget spotted!\x02",
     )
 
     CloseMessageWindow()
@@ -3242,14 +3242,14 @@ def main():
 
     ChrTalk(
         0x11,
-        "#11PLloyd · Bannings!\x02",
+        "#11PIt's Lloyd Bannings!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x12,
-        "#11PI will pinch it!\x02",
+        "#11PGet him!\x02",
     )
 
     CloseMessageWindow()

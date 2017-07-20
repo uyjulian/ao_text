@@ -68,14 +68,14 @@ def main():
         "Runaway vehicle",                 # 47
         "car",                     # 48
         "sandbag",                   # 49
-        "Citizen１",                 # 50
-        "Citizen２",                 # 51
-        "Citizen３",                 # 52
-        "Citizen４",                 # 53
-        "Citizen５",                 # 54
-        "Citizen６",                 # 55
-        "Citizen７",                 # 56
-        "Citizen８",                 # 57
+        "Citizen 1",                 # 50
+        "Citizen 2",                 # 51
+        "Citizen 3",                 # 52
+        "Citizen 4",                 # 53
+        "Citizen 5",                 # 54
+        "Citizen 6",                 # 55
+        "Citizen 7",                 # 56
+        "Citizen 8",                 # 57
         "Policeman",                   # 58
         "Policeman",                   # 59
         "Policeman",                   # 60
@@ -1722,7 +1722,7 @@ def main():
         0xFE,
         (
             "Today is only with plenary sessions,\x01",
-            "Orchis Tower方面は\x01",
+            "Directions to Orkis Tower\x01",
             "It seems to be blocked.\x02",
         )
     )
@@ -1759,7 +1759,7 @@ def main():
         0xFE,
         (
             "Today is only with plenary sessions,\x01",
-            "Orchis Tower方面は\x01",
+            "Directions to Orkis Tower\x01",
             "It seems to be blocked.\x02",
         )
     )
@@ -1771,7 +1771,7 @@ def main():
         (
             "Considering safety\x01",
             "It will be natural, but,\x01",
-            "一Citizenとしては少し残念です。\x02",
+            "It is a pity as a citizen.\x02",
         )
     )
 
@@ -1883,7 +1883,7 @@ def main():
         0xFE,
         (
             "Now, I used a variant of imported ingredients\x01",
-            "期間There is also a limited menu.\x02",
+            "There is also a limited-time menu.\x02",
         )
     )
 
@@ -1909,7 +1909,7 @@ def main():
         0xFE,
         (
             "Now, I used a variant of imported ingredients\x01",
-            "期間There is also a limited menu.\x02",
+            "There is also a limited-time menu.\x02",
         )
     )
 
@@ -1955,7 +1955,7 @@ def main():
         0xFE,
         (
             "Well,\x01",
-            "こういう時こそCitizenの心を\x01",
+            "This kind of time is the mind of citizens\x01",
             "We have to make it one.\x02",
         )
     )
@@ -2364,7 +2364,7 @@ def main():
         0xFE,
         (
             "Was it from the afternoon?\x01",
-            "いよいよ、Orchis Towerで\x01",
+            "Finally, at the Orkis Tower\x01",
             "The plenary session will be held!\x02",
         )
     )
@@ -2385,7 +2385,7 @@ def main():
         0xFE,
         (
             "#4SMayor Dieter … …!\x01",
-            "我々Citizenはあなたを\x01",
+            "We citizen\x01",
             "I support you from the bottom of my heart! It is!#3S\x02",
         )
     )
@@ -2425,7 +2425,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Orchis Tower……！\x01",
+            "Orchis Tower……!\x01",
             "What a graceful and magnificent! It is!\x02",
         )
     )
@@ -2473,7 +2473,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "それに明日はOrchis Towerの\x01",
+            "Also tomorrow is the Orkis Tower\x01",
             "It is the day when the unveiling ceremony is held.\x02",
         )
     )
@@ -2548,7 +2548,7 @@ def main():
         0xFE,
         (
             "You guys, a little while ago\x01",
-            "sandbagを組んだ手際は\x01",
+            "Dent working combining sandbags\x01",
             "It was quite good.\x02",
         )
     )
@@ -2628,7 +2628,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "捕まったヤツのcar……\x01",
+            "A crowded car of cars ……\x01",
             "It seemed quite high.\x02",
         )
     )
@@ -3206,7 +3206,7 @@ def main():
             "#00006FCertainly, tomorrow\x01",
             "Leaders enter crossbell\x01",
             "That's why.\x02\x03",
-            "#00000F加えてOrchis Towerも\x01",
+            "#00000FIn addition, the Orkis Tower also\x01",
             "It's time to show off.\x02",
         )
     )
@@ -3846,7 +3846,7 @@ def main():
         0xFE,
         (
             "Today is for the general public\x01",
-            "Orchis Tower方面への立ち入りを\x01",
+            "Access to the Orkis Tower\x01",
             "I'm restricted.\x02",
         )
     )
@@ -3873,8 +3873,8 @@ def main():
         0xFE,
         (
             "The square in front of the tower,\x01",
-            "多くのCitizenや\x01",
-            "touristで賑わっています。\x02",
+            "Many citizens and\x01",
+            "It is crowded with tourists.\x02",
         )
     )
 
@@ -3941,7 +3941,7 @@ def main():
         0xFE,
         (
             "In the afternoon, the leaders also\x01",
-            "Orchis Towerに集まり……\x01",
+            "We gathered at the Orkis Tower ……\x01",
             "And the plenary session begins.\x02",
         )
     )
@@ -4133,7 +4133,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "くそー、Orchis Tower方面の\x01",
+            "Damn, towards the Orkis Tower\x01",
             "If you are in charge of security, the leaders\x01",
             "You actually saw it with this eye.\x02",
         )
@@ -4201,7 +4201,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10100FZeit君、\x01",
+            "#10100FMr. Zeit,\x01",
             "It was in such a place.\x02",
         )
     )
@@ -4338,7 +4338,7 @@ def main():
         0x22,
         (
             "Shin, who came yesterday,\x01",
-            "今日の列carで帰っちゃうらしいの。\x02",
+            "She seems to come home today by train.\x02",
         )
     )
 
@@ -4420,7 +4420,7 @@ def main():
 
     ChrTalk(
         0x24,
-        "もう、諦めようよRyu〜。\x02",
+        "Let's give up, Ryou ~.\x02",
     )
 
     CloseMessageWindow()
@@ -4723,7 +4723,7 @@ def main():
         0xFE,
         (
             "By the way … Tomorrow\x01",
-            "Citizen会館でCitizenフォーラムが\x01",
+            "A citizen forum at the city hall\x01",
             "It was done.\x02",
         )
     )
@@ -5047,7 +5047,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今、Citizen会館でやってる\x01",
+            "I am doing at the city hall now.\x01",
             "It's a charity event,\x01",
             "It's fun to have various events.\x02",
         )
@@ -5121,7 +5121,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "Citizenたちの熱狂ぶりはすさまじい……\x02",
+        "The citizens' enthusiasm is tremendous …\x02",
     )
 
     CloseMessageWindow()
@@ -5156,7 +5156,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "早いところスクリーンcarを\x01",
+            "Early screen car\x01",
             "It seems better to withdraw.\x02",
         )
     )
@@ -5557,7 +5557,7 @@ def main():
     CloseMessageWindow()
     OP_82(0x0, 0x64, 0xBB8, 0xC8)
     SetMessageWindowPos(-1, -1, -1, -1)
-    SetChrName("Citizenたち")
+    SetChrName("Citizens")
 
     AnonymousTalk(
         0xFF,
@@ -5579,7 +5579,7 @@ def main():
     CloseMessageWindow()
     OP_82(0x0, 0x64, 0xBB8, 0xC8)
     SetMessageWindowPos(-1, -1, -1, -1)
-    SetChrName("Citizenたち")
+    SetChrName("Citizens")
 
     AnonymousTalk(
         0xFF,
@@ -5616,7 +5616,7 @@ def main():
     OP_64(0x15)
     OP_82(0x0, 0x64, 0xBB8, 0xC8)
     SetMessageWindowPos(-1, -1, -1, -1)
-    SetChrName("Citizenたち")
+    SetChrName("Citizens")
 
     AnonymousTalk(
         0xFF,
@@ -5627,7 +5627,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     OP_82(0x0, 0x64, 0xBB8, 0xC8)
-    SetChrName("Citizenたち")
+    SetChrName("Citizens")
 
     AnonymousTalk(
         0xFF,
@@ -5832,7 +5832,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "#00004FYes, of course.\x02\x03",
-            "#00000FWest Crossbell Highwayの途中から\x01",
+            "#00000FFrom the middle of the West Crossbell Highway\x01",
             "I'm in the gate.\x02",
         )
     )
@@ -5995,7 +5995,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "From the city map of Crossbell\x01",
-            "『West Crossbell Highway』が\x01",
+            "\"West Crossbell Highway\"\x01",
             "You can now select.\x07\x00\x02",
         )
     )
@@ -6560,7 +6560,7 @@ def main():
 
     ChrTalk(
         0x27,
-        "clear!\x02",
+        "Clear!\x02",
     )
 
     CloseMessageWindow()
@@ -6947,7 +6947,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001FOrchis Tower方面は\x01",
+            "#00001FDirections to Orkis Tower\x01",
             "\"Defense Army\" is strict\x01",
             "It seems to be guarding.\x02\x03",
             "#00003F… … let's not go.\x02",
@@ -7352,7 +7352,7 @@ def main():
             "Anyway now they\x01",
             "Let's take it to the headquarters.\x02\x03",
             "Forever here\x01",
-            "carを停めておくわけにも\x01",
+            "Even as I park my car\x01",
             "I will not go.\x02",
         )
     )
@@ -7567,7 +7567,7 @@ def main():
         0x101,
         (
             "#00005FThis, indeed,\x01",
-            "McDowell御用達の……！？\x02",
+            "McDowell chairperson wit … …! Is it?\x02",
         )
     )
 
@@ -8000,7 +8000,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "※　 この先Orchis Tower 　※\x01",
+            "※ This place Orkis Tower ※\x01",
             "※ Staff only ※\x07\x00\x02",
         )
     )
@@ -8112,7 +8112,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "タワー前はMagicianによって守られている。\x01",
+            "The front of the tower is protected by magical soldiers.\x01",
             "It seems better to turn back.\x07\x00\x02",
         )
     )
@@ -8171,7 +8171,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "  場所 ：クロスベルCitizen会館・多目的ホール \x01",
+            "Place: Crossbell Civic Center · Multipurpose Hall\x01",
             "Hall\x01",
             "Date: Today\x01",
             "Organizer: Cross Bell Chamber of Commerce / Crosbell City\x01",
@@ -8201,14 +8201,14 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            " Citizenフォーラム　　　　　　　　　　　　　 \x01",
+            "Civil Forum\x01",
             "\"~ Let's seriously think now,\x01",
             "Independence of national independence ~ \"\x01",
             "In the case of\x01",
             "【Program Overview】\x01",
             "· Independent national independence talked by experts\x01",
             "· Public discussion session by active autonomous state members\x01",
-            "  場所 ：クロスベルCitizen会館・多目的ホール \x01",
+            "Place: Crossbell Civic Center · Multipurpose Hall\x01",
             "Date: Today\x01",
             "Organizer: Crossbell City / Crossbell Communication Company\x07\x00\x02",
         )
@@ -8234,14 +8234,14 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            " Citizenフォーラム　　　　　　　　　　　　　 \x01",
+            "Civil Forum\x01",
             "\"~ Let's seriously think now,\x01",
             "Independence of national independence ~ \"\x01",
             "In the case of\x01",
             "【Program Overview】\x01",
             "· Independent national independence talked by experts\x01",
             "· Public discussion session by active autonomous state members\x01",
-            "  場所 ：クロスベルCitizen会館・多目的ホール \x01",
+            "Place: Crossbell Civic Center · Multipurpose Hall\x01",
             "Date: tomorrow\x01",
             "Organizer: Crossbell City / Crossbell Communication Company\x07\x00\x02",
         )
@@ -8275,7 +8275,7 @@ def main():
             "Investor seminar for beginners\x01",
             "\"- To understand the economy of tomorrow -\"\x01",
             "In the case of\x01",
-            "  場所 ：クロスベルCitizen会館・多目的ホール \x01",
+            "Place: Crossbell Civic Center · Multipurpose Hall\x01",
             "Date: Today\x01",
             "Organizer: trade quotient rezero\x01",
             "※ Since there is room in the seat,\x01",

@@ -433,9 +433,9 @@ def main():
     label("loc_A24")
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "導力carで移動する")
+    MenuCmd(1, 0, "Travel with a driving car")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_A58")
-    MenuCmd(1, 0, "導力carで休憩する")
+    MenuCmd(1, 0, "Take a break with a driving car")
 
     label("loc_A58")
 
@@ -652,9 +652,9 @@ def main():
     label("loc_D6B")
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "導力carで移動する")
+    MenuCmd(1, 0, "Travel with a driving car")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_D9F")
-    MenuCmd(1, 0, "導力carで休憩する")
+    MenuCmd(1, 0, "Take a break with a driving car")
 
     label("loc_D9F")
 
@@ -1273,7 +1273,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "クロスベルでWhen a foreigner commits a crime,\x01",
+            "If a foreigner commits a crime at the crossbell,\x01",
             "Long period of autonomous state law\x01",
             "It can not be detained.\x02",
         )
@@ -1489,7 +1489,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100F私たちの専用carだなんて……\x01",
+            "#00100FIt's our private car … …\x01",
             "Considering the situation so far,\x01",
             "You surely gotta shrink.\x02\x03",
             "#00104FReally, people in one department\x01",
@@ -1693,9 +1693,9 @@ def main():
     label("loc_234B")
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "導力carで移動する")
+    MenuCmd(1, 0, "Travel with a driving car")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_237F")
-    MenuCmd(1, 0, "導力carで休憩する")
+    MenuCmd(1, 0, "Take a break with a driving car")
 
     label("loc_237F")
 
@@ -2221,7 +2221,7 @@ def main():
         0x102,
         (
             "#00105F#6PPaid to the Special Affairs Support Division\x01",
-            "導力car……\x02",
+            "Drifting car …\x02",
         )
     )
 
@@ -2296,7 +2296,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00011F#6PＺＣＦが導力carを\x01",
+            "#00011F#6PZCF drives a driven vehicle\x01",
             "Did you develop it! Is it?\x02",
         )
     )
@@ -2315,7 +2315,7 @@ def main():
         (
             "#00104F#6PYeah, Libert is\x01",
             "Because the country is steep\x01",
-            "導力carが普及していないの。\x02\x03",
+            "Drive vehicles are not widespread.\x02\x03",
             "#00100FInstead, ZCF\x01",
             "As the world's best airship manufacturer\x01",
             "It is known ….\x02",
@@ -2328,7 +2328,7 @@ def main():
         0x109,
         (
             "#10108F#6PThat ZCF is\x01",
-            "導力carを開発したなんて！\x02\x03",
+            "You developed a powertrain!\x02\x03",
             "#10109FThe spec is! Is it?\x01",
             "What is the maximum speed? Is it?\x02",
         )
@@ -2366,7 +2366,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100F#6Pでも、よくこんなcarを\x01",
+            "#00100F#6PBut I often use such a car\x01",
             "Were you able to arrange it?\x02\x03",
             "It has not been officially released yet\x01",
             "It looks like a new model, but ….\x02",
@@ -2446,7 +2446,7 @@ def main():
             "#01000FIf the load is heavy\x01",
             "You can also decline it?\x02\x03",
             "In that case, it is adopted by the police\x01",
-            "ヴェルヌ社の汎用carを回してやる。\x02",
+            "I will turn the general-purpose car of Verne.\x02",
         )
     )
 
@@ -2824,7 +2824,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#11PGarcia …?\x02",
+        "#00005F#11PGarcia?\x02",
     )
 
     CloseMessageWindow()
@@ -2855,7 +2855,7 @@ def main():
     ChrTalk(
         0x10B,
         (
-            "#11103F#11P── The familiarity is here.\x02\x03",
+            "#11103F#11PThis is as far as we go together\x02\x03",
             "#11100FFrom here onwards,\x01",
             "You go alone.\x02",
         )
@@ -2865,7 +2865,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#11PHuh……\x02",
+        "#00011F#11PHuh?\x02",
     )
 
     CloseMessageWindow()
@@ -2885,12 +2885,12 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00013F#11PWait, wait!\x02\x03",
+            "#00013F#11PW-wait a minute\x02\x03",
             "Then why\x01",
             "You accompany me so far …\x02\x03",
             "#00007FAnd no matter how much it is\x01",
             "There is nothing I can do about it alone! Is it?\x02\x03",
-            "If it was me too - ─\x02",
+            "In that case I'll come too\x02",
         )
     )
 
@@ -2900,7 +2900,7 @@ def main():
 
     ChrTalk(
         0x10B,
-        "#11107F#5S#11PDo not mix up, little boy!\x02",
+        "#11107F#5S#11PBACK OFF BRAT!\x02",
     )
 
     CloseMessageWindow()
@@ -2924,7 +2924,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#11P………………………………\x02",
+        "#00008F#11P…\x02",
     )
 
     CloseMessageWindow()
@@ -2934,10 +2934,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5PThank you, Garcia.\x02\x03",
+            "#00003F#5PThank you Garcia\x02\x03",
             "#00008FOn your stand, your escape\x01",
             "I can not welcome you ….\x02\x03",
-            "#00001FPlease be safe.\x02",
+            "#00001FBut please make it out ok\x02",
         )
     )
 
@@ -3019,7 +3019,7 @@ def main():
 
     AnonymousTalk(
         0xF,
-        "#2SPleasure …!\x05\x02",
+        "#2SThere he is!\x05\x02",
     )
 
     Sleep(1200)
@@ -3029,7 +3029,7 @@ def main():
 
     AnonymousTalk(
         0x13,
-        "#2SNever let go!\x05\x02",
+        "#2SDon't let him get away\x05\x02",
     )
 
     Sleep(1500)
@@ -3080,7 +3080,7 @@ def main():
 
     ChrTalk(
         0x10B,
-        "#11102F#11PKuku, the margins are enough ……\x02",
+        "#11102F#11PHaha, oh bring it on\x02",
     )
 
     CloseMessageWindow()
@@ -3475,7 +3475,7 @@ def main():
         0x101,
         (
             "#00000FOops, this direction is for the forest road.\x01",
-            "導力carはガレージ前だ。\x02",
+            "The guided car is in front of the garage.\x02",
         )
     )
 

@@ -434,7 +434,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -525,7 +525,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -674,7 +674,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -768,7 +768,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -858,7 +858,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1082,7 +1082,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10305FIt is old fashioned books.\x02",
+        "#10305FSeems to have details of old style crafts\x02",
     )
 
     CloseMessageWindow()
@@ -1114,8 +1114,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002FIndeed, if this is the case …\x02\x03",
-            "Wadi, Can I try it?\x02",
+            "#00002FI see. You're right actually\x02\x03",
+            "Wazy, wanna try it out?\x02",
         )
     )
 
@@ -1123,7 +1123,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10304FOf course, of course.\x02",
+        "#10304FHa, of course\x02",
     )
 
     CloseMessageWindow()
@@ -1148,14 +1148,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FWadi, Can I try it?\x02",
+        "#00000FWazy, wanna try it out?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10300FOf course, of course.\x02",
+        "#10300FHa, of course\x02",
     )
 
     CloseMessageWindow()

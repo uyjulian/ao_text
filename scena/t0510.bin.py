@@ -458,7 +458,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "Alecったら、町の近くにいた狼に\x01",
+            "Alec, to the wolf who was near the town\x01",
             "I was approaching and stroking you.\x02",
         )
     )
@@ -671,7 +671,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "Alecったら何をあんな\x01",
+            "What are you doing when Alec\x01",
             "I wonder if he is screaming loud ……\x02",
         )
     )
@@ -698,7 +698,7 @@ def main():
         0xA,
         (
             "With the influence of the husband who is the mining chief,\x01",
-            "Alecは鉱員を目指してるみたい。\x02",
+            "It seems that Alec is aiming for miners.\x02",
         )
     )
 
@@ -735,7 +735,7 @@ def main():
         0xA,
         (
             "With the influence of the husband who is the mining chief,\x01",
-            "Alecは鉱員を目指してるみたい。\x02",
+            "It seems that Alec is aiming for miners.\x02",
         )
     )
 
@@ -764,7 +764,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "毎日、Alecが危険な場所に\x01",
+            "Every day, Alec is in a dangerous place\x01",
             "I'm worried if I step in on foot … ….\x02",
         )
     )
@@ -830,7 +830,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "そこで、Alecが勝手に\x01",
+            "So, Alec without permission\x01",
             "Please find out that you were in the mine.\x01",
             "I scolded it.\x02",
         )
@@ -1090,7 +1090,7 @@ def main():
     ChrTalk(
         0x11,
         (
-            "俺達鉱員もDo not leave it like this.\x01",
+            "We can not keep our miners like this.\x01",
             "Why do not you talk to the mayor …\x02",
         )
     )
@@ -1660,7 +1660,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "Amiとロージーは、\x01",
+            "Amy and Rosie,\x01",
             "It is noisy when two people are ready\x01",
             "nothing I can do about it.\x02",
         )
@@ -2058,7 +2058,7 @@ def main():
     ChrTalk(
         0x10,
         (
-            "ったく、Amiと話すのは\x01",
+            "I want to talk with Ami\x01",
             "It is very painful.\x02",
         )
     )
@@ -3022,7 +3022,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003FMayor of Vixen……\x01",
+            "#00003FMayor of Vixen … …\x01",
             "Mainz was also serious.\x02",
         )
     )
@@ -3617,7 +3617,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '旧矿山的钥匙'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I got it.\x02",
+            "Got Old Mine Key\x02",
         )
     )
 
@@ -3639,7 +3639,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "Oh, you guys can trust.\x02",
+        "Yeah, we trust you guys\x02",
     )
 
     CloseMessageWindow()
@@ -4749,7 +4749,7 @@ def main():
     ChrTalk(
         0x14,
         (
-            "Lieutenant Mireilleには、この機に\x01",
+            "To Mirireu Sankei, to this aircraft\x01",
             "I want you to take time off as much as possible.\x02",
         )
     )
@@ -4775,7 +4775,7 @@ def main():
     ChrTalk(
         0x14,
         (
-            "Lieutenant Mireilleには、この機に\x01",
+            "To Mirireu Sankei, to this aircraft\x01",
             "I want you to take time off as much as possible.\x02",
         )
     )
@@ -5365,7 +5365,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#5POh, I understand.\x02",
+        "#5POh right\x02",
     )
 
     CloseMessageWindow()
@@ -5483,7 +5483,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5Pええ、After a little down\x01",
+            "#5PYeah, after a while\x01",
             "It 's on the tip that climbed the northwest.\x02",
         )
     )
@@ -5587,7 +5587,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "Thanks to you I made a profit.\x02",
+        "They did help us out\x02",
     )
 
     CloseMessageWindow()
@@ -5628,7 +5628,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11POh, you guys.\x02",
+        "#11POh you guys\x02",
     )
 
     CloseMessageWindow()
@@ -5729,7 +5729,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10105FWhimsical group …?\x02",
+        "#6P#10105FStrange group…\x02",
     )
 
     CloseMessageWindow()
@@ -5777,14 +5777,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F(Sure, that … …)\x02",
+        "#00105F(T-that is…)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00005F#6P(\"Red constellation\" …… !?)\x02",
+        "#00005F#6P(Definitely the Red Constellation!?)\x02",
     )
 
     CloseMessageWindow()
@@ -5870,7 +5870,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00001F(I see. ….)\x02",
+        "#11P#00001F(I-I see…)\x02",
     )
 
     CloseMessageWindow()
@@ -5880,7 +5880,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P…… Hmm, that's right.\x02",
+        "#11PHm, that's right\x02",
     )
 
     CloseMessageWindow()
@@ -5898,7 +5898,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PGantt, give it to me.\x02",
+        "#5PGantz, hand it over\x02",
     )
 
     CloseMessageWindow()
@@ -5906,7 +5906,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "Oh, I understand.\x02",
+        "Oh right\x02",
     )
 
     CloseMessageWindow()
@@ -5921,7 +5921,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "Here, do not accept it.\x02",
+        "Take this\x02",
     )
 
     CloseMessageWindow()
@@ -5935,7 +5935,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '旧矿山的钥匙'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I got it.\x02",
+            "Got Old Mine Key\x02",
         )
     )
 
@@ -5947,14 +5947,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6PIs this the old mine …?\x02",
+        "#00005F#6PThis is for the old mine…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xF,
-        "Oh, it's a so-called spare key.\x02",
+        "Yeah, it's the spare key\x02",
     )
 
     CloseMessageWindow()
@@ -5971,7 +5971,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "Oh, you guys can trust.\x02",
+        "Yeah, we trust you guys\x02",
     )
 
     CloseMessageWindow()
@@ -5979,7 +5979,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "今後、If there is something I want to investigate\x01",
+            "If there is something I want to research in the future\x01",
             "Come in freely.\x02",
         )
     )

@@ -206,7 +206,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000Fこんばんは、Haroldさん。\x02",
+        "#00000FGood evening, Mr. Harold.\x02",
     )
 
     CloseMessageWindow()
@@ -226,7 +226,7 @@ def main():
         0x8,
         (
             "#03600FWell, that's right.\x01",
-            "それに今日はCholineも\x01",
+            "And also today Colin\x01",
             "He seems to be helping.\x02\x03",
             "#03609FWell, I am from the outset\x01",
             "As I came back,\x01",
@@ -245,7 +245,7 @@ def main():
         0x8,
         (
             "#03600FApparently today,\x01",
-            "Cholineが料理を手伝っている\x01",
+            "Colin is helping cooking\x01",
             "It looks like it.\x02\x03",
             "#03609FHehe, what kind of dish\x01",
             "I am looking forward to coming out.\x02",
@@ -271,7 +271,7 @@ def main():
         0x9,
         (
             "#03700FLet's just wait for boiling.\x02\x03",
-            "#03709Fふふ、よく出来たわねCholine。\x01",
+            "#03709FHehe, well done, Colin.\x01",
             "I'm sure Papa will be pleased.\x02",
         )
     )

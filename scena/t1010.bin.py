@@ -312,7 +312,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "Gelったらダメねぇ、ホントダメ。\x02",
+        "Do not get serious, do not worry.\x02",
     )
 
     CloseMessageWindow()
@@ -343,7 +343,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "Gelったらダメねぇ、ホントダメ。\x02",
+        "Do not get serious, do not worry.\x02",
     )
 
     CloseMessageWindow()
@@ -375,7 +375,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "いいこと、Gel？\x01",
+            "Good thing, Zel?\x01",
             "Because you are my marriage\x01",
             "I think that it is necessary to have an eye to look into the future.\x02",
         )
@@ -429,7 +429,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "いいこと、Gel？\x01",
+            "Good thing, Zel?\x01",
             "Because you are my marriage\x01",
             "I must be a cool person.\x02",
         )
@@ -514,7 +514,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Emmyの言うことは\x01",
+            "What Emmy says\x01",
             "Sometimes I'm not sure.\x02",
         )
     )
@@ -547,7 +547,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Emmyは理想が高すぎるよ。\x02",
+        "Emmy is too ideal.\x02",
     )
 
     CloseMessageWindow()
@@ -1110,14 +1110,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#2PCow, a new military monster for military! Is it?\x02",
+        "#00010F#2PTch, more millitary dogs!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00307F#2PIt's a red lion - be careful!\x02",
+        "#00307F#2PThey're stronger - be careful!\x02",
     )
 
     CloseMessageWindow()

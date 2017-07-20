@@ -594,7 +594,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#12P#10100FTsaoさんも\x01",
+            "#12P#10100FMr. Tsao also\x01",
             "It seems as ever.\x02",
         )
     )
@@ -941,7 +941,7 @@ def main():
             "It is said that you can receive such words.\x02\x03",
             "#03204F… Well then, I am here\x01",
             "I will let you get rude.\x02\x03",
-            "#03200FRow、彼らを元の場所まで\x01",
+            "#03200FLau, till they are back to their original place\x01",
             "Please give me a guide.\x02",
         )
     )
@@ -967,7 +967,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドたちは帰り際、Tsaoから\x07\x02\x01",
+            "Lloyd's from the Tsao on the way home\x07\x02\x01",
             "#14IBurst orb\x07\x05",
             "Received.\x07\x00\x02",
         )
@@ -1303,7 +1303,7 @@ def main():
             "Overcome the defense of \"association\"\x01",
             "To cancel the barrier\x01",
             "It will not be easy, but …\x02\x03",
-            "#00000FTsaoさんたちや\x01",
+            "#00000FMr. Tsao and\x01",
             "Even for resistance,\x01",
             "I will definitely do it.\x02",
         )
@@ -1324,7 +1324,7 @@ def main():
             "#5P#03204FHuh, it's as reliable as it is.\x02\x03",
             "#03200F… Well then, I am here\x01",
             "I will let you get rude.\x02\x03",
-            "#03204FRow、彼らを元の場所まで\x01",
+            "#03204FLau, till they are back to their original place\x01",
             "Please give me a guide.\x02",
         )
     )
@@ -1350,7 +1350,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドたちは帰り際、Tsaoから\x07\x02\x01",
+            "Lloyd's from the Tsao on the way home\x07\x02\x01",
             "#14IZelum powder\x07\x05",
             "Received.\x07\x00\x02",
         )

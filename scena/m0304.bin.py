@@ -220,7 +220,7 @@ def main():
     AnonymousTalk(
         0x103,
         (
-            "#00205F…… The signs are getting stronger.\x02\x03",
+            "#00205FThe sensation is increasing\x02\x03",
             "#00203FAlthough the number is one ……\x01",
             "It seems to be certain that someone is there.\x02",
         )
@@ -233,7 +233,7 @@ def main():
 
     AnonymousTalk(
         0x10A,
-        "#00601F(Inside of this door ……)\x02",
+        "#00601F(Beyond this door…)\x02",
     )
 
     CloseMessageWindow()
@@ -273,7 +273,7 @@ def main():
 
     AnonymousTalk(
         0x103,
-        "#00201F(Yes, there is no mistake.)\x02",
+        "#00201F(Yes, for sure)\x02",
     )
 
     CloseMessageWindow()
@@ -379,7 +379,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#N(That back figure is … …)\x02",
+        "#00005F#N(That person..)\x02",
     )
 
     CloseMessageWindow()
@@ -391,7 +391,7 @@ def main():
         (
             "#00105F#N(Maybe … ….\x01",
             "Crossbell Times'\x01",
-            "  Rainesさん？）\x02",
+            "Mr. Raines? )\x02",
         )
     )
 
@@ -401,7 +401,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00205F#N(What on earth …… in a place like this …)\x02",
+        "#00205F#N(In a place like this…)\x02",
     )
 
     CloseMessageWindow()
@@ -539,7 +539,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PAfter all, everyone.\x02",
+        "#5PHaha, so it is you guys\x02",
     )
 
     CloseMessageWindow()
@@ -604,7 +604,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00001FYeah, that is us.\x02",
+        "#12P#00001FYes, same for us\x02",
     )
 
     CloseMessageWindow()
@@ -659,7 +659,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00005FA private research company … …?\x02",
+        "#12P#00005FInvestigation firm?\x02",
     )
 
     CloseMessageWindow()
@@ -689,7 +689,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#12P#00603FHmm, I know about the name but … …\x02",
+        "#12P#00603FHmm. I know the name at least\x02",
     )
 
     CloseMessageWindow()
@@ -734,7 +734,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#12P#00600FIndeed … … certainly will the intersection go?\x02",
+        "#12P#00600FI see. So that's where I heard it\x02",
     )
 
     CloseMessageWindow()
@@ -752,7 +752,7 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#12P#00603FOh, Alan Richard -\x02\x03",
+            "#12P#00603FYeah, Alan Richard\x02\x03",
             "#00600F…… Two years ago at Libert\x01",
             "Caused a coup d'etre\x01",
             "It is a former and information officer.\x02",
@@ -804,7 +804,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#00005FThat coup d'etat … ….?\x02",
+        "#5P#00005FIn that Coup de Etat incident?\x02",
     )
 
     CloseMessageWindow()
@@ -825,7 +825,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#5P#00005FPardon …\x02\x03",
+            "#5P#00005FPardoned…\x02\x03",
             "#00003FI see.\x01",
             "While exploiting his own career\x01",
             "Did you set up a research company?\x02",
@@ -900,7 +900,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00003FYeah, for the most part.\x02",
+        "#12P#00003FYes. More or less\x02",
     )
 
     CloseMessageWindow()
@@ -995,7 +995,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5POh, is this about that?\x02",
+        "#5PYes. That's something we have for us\x02",
     )
 
     CloseMessageWindow()
@@ -1159,7 +1159,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#12P#10703F…… It is quite private opinion.\x02",
+        "#12P#10703FYes well any civilian would have a hard time understanding\x02",
     )
 
     CloseMessageWindow()
@@ -1243,7 +1243,7 @@ def main():
             "I think that it was not done.\x02\x03",
             "#00000FWell anyway, I have no time\x01",
             "We will rude around here.\x02\x03",
-            "#00001FRainesさんもここでの活動には\x01",
+            "#00001FMr. Raines is also involved in activities here\x01",
             "Please be careful enough.\x02",
         )
     )
@@ -1252,7 +1252,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PYes, of course.\x02",
+        "#5PYep, totally\x02",
     )
 
     CloseMessageWindow()

@@ -879,7 +879,7 @@ def main():
             "#00000FSurely, that's right.\x01",
             "We also have a smile on Ka'a\x01",
             "I feel like being saved … ….\x02\x03",
-            "#00009FCecil姉の笑顔があったら\x01",
+            "#00009FIf Cecil's older sister smiles\x01",
             "Patients will be readily available\x01",
             "I think I'll be fine.\x02",
         )
@@ -917,7 +917,7 @@ def main():
         0x8,
         (
             "#01300FWhen it is dark,\x01",
-            "笑顔をI have to show it.\x02\x03",
+            "You have to show me a smile.\x02\x03",
             "It also helps to relieve the patient's anxiety\x01",
             "It is our duty as a nurse.\x02",
         )
@@ -1036,7 +1036,7 @@ def main():
         0x102,
         (
             "#12P#00100FI'm sorry to cause you\x01",
-            "Cecilさん。\x02",
+            "Cecil.\x02",
         )
     )
 
@@ -1091,7 +1091,7 @@ def main():
         (
             "#5P#01304FIt seems that there will still be hard times to continue ……\x02\x03",
             "#01300FIf you guys surely,\x01",
-            "このYou should be able to solve a series of incidents.\x02\x03",
+            "You should be able to solve this series of incidents.\x02\x03",
             "#01309FHuhu, do your best, huh.\x02",
         )
     )
@@ -1186,7 +1186,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "あ、Cecil先輩なら\x01",
+            "Oh, Cecil-senpai\x01",
             "To see that big tree\x01",
             "I went to a rest area in the premises.\x02",
         )
@@ -1216,7 +1216,7 @@ def main():
         0x9,
         (
             "I can not get back to the city\x01",
-            "hospitalized patientさんや外来の方への\x01",
+            "To hospitalized patients and outpatients\x01",
             "It is where I correspond.\x02",
         )
     )
@@ -1484,7 +1484,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Professor Seyland、\x01",
+            "Professor Seyland,\x01",
             "A technique to cure Shizuku's eyes\x01",
             "It seems that he is rethinking newly.\x02",
         )
@@ -1535,7 +1535,7 @@ def main():
         (
             "Cool at all times\x01",
             "Mental power that can act reasonably …\x01",
-            "さすがはProfessor Seylandですよ〜。\x02",
+            "It is truly Professor Seyland ~.\x02",
         )
     )
 
@@ -1884,7 +1884,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "気合を入れてI suppose that I will encourage work.\x02",
+        "I'm supposed to put in a spirit and encourage my work.\x02",
     )
 
     CloseMessageWindow()
@@ -1911,7 +1911,7 @@ def main():
         0xFE,
         (
             "Then Philia,\x01",
-            "hospitalized patientたちへの説明は\x01",
+            "An explanation to hospitalized patients\x01",
             "Thank you.\x02",
         )
     )
@@ -2014,7 +2014,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00200Fええ……Martha director、\x01",
+            "#00200FYes … Martha,\x01",
             "Thank you for everything.\x02\x03",
             "#00204FIn the past, when returning when hospitalized\x01",
             "I wish I could have done it.\x02",
@@ -2469,7 +2469,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Cecilはどんな相手に対しても\x01",
+            "Cecil against any opponent\x01",
             "Divided, with consideration\x01",
             "You can touch.\x02",
         )
@@ -2509,7 +2509,7 @@ def main():
         (
             "Compassion for the patients\x01",
             "I can give you peace of mind.\x01",
-            "Cecilの立派な才能だよ。\x02",
+            "Cecil's good talent.\x02",
         )
     )
 
@@ -2538,7 +2538,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Professor Seylandってのは、\x01",
+            "Professor Seyland,\x01",
             "It's pretty much in Remiferia\x01",
             "A well-known person.\x02",
         )
@@ -2576,7 +2576,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あたしゃ、Professor Seylandの\x01",
+            "Well, Professor Seyland\x01",
             "He plays the ball\x01",
             "I like the attitude.\x02",
         )
@@ -2921,7 +2921,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "うう、Martha directorもホラ、\x01",
+            "Mr. Martha is also a horror,\x01",
             "Please look.\x02",
         )
     )
@@ -3085,7 +3085,7 @@ def main():
         0xC,
         (
             "Then Shirone, hand it out\x01",
-            "hospitalized patientさんたちの検温に行くわよ！\x02",
+            "I'm going to inspect the hospitalized patients!\x02",
         )
     )
 
@@ -5211,7 +5211,7 @@ def main():
         0xFE,
         (
             "As Mr. Fran is in reception,\x01",
-            "私たちPolicemanはこれまで\x01",
+            "Our cops so far\x01",
             "It was extremely encouraged.\x02",
         )
     )
@@ -5515,7 +5515,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Slashのヤツも\x01",
+            "The slash guy as well\x01",
             "Fully scare me.\x01",
             "I can not talk to Lok.\x02",
         )
@@ -5825,7 +5825,7 @@ def main():
     ChrTalk(
         0x15,
         (
-            "ふふ、Mr. Litton also\x01",
+            "Huhu, Mr. Litton also\x01",
             "There is some dependency.\x02",
         )
     )
@@ -6077,9 +6077,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "シズクちゃんがFinally to treatment\x01",
+            "Suzuku finally got into treatment\x01",
             "I was able to take the first step.\x01",
-            "私はI think that's amazing.\x02",
+            "I think that's amazing.\x02",
         )
     )
 
@@ -6112,7 +6112,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Professor Seylandって、\x01",
+            "Professor Seyland,\x01",
             "Even though I am young\x01",
             "It is very stately.\x02",
         )
@@ -6148,7 +6148,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Professor Seylandは、\x01",
+            "Professor Seyland,\x01",
             "I'm asking for a \"female doctor\"\x01",
             "It is perfect for the ideal image.\x02",
         )
@@ -6412,7 +6412,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "イリア…… I want you to keep up.\x02",
+        "Iria … I hope you do your best.\x02",
     )
 
     CloseMessageWindow()
@@ -6689,7 +6689,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "Totally, the child is … …\x02",
+        "Seriously, that kid\x02",
     )
 
     CloseMessageWindow()
@@ -6706,7 +6706,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "No, that's a mistake.\x02",
+        "Yeah, seriously\x02",
     )
 
     CloseMessageWindow()
@@ -6755,7 +6755,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "Oh, you guys.\x02",
+        "Oh it's you guys\x02",
     )
 
     CloseMessageWindow()
@@ -6805,14 +6805,14 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00200FLloyd, after all … …\x02",
+        "#00200FLloyd, as we thought\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00003FOh, I got a back.\x02",
+        "#00003FYeah, looks like it\x02",
     )
 
     CloseMessageWindow()
@@ -6822,14 +6822,14 @@ def main():
 
     ChrTalk(
         0xA,
-        "What do you mean?\x02",
+        "What's going on?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00012FIt is …\x02",
+        "#00012FActually…\x02",
     )
 
     CloseMessageWindow()
@@ -7041,7 +7041,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006FEr, um … ….\x02\x03",
+            "#00006FUhhh\x02\x03",
             "#00000FI'm sorry, but it was misplaced\x01",
             "Even if you let me take your luggage\x01",
             "Is it okay?\x02",
@@ -7096,10 +7096,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FThank you very much.\x02\x03",
+            "#00000FThank you \x02\x03",
             "#00003FWell, from Aaron\x01",
             "According to the received slip ……\x02\x03",
-            "#00000FThe addressee was a private house in a residential area.\x02",
+            "#00000FNext is the house in the residential district\x02",
         )
     )
 
@@ -7158,7 +7158,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00103FWell, well … well.\x02",
+        "#00103FUhh, right\x02",
     )
 
     CloseMessageWindow()
@@ -7172,7 +7172,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00105FWell, this address ……\x02\x03",
+            "#00105FOh this is\x02\x03",
             "Campbell's House of Congress\x01",
             "It is not a vacant house next door.\x02",
         )
@@ -7253,7 +7253,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101FWell, yeah … no doubt.\x02",
+        "#00101FYes, that's him\x02",
     )
 
     CloseMessageWindow()
@@ -7290,7 +7290,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00305F…… What do you mean?\x02\x03",
+            "#00305FWhat's going on?\x02\x03",
             "#00300FRecently\x01",
             "Was it also a tenant?\x02",
         )
@@ -7300,7 +7300,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106FNo, I do not understand.\x02",
+        "#00106FWell I don't really know\x02",
     )
 
     CloseMessageWindow()

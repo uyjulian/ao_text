@@ -292,7 +292,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F（これでEidolonは２体とも\x01",
+            "#00003F(With this, both eidolids\x01",
             "I took it down … ….\x01",
             "I do not care about something. )\x02\x03",
             "#00000FEveryone, a little scene\x01",
@@ -730,7 +730,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#5P（あれが《Eidolon》か……！）\x02",
+        "#00013F#5P(Is that a \"phantom beast\" …?!)\x02",
     )
 
     CloseMessageWindow()
@@ -918,7 +918,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10308F#9P（どうやらEidolonそのものが\x01",
+            "#10308F#9P(Apparently the phantom beast itself\x01",
             "It seems not to be the cause … …)\x02",
         )
     )
@@ -1131,7 +1131,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10303F#5Pどうやら《Eidolon》そのものが\x01",
+            "#10303F#5PApparently \"The eidolome\" itself\x01",
             "It seems not to be the cause … …\x02",
         )
     )
@@ -1376,7 +1376,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ウルスラ間道方面のEidolonを倒した！\x07\x00\x02",
+            "Ursula Killed beasts in the direction of the intermittent!\x07\x00\x02",
         )
     )
 
@@ -2252,7 +2252,7 @@ def main():
     AnonymousTalk(
         0x102,
         (
-            "#00100Fでも……またEidolonが現れたら\x01",
+            "#00100FBut … … If a phantom beast appears again\x01",
             "You may have to pick it up.\x02",
         )
     )
@@ -2434,7 +2434,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00001FOnce you return to the sky?\x02",
+        "#00001FThey're heading back up for now?\x02",
     )
 
     CloseMessageWindow()
@@ -2446,7 +2446,7 @@ def main():
         (
             "#10403FOh, as I remained on the ground\x01",
             "There is a danger of being perceived.\x02\x03",
-            "#10400FWell then\x02",
+            "#10400FOk then\x02",
         )
     )
 
@@ -2515,7 +2515,7 @@ def main():
 
     ChrTalk(
         0x107,
-        "#01200F#6P#3CHmm, is the law of star cup?\x02",
+        "#01200F#6P#3CHmm. Grail Technique\x02",
     )
 
     CloseMessageWindow()
@@ -2566,7 +2566,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001Fthis is……\x02",
+        "#00001FThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -2613,7 +2613,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012F#5PI see.\x02\x03",
+            "#00012F#5PI-I see\x02\x03",
             "#00002FBut Wadi …\x01",
             "It is truly a stakeholder in the church.\x02\x03",
             "Looking at the past behaviors\x01",
@@ -2629,7 +2629,7 @@ def main():
             "#10404F#11PHuh, you are tight\x01",
             "It is not a hobby\x01",
             "I do not have to change it.\x02\x03",
-            "#10400F── So, what do you do?\x02\x03",
+            "#10400FSo what do we do?\x02\x03",
             "After all Ursula hospital\x01",
             "Do you want to go?\x02",
         )
@@ -2640,7 +2640,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5POh, let's go and see.\x02\x03",
+            "#00003F#5PYeah. Let's go check it out\x02\x03",
             "#00008FAlso …\x01",
             "If you can afford Cross Bell City\x01",
             "I also want to see the direction.\x02",
@@ -2652,10 +2652,10 @@ def main():
     ChrTalk(
         0x107,
         (
-            "#01203F#6P#3CHmm, let's do that as well.\x02\x03",
+            "#01203F#6P#3CHmm. That would be good\x02\x03",
             "#01201FHowever, due to Prelomaria grass\x01",
-            "街道にEidolonが出現している状況だ。\x02\x03",
-            "Be careful, be careful.\x02",
+            "There are situations in which eidolons are appearing on the highway.\x02\x03",
+            "We should take extra care\x02",
         )
     )
 
@@ -2664,14 +2664,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#5POh, I understand.\x02",
+        "#00013F#5PYeah. Got it\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10400F#11PWell then let's go.\x02",
+        "#10400F#11POk then should we go?\x02",
     )
 
     CloseMessageWindow()

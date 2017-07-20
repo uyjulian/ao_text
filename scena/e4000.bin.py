@@ -177,7 +177,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P#4SStupid, stupid …! Is it?\x02",
+        "#5P#4SI-impossible!\x02",
     )
 
     CloseMessageWindow()
@@ -203,7 +203,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#11PAnd, it is unbelievable ……\x02",
+        "#11PIt doesn't seem possible but\x02",
     )
 
     CloseMessageWindow()
@@ -220,7 +220,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWhat, stupid ……\x02",
+        "#5PWhat is this stupidity\x02",
     )
 
     CloseMessageWindow()

@@ -1127,7 +1127,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1218,7 +1218,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1309,7 +1309,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1699,7 +1699,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#5PAccording to Harold's story ……\x02\x03",
+            "#00203F#5PAccording to Harold\x02\x03",
             "#00201FHere several times, the troops of the Defense Forces\x01",
             "They are under attack by a group of mysteries.\x02",
         )
@@ -1721,7 +1721,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#5PReally……\x02",
+        "#00006F#5PI see…\x02",
     )
 
     CloseMessageWindow()
@@ -1763,7 +1763,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#5PIt is okay.\x02",
+        "#00201F#5PRoger that\x02",
     )
 
     CloseMessageWindow()
@@ -2143,7 +2143,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003FルバーチェのMilitary dog……\x02\x03",
+            "#00003FRubache's military dog ……\x02\x03",
             "#00001FApparently the forecast\x01",
             "I wish you hit it.\x02\x03",
             "#00008FWild\x01",
@@ -2334,7 +2334,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F……Zeit！？\x02",
+        "#00005F…… Zeit! Is it?\x02",
     )
 
     CloseMessageWindow()

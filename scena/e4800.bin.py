@@ -357,7 +357,7 @@ def main():
             "#00100FWhatching\x01",
             "Thank you very much.\x02\x03",
             "by the way,\x01",
-            "Fake brand quotientは……？\x02",
+            "Fake brand trader … ….?\x02",
         )
     )
 
@@ -374,7 +374,7 @@ def main():
             "#00200FWhatching\x01",
             "I reviewed it.\x02\x03",
             "So,\x01",
-            "Fake brand quotientは……？\x02",
+            "Fake brand trader … ….?\x02",
         )
     )
 
@@ -408,7 +408,7 @@ def main():
             "#10100FHaha ……\x01",
             "Thank you very much.\x02\x03",
             "by the way,\x01",
-            "Fake brand quotientは……？\x02",
+            "Fake brand trader … ….?\x02",
         )
     )
 
@@ -466,7 +466,7 @@ def main():
             "I guess I ran into the car using this.\x02\x03",
             "#00000FIf you wash in order from the rear vehicle\x01",
             "It should be pursued.\x02\x03",
-            "Mr. Raymond, let's go!\x02",
+            "Let's go!\x02",
         )
     )
 
@@ -696,14 +696,14 @@ def main():
 
     ChrTalk(
         0x1A1,
-        "Powered by Translate Is it?\x02",
+        "Uaaaa!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00005FWhat is it …?! Is it?\x02",
+        "#00005FWhat…\x02",
     )
 
     CloseMessageWindow()
@@ -732,21 +732,21 @@ def main():
 
     ChrTalk(
         0xA,
-        "Apparently it seems like Crossbell Police ……\x02",
+        "Looks like Crossbell police\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xA,
-        "I do not know the circumstances, but I will stop it!\x02",
+        "You won't be getting us here!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xB,
-        "If you keep tracking any further, there will be no life!\x02",
+        "Don't move any futher\x02",
     )
 
     CloseMessageWindow()
@@ -756,7 +756,7 @@ def main():
         0x102,
         (
             "#00105F……, apparently, it looks real.\x02\x03",
-            "#00106FなんでFake brand quotientの\x01",
+            "#00106FWhy the fake brand name\x01",
             "Whether you are on a side or not\x01",
             "I do not understand at all, but ….\x02",
         )
@@ -772,8 +772,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00201F…… Apparently it looks real.\x02\x03",
-            "#00206FなぜFake brand quotientの\x01",
+            "#00201FThey're the real thing\x02\x03",
+            "#00206FWhy fake brand quoters\x01",
             "Are you on a side?\x01",
             "I do not know the meaning … …\x02",
         )
@@ -791,7 +791,7 @@ def main():
         (
             "#00301FChit … that equipment,\x01",
             "Apparently it does not seem to be wrong.\x02\x03",
-            "#00306FなんでFake brand quotientの\x01",
+            "#00306FWhy the fake brand name\x01",
             "I wonder if I am getting under control\x01",
             "I do not know …\x02",
         )
@@ -810,7 +810,7 @@ def main():
             "#10101FThat equipment …\x01",
             "There seems to be no mistake!\x02\x03",
             "#10106FBut why?\x01",
-            "Fake brand quotientの味方を……\x02",
+            "A friend of a fake brand merchant … ….\x02",
         )
     )
 
@@ -841,7 +841,7 @@ def main():
             "#00003FAnyways……\x01",
             "To this degree of threat\x01",
             "I can not yield.\x02\x03",
-            "#00007FWe will control, everyone!\x02",
+            "#00007FPrepare yourselves!\x02",
         )
     )
 
@@ -985,7 +985,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "What are you guys ……\x02",
+        "What in the world\x02",
     )
 
     CloseMessageWindow()
@@ -1012,7 +1012,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "Response\x02",
+        "Right!\x02",
     )
 
     CloseMessageWindow()
@@ -1032,7 +1032,7 @@ def main():
 
     ChrTalk(
         0x1A1,
-        "I was scared …\x02",
+        "That was scary\x02",
     )
 
     CloseMessageWindow()
@@ -1053,7 +1053,7 @@ def main():
         (
             "#00103FBut, as expected, no more\x01",
             "There should not be any escape.\x02\x03",
-            "#00100FLet's keep tight.\x02",
+            "#00100FLet's chase them down\x02",
         )
     )
 
@@ -1069,7 +1069,7 @@ def main():
         (
             "#00203FBut, as expected, no more\x01",
             "There should not be an escape place.\x02\x03",
-            "#00200FLet's keep tight.\x02",
+            "#00200FLet's chase them down\x02",
         )
     )
 
@@ -1337,7 +1337,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007FWait! It is!\x02",
+        "#00007FWait!\x02",
     )
 
     CloseMessageWindow()
@@ -1416,28 +1416,28 @@ def main():
 
     ChrTalk(
         0xA,
-        "Well …\x02",
+        "Ugh…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xB,
-        "surely……\x02",
+        "Right…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xC,
-        "Is this around the limit …?\x02",
+        "You guys were the ones\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#5P…………………………\x02",
+        "#5P…\x02",
     )
 
     CloseMessageWindow()
@@ -1486,7 +1486,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00205FWhat does that mean …?\x02\x03",
+            "#00205FWhat do you mean\x02\x03",
             "#00203FNo way, yet\x01",
             "Are you going to escape …?\x02",
         )
@@ -1547,7 +1547,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5PGonna … …? Ha! It is!\x02",
+        "#5PPlan? Ha!\x02",
     )
 
     CloseMessageWindow()
@@ -1599,7 +1599,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006FT, Tonzra ……\x02\x03",
+            "#00006FEscape…\x02\x03",
             "#00011FOver this period,\x01",
             "I will still run and I will escape\x01",
             "what is it! Is it?\x02",
@@ -1654,14 +1654,14 @@ def main():
 
     ChrTalk(
         0xA,
-        "Ohh ……!\x02",
+        "Right!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xC,
-        "I will follow! It is!\x02",
+        "Come at us!\x02",
     )
 
     CloseMessageWindow()
@@ -1977,14 +1977,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006FふWell …\x02",
+        "#00006FUgh\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x1A1,
-        "Nah, it must be managed somehow ……\x02",
+        "We did it…\x02",
     )
 
     CloseMessageWindow()
@@ -2041,7 +2041,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "Mother's Day …………\x02",
+        "Owowow\x02",
     )
 
     CloseMessageWindow()
@@ -2114,14 +2114,14 @@ def main():
 
     ChrTalk(
         0xB,
-        "Mother's Day …………\x02",
+        "Owowow\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#5Pち、ちくしょWell …\x02",
+        "#5PS-shit!\x02",
     )
 
     CloseMessageWindow()
@@ -2167,7 +2167,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5PCut …! It is!\x02",
+        "#5PUgh!\x02",
     )
 
     CloseMessageWindow()
@@ -2261,7 +2261,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006FHaa … it's totally.\x02\x03",
+            "#00006FYeah seriously\x02\x03",
             "#00000FWell, Raymond.\x01",
             "I am of them,\x01",
             "What should I do?\x02",
@@ -2272,7 +2272,7 @@ def main():
 
     ChrTalk(
         0x1A1,
-        "Well, it seems so.\x02",
+        "Right\x02",
     )
 
     CloseMessageWindow()

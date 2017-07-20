@@ -1040,7 +1040,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1131,7 +1131,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1222,7 +1222,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -2576,7 +2576,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#5PThat is……\x02",
+        "#00005F#5PThat is..\x02",
     )
 
     CloseMessageWindow()
@@ -2591,7 +2591,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10111FUnprecedentately this …\x02\x03",
+            "#10111FWhen did that\x02\x03",
             "#10101FWhen I came before\x01",
             "You did not open it, right?\x02",
         )
@@ -2606,7 +2606,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10111FUnprecedentately this …\x02\x03",
+            "#10111FWhen did that\x02\x03",
             "#10108FOnce upon a time of visiting\x01",
             "Even though it was not open ……\x02",
         )
@@ -2640,7 +2640,7 @@ def main():
         (
             "#10304F#6PSo, beyond this point\x01",
             "Is there a \"phantom beast\"?\x02\x03",
-            "#10300FHow is the sign of \"abnormality in the place\"?\x02",
+            "#10300FA spatial distortion\x02",
         )
     )
 
@@ -2703,8 +2703,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#5P…… For now, clearly.\x02\x03",
-            "#00201FHowever, I feel a strange sign.\x02",
+            "#00203F#5PI can't say for sure but\x02\x03",
+            "#00201FHowever I do feel a strange presence\x02",
         )
     )
 
@@ -2712,7 +2712,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#12Pso……\x02",
+        "#00108F#12PRight..\x02",
     )
 
     CloseMessageWindow()

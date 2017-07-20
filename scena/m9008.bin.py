@@ -415,7 +415,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#12Phere……\x02",
+        "#00105F#12PThis is..\x02",
     )
 
     CloseMessageWindow()
@@ -442,7 +442,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#12P#NThere is a gate to \"area\" …\x02",
+        "#00201F#12P#NBut one more Gate to another territory\x02",
     )
 
     CloseMessageWindow()
@@ -450,7 +450,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00301F#6P#NIs it \"barrier\" in the back … …\x02",
+        "#00301F#6P#NSo the center is the Result \x02",
     )
 
     OP_6F(0x79)
@@ -540,7 +540,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F#6P………………………………\x02",
+        "#00003F#6P….\x02",
     )
 
     CloseMessageWindow()
@@ -564,7 +564,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#4059V#18ADid you come?\x07\x00\x02",
+            "#40W#4059V#18AYou came.\x07\x00\x02",
         )
     )
 
@@ -594,7 +594,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#6P#30W…… Arios, san.\x02",
+        "#00001F#6P#30WArios…\x02",
     )
 
     CloseMessageWindow()
@@ -657,7 +657,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10403F#13PWell, that's right.\x02",
+        "#10403F#13PWell who else would it be\x02",
     )
 
     CloseMessageWindow()
@@ -679,7 +679,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10701F#13PI had predicted … …\x02",
+        "#10701F#13PI had a feeling…\x02",
     )
 
     CloseMessageWindow()
@@ -745,7 +745,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#4062V#20A── Words are useless.\x02",
+            "#40W#4062V#20ANo need to talk\x02",
         )
     )
 
@@ -756,7 +756,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#4063V#31AWait at the end of our \"area\".\x07\x00\x02",
+            "#40W#4063V#31AI will be waiting at the end of my Territory\x07\x00\x02",
         )
     )
 
@@ -789,7 +789,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F#6P#30W… … Have you finally come?\x02",
+        "#00306F#6P#30WSo this is is…\x02",
     )
 
     CloseMessageWindow()
@@ -860,7 +860,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100F#13PIs that so……\x02",
+        "#10100F#13PIs that right…\x02",
     )
 
     CloseMessageWindow()
@@ -882,7 +882,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10710F#13PIs that so……\x02",
+        "#10710F#13PIs that right…\x02",
     )
 
     CloseMessageWindow()
@@ -975,14 +975,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#12PYeah … …!\x02",
+        "#00107F#12PYes!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00301F#6PI agree with the points.\x02",
+        "#00301F#6PNo problem here\x02",
     )
 
     CloseMessageWindow()
@@ -1273,14 +1273,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F#5POh … I do not mistake.\x02",
+        "#00306F#5PYeah, she must be\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00008F#5P#30W………………………………\x02",
+        "#00008F#5P#30W….\x02",
     )
 
     CloseMessageWindow()
@@ -1363,7 +1363,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#13PYeah … …!\x02",
+        "#10101F#13PYes!\x02",
     )
 
     CloseMessageWindow()

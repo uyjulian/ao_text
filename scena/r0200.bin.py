@@ -2548,14 +2548,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10111F#6P(Ah……!)\x02",
+        "#10111F#6P(Ah!)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00013F#5P(Is that a \"phantom beast\" …?!)\x02",
+        "#00013F#5P(So that's a Crypitd)\x02",
     )
 
     CloseMessageWindow()
@@ -2566,14 +2566,14 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10305F#6P(Oops ……)\x02",
+        "#10305F#6P(Oh…)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00013F#5P(Is there……!)\x02",
+        "#00013F#5P(There it is)\x02",
     )
 
     CloseMessageWindow()
@@ -2604,8 +2604,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F#9P(As reported, it's pretty decent …).\x02\x03",
-            "#00301F(Thio, how is distortion in the field?\x02",
+            "#00303F#9P(It's huge, like the report said)\x02\x03",
+            "#00301F(Tiossuke, how's the space)\x02",
         )
     )
 
@@ -2616,7 +2616,7 @@ def main():
         (
             "#00203F#9P(Hour · sky · vision … …\x01",
             "We confirmed the expression of the top three attributes. )\x02\x03",
-            "#00201F(The cause is unknown for now.)\x02",
+            "#00201F(The actual cause of this is currently unknown)\x02",
         )
     )
 
@@ -2624,7 +2624,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#9P(so……)\x02",
+        "#00108F#9P(I see…)\x02",
     )
 
     CloseMessageWindow()
@@ -2700,7 +2700,7 @@ def main():
         (
             "#00003F#11P(In the report of the guard\x01",
             "It looks like a pretty dangerous type … …)\x02\x03",
-            "#00013F(If you want to get rid of it, leave it carefully.)\x02",
+            "#00013F(If we're going to exterminate it we have to be very careful)\x02",
         )
     )
 
@@ -2708,7 +2708,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#12P(OK……!)\x02",
+        "#10101F#12P(Roger that….)\x02",
     )
 
     CloseMessageWindow()
@@ -2730,8 +2730,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#9P(Also confirm the expression of the top three attributes … …)\x02\x03",
-            "#00201F(Again the cause is unknown.)\x02",
+            "#00203F#9P(Same - I can feel the higher three elements)\x02\x03",
+            "#00201F(Still no idea at the cause)\x02",
         )
     )
 
@@ -2739,7 +2739,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F#9P(After all ……)\x02",
+        "#00306F#9P(As we thought)\x02",
     )
 
     CloseMessageWindow()
@@ -2774,7 +2774,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#5P(Oh, let's go carefully … …!)\x02",
+        "#00013F#5P(Yeah, carefully)\x02",
     )
 
     CloseMessageWindow()
@@ -3157,7 +3157,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#6PHowever, the way of disappearing is the same …\x02",
+        "#10101F#6PBut the same way of disappearing\x02",
     )
 
     CloseMessageWindow()
@@ -3238,7 +3238,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#6PI agree……\x02\x03",
+            "#00203F#6PYes…\x02\x03",
             "#00201FHowever, something specific cause\x01",
             "I feel like it is likely.\x02",
         )
@@ -3277,7 +3277,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#5PIs that so?\x02",
+        "#00105F#5PR-really\x02",
     )
 
     CloseMessageWindow()
@@ -3343,14 +3343,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100F#6POK!\x02",
+        "#10100F#6PRoger that\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00300F#5PRandomly, looking for Mika!\x02",
+        "#00300F#5PLet's split up and search\x02",
     )
 
     CloseMessageWindow()
@@ -3368,7 +3368,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Defeated the eidolobes in the direction of the East Crossbell Highway!\x07\x00\x02",
+            "Defeated East Crossbell Hwy Monster\x07\x00\x02",
         )
     )
 
@@ -3441,7 +3441,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00005FThis flower ……\x02",
+        "#00005FThis flower is…\x02",
     )
 
     CloseMessageWindow()
@@ -3488,7 +3488,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00011FWas that right?\x02",
+        "#00011FR-really?\x02",
     )
 
     CloseMessageWindow()
@@ -3513,7 +3513,7 @@ def main():
     AnonymousTalk(
         0x109,
         (
-            "#10109FIt is a very beautiful flower …\x02\x03",
+            "#10109FIt's so pretty!\x02\x03",
             "#10102F…… I have never seen it before, but\x01",
             "What is his name?\x02",
         )
@@ -3525,7 +3525,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00001FWell …\x02",
+        "#00001FHmm\x02",
     )
 
     CloseMessageWindow()
@@ -3542,8 +3542,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#11P(… … I do not care about it … …)\x02\x03",
-            "#00001F(No, is it worth a try?\x02",
+            "#00003F#11P(I was thinking this couldn't possibly be it but)\x02\x03",
+            "#00001F(But we can test that)\x02",
         )
     )
 
@@ -3563,8 +3563,8 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00003F#11P(… … I do not care about it … …)\x02\x03",
-            "#00001F(No, is it worth a try?\x02",
+            "#00003F#11P(I was thinking this couldn't possibly be it but)\x02\x03",
+            "#00001F(But we can test that)\x02",
         )
     )
 
@@ -3615,7 +3615,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105FLloyd …?\x02",
+        "#00105FLloyd?\x02",
     )
 
     CloseMessageWindow()
@@ -3661,21 +3661,21 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00301F#5PWhat! Is it?\x02",
+        "#00301F#5PWhat!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00205F#12Pthis is……!\x02",
+        "#00205F#12PThis is!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00001F#11PCut …!\x02",
+        "#00001F#11PUgh!\x02",
     )
 
     CloseMessageWindow()
@@ -3716,21 +3716,21 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#11P………………………………\x02",
+        "#00013F#11P….\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10111F#5PWell, now ……\x02",
+        "#10111F#5PThat was\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00108FSomething like a space shaking …\x02",
+        "#00108FIt feels like the atmosphere shifted\x02",
     )
 
     CloseMessageWindow()
@@ -3763,7 +3763,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#11PReally……\x02",
+        "#00006F#11PI see\x02",
     )
 
     CloseMessageWindow()
@@ -3771,7 +3771,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00305F#5PWait a moment.\x02\x03",
+            "#00305F#5PW-wait a second\x02\x03",
             "#00307FNo doubt that the blue flower\x01",
             "I wonder what caused the abnormality! Is it?\x02",
         )
@@ -3783,7 +3783,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10304F#6PWell, that's probably not.\x02\x03",
+            "#10304F#6PWell, that must be\x02\x03",
             "#10300F…… to that small size flower\x01",
             "I do not think there is such power.\x02",
         )
@@ -3793,7 +3793,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101FAnd I can not believe it … …\x02",
+        "#00101FU-unbelievable\x02",
     )
 
     CloseMessageWindow()
@@ -3823,7 +3823,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00008F#11PThat's right.\x02\x03",
+            "#00008F#11PRight…\x02\x03",
             "#00003F…… Also around medical school\x01",
             "The specialty will be slightly different.\x02",
         )
@@ -3845,7 +3845,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#11POh, would you?\x02",
+        "#00006F#11PYeah let's do that\x02",
     )
 
     CloseMessageWindow()
@@ -3859,7 +3859,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10303F#6P……HM………\x02",
+        "#10303F#6PHmm\x02",
     )
 
     CloseMessageWindow()
@@ -3921,14 +3921,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#11PWasi …?\x02",
+        "#00005F#11PWazy?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10101F#5PIs there something in mind too?\x02",
+        "#10101F#5PDo you have an idea?\x02",
     )
 
     CloseMessageWindow()
@@ -3960,14 +3960,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#11Peh……! Is it?\x02",
+        "#00011F#11PHuh?!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00305F#5PHey hey, are you serious! Is it?\x02",
+        "#00305F#5POi oi seriously?\x02",
     )
 
     CloseMessageWindow()
@@ -3977,7 +3977,7 @@ def main():
         (
             "#10306F#6PNo, when I did shedding before Oita\x01",
             "I feel like I saw him ……\x02\x03",
-            "#10300FIs not there such as Ely?\x02",
+            "#10300FElie, don't you remember that\x02",
         )
     )
 
@@ -4070,7 +4070,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#11P… … That's right.\x02\x03",
+            "#00003F#11PRight…\x02\x03",
             "#00000FDr. Marble or Lease's\x01",
             "Would you like to consult with either one?\x02",
         )
@@ -4095,7 +4095,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#11P… … That's right.\x02\x03",
+            "#00003F#11PRight…\x02\x03",
             "#00000FAfter all the marble teacher\x01",
             "It may be easiest to consult.\x02",
         )
@@ -4762,7 +4762,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#11PYeah, somehow.\x02\x03",
+            "#00006F#11PYes, we took care of it\x02\x03",
             "#00000FI think that attention is necessary,\x01",
             "Perhaps it will reappear for a while\x01",
             "I do not think.\x02",
@@ -4793,7 +4793,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#6POh, I was really saved.\x02",
+        "#6PYes, you really saved us\x02",
     )
 
     CloseMessageWindow()
@@ -4801,7 +4801,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#6POh yeah, then Lloyd.\x02",
+        "#6POH right , Lloyd\x02",
     )
 
     CloseMessageWindow()
@@ -4928,7 +4928,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#6PYes, members of Lloyd.\x02",
+        "#6POh right Member Lloyd\x02",
     )
 
     CloseMessageWindow()
@@ -4946,7 +4946,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#11PWell, \"Bomb victory\" is … ….?\x02",
+        "#00011F#11PFishing contest?\x02",
     )
 
     CloseMessageWindow()
@@ -4962,7 +4962,7 @@ def main():
             "\"Members of the bombing fight\" with five members … …\x02\x03",
             "If you win the freedom of the office and the fishing spot\x01",
             "I can regain it … ….\x02\x03",
-            "#00001FIf you lose, do not you say the other party?\x02",
+            "#00001FOtherwise things stay the same\x02",
         )
     )
 
@@ -4970,7 +4970,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#6POh, that's it.\x02",
+        "#6PYes that's it\x02",
     )
 
     CloseMessageWindow()
@@ -4999,14 +4999,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#11PYes, I understand.\x02",
+        "#00000F#11PRight, got it\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#6POh yeah, then Lloyd.\x02",
+        "#6POH right , Lloyd\x02",
     )
 
     CloseMessageWindow()

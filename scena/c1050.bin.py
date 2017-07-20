@@ -627,7 +627,7 @@ def main():
         0xFE,
         (
             "The monster that caused the train accident\x01",
-            "最近噂されるWith a mysterious monster\x01",
+            "Recently rumored to be a mysterious monster\x01",
             "I do not know whether it is the same … …\x02",
         )
     )
@@ -806,7 +806,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "どうやら孫のRoyが、\x01",
+            "Apparently my grandson Roy,\x01",
             "Interest in stalls work\x01",
             "I heard you started to have it.\x02",
         )
@@ -902,7 +902,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おや、Royドくんじゃないか。\x01",
+            "Oh, is not it Lloyd?\x01",
             "What on earth happened?\x02",
         )
     )
@@ -913,7 +913,7 @@ def main():
         0x101,
         (
             "#00000FEr …\x01",
-            "Meyrinちゃんは\x01",
+            "Meilin is\x01",
             "Are you at home?\x02",
         )
     )
@@ -994,7 +994,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Royのやつに\x01",
+            "To Roy's bastard\x01",
             "Even one of the sermons\x01",
             "I thought I'd rather do it … …\x02",
         )
@@ -1005,7 +1005,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Meyrinのいるところで\x01",
+            "Where there is Meyrin\x01",
             "I do not want to do it.\x02",
         )
     )
@@ -1098,7 +1098,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おや……Royド君に、\x01",
+            "Oh … … To Lloyd,\x01",
             "Mr. MacDaely Chairman Miss?\x02",
         )
     )
@@ -1258,7 +1258,7 @@ def main():
         (
             "What to do now … ….\x01",
             "For those living in Crossbell\x01",
-            "それがI think it's more important than anything else.\x02",
+            "I think that is more important than anything else.\x02",
         )
     )
 
@@ -1285,7 +1285,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Royとおじいさんが\x01",
+            "Roy and his grandfather\x01",
             "Because I keep on watching him,\x01",
             "I am not afraid of coming here.\x02",
         )
@@ -1296,7 +1296,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "だからMeyrin、\x01",
+            "So Meilin,\x01",
             "You do not have to worry.\x02",
         )
     )
@@ -1390,7 +1390,7 @@ def main():
         0xFE,
         (
             "This charity event\x01",
-            "Royも手伝ってるそうだけど……\x01",
+            "Roy says he is helping, though ….\x01",
             "I wonder what happens.\x02",
         )
     )
@@ -1440,7 +1440,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "RoyやMeyrinにも、\x01",
+            "Roy and Meilin, too,\x01",
             "When going out enough\x01",
             "I have to tell him to be careful.\x02",
         )
@@ -1457,7 +1457,7 @@ def main():
         0xFE,
         (
             "Well ……\x01",
-            "おじいさんとMeyrinが\x01",
+            "My grandfather and meirin\x01",
             "I wonder if it is time to go back.\x02",
         )
     )
@@ -1483,7 +1483,7 @@ def main():
         0xFE,
         (
             "If you are a grandfather,\x01",
-            "表の通りでMeyrinと\x01",
+            "As shown in the table with meylin\x01",
             "I wonder if you are playing.\x02",
         )
     )
@@ -1562,7 +1562,7 @@ def main():
         0xFE,
         (
             "Old grandfather also\x01",
-            "Royの無気力ぶりには\x01",
+            "For Roy's spirit\x01",
             "It seems he was burning his hands ….\x02",
         )
     )
@@ -1572,7 +1572,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "この先Royががんばって、\x01",
+            "Let's do our best next time,\x01",
             "Eventually to the Chamber of Commerce ……\x02",
         )
     )
@@ -1597,7 +1597,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "この先Royががんばって、\x01",
+            "Let's do our best next time,\x01",
             "Eventually to the Chamber of Commerce ……\x02",
         )
     )
@@ -1608,7 +1608,7 @@ def main():
         0xFE,
         (
             "What is it supposed to be,\x01",
-            "おじいさん、I'm sure you will be pleased.\x02",
+            "My grandfather will surely be pleased.\x02",
         )
     )
 
@@ -1741,7 +1741,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Royにも見習わせたいわ。\x02",
+        "I would like Roy to practice it.\x02",
     )
 
     CloseMessageWindow()
@@ -1825,7 +1825,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "RoyとMeyrinは、\x01",
+            "Roy and Meirin,\x01",
             "I went for a walk in this rain.\x02",
         )
     )
@@ -1846,8 +1846,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Royの緑色の傘か、\x01",
-            "Meyrinのピンク色の傘の\x01",
+            "Roy 's green umbrella,\x01",
+            "Meilin's pink umbrella\x01",
             "You may try looking for either.\x02",
         )
     )
@@ -1862,7 +1862,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "RoyとMeyrinは\x01",
+            "Roy and Meilin\x01",
             "I think that I have not gone so far,\x01",
             "Please find a neighboring block.\x02",
         )
@@ -1873,8 +1873,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Royの緑色の傘か、\x01",
-            "Meyrinのピンク色の傘の\x01",
+            "Roy 's green umbrella,\x01",
+            "Meilin's pink umbrella\x01",
             "You may try looking for either.\x02",
         )
     )
@@ -1929,7 +1929,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Royたち、どこまで\x01",
+            "Roy, how far\x01",
             "I wonder if I went shopping.\x02",
         )
     )
@@ -2179,7 +2179,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00000FHey, hello there.\x02",
+        "#6P#00000FUh, good day\x02",
     )
 
     CloseMessageWindow()
@@ -2200,7 +2200,7 @@ def main():
         (
             "#6P#00003FYeah, hey\x01",
             "There was something I wanted to ask.\x02\x03",
-            "#00000FDo not you remember this?\x02",
+            "#00000FDo you recognize this at all>\x02",
         )
     )
 
@@ -2211,7 +2211,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "RoyドはMeyrinの傘を\x01",
+            "Lloyd's umbrella of Maylin\x01",
             "I showed to my wife.\x07\x00\x02",
         )
     )
@@ -2224,7 +2224,7 @@ def main():
         0x9,
         (
             "Oh, this is ….\x01",
-            "Meyrinの傘じゃないの。\x02",
+            "It is not Meirin 's umbrella.\x02",
         )
     )
 
@@ -2232,7 +2232,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Did you bother delivering it?\x02",
+        "You brought it all the way here?\x02",
     )
 
     CloseMessageWindow()
@@ -2242,7 +2242,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Oh dear, but ….\x02",
+        "Oh but\x02",
     )
 
     CloseMessageWindow()
@@ -2260,7 +2260,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00003FWell, actually it is …\x02",
+        "#6P#00003FUh, actually\x02",
     )
 
     CloseMessageWindow()
@@ -2270,7 +2270,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Royドは\x01",
+            "Lloyd is\x01",
             "I am looking for umbrella of peach\x01",
             "I explained the circumstances.\x07\x00\x02",
         )
@@ -2315,7 +2315,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ええ、さっきRoyと一緒に\x01",
+            "Yes, together with Roy\x01",
             "I guess I went for a walk by putting an umbrella.\x02",
         )
     )
@@ -2346,7 +2346,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00100Fこの雨だし、To far there\x01",
+            "#6P#00100FIt's raining, and far there\x01",
             "I wonder if it is not going.\x02\x03",
             "#00104FNext to east street,\x01",
             "Central square or port area, old city … ….\x01",
@@ -2358,7 +2358,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Well, maybe it is around.\x02",
+        "Right, I think that's true\x02",
     )
 
     CloseMessageWindow()
@@ -2366,8 +2366,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Royの緑色の傘か、\x01",
-            "Meyrinのピンク色の傘の\x01",
+            "Roy 's green umbrella,\x01",
+            "Meilin's pink umbrella\x01",
             "You may try looking for either.\x02",
         )
     )
@@ -2387,8 +2387,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00000FOh, let 's search for it.\x02\x03",
-            "#00004FWell then, thank you for your cooperation.\x02",
+            "#6P#00000FRight. Ok we'll go check\x02\x03",
+            "#00004FThanks for your help\x02",
         )
     )
 
@@ -2398,7 +2398,7 @@ def main():
         0x9,
         (
             "No problem.\x01",
-            "またいつでも来てPlease help me.\x02",
+            "You can come any time again.\x02",
         )
     )
 
@@ -2450,7 +2450,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#12Pふむ、Royド君たちじゃないか。\x02",
+        "#12PHmm, you are Lloyd guys.\x02",
     )
 
     CloseMessageWindow()
@@ -2570,7 +2570,7 @@ def main():
         0x8,
         (
             "#12PBut, why\x01",
-            "Royド君たちと一緒に？\x02",
+            "With Lloyd the guys?\x02",
         )
     )
 

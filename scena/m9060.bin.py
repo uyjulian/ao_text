@@ -621,7 +621,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -770,7 +770,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -861,7 +861,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -919,7 +919,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -1009,7 +1009,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1286,7 +1286,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#12PAnother \"area\" … …\x02",
+        "#00108F#12PAnother Territory…\x02",
     )
 
     CloseMessageWindow()
@@ -1309,7 +1309,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10701F#12POne side of the wilderness …\x02",
+        "#10701F#12POne big surface…\x02",
     )
 
     CloseMessageWindow()
@@ -1321,7 +1321,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10111F#12POne side of the wilderness …\x02",
+        "#10111F#12POne big surface…\x02",
     )
 
     CloseMessageWindow()
@@ -1364,7 +1364,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#11PWadi\x02",
+        "#00008F#11PWazy…\x02",
     )
 
     CloseMessageWindow()

@@ -572,7 +572,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -721,7 +721,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -791,7 +791,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -881,7 +881,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -972,7 +972,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1157,7 +1157,7 @@ def main():
         (
             "#30W──When we visited this place\x01",
             "Contact by the Imperial Government triggered me.\x02\x03",
-            "Several months after that faction incident ─ ─\x02\x03",
+            "A few months have gone by since the cult incident--\x02\x03",
             "I was confused by brawl and exiled to the empire\x01",
             "Former chairman Hartmann and former Mayor's secretary Ernesto\x01",
             "It was banished from the empire.\x02\x03",
@@ -1171,7 +1171,7 @@ def main():
             "It becomes a form to be left to \"the affairs support section\" … …\x02\x03",
             "In addition, the investigation division, the guard, the guild cooperate\x01",
             "An unusual investigation system was prepared.\x02\x03",
-            "And several days after the investigation in Altair City -\x02\x03",
+            "After several days investigating in Altair City\x02\x03",
             "We are both Hartmann and Ernest\x01",
             "I found out that I headed to the old lodge site of the cult.\x02",
         )
@@ -1238,7 +1238,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#30Where……\x02",
+        "#00005F#30WThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -1282,7 +1282,7 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00006F……課長とAriosさん、\x01",
+            "#00006F…… The section chief and Arios,\x01",
             "And it is when my older brother suppressed it.\x02\x03",
             "#00001FAnd the big brother here, only one person\x01",
             "I rescued the surviving Tio … …\x02",
@@ -1394,7 +1394,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#11P#00001F──Ariosさん。\x01",
+            "#11P#00001F── Arios.\x01",
             "If two people are going\x01",
             "Where is the lodge?\x02",
         )
@@ -1426,7 +1426,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00003F……surely.\x02",
+        "#11P#00003FThat's true…\x02",
     )
 
     CloseMessageWindow()
@@ -1445,11 +1445,11 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#12P#00606FThat possibility can not be denied.\x02\x03",
+            "#12P#00606FWe can't deny that possibility.\x02\x03",
             "Apparently Ernst is\x01",
             "\"Gnostic\" from Joachim\x01",
             "It seems that it received as it was.\x02\x03",
-            "#00601FIt is not pale but also pink.\x02",
+            "#00601FAnd it wasn't the blue pills, but the red ones, to make matters worse\x02",
         )
     )
 
@@ -1487,8 +1487,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10101FYeah!\x02\x03",
-            "#10106FHaa … but I'm glad you did.\x02\x03",
+            "#6P#10101FRight!\x02\x03",
+            "#10106FAhh, but this is a problem..\x02\x03",
             "At such timing\x01",
             "Enigma's version upgrade\x01",
             "I can not do it …\x02",
@@ -1499,7 +1499,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00006FWell, that's right.\x02",
+        "#11P#00006FI know, right?\x02",
     )
 
     CloseMessageWindow()
@@ -1592,7 +1592,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '力量'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "Received.\x02",
+            "Got FORCE from Dudley\x02",
         )
     )
 
@@ -1604,7 +1604,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FHuh……\x02",
+        "#00005FUh…\x02",
     )
 
     CloseMessageWindow()
@@ -1642,7 +1642,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, '盾牌'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "Received.\x02",
+            "Got FORCE from Dudley\x02",
         )
     )
 
@@ -1672,7 +1672,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FDoes this to us …?\x02",
+        "#00005FYou're letting us have these…?\x02",
     )
 
     CloseMessageWindow()
@@ -1702,14 +1702,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00002FYes!\x02",
+        "#11P#00002FRoger!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#12P#10102FI understand!\x02",
+        "#12P#10102FUnderstood!\x02",
     )
 
     CloseMessageWindow()
@@ -1727,8 +1727,8 @@ def main():
             "※ The new type of \"enigma 嘦\"\x01",
             "Master quartz in the middle slot\x01",
             "It can be set.\x02\x03",
-            "※キャンプメニューから[ORBMENT]を開き、\x01",
-            "  [QUARTZ]を選択することで、\x01",
+            "※ Open [ORBMENT] from the camp menu,\x01",
+            "By selecting [QUARTZ]\x01",
             "You can set master quartz.\x07\x00\x02",
         )
     )
@@ -1789,7 +1789,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#12P#00600FAlright, I'm ready.\x02",
+        "#12P#00600FGood, so preparations are complete?\x02",
     )
 
     CloseMessageWindow()
@@ -1811,7 +1811,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FYes, I have kept you waiting.\x02\x03",
+            "#00000FYes, sorry for the wait.\x02\x03",
             "#00002FThat……\x01",
             "Have you bother to prepare\x01",
             "It really helped me.\x02",
@@ -1847,7 +1847,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#30W……Yes!\x02",
+        "#00000F#30WRoger..!\x02",
     )
 
     CloseMessageWindow()
@@ -1883,7 +1883,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "OK, let's get started.\x02",
+        "Alright, let's do it.\x02",
     )
 
     CloseMessageWindow()
@@ -1965,7 +1965,7 @@ def main():
 
     AnonymousTalk(
         0x10A,
-        "#30WAh.\x02",
+        "#30WYes.\x02",
     )
 
     CloseMessageWindow()
@@ -1996,7 +1996,7 @@ def main():
 
     AnonymousTalk(
         0x109,
-        "#30WYes!\x02",
+        "#30WRoger!\x02",
     )
 
     CloseMessageWindow()
@@ -2013,7 +2013,7 @@ def main():
         (
             "#00004FAnd as special assistant\x01",
             "Association of Association of Shogunsha Associations Crossbell Section affiliation,\x01",
-            "Arios・マクレインどの。\x02",
+            "Arios McClein.\x02",
         )
     )
 
@@ -2028,7 +2028,7 @@ def main():
 
     AnonymousTalk(
         0x108,
-        "#30WAh.\x02",
+        "#30WYes.\x02",
     )
 
     CloseMessageWindow()
@@ -2060,7 +2060,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00607F#12PAll right!\x02",
+        "#00607F#12PAlright!\x02",
     )
 
     CloseMessageWindow()
@@ -2070,7 +2070,7 @@ def main():
 
     ChrTalk(
         0x108,
-        "#01407F#6PConsent … …!\x02",
+        "#01407F#6PUnderstood!\x02",
     )
 
     CloseMessageWindow()
@@ -2080,7 +2080,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10107F#6PI understand.\x02",
+        "#6P#10107F#6PRoger that!\x02",
     )
 
     CloseMessageWindow()
@@ -2095,11 +2095,11 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "About \"investigation notebook\".\x02\x03",
+            "About the investigator notebook\x02\x03",
             "* \"Investigation notebook\"\x01",
             "Various events that occurred during the game\x01",
             "It will be recorded automatically.\x02\x03",
-            "※キャンプメニューから[ITEMS]を開いて\x01",
+            "* Open [ITEMS] from the camp menu\x01",
             "Use \"investigation notebook\"\x01",
             "With \"△ button + direction key left\" on the field\x01",
             "You can see the contents.\x02\x03",
@@ -2116,7 +2116,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "About \"Battle notebook\".\x02\x03",
+            "About the battle notebook\x02\x03",
             "※ \"Battle notebook\"\x01",
             "The information of the opponent who fought in battle\x01",
             "It will be recorded automatically.\x02\x03",
@@ -2204,7 +2204,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#12P#10105FHere, this …\x02",
+        "#12P#10105FIs this…\x02",
     )
 
     CloseMessageWindow()
@@ -2254,7 +2254,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#5PAriosさん、これが……\x02",
+        "#00010F#5PArios is this…\x02",
     )
 
     CloseMessageWindow()
@@ -2274,7 +2274,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00608FChi …… External roads.\x02",
+        "#00608FTch… Damn heretics \x02",
     )
 
     CloseMessageWindow()
@@ -2282,7 +2282,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#12P#10110FD∴G Church … …\x02\x03",
+            "#12P#10110FThe D∴G Cult…\x02\x03",
             "#10103FI guess it was already crushed\x01",
             "To be honest, I can not forgive ……\x02",
         )
@@ -2294,7 +2294,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#11P…………………………………….\x02",
+        "#00008F#11P………….\x02",
     )
 
     CloseMessageWindow()
@@ -2319,21 +2319,21 @@ def main():
 
     ChrTalk(
         0x108,
-        "#6P#01403FOh, of course.\x02",
+        "#6P#01403FYes. Of course.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#4P#10107FLet's stop at all!\x02",
+        "#4P#10107FLet's stop them at any cost!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x10A,
-        "#00607FOK, I will hurry ahead!\x02",
+        "#00607FAlright, let's move forward!\x02",
     )
 
     CloseMessageWindow()
@@ -2348,7 +2348,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "About Analyze of Demonic Beast\x07\x00\x02",
+            "About Monster Analysis\x07\x00\x02",
         )
     )
 
@@ -2406,7 +2406,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "The door of the rock is tightly closed.\x07\x00\x02",
+            "The rock door is closed up.\x07\x00\x02",
         )
     )
 
@@ -2444,14 +2444,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00005Fthis is……\x02",
+        "#11P#00005FThis is…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#12P#10105FIs it a rock door?\x02",
+        "#12P#10105FA stone door?\x02",
     )
 
     CloseMessageWindow()
@@ -2471,7 +2471,7 @@ def main():
         (
             "#12P#00603FHun and Ernest per it\x01",
             "Perhaps he or she may have tried again.\x02\x03",
-            "#00600FIs there a way to release it?\x02",
+            "#00600FAny way to open it?\x02",
         )
     )
 
@@ -2516,7 +2516,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#5POK, let's go.\x02",
+        "#00001F#5POk let's check it out\x02",
     )
 
     CloseMessageWindow()

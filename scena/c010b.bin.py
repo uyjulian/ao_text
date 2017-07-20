@@ -536,7 +536,7 @@ def main():
         0xFE,
         (
             "Yeah, let's go ahead.\x01",
-            "Mimiも私もお腹ペコペコよ。\x02",
+            "Mimi and I are hungry.\x02",
         )
     )
 
@@ -562,7 +562,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Mimi、East Streetのお店の\x01",
+            "Mimi, the shop of east street\x01",
             "I want to eat \"Chu\"?\x02",
         )
     )
@@ -619,7 +619,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "そういえば、Linallyって\x01",
+            "By the way, linally\x01",
             "Do you keep jogging?\x02",
         )
     )
@@ -855,7 +855,7 @@ def main():
         0xFE,
         (
             "Until the heads of the leaders have finished,\x01",
-            "Entertainment districtからHarbor districtまでの一帯は\x01",
+            "The area from the red light district to the port area is\x01",
             "It becomes a blockade.\x02",
         )
     )
@@ -1117,7 +1117,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00109FHaha, it is.\x02\x03",
+            "#12P#00109FEhe, is that right\x02\x03",
             "#00105FOh, but Shizuku-chan,\x01",
             "Looking at the state of the unveiling ceremony … …\x02",
         )
@@ -1132,7 +1132,7 @@ def main():
             "#5P#01100FWell, just by mistake\x01",
             "I told you I want to feel it.\x02\x03",
             "How does it feel?\x01",
-            "Keyaが教えてあげるんだー。\x02",
+            "Ka'a can not tell me.\x02",
         )
     )
 
@@ -1140,14 +1140,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00002FI see……\x02",
+        "#6P#00002FI see\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#5P#00300F#30W…… That girl is also good.\x02",
+        "#5P#00300F#30WThat's a brave girl, huh\x02",
     )
 
     CloseMessageWindow()
@@ -1158,8 +1158,8 @@ def main():
     ChrTalk(
         0x13,
         (
-            "#12P#01105FHey Hey, Randy.\x02\x03",
-            "#01112FI'm not good from a little while ago.\x02",
+            "#12P#01105FHey hey Randy\x02\x03",
+            "#01112FYou've been down for a while\x02",
         )
     )
 
@@ -1219,7 +1219,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#5P#00309FHa ha, that's not it.\x02",
+        "#5P#00309FHaha, nope\x02",
     )
 
     CloseMessageWindow()
@@ -1242,7 +1242,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#5P#00303FShakin, look at Hole!\x02\x03",
+            "#5P#00303FCling! Look at me\x02\x03",
             "#00302FAs usual it's cool\x01",
             "Handsome nice guy, right?\x02",
         )
@@ -1253,7 +1253,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#12P#01111FAre you sure?\x02",
+        "#12P#01111FNice guy?\x02",
     )
 
     CloseMessageWindow()
@@ -1301,7 +1301,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00012Fmy mother……\x02\x03",
+            "#12P#00012FHaha\x02\x03",
             "#00000FBut Randy, too much alone\x01",
             "Do not you think about it?\x02",
         )
@@ -1325,7 +1325,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#5P#00304FHaha, I know.\x02\x03",
+            "#5P#00304FHah, got it\x02\x03",
             "#00308F─ ─ Well,\x01",
             "They are also my girlfriends.\x02\x03",
             "#00300FOnce you break your belly\x01",
@@ -1337,14 +1337,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00105Fthat is……\x02",
+        "#12P#00105FThat is…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#12P#00001F… … Is not it dangerous?\x02",
+        "#12P#00001FDangerous?\x02",
     )
 
     CloseMessageWindow()
@@ -1353,7 +1353,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#5P#00304FWait, you know that you are selfish.\x02\x03",
+            "#5P#00304FI know them well\x02\x03",
             "#00301FBut my uncle's guy,\x01",
             "While we are talking about some story\x01",
             "I do not hear anything at all.\x02",
@@ -1379,7 +1379,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#5P#00304FWait, you know that you are selfish.\x02\x03",
+            "#5P#00304FI know them well\x02\x03",
             "#00301FBut my uncle's guy,\x01",
             "While we are talking about some story\x01",
             "I do not hear anything at all.\x02\x03",
@@ -1392,7 +1392,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00001FIs it so……\x02",
+        "#12P#00001FI see…\x02",
     )
 
     CloseMessageWindow()
@@ -1546,7 +1546,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#5PWell, I was hungry.\x02\x03",
+            "#00306F#5PUgh, I'm hungry\x02\x03",
             "#00305FThat's right,\x01",
             "Was it going to be late tonight?\x02",
         )
@@ -1577,7 +1577,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10109F#5POh, sometimes is not it.\x02",
+        "#10109F#5POh that's nice once in a while!\x02",
     )
 
     CloseMessageWindow()
@@ -1615,7 +1615,7 @@ def main():
 
     ChrTalk(
         0x14,
-        "#01201F#40W#11PGururururururu ……\x02",
+        "#01201F#40W#11PGrrrrr\x02",
     )
 
     CloseMessageWindow()
@@ -1742,7 +1742,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00001FZeit？\x02",
+        "#11P#00001FZeit?\x02",
     )
 
     CloseMessageWindow()
@@ -1766,7 +1766,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00005Fcustomer?\x02",
+        "#11P#00005FSomeone?\x02",
     )
 
     CloseMessageWindow()
@@ -1776,7 +1776,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#11P#00311F#40W………………………………\x02",
+        "#11P#00311F#40W….\x02",
     )
 
     CloseMessageWindow()
@@ -1875,7 +1875,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10301F#11P… … Anyway let's enter.\x02",
+        "#10301F#11PLet's head in\x02",
     )
 
     CloseMessageWindow()
@@ -2336,7 +2336,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011Fthis is……\x02",
+        "#00011FThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -2356,7 +2356,7 @@ def main():
         (
             "#6P#00303FHun, at once\x01",
             "Did you buy such a substitute?\x02\x03",
-            "#00302FAs expected, is not it good?\x02",
+            "#00302FBut good taste as expected\x02",
         )
     )
 
@@ -2395,7 +2395,7 @@ def main():
 
     ChrTalk(
         0x16,
-        "#11PCharlie様、お疲れさまです。\x02",
+        "#11PShirley, good work\x02",
     )
 
     CloseMessageWindow()
@@ -2415,7 +2415,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00300FGareth … … It's been a while.\x02\x03",
+            "#6P#00300FGares, long time no see\x02\x03",
             "#00306FIn any case,\x01",
             "Be sure to let young people go well.\x02",
         )
@@ -2445,7 +2445,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00308F………Ah.\x02",
+        "#6P#00308FRight..\x02",
     )
 
     CloseMessageWindow()
@@ -2482,7 +2482,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#6P#10304FHuh, I'll bother you.\x02",
+        "#6P#10304FHa, coming in\x02",
     )
 
     CloseMessageWindow()
@@ -3016,7 +3016,7 @@ def main():
         (
             "#6P#00306FI guess it will be.\x02\x03",
             "#00301FBut ─ ─ this is my problem.\x02\x03",
-            "叔父貴やCharlieは関係ねぇ。\x02\x03",
+            "Uncle Takashi and Charlie are not concerned.\x02\x03",
             "Not much to Lloyd's\x01",
             "It is not good to involve.\x02\x03",
             "#00303FI … … My own Keli\x01",
@@ -3448,7 +3448,7 @@ def main():
         0x10A,
         (
             "#00603FTo Geo Front B compartment\x01",
-            "入り口はResidential areaにあったはずだ。\x02\x03",
+            "The entrance should have been in a residential area.\x02\x03",
             "#00600FI will head right without stopping.\x02",
         )
     )
@@ -3471,7 +3471,7 @@ def main():
         0x10A,
         (
             "#00603FTo Geo Front B compartment\x01",
-            "入り口はResidential areaにあったはずだ。\x02\x03",
+            "The entrance should have been in a residential area.\x02\x03",
             "#00600FI will head right without stopping.\x02",
         )
     )

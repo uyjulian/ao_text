@@ -450,7 +450,7 @@ def main():
         0x102,
         (
             "#00100FYes, thank you\x01",
-            "Helmerさん。\x02",
+            "Heller.\x02",
         )
     )
 
@@ -892,7 +892,7 @@ def main():
         0xFE,
         (
             "Towards tomorrow's plenary session, by all means\x01",
-            "英気を養ってI'd like to.\x02",
+            "I'd like you to develop spirit.\x02",
         )
     )
 
@@ -1083,7 +1083,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00100Fただいま、Helmerさん。\x02",
+        "#00100FI'm home, Mr. Helmer.\x02",
     )
 
     CloseMessageWindow()
@@ -1165,7 +1165,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00102Fふふ、ありがとうHelmerさん。\x01",
+            "#00102FHuhu, thank you Helmer.\x01",
             "I will keep trying hard.\x02",
         )
     )
@@ -1235,7 +1235,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100FただいまHelmerさん、Joanna。\x01",
+            "#00100FHeller, Mr. Joanna.\x01",
             "… … I worried about you.\x02",
         )
     )
@@ -1337,7 +1337,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00104F心配しないで、Joanna。\x01",
+            "#00104FDo not worry, Joanna.\x01",
             "I'm sure they will come back.\x02",
         )
     )
@@ -1472,7 +1472,7 @@ def main():
         0x102,
         (
             "#00103F…… No, I am okay.\x02\x03",
-            "#00100FJoannaのほうこそ、\x01",
+            "#00100FJoanna is the better side,\x01",
             "Do not worry too much.\x02",
         )
     )
@@ -1741,7 +1741,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00103FJoanna……\x01",
+            "#00103FJoanna ……\x01",
             "Do not worry too much.\x02\x03",
             "#00100FEveryone in the support department … …\x01",
             "Surely it will be fine.\x02",
@@ -1988,7 +1988,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00105Fえっと、Joanna。\x01",
+            "#00105FEr, Joanna.\x01",
             "Do you draw something in the window?\x02",
         )
     )
@@ -2072,7 +2072,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100FただいまJoanna。\x01",
+            "#00100FI am Joanna.\x01",
             "I wonder if today will change?\x02",
         )
     )
@@ -2099,7 +2099,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00102Fふふ、Joannaったら……\x01",
+            "#00102FHuhu, Joanna … …\x01",
             "There is nothing to worry about that?\x02",
         )
     )
@@ -2182,7 +2182,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100FJoanna、あとで読ませてもらうから\x01",
+            "#00100FJoanna, I will read it later\x01",
             "I wonder if it keeps it safe.\x02",
         )
     )
@@ -2222,7 +2222,7 @@ def main():
         0x102,
         (
             "#00109FHuhu, I know.\x01",
-            "ありがとうJoanna。\x02",
+            "Thank you Joanna.\x02",
         )
     )
 
@@ -2816,7 +2816,7 @@ def main():
         (
             "#00102F(I understood.\x01",
             "I think it is difficult, but …).\x02\x03",
-            "#00100FねえJoanna、\x01",
+            "#00100FHey Joanna,\x01",
             "I have a favor to you ….\x02",
         )
     )
@@ -2851,7 +2851,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "……はAh……\x01",
+            "… ….\x01",
             "Mistake, Ko ………………\x02",
         )
     )
@@ -2864,14 +2864,14 @@ def main():
 
     ChrTalk(
         0x9,
-        "#4S……Eeeeeee! Is it?\x02",
+        "#4SWHAAAAAA!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00205F…… It looks like a great surprise.\x02",
+        "#00205FThat was quite the reaction\x02",
     )
 
     CloseMessageWindow()
@@ -2898,7 +2898,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006FWhat a guarantee ……\x02",
+        "#00006FHow are you going to do that?\x02",
     )
 
     CloseMessageWindow()
@@ -2906,7 +2906,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00105Fえ、えっとJoanna？\x01",
+            "#00105FEr, Joanna?\x01",
             "You do not have to worry.\x02\x03",
             "#00103FIf I search for it,\x01",
             "Even for the other maids\x01",
@@ -2921,7 +2921,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "………………………………\x02",
+        "…\x02",
     )
 
     CloseMessageWindow()
@@ -2959,7 +2959,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00102Fふふ、ありがとうJoanna。\x01",
+            "#00102FHehe, thank you Joanna.\x01",
             "But do not push yourself, do you?\x02",
         )
     )
@@ -2978,7 +2978,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FWell, thank you.\x02",
+        "#00000FYes, we're counting on you\x02",
     )
 
     CloseMessageWindow()

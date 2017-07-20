@@ -426,7 +426,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -517,7 +517,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -608,7 +608,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -678,7 +678,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -1045,7 +1045,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00603F#5PHun, is this something?\x02",
+        "#00603F#5PHmph. So that was it.\x02",
     )
 
     CloseMessageWindow()
@@ -1080,7 +1080,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#12P#00606FHun, it is a story that makes my chest worse.\x02",
+        "#12P#00606FHah, that sounds about right.\x02",
     )
 
     CloseMessageWindow()
@@ -1092,7 +1092,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00006F(… it's both of you … …)\x02\x03",
+            "#6P#00006F(These guys are the real deal huh)\x02\x03",
             "#00008F(It is equivalent to a monstrous now,\x01",
             "I think it was tough. )\x02",
         )
@@ -1103,8 +1103,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10106F(Yeah … I feel the difference in the ratings.)\x02\x03",
-            "#10101F(I also have to devote … …!)\x02",
+            "#6P#10106F(Yeah, they're on a totally different level)\x02\x03",
+            "#10101F(I have to get stronger!)\x02",
         )
     )
 
@@ -1124,14 +1124,14 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#11P#00605FHey, what is going on?\x02",
+        "#11P#00605FHey, what's wrong?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x108,
-        "#5P#01405FDid you get injured in the current battle?\x02",
+        "#5P#01405FDid you get hurt in the battle?\x02",
     )
 
     CloseMessageWindow()
@@ -1143,21 +1143,21 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00012FNo, it's okay.\x02",
+        "#6P#00012FNo, nothing at all\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#6P#10112FNo problem!\x02",
+        "#6P#10112FNo problem here\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x10A,
-        "#11P#00600FThen I will finally go.\x02",
+        "#11P#00600FThen let's get a move on\x02",
     )
 
     CloseMessageWindow()
@@ -1167,7 +1167,7 @@ def main():
         (
             "#01403F#5PBefore this,\x01",
             "There should have been a branch point.\x02\x03",
-            "#01402FLet's start with the aim.\x02",
+            "#01402FLet's head for there first.\x02",
         )
     )
 

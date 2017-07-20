@@ -528,7 +528,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00005FLisha……\x01",
+            "#6P#00005FLisha …\x01",
             "What happened in a place like this?\x02",
         )
     )
@@ -632,7 +632,7 @@ def main():
             "Alkan Shell, too,\x01",
             "I am sure you will accept you.\x02\x03",
             "Without thinking about difficult things,\x01",
-            "ありのままのLishaでいれば\x01",
+            "As long as it is as it is\x01",
             "Is not it okay?\x02",
         )
     )
@@ -713,7 +713,7 @@ def main():
         -1,
         0,
         (
-            "Lishaの誘いを受ける\x01",      # 0
+            "Receive invitation from Lisha\x01",      # 0
             "To give up\x01",                  # 1
         )
     )
@@ -792,7 +792,7 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00006F（……Erieに、行けなくなることを\x01",
+            "#00006F(… … to Eli, that you can not go\x01",
             "I have to apologize properly. )\x02",
         )
     )
@@ -807,7 +807,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはErieに、\x01",
+            "Lloyd to Eli,\x01",
             "I apologized for losing my promise.\x07\x00\x02",
         )
     )
@@ -826,7 +826,7 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00006F（……Tioに、行けなくなることを\x01",
+            "#00006F(… … to Tio, you can not go\x01",
             "I have to apologize properly. )\x02",
         )
     )
@@ -841,7 +841,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはTioに、\x01",
+            "Lloyd to Tio,\x01",
             "I apologized for losing my promise.\x07\x00\x02",
         )
     )
@@ -860,7 +860,7 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00006F（……Randyに、行けなくなることを\x01",
+            "#00006F(… … that Randy will not be able to go\x01",
             "I have to apologize properly. )\x02",
         )
     )
@@ -875,7 +875,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはRandyに、\x01",
+            "Lloyd is Randy,\x01",
             "I apologized for losing my promise.\x07\x00\x02",
         )
     )
@@ -894,7 +894,7 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00006F（……Noelに、行けなくなることを\x01",
+            "#00006F(… … to Noel, you can not go\x01",
             "I have to apologize properly. )\x02",
         )
     )
@@ -909,7 +909,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはNoelに、\x01",
+            "Lloyd to Noel,\x01",
             "I apologized for losing my promise.\x07\x00\x02",
         )
     )
@@ -928,7 +928,7 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00006F（……Wajiに、行けなくなることを\x01",
+            "#00006F(… … I will not be able to go to Waji\x01",
             "I have to apologize properly. )\x02",
         )
     )
@@ -943,7 +943,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはWajiに、\x01",
+            "Lloyd is indeed,\x01",
             "I apologized for losing my promise.\x07\x00\x02",
         )
     )
@@ -962,7 +962,7 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00006F（……Lishaに、行けなくなることを\x01",
+            "#00006F(… … to Lisha, you can not go\x01",
             "I have to apologize properly. )\x02",
         )
     )
@@ -977,7 +977,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはLishaに、\x01",
+            "Lloyd said to Lisha,\x01",
             "I apologized for losing my promise.\x07\x00\x02",
         )
     )
@@ -1098,7 +1098,7 @@ def main():
         0x101,
         (
             "#00002F#5PAh……\x01",
-            "Erie、先に来ていたのか。\x02",
+            "Eli, were you coming before?\x02",
         )
     )
 
@@ -1218,7 +1218,7 @@ def main():
             "#00004F#5PI am the same ….\x02\x03",
             "#00008FA#2RHala#Is not it constricted\x01",
             "You said you saw something to do.\x02\x03",
-            "#00002Fこれも、Erieや\x01",
+            "#00002FThis, too, Eli and\x01",
             "I think thanks to everyone.\x02\x03",
             "#00009FThank you, really.\x02",
         )
@@ -1255,7 +1255,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F#6PErie……\x02\x03",
+            "#00005F#6PErie …\x02\x03",
             "#00012Fmy mother……\x01",
             "It would be honor if I served you.\x02\x03",
             "#00004FAs a little leader\x01",
@@ -1327,12 +1327,12 @@ def main():
         (
             "#00006F#12P……Ah.\x02\x03",
             "#00008FI am the police like this …\x02\x03",
-            "Randyは多分、\x01",
+            "Randy maybe,\x01",
             "When the Defense Forces Return to the Guard\x01",
             "We may be asked for cooperation.\x02\x03",
-            "#00003FTioは財団に戻るかもしれないけど\x01",
+            "#00003FThio might return to the Foundation\x01",
             "Perhaps in the direction of the power net ……\x02\x03",
-            "#00001F……そしてErieは……\x02",
+            "#00001F…… And Eli is …\x02",
         )
     )
 
@@ -1385,7 +1385,7 @@ def main():
         (
             "#00102F#5PA little like that\x01",
             "He seems to miss me.\x02\x03",
-            "#00106F『大丈夫、Erieならやれるさ』なんて\x01",
+            "#00106F\"Okay, I can do it if Eliya\"\x01",
             "I thought of what to do if encouraged.\x02",
         )
     )
@@ -1408,7 +1408,7 @@ def main():
         0xA,
         (
             "#00104F#5PWhy is that …?\x02\x03",
-            "#00100FTioちゃんやRandyが\x01",
+            "#00100FTio and Randy are\x01",
             "For the same reason as I am gone …?\x02",
         )
     )
@@ -1438,7 +1438,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#12P…………Erie………………\x02",
+        "#00005F#12P………… Erie ………………\x02",
     )
 
     CloseMessageWindow()
@@ -1566,7 +1566,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#6P──好きだよ、Erie。\x02\x03",
+            "#00004F#6P── I like it, Eli.\x02\x03",
             "As a friend ……\x01",
             "Not just as a family.\x02\x03",
             "#00000FAs a girl, you.\x02",
@@ -1813,7 +1813,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "ロイドとErieは\x01",
+            "Lloyd and Eli are\x01",
             "I mastered Star Blast..\x07\x00\x02",
         )
     )
@@ -1828,7 +1828,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドとErieのコンビクラフト、\x01",
+            "Combi Craft of Lloyd and Eli,\x01",
             "\"Star Blast\" has been strengthened.\x07\x00\x02",
         )
     )
@@ -1939,7 +1939,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#5P（あれ、Tio……？）\x02",
+        "#00005F#5P(That, Tio … …??)\x02",
     )
 
     CloseMessageWindow()
@@ -1972,7 +1972,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P#N──Tio？\x02",
+        "#00000F#6P#N── Tio?\x02",
     )
 
     CloseMessageWindow()
@@ -2042,7 +2042,7 @@ def main():
         (
             "#00012F#6PIt is unusual.\x02\x03",
             "#00002FUntil a voice calls\x01",
-            "Tioが気付かないなんて。\x02",
+            "Tio does not notice.\x02",
         )
     )
 
@@ -2243,7 +2243,7 @@ def main():
         (
             "#00005F#6PHuh……! Is it?\x02\x03",
             "#00002FWell then, from Remiferia\x01",
-            "わざわざTioに会いに……！？\x02",
+            "All the way to meet Tio …! Is it?\x02",
         )
     )
 
@@ -2368,7 +2368,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#6P#30W……Tio………\x02",
+        "#00000F#6P#30W…… Tio ………\x02",
     )
 
     CloseMessageWindow()
@@ -2379,8 +2379,8 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#00206F#11P#30Wそれから、Erieさんや\x01",
-            "Randyさんたちとまた会えて……\x02\x03",
+            "#00206F#11P#30WThen, Erie and Mr.\x01",
+            "Meet Randy's again … …\x02\x03",
             "#00208FEveryone try hard,\x01",
             "Come here for Ka'a … ….\x02",
         )
@@ -2451,7 +2451,7 @@ def main():
             "It is very nice……\x02\x03",
             "About the chance\x01",
             "I'm kind of embarrassed … ….\x02\x03",
-            "#00002Fでも、Tioが\x01",
+            "#00002FBut, Tio\x01",
             "It became possible to think so\x01",
             "I'm more than anything above anything.\x02",
         )
@@ -2545,7 +2545,7 @@ def main():
         (
             "#00011F#12PIs that so?\x02\x03",
             "#00012FWell, certainly I\x01",
-            "兄貴やRandyにされたら\x01",
+            "Big brother or Randy\x01",
             "I feel like being treated like a child.\x02\x03",
             "#00000FWell then, then …\x02",
         )
@@ -2562,7 +2562,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12Pティ、Tio……？\x02",
+        "#00011F#12PTe, Tio …?\x02",
     )
 
     CloseMessageWindow()
@@ -2632,7 +2632,7 @@ def main():
         0xB,
         (
             "#05524F#2700V#5P#40WHehe … … It is warm … …\x02\x03",
-            "#05526F#2701VErieさんみたいに\x01",
+            "#05526F#2701VLike Ellie\x01",
             "I do not feel comfortable\x01",
             "I am sorry but ……\x02",
         )
@@ -2647,7 +2647,7 @@ def main():
         (
             "#00012F#12P#30WNo, this is this … …\x02\x03",
             "#00008F(I mean, I'm jealous ….\x01",
-            "  ……Tioの甘い匂いが……）\x02\x03",
+            "…… The sweet smell of Tio … …)\x02\x03",
             "#00011F(─ ─ ─ ─ not!)\x02",
         )
     )
@@ -2861,7 +2861,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "ロイドとTioは\x01",
+            "Lloyd and Tio\x01",
             "Ω#2Romega#I mastered Strike.\x07\x00\x02",
         )
     )
@@ -2876,7 +2876,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドとTioのコンビクラフト、\x01",
+            "Lloyd and Tio's combi craft,\x01",
             "\"Ω strike\" has been strengthened.\x07\x00\x02",
         )
     )
@@ -3023,7 +3023,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#5PRandy。\x02",
+        "#00002F#5PRandy.\x02",
     )
 
     CloseMessageWindow()
@@ -3119,7 +3119,7 @@ def main():
         0x101,
         (
             "#00011F#6PThe last one is leaping too much ….\x02\x03",
-            "#00012FRandyがモテるっていうのが\x01",
+            "#00012FRandy is motivated\x01",
             "Though it seems to be some eyebrow spitting.\x02",
         )
     )
@@ -3278,7 +3278,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F#12P……それをRandyに仕込んだのが\x01",
+            "#00000F#12P… … I charged it to Randy\x01",
             "Is it my father who was called \"fighting spirit\"?\x02",
         )
     )
@@ -3434,7 +3434,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x14),
             "#30WWow!\x01",
-            "Randy兄、やるじゃん♪\x07\x00\x02",
+            "Randy brother, you do it ♪\x07\x00\x02",
         )
     )
 
@@ -3499,7 +3499,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#6P#30W……Randy………\x02",
+        "#00001F#6P#30W… … Randy ………\x02",
     )
 
     CloseMessageWindow()
@@ -3530,7 +3530,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6PRandyは、その“業#2Rごう#”を\x01",
+            "#00006F#6PRandy said that \"work#2RLike this#The\x01",
             "I am planning to break it …\x02\x03",
             "#00001FBy overcoming that uncle.\x02",
         )
@@ -3806,7 +3806,7 @@ def main():
         (
             "#00004F#12PWell, I'm grown up already.\x01",
             "This is all right.\x02\x03",
-            "#00000F乾杯しよう、Randy。\x02",
+            "#00000FLet's make a toast, Randy.\x02",
         )
     )
 
@@ -3902,7 +3902,7 @@ def main():
         (
             "#00013F#12PKogu … so only yourself\x01",
             "I should not be adult.\x02\x03",
-            "#00004F──なあ、Randy。\x02",
+            "#00004F── Hey, Randy.\x02",
         )
     )
 
@@ -3993,7 +3993,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "ロイドとRandyは\x01",
+            "Lloyd and Randy\x01",
             "I got a burning rage 嘨.\x07\x00\x02",
         )
     )
@@ -4008,7 +4008,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドとRandyのコンビクラフト、\x01",
+            "Combi Craft of Lloyd and Randy,\x01",
             "Burning rage has been strengthened.\x07\x00\x02",
         )
     )
@@ -4134,7 +4134,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#5PNoel、先に来てたのか。\x02",
+        "#00002F#5PNoel, have you come before.\x02",
     )
 
     CloseMessageWindow()
@@ -4397,7 +4397,7 @@ def main():
         0xD,
         (
             "#10108F#11P#30W(Calm down,\x01",
-            "  Noel・シーカー……！）\x02\x03",
+            "Noel · seeker …! )\x02\x03",
             "#10103F(As in exercises)\x01",
             "Rapid and accurate situation judgment\x01",
             "Morale control ……! )\x02",
@@ -4611,7 +4611,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00008F#6PNoel……\x02\x03",
+            "#00008F#6PNoel …\x02\x03",
             "#00004F……I understood.\x01",
             "I will be happy to deposit you.\x02",
         )
@@ -4653,7 +4653,7 @@ def main():
         (
             "#00012F#6PHello, thank you separately\x01",
             "It is not like being told.\x02\x03",
-            "#00008FそれにNoelも俺たちと\x01",
+            "#00008FAnd Noel also with us\x01",
             "We will act together ……\x02\x03",
             "#00000FEven when you pinch\x01",
             "I do not think that one person will be sacrificed\x01",
@@ -4762,7 +4762,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#6PNoel……\x02",
+        "#00001F#6PNoel …\x02",
     )
 
     CloseMessageWindow()
@@ -4859,7 +4859,7 @@ def main():
             "#00002F#6POnce it's an incumbent police officer\x01",
             "It should be worn by myself ….\x02\x03",
             "#00004FUntil this incident is resolved\x01",
-            "Noelに持っていて欲しいんだ。\x02\x03",
+            "I would like Noel to have it.\x02\x03",
             "#00000FThen again ……\x01",
             "I want you to apply from me.\x02",
         )
@@ -4939,7 +4939,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "ロイドとNoelは\x01",
+            "Lloyd and Noel\x01",
             "I mastered the Brave Hearts.\x07\x00\x02",
         )
     )
@@ -4954,7 +4954,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドとNoelのコンビクラフト、\x01",
+            "Lloyd and Noel Combi Craft,\x01",
             "\"Brave Hearts\" has been strengthened.\x07\x00\x02",
         )
     )
@@ -5200,7 +5200,7 @@ def main():
         (
             "#00006F#11PReally……\x01",
             "thanks for letting me know.\x02\x03",
-            "#00005Fでも、Wajiはこのまま\x01",
+            "#00005FBut, Wadi leaves this way\x01",
             "Is there no problem by cooperating with us?\x02",
         )
     )
@@ -5253,7 +5253,7 @@ def main():
         0x101,
         (
             "#00011F#11Pby the way……\x01",
-            "Wajiは１７歳だったよな。\x02\x03",
+            "Wasi was 17 years old.\x02\x03",
             "#00003FTwo years ago,\x01",
             "By the age of 15 I got a mission … …\x02\x03",
             "#00001FBut, \"guardian knight\"\x01",
@@ -5282,7 +5282,7 @@ def main():
         (
             "#00006F#11PDo not say it yourself …\x02\x03",
             "#00001F…… But \"Mark\"\x01",
-            "ひょっとしてWajiが戦闘中に\x01",
+            "Perhaps Wadi is in battle\x01",
             "Sometimes I show it … ….?\x02",
         )
     )
@@ -5353,7 +5353,7 @@ def main():
         (
             "#00003F#6PThat's right.\x01",
             "If you do not mind, be sure.\x02\x03",
-            "#00000F考えてみれば、Wajiの過去は\x01",
+            "#00000FIf you think about it, the past of Wadi\x01",
             "It is almost as good as I do not know …\x02\x03",
             "#00012FCharacter and behavioral pattern\x01",
             "I'm going to know roughly, though.\x02",
@@ -5572,7 +5572,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#6Pいや、Wajiの力を見てると\x01",
+            "#00003F#6PNo, when you are looking at the power of Wadi\x01",
             "It is understood that it was in reality.\x02\x03",
             "#00000FThere is also a living myth called Zeit\x01",
             "I have seen it.\x02",
@@ -5648,7 +5648,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6P#30WWaji……\x02",
+        "#00006F#6P#30WWadi\x02",
     )
 
     CloseMessageWindow()
@@ -5659,7 +5659,7 @@ def main():
         0x101,
         (
             "#00008F#6PIf this incident is settled ……\x01",
-            "Wajiはクロスベルを去るんだな？\x02",
+            "Waddy leaves the crossbell?\x02",
         )
     )
 
@@ -5725,7 +5725,7 @@ def main():
             "He was a friend of us ……\x02\x03",
             "#00000FSo ──\x01",
             "You should come and see me anytime.\x02\x03",
-            "#00009FもうWajiにとってクロスベルは\x01",
+            "#00009FCrossbell is already\x01",
             "Is it like a second hometown?\x02",
         )
     )
@@ -5900,7 +5900,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "ロイドとWajiは\x01",
+            "Lloyd and Wadi\x01",
             "I mastered the strike heaven.\x07\x00\x02",
         )
     )
@@ -5915,7 +5915,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドとWajiのコンビクラフト、\x01",
+            "Lloyd and Wazi's combi craft,\x01",
             "\"Strike heaven\" has been strengthened.\x07\x00\x02",
         )
     )
@@ -6155,7 +6155,7 @@ def main():
             "#00003F#12P#30W……If it's not a problem\x01",
             "Can you tell me?\x02\x03",
             "#00008FYou until you came to the crossbell.\x02\x03",
-            "#00001F俺の知らない、Lisha・マオを。\x02",
+            "#00001FI do not know, Lisha Mao.\x02",
         )
     )
 
@@ -6431,7 +6431,7 @@ def main():
         0x101,
         (
             "#00012F#11P#30Wmy mother……\x02\x03",
-            "#00004F──ありがとう、Lisha。\x02\x03",
+            "#00004FThank you, Lisa.\x02\x03",
             "#00000FI was glad to hear it.\x02",
         )
     )
@@ -6742,7 +6742,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "ロイドとLishaは\x01",
+            "Lloyd and Lisha\x01",
             "I gained true · special wing Ssangyong shoots.\x07\x00\x02",
         )
     )
@@ -6757,7 +6757,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドとLishaのコンビクラフト、\x01",
+            "Combi Craft of Lloyd and Lisha,\x01",
             "\"Special wing Ssangyong shoot\" has been strengthened.\x07\x00\x02",
         )
     )

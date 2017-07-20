@@ -158,7 +158,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#5PHie, huh …!\x02",
+        "#5PWhaaaa?\x02",
     )
 
     CloseMessageWindow()
@@ -211,7 +211,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#5PSo we also evacuate soon …!\x02",
+        "#5PSo then let's evaucate too\x02",
     )
 
     CloseMessageWindow()
@@ -237,7 +237,7 @@ def main():
         (
             "#01901F#2720V#6P#30WAll officials, confidential underground in the basement\x01",
             "Evacuation was completed!\x02\x03",
-            "#2721V#30WEveryone please come quickly!\x02",
+            "#2721V#30WEveryone let's go!\x02",
         )
     )
 
@@ -288,14 +288,14 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11POh, it was a hard work!\x02",
+        "#11POh, good work!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xA,
-        "#5PIt helped, with this - ─\x02",
+        "#5PThanks, now we-\x02",
     )
 
     CloseMessageWindow()
@@ -399,7 +399,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#5PWhat……\x02",
+        "#5PHuh\x02",
     )
 
     CloseMessageWindow()
@@ -485,7 +485,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#5P#6ABombs ……\x02",
+        "#5P#6AGrenade!\x02",
     )
 
     CloseMessageWindow()
@@ -494,7 +494,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5P#8ADammit, oh!\x02",
+        "#5P#8ACrap!\x02",
     )
 
     CloseMessageWindow()
@@ -505,7 +505,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01911F#2722V#6P#40W#10AOnee-san\x02",
+        "#01911F#2722V#6P#40W#10ABig sis…!\x02",
     )
 
     CloseMessageWindow()

@@ -595,7 +595,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FYeah, thank you.\x02",
+        "#00000FYes, we'll do that\x02",
     )
 
     CloseMessageWindow()
@@ -698,7 +698,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#02203Fああ、Pete君から顛末は聞いたよ。\x01",
+            "#02203FOh, I heard the story from Pete.\x01",
             "A man named Minneshi, somehow\x01",
             "I heard that he did it for wanted arrangements.\x02\x03",
             "#02202FAlthough, although I say, I am only to the last\x01",
@@ -937,7 +937,7 @@ def main():
             "#02203FWell, it's too cautious.\x01",
             "It will not be.\x02\x03",
             "#02200FI do not know detailed circumstances … …\x01",
-            "是非ともDo your best.\x02",
+            "Please do it by all means.\x02",
         )
     )
 
@@ -1866,7 +1866,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Yeah, thank you.\x01",
+            "Yes, we'll do that\x01",
             "I think that the teacher will encourage me.\x02",
         )
     )
@@ -1883,7 +1883,7 @@ def main():
         (
             "Mr. Ian said,\x01",
             "Draft a constitutional draft\x01",
-            "市長にI heard that you were asked.\x02",
+            "It is said that the mayor asked me.\x02",
         )
     )
 
@@ -2292,7 +2292,7 @@ def main():
         0xFE,
         (
             "Continuously, our Investigation Part I\x01",
-            "イアン・Grimwood Law Firm\x01",
+            "Ian Grimwood Law Firm\x01",
             "I will continue searching the house.\x02",
         )
     )
@@ -2516,7 +2516,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00005FPete君……？\x02",
+        "#11P#00005FPete … ….?\x02",
     )
 
     CloseMessageWindow()
@@ -2570,7 +2570,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#11P#00001FEmma investigatorも、お疲れ様です。\x01",
+            "#11P#00001FEmma 's investigators also appreciate your work.\x01",
             "…… Is Mr. Ian's home search?\x02",
         )
     )
@@ -2756,7 +2756,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Peteは開封された封筒を差し出した。\x07\x00\x02",
+            "Pete gave out the opened envelope.\x07\x00\x02",
         )
     )
 
@@ -2933,7 +2933,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#5Pそして、Pete少年の\x01",
+            "#5PAnd Pete's boy's\x01",
             "To arrange a guardian,\x01",
             "Procedural documents such as parental authority.\x02",
         )
@@ -3012,7 +3012,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#11P#00106FPete君……\x02",
+        "#11P#00106FPete … …\x02",
     )
 
     CloseMessageWindow()
@@ -3039,7 +3039,7 @@ def main():
         0x101,
         (
             "#11P#00003F… That is right.\x02\x03",
-            "#00008FPete君、俺たちはこれから\x01",
+            "#00008FPete, we are going now\x01",
             "I will head to Mr. Ian.\x02\x03",
             "#00001FWe must be sure to grab the truth there ……\x01",
             "I will bring back the teachers.\x02",
@@ -3095,7 +3095,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "──Pete君へ。\x01",
+            "── To Pete.\x01",
             "First of all, leave this letter and put your ex\x01",
             "I want you to apologize for sudden departure.\x02\x01",
             "Once I took you as a guardian,\x01",
@@ -3120,7 +3120,7 @@ def main():
             "For a while, I was also worried … …\x02\x01",
             "Again the plan can not be stopped.\x01",
             "You can not go back to me.\x02\x01",
-            "Pete君、please……\x01",
+            "Pete, whatever ……\x01",
             "I want you to forget about me and be happy.\x02\x01",
             "Wise wishes to be a fine adult\x01",
             "I pray to the goddess from a distant place.\x02\x01",
@@ -3347,7 +3347,7 @@ def main():
             "#5P#02200FOh, anytime\x01",
             "Please come.\x02\x03",
             "Anything as long as I am OK\x01",
-            "相談に乗らせてI will get it.\x02",
+            "I'm going to have a consultation.\x02",
         )
     )
 
@@ -3424,14 +3424,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#02205FWha …?\x02",
+        "#02205FOh?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00000FMr. Ian!\x02",
+        "#00000FIan-sensei!\x02",
     )
 
     CloseMessageWindow()
@@ -3484,7 +3484,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00004FI'm sorry … I am saved.\x02",
+        "#00004FExcuse us, thank you\x02",
     )
 
     CloseMessageWindow()
@@ -3558,7 +3558,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00203FI am sorry, but it can not be helped.\x02",
+        "#00203FIt's fine, it's not a problem\x02",
     )
 
     CloseMessageWindow()
@@ -3588,8 +3588,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004FThank you very much.\x02\x03",
-            "#00001FSo … How is it?\x02\x03",
+            "#00004FThat's fine, thank you\x02\x03",
+            "#00001FSo what exactly do you think?\x02\x03",
             "Mr. Minnes' actions so far …\x01",
             "From there, signs of some kind of crime\x01",
             "Can you read it?\x02",
@@ -3603,7 +3603,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#02203FThere is only one, there is a fish that I think.\x02",
+        "#02203FI've heard about him once I think\x02",
     )
 
     CloseMessageWindow()
@@ -3622,7 +3622,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00309FHyeu, are you serious! Is it?\x02",
+        "#00309FOh seriously?\x02",
     )
 
     CloseMessageWindow()
@@ -3658,7 +3658,7 @@ def main():
         (
             "#02200F… … Well, it will be nice.\x01",
             "It is a request of you who are not even others.\x02\x03",
-            "#02203FThis week …\x02",
+            "#02203FSo then\x02",
         )
     )
 
@@ -3695,7 +3695,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F……! What is this story …?\x02",
+        "#00005F! That sounds like\x02",
     )
 
     CloseMessageWindow()
@@ -3751,7 +3751,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305FBecome Is it?\x02",
+        "#00305FAh!?\x02",
     )
 
     CloseMessageWindow()
@@ -3766,7 +3766,7 @@ def main():
             "#02201FWell, Liverner\x01",
             "The right letter of the land which received the deposit\x01",
             "It sold it to a third party.\x02\x03",
-            "It is the best land for a high class villa.\x02\x03",
+            "It was a prime property for some nobles to build holliday homs\x02\x03",
             "#02203F─ ─ after all, to the baroness\x01",
             "Only a huge debt left … …\x01",
             "I will soon give up all the territory.\x02\x03",
@@ -3790,8 +3790,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10101FTo ardently dispose of others' land ……\x02\x03",
-            "Everything is too terrible!\x02",
+            "#10101FFor someone to be so selfish…\x02\x03",
+            "It's so aggrivating!\x02",
         )
     )
 
@@ -3831,7 +3831,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105Fscam……!\x02",
+        "#00105FFraud!\x02",
     )
 
     CloseMessageWindow()
@@ -3841,7 +3841,7 @@ def main():
         (
             "#00203FIn other words, the person named Mininness\x01",
             "It is not an officer of Quincy Company … …\x02\x03",
-            "#00200FHe said that there is a possibility that he is just a con artist?\x02",
+            "#00200FAt least with high liklihood fraudlent\x02",
         )
     )
 
@@ -3962,7 +3962,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00205FReference things … …?\x02",
+        "#00205FA leger??\x02",
     )
 
     CloseMessageWindow()
@@ -4013,11 +4013,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02203FNo, perhaps I could say that.\x02\x03",
+            "#02203FNo, actually it could mean something\x02\x03",
             "#02200FIf it becomes official document of the company,\x01",
             "Somehow, with the words of a man named Minnes\x01",
             "Contradictory content may be found.\x02\x03",
-            "Just to check it, you should look it up, do not you?\x02",
+            "It might be good to check it out just in case\x02",
         )
     )
 
@@ -4041,7 +4041,7 @@ def main():
             "#00003FI agree……\x01",
             "I will go to Elly 's house.\x02\x03",
             "#00000F…… Ian, precious story\x01",
-            "ありがとうIt was.\x02\x03",
+            "Thank you very much.\x02\x03",
             "Thanks to the investigation policy\x01",
             "It looks like it gathers.\x02",
         )
@@ -4064,7 +4064,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FWell, yes, but … …\x02",
+        "#00005FYes, that's right\x02",
     )
 
     CloseMessageWindow()
@@ -4116,7 +4116,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FYeah, thank you.\x02\x03",
+            "#00000FYes, we'll do that\x02\x03",
             "#00003F……Well then,\x01",
             "Let's assume that it will hit the investigation immediately.\x02",
         )
@@ -4142,7 +4142,7 @@ def main():
             "And for reference level\x01",
             "Examining materials at McDaill's residence,\x01",
             "Look for discrepancies with his words … …\x02\x03",
-            "It is the above two points to investigate.\x02",
+            "So there are two places to check out\x02",
         )
     )
 

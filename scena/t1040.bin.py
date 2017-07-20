@@ -432,7 +432,7 @@ def main():
         0xA,
         (
             "Huhu, even so, it is unusual.\x01",
-            "Waji君がこっちに来てくれるなんて。\x02",
+            "Waji you are coming over here.\x02",
         )
     )
 
@@ -788,7 +788,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "あーあ、Waji君が行ってしまったわ。\x02",
+        "Oh, Wazy you have gone.\x02",
     )
 
     CloseMessageWindow()
@@ -818,7 +818,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "あーあ、Waji君が行ってしまったわ。\x02",
+        "Oh, Wazy you have gone.\x02",
     )
 
     CloseMessageWindow()
@@ -852,7 +852,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Waji君ってホストなのに、\x01",
+            "Wada is your host,\x01",
             "Sometimes you do not care.\x02",
         )
     )
@@ -1286,7 +1286,7 @@ def main():
         0x1A,
         (
             "#01705FEven so,\x01",
-            "Lishaってば遅いわね。\x02\x03",
+            "Lisha is late.\x02\x03",
             "#01706FIf you do not come quickly,\x01",
             "Time to choose clothes\x01",
             "It's gone.\x02",
@@ -1320,7 +1320,7 @@ def main():
     ChrTalk(
         0x1A,
         (
-            "#01705Fあれ、そういえばLishaは\x01",
+            "#01705FOh, that's right, Lisha\x01",
             "I wonder if I will come yet?\x02\x03",
             "#01706FTo that girl,\x01",
             "A little more sexy clothes\x01",
@@ -1405,7 +1405,7 @@ def main():
         (
             "#01700FI found the clothes I found earlier,\x01",
             "It's sexy with breasts free with spoon.\x02\x03",
-            "#01709Fどう？　Lisha。\x01",
+            "#01709FHow? Lisa.\x01",
             "I will buy it so do not you wear it?\x02",
         )
     )
@@ -1492,7 +1492,7 @@ def main():
     ChrTalk(
         0x19,
         (
-            "#05900FさっきErieさんから聞いたけど、\x01",
+            "#05900FI heard from Elie a little while ago,\x01",
             "Lloyd in this boutique\x01",
             "You bought a suit?\x02",
         )
@@ -1558,7 +1558,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F（Cecil姉……\x01",
+            "#00006F(Cecil elder sister ….\x01",
             "Have not you enjoyed my reaction? )\x02",
         )
     )
@@ -1611,7 +1611,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FCecil姉、どうかしたの？\x02",
+        "#00005FCecil elder sister, what's wrong?\x02",
     )
 
     CloseMessageWindow()
@@ -2001,7 +2001,7 @@ def main():
             "#00100FYeah, that is over there\x01",
             "It is famous for producing good quality fur.\x02\x03",
             "#00104FWhen attending a social party,\x01",
-            "身につけてるごWomanを\x01",
+            "Ladies wearing\x01",
             "There are many things to see.\x02",
         )
     )
@@ -2139,7 +2139,7 @@ def main():
     ChrTalk(
         0x14,
         (
-            "ふう、Doronaったら\x01",
+            "When it comes to Dorona\x01",
             "It got floating ……\x02",
         )
     )
@@ -2165,7 +2165,7 @@ def main():
     ChrTalk(
         0x14,
         (
-            "ふう、Doronaったら。\x01",
+            "When it comes to Dorona.\x01",
             "What is floating in front of customers\x01",
             "I want you to refrain.\x02",
         )
@@ -2255,7 +2255,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あのIlia・プラティエに\x01",
+            "To that Iria-Platier\x01",
             "I got an autographed signature.\x02",
         )
     )
@@ -2277,7 +2277,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "まさかあのIliaに、\x01",
+            "No way to that Iria,\x01",
             "I can not see you in such a place ….\x02",
         )
     )

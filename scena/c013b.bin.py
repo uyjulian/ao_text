@@ -926,7 +926,7 @@ def main():
         0x101,
         (
             "#00000FYes, this stuffed animal ……\x01",
-            "Keyaの部屋にぴったりかもしれないな。\x02",
+            "It might be perfect for Ka'a's room.\x02",
         )
     )
 
@@ -937,7 +937,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはKeyaを捜してきて、\x01",
+            "Lloyd searched for Kia,\x01",
             "I gave a stuffed toy I had.\x07\x00\x02",
         )
     )
@@ -1003,7 +1003,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Keyaの部屋に\x01",
+            "In the room of Kea\x01",
             "New furniture was added.\x07\x00\x02",
         )
     )
@@ -1064,7 +1064,7 @@ def main():
         0x101,
         (
             "#00000FYes, this stuffed animal ……\x01",
-            "Keyaの部屋にぴったりかもしれないな。\x02",
+            "It might be perfect for Ka'a's room.\x02",
         )
     )
 
@@ -1075,7 +1075,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはKeyaを捜してきて、\x01",
+            "Lloyd searched for Kia,\x01",
             "I gave a stuffed toy I had.\x07\x00\x02",
         )
     )
@@ -1141,7 +1141,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Keyaの部屋に\x01",
+            "In the room of Kea\x01",
             "New furniture was added.\x07\x00\x02",
         )
     )
@@ -1202,7 +1202,7 @@ def main():
         0x101,
         (
             "#00000FYes, this stuffed animal ……\x01",
-            "Keyaの部屋にぴったりかもしれないな。\x02",
+            "It might be perfect for Ka'a's room.\x02",
         )
     )
 
@@ -1213,7 +1213,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはKeyaを捜してきて、\x01",
+            "Lloyd searched for Kia,\x01",
             "I gave a stuffed toy I had.\x07\x00\x02",
         )
     )
@@ -1279,7 +1279,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Keyaの部屋に\x01",
+            "In the room of Kea\x01",
             "New furniture was added.\x07\x00\x02",
         )
     )
@@ -1340,7 +1340,7 @@ def main():
         0x101,
         (
             "#00000FYes, this stuffed animal ……\x01",
-            "Keyaの部屋にぴったりかもしれないな。\x02",
+            "It might be perfect for Ka'a's room.\x02",
         )
     )
 
@@ -1351,7 +1351,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはKeyaを捜してきて、\x01",
+            "Lloyd searched for Kia,\x01",
             "I gave a stuffed toy I had.\x07\x00\x02",
         )
     )
@@ -1417,7 +1417,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Keyaの部屋に\x01",
+            "In the room of Kea\x01",
             "New furniture was added.\x07\x00\x02",
         )
     )
@@ -1478,7 +1478,7 @@ def main():
         0x101,
         (
             "#00000FYes, this stuffed animal ……\x01",
-            "Keyaの部屋にぴったりかもしれないな。\x02",
+            "It might be perfect for Ka'a's room.\x02",
         )
     )
 
@@ -1489,7 +1489,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはKeyaを捜してきて、\x01",
+            "Lloyd searched for Kia,\x01",
             "I gave a stuffed toy I had.\x07\x00\x02",
         )
     )
@@ -1555,7 +1555,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Keyaの部屋に\x01",
+            "In the room of Kea\x01",
             "New furniture was added.\x07\x00\x02",
         )
     )

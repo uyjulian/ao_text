@@ -376,7 +376,7 @@ def main():
         0x101,
         (
             "#00005FOh … that's right.\x01",
-            "Suzukuちゃんのお見舞いに\x01",
+            "For a wedding of Shizuoka\x01",
             "Were you going?\x02\x03",
             "#00000FEr, Ka'aa\x01",
             "What's wrong?\x02",
@@ -457,7 +457,7 @@ def main():
         (
             "#11200FI think that everyone is serious,\x01",
             "Please do your best.\x02\x03",
-            "I also support you from here … …\x02",
+            "I'll do the same here\x02",
         )
     )
 
@@ -565,7 +565,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "Suzuku……\x01",
+            "Suzuku\x01",
             "Her sight recovers\x01",
             "The chances are unlimitedly low.\x02",
         )
@@ -601,7 +601,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "Suzukuの視力回復手術が\x01",
+            "Sizuk's vision recovery surgery\x01",
             "If it succeeds, it has similar obstacles\x01",
             "It will be patient's wishes.\x02",
         )
@@ -749,7 +749,7 @@ def main():
         0xB,
         (
             "Recently, exclusively\x01",
-            "Professor Seylandの噂が多くてね。\x02",
+            "Rumors of Professor Seyland are many.\x02",
         )
     )
 
@@ -774,7 +774,7 @@ def main():
         0xB,
         (
             "Recently, among researchers\x01",
-            "Professor Seylandが噂になっててね。\x02",
+            "Professor Seyland is rumored.\x02",
         )
     )
 
@@ -1161,7 +1161,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "（Badgeo君……\x01",
+            "(Bagha … …\x01",
             "To consult Shiron or something,\x01",
             "You are very carefree. )\x02",
         )
@@ -1493,7 +1493,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#5P#00000FSuzukuちゃん、\x01",
+            "#5P#00000FShizuku-chan,\x01",
             "Were you in such a place?\x02",
         )
     )
@@ -1518,7 +1518,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#5P#10108FYeah, Fran is in the hospital.\x02\x03",
+            "#5P#10108FYes, Fran is here\x02\x03",
             "#10100FPolice officers and others\x01",
             "Iria was also watching him.\x02",
         )
@@ -1565,8 +1565,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#11P#00100FそういえばSuzukuちゃん、\x01",
-            "Ariosさんは\x01",
+            "#11P#00100FBy the way, Shizuku - chan,\x01",
+            "Mr. Arios\x01",
             "Recently, have you come to visit?\x02",
         )
     )
@@ -1598,7 +1598,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#12P#11200F…… No, I am okay.\x02\x03",
+            "#12P#11200FNo, I'm fine\x02\x03",
             "#11203FMany people were sacrificed,\x01",
             "Many injured people also came out ……\x02\x03",
             "Meanwhile, only me is amenable\x01",
@@ -1616,7 +1616,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#11P#00300F… Well, I think it's enough.\x02",
+        "#11P#00300FNo I think it would be great\x02",
     )
 
     CloseMessageWindow()
@@ -1627,7 +1627,7 @@ def main():
             "#00000FIn your opinion,\x01",
             "Courage to stand up against adversity\x01",
             "I think that they are giving it to everyone.\x02\x03",
-            "#00004F… … We also have to work hard.\x02",
+            "#00004FWe all have to try our best\x02",
         )
     )
 
@@ -1635,7 +1635,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#5P#10302FHuh … … That's right.\x02",
+        "#5P#10302FHehe, that's right\x02",
     )
 
     CloseMessageWindow()
@@ -1646,7 +1646,7 @@ def main():
             "#12P#11200FEr …\x01",
             "I think that everyone is serious,\x01",
             "Please do your best.\x02\x03",
-            "#11203FI also support you from here … …\x02",
+            "#11203FI'll do the same here\x02",
         )
     )
 
@@ -1726,7 +1726,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "#01400FSuzuku、足元に気をつけろ。\x02",
+        "#01400FShizuku, watch your step.\x02",
     )
 
     CloseMessageWindow()
@@ -1843,7 +1843,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00208FSuzukuさん……\x02",
+        "#00208FMr. Shizuku ……\x02",
     )
 
     CloseMessageWindow()
@@ -1869,7 +1869,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#5P#10102FSuzukuちゃん……\x02",
+        "#5P#10102FShizuoka … ….\x02",
     )
 
     CloseMessageWindow()
@@ -1925,7 +1925,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#01004Fクク、Arios。\x01",
+            "#01004FKuku, Arios.\x01",
             "You are still your child.\x02",
         )
     )
@@ -1948,7 +1948,7 @@ def main():
             "#01404F……surely,\x01",
             "mother#4RSaya#I guess it looked like.\x02\x03",
             "#01400F── It is about time for me to go out.\x01",
-            "Suzuku、病室に戻るぞ。\x02",
+            "Shizuku, I will return to the sickroom.\x02",
         )
     )
 
@@ -1975,7 +1975,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "After that, Lloyd's\x01",
-            "Suzukuの病室で一時の歓談を楽しんだのだった。\x07\x00\x02",
+            "I enjoyed a temporary conversation in the hospital room of Shizuku.\x07\x00\x02",
         )
     )
 

@@ -685,7 +685,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -776,7 +776,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -945,7 +945,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#6PThis light ……\x02",
+        "#00101F#6PThis light is..\x02",
     )
 
     CloseMessageWindow()
@@ -979,7 +979,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00013FThe front entrance … …!\x02",
+        "#00013FThe main entrance to the stairs!\x02",
     )
 
     CloseMessageWindow()
@@ -988,7 +988,7 @@ def main():
     AnonymousTalk(
         0x104,
         (
-            "#00306FOh … … Do not block me.\x02\x03",
+            "#00306FYeah… it's sealed up\x02\x03",
             "#00301FInstead of left and right\x01",
             "The entrance appears … …\x02",
         )
@@ -1065,7 +1065,7 @@ def main():
         (
             "#00106F#6PAlthough I have been there several times\x01",
             "I thought that there was such a mechanism ……\x02\x03",
-            "#00108FThis is also the work of \"her\" …?\x02",
+            "#00108FThis would be \"her\" doing?\x02",
         )
     )
 
@@ -1076,7 +1076,7 @@ def main():
         (
             "#00203F#12P… … From the back\x01",
             "I hear strange working sounds.\x02\x03",
-            "#00201FWould you be alert if you go forward?\x02",
+            "#00201FIf we're going on we have to be careful\x02",
         )
     )
 
@@ -1190,7 +1190,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00013FFinally got it ……\x02",
+        "#00013FWe finally got here\x02",
     )
 
     CloseMessageWindow()
@@ -1198,7 +1198,7 @@ def main():
 
     AnonymousTalk(
         0x104,
-        "#00301FOh … it's on the top floor.\x02",
+        "#00301FYeah, the top floor\x02",
     )
 
     CloseMessageWindow()
@@ -1219,7 +1219,7 @@ def main():
     AnonymousTalk(
         0x104,
         (
-            "#00301FAh……\x01",
+            "#00301FYeah…\x01",
             "This is the top floor.\x02",
         )
     )
@@ -1300,7 +1300,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#11PReally……! Is it?\x02",
+        "#00005F#11PSeriously!?\x02",
     )
 
     CloseMessageWindow()
@@ -1310,7 +1310,7 @@ def main():
         (
             "#00203F#6PYes, considerable spiritual power\x01",
             "It flows like a whirlpool.\x02\x03",
-            "#00201FPerhaps it is the end point.\x02",
+            "#00201FI think that's the end of the line\x02",
         )
     )
 
@@ -1318,7 +1318,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00103F#5P……so…………\x02",
+        "#00103F#5PI see..\x02",
     )
 
     CloseMessageWindow()
@@ -1336,7 +1336,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#11PAh……\x02\x03",
+            "#00003F#11PYeah…\x02\x03",
             "#00007FEveryone - confirm equipment.\x01",
             "I will definitely get back to Ka'aa!\x02",
         )
@@ -1370,21 +1370,21 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#5PWell ……!\x02",
+        "#00107F#5PRight!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00201F#6PYes……!\x02",
+        "#00201F#6PYes!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00307F#6PWe are conscious of the points!\x02",
+        "#00307F#6PGot it!\x02",
     )
 
     CloseMessageWindow()
@@ -1439,7 +1439,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Particles of light light are sucked into the mirror and going.\x07\x00\x02",
+            "Fragments of light are fluttering around the mirror\x07\x00\x02",
         )
     )
 
@@ -1471,7 +1471,7 @@ def main():
         (
             "#00006F#6P(Apparently this way\x01",
             "I'm going to be inside the mirror … …)\x02\x03",
-            "#00013F(… … Kea … I will go on now!)\x02",
+            "#00013F(KeA… We're coming!)\x02",
         )
     )
 
@@ -1487,7 +1487,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Particles of light light are sucked into the mirror and going.\x02\x03",
+            "Fragments of light are fluttering around the mirror\x02\x03",
             "I am going to put it in the mirror like this.\x07\x00\x02",
         )
     )
@@ -1901,7 +1901,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00300Fああ、Ringing the bell and standing in front of the mirror\x01",
+            "#00300FOh, when I ring the bell and stand in front of the mirror\x01",
             "It is a thing that a wish comes true.\x02\x03",
             "#00304FBecause it is on the top floor,\x01",
             "I think you can understand it as soon as you go up.\x02",
@@ -1959,7 +1959,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10100Fはい、Ringing the bell and standing in front of the mirror\x01",
+            "#10100FYes, when you ring the bell and stand in front of the mirror\x01",
             "I heard that your wish will come true.\x02\x03",
             "#10104FBecause it is on the top floor,\x01",
             "I think that you will soon see if you go up.\x02",
@@ -2018,7 +2018,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10300Fああ、Ringing the bell and standing in front of the mirror\x01",
+            "#10300FOh, when I ring the bell and stand in front of the mirror\x01",
             "It is said that the wish is coming true.\x02\x03",
             "#10304FIt is a story that it is on the top floor,\x01",
             "Do not you see it as soon as you climb?\x02",
@@ -2148,7 +2148,7 @@ def main():
     ChrTalk(
         0x156,
         (
-            "#06400Fはい、Ringing the bell and standing in front of the mirror\x01",
+            "#06400FYes, when you ring the bell and stand in front of the mirror\x01",
             "It is said that the wish will come true ~.\x02\x03",
             "#06404FIt is on the top floor,\x01",
             "I think that as soon as you climb it you will understand.\x02",
@@ -2264,7 +2264,7 @@ def main():
     ChrTalk(
         0x134,
         (
-            "#01700Fああ、Ringing the bell and standing in front of the mirror\x01",
+            "#01700FOh, when I ring the bell and stand in front of the mirror\x01",
             "It is what a wish comes true.\x02\x03",
             "#01704FIt seems that it is on the top floor of the castle, but ….\x02",
         )
@@ -2320,7 +2320,7 @@ def main():
     ChrTalk(
         0x135,
         (
-            "#01805Fああ、Ringing the bell and standing in front of the mirror\x01",
+            "#01805FOh, when I ring the bell and stand in front of the mirror\x01",
             "The wish is coming … …\x02\x03",
             "#01804FIn the story of Ellie, on the top floor of the castle\x01",
             "Although it was said that it was put.\x02",
@@ -4688,7 +4688,7 @@ def main():
         0x101,
         (
             "#00009FHaha, you are welcome.\x02\x03",
-            "#00000Fそれで、For Noel,\x01",
+            "#00000FSo, for Noel,\x01",
             "What kind of wish did you do?\x02",
         )
     )
@@ -4792,7 +4792,7 @@ def main():
             "It is a place I do not agree with.\x02\x03",
             "#10101F…… Maybe father,\x01",
             "Actually, only franc\x01",
-            "デレデレだったんIs it?\x02",
+            "I wonder if it was Deleadere.\x02",
         )
     )
 
@@ -6000,7 +6000,7 @@ def main():
         0x134,
         (
             "#01700FPerhaps, I wish a wish in my head\x01",
-            "思い浮かべるくらいでWhy not?\x02\x03",
+            "Do not you think about it so much?\x02\x03",
             "Let's do it then.\x02",
         )
     )
@@ -6286,7 +6286,7 @@ def main():
         (
             "#01802FPerhaps, I wish a wish in my head\x01",
             "To think about it\x01",
-            "いいんじゃないIs it?\x02\x03",
+            "Is not it okay?\x02\x03",
             "#01803F… … Let's do it.\x02",
         )
     )
@@ -6415,7 +6415,7 @@ def main():
         0x135,
         (
             "#01802F……Is that so.\x01",
-            "ふふ、Thank you very much.\x02",
+            "Hehe, thank you.\x02",
         )
     )
 
@@ -6497,7 +6497,7 @@ def main():
 
     ChrTalk(
         0x135,
-        "#01809Fは、はいっ、Thank you very much.\x02",
+        "#01809FThank you, yes.\x02",
     )
 
     CloseMessageWindow()

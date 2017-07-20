@@ -128,8 +128,8 @@ def main():
         "car",                     # 107
         "car",                     # 108
         "car",                     # 109
-        "New armored car（Ａ）",       # 110
-        "New armored car（Ｂ）",       # 111
+        "New armored vehicle (A)",       # 110
+        "New armored vehicle (B)",       # 111
         "Moon ring",                 # 112
         "Moon ring",                 # 113
         "SE control",                 # 114
@@ -1282,7 +1282,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Orchis Tower前の攻防は……\x01",
+            "Battle in front of the Orkis Tower ……\x01",
             "It was a very fighting battle.\x02",
         )
     )
@@ -1293,7 +1293,7 @@ def main():
         0xFE,
         (
             "Honestly without Arios,\x01",
-            "ここもIBCのように……\x02",
+            "Like IBC here ……\x02",
         )
     )
 
@@ -1369,7 +1369,7 @@ def main():
         0xFE,
         (
             "It seems pretty rugged,\x01",
-            "The guardには何としても\x01",
+            "Anything in the guard\x01",
             "I hope you have a step.\x02",
         )
     )
@@ -1410,7 +1410,7 @@ def main():
         0xFE,
         (
             "I heard it at the reception earlier,\x01",
-            "何でも列carが脱線したらしいな。\x02",
+            "Everything seems that the train derailed.\x02",
         )
     )
 
@@ -1419,7 +1419,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "既に捜査二課とThe guardが\x01",
+            "Investigations 2 and the guard already have\x01",
             "She seems to have gone to the survey … …\x01",
             "I wonder how much damage it is.\x02",
         )
@@ -1437,7 +1437,7 @@ def main():
         0xFE,
         (
             "Also the square in front of this tower\x01",
-            "Citizenの憩いの場として、\x01",
+            "As a place for citizens to relax,\x01",
             "It seems that it has become established.\x02",
         )
     )
@@ -1631,7 +1631,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Orchis Towerの\x01",
+            "The Orkis Tower\x01",
             "We are in charge of the security department.\x02",
         )
     )
@@ -1656,7 +1656,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Orchis Towerの\x01",
+            "The Orkis Tower\x01",
             "We are in charge of the security department.\x02",
         )
     )
@@ -1792,7 +1792,7 @@ def main():
         0xFE,
         (
             "Because it is such a situation time\x01",
-            "我々警察はCitizenのために堂々と\x01",
+            "We police are dignified for citizens\x01",
             "I have to set it up.\x02",
         )
     )
@@ -1802,7 +1802,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "The guard同様、我々は日頃から\x01",
+            "Like guards, we are daily\x01",
             "I am training for that\x01",
             "That's it.\x02",
         )
@@ -1813,7 +1813,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "『常にCitizenの模範たれ』、\x01",
+            "\"Always a citizen's example\"\x01",
             "Again reckon this word\x01",
             "Let's scream each other.\x02",
         )
@@ -1830,7 +1830,7 @@ def main():
         0xFE,
         (
             "Because it is such a situation time\x01",
-            "我々警察はCitizenのために堂々と\x01",
+            "We police are dignified for citizens\x01",
             "I have to set it up.\x02",
         )
     )
@@ -1840,7 +1840,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "『常にCitizenの模範たれ』、\x01",
+            "\"Always a citizen's example\"\x01",
             "Again reckon this word\x01",
             "Let's scream each other.\x02",
         )
@@ -1859,7 +1859,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "大陸横断鉄道はThe guardの活躍で\x01",
+            "For the transcontinental railroad, with the success of the guard\x01",
             "Somehow within yesterday\x01",
             "It is said that it was able to recover.\x02",
         )
@@ -1886,8 +1886,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "West Crossbell Highway方面で\x01",
-            "導力列carが脱線ですか……\x02",
+            "On the West Crossbell Highway\x01",
+            "Does the guiding train derail? …\x02",
         )
     )
 
@@ -1912,7 +1912,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Orchis Towerの運用がもっと\x01",
+            "The operation of the Orkis Tower is more\x01",
             "If you get into full swing, people in this square will also come in and out\x01",
             "You will be more active.\x02",
         )
@@ -1950,7 +1950,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "我々Policeman隊は防戦一方で、\x01",
+            "Our police force is defending against us,\x01",
             "Ultimately the two major powers will\x01",
             "As a result of relying on the military equipped ……\x02",
         )
@@ -2040,8 +2040,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "自分とKanning police officerはこの度、\x01",
-            "Orchis Towerの警備要員として\x01",
+            "Kanning patrol with me this time,\x01",
+            "As a security guard at the Orkis Tower\x01",
             "It was decided to be assigned.\x02",
         )
     )
@@ -2068,7 +2068,7 @@ def main():
         0xFE,
         (
             "Gather attention in the continents,\x01",
-            "このOrchis Towerで働けることを\x01",
+            "You can work in this Orkis Tower\x01",
             "I am very honored.\x02",
         )
     )
@@ -2214,7 +2214,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "猟兵団とThe guardが交戦中、か。\x02",
+        "Is the hunting corps and the guard engaged in battle?\x02",
     )
 
     CloseMessageWindow()
@@ -2283,7 +2283,7 @@ def main():
         0xFE,
         (
             "I do not understand something,\x01",
-            "列carが停まっちまってるんだってな。\x02",
+            "The train is stopped.\x02",
         )
     )
 
@@ -2345,7 +2345,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Mayor of Dieterは、自分の\x01",
+            "Mayor Dieter said,\x01",
             "Without paying public expenses for entertainment expenses and travel expenses\x01",
             "I'm paying all on my own.\x02",
         )
@@ -2356,7 +2356,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "流石はIBC総裁っつうか……\x01",
+            "Is it the president of IBC?\x01",
             "In the case of that person, the area of fat\x01",
             "It is exceeding well beyond.\x02",
         )
@@ -2431,7 +2431,7 @@ def main():
         0xFE,
         (
             "Referendums are essential\x01",
-            "独立に対するCitizenの意志を\x01",
+            "Citizen's will to independence\x01",
             "Although it is said that it is a question … …\x02",
         )
     )
@@ -2466,7 +2466,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "はー、まさかOrchis Towerが\x01",
+            "Well, no doubt the Orkis Tower\x01",
             "I honestly will be completed.\x02",
         )
     )
@@ -2476,9 +2476,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "IBCの資本を惜しげもなく\x01",
+            "Spare the capital of IBC\x01",
             "Put in public works\x01",
-            "Mayor of Dieterの心意気……\x02",
+            "Mayor Dieter's spirit ……\x02",
         )
     )
 
@@ -2503,9 +2503,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "IBCの資本を惜しげもなく\x01",
+            "Spare the capital of IBC\x01",
             "Put in public works\x01",
-            "Mayor of Dieterの心意気……\x02",
+            "Mayor Dieter's spirit ……\x02",
         )
     )
 
@@ -2540,8 +2540,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ついに『Orchis Tower』が\x01",
-            "その姿をCitizenたちに……\x02",
+            "Finally \"Orchis Tower\"\x01",
+            "To its citizens … …\x02",
         )
     )
 
@@ -2662,7 +2662,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Singh、言葉づかいはエラソーだけど\x01",
+            "Singh, language is erotic though\x01",
             "Roots are like good fellows.\x02",
         )
     )
@@ -2701,7 +2701,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "それにしてもOrchis Tower……\x01",
+            "Anyway, the Orchise Tower ……\x01",
             "Than I imagined\x01",
             "It was a cool building.\x02",
         )
@@ -2775,7 +2775,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005Fあれ、Singhじゃないか。\x02",
+        "#00005FWell, is not it?\x02",
     )
 
     CloseMessageWindow()
@@ -2803,7 +2803,7 @@ def main():
         0x102,
         (
             "#00102FHuhu, Hello,\x01",
-            "Ryu君たちと一緒にいたのね？\x02",
+            "You were with Ryu guys?\x02",
         )
     )
 
@@ -2846,7 +2846,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005Fあれ、君は確か……Singh？\x02",
+        "#00005FWell, you sure are … Shin?\x02",
     )
 
     CloseMessageWindow()
@@ -2875,7 +2875,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106Fごめんなさい、Singh君。\x01",
+            "#00106FSorry, Shin.\x01",
             "Well we too\x01",
             "I can not take my hand …\x02",
         )
@@ -2944,7 +2944,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00002Fやあ、Ryu達じゃないか。\x02\x03",
+            "#00002FHey, are not they Ryuu?\x02\x03",
             "#00005F… …. that, what is that?\x01",
             "You have an unfamiliar child?\x02",
         )
@@ -2957,7 +2957,7 @@ def main():
         0x1E,
         (
             "What are you guys.\x01",
-            "Ryuたちの知り合いか？\x02",
+            "Do you know Ryu?\x02",
         )
     )
 
@@ -3020,7 +3020,7 @@ def main():
         0x1B,
         (
             "Oh, you did it!\x01",
-            "なあpeach、してたよなー？\x02",
+            "Hey, Momo, were you doing?\x02",
         )
     )
 
@@ -3038,7 +3038,7 @@ def main():
     ChrTalk(
         0x1C,
         (
-            "ちょ、ちょっとRyuってば、\x01",
+            "Wait a minute,\x01",
             "Please do not tease!\x02",
         )
     )
@@ -3151,7 +3151,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Orchis Towerは本日一杯、\x01",
+            "Today Orkis Tower is full,\x01",
             "Access other than stakeholders\x01",
             "I restrict it.\x02",
         )
@@ -3176,7 +3176,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "Orchis Towerへようこそ。\x02",
+        "Welcome to Orkis Tower.\x02",
     )
 
     CloseMessageWindow()
@@ -3356,9 +3356,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10100Fふふ、Sonya Commandなら\x01",
+            "#10100FHuhu, if you are Sonya commander\x01",
             "I think that it is a matter of course.\x02\x03",
-            "Lieutenant Mireilleのような優秀な方は\x01",
+            "Excellent people like the three lieutenant Mireille\x01",
             "It would be the situation I want even one person … …\x02",
         )
     )
@@ -3372,9 +3372,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00204FSonya Commandならではの\x01",
+            "#00204FUnique to Sonya command\x01",
             "It is flexible correspondence.\x02\x03",
-            "#00202FLieutenant Mireilleのような優秀な方は\x01",
+            "#00202FExcellent people like the three lieutenant Mireille\x01",
             "It would be the situation I want even one person … …\x02",
         )
     )
@@ -3391,7 +3391,7 @@ def main():
             "I do not know but …\x02\x03",
             "#07902FAs I returned,\x01",
             "I will do my best.\x02\x03",
-            "国防軍やThe guardである前に、\x01",
+            "Before being a defense army or guard,\x01",
             "Having a mission to protect the crossbell\x01",
             "As a human being.\x02",
         )
@@ -3430,7 +3430,7 @@ def main():
         (
             "#07902FAs I returned,\x01",
             "I will do my best.\x02\x03",
-            "国防軍やThe guardである前に、\x01",
+            "Before being a defense army or guard,\x01",
             "Having a mission to protect the crossbell\x01",
             "As a human being.\x02",
         )
@@ -3619,7 +3619,7 @@ def main():
         0x21,
         (
             "Also, due to the effect that barrier disappeared\x01",
-            "ウルスラ病院行きを希望するCitizenが\x01",
+            "Citizens who wish to go to Ursula hospital\x01",
             "It seems that many people are out.\x02",
         )
     )
@@ -3629,7 +3629,7 @@ def main():
     ChrTalk(
         0x21,
         (
-            "それに関しては、Lieutenant Mireilleに\x01",
+            "With regard to that, Mr. Mireille to three\x01",
             "We have instructed correspondence ahead of time.\x02",
         )
     )
@@ -3641,9 +3641,9 @@ def main():
         (
             "#07903FRegarding the visits to and from the city\x01",
             "Put a platoon into each road\x01",
-            "移動car両の護衛を増員しています。\x02\x03",
+            "We are increasing the escorts of moving vehicles.\x02\x03",
             "#07900FCurrently under the President's restriction\x01",
-            "数倍のCitizenの輸送が可能です。\x02",
+            "Transportation of citizens several times is possible.\x02",
         )
     )
 
@@ -3656,7 +3656,7 @@ def main():
             "#02500FI am the chairman of the autonomous state legislature\x01",
             "On the public place, on President's detention\x01",
             "You will need to explain.\x02\x03",
-            "すでにCitizen会館の方に\x01",
+            "Already towards the city hall\x01",
             "I prepared arrangements for the press conference … …\x02",
         )
     )
@@ -3667,7 +3667,7 @@ def main():
         0x23,
         (
             "#01002FRegarding that, the President prepared\x01",
-            "スクリーンcarも利用できるでしょう。\x02\x03",
+            "Screen cars will also be available.\x02\x03",
             "You should share it with the police in the city\x01",
             "Shall I prepare?\x02",
         )
@@ -3689,7 +3689,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F（McDowellたちは\x01",
+            "#00001F(McDowell's chairman\x01",
             "To respond to each direction\x01",
             "It looks like I'm being chased. )\x02",
         )
@@ -3879,7 +3879,7 @@ def main():
     ChrTalk(
         0x23,
         (
-            "#01003F大統領は、In a room of Tower 36 F\x01",
+            "#01003FThe president is in a room of Tower 36F\x01",
             "I am in a state of detention.\x02\x03",
             "#01002FWell, if you feel like it, you should visit us.\x01",
             "There will be stories that I can hear again.\x02",
@@ -3942,7 +3942,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sonya Commandに頼まれて、\x01",
+            "Asked by Sonja Command,\x01",
             "As a representative of the Defense Forces side\x01",
             "I'm coming.\x02",
         )
@@ -3964,7 +3964,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ハハ、The guardの頃に比べると\x01",
+            "Ha ha, compared with the time of the guard\x01",
             "It will seem a little cramped … …\x02",
         )
     )
@@ -4122,7 +4122,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F支援課で使ってるcar……\x01",
+            "#00005FCar used by support section ……\x01",
             "Have you been moved here?\x02",
         )
     )
@@ -4137,7 +4137,7 @@ def main():
         0x101,
         (
             "#00005FAh……\x02\x03",
-            "支援課で使ってるcar……\x01",
+            "Car used by support section ……\x01",
             "Have you been moved here?\x02",
         )
     )
@@ -4340,7 +4340,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "晴天の空にOrchis Towerが\x01",
+            "Orkis Tower in the clear sky\x01",
             "It shines well.\x02",
         )
     )
@@ -4397,7 +4397,7 @@ def main():
         (
             "Such a wonderful place\x01",
             "I will release you from the first day\x01",
-            "Mayor of Dieterも太っ腹ね。\x02",
+            "Mayor Dieter is also a big boy.\x02",
         )
     )
 
@@ -4649,7 +4649,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Orchis Towerの屋上は\x01",
+            "The rooftop of Orkis Tower\x01",
             "It is still not open to the public.\x02",
         )
     )
@@ -4674,7 +4674,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "噂のOrchis Towerを\x01",
+            "Rumored Orchis Tower\x01",
             "I came to see … ….\x01",
             "It is more amazing than I imagined.\x02",
         )
@@ -4708,7 +4708,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "あれって、クロスベルThe guardの人よね。\x02",
+        "Well, you're a cross-border guard.\x02",
     )
 
     CloseMessageWindow()
@@ -4863,7 +4863,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Orchis Towerの存在感は\x01",
+            "The presence of Orkis Tower is\x01",
             "Being able to feel without seeing\x01",
             "It is overwhelming.\x02",
         )
@@ -5034,7 +5034,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#12P#00301FOrchis Tower前は\x01",
+            "#12P#00301FIn front of Orkis Tower\x01",
             "Those of the \"Defense Army\"\x01",
             "Do not try hardening ……\x02",
         )
@@ -5122,7 +5122,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100F#6P（ランディのThe guard時代の\x01",
+            "#00100F#6P(Randy's Guardian era\x01",
             "It looks like a coworker. )\x02",
         )
     )
@@ -5525,7 +5525,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00001FLieutenant Mireille……\x01",
+            "#6P#00001FSan Miireiu … …\x01",
             "I was in town.\x02",
         )
     )
@@ -5556,7 +5556,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#6P#00201FThe guardの司令たちが残っている\x01",
+            "#6P#00201FGuard commanders are left\x01",
             "That means …\x01",
             "Is the measure also difficult?\x02",
         )
@@ -5585,7 +5585,7 @@ def main():
         (
             "#6P#00003F……Yes.\x02\x03",
             "#00001FProbably …\x01",
-            "Mainz Mountain Roadに向かっている\x01",
+            "Heading towards Mainz Mountain Road\x01",
             "It seems to be a situation.\x02",
         )
     )
@@ -5648,7 +5648,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10108FLieutenant Mireille……\x02",
+        "#6P#10108FSan Miireiu … …\x02",
     )
 
     CloseMessageWindow()
@@ -5663,7 +5663,7 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#07903F……The guardも甚大な被害を受けたわ。\x01",
+            "#07903F…… The guard was also hit hard.\x01",
             "From now on by the commanders, once again\x01",
             "I think we will organize rescue troops.\x02\x03",
             "We can not move until then … …\x01",
@@ -5857,7 +5857,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "At the same time, it is just completed\x01",
             "It also served as an announcement of the new city hall building.\x02\x03",
-            "──通称『Orchis Tower』。\x02\x03",
+            "── Generic name \"Orkis Tower\".\x02\x03",
             "It will be 40 floors above ground and 250 heights high,\x01",
             "The first skyscraper in continental history\x01",
             "Now people are interested in the continents.\x07\x00\x02",
@@ -6348,7 +6348,7 @@ def main():
         (
             "#11P#10102F(Libert's Claudia Queen also\x01",
             "It is wonderful …\x02\x03",
-            "#10109F（……それにあのAssistant Juliaを\x01",
+            "#10109F(… … and that Assistant Yulia\x01",
             "To be seen in such a place …! )\x02",
         )
     )
@@ -6576,7 +6576,7 @@ def main():
 
     ChrTalk(
         0x30,
-        "#02809F#N#4S#11P《Orchis Tower》であります！\x02",
+        "#02809F#N#4S#11PIt is \"Orkis Tower\"!\x02",
     )
 
     CloseMessageWindow()
@@ -6635,7 +6635,7 @@ def main():
         0x101,
         (
             "#00011F#NHere, this …\x01",
-            "《Orchis Tower》……！\x02",
+            "\"Orchis Tower\"……!\x02",
         )
     )
 
@@ -6772,7 +6772,7 @@ def main():
         (
             "#12004F#11P(Yeah, I also real thing\x01",
             "I did not think it was far. )\x02\x03",
-            "#12000F（さすがはIBCの資本力と\x01",
+            "#12000F(Truly, with the capital strength of IBC\x01",
             "I told you. )\x02",
         )
     )
@@ -7122,7 +7122,7 @@ def main():
         0x101,
         (
             "#00000FHaha, you are not crowded.\x02\x03",
-            "RyuやHenryたちも\x01",
+            "Ryu and Henry also\x01",
             "It seems they are coming out to play.\x02",
         )
     )
@@ -7134,7 +7134,7 @@ def main():
         (
             "#00100FAfter this unveiling ceremony,\x01",
             "Soon after the leaders left\x01",
-            "Citizenに開放されたのよね。\x02\x03",
+            "It was opened to citizens.\x02\x03",
             "#00104FHuhu, my uncle\x01",
             "I wonder if the chic is said to be bad.\x02",
         )
@@ -7145,8 +7145,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10109Fあはは、Mayor of Dieterらしいです。\x02\x03",
-            "#10100Fでも、さすがにPolicemanの方も多いですね。\x02",
+            "#10109FHaha, it is like Mayor of Dieter.\x02\x03",
+            "#10100FHowever, there are many police officers as expected.\x02",
         )
     )
 
@@ -7194,7 +7194,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F今日は、Citizenたちもタワー内部までは\x01",
+            "#00000FToday, the citizens also inside the tower\x01",
             "It seems that they are trying not to enter.\x02\x03",
             "As of now,\x01",
             "Let's stop entering inside.\x02",
@@ -7336,7 +7336,7 @@ def main():
         (
             "#00104F#5PWell, various functions\x01",
             "Because it is a built-in building.\x02\x03",
-            "#00100F市や自治州のAdministrative district画以外にも\x01",
+            "#00100FApart from administrative districts of the city and autonomous province\x01",
             "International trade center and\x01",
             "There is also a floor on cultural exchange.\x02\x03",
             "To be the center of the western continent,\x01",
@@ -7555,7 +7555,7 @@ def main():
         0x101,
         (
             "#00003F#5P(What is Mr. Dudley?\x01",
-            "  On the entrance floor of 1F at noon\x01",
+            "On the entrance floor of 1F at noon\x01",
             "I am meeting … …)\x02\x03",
             "#00001F(I still have time.\x01",
             "Shall we go inside? )\x02",
@@ -7572,7 +7572,7 @@ def main():
         0x101,
         (
             "#00003F#5P(What is Mr. Dudley?\x01",
-            "  On the entrance floor of 1F at noon\x01",
+            "On the entrance floor of 1F at noon\x01",
             "I am meeting … …)\x02\x03",
             "#00001F(I still have time for Oita though\x01",
             "Would you like to enter early and wait? )\x02",
@@ -7613,7 +7613,7 @@ def main():
         0,
         (
             "【There are still other things to do】\x01",            # 0
-            "【Orchis Towerの中に入る】\x01",      # 1
+            "[Enter into the Orkis Tower]\x01",      # 1
         )
     )
 
@@ -7725,12 +7725,12 @@ def main():
         0xFF,
         (
             scpstr(0x18),
-            "Mayor of Dieterの提唱した\x01",
+            "Mayor Dieter proposed\x01",
             "Question about the pros and cons of \"Cross Bell's national independence\"\x01",
             "The day of the referendum was approaching.\x02\x03",
             "Empire, republic government pressure also\x01",
             "Although it began to be blatant day by day\x01",
-            "Citizenたちの関心は非常に高く……\x02\x03",
+            "Citizen's interest is very high ……\x02\x03",
             "Depends on alkane shell\x01",
             "Coupled with the release of the renewal stage\x01",
             "The heat in the city was even higher.\x02\x03",
@@ -8009,7 +8009,7 @@ def main():
     ChrTalk(
         0x32,
         (
-            "#11PThe guardから回ってきたのは\x01",
+            "#11PThe guard came from\x01",
             "5 cases in total ……\x02",
         )
     )
@@ -9014,7 +9014,7 @@ def main():
         (
             "#11304F#5PLet me introduce\x02\x03",
             "In the previous Crossbell City raid\x01",
-            "獅子奮迅の働きでOrchis Towerを\x01",
+            "With the work of Shishinpaku Orkis Tower\x01",
             "Person who protected himself … …\x02\x03",
             "#11300FKnown under the name \"Wind sword of the wind\"\x01",
             "To the Association of Shogi Shogaku and Crosbell\x01",
@@ -9793,7 +9793,7 @@ def main():
     ChrTalk(
         0x34,
         (
-            "#11PKirikaさん！\x01",
+            "#11PMr. Kirika!\x01",
             "I'll help you!\x02",
         )
     )
@@ -10202,7 +10202,7 @@ def main():
 
     ChrTalk(
         0x39,
-        "#5PWe will start interception!\x02",
+        "#5PBeginning raid\x02",
     )
 
     CloseMessageWindow()
@@ -10302,7 +10302,7 @@ def main():
 
     ChrTalk(
         0x3A,
-        "car輌を盾にしろー！\x02",
+        "Keep cover behind the cars!\x02",
     )
 
     CloseMessageWindow()
@@ -12617,14 +12617,14 @@ def main():
 
     ChrTalk(
         0x32,
-        "#5POh……!\x02",
+        "#5PWoah!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x38,
-        "#12PIt disappeared …! Is it?\x02",
+        "#12PT-they vanished?\x02",
     )
 
     CloseMessageWindow()

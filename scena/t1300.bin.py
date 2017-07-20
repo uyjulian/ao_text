@@ -554,7 +554,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#00102FほらTioちゃん、\x01",
+            "#00102FHey Tio,\x01",
             "Turn around.\x02\x03",
             "Right now, two-shot photo\x01",
             "I'll take a picture.\x02",
@@ -625,7 +625,7 @@ def main():
             "Finally to the theme park\x01",
             "You did it ……\x02\x03",
             "#00202FTentatively,\x01",
-            "Missiと握手を……\x02",
+            "Misoshi shake hands ……\x02",
         )
     )
 
@@ -698,7 +698,7 @@ def main():
         0xF,
         (
             "#00200FIf possible, in the night's part\x01",
-            "Missiのパレードを\x01",
+            "Mitsushi parade\x01",
             "I wanted to see you ….\x02\x03",
             "#00206F… Well, on this occasion\x01",
             "It seems to be the only thing I should do.\x02",
@@ -743,7 +743,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#00201F生Missi……！\x02",
+        "#00201FBirth … …!!\x02",
     )
 
     CloseMessageWindow()
@@ -845,8 +845,8 @@ def main():
         0x11,
         (
             "#10105Fby the way,\x01",
-            "Missiは見かけましたけど\x01",
-            "妹の『Misee』がいませんね。\x02\x03",
+            "I saw the Mickey but\x01",
+            "My sister 's Misee is not there.\x02\x03",
             "#10103FWell, somewhere\x01",
             "I wonder if she is hiding ……\x02",
         )
@@ -862,7 +862,7 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#10100FMissiの妹の『Misee』って\x01",
+            "#10100FMisashi's sister's \"Mieee\"\x01",
             "I wonder where they are.\x02\x03",
             "#10103FWill it be found soon?\x02",
         )
@@ -911,8 +911,8 @@ def main():
     ChrTalk(
         0x12,
         (
-            "#10300FさっきIliaさんが休憩所から\x01",
-            "Cecilさんを引っ張っていったよ。\x02\x03",
+            "#10300FIria from the resting place a while ago\x01",
+            "I pulled Cecil.\x02\x03",
             "#10303FHuh, that is so aggressive person\x01",
             "It seems that it is suitable for inviting girls.\x02",
         )
@@ -928,7 +928,7 @@ def main():
     ChrTalk(
         0x12,
         (
-            "#10300FIliaさんくらい強引な方が\x01",
+            "#10300FIria-san is more aggressive\x01",
             "It seems that it is suitable for inviting girls.\x02\x03",
             "#10309FHuh, how about you trying hard?\x02",
         )
@@ -987,7 +987,7 @@ def main():
         0x8,
         (
             "#01111FThat's it, I'm going to Shizuku later.\x01",
-            "Missiグッズのお土産を\x01",
+            "A souvenir of Michishi goods\x01",
             "I have to buy it.\x02\x03",
             "#01106FPocket money, will it be enough?\x02",
         )
@@ -1142,7 +1142,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#01700FLisha、Shuri。\x01",
+            "#01700FLisha, Shri.\x01",
             "Are you having fun too?\x02\x03",
             "#01709FAlso for artists\x01",
             "Since refreshing is important,\x01",
@@ -1205,7 +1205,7 @@ def main():
             "#01805Fby the way,\x01",
             "Near the horror coaster\x01",
             "It seems that there are many scream systems.\x02\x03",
-            "#01803FあのあたりならIliaさんが\x01",
+            "#01803FMr. Ilya in that case\x01",
             "There seems to be liking … …\x02",
         )
     )
@@ -1354,7 +1354,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
             "Good luck my sister\x01",
-            "Miseeを探してみてネ〜☆\x07\x00\x02",
+            "Try looking for Mie - ☆\x07\x00\x02",
         )
     )
 
@@ -1409,7 +1409,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
             "If you really do not know,\x01",
-            "ボクの方からMiseeに\x01",
+            "From my side to you\x01",
             "I will tell you about give up.\x07\x00\x02",
         )
     )
@@ -1433,7 +1433,7 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "Miseeとのかくれんぼに\x01",
+            "To Hide-and-Seek with Mini\x01",
             "It was winning.\x07\x00\x02",
         )
     )
@@ -1461,7 +1461,7 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "Miseeとの\x01",
+            "With me\x01",
             "Because I lost to the hide-and-seek\x01",
             "Do not be discouraged.\x07\x00\x02",
         )
@@ -1646,7 +1646,7 @@ def main():
         0xFE,
         (
             "Hehe … … Look, you.\x01",
-            "Limaがあんなに嬉しそうだわ。\x02",
+            "Lima looks so happy.\x02",
         )
     )
 
@@ -1688,7 +1688,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "わーい、Missi〜！\x02",
+        "Wow, Missi ~!\x02",
     )
 
     CloseMessageWindow()
@@ -1696,7 +1696,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Limaは夜の部にはいないけど、\x01",
+            "Lima is not in the night's part,\x01",
             "Good luck with the parade ~!\x02",
         )
     )
@@ -1768,7 +1768,7 @@ def main():
         0x18,
         (
             "welcome.\x01",
-            "ここではMissiグッズを\x01",
+            "Here, you can see Michishi goods\x01",
             "I handle a lot!\x02",
         )
     )
@@ -1778,7 +1778,7 @@ def main():
     ChrTalk(
         0x18,
         (
-            "あなたもMissiテイルをつけて、\x01",
+            "You put on Michishitai,\x01",
             "Let's enjoy the theme park!\x02",
         )
     )
@@ -1793,7 +1793,7 @@ def main():
         0x18,
         (
             "To memories of theme park\x01",
-            "Missiグッズはいかがですか？\x02",
+            "How is Michishi goods?\x02",
         )
     )
 
@@ -1803,7 +1803,7 @@ def main():
         0x18,
         (
             "Until I return to Crossbell City,\x01",
-            "Missiテイルをつけてる人も\x01",
+            "People wearing Michishitai also\x01",
             "It is surprisingly large.\x02",
         )
     )
@@ -1933,7 +1933,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "この子ったらMissiが\x01",
+            "If this child, Mitsushi\x01",
             "You are very fond of it.\x02",
         )
     )
@@ -2753,12 +2753,12 @@ def main():
         0xF,
         (
             "#00203F…… If you say that\x01",
-            "『Missi』の追っかけも\x01",
+            "I also chase \"Missi\"\x01",
             "I wonder if she can not be removed.\x02\x03",
             "#00201FHe is traveling around the park\x01",
             "It is a taste of chasing.\x02\x03",
             "#00207FIf you are lucky it is his sister\x01",
-            "『Misee』というキャラにも\x01",
+            "To the character \"Mieee\"\x01",
             "I can meet you … …!\x02",
         )
     )
@@ -2774,7 +2774,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#00301F#6PTioすけの目がマジだぜ……\x02",
+        "#00301F#6PThe eyes of Tio are serious ……\x02",
     )
 
     CloseMessageWindow()
@@ -2921,7 +2921,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#11PCecil姉、こんな時まで\x01",
+            "#00006F#11PCecil elder sister, until this time\x01",
             "Even if you do not demonstrate the nurse soul …\x02",
         )
     )
@@ -2939,7 +2939,7 @@ def main():
         0x10,
         (
             "#00303F#6P…… But thinking about it,\x01",
-            "Cecilさんに介抱してもらえる\x01",
+            "Cecil will be advised by Mr. Cecil\x01",
             "What a great opportunity is!\x02",
         )
     )
@@ -2949,7 +2949,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#00211F#12PRandyさん。\x01",
+            "#00211F#12PRandy.\x01",
             "He should refrain from real intention.\x02",
         )
     )
@@ -3156,7 +3156,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#01109F#5PねえShuri！\x01",
+            "#01109F#5PHey Shuri!\x01",
             "Together for you ~! Is it?\x02",
         )
     )
@@ -3567,14 +3567,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#6PPleomorphic grass … …!\x02",
+        "#00010F#6PPleroma flowers…!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00201F#6PMissiの花壇が……！\x02",
+        "#00201F#6PMishy's face…\x02",
     )
 
     CloseMessageWindow()
@@ -3687,7 +3687,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#12P#NIt appeared in the marsh … …!\x02",
+        "#00107F#12P#NAnother one!\x02",
     )
 
     CloseMessageWindow()
@@ -3696,7 +3696,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00310F#6P#NHappy birthday party!\x02",
+        "#00310F#6P#NHa. Bring it on!\x02",
     )
 
     CloseMessageWindow()
@@ -3877,7 +3877,7 @@ def main():
             "#00006F#5P…… in this place before\x01",
             "Campanella with \"Society\"\x01",
             "I encountered it … ….\x02\x03",
-            "#00013F考えてみればKeyaも\x01",
+            "#00013FThink about it, too\x01",
             "Just ahead ……\x02",
         )
     )
@@ -3906,7 +3906,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#6PYeah, let's go!\x02",
+        "#00201F#6PYes, let's go!\x02",
     )
 
     CloseMessageWindow()
@@ -4606,7 +4606,7 @@ def main():
         0x14,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "Miseeの方には\x01",
+            "For those of you\x01",
             "I will tell it from you.\x07\x00\x02",
         )
     )
@@ -4725,7 +4725,7 @@ def main():
             "#01106FBouw, that's no problem\x01",
             "I wanted to find it.\x02\x03",
             "#01100FOh no.\x01",
-            "Keya、別のとこで遊んでくるね！\x02",
+            "Kaaa, I will play with another place!\x02",
         )
     )
 
@@ -4774,7 +4774,7 @@ def main():
         0x134,
         (
             "#01706FWell, I wanted to find it … …\x01",
-            "まあIt can not be helped.\x02\x03",
+            "Well I guess.\x02\x03",
             "#01702FWell then, I\x01",
             "I'm going to play in another place.\x02",
         )
@@ -4916,7 +4916,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "クエスト【Miseeの挑戦】\x07\x00",
+            "Quest 【Mie's Challenge】\x07\x00",
             "I failed ……\x02",
         )
     )
@@ -5039,7 +5039,7 @@ def main():
     ChrTalk(
         0x1E,
         (
-            "これより、Missi＆Miseeの\x01",
+            "From this, Mickey & Meeee\x01",
             "I will start a dance show!\x02",
         )
     )
@@ -5048,7 +5048,7 @@ def main():
 
     ChrTalk(
         0x1F,
-        "ワー、Missi〜！\x02",
+        "Wow, Michishi ~!\x02",
     )
 
     CloseMessageWindow()
@@ -5115,7 +5115,7 @@ def main():
     ChrTalk(
         0x1E,
         (
-            "Missi＆Misee！\x01",
+            "Missi & Mie!\x01",
             "Rets dancing scene! It is!\x02",
         )
     )
@@ -5129,7 +5129,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
             "#05201F(I came … …!)\x02\x03",
-            "#05207F（……いくぞTio！！\x01",
+            "#05207F(… … Here you go Tio !!\x01",
             "\"Passionately and fancy!\")\x07\x00\x02",
         )
     )
@@ -5272,9 +5272,9 @@ def main():
         -1,
         0,
         (
-            "ラブイズMissi☆\x01",        # 0
-            "ハッピーMissi☆\x01",        # 1
-            "エンジョイMissi☆\x01",      # 2
+            "Lovely Missette ☆\x01",        # 0
+            "Happy Mischief ☆\x01",        # 1
+            "Enjoy Michishi ☆\x01",      # 2
         )
     )
 
@@ -5292,7 +5292,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "#4Sエンジョーイ、Missi☆\x07\x00\x02",
+            "#4SEnjoei, Missi ☆\x07\x00\x02",
         )
     )
 
@@ -5308,7 +5308,7 @@ def main():
     ClearScenarioFlags(0x1, 1)
     ClearScenarioFlags(0x1, 2)
     SetMessageWindowPos(-1, 140, -1, -1)
-    SetChrName("audienceたち")
+    SetChrName("The audience")
 
     AnonymousTalk(
         0xFF,
@@ -5318,7 +5318,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    SetChrName("audienceたち")
+    SetChrName("The audience")
 
     AnonymousTalk(
         0xFF,
@@ -5372,7 +5372,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "#4Sラブイーズ、Missi☆\x07\x00\x02",
+            "#4SLovey's, Michishi ☆\x07\x00\x02",
         )
     )
 
@@ -5419,7 +5419,7 @@ def main():
     Sound(29, 0, 100, 0)
     Sleep(1000)
     SetMessageWindowPos(-1, 140, -1, -1)
-    SetChrName("audienceたち")
+    SetChrName("The audience")
 
     AnonymousTalk(
         0xFF,
@@ -5429,7 +5429,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    SetChrName("audienceたち")
+    SetChrName("The audience")
 
     AnonymousTalk(
         0xFF,
@@ -5449,7 +5449,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
-            "#4Sハッピーィ、Missi☆\x07\x00\x02",
+            "#4SHappy, Michishi ☆\x07\x00\x02",
         )
     )
 
@@ -5496,7 +5496,7 @@ def main():
     Sound(29, 0, 100, 0)
     Sleep(1000)
     SetMessageWindowPos(-1, 140, -1, -1)
-    SetChrName("audienceたち")
+    SetChrName("The audience")
 
     AnonymousTalk(
         0xFF,
@@ -5506,7 +5506,7 @@ def main():
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    SetChrName("audienceたち")
+    SetChrName("The audience")
 
     AnonymousTalk(
         0xFF,
@@ -5584,7 +5584,7 @@ def main():
             "It ended in great success.\x02\x03",
             "Lloyd who danced safely,\x01",
             "While being wrapped in a magical lingering finish ……\x02\x03",
-            "Tioとともに\x01",
+            "Together with Tio\x01",
             "I headed for a resting place.\x07\x00\x02",
         )
     )
@@ -5607,7 +5607,7 @@ def main():
             "By dancing with heat\x01",
             "It ended in great success.\x02\x03",
             "After dancing, Lloyd\x01",
-            "Tioとともに休憩所へと\x01",
+            "Towards a resting place with Tiio\x01",
             "I headed for … ….\x02\x03",
             "I made a mistake for Kimezeruf during that process\x01",
             "I received punishment.\x07\x00\x02",

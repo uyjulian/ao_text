@@ -559,7 +559,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "さっきここにPolicemanたちが来てな。\x01",
+            "The policemen came here earlier.\x01",
             "She seems to be investigating traces of hunting soldiers at the depot.\x02",
         )
     )
@@ -1267,7 +1267,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "はあ、boyって\x01",
+            "Ha, boy\x01",
             "No matter how many you are children, hey.\x02",
         )
     )
@@ -1472,7 +1472,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "さっきここにPolicemanたちが来てな。\x01",
+            "The policemen came here earlier.\x01",
             "She seems to be investigating traces of hunting soldiers at the depot.\x02",
         )
     )
@@ -2059,7 +2059,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "Oh, you!\x02",
+        "Oh you guys!\x02",
     )
 
     CloseMessageWindow()
@@ -2242,7 +2242,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FWell, please leave it to me.\x02",
+        "#00000FYes, leave it to us\x02",
     )
 
     CloseMessageWindow()
@@ -2259,7 +2259,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "Oh, I see.\x02",
+        "Yes, that's right\x02",
     )
 
     CloseMessageWindow()
@@ -2298,7 +2298,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105FWell … that is tough.\x02",
+        "#00105FOh tha's a real problem for you\x02",
     )
 
     CloseMessageWindow()
@@ -2522,7 +2522,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "Oh, that sort of thing.\x02",
+        "Yes, exactly\x02",
     )
 
     CloseMessageWindow()
@@ -2585,7 +2585,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "Well, that's right.\x02",
+        "Yes. That's right\x02",
     )
 
     CloseMessageWindow()
@@ -2603,7 +2603,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004FYes, sorry.\x02\x03",
+            "#00004FYeah got it\x02\x03",
             "#00000F… Well then, immediately\x01",
             "To Mainz's \"Red Brick Tea\"\x01",
             "Do you want to go there?\x02",
@@ -2705,14 +2705,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FYou are welcome.\x02",
+        "#00000FNo problem\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x11,
-        "by the way……\x02",
+        "Anyway\x02",
     )
 
     CloseMessageWindow()
@@ -2752,21 +2752,21 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10309FHuh, I heard it was a shock.\x02",
+        "#10309FHa, she's still in shock it seems\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10106FI understand the feeling ……\x02",
+        "#10106FI understand it though\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00300FWell, it will fit in there.\x02",
+        "#00300FWell, no helping it this time\x02",
     )
 
     CloseMessageWindow()
@@ -2816,14 +2816,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FYes, anytime.\x02",
+        "#00000FYes, anytime\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00200FWe look forward.\x02",
+        "#00200FWe'll be waiting\x02",
     )
 
     CloseMessageWindow()
@@ -3165,7 +3165,7 @@ def main():
     ChrTalk(
         0x12,
         (
-            "そうだ……You guys,\x01",
+            "That's right … … you,\x01",
             "The culprit who cheated medical supplies\x01",
             "Can not you find them?\x02",
         )
@@ -3460,7 +3460,7 @@ def main():
         (
             "#00003FAnyways……\x01",
             "Let's chase after somehow.\x02\x03",
-            "#00001FBillyさんたちはここで\x01",
+            "#00001FBilly's here\x01",
             "Please wait for contact.\x02",
         )
     )

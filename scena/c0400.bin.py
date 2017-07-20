@@ -33,7 +33,7 @@ def main():
         "Police car",               # 12
         "Mary",                 # 13
         "car",                     # 14
-        "黒い運搬car",             # 15
+        "Black truck",             # 15
         "Central square",               # 16
         "Nishi dori",                 # 17
         "Administrative district",                 # 18
@@ -821,9 +821,9 @@ def main():
         0x102,
         (
             "#00105FEven so, Mr. Kate\x01",
-            "Entertainment districtでお仕事というのも\x01",
+            "Work in the entertainment area\x01",
             "Is not it rare?\x02\x03",
-            "#00100FいつもはCentral squareにいる\x01",
+            "#00100FI usually stay in the central square\x01",
             "It was an image ……\x02",
         )
     )
@@ -834,7 +834,7 @@ def main():
         0xFE,
         (
             "Yes, actually\x01",
-            "目を付けている導力carがあって\x01",
+            "There is a driving force car with an eye\x01",
             "I'm sticking here.\x02",
         )
     )
@@ -877,7 +877,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふふ、I was listening to rumors,\x01",
+            "Hehe, I was listening to rumors,\x01",
             "The mission support department also restarts.\x02",
         )
     )
@@ -1393,7 +1393,7 @@ def main():
         0xFE,
         (
             "If you are a redhead customer just now,\x01",
-            "Residential areaの方に行っちゃいましたよー。\x02",
+            "I went to the residential area.\x02",
         )
     )
 
@@ -1482,7 +1482,7 @@ def main():
         0xFE,
         (
             "While holding the head in the coldness of ice,\x01",
-            "Residential areaの方に行っちゃいましたよー。\x02",
+            "I went to the residential area.\x02",
         )
     )
 
@@ -1787,7 +1787,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ほ〜んと、これじゃBack streetで\x01",
+            "Well, in the back street\x01",
             "Even a taming as it is happening\x01",
             "It will look cute.\x02",
         )
@@ -1973,7 +1973,7 @@ def main():
         0xFE,
         (
             "Today there are many passengers,\x01",
-            "市民ばっかでtouristは少ないねー。\x02",
+            "There are few tourists and citizens.\x02",
         )
     )
 
@@ -2256,7 +2256,7 @@ def main():
         0xFE,
         (
             "Lee A-sama ~ ~!\x01",
-            "Policeはここで舞台の成功を\x01",
+            "Police is here to set the stage success\x01",
             "I prayed! It is!\x02",
         )
     )
@@ -2284,7 +2284,7 @@ def main():
         (
             "Ilia-sama, unfortunately\x01",
             "I can not watch it on the first day … …\x01",
-            "Policeは今夜眠れそうにありませんっ！\x02",
+            "Police will not be able to sleep tonight!\x02",
         )
     )
 
@@ -2300,7 +2300,7 @@ def main():
         (
             "Ilia-sama, unfortunately\x01",
             "I can not watch it on the first day … …\x01",
-            "Policeは今夜眠れそうにありませんっ！\x02",
+            "Police will not be able to sleep tonight!\x02",
         )
     )
 
@@ -2585,7 +2585,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "Policeは雨なんかに負けませんからー！\x02",
+        "Police will not lose to rain!\x02",
     )
 
     CloseMessageWindow()
@@ -2754,7 +2754,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おいPolice、よだれよだれ……\x01",
+            "Hey Police, drool it ….\x01",
             "Besides, my expression is over.\x02",
         )
     )
@@ -2839,7 +2839,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Policeの奴、\x01",
+            "Police 's guy,\x01",
             "Saying barely thoughts\x01",
             "I am the one who liberated the tickets.\x02",
         )
@@ -2931,7 +2931,7 @@ def main():
         0xFE,
         (
             "I also received a police school,\x01",
-            "Policemanを目指すかな〜。\x02",
+            "I wonder if I aim for a policeman.\x02",
         )
     )
 
@@ -2963,7 +2963,7 @@ def main():
         0xFE,
         (
             "I also received a police school,\x01",
-            "Policemanを目指すかな〜。\x02",
+            "I wonder if I aim for a policeman.\x02",
         )
     )
 
@@ -3080,7 +3080,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "何だか、Central squareの方が\x01",
+            "Somewhat, the central square is better\x01",
             "It sounds noisy.\x02",
         )
     )
@@ -3468,7 +3468,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "この界隈にYou have a nice host\x01",
+            "I heard that there are nice hosts in this neighborhood\x01",
             "I heard it from a long time ago.\x02",
         )
     )
@@ -3589,7 +3589,7 @@ def main():
         0xFE,
         (
             "So I, as always\x01",
-            "このEntertainment districtで遊び倒すつもりだぜ。\x02",
+            "I am going to beat you in this entertainment district.\x02",
         )
     )
 
@@ -3795,7 +3795,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "Orchis Tower、すげえよなー。\x02",
+        "Orkis Tower, I can not stand it.\x02",
     )
 
     CloseMessageWindow()
@@ -3817,7 +3817,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "Orchis Tower、すげえよなー。\x02",
+        "Orkis Tower, I can not stand it.\x02",
     )
 
     CloseMessageWindow()
@@ -3845,7 +3845,7 @@ def main():
         0xFE,
         (
             "Oh, somewhere else\x01",
-            "Policemanがウロウロしてんな〜。\x02",
+            "The policeman is getting fucked up.\x02",
         )
     )
 
@@ -3890,7 +3890,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Policemanがいると\x01",
+            "With a police officer\x01",
             "Something's hard to play.\x02",
         )
     )
@@ -4232,7 +4232,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "それeven if,\x01",
+            "Even so,\x01",
             "The sun is strong today too ~.\x02",
         )
     )
@@ -4257,7 +4257,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "それeven if,\x01",
+            "Even so,\x01",
             "The sun is strong today too ~.\x02",
         )
     )
@@ -5155,7 +5155,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#00003FOh, let's lightly organize.\x02",
+        "#5P#00003FYes. Let's try to put them in order\x02",
     )
 
     CloseMessageWindow()
@@ -5312,7 +5312,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#00000F(No doubt, this is the order.)\x02",
+        "#5P#00000F(This is definitely the order)\x02",
     )
 
     CloseMessageWindow()
@@ -5343,8 +5343,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "３時〜４時　Casino Bar \"Barca\"\x01",
-            "５時〜６時　Repair shop \"Guillaume Studio\"\x01",
+            "3 o'clock to 4 o'clock casino bar \"Barca\"\x01",
+            "5 o'clock to 6 o'clock repair shop \"Guillaume Studio\"\x01",
             "6 o'clock - change shop \"Ninevali\"\x07\x00\x02",
         )
     )
@@ -5387,7 +5387,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10103F#11P─ ─ Yes, I think there is no mistake.\x02\x03",
+            "#10103F#11PYes, that seems likely\x02\x03",
             "#10108FMaintenance of arms, life and death on the battlefield\x01",
             "It is a thing to change … ….\x02\x03",
             "#10101FIf Randy-senpai, absolutely\x01",
@@ -5538,14 +5538,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#00011FNo way ….\x02",
+        "#5P#00011FNo way…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#6P#00205FFrom Randy's … ….?\x02",
+        "#6P#00205FFrom Randy?\x02",
     )
 
     CloseMessageWindow()
@@ -5579,7 +5579,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Hi, Mr. Lloyd.\x02\x03",
+            "Hey there Lloyd-kun\x02\x03",
             "…… Huh, apparently someone else\x01",
             "You seem to have made me wrong.\x02",
         )
@@ -5597,8 +5597,8 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00005FWell, that voice ……\x02\x03",
-            "#00013F…… Why is this number?\x02",
+            "#00005FT-that voice is\x02\x03",
+            "#00013FWhy do you have this number\x02",
         )
     )
 
@@ -5614,7 +5614,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Huh, I told you.\x01",
             "It is a fan of Lloyd's.\x02\x03",
-            "── Times department store.\x02\x03",
+            "I'm waiting for you in the Times\x02\x03",
             "If you are free,\x01",
             "Please come to the rooftop.\x07\x00\x02",
         )
@@ -5650,7 +5650,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00108FWell, who the hell were you?\x02",
+        "#12P#00108FWho in the world was that\x02",
     )
 
     CloseMessageWindow()
@@ -5667,8 +5667,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#5P#00003F…… It is Tsao of \"Black moon\".\x02\x03",
-            "#00013FCentral squareのデパートの\x01",
+            "#5P#00003FCao from Heiyue\x02\x03",
+            "#00013FOn the central square department store\x01",
             "She seems to be waiting at the rooftop.\x02",
         )
     )
@@ -5689,7 +5689,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10111F#11PWell ……! Is it?\x02",
+        "#10111F#11PHuh!?\x02",
     )
 
     CloseMessageWindow()
@@ -5719,14 +5719,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00101FI knew.\x02",
+        "#12P#00101FR-right\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#6P#00201FLet's hurry anyway.\x02",
+        "#6P#00201FLet's hurry!\x02",
     )
 
     CloseMessageWindow()
@@ -5867,7 +5867,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10105F暴走carの件について\x01",
+            "#10105FAbout the case of runaway vehicles\x01",
             "We want us to cooperate\x01",
             "I mean, but …?\x02",
         )
@@ -5898,8 +5898,8 @@ def main():
     ChrTalk(
         0x11,
         (
-            "最近、危険運転をするcar……\x01",
-            "いわゆる『暴走car』が、市内を\x01",
+            "Recently, a car that drives danger ……\x01",
+            "The so-called \"runaway car\"\x01",
             "I run around freely.\x02",
         )
     )
@@ -5963,7 +5963,7 @@ def main():
         0x11,
         (
             "So, at your support department\x01",
-            "あの暴走carを取り締まる\x01",
+            "Crack down on that runaway vehicle\x01",
             "I wanted to help you.\x02",
         )
     )
@@ -5985,7 +5985,7 @@ def main():
         0x11,
         (
             "At your support department\x01",
-            "あの暴走carを取り締まる\x01",
+            "Crack down on that runaway vehicle\x01",
             "I would like to help out.\x02",
         )
     )
@@ -6116,7 +6116,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "クエスト【暴走carの取り締まり】\x07\x00",
+            "Quest 【Crackdown on Runaway Car】\x07\x00",
             "I started!\x02",
         )
     )
@@ -6142,7 +6142,7 @@ def main():
     ChrTalk(
         0x11,
         (
-            "暴走carを運転しているのは、\x01",
+            "Driving a runaway vehicle,\x01",
             "Young people 3 people who are from the Republic … …\x02",
         )
     )
@@ -6162,7 +6162,7 @@ def main():
     ChrTalk(
         0x11,
         (
-            "彼らはHarbor districtの公園を拠点に\x01",
+            "Based on the park in the port area\x01",
             "I run around in autonomous province.\x02",
         )
     )
@@ -6172,7 +6172,7 @@ def main():
     ChrTalk(
         0x11,
         (
-            "最近はMainz Mountain Roadなんかも\x01",
+            "Recently Mainz mountain road something also\x01",
             "It seems that it is in the running route.\x02",
         )
     )
@@ -6206,7 +6206,7 @@ def main():
         0x109,
         (
             "#10105Findeed.\x02\x03",
-            "#10103FPolice carを総動員すれば、\x01",
+            "#10103FBy mobilizing all the police cars,\x01",
             "It is impossible to lay an encirclement network immediately\x01",
             "I think that I can do it.\x02",
         )
@@ -6271,7 +6271,7 @@ def main():
         0x11,
         (
             "Do not bother the citizens,\x01",
-            "スマートに暴走carを捕まえる……\x01",
+            "Smartly catch a runaway car …\x01",
             "Wisdom for that.\x02",
         )
     )
@@ -6296,7 +6296,7 @@ def main():
         (
             "#00000FAn important element is\x01",
             "I think there are two.\x02\x03",
-            "#00003Fまず、走っている暴走carを\x01",
+            "#00003FFirst, run a runaway car\x01",
             "\"Method\" for stopping safely … …\x02\x03",
             "#00000FAnd even if you use that method\x01",
             "\"Place\" where citizens are not adversely affected.\x02",
@@ -6309,7 +6309,7 @@ def main():
         0x102,
         (
             "#00103FCertainly, whichever is missing\x01",
-            "安全に暴走carを取り締まることは\x01",
+            "It is safe to crack down on runaway vehicles\x01",
             "You will not be able to do it.\x02\x03",
             "#00100FWell then, first,\x01",
             "Let's think about from the \"method\".\x02",
@@ -6378,7 +6378,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1K暴走carを安全に止める方法は？\x07\x00\x02",
+            "#1KHow can I stop a runaway car safely?\x07\x00\x02",
         )
     )
 
@@ -6389,7 +6389,7 @@ def main():
         -1,
         0,
         (
-            "Police carで進路を塞ぐ\x01",      # 0
+            "Close course with police car\x01",      # 0
             "Trap the road\x01",        # 1
             "Invite into a dead end\x01",      # 2
         )
@@ -6409,7 +6409,7 @@ def main():
         (
             "#00000FInvite to the deadline …\x01",
             "How is that?\x02\x03",
-            "それ以上、暴走carが\x01",
+            "More than that, a runaway vehicle\x01",
             "If it is in a state where it can not proceed,\x01",
             "You should not stop.\x02",
         )
@@ -6434,10 +6434,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FPolice carで進路を塞ぐ……\x01",
+            "#00000FClose the course with a police car ……\x01",
             "How is that?\x02\x03",
-            "car両を壁にすれば、\x01",
-            "いくら暴走carでも止まらざるを……\x02",
+            "If the vehicle is a wall,\x01",
+            "No matter how much runaway a car will stop … …\x02",
         )
     )
 
@@ -6450,7 +6450,7 @@ def main():
             "That is a bit too overpowering\x01",
             "I think I do.\x02\x03",
             "#10101FDo not brake\x01",
-            "Police carと衝突する\x01",
+            "Collide with police car\x01",
             "There is also possibility.\x02",
         )
     )
@@ -6504,7 +6504,7 @@ def main():
         (
             "#00000F… … If it was, let's go to dead end\x01",
             "How about inviting?\x02\x03",
-            "それ以上、暴走carが\x01",
+            "More than that, a runaway vehicle\x01",
             "If it is in a state where it can not proceed,\x01",
             "You should not stop.\x02",
         )
@@ -6519,7 +6519,7 @@ def main():
         0x11,
         (
             "I see……\x01",
-            "それなら安全に暴走carを\x01",
+            "Then safely run a runaway car\x01",
             "I think I can stop it!\x02",
         )
     )
@@ -6532,7 +6532,7 @@ def main():
             "#00106FBut it does not end …\x01",
             "A place where you can use it is cool\x01",
             "I do not think so.\x02\x03",
-            "#00100F新市庁ビルやIBCの敷地なんかは\x01",
+            "#00100FNew city hall building and the site of IBC something\x01",
             "You will not be able to use it as expected.\x02",
         )
     )
@@ -6599,7 +6599,7 @@ def main():
             "#10304FHuh, you are welcome.\x02\x03",
             "#10300FThen, the next problem is\x01",
             "It's a place to make a dead end.\x02\x03",
-            "一応、暴走carのルートは\x01",
+            "Once, the route of the runaway car\x01",
             "Are you grasping by the wide area crime prevention section?\x02",
         )
     )
@@ -6616,7 +6616,7 @@ def main():
     ChrTalk(
         0x11,
         (
-            "暴走carが使っているルートは、\x01",
+            "The route that runaway vehicles use is,\x01",
             "Basically cross-city\x01",
             "It seems like I have made a big round.\x02",
         )
@@ -6627,9 +6627,9 @@ def main():
     ChrTalk(
         0x11,
         (
-            "Entertainment district⇒Administrative district⇒Harbor district⇒\x01",
-            "East Street⇒Central square⇒Back street……\x01",
-            "そして再びEntertainment districtっていう具合ね。\x02",
+            "Red light district ⇒ administrative district ⇒ port area ⇒\x01",
+            "East Street ⇒ Central Square ⇒ Backstreet … …\x01",
+            "And it's like a red-light district again.\x02",
         )
     )
 
@@ -6660,7 +6660,7 @@ def main():
     ChrTalk(
         0x11,
         (
-            "暴走carのルート上に、\x01",
+            "On the route of the runaway vehicle,\x01",
             "I wonder if there was such a place?\x02",
         )
     )
@@ -6690,7 +6690,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1K暴走carを止めるのに相応しい場所は？\x07\x00\x02",
+            "#1KWhat is a suitable place to stop a runaway car?\x07\x00\x02",
         )
     )
 
@@ -6721,7 +6721,7 @@ def main():
         0x101,
         (
             "#00000FThat condition applies to\x01",
-            "Administrative districtだけだと思います。\x02",
+            "I think that it is only an administrative district.\x02",
         )
     )
 
@@ -6743,7 +6743,7 @@ def main():
         (
             "#00003F(… … no, that place is\x01",
             "You'd better stop doing it. )\x02\x03",
-            "（There are relatively few people traffic,\x01",
+            "(There are relatively few passengers,\x01",
             "Places where it is hard to inconvenience citizens.\x01",
             "Which applies to that condition … …)\x02",
         )
@@ -6761,7 +6761,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10300FAdministrative district……\x01",
+            "#10300FAdministrative district ……\x01",
             "Municipal hall and library,\x01",
             "The police headquarters is a block.\x02",
         )
@@ -6829,9 +6829,9 @@ def main():
     ChrTalk(
         0x11,
         (
-            "あとは、暴走carを行き止まりに\x01",
+            "After that, I decided to stop the runaway car\x01",
             "To invite,\x01",
-            "何台かPolice carが要りそうね。\x02",
+            "Seems to need some police cars.\x02",
         )
     )
 
@@ -6885,7 +6885,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10100Fええ、絶対に暴走carを\x01",
+            "#10100FYeah, definitely a runaway car\x01",
             "Let's catch it! It is!\x02",
         )
     )
@@ -6984,8 +6984,8 @@ def main():
             "#11P#00003FOh, no more in other blocks\x01",
             "Let's go around not to go.\x02\x03",
             "#00000FEri and I bypass around\x01",
-            "Administrative district方面から近付くから、\x01",
-            "ノエルとワジはBack street方面を。\x02",
+            "Since it approaches from the administrative district,\x01",
+            "Noel and Wadji direction the back street.\x02",
         )
     )
 
@@ -7013,7 +7013,7 @@ def main():
         0x101,
         (
             "#11P#00000FRandy and you\x01",
-            "このままResidential area方面から頼む。\x02",
+            "As you please ask from the residential area side.\x02",
         )
     )
 
@@ -7091,7 +7091,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fさあ、Mary。\x01",
+            "#00000FCome on, Mary.\x01",
             "come here.\x02",
         )
     )
@@ -7165,7 +7165,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100FMaryちゃん、怖がらないで。\x02",
+        "#10100FMary, do not be afraid.\x02",
     )
 
     CloseMessageWindow()
@@ -8200,7 +8200,7 @@ def main():
         0x101,
         (
             "#00000FThe alkane shell\x01",
-            "準備でIt seems to be busy.\x01",
+            "It seems to be busy preparing.\x01",
             "Let's stop entering.\x02",
         )
     )

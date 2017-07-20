@@ -537,7 +537,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "まあ、Limaは楽しんでくれたようだし\x01",
+            "Well, Lima seems to have enjoyed it\x01",
             "I wonder if it came when it came.\x02",
         )
     )
@@ -594,7 +594,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "Lima、楽しかったかい？\x02",
+        "Lima, was not it fun?\x02",
     )
 
     CloseMessageWindow()
@@ -833,21 +833,21 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#6PHere, this …! Is it?\x02",
+        "#00107F#6PT-this is!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00013F#6PThe banner is changing! Is it?\x02",
+        "#00013F#6PEverything is different..\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00301F#6PCome on, hey ……\x02",
+        "#00301F#6POi oi, this is\x02",
     )
 
     CloseMessageWindow()
@@ -918,7 +918,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10108F#6PIndeed, this is … ….?\x02",
+        "#10108F#6PW-when did it\x02",
     )
 
     CloseMessageWindow()
@@ -948,7 +948,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6PI guess it will be.\x02",
+        "#00006F#6PRight…\x02",
     )
 
     CloseMessageWindow()
@@ -957,7 +957,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6PThat is …\x02",
+        "#00005F#6PThat is..\x02",
     )
 
     CloseMessageWindow()
@@ -1027,7 +1027,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00008F……………………………………\x02",
+        "#00008F….\x02",
     )
 
     CloseMessageWindow()
@@ -1056,14 +1056,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#6PYeah … …!\x02",
+        "#00101F#6PRight!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00301F#6PI have no choice but to go …!\x02",
+        "#00301F#6PNo choice…\x02",
     )
 
     CloseMessageWindow()

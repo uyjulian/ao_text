@@ -255,7 +255,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "そういえばYanks、\x01",
+            "By the way,\x01",
             "Marietta is the sight of his return home\x01",
             "I wonder if it is attached?\x02",
         )
@@ -352,7 +352,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Henry、オルキスタワーを\x01",
+            "Henry, Orchise Tower\x01",
             "You saw it near, did not you?\x01",
             "How was it?\x02",
         )

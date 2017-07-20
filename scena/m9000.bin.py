@@ -267,7 +267,7 @@ def main():
         0x9,
         (
             "#01203F#3CKa'a is \"the treasure of the phantom#8RDemi-gols#\"When\x01",
-            "同じ結論にThe possibility of arriving,\x01",
+            "The possibility of arriving at the same conclusion,\x01",
             "It can not be said that it is not there.\x02\x03",
             "#01200FSon of man, regain the splendid kea,\x01",
             "Please stop it and show it.\x02",
@@ -919,14 +919,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#6P……here……\x02",
+        "#00007F#6PThis is!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00108F#6PReally in that big tree …?\x02",
+        "#00108F#6PWe're really inside that huge tree…?\x02",
     )
 
     CloseMessageWindow()
@@ -995,7 +995,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#5P#N………………………………\x02",
+        "#00013F#5P#N…\x02",
     )
 
     CloseMessageWindow()
@@ -1073,7 +1073,7 @@ def main():
             "#12100F#6P── From here onwards,\x01",
             "Since distortion of gravity is occurring,\x01",
             "It seems that we can not advance Mercava.\x02\x03",
-            "There is no way better than to go on foot.\x02",
+            "We will have to forge a path on foot\x02",
         )
     )
 
@@ -1082,7 +1082,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10406F#5PWhew, it is troublesome.\x02\x03",
+            "#10406F#5PWell that's a pain\x02\x03",
             "#10400FWell, if it was outside\x01",
             "It seems that we can also withdraw from Mercapa.\x02\x03",
             "Out of the \"big tree\"\x01",
@@ -1095,7 +1095,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#11PI see … I understand.\x02",
+        "#00001F#11PI see.. Got it\x02",
     )
 
     CloseMessageWindow()
@@ -1118,7 +1118,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#5PYes……!\x02",
+        "#00007F#5PYes!\x02",
     )
 
     CloseMessageWindow()

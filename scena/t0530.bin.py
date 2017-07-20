@@ -402,7 +402,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "早いところKimiやガキどもが\x01",
+            "Early place Kimi and the bastards\x01",
             "In a world where you can live with peace of mind\x01",
             "I want you to become it.\x02",
         )
@@ -439,7 +439,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Kimiやガキどもが\x01",
+            "Kimi and the bastards\x01",
             "Even for the world that can live with peace of mind,\x01",
             "I want you to work hard.\x02",
         )
@@ -518,7 +518,7 @@ def main():
         0x8,
         (
             "If it was there\x01",
-            "絶対にI did hit him.\x02",
+            "I definitely hit him.\x02",
         )
     )
 
@@ -627,7 +627,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Kimiは今日、ホフマンとこの\x01",
+            "Kimi is today with Hoffman and this\x01",
             "You should play with the buddy.\x02",
         )
     )
@@ -662,7 +662,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Kimiがホフマンとこの坊主と\x01",
+            "Kimi with Hoffman and this bishop\x01",
             "In the future, things like mistakes\x01",
             "It can not be said that there is no … …\x02",
         )
@@ -756,7 +756,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "少し前、Kimiを心配しすぎて\x01",
+            "A little while ago, worried about Kimi too much\x01",
             "In the class of Sunday school\x01",
             "There are things that have broken into.\x02",
         )
@@ -778,7 +778,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Kimiにこれ以上\x01",
+            "To Kimi any more\x01",
             "It can not be a shame.\x01",
             "I have to try not to stop it.\x02",
         )
@@ -794,7 +794,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "少し前、Kimiを心配しすぎて\x01",
+            "A little while ago, worried about Kimi too much\x01",
             "In the class of Sunday school\x01",
             "There are things that have broken into.\x02",
         )
@@ -805,7 +805,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Kimiにこれ以上\x01",
+            "To Kimi any more\x01",
             "It can not be a shame.\x01",
             "I have to try not to stop it.\x02",
         )
@@ -825,7 +825,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "おっと、Haroldのヤツが\x01",
+            "Oops, Harold's guy is\x01",
             "You seem to have come.\x02",
         )
     )
@@ -851,7 +851,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Haroldのヤツ、\x01",
+            "Harold 's guy,\x01",
             "With a good timing\x01",
             "You will come.\x02",
         )
@@ -1044,7 +1044,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "えへへ、Kimiも嬉しいっ。\x02",
+        "Eh, Kimi is happy too.\x02",
     )
 
     CloseMessageWindow()
@@ -1068,7 +1068,7 @@ def main():
         0x9,
         (
             "Dad seems to be happy\x01",
-            "Kimi、気にしな〜い。\x02",
+            "Kimi, do not mind.\x02",
         )
     )
 
@@ -1137,7 +1137,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Kimiはいつでも\x01",
+            "Kimmy always\x01",
             "Smile, Smile ♪\x02",
         )
     )
@@ -1163,7 +1163,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Kimiはいつでも\x01",
+            "Kimmy always\x01",
             "Smile, Smile ♪\x02",
         )
     )
@@ -1213,7 +1213,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "でもKimi、\x01",
+            "But Kimi,\x01",
             "I love my current dad too!\x02",
         )
     )
@@ -1238,7 +1238,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Kimiが元気付けて\x01",
+            "Kimi cheered me up\x01",
             "I have to give it.\x02",
         )
     )
@@ -1261,7 +1261,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Kimiはまだ、\x01",
+            "Kimi still,\x01",
             "What is Dokitsu?\x01",
             "I do not know … ….\x02",
         )
@@ -1274,7 +1274,7 @@ def main():
         (
             "Daddy is dorking\x01",
             "It's a good thing,\x01",
-            "Kimiも賛成〜。\x02",
+            "Kimi also agrees.\x02",
         )
     )
 
@@ -1315,7 +1315,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Kimi、大きくなったら\x01",
+            "Kimi, when it gets bigger\x01",
             "I'm going to shop with Dad.\x02",
         )
     )
@@ -1415,7 +1415,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "あ、Haroldおいちゃんだー。\x02",
+        "Oh, Harold Otachi.\x02",
     )
 
     CloseMessageWindow()
@@ -1468,7 +1468,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FHaroldさん……\x01",
+            "#00000FMr. Harold … …\x01",
             "You came to Mainz, right?\x02",
         )
     )

@@ -46,7 +46,7 @@ def main():
         "Military devil",               # 25
         "Military devil",               # 26
         "car",                     # 27
-        "新型装甲car",             # 28
+        "New armored car",             # 28
         "Mercapa machine",         # 29
         "Mercapa optical camouflage",       # 30
         "Mercapa shadow",             # 31
@@ -1216,7 +1216,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1741,9 +1741,9 @@ def main():
     label("loc_278A")
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "導力carで移動する")
+    MenuCmd(1, 0, "Travel with a driving car")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_27BE")
-    MenuCmd(1, 0, "導力carで休憩する")
+    MenuCmd(1, 0, "Take a break with a driving car")
 
     label("loc_27BE")
 
@@ -1924,7 +1924,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Examining the sign at the bus stop,\x01",
-            "導力busに乗ることができます。\x07\x00\x02",
+            "You can ride the power bus.\x07\x00\x02",
         )
     )
 
@@ -1934,7 +1934,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力carと同様に、\x01",
+            "As with a powered car,\x01",
             "Please use it to move to various places.\x07\x00\x02",
         )
     )
@@ -1955,8 +1955,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1Kbus停がある。\x01",
-            "busで移動しますか？\x02",
+            "#1KThere is a bus stop.\x01",
+            "Do you want to move by bus?\x02",
         )
     )
 
@@ -2267,7 +2267,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力busは運行を見合わせているようだ。\x07\x00\x02",
+            "The guiding bus seems to be out of service.\x07\x00\x02",
         )
     )
 
@@ -2746,7 +2746,7 @@ def main():
         0x101,
         (
             "#00006F#5PFuu …\x02\x03",
-            "#00000F結局、carを使わないで\x01",
+            "#00000FAfter all, without using a car\x01",
             "I have walked so far.\x02",
         )
     )
@@ -3028,7 +3028,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10109F#11Pうーん、でもこのcar、\x01",
+            "#10109F#11PWell, but this car,\x01",
             "It's a big deal.\x02\x03",
             "#10102FEven in a place like a mountain road\x01",
             "I will not shake much.\x02",
@@ -3427,8 +3427,8 @@ def main():
         (
             "#00002F#11POh, the scenery of the rain\x01",
             "It was beautiful.\x02\x03",
-            "#00006Fしかし、せっかくcarがあるのに\x01",
-            "ついbusに乗っちゃったな。\x02",
+            "#00006FHowever, although there is a car at hand\x01",
+            "I just got on the bus.\x02",
         )
     )
 
@@ -3438,7 +3438,7 @@ def main():
         0x109,
         (
             "#10109F#5PHeh.\x01",
-            "あたしはbusも好きですよ。\x02\x03",
+            "I also like bathing.\x02\x03",
             "#10102FI feel relaxed\x01",
             "I do not think so.\x02",
         )
@@ -3877,7 +3877,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "No, it's not … …\x02\x03",
             "Actually 30 minutes ago, on the West Crossbell Highway\x01",
-            "列carの脱線事故が起きたんです。\x02",
+            "A train derailment accident happened.\x02",
         )
     )
 
@@ -3928,7 +3928,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00006FReally……\x01",
+            "#00006FI see..\x01",
             "Thank you, Fran.\x02\x03",
             "#00000FIf there is any further information\x01",
             "Please also let me know.\x02",
@@ -4139,7 +4139,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#11Pこりゃ、carを使って\x01",
+            "#00306F#11PWell, using a car\x01",
             "It seems better to go with the room.\x02",
         )
     )
@@ -4152,7 +4152,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305F#11Pcarは……全然別の場所に停めてたか。\x02",
+        "#00305F#11PThe car … …. I stopped at a different place at all.\x02",
     )
 
     CloseMessageWindow()
@@ -4179,8 +4179,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力carの移動先に\x01",
-            "『列car事故現場前』が追加されました。\x07\x00\x02",
+            "To the destination of the guided vehicle\x01",
+            "\"Before the train accident site\" was added.\x07\x00\x02",
         )
     )
 
@@ -4200,7 +4200,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "他の場所に停めてあったcarが\x01",
+            "A car parked in another place\x01",
             "I returned to the back door of the Special Affairs Support Division.\x07\x00\x02",
         )
     )
@@ -4906,7 +4906,7 @@ def main():
 
     ChrTalk(
         0x14,
-        "#11Pしゃ、car両の陰に隠れろ！\x02",
+        "#11PWell, hide behind the vehicle!\x02",
     )
 
     CloseMessageWindow()
@@ -6328,7 +6328,7 @@ def main():
         (
             "#00006F#5PThat's right, Mainz's appearance too\x01",
             "It is a place to worry about ……\x02\x03",
-            "#00008FHowever……\x02",
+            "#00008FBut\x02",
         )
     )
 
@@ -6396,7 +6396,7 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10708F#6PReally……\x02\x03",
+            "#10708F#6PIs that right…\x02\x03",
             "#10703F…… Actually, before you try to infiltrate\x01",
             "I had tried it.\x02\x03",
             "#10710FThe underground structure is terribly complicated.\x01",
@@ -6409,7 +6409,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00012F#5PWell, was that so?\x02",
+        "#00012F#5PI-I see..\x02",
     )
 
     CloseMessageWindow()
@@ -6417,7 +6417,7 @@ def main():
     ChrTalk(
         0x107,
         (
-            "#01203F#12P#3CHmm, is it Jorg?\x02\x03",
+            "#01203F#12P#3CHmm. George.\x02\x03",
             "#01200FI have not matched my face for a while\x01",
             "It seems to be as good as ever.\x02",
         )
@@ -6465,7 +6465,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5PWhat……?\x02",
+        "#00011F#5PHuh?\x02",
     )
 
     CloseMessageWindow()
@@ -6496,7 +6496,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#5PReally……\x02",
+        "#00002F#5PI see..\x02",
     )
 
     CloseMessageWindow()
@@ -6547,7 +6547,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#5POh, let's do that.\x02",
+        "#00000F#5PYes, let's do that\x02",
     )
 
     CloseMessageWindow()
@@ -6759,7 +6759,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#5PThis sign ……! Is it?\x02",
+        "#00201F#5PThis presence is…!\x02",
     )
 
     CloseMessageWindow()
@@ -6768,14 +6768,14 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10707F#11PMilitary devil、来ます！\x02",
+        "#10707F#11PMillitary monsters coming!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00011F#5Pwhat……! Is it?\x02",
+        "#00011F#5PWhat!?\x02",
     )
 
     CloseMessageWindow()
@@ -6883,14 +6883,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#6PCut … … these guys! Is it?\x02",
+        "#00010F#6PUgh.. These are\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10407F#5Pcome……!\x02",
+        "#10407F#5PThey're coming!\x02",
     )
 
     CloseMessageWindow()
@@ -7141,7 +7141,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#11Pwhat……! Is it?\x02",
+        "#00005F#11PWhat!?\x02",
     )
 
     CloseMessageWindow()
@@ -7283,7 +7283,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#11PI ran toward the tunnel way … ….?\x02",
+        "#00013F#11PThey ran back towards the tunnel?\x02",
     )
 
     CloseMessageWindow()
@@ -7347,7 +7347,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#5PAh……!\x02",
+        "#00007F#5PAh!\x02",
     )
 
     CloseMessageWindow()
@@ -7355,7 +7355,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10403F#12PHm … It seems likely.\x02\x03",
+            "#10403F#12PHmm. That could be\x02\x03",
             "#10401FAnd now it is\x01",
             "Watch out behind the troops\x01",
             "Was it under patrol mission?\x02",
@@ -7367,7 +7367,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00206F#11PIs that possibility high?\x02\x03",
+            "#00206F#11PThat seems like it could be…\x02\x03",
             "#00201FWith some intention\x01",
             "It seems that I withdrew.\x02",
         )
@@ -7389,7 +7389,7 @@ def main():
 
     ChrTalk(
         0x107,
-        "#01201F#11P#3CWell, let 's go.\x02",
+        "#01201F#11P#3CRight. Let's go\x02",
     )
 
     CloseMessageWindow()

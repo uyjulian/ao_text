@@ -521,7 +521,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -612,7 +612,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -703,7 +703,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -852,7 +852,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1082,7 +1082,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00008FFuu …\x02",
+        "#6P#00008FHaa\x02",
     )
 
     CloseMessageWindow()
@@ -1119,7 +1119,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00004FOh, but it looks like something will work.\x02\x03",
+            "#12P#00004FYeah, but I think we'll be able to push through somehow.\x02\x03",
             "#00002FRandy was like that, though\x01",
             "After all, security guards can not count on you.\x02\x03",
             "Truly how to train,\x01",
@@ -1162,7 +1162,7 @@ def main():
             "Because it was training daily.\x02\x03",
             "#10100FAlso, guidance of Sonja command\x01",
             "Thanks also for being excellent.\x02\x03",
-            "#10106F…… It was a terrible Spartan.\x02",
+            "#10106FThe training was pretty tough though\x02",
         )
     )
 
@@ -1185,7 +1185,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10112F#5PHaha, I do not think so.\x02\x03",
+            "#10112F#5PHaha yeah I guess so\x02\x03",
             "#10100FRandy seniors ……\x01",
             "About this time, the relationship of rehab training\x01",
             "Is it in the middle?\x02",
@@ -1197,7 +1197,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00000FOh, that's it.\x02\x03",
+            "#12P#00000FYeah, I think he is\x02\x03",
             "#00006FRandy's staying - ─\x01",
             "No, are Ellie and Tio so?\x02\x03",
             "#00008FIf those three people stay here\x01",
@@ -1210,7 +1210,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10104F#5PHuh, sure.\x02\x03",
+            "#10104F#5PHaha, yeah\x02\x03",
             "#10102FWhen I think about it, the Special Affairs Division\x01",
             "Is it really well-balanced?\x02\x03",
             "Because role sharing is done properly\x01",
@@ -1223,7 +1223,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00000FIndeed, it was quite helpful.\x02\x03",
+            "#12P#00000FActually, it really helped me out a lot\x02\x03",
             "Even outside battle, in various directions\x01",
             "The field of expertise was different … …\x02",
         )
@@ -1287,7 +1287,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00004F(Erie, Tio, Randy … …)\x02\x03",
+            "#12P#00004F(Elie, Tio, Randy…)\x02\x03",
             "#00000F(It's been more than a month since then\x01",
             "How is everyone doing …? )\x02",
         )

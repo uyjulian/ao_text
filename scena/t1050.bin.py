@@ -536,7 +536,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "おお、ロイド様にKeya様。\x01",
+            "Oh, to Mr. Lloyd, Kia.\x01",
             "Please do not leave this.\x02",
         )
     )
@@ -685,7 +685,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "先ほどKeya様がお一人で\x01",
+            "Ka'aa just stayed alone\x01",
             "It seems that it went out.\x02",
         )
     )
@@ -705,7 +705,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F（Keya……\x01",
+            "#00003F(Keya …\x01",
             "After all, outside the hotel\x01",
             "You might as well look for it. )\x02",
         )
@@ -721,7 +721,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "先ほどKeya様がお一人で\x01",
+            "Ka'aa just stayed alone\x01",
             "It seems that it went out.\x02",
         )
     )
@@ -907,7 +907,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F（アリオスさんとKeya……\x01",
+            "#00001F(Arios and Ka'a … …\x01",
             "I guess it was coming. )\x02",
         )
     )
@@ -1098,7 +1098,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "ねっ、Citrusお願いっ！\x02",
+        "Terrible, citrus please!\x02",
     )
 
     CloseMessageWindow()
@@ -1228,7 +1228,7 @@ def main():
         0xA,
         (
             "Sitting in the direction of her,\x01",
-            "テーマパークで働いてるfortune tellerさんよね。\x02",
+            "It's a fortune-telling guy working at a theme park.\x02",
         )
     )
 
@@ -1699,7 +1699,7 @@ def main():
         0x101,
         (
             "#00005F(this person is……\x01",
-            "  テーマパークのfortune tellerさんか？）\x02",
+            "Are you a fortune-telling person at the theme park? )\x02",
         )
     )
 

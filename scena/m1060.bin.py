@@ -379,7 +379,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -470,7 +470,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -656,7 +656,7 @@ def main():
     NpcTalk(
         0x8,
         "Daughter's voice",
-        "#4P─ ─ So hey, good-bye.\x02",
+        "#4PHehe, good day\x02",
     )
 
     CloseMessageWindow()
@@ -710,7 +710,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#12PCut …! Is it?\x02",
+        "#00010F#12PUgh…\x02",
     )
 
     CloseMessageWindow()
@@ -734,7 +734,7 @@ def main():
     NpcTalk(
         0x8,
         "Daughter of a knight-costume",
-        "#5PI will be rude from such a place.\x02",
+        "#5PI apologize for being so far away\x02",
     )
 
     CloseMessageWindow()
@@ -751,14 +751,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#11PThe second warrior … …!\x02",
+        "#00107F#11PThe second Iron Soldier!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00311F#11PChick, bow!\x02",
+        "#00311F#11PTch… an archer\x02",
     )
 
     CloseMessageWindow()
@@ -794,7 +794,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F…… It's useless!\x02",
+        "#00007FYou won't be able to stop us!\x02",
     )
 
     CloseMessageWindow()
@@ -861,7 +861,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PHehe, its spirit and good.\x02",
+        "#5PEheh, that's the spirit\x02",
     )
 
     CloseMessageWindow()
@@ -903,7 +903,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#6PWell, could you show me it?\x02",
+        "#6PNow, show me!\x02",
     )
 
     CloseMessageWindow()
@@ -921,7 +921,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00312F#11PHappy, superior … …!\x02",
+        "#00312F#11PHah, sounds perfect\x02",
     )
 
     CloseMessageWindow()
@@ -1248,7 +1248,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PFuu … … I came.\x02",
+        "#5PHaa. Well that stinks\x02",
     )
 
     CloseMessageWindow()
@@ -1303,7 +1303,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWell - ─ ─ one that remains.\x02",
+        "#5PWell then, there is one left\x02",
     )
 
     CloseMessageWindow()
@@ -1320,7 +1320,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PIt is a matter of mind.\x02",
+        "#5PYou should be well prepared\x02",
     )
 
     CloseMessageWindow()
@@ -1415,7 +1415,7 @@ def main():
         (
             "#00203F#12PBut, bow from above\x01",
             "I thought I was just shooting … …\x02\x03",
-            "#00200FYou also came down to the ruler.\x02",
+            "#00200FShe ended up coming down here herself\x02",
         )
     )
 
@@ -1464,7 +1464,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F#12POh, if you ask me.\x02\x03",
+            "#00005F#12PYeah, now that you mention it\x02\x03",
             "#00006F\"Eating snake\" … …\x01",
             "It is a really invisible group.\x02",
         )
@@ -1486,14 +1486,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#12PAh……!\x02",
+        "#00013F#12PYeah!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00201F#12Plet's go.\x02",
+        "#00201F#12PLet's go!\x02",
     )
 
     CloseMessageWindow()

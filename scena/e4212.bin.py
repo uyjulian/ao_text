@@ -24,7 +24,7 @@ def main():
         "Len",                   # 3
         "Iron 3",           # 4
         "Patel Matel",           # 5
-        "Patel Matel影",         # 6
+        "Patel Mater Shadow",         # 6
         "Dagger goal",               # 7
         "Missile target",           # 8
         "Missile target",           # 9
@@ -455,7 +455,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -546,7 +546,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -777,7 +777,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03307F#6P#4SLenも、esterとJoshuaだって\x01",
+            "#03307F#6P#4SLen, Esther and Joshua\x01",
             "I will not lose so Oh!\x02",
         )
     )
@@ -813,21 +813,21 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03305F#6P#N#8AAh……!\x02",
+        "#03305F#6P#N#8AAh!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#00813F#12P#6ACut …!\x02",
+        "#00813F#12P#6AUgh!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#00907F#6P#6AOhhhh!\x02",
+        "#00907F#6P#6AOhhH!\x02",
     )
 
     CloseMessageWindow()
@@ -995,14 +995,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00807F#6PAhh ……!\x02",
+        "#00807F#6PAhhhh!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xA,
-        "#03311F#N#6P\"Patel = Mattel\"! Is it?\x02",
+        "#03311F#N#6PPater Mater!?\x02",
     )
 
     CloseMessageWindow()
@@ -1011,7 +1011,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03307F#6P#5SThis, Oh!\x02",
+        "#03307F#6P#5SYouuu!\x02",
     )
 
     CloseMessageWindow()
@@ -1035,14 +1035,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00813F#6PLen、駄目よ！\x02",
+        "#00813F#6PRenne, no!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#00907F#12PIf you go out alone with one person …!\x02",
+        "#00907F#12PDon't go alone!\x02",
     )
 
     CloseMessageWindow()
@@ -1074,7 +1074,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03310F#11P#8AOoh!\x02",
+        "#03310F#11P#8AAhhH!\x02",
     )
 
     WaitChrThread(0xA, 1)
@@ -1102,14 +1102,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00806F#11PCan we …?!\x02",
+        "#00806F#11PKya!!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#00907F#12POops……!\x02",
+        "#00907F#12PCrap!\x02",
     )
 
     CloseMessageWindow()
@@ -1174,7 +1174,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03305F#5P#30W…………\x02",
+        "#03305F#5P#30WAH…\x02",
     )
 
     CloseMessageWindow()
@@ -1191,7 +1191,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#00907F#6P#NNo, this distance!\x02",
+        "#00907F#6P#NI can't … from this distance!\x02",
     )
 
     CloseMessageWindow()
@@ -1203,7 +1203,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00813F#6P#N#4S#12ALet's see! It is! It is!\x02",
+        "#00813F#6P#N#4S#12ARenne!!!!!\x02",
     )
 
     CloseMessageWindow()
@@ -1240,7 +1240,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03310F#6P#13ACan we …?!\x02",
+        "#03310F#6P#13AKya!!\x02",
     )
 
     Sleep(2000)
@@ -1310,7 +1310,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03311F#12PHuh\x02",
+        "#03311F#12PHuh?\x02",
     )
 
     CloseMessageWindow()
@@ -1392,7 +1392,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03310F#12P#4S#20ADame yeah yeah yeah! It is!\x02",
+        "#03310F#12P#4S#20ANO!!!!\x02",
     )
 
     CloseMessageWindow()

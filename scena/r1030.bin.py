@@ -1508,7 +1508,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1599,7 +1599,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1690,7 +1690,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -2187,8 +2187,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1Kbus停がある。\x01",
-            "busで移動しますか？\x02",
+            "#1KThere is a bus stop.\x01",
+            "Do you want to move by bus?\x02",
         )
     )
 
@@ -3564,7 +3564,7 @@ def main():
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_50DD")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 5)), scpexpr(EXPR_END)), "loc_4E99")
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "Mercapaに乗り込む")
+    MenuCmd(1, 0, "Board Mercapa")
     MenuCmd(1, 0, "quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
@@ -3764,7 +3764,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "bus停がある。\x07\x00\x02",
+            "There is a bus stop.\x07\x00\x02",
         )
     )
 
@@ -3776,7 +3776,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10309Fさてと、busに乗って\x01",
+            "#10309FWell, riding the bus\x01",
             "Would you like to go back to Cross Bell City?\x02",
         )
     )
@@ -3804,7 +3804,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "As the story progresses,\x01",
-            "各地の停留所からbusを\x01",
+            "From the bus stops at various stops\x01",
             "It will be available.\x07\x00\x02",
         )
     )
@@ -3862,7 +3862,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "bus停がある。\x07\x00\x02",
+            "There is a bus stop.\x07\x00\x02",
         )
     )
 
@@ -3874,7 +3874,7 @@ def main():
         0x101,
         (
             "#00001FThere are also accidents,\x01",
-            "busを待ってる時間はないな。\x02",
+            "I do not have time to wait for the bus.\x02",
         )
     )
 
@@ -3893,7 +3893,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力busは運行を見合わせているようだ。\x07\x00\x02",
+            "The guiding bus seems to be out of service.\x07\x00\x02",
         )
     )
 
@@ -3966,7 +3966,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5PこっちはTo the police schoolか……\x02\x03",
+            "#00003F#5PIs this the direction of a police school ……\x02\x03",
             "#0001FThe gate is not completely closed.\x02",
         )
     )
@@ -4024,7 +4024,7 @@ def main():
         0x107,
         (
             "#01200F#3C#6PWhen I arrive\x01",
-            "Lloyd、おぬし一人だったが。\x02",
+            "Lloyd, I was alone, but.\x02",
         )
     )
 
@@ -4146,7 +4146,7 @@ def main():
         0x104,
         (
             "#00303F#12PCross Bell City, of course,\x01",
-            "ベルガード門にもTo the police schoolにも\x01",
+            "For both the Belgard and police schools\x01",
             "I guess I can not go.\x02",
         )
     )
@@ -4183,7 +4183,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#5PI agree……\x01",
+            "#00203F#5PTrue…\x01",
             "Let's search a little more.\x02",
         )
     )
@@ -4504,7 +4504,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloydは街道で遭遇した\x01",
+            "Lloyd encountered on the highway\x01",
             "He explained about the big eyes of the eyes.\x02",
         )
     )
@@ -5250,7 +5250,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00206F#6P……surely.\x02",
+        "#00206F#6PTrue…\x02",
     )
 
     CloseMessageWindow()
@@ -5269,7 +5269,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10703F#6PI agree……\x02",
+        "#10703F#6PTrue…\x02",
     )
 
     CloseMessageWindow()
@@ -5277,7 +5277,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00008F#6P(Sonja commander ……)\x02\x03",
+            "#00008F#6P(Commander Sonya…)\x02\x03",
             "#00001F(… … somehow contacts\x01",
             "I hope I can get it … but …)\x02",
         )
@@ -5662,7 +5662,7 @@ def main():
         "Lloyd",
         (
             "#00000FAh!\x01",
-            "Noel、引き続き\x01",
+            "Noel, continued\x01",
             "Follow me!\x02",
         )
     )
@@ -5750,7 +5750,7 @@ def main():
         (
             "#00006F(What made you out of the course\x01",
             "It was a mistake in decision ……)\x02\x03",
-            "#00001F──すまない、Noel！\x01",
+            "#00001F─ - Sorry, Noel!\x01",
             "Take me off again!\x02",
         )
     )
@@ -6098,7 +6098,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FこっちはTake the Belgard gateだな。\x02\x03",
+            "#00000FThis is the direction toward the Belgard gate.\x02\x03",
             "To police school\x01",
             "Let's not take a wasteful path.\x02",
         )
@@ -6168,7 +6168,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001FこっちはTake the Belgard gateか……\x02\x03",
+            "#00001FIs this the direction of the Belgard gate? …\x02\x03",
             "It is dangerous to get any closer.\x01",
             "Let's turn back to life.\x02",
         )

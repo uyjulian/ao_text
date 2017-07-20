@@ -35,7 +35,7 @@ def main():
         "corona",                 # 14
         "Lima",                   # 15
         "Staff Hanks",           # 16
-        "神狼Zeit",           # 17
+        "God wolf Zeit",           # 17
         "A hunter",                   # 18
         "A hunter",                   # 19
         "A hunter",                   # 20
@@ -693,7 +693,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002Fおお、Missiだな。\x02",
+        "#00002FOh, it's miserable.\x02",
     )
 
     CloseMessageWindow()
@@ -701,7 +701,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00309Fハハ、Tioすけも\x01",
+            "#00309FHa ha, Tio Suke also\x01",
             "I should have brought you.\x02",
         )
     )
@@ -730,7 +730,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
             "By the way, your older brother\x01",
-            "boyたちだけで来たの〜？\x07\x00\x02",
+            "Did you just come with boys ~?\x07\x00\x02",
         )
     )
 
@@ -817,7 +817,7 @@ def main():
         0xC,
         (
             "Children in front of that guide board,\x01",
-            "さっきからMissiについて\x01",
+            "About Missii from a little while ago\x01",
             "You seem to be told hotly.\x02",
         )
     )
@@ -912,7 +912,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "Missiなら、\x01",
+            "If it is miserable,\x01",
             "Now inside the theme park\x01",
             "I am wandering around.\x02",
         )
@@ -940,7 +940,7 @@ def main():
         0xD,
         (
             "Recently, among children\x01",
-            "Missiのお尻を蹴るというのが\x01",
+            "I mean kicking my ass\x01",
             "It is prevalent.\x02",
         )
     )
@@ -962,7 +962,7 @@ def main():
         0xD,
         (
             "Huhu, to a little child\x01",
-            "是非ともMissiへのキックを\x01",
+            "By all means I will kick Michishi\x01",
             "Please do it.\x02",
         )
     )
@@ -988,7 +988,7 @@ def main():
         0xD,
         (
             "Recently, among children\x01",
-            "Missiのお尻を蹴るというのが\x01",
+            "I mean kicking my ass\x01",
             "It is prevalent.\x02",
         )
     )
@@ -999,7 +999,7 @@ def main():
         0xD,
         (
             "Huhu, to a little child\x01",
-            "是非ともMissiへのキックを\x01",
+            "By all means I will kick Michishi\x01",
             "Please do it.\x02",
         )
     )
@@ -1137,7 +1137,7 @@ def main():
         0x10,
         (
             "Oh, that you are over there\x01",
-            "Missiか……！\x02",
+            "Mikei ……!\x02",
         )
     )
 
@@ -1146,7 +1146,7 @@ def main():
     ChrTalk(
         0x10,
         (
-            "よし、おfatherさんが\x01",
+            "Alright, my father\x01",
             "Because I'll take a picture,\x01",
             "Go next.\x02",
         )
@@ -1176,7 +1176,7 @@ def main():
     ChrTalk(
         0x11,
         (
-            "Missiはテーマパークの中に\x01",
+            "Missi in the theme park\x01",
             "You seem to have entered.\x02",
         )
     )
@@ -1187,7 +1187,7 @@ def main():
         0x11,
         (
             "Well then, when it comes to this\x01",
-            "おmotherさんも気合入れて探しちゃうよ！\x02",
+            "My mother will also search for it!\x02",
         )
     )
 
@@ -1220,7 +1220,7 @@ def main():
     ChrTalk(
         0x12,
         (
-            "ボク、今日こそMissiに\x01",
+            "I am the one who is today.\x01",
             "Make the kick a success ~!\x02",
         )
     )
@@ -1231,7 +1231,7 @@ def main():
         0x12,
         (
             "Then you can be happy.\x01",
-            "Missiって、すごいよね！\x02",
+            "Mitchell is amazing!\x02",
         )
     )
 
@@ -1245,8 +1245,8 @@ def main():
     ChrTalk(
         0x12,
         (
-            "わ〜い、Missiだ！\x01",
-            "本物のMissiだよ〜！\x02",
+            "Well, Mitsushida!\x01",
+            "Only genuine article!\x02",
         )
     )
 
@@ -1275,7 +1275,7 @@ def main():
         0x13,
         (
             "Yeah, I do not want to kick\x01",
-            "Missiがカワイソーだよぉ！\x02",
+            "Mitsushi is a kawaiisho!\x02",
         )
     )
 
@@ -1337,7 +1337,7 @@ def main():
     ChrTalk(
         0x14,
         (
-            "よ〜し、Lima、corona。\x01",
+            "Okay, Lima, Corona.\x01",
             "Everyone at once to a theme park\x01",
             "Shall I enter?\x02",
         )
@@ -1374,7 +1374,7 @@ def main():
         0x14,
         (
             "I am having trouble usually,\x01",
-            "Limaとcoronaにはたっぷり\x01",
+            "Plenty of Lima and Corona\x01",
             "I have to have fun.\x02",
         )
     )
@@ -1561,7 +1561,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00009F#6PTio、もう来てたんだな。\x02\x03",
+            "#00009F#6PTio, you are already here.\x02\x03",
             "#00002FI got tired earlier.\x01",
             "Thanks, I was saved.\x02",
         )
@@ -1628,7 +1628,7 @@ def main():
         (
             "#00204F#11PYeah, we a bit earlier\x01",
             "Because I came.\x02\x03",
-            "#00202FShuriさんにMissiの可愛さを\x01",
+            "#00202FMs. Shuri's cute beauty\x01",
             "I was in a lecture.\x02",
         )
     )
@@ -1670,7 +1670,7 @@ def main():
         (
             "#00204F#11PA little early\x01",
             "Because I came.\x02\x03",
-            "#00202FShuriさんにMissiの可愛さを\x01",
+            "#00202FMs. Shuri's cute beauty\x01",
             "I was in a lecture.\x02",
         )
     )
@@ -1699,7 +1699,7 @@ def main():
         0x8,
         (
             "#00203F#12PIt is useless to make a mistake.\x02\x03",
-            "#00202F先ほどからShuriさんの\x01",
+            "#00202FShuri san from last time\x01",
             "\"Aura you care about\"\x01",
             "I am perfectly aware of it.\x02",
         )
@@ -1831,7 +1831,7 @@ def main():
         (
             "#00203F#11PWell then for you two\x01",
             "Let's once again tell.\x02\x03",
-            "#00201FMissiがいかに\x01",
+            "#00201FHow Missi is\x01",
             "With its love it makes Zemria Continent\x01",
             "Whether it contributes to peace … ….!\x02",
         )
@@ -1871,7 +1871,7 @@ def main():
         0x101,
         (
             "#00006F#6P… Well, give it up.\x02\x03",
-            "#00012FTioはMissiに関しては\x01",
+            "#00012FAs for Tio, for Mitsui\x01",
             "I've gotten it in.\x02",
         )
     )
@@ -2303,7 +2303,7 @@ def main():
         0x104,
         (
             "#00310F#6PChit …… why in such a place\x01",
-            "《Eidolon》が現れやがったんだ？\x02",
+            "\"Phantom beast\" has appeared?\x02",
         )
     )
 
@@ -2511,14 +2511,14 @@ def main():
 
     ChrTalk(
         0x19,
-        "#5PWow! Is it?\x02",
+        "#5PWha!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x1E,
-        "#11PWas the report \"God wolf\"!\x02",
+        "#11PThe Holy Wolf from the report…\x02",
     )
 
     CloseMessageWindow()
@@ -2535,7 +2535,7 @@ def main():
     Sleep(300)
     SetMessageWindowPos(180, 100, -1, -1)
     OP_82(0xC8, 0x0, 0xBB8, 0x12C)
-    SetChrName("A hunterたち")
+    SetChrName("Hunters")
 
     AnonymousTalk(
         0xFF,
@@ -2586,11 +2586,11 @@ def main():
     OP_6F(0x79)
     OP_C9(0x0, 0x80000000)
     SetMessageWindowPos(40, 150, -1, -1)
-    SetChrName("神狼Zeit")
+    SetChrName("God wolf Zeit")
 
     AnonymousTalk(
         0xFF,
-        "#2953V#3C#4S#40W#35AHm - - spirit and good.\x02",
+        "#2953V#3C#4S#40W#35AHmm. Well you're trying at least\x02",
     )
 
     CloseMessageWindow()
@@ -2603,7 +2603,7 @@ def main():
     Sleep(1000)
     SetMessageWindowPos(20, 150, -1, -1)
     OP_82(0xC8, 0x0, 0xBB8, 0x320)
-    SetChrName("神狼Zeit")
+    SetChrName("God wolf Zeit")
 
     AnonymousTalk(
         0xFF,
@@ -3051,7 +3051,7 @@ def main():
         0x17,
         (
             "…… You guys, of course,\x01",
-            "あの『Missi』を\x01",
+            "That \"Missi\"\x01",
             "You know.\x02",
         )
     )
@@ -3068,10 +3068,10 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00306FTioすけは\x01",
+            "#6P#00306FTio Suke\x01",
             "It is the area of mania … ….\x02\x03",
             "#00300FWell, live in the crossbell\x01",
-            "Missiを知らない奴なんて\x01",
+            "Someone who does not know Michishi\x01",
             "I think that there is hardly any.\x02",
         )
     )
@@ -3081,7 +3081,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10300FそのMissiが\x01",
+            "#6P#10300FThat Mr.\x01",
             "What's wrong?\x02",
         )
     )
@@ -3101,7 +3101,7 @@ def main():
     ChrTalk(
         0x17,
         (
-            "創設時からMissiを\x01",
+            "From the time of its foundation Mikoshi\x01",
             "The actor who was performing,\x01",
             "I could not come by reason.\x02",
         )
@@ -3164,7 +3164,7 @@ def main():
         0x17,
         (
             "So, to you guys …\x01",
-            "Missiの着ぐるみの\x01",
+            "Michishi's Costume\x01",
             "I want you to be a substitute.\x02",
         )
     )
@@ -3173,7 +3173,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FMissiの代役を……！？\x02",
+        "#00005FMitsushi's substitute … …! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -3221,7 +3221,7 @@ def main():
         0x104,
         (
             "#6P#4S#00307FGagan! It is!\x02\x03",
-            "#00306Ftouristの女の子と\x01",
+            "#00306FWith tourists girls\x01",
             "A plan to mess up … …!\x02\x03",
             "#00310FGloom, Lloyd …!\x02",
         )
@@ -3283,7 +3283,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00105F……Tioちゃん？\x01",
+            "#12P#00105F…… Tio-chan?\x01",
             "What's wrong, silence ……\x02",
         )
     )
@@ -3357,7 +3357,7 @@ def main():
         0x101,
         (
             "#11P#00011F(Well, that's right ……)\x02\x03",
-            "#00012F……そ、その……Tio？\x02",
+            "#00012F…, that … that … … Tio?\x02",
         )
     )
 
@@ -3369,7 +3369,7 @@ def main():
         0x103,
         (
             "#00203F……It's nothing.\x02\x03",
-            "#00201FMissiのためならば、\x01",
+            "#00201FFor MICHI 's sake,\x01",
             "I will also cooperate happily.\x02",
         )
     )
@@ -3609,7 +3609,7 @@ def main():
 
     ChrTalk(
         0x23,
-        "うわ〜、Missiだあ！\x02",
+        "Wow ~, Mitsui!\x02",
     )
 
     CloseMessageWindow()
@@ -3619,7 +3619,7 @@ def main():
     ChrTalk(
         0x23,
         (
-            "ねえ、Missiだよ！\x01",
+            "Hey, Missi!\x01",
             "It is a real one! Is it?\x02",
         )
     )
@@ -3651,7 +3651,7 @@ def main():
         0x23,
         (
             "I love you!\x01",
-            "Missi、Missi〜！！\x02",
+            "Missi, Missi ~! It is!\x02",
         )
     )
 
@@ -3664,7 +3664,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0xA),
             "#05203F(Er, um … ….\x01",
-            "  こういうとき、Missiなら\x01",
+            "At such times, if it is mischievous\x01",
             "How should I answer …? )\x07\x00\x02",
         )
     )
@@ -3717,7 +3717,7 @@ def main():
 
     ChrTalk(
         0x23,
-        "うん、ありがとうMissi〜！\x02",
+        "Yes, thank you Missi ~!\x02",
     )
 
     CloseMessageWindow()
@@ -3744,7 +3744,7 @@ def main():
         0x23,
         (
             "No……\x01",
-            "ありがとうMissi。\x02",
+            "Thank you Misi.\x02",
         )
     )
 
@@ -3846,7 +3846,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x15),
             "#05524FMr. Lloyd is nice.\x02\x03",
-            "#05522FMissiの笑い方も\x01",
+            "#05522FMichishi's way of laughing too\x01",
             "It was pretty natural.\x07\x00\x02",
         )
     )
@@ -3941,7 +3941,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x15),
             "#05531F…… Somehow does not matter.\x02\x03",
-            "#05526Fロイドさん、Missiは\x01",
+            "#05526FMr. Lloyd, Michishi\x01",
             "I am not an employee … …\x01",
             "There will be no \"admission ticket\".\x02\x03",
             "#05521FSmile to the world of dreams\x01",

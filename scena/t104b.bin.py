@@ -720,7 +720,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "でもでも、なんでSouthwarkさんは\x01",
+            "But why is Sa'zark\x01",
             "Are you going to do this far?\x02",
         )
     )

@@ -912,7 +912,7 @@ def main():
         0x9,
         (
             "Certainly it is also worrisome … …\x01",
-            "Koki、オマエ通信端末っつったな？\x02",
+            "Kouki, you have a communication terminal?\x02",
         )
     )
 
@@ -989,7 +989,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "てめえ、Slash。\x01",
+            "Tama, slash.\x01",
             "You do not mind playing funny.\x02",
         )
     )
@@ -1070,8 +1070,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "おう、Jed。\x01",
-            "KokiとDinoのヤロウは\x01",
+            "Oh, Jed.\x01",
+            "Yarrow of Koki and Dino\x01",
             "Have not you come yet?\x02",
         )
     )
@@ -1394,7 +1394,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Koki……\x01",
+            "Koki\x01",
             "I wonder if the story is true.\x02",
         )
     )
@@ -1516,7 +1516,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "――止めろ、Luganoff！\x02",
+        "- Stop it, Luganoff!\x02",
     )
 
     CloseMessageWindow()
@@ -1704,7 +1704,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Luganoff、Koki、Dino……\x01",
+            "Luganoff, Koki, Dino ……\x01",
             "I will think to Aitana … …\x02",
         )
     )
@@ -1769,7 +1769,7 @@ def main():
         0xFE,
         (
             "…… What we want to say is,\x01",
-            "Luganoffが大体言ってくれた。\x02",
+            "Luganov said largely.\x02",
         )
     )
 
@@ -1968,7 +1968,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "……Jedさん。\x01",
+            "… … Jed.\x01",
             "As a matter of course we also cooperate\x01",
             "Is it not good?\x02",
         )
@@ -1979,7 +1979,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "ヒャハ、何言ってんだHuey！\x01",
+            "Hiahha, what are you saying, Hughy!\x01",
             "With Viper, Betrayal Mon\x01",
             "Do it neatly … …\x02",
         )
@@ -2056,7 +2056,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "まさか、Mr. Waldo ……\x01",
+            "No way, Mr. Wald … …\x01",
             "I was involved in the incident\x01",
             "You did not do it, right?\x02",
         )
@@ -2149,7 +2149,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "港湾区の方でHueyさんたちが\x01",
+            "Mr. Huey in the port area\x01",
             "Finally saw it … …\x02",
         )
     )
@@ -2226,7 +2226,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "イグニスには、俺とLuganoffが\x01",
+            "To Ignis, I and Luganov\x01",
             "I will fill it in turn.\x02",
         )
     )
@@ -2529,7 +2529,7 @@ def main():
         0x9,
         (
             "Wonder if there is something\x01",
-            "すぐに俺かLuganoffを呼べよ。\x02",
+            "Call me Lucanoff right away.\x02",
         )
     )
 
@@ -2609,7 +2609,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "黙ってろ、Dino。\x01",
+            "Keep silent, Dino.\x01",
             "To a coward shake a tail to a suzuki\x01",
             "Nothing to talk about.\x02",
         )
@@ -2665,7 +2665,7 @@ def main():
         0xFE,
         (
             "(Whatever you say,\x01",
-            "  Jedさんも迷ってるみたいだな……）\x02",
+            "Jed looks like hesitating … …)\x02",
         )
     )
 
@@ -2717,7 +2717,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Luganoffさん……\x01",
+            "Mr. Luganoff ……\x01",
             "It was serious and cool.\x02",
         )
     )
@@ -3013,7 +3013,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "おいコラ、Slash！\x01",
+            "Hey kola, slash!\x01",
             "Rare thing to do with your mouth.\x02",
         )
     )
@@ -3251,7 +3251,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "……あれ、そういえば俺とHuey、\x01",
+            "…… that, that's right With me and Huey,\x01",
             "I was not fighting.\x02",
         )
     )
@@ -3336,7 +3336,7 @@ def main():
         0xFE,
         (
             "Until Ms. Wald returns,\x01",
-            "幹部のJedさんとLuganoffさんが\x01",
+            "Executive Jed and Luganoff\x01",
             "I decided to pull the saber viper.\x02",
         )
     )
@@ -3598,7 +3598,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F……Dino君…………\x02",
+        "#00108F…… Dino … …………\x02",
     )
 
     CloseMessageWindow()
@@ -3633,7 +3633,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "特にKokiさんが酷くて……\x01",
+            "Especially Mr. Koki is terrible ……\x01",
             "…… Even now everyone's in a different room ……\x01",
             "Huh, huh ……\x02",
         )
@@ -3836,7 +3836,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ジェ、Jedさんの言う通り\x01",
+            "As Je and Jed said\x01",
             "It is because there is nothing to talk about.\x02",
         )
     )
@@ -4166,7 +4166,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11Pおい、Luganoff……？\x02",
+        "#11PHey, Luganoff ……?\x02",
     )
 
     CloseMessageWindow()
@@ -4591,7 +4591,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11PLuganoff……\x02",
+        "#11PLuganoff ……\x02",
     )
 
     CloseMessageWindow()

@@ -203,7 +203,7 @@ def main():
         0xFE,
         (
             "Towards tomorrow's plenary session, by all means\x01",
-            "英気を養ってI'd like to.\x02",
+            "I'd like you to develop spirit.\x02",
         )
     )
 

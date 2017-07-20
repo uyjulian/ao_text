@@ -389,14 +389,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#5Pダドリーさん、Ariosさん。\x02",
+        "#00001F#5PDudley, Arios\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10108F#5PUm, what's wrong?\x02",
+        "#10108F#5PUh, did something happen?\x02",
     )
 
     CloseMessageWindow()
@@ -412,7 +412,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12P#00606F… … It was troublesome.\x02\x03",
+            "#12P#00606FThis became troublesome\x02\x03",
             "#00601FTerrorists are\x01",
             "It seems that it was split into two here.\x02",
         )
@@ -437,7 +437,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#5P#00101Fthat's……\x02",
+        "#5P#00101FThat is!\x02",
     )
 
     CloseMessageWindow()
@@ -455,7 +455,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#12P#01403FOh, there is no mistake.\x02",
+        "#12P#01403FYeah, no mistaking it\x02",
     )
 
     CloseMessageWindow()
@@ -632,14 +632,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#5P#00105FOkay, I understand.\x02",
+        "#5P#00105FThat's amazing that you know that\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#5P#10302FIndeed, is the decisive footsteps?\x02",
+        "#5P#10302FI see. You could hear them?\x02",
     )
 
     CloseMessageWindow()
@@ -671,7 +671,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12P#00603FOh, that would be the best.\x02\x03",
+            "#12P#00603FThat's true\x02\x03",
             "#00600F─ ─ C section on the right hand,\x01",
             "I and two of McRae will follow.\x02\x03",
             "You fled to the D section\x01",
@@ -731,7 +731,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#5P#00304FIt might be a nice sharing.\x02",
+        "#5P#00304FThis might be a good division then\x02",
     )
 
     CloseMessageWindow()
@@ -751,8 +751,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P……I understood.\x02\x03",
-            "#00001Fダドリーさん、Ariosさん。\x01",
+            "#00006F#5PSigh, got it\x02\x03",
+            "#00001FDudley, Arios\x01",
             "Please take care.\x02",
         )
     )
@@ -768,7 +768,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#12P#01404FHood, there.\x02",
+        "#12P#01404FYou too\x02",
     )
 
     CloseMessageWindow()
@@ -778,7 +778,7 @@ def main():
         (
             "#12P#00603FEven the enemies do not want their own lives#2RMost#Do not know\x01",
             "It is a dangerous terrorist.\x02\x03",
-            "#00601FBe careful!\x02",
+            "#00601FTake extra care!\x02",
         )
     )
 
@@ -786,14 +786,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#5PYes……!\x02",
+        "#00007F#5PRight!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10101FOK!\x02",
+        "#10101FUnderstood!\x02",
     )
 
     CloseMessageWindow()
@@ -961,7 +961,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00013FOK, let us also go!\x02\x03",
+            "#6P#00013FOK let's go!\x02\x03",
             "Before escaping from Geo Front\x01",
             "Capture a terrorist!\x02",
         )
@@ -1011,7 +1011,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#11PYeah … …!\x02",
+        "#00101F#11PRight!\x02",
     )
 
     CloseMessageWindow()
@@ -1203,7 +1203,7 @@ def main():
         0xFF,
         (
             scpstr(0x18),
-            "#1KAfterwards (afterwards)\x02",
+            "#1KAfterwards\x02",
         )
     )
 
@@ -1309,7 +1309,7 @@ def main():
         0x11,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#12P#00700FNothing\x07\x00\x02",
+            "#12P#00700FHmm\x07\x00\x02",
         )
     )
 
@@ -1317,7 +1317,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#12P#03210FLaw\x02",
+        "#12P#03210FOhh\x02",
     )
 
     CloseMessageWindow()
@@ -1376,7 +1376,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#5P#04500F─ ─ this is this.\x02",
+        "#5P#04500FWell look who we have here\x02",
     )
 
     CloseMessageWindow()
@@ -1496,14 +1496,14 @@ def main():
 
     ChrTalk(
         0x13,
-        "\"Red constellation\" ……\x02",
+        "Red Constellation…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x14,
-        "#12P\"Battle\" and its daughter? …\x02",
+        "#12PThe War Ogre and his daugher\x02",
     )
 
     CloseMessageWindow()
@@ -1522,7 +1522,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#5P#04504FDo not hold on.\x02\x03",
+            "#5P#04504FHehe, don't worry about it\x02\x03",
             "#04500FEach other, client's\x01",
             "It is after clearing the order.\x02\x03",
             "No more fun\x01",
@@ -1535,7 +1535,7 @@ def main():
     ChrTalk(
         0x12,
         (
-            "#12P#03209FHuh, I agree.\x02\x03",
+            "#12P#03209FAhah, I agree\x02\x03",
             "#03205FSpeaking of which ─ ─\x01",
             "\"Neue-Blanc\" New store opening,\x01",
             "Congratulations.\x02\x03",
@@ -1549,7 +1549,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#5P#04504FWhat is this.\x02\x03",
+            "#5P#04504FOh, no, same here\x02\x03",
             "#04500FI do not even know each other\x01",
             "I was bad without going to greetings.\x02\x03",
             "#04502Fby the way……\x01",
@@ -1601,7 +1601,7 @@ def main():
         0xB,
         (
             "#5P#04605FAhh!\x01",
-            "ひょっとして《Silver#2Rイン#》！？\x02\x03",
+            "Perhaps \"silver#2RIn#\"! Is it?\x02\x03",
             "#04602FToho People's Streets Strongest\x01",
             "It is a hatred of the legend!\x02",
         )
@@ -1614,7 +1614,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
             "#12P#00702F…… That you are\x01",
-            "《血染めの#8Rブ ラ ッ デ ィ#Charlie》か。\x02\x03",
+            "Blooded#8RBladder#Shirley \"?\x02\x03",
             "Only 16 with the strongest hunting soldiers\x01",
             "It is said to serve as a battalion commander.\x07\x00\x02",
         )
@@ -1627,7 +1627,7 @@ def main():
         (
             "#5P#04606FWell, the one who is alone\x01",
             "It's easy to move, though.\x02\x03",
-            "#04611F── More than that, hey?\x02\x03",
+            "#04611FBut anyway, \x02\x03",
             "Although I have a cool masking surface\x01",
             "Is not it better not to attach it?\x02",
         )
@@ -1642,7 +1642,7 @@ def main():
         0x11,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#12P#00705F#30Wwhat……\x07\x00\x02",
+            "#12P#00705F#30WWhat?\x07\x00\x02",
         )
     )
 
@@ -1651,7 +1651,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#5P#04606FHow to use muscle is also unnatural.\x02\x03",
+            "#5P#04606FIt's not natural for your muscles either\x02\x03",
             "#04600FYou should be stronger if you do it normally\x01",
             "I guess it is unnecessary ~?\x02",
         )
@@ -1663,7 +1663,7 @@ def main():
         0x11,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#12P#00700F………………………………\x07\x00\x02",
+            "#12P#00700FHmm\x07\x00\x02",
         )
     )
 
@@ -1672,7 +1672,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#11P#03205FI see……\x02",
+        "#11P#03205FOhh\x02",
     )
 
     CloseMessageWindow()
@@ -1693,8 +1693,8 @@ def main():
         0x11,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#12P#00702F…… Separately.\x02\x03",
-            "#00700FTsao、下らぬ挨拶を\x01",
+            "#12P#00702FNo need\x02\x03",
+            "#00700FTsao, unexpected greetings\x01",
             "If you continue, I will go ahead.\x07\x00\x02",
         )
     )
@@ -1703,7 +1703,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#11P#03204FHaha, I'm sorry.\x02",
+        "#11P#03204FAhah, sorry\x02",
     )
 
     CloseMessageWindow()
@@ -1924,7 +1924,7 @@ def main():
         0x109,
         (
             "#10103FJust around that\x01",
-            "Ariosさんたちと二手に\x01",
+            "Two hands with Arios\x01",
             "You broke up, were not you?\x02\x03",
             "#10108Fthen……\x02",
         )
@@ -2004,7 +2004,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FこっちはAt the base of the Orchis Tower\x01",
+            "#00000FThis is the base of Orkis Tower\x01",
             "It is a gate that is connected.\x02\x03",
             "It seems that it is blocked now,\x01",
             "Let's use the lift back toward the C compartment.\x02",
@@ -2075,7 +2075,7 @@ def main():
         0x101,
         (
             "#00001FThose in the C section, Mr. Dudley\x01",
-            "Ariosさんに任せよう。\x02\x03",
+            "Let's leave it to Mr. Arios.\x02\x03",
             "We fled to the D section\x01",
             "I will follow the empire's terrorists!\x02",
         )

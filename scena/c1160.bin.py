@@ -620,7 +620,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Pierre deputy directorが待つ警察本部で、\x01",
+            "Pierre is waiting for the police headquarters,\x01",
             "We decided to organize the information.\x07\x00\x02",
         )
     )

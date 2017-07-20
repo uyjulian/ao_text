@@ -1175,7 +1175,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1266,7 +1266,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1761,8 +1761,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1Kbus停がある。\x01",
-            "busで移動しますか？\x02",
+            "#1KThere is a bus stop.\x01",
+            "Do you want to move by bus?\x02",
         )
     )
 
@@ -1987,9 +1987,9 @@ def main():
     label("loc_29E1")
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "導力carで移動する")
+    MenuCmd(1, 0, "Travel with a driving car")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_2A15")
-    MenuCmd(1, 0, "導力carで休憩する")
+    MenuCmd(1, 0, "Take a break with a driving car")
 
     label("loc_2A15")
 
@@ -2157,7 +2157,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "bus停がある。\x07\x00\x02",
+            "There is a bus stop.\x07\x00\x02",
         )
     )
 
@@ -2185,7 +2185,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "As the story progresses,\x01",
-            "各地の停留所からbusを\x01",
+            "From the bus stops at various stops\x01",
             "It will be available.\x07\x00\x02",
         )
     )
@@ -2224,7 +2224,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "bus停がある。\x07\x00\x02",
+            "There is a bus stop.\x07\x00\x02",
         )
     )
 
@@ -2236,7 +2236,7 @@ def main():
         0x101,
         (
             "#00001FThere are also accidents,\x01",
-            "busを待ってる時間はないな。\x02",
+            "I do not have time to wait for the bus.\x02",
         )
     )
 
@@ -2255,7 +2255,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力busは運行を見合わせているようだ。\x07\x00\x02",
+            "The guiding bus seems to be out of service.\x07\x00\x02",
         )
     )
 
@@ -2348,7 +2348,7 @@ def main():
             "#00000F#6PWell ……\x01",
             "Everyone, what will you do?\x02\x03",
             "If you go to the police school\x01",
-            "徒歩かbusになるけど。\x02",
+            "I will be on foot or bus.\x02",
         )
     )
 
@@ -2381,7 +2381,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10306F#11PHey, is it serious?\x02\x03",
+            "#10306F#11POi oi really?\x02\x03",
             "#10301FTruly a walk away\x01",
             "I feel it's too dull ….\x02",
         )
@@ -2422,7 +2422,7 @@ def main():
         (
             "#10306F#11PNori of the athletic organization\x01",
             "I do not have much hobby.\x02\x03",
-            "#10302FWell, somewhere.\x02\x03",
+            "#10302FBut whatever\x02\x03",
             "#10309FIf you get tired, be a gentle leader\x01",
             "I hope you get overwhelmed\x02",
         )
@@ -2432,7 +2432,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F#6PI will not be shaking.\x02",
+        "#00003F#6PHe will not\x02",
     )
 
     CloseMessageWindow()
@@ -2453,7 +2453,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10102F#5POK!\x02",
+        "#10102F#5PRoger!\x02",
     )
 
     CloseMessageWindow()
@@ -2694,7 +2694,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#6P今のbusは……\x02",
+        "#00001F#6PNow the bus is ……\x02",
     )
 
     CloseMessageWindow()
@@ -2703,7 +2703,7 @@ def main():
         0x109,
         (
             "#10108F#5PTo and from the Republic\x01",
-            "使われている旅客busですね。\x02",
+            "It is a passenger bus that is used.\x02",
         )
     )
 
@@ -2712,7 +2712,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00103F#6P多分、列carに乗っていた乗客を\x01",
+            "#00103F#6PMaybe, passengers on the train\x01",
             "transfer#4RLooking back#I guess they are transporting.\x02",
         )
     )

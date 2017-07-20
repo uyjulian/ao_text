@@ -466,7 +466,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -557,7 +557,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -648,7 +648,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -739,7 +739,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1029,7 +1029,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00011FWhat is this …! Is it?\x02",
+        "#12P#00011FWhat is this?\x02",
     )
 
     CloseMessageWindow()
@@ -1038,7 +1038,7 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#12P#10712FPuppet weapon … is it?\x02\x03",
+            "#12P#10712FSome kind of doll?\x02\x03",
             "#10701FThe sign of moving\x01",
             "I can not feel it … …\x02",
         )
@@ -1087,7 +1087,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#11PThis … … there is no mistake.\x02\x03",
+            "#00208F#11PThis is definitely…\x02\x03",
             "#00201FIt was developed by Epstein Foundation\x01",
             "It is \"AIDLONGEAR\".\x02",
         )
@@ -1150,14 +1150,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305F#6Pwhat……! Is it?\x02",
+        "#00305F#6PWhat!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00101F#6PWell, that is ….\x02",
+        "#00101F#6PTh-that is\x02",
     )
 
     CloseMessageWindow()
@@ -1168,7 +1168,7 @@ def main():
             "#00203F#11P… … After the incident of Libert,\x01",
             "To combat \"pilot\" puppet weapons\x01",
             "A certain plan has come up.\x02\x03",
-            "#00201F\"Oval gear plan\" … ….\x02\x03",
+            "#00201FThe Orbal Gear Plan\x02\x03",
             "It was undertaken by Libert's ZCF,\x01",
             "By the foundation's cooperation on the software side\x01",
             "It is a project that started full-scale.\x02\x03",
@@ -1183,7 +1183,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F#6PThat plan …\x02\x03",
+            "#00005F#6PThere was a plan like that…\x02\x03",
             "#00001FBut why did the test airframe\x01",
             "In this place?\x02",
         )
@@ -1194,7 +1194,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#11Pthat is……\x02\x03",
+            "#00208F#11PThat is..\x02\x03",
             "#00201F…… About half a year ago, just before completion\x01",
             "It was stolen by someone … …\x02",
         )
@@ -1205,7 +1205,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#6P…… It might be the work of the bell.\x02\x03",
+            "#00106F#6PIt must have been Belle's work\x02\x03",
             "#00108FShe has experiences of learning at the Foundation,\x01",
             "In the power net business, in the Leman Autonomous Region\x01",
             "I was on a business trip often … ….\x02",
@@ -1271,7 +1271,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#11P#00203F…………HM…………\x02\x03",
+            "#11P#00203FHmm\x02\x03",
             "#00202FApparently, in the part that controls\x01",
             "Matrixed system is\x01",
             "It seems to be used.\x02\x03",
@@ -1297,7 +1297,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00307F…… Ma, Maji! Is it?\x02",
+        "#6P#00307FS-Seriously!?\x02",
     )
 
     CloseMessageWindow()
@@ -1307,7 +1307,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#11P#00204FWell, probably there is no problem.\x02\x03",
+            "#11P#00204FYes… I don't think there would be a problem\x02\x03",
             "#00202FI found it at my heart,\x01",
             "Let's collect it gratefully.\x02",
         )
@@ -1322,7 +1322,7 @@ def main():
             "It does not matter if I recover …\x02\x03",
             "#00004FThe fight will be intense from now on,\x01",
             "If you can utilize it certainly encouraging.\x02\x03",
-            "#00000F… … Tio, can I leave it?\x02",
+            "#00000FTio, can we leave it to you?\x02",
         )
     )
 
@@ -1330,7 +1330,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#11P#00202FYes, sorry.\x02",
+        "#11P#00202FYes, roger that\x02",
     )
 
     CloseMessageWindow()
@@ -1345,7 +1345,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "I got \"Aidrongea\".\x07\x00\x02",
+            "Got Aedron Gear\x07\x00\x02",
         )
     )
 

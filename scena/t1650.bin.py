@@ -275,7 +275,7 @@ def main():
     NpcTalk(
         0x8,
         "Female voice",
-        "Enter.\x02",
+        "Come in\x02",
     )
 
     CloseMessageWindow()
@@ -318,7 +318,7 @@ def main():
     NpcTalk(
         0x8,
         "A female doctor",
-        "Hmm, it seems that it finally came.\x02",
+        "Hmm. You finally came huh\x02",
     )
 
     CloseMessageWindow()
@@ -369,7 +369,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00000FThat's right.\x02",
+        "#12P#00000FR-right\x02",
     )
 
     CloseMessageWindow()
@@ -454,7 +454,7 @@ def main():
         0x102,
         (
             "#6P#00100FUm, you are\x01",
-            "Professor Seylandですね？\x02\x03",
+            "Professor Seyland, is not it?\x02\x03",
             "#00103FThe ingredients of Gnostic\x01",
             "It was that the analysis result came out - ─\x02",
         )
@@ -485,7 +485,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10303FIt is the matter that was requested.\x02\x03",
+            "#6P#10303FThe request you submitted right?\x02\x03",
             "#10301FGnostic analysis results\x01",
             "After having you hand it over\x01",
             "Is it useless?\x02",
@@ -531,7 +531,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10105FIndeed, was that so?\x02",
+        "#6P#10105FI see.. So that's' it\x02",
     )
 
     CloseMessageWindow()
@@ -541,7 +541,7 @@ def main():
         (
             "#6P#00003F……I understand,\x01",
             "I will be there first.\x02\x03",
-            "#00000FWould you please let me know the details of the request?\x02",
+            "#00000FCan you fill us in on the details of the case?\x02",
         )
     )
 
@@ -591,7 +591,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00003FI see……\x01",
+            "#6P#00003FAnd the result is the brutal strength that we saw\x01",
             "Certainly also in the analysis results\x01",
             "It seems to be related.\x02",
         )
@@ -601,7 +601,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PWell, I want to ask you quickly.\x02",
+        "#11PYes. I'd like you to take care of this quickly\x02",
     )
 
     CloseMessageWindow()
@@ -659,7 +659,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00300FIndeed, it seems only names I knew.\x02\x03",
+            "#6P#00300FI see. All people we know then\x02\x03",
             "#00303FThe Old Town and the two of Alcan Shell\x01",
             "If you search in town you will find it soon.\x02\x03",
             "#00302FCress senpai, perhaps at the cafeteria of the Belgard gate\x01",
@@ -671,14 +671,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00000FOh, let's go and go.\x02",
+        "#6P#00000FYeah. Let's go right away then\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#11PWell, thank you very much.\x02",
+        "#11PWell then I'll leave it to you\x02",
     )
 
     CloseMessageWindow()
@@ -872,7 +872,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P… … Have you returned?\x02",
+        "#11PYou're back\x02",
     )
 
     CloseMessageWindow()
@@ -900,7 +900,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00306F(And, as expected after all ……)\x02",
+        "#6P#00306F(S-she's definitley scary)\x02",
     )
 
     CloseMessageWindow()
@@ -920,7 +920,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "問診表をProfessor Seylandに渡した。\x07\x00\x02",
+            "Handed over all medical forms\x07\x00\x02",
         )
     )
 
@@ -933,7 +933,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P……HM……………………\x02",
+        "#11PHmm\x02",
     )
 
     CloseMessageWindow()
@@ -954,7 +954,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P… No, it is the other way round.\x02",
+        "#11PNo, the opposite\x02",
     )
 
     CloseMessageWindow()
@@ -982,21 +982,21 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PIt was a pain.\x02",
+        "#11PNice work\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#6P#00002FWell, that's right ……!\x02",
+        "#6P#00002FI-is that right!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#6P#10109FHehe, it was good.\x02",
+        "#6P#10109FEhe, that's great\x02",
     )
 
     CloseMessageWindow()
@@ -1023,7 +1023,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PLet's get involved a little.\x02",
+        "#11PDo you have a minute?\x02",
     )
 
     CloseMessageWindow()
@@ -1165,7 +1165,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PExactly.\x02",
+        "#5PBut it actually unlocks the physical and mental power a person is capable of\x02",
     )
 
     CloseMessageWindow()
@@ -1199,7 +1199,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#5P#10104FYes … Looks like it seems.\x02",
+        "#5P#10104FWell we were able to beat them back using all our strength\x02",
     )
 
     CloseMessageWindow()
@@ -1207,7 +1207,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#11P#00103FSpeaking of … … Kang.\x02\x03",
+            "#11P#00103FYeah… Barely\x02\x03",
             "#00101FDepending on the increased rugosity and cans\x01",
             "Win gamble winning streaks\x01",
             "There were people who did it.\x02\x03",
@@ -1223,7 +1223,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWell, I can think so.\x02",
+        "#5PSo then you can explain exactly how Gnosis removed that limiter\x02",
     )
 
     CloseMessageWindow()
@@ -1262,7 +1262,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00003FI see……\x02",
+        "#12P#00003FAnd the result is the brutal strength that we saw\x02",
     )
 
     CloseMessageWindow()
@@ -1299,7 +1299,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00005FHuh……\x02",
+        "#12P#00005FHowever, that's as far as we can explain medically and scientifically\x02",
     )
 
     CloseMessageWindow()
@@ -1336,14 +1336,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#11P#00105F… … but it certainly … …\x02",
+        "#11P#00105FR-right…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#12P#00303FDid he have that … ….\x02",
+        "#12P#00303FI forgot about that\x02",
     )
 
     CloseMessageWindow()
@@ -1362,7 +1362,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PThat's it ……\x02",
+        "#5PWell about that\x02",
     )
 
     CloseMessageWindow()
@@ -1380,7 +1380,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PAt least not biochemically.\x02",
+        "#5PAt least as far as science can determine\x02",
     )
 
     CloseMessageWindow()
@@ -1402,7 +1402,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00005FWell, that's right! Is it?\x02",
+        "#12P#00005FI-is that right?!\x02",
     )
 
     CloseMessageWindow()
@@ -1462,7 +1462,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00306FNo, he is …\x02",
+        "#12P#00306FNo well that is\x02",
     )
 
     CloseMessageWindow()
@@ -1500,7 +1500,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00003F……I see……\x02",
+        "#12P#00003FI see…\x02",
     )
 
     CloseMessageWindow()
@@ -1580,7 +1580,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PHmm, I guess so.\x02",
+        "#5PHmm. Like I thought\x02",
     )
 
     CloseMessageWindow()
@@ -1598,7 +1598,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWas it on the wrong side …?\x02",
+        "#5PAnd maybe that's what drew him to the bad side\x02",
     )
 
     CloseMessageWindow()
@@ -1615,7 +1615,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00005FPossibly …\x02",
+        "#12P#00005FCould it be..\x02",
     )
 
     CloseMessageWindow()
@@ -1664,21 +1664,21 @@ def main():
 
     ChrTalk(
         0x102,
-        "#11P#00108FProfessor……\x02",
+        "#11P#00108FProfessor…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#5P#10103F…… I guess.\x02",
+        "#5P#10103FI'm so sorry\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#5PNo, I said nothing.\x02",
+        "#5PNo, that was a personal issue\x02",
     )
 
     CloseMessageWindow()
@@ -1705,7 +1705,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PThis is totally my can, but …\x02",
+        "#5PThis is just my intiution but\x02",
     )
 
     CloseMessageWindow()
@@ -1723,7 +1723,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00001F\"Pleomorphic grass\" ……\x02",
+        "#12P#00001FThe Pleroma Flower…\x02",
     )
 
     CloseMessageWindow()
@@ -1783,7 +1783,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#11P#00101F\"Unnatural property\" is … …\x02",
+        "#11P#00101FImpossible composition…\"\x02",
     )
 
     CloseMessageWindow()
@@ -1804,7 +1804,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00003F──Professor Seyland。\x01",
+            "#12P#00003F── Professor Seyland.\x01",
             "Thank you very much.\x02\x03",
             "#00000FThanks to what I had vaguely until now\x01",
             "I feel I was able to sort out to some extent.\x02",
@@ -1815,7 +1815,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PIf so, it was good.\x02",
+        "#5PWell that's good then\x02",
     )
 
     CloseMessageWindow()

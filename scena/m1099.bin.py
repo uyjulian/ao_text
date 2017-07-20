@@ -389,7 +389,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#4S#5PAlright - I'm competing regularly!\x02",
+        "#4S#5PNow, it is time for a proper duel!\x02",
     )
 
     CloseMessageWindow()
@@ -422,7 +422,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12PEr …\x02",
+        "#00011F#12PU-uhh\x02",
     )
 
     CloseMessageWindow()
@@ -584,14 +584,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#5Pthis is……!\x02",
+        "#00013F#5PThis is…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00107F#5PWhat a battle …!\x02",
+        "#00107F#5PWhat an aura!\x02",
     )
 
     CloseMessageWindow()
@@ -630,14 +630,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#4S#5PIn fact it is a taste or something!\x02",
+        "#4S#5PI'll show you what you're dealing with!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00307F#11PIt's coming……!\x02",
+        "#00307F#11PHere she comes!\x02",
     )
 
     CloseMessageWindow()
@@ -645,7 +645,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10707F#11PI will go with all my energy!\x02",
+        "#10707F#11PLet's go all out!\x02",
     )
 
     CloseMessageWindow()
@@ -940,7 +940,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#30W#5PAnd I can not believe it ….\x02",
+        "#30W#5PAhh. Unbelievable\x02",
     )
 
     CloseMessageWindow()
@@ -958,7 +958,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00015F#12PCut … … Ha ha … ….\x02",
+        "#00015F#12PGuh…. Haaa Haaaa\x02",
     )
 
     CloseMessageWindow()
@@ -997,14 +997,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F#12PAbsolutely, you are a lady … …\x02",
+        "#00306F#12PWhat an insane girl\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#5PKu … … the game is a game.\x02",
+        "#5PWell an duel is a duel\x02",
     )
 
     CloseMessageWindow()
@@ -1057,7 +1057,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00101F#12P#NWait a moment … …!\x02\x03",
+            "#00101F#12P#NW-wait!\x02\x03",
             "#00107FAre you … …\x01",
             "Oh, perhaps\x01",
             "That \"Steel Saint\" … …! Is it?\x02",
@@ -1070,7 +1070,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P………………………….\x02",
+        "#5P….\x02",
     )
 
     CloseMessageWindow()
@@ -1097,7 +1097,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PYume, do not forget it.\x02",
+        "#5PYou won't forget it even in your dreams\x02",
     )
 
     CloseMessageWindow()
@@ -1253,7 +1253,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#5PI see … I understand.\x02",
+        "#00001F#5PI see… got it\x02",
     )
 
     CloseMessageWindow()
@@ -1616,7 +1616,7 @@ def main():
         (
             "#00203FHowever, the remnants of the cult\x01",
             "You should not have left anymore … are you?\x02\x03",
-            "#00208FJoachim Günter …\x01",
+            "#00208FJoachim Gunter …\x01",
             "I heard that that person is the last.\x02",
         )
     )
@@ -1639,7 +1639,7 @@ def main():
         (
             "#00001F…… But the remnants of the cult are\x01",
             "There should not be any more left.\x02\x03",
-            "#00003FJoachim Günter …\x01",
+            "#00003FJoachim Gunter …\x01",
             "I heard that he is the last.\x02",
         )
     )

@@ -515,7 +515,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Water-busはまだ\x01",
+            "The water bus is still\x01",
             "It seems they have not come.\x02",
         )
     )
@@ -722,7 +722,7 @@ def main():
         0xD,
         (
             "Oh ~, I wonder where they went.\x01",
-            "Water-busが出る前に見つけないと……\x02",
+            "I have to find it before the water bus leaves ……\x02",
         )
     )
 
@@ -755,7 +755,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "Water-busは、間もなく\x01",
+            "The water bus will soon\x01",
             "Towards the crossbar departure\x01",
             "I will leave.\x02",
         )
@@ -812,7 +812,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00005F……Lisha？\x01",
+            "#12P#00005F… …. Lisha?\x01",
             "Have you been in such a place?\x02",
         )
     )
@@ -824,7 +824,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#01805Fロイドさん、Keyaちゃん……\x02",
+        "#01805FMr. Lloyd, Kia-chan ……\x02",
     )
 
     CloseMessageWindow()
@@ -832,7 +832,7 @@ def main():
     ChrTalk(
         0x153,
         (
-            "#01105FねえLisha、\x01",
+            "#01105FHey Lisha,\x01",
             "How are you doing?\x02",
         )
     )
@@ -872,7 +872,7 @@ def main():
 
     ChrTalk(
         0x153,
-        "#01108FLisha、ほんとに大丈夫ー？\x02",
+        "#01108FLisha, you really okay?\x02",
     )
 
     CloseMessageWindow()
@@ -882,7 +882,7 @@ def main():
         (
             "#01809FYeah, it's already fine.\x02\x03",
             "#01803FWell then, Mr. Lloyd.\x01",
-            "私はIliaさんたちの所に\x01",
+            "I am with the Iria's place\x01",
             "I am going.\x02\x03",
             "#01802FTo meet you with you guys\x01",
             "I will go with you.\x01",
@@ -1283,7 +1283,7 @@ def main():
         0x101,
         (
             "#00002F#6PWell ……\x01",
-            "確かMarybeleさんが\x01",
+            "Surely Mr. Marybele\x01",
             "Are you waiting for me?\x02",
         )
     )
@@ -1440,7 +1440,7 @@ def main():
         (
             "#2714V#30WOnee, everyone,\x01",
             "Good morning!\x02\x03",
-            "#2715V#30WKeyaちゃんも、おはよ〜！\x02",
+            "#2715V#30WKa'a-chan, good morning ~!\x02",
         )
     )
 
@@ -1464,7 +1464,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00305F#6Pおお、Francちゃんかよ！\x02",
+        "#00305F#6POh, Fran?\x02",
     )
 
     CloseMessageWindow()
@@ -1595,14 +1595,14 @@ def main():
 
     ChrTalk(
         0x10,
-        "#01110F#6Pあー、Cecilだぁ！\x02",
+        "#01110F#6POh, Cecil!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00205F#6PそれにIliaさんたちまで……\x02",
+        "#00205F#6PAnd to Iria's … …\x02",
     )
 
     CloseMessageWindow()
@@ -1667,7 +1667,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012F#6PMarybeleさん……\x01",
+            "#00012F#6PMr. Maria Bell ……\x01",
             "What on earth is this?\x02",
         )
     )
@@ -1773,7 +1773,7 @@ def main():
         (
             "#00012F#6Pmy mother……\x01",
             "What should I say?\x02\x03",
-            "#00002FCecil姉、休暇取れたんだ？\x02",
+            "#00002FCecil elder sister, was he able to take a vacation?\x02",
         )
     )
 
@@ -1789,7 +1789,7 @@ def main():
         0x12,
         (
             "Yeah, where I accidentally took it\x01",
-            "Iliaから連絡があって……\x02\x03",
+            "Ilia contacts me ……\x02\x03",
             "Because the lloyds will come\x01",
             "I got used to speechless words.\x02\x03",
             "I wonder if it was annoying?\x02",
@@ -1817,7 +1817,7 @@ def main():
         (
             "#00307F#6POooooooooooo!\x01",
             "I am watching a dream, too! Is it?\x02\x03",
-            "#00306FCecilさんにIliaさんに\x01",
+            "#00306FTo Ms. Iria for Cecil\x01",
             "There are so many beautiful places ……\x02\x03",
             "#00309FHappy New Year!\x01",
             "Tension MAX!\x02",
@@ -2243,7 +2243,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#11P#NThe sound of the bell ……\x02",
+        "#00201F#11P#NThe sound of a bell…\x02",
     )
 
     CloseMessageWindow()
@@ -2265,7 +2265,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#5P#NYeah … That seems so.\x02",
+        "#00101F#5P#NYes, seems like it\x02",
     )
 
     CloseMessageWindow()
@@ -2305,7 +2305,7 @@ def main():
         (
             "#00306F#5P#NThere is something in the water\x01",
             "Bonjari shimmer … …\x02\x03",
-            "#00301FTio Suke, do you understand somewhat?\x02",
+            "#00301FTiossuke, you have any idea?\x02",
         )
     )
 
@@ -2319,7 +2319,7 @@ def main():
             "#00203F#11P#NApparently something like \"spirit pressure\"\x01",
             "It seems to be increasing …\x02\x03",
             "#00201FIt is also in the back\x01",
-            "Direction to the theme parkから。\x02",
+            "From the theme park direction.\x02",
         )
     )
 
@@ -2330,7 +2330,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P#NReally……\x02\x03",
+            "#00003F#5P#NIs that right\x02\x03",
             "#00013FArios on them\x01",
             "It seems likely that you headed for it.\x02",
         )
@@ -2342,7 +2342,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#5P#NYeah … … let's go!\x02",
+        "#00107F#5P#NYes, let's check it out!\x02",
     )
 
     CloseMessageWindow()
@@ -2854,7 +2854,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "《クロスベル市》行きWater-bus・時刻表\x01\x01",
+            "Water crossing bus · timetable to \"Crossbell City\"\x01\x01",
             "※ For further visit\x01",
             "We are waiting for you!\x02",
         )
@@ -2880,7 +2880,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005Fこの赤い導力boatは……\x02",
+        "#00005FThis red guiding boat ……\x02",
     )
 
     CloseMessageWindow()
@@ -2916,7 +2916,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "赤い導力boatが停泊している。\x07\x00\x02",
+            "Red guiding boat is moored.\x07\x00\x02",
         )
     )
 

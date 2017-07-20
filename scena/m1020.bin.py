@@ -287,7 +287,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -357,7 +357,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -460,7 +460,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F… … It's quiet ……\x02",
+        "#00003FSeems to be true\x02",
     )
 
     CloseMessageWindow()
@@ -533,7 +533,7 @@ def main():
         (
             "#00302FWell, if you do not have an enemy\x01",
             "In a way it's lucky.\x02\x03",
-            "#00309FLet's move on as far as we can.\x02",
+            "#00309FLet's move on\x02",
         )
     )
 

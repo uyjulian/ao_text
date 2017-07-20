@@ -372,7 +372,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "あ、皆さんはWendy先輩の\x01",
+            "Oh, you guys Wendy senpai\x01",
             "It is people of acquaintance.\x02",
         )
     )
@@ -403,7 +403,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "もうじゃんじゃん、Chacoのことを\x01",
+            "Janka, already about Chaco\x01",
             "Please do not stick around.\x02",
         )
     )
@@ -1017,7 +1017,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is only for Lloyd.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -1034,7 +1034,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is for Ellie only.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -1051,7 +1051,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is only for Tio.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -1068,7 +1068,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is only for Randy.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -1085,7 +1085,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is only for Noel.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -1102,7 +1102,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "This cover is only for wadi.\x01",
-            "交換するとキャンプメニューの[ORBMENT]で表示される\x01",
+            "When exchanged, it will be displayed in [ORBMENT] of the camp menu\x01",
             "The cover of the tactical auction changes.\x07\x00\x02",
         )
     )
@@ -2041,7 +2041,7 @@ def main():
         0x8,
         (
             "Daddy will always stare at you\x01",
-            "Chaco、穴が開いちゃいそうです……\x02",
+            "Chaco, the hole seems to open … …\x02",
         )
     )
 
@@ -2066,7 +2066,7 @@ def main():
         0x8,
         (
             "When martial law was issued,\x01",
-            "店長からChacoは帰るように\x01",
+            "As chaco leaves from the store manager\x01",
             "I was instructed, but ….\x02",
         )
     )
@@ -2076,9 +2076,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Wendy先輩がもしもの時のための\x01",
+            "Wendy senpai is for a moment's time\x01",
             "As it was a story that it would remain as a human hand,\x01",
-            "Chacoも留まることにしたんです。\x02",
+            "Chaco also decided to stay.\x02",
         )
     )
 
@@ -2113,7 +2113,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Chaco、聞いている最中に\x01",
+            "Chaco, while listening\x01",
             "I stopped breath in spite of myself.\x02",
         )
     )
@@ -2197,7 +2197,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "うう、Chaco恥ずかしいですぅ。\x02",
+        "Uu, Chako I feel embarrassed.\x02",
     )
 
     CloseMessageWindow()
@@ -2211,7 +2211,7 @@ def main():
         0x8,
         (
             "Dad is the shop in our house\x01",
-            "面接をIt seems that he received it.\x02",
+            "I heard he got an interview.\x02",
         )
     )
 
@@ -2220,7 +2220,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "うう、Chaco、\x01",
+            "Uu, Chaco,\x01",
             "I would like to enter a hole if I have it.\x02",
         )
     )
@@ -2339,7 +2339,7 @@ def main():
         0x8,
         (
             "For the exhibition which I always use\x01",
-            "導力カメラを、Wendy先輩に\x01",
+            "A powerful camera to Wendy senior\x01",
             "I bought it.\x02",
         )
     )
@@ -2349,7 +2349,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Chaco、クローディア姫や\x01",
+            "Chaco, Claudia princess and\x01",
             "I wish I had taken the Prince Albert.\x02",
         )
     )
@@ -2464,7 +2464,7 @@ def main():
         0x8,
         (
             "For the moment,\x01",
-            "Wendy先輩に対する\x01",
+            "To Wendy seniors\x01",
             "The attitude has changed obviously.\x02",
         )
     )
@@ -2511,7 +2511,7 @@ def main():
         0x8,
         (
             "For the moment,\x01",
-            "Wendy先輩に対する\x01",
+            "To Wendy seniors\x01",
             "The attitude has changed obviously.\x02",
         )
     )
@@ -2550,7 +2550,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "もうじゃんじゃん、Chacoのことを\x01",
+            "Janka, already about Chaco\x01",
             "Please do not stick around.\x02",
         )
     )
@@ -2862,7 +2862,7 @@ def main():
         0x101,
         (
             "#00004FOh, yes.\x02\x03",
-            "#00000FWendyも何があっても\x01",
+            "#00000FWendy, no matter what happens\x01",
             "Keep your work here.\x02\x03",
             "Not long ago,\x01",
             "About the auction\x01",
@@ -2912,7 +2912,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fありがとう、Wendy。\x01",
+            "#00000FThank you, Wendy.\x01",
             "It will be awesome.\x02",
         )
     )
@@ -3306,7 +3306,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "どうやらChacoのお父様の\x01",
+            "Apparently Chaco's father\x01",
             "Worriedness seems hardcore.\x02",
         )
     )
@@ -3317,7 +3317,7 @@ def main():
         0x9,
         (
             "I do not think it's a bad thing,\x01",
-            "Chacoの気持ちも\x01",
+            "Chaco's feelings, too\x01",
             "I want you to think about it.\x02",
         )
     )
@@ -3486,7 +3486,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "う〜ん、Chacoのお父様も\x01",
+            "Well, Chaco's father too\x01",
             "You do it well.\x02",
         )
     )
@@ -3697,7 +3697,7 @@ def main():
         0x101,
         (
             "#00006FI guess that is unique to mecha lovers ……\x01",
-            "Wendyはいつも見る所が違うよな。\x02",
+            "Wendy always sees different places to see.\x02",
         )
     )
 
@@ -3827,7 +3827,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00309Fはは、流石はWendyちゃん。\x01",
+            "#00309FHello, Wendei is a treasure.\x01",
             "It's a splendid answer like broken bamboo.\x02",
         )
     )
@@ -3842,7 +3842,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "通商会議かぁ、After all, Libert's representative\x01",
+            "It is a trade fair meeting, after all, Libert's representative\x01",
             "I wonder if it will come with that \"Arseille\".\x02",
         )
     )
@@ -3991,7 +3991,7 @@ def main():
             "About slot reinforcement\x01",          # 3
             "About conductivity magic (Arts)\x01",      # 4
             "About Enigma\x01",              # 5
-            "マスターAbout Quartz\x01",        # 6
+            "About Master Quartz\x01",        # 6
             "quit\x01",                          # 7
         )
     )
@@ -4774,7 +4774,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "昨日、Chacoのお父上が\x01",
+            "Yesterday, Chaco's father\x01",
             "I was at the interview of our shop.\x02",
         )
     )
@@ -4863,7 +4863,7 @@ def main():
         0xFE,
         (
             "About plans to refurbish the store muddy\x01",
-            "Wendy君とChacoに\x01",
+            "With Wendy and Chaco\x01",
             "I asked the opinion … …\x02",
         )
     )
@@ -4964,7 +4964,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "そういえば、Wendyも\x01",
+            "By the way, Wendy also\x01",
             "The atmosphere of the old factory is better\x01",
             "I told you I liked it … …\x02",
         )
@@ -5040,7 +5040,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふう、Wendy君にも\x01",
+            "Wendy, too\x01",
             "It is troubling.\x02",
         )
     )
@@ -5203,7 +5203,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "いやはや、うちのWendy君然り、\x01",
+            "No, Wendy, my girlfriend,\x01",
             "It is amazing how a power engineer is.\x02",
         )
     )
@@ -5228,7 +5228,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "いやはや、うちのWendy君然り、\x01",
+            "No, Wendy, my girlfriend,\x01",
             "It is amazing how a power engineer is.\x02",
         )
     )
@@ -5804,8 +5804,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "おお、Chaco……\x01",
-            "まさしく私の娘のChacoだ。\x02",
+            "Oh, Chako …\x01",
+            "It is exactly my daughter Chaco.\x02",
         )
     )
 
@@ -5846,7 +5846,7 @@ def main():
         0xFE,
         (
             "……but it's okay.\x01",
-            "何があってもChacoのことは\x01",
+            "No matter what happens, I do not care about Chaco\x01",
             "Because I will protect you.\x02",
         )
     )
@@ -5861,7 +5861,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Chacoの許しが出たから\x01",
+            "Because Chaco's forgiveness came out\x01",
             "Both of us went to work with us this morning.\x02",
         )
     )
@@ -5871,7 +5871,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Chaco、お前のことは\x01",
+            "Chaco, you are\x01",
             "Whatever it may be\x01",
             "It is because my father always protects.\x02",
         )
@@ -5899,7 +5899,7 @@ def main():
         0xFE,
         (
             "And anyway today\x01",
-            "Chacoに何を言われても\x01",
+            "No matter what Chaco says\x01",
             "I will go home together.\x02",
         )
     )
@@ -6038,7 +6038,7 @@ def main():
         0xFE,
         (
             "Targeting the end of work yesterday\x01",
-            "Chacoに近づく輩がいたので\x01",
+            "Because he was approaching Chaco\x01",
             "I thought carefully though ……\x02",
         )
     )
@@ -6048,7 +6048,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "そのことで、Chacoに\x01",
+            "By that, to Chaco\x01",
             "I got very angry.\x02",
         )
     )
@@ -6075,7 +6075,7 @@ def main():
         0xFE,
         (
             "The night road is dangerous, in reality\x01",
-            "Chacoと一緒に帰りたい所だけど……\x02",
+            "I'd like to return with Chaco … …\x02",
         )
     )
 
@@ -6085,7 +6085,7 @@ def main():
         0xFE,
         (
             "To that extent,\x01",
-            "Chacoに嫌われてしまうしなぁ。\x02",
+            "Chako will hate you.\x02",
         )
     )
 
@@ -6131,7 +6131,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Chacoの先輩のWendy君だったか。\x01",
+            "Was it Mr. Wendy, Mr. Chaco 's senior?\x01",
             "She can hear the engine sound of the flying boat,\x01",
             "I rushed out the store in a hurry.\x02",
         )
@@ -6159,7 +6159,7 @@ def main():
         0xFE,
         (
             "Hmm, as my daughter\x01",
-            "Chacoには華があるねぇ。\x02",
+            "Chaco has a flower.\x02",
         )
     )
 
@@ -6288,7 +6288,7 @@ def main():
         0xFE,
         (
             "so,\x01",
-            "今日も娘のChacoの働きぶりを\x01",
+            "Today as well, my daughter Chaco's work\x01",
             "I came to see … ….\x02",
         )
     )
@@ -6385,7 +6385,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Chacoちゃんのことがどうしても\x01",
+            "Think about Chaco chan\x01",
             "I could not forget it but I came again … …\x02",
         )
     )
@@ -6461,7 +6461,7 @@ def main():
         0xFE,
         (
             "Sprinkle courage\x01",
-            "Chacoちゃんに声を……\x02",
+            "Voice to Chaco-chan ……\x02",
         )
     )
 
@@ -6502,7 +6502,7 @@ def main():
         (
             "By the way nameplate\x01",
             "I confirmed it, but she\x01",
-            "Chacoちゃんって言うんだって。\x02",
+            "They say Chaco-chan.\x02",
         )
     )
 
@@ -7254,7 +7254,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00005Fそれは分かったけどWendy、\x01",
+            "#6P#00005FI understood that, but Wendy,\x01",
             "What on earth do you practice?\x02",
         )
     )
@@ -7376,7 +7376,7 @@ def main():
         0x9,
         (
             "#11POk, apparently everyone\x01",
-            "ちゃんとMaster Quartz\x01",
+            "Master quartz properly\x01",
             "You seem to have set it.\x02",
         )
     )
@@ -7640,7 +7640,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "※Wendyに話しかけ、\x01",
+            "Talk to Wendy ※,\x01",
             "If you select \"Modify / synthesize\"\x01",
             "Synthesis of new quartz and\x01",
             "Slot opening and strengthening of tactical ornament can be done.\x02\x03",
@@ -7871,7 +7871,7 @@ def main():
             "About slot reinforcement\x01",          # 3
             "About conductivity magic (Arts)\x01",      # 4
             "About Enigma\x01",              # 5
-            "マスターAbout Quartz\x01",        # 6
+            "About Master Quartz\x01",        # 6
             "quit\x01",                          # 7
         )
     )
@@ -8307,7 +8307,7 @@ def main():
         0x101,
         (
             "#6P#00004F…… Is this enough?\x02\x03",
-            "#00000Fありがとう、Wendy。\x01",
+            "#00000FThank you, Wendy.\x01",
             "I learned today.\x02",
         )
     )
@@ -8363,7 +8363,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00002F悪いな、Wendy。\x01",
+            "#6P#00002FSorry, Wendy.\x01",
             "I will surely use it effectively.\x02",
         )
     )
@@ -8976,7 +8976,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Oh Lloyd, something for you?\x02",
+        "Oh, Lloyd. You need something? \x02",
     )
 
     CloseMessageWindow()
@@ -8997,7 +8997,7 @@ def main():
             "#00003F(Well, this kind of thing is\x01",
             "It seems not to be very interesting, but …\x01",
             "Would you like to ask and ask? )\x02\x03",
-            "#00000F……Wendy、ちょっといいかな。\x02",
+            "#00000FWendy… do you have a minute?\x02",
         )
     )
 
@@ -9019,7 +9019,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Misako … …? what is that.\x02",
+        "Pagent? What's that?\x02",
     )
 
     CloseMessageWindow()
@@ -9051,7 +9051,7 @@ def main():
         0x104,
         (
             "#00306FNo, no no.\x01",
-            "全然違うぜWendyちゃん。\x02",
+            "It is completely different Wendy.\x02",
         )
     )
 
@@ -9090,7 +9090,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105FIs it true?\x02",
+        "#00105FR-really?\x02",
     )
 
     CloseMessageWindow()
@@ -9137,7 +9137,7 @@ def main():
         0x101,
         (
             "#00000FOh, I understand.\x01",
-            "ありがとな、Wendy。\x02",
+            "Thank you, Wendy.\x02",
         )
     )
 
@@ -9150,7 +9150,7 @@ def main():
         (
             "#00000F─ ─ Now, at last\x01",
             "Participants' frame was filled.\x02\x03",
-            "Citizen会館に行って\x01",
+            "Go to the city hall\x01",
             "Let 's report to Roy.\x02",
         )
     )
@@ -9185,7 +9185,7 @@ def main():
             "#00000FOops, now I am going to shop\x01",
             "I can not come out.\x02\x03",
             "After setting the master quartz\x01",
-            "Wendyに声を掛けよう。\x02",
+            "Let's talk to Wendy.\x02",
         )
     )
 

@@ -440,8 +440,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Brownから聞いたのですが、\x01",
-            "どうやらNonnoには料理人の\x01",
+            "I heard from Brown,\x01",
+            "Apparently to nonno the cook's\x01",
             "It seems there is sense.\x02",
         )
     )
@@ -476,7 +476,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Nonnoには簡単な手伝いを\x01",
+            "A simple help to nonno\x01",
             "I was going to just do it … …\x02",
         )
     )
@@ -515,7 +515,7 @@ def main():
         (
             "Yosh, better yet\x01",
             "Tomorrow I was drunk\x01",
-            "Nonnoに調理を任せてみるか。\x02",
+            "Do you try leaving cooking to non-no?\x02",
         )
     )
 
@@ -535,7 +535,7 @@ def main():
         0xFE,
         (
             "I did not mind at all,\x01",
-            "Nonnoの奴、いつの間にか仕込みまで\x01",
+            "Non-no-no guy, until noticing\x01",
             "It was supposed to be entrusted.\x02",
         )
     )

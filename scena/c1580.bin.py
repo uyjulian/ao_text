@@ -537,7 +537,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -628,7 +628,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -719,7 +719,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -789,7 +789,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -1154,7 +1154,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#N#6Pな い ………………\x02",
+        "#00011F#N#6PAh…\x02",
     )
 
     CloseMessageWindow()
@@ -1163,7 +1163,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#N#6P…………………………………….\x02",
+        "#00105F#N#6P…..\x02",
     )
 
     CloseMessageWindow()
@@ -1182,7 +1182,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#5S#17AWhy, what a crap! Is it?\x02",
+        "#00307F#5S#17AWHAT THE HELL IS THIS!\x02",
     )
 
     CloseMessageWindow()
@@ -1213,7 +1213,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00610F#NAnd I can not believe it …\x02",
+        "#00610F#NU-unbelievable\x02",
     )
 
     CloseMessageWindow()
@@ -1238,7 +1238,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00206F#NThis is \"Magic Science\" 's exquisite … …\x02\x03",
+            "#00206F#NThis is the Mystic Core…\x02\x03",
             "#00201FAlchemy with the Cloyce family\x01",
             "Is it a blend of the latest guiding technology …?\x02",
         )
@@ -1317,7 +1317,7 @@ def main():
         (
             "#00106F#N…… That obscurity\x01",
             "Puppet called \"Church\"#4RPicture#Birth off … …\x02\x03",
-            "#00108FWe have sacrificed a lot of people … …\x02",
+            "#00108FThat sacrificed countless people\x02",
         )
     )
 
@@ -1328,7 +1328,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#NAh……\x02\x03",
+            "#00006F#NYeah…\x02\x03",
             "#00008F… and still now,\x01",
             "To Ka'aa the fate of \"treasure\"\x01",
             "I am trying to press … ….\x02",
@@ -1411,7 +1411,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00007F── Let's go, everyone!\x02\x03",
+            "#00007FLet's go guys!\x02\x03",
             "We punish past pastures and illusions,\x01",
             "Current#4RNow#To grasp the crossbells!\x02",
         )
@@ -1421,21 +1421,21 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#6PYeah … …!\x02",
+        "#00107F#6PYes!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00207F#12P……Yes!\x02",
+        "#00207F#12PRight!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#12P#00307FWe are conscious of the points!\x02",
+        "#12P#00307FYou got it!\x02",
     )
 
     CloseMessageWindow()
@@ -1455,7 +1455,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#6P#00607FThe preparation is enough!\x02",
+        "#6P#00607FWe're totally ready\x02",
     )
 
     CloseMessageWindow()
@@ -1490,7 +1490,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#6P#10707Flet's go……!\x02",
+        "#6P#10707FLet's go!\x02",
     )
 
     CloseMessageWindow()

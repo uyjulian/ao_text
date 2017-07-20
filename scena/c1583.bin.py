@@ -420,7 +420,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005FHere … … maybe.\x02",
+        "#00005FThis is… could it be…\x02",
     )
 
     CloseMessageWindow()
@@ -439,7 +439,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306FIt is finally a mountain.\x02",
+        "#00306FSigh… that was really a trek\x02",
     )
 
     CloseMessageWindow()

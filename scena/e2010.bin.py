@@ -2125,7 +2125,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#5PI understand.\x02",
+        "#10101F#5PRoger\x02",
     )
 
     CloseMessageWindow()
@@ -2979,7 +2979,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00009FHaha, thank you.\x02",
+        "#12P#00009FAhah, thanks\x02",
     )
 
     CloseMessageWindow()
@@ -3001,7 +3001,7 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00605F#11PHmm, is ZCF's latest guided vehicle?\x02\x03",
+            "#00605F#11PHmm. The new ZCF car model\x02\x03",
             "#00603FIt certainly looks good for usability.\x01",
             "I'd like to think about the operation in section I ….\x02",
         )
@@ -3087,7 +3087,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00013Fthis is……\x02",
+        "#12P#00013FThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -3185,14 +3185,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00011FWell ……! Is it?\x02",
+        "#12P#00011FHuh!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#11P#00307FKirika's squirrel! Is it?\x02",
+        "#11P#00307FKillika!?\x02",
     )
 
     CloseMessageWindow()
@@ -3280,7 +3280,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00008Fthat is……\x02",
+        "#12P#00008FThat is…\x02",
     )
 
     CloseMessageWindow()
@@ -3300,7 +3300,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00003F#11P(……I understand.)\x02",
+        "#12P#00003F#11PUnderstood\x02",
     )
 
     CloseMessageWindow()
@@ -3321,8 +3321,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00006F── I understand, Kirika-san.\x02\x03",
-            "#00001FWhich one should I go to?\x02",
+            "#12P#00006FUnderstood, Killika\x02\x03",
+            "#00001FWhere should we meet you\x02",
         )
     )
 
@@ -3399,7 +3399,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#11P#00306FWell, you only have to go.\x02",
+        "#11P#00306FWell, we just have to go and see\x02",
     )
 
     CloseMessageWindow()
@@ -3416,7 +3416,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#5PI understand.\x02",
+        "#10101F#5PRoger\x02",
     )
 
     CloseMessageWindow()
@@ -3482,7 +3482,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00009F#5PHaha, thank you.\x02",
+        "#00009F#5PAhah, thanks\x02",
     )
 
     CloseMessageWindow()
@@ -3504,7 +3504,7 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#11P#00605FHmm, is ZCF's latest guided vehicle?\x02\x03",
+            "#11P#00605FHmm. The new ZCF car model\x02\x03",
             "#00603FIt certainly looks good for usability.\x01",
             "I'd like to think about the operation in section I ….\x02",
         )
@@ -3552,7 +3552,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#11P#00302FWell, it is a professional.\x02",
+        "#11P#00302FWell, she's the pro\x02",
     )
 
     CloseMessageWindow()
@@ -3599,7 +3599,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#5Pthis is……\x02",
+        "#00005F#5PThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -3634,7 +3634,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00108F…… Lloyd, what are you going to do?\x02",
+        "#12P#00108FLloyd, what do we do?\x02",
     )
 
     CloseMessageWindow()
@@ -3694,14 +3694,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5PWell ……! Is it?\x02",
+        "#00011F#5PHuh!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#11P#00307FKirika's squirrel! Is it?\x02",
+        "#11P#00307FKillika!?\x02",
     )
 
     CloseMessageWindow()
@@ -3779,7 +3779,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#5Pthat is……\x02",
+        "#00008F#5PThat is…\x02",
     )
 
     CloseMessageWindow()
@@ -3799,7 +3799,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F#5P(……I understand.)\x02",
+        "#00003F#5PUnderstood\x02",
     )
 
     CloseMessageWindow()
@@ -3820,8 +3820,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P── I understand, Kirika-san.\x02\x03",
-            "#00001FWhich one should I go to?\x02",
+            "#00006F#5PUnderstood, Killika\x02\x03",
+            "#00001FWhere should we meet you\x02",
         )
     )
 
@@ -3898,7 +3898,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#11P#00306FWell, you only have to go.\x02",
+        "#11P#00306FWell, we just have to go and see\x02",
     )
 
     CloseMessageWindow()

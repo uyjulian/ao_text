@@ -878,7 +878,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -969,7 +969,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -2573,7 +2573,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001FこっちはTo the Tangram main gateか……\x02\x03",
+            "#00001FIs this direction toward the Tangram main gate …?\x02\x03",
             "It is dangerous to get any closer.\x01",
             "Let's turn back to life.\x02",
         )

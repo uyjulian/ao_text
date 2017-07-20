@@ -556,7 +556,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -647,7 +647,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -738,7 +738,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1173,7 +1173,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00015F#11P(Cure …… Truly a former guard.\x02\x03",
+            "#00015F#11P(Tch, as expected of former guards)\x02\x03",
             "#00013F(what will you do……\x01",
             "…… Lloyd · Bannings … …! )\x02",
         )
@@ -1204,7 +1204,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#11PCut …!\x02",
+        "#00010F#11PTch…\x02",
     )
 
     CloseMessageWindow()
@@ -1217,7 +1217,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#2SPleasure …!\x02",
+        "#2SThere he is!\x02",
     )
 
     CloseMessageWindow()
@@ -1232,7 +1232,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#11PSecure!\x02",
+        "#11PStand down!\x02",
     )
 
     CloseMessageWindow()
@@ -1464,7 +1464,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00015F#6P(Anyway anyhow ……)\x02\x03",
+            "#00015F#6P(What to do for now)\x02\x03",
             "#00010F(… even if it gets stuck in a stone\x01",
             "Go through this place …! )\x02",
         )

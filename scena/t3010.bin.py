@@ -704,7 +704,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#5P………………………………\x02",
+        "#00001F#5P…\x02",
     )
 
     CloseMessageWindow()
@@ -966,7 +966,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#03903F#6P繰り返すが、I do not know the details either.\x02\x03",
+            "#03903F#6PAgain, I do not know the details.\x02\x03",
             "#03900FHowever, if I could say one thing\x01",
             "Intervention of \"association\" as Ribeel\x01",
             "It is not large scale.\x02\x03",
@@ -979,7 +979,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#11P………………………………\x02",
+        "#00101F#11P…\x02",
     )
 
     CloseMessageWindow()
@@ -1373,7 +1373,7 @@ def main():
         (
             "#03903F#6P\"D∴G Church\" ──\x01",
             "As far as I know, \"association\" and direct\x01",
-            "繋がりがIt seems there has never been.\x02\x03",
+            "It seems there has never been a connection.\x02\x03",
             "#03900FThe bases of the people who had Ren#4RLodge#To\x01",
             "Although there was the fact that \"society\" was destroyed … …\x02\x03",
             "\"Society\" breathed a breath\x01",
@@ -1990,7 +1990,7 @@ def main():
         (
             "─ ─ um.\x01",
             "There were rare visitors as well.\x02\x03",
-            "It is a long time ago, a god wolf.\x02",
+            "It's been a long time, Holy Wolf\x02",
         )
     )
 
@@ -2012,7 +2012,7 @@ def main():
     AnonymousTalk(
         0x107,
         (
-            "#3CYes, son of a man.\x02\x03",
+            "#3CThat is true, child of man\x02\x03",
             "Truly nasty\x01",
             "It seems I got old for a long time.\x02\x03",
             "As usual \"snakes\"\x01",
@@ -2043,7 +2043,7 @@ def main():
 
     ChrTalk(
         0x107,
-        "#01201F#6P#3CHaha, there is no difference.\x02",
+        "#01201F#6P#3CHaha, that is true\x02",
     )
 
     CloseMessageWindow()
@@ -2094,14 +2094,14 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10402F#12PHuh, indeed.\x02",
+        "#10402F#12PAh, true\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x106,
-        "#10710F#6P… … I'm sorry for that passage.\x02",
+        "#10710F#6PI apologize for the last time I was here\x02",
     )
 
     CloseMessageWindow()
@@ -2110,7 +2110,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6P── Jorg Meister.\x02\x03",
+            "#00006F#6PGeorge Maester\x02\x03",
             "#00001FAs we said, we now,\x01",
             "To manage this situation\x01",
             "It is moving.\x02\x03",
@@ -2126,13 +2126,13 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#03900F#11PHM……\x02\x03",
+            "#03900F#11PHmm\x02\x03",
             "#03903F── Maybe you already know\x01",
             "\"Society\" is the purpose of the Clois family this time\x01",
             "It is just a position to cooperate.\x02\x03",
             "Plan of \"Society\" - \"Phantom#4RNuclear power plant#Plan\x01",
             "It seems that it has already shifted to the next stage.\x02\x03",
-            "#03901FThat is to the Eleven Empire.\x02",
+            "#03901FIn other words, the Erebonia Empire\x02",
         )
     )
 
@@ -2140,7 +2140,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#6PHuh……! Is it?\x02",
+        "#00011F#6PHuh!?\x02",
     )
 
     CloseMessageWindow()
@@ -2160,7 +2160,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#6PIs that so……\x02",
+        "#00008F#6PI see..\x02",
     )
 
     CloseMessageWindow()
@@ -2190,7 +2190,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#6P\"Clown\" Campanella ……\x02\x03",
+            "#00003F#6PCampanella the Clown\x02\x03",
             "#00013FAnd called \"apostle\"\x01",
             "With Dr. Novartis\x01",
             "It is a woman named Ariane Road.\x02",
@@ -2202,8 +2202,8 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10708F#6P………………………………\x02\x03",
-            "#10706FWho the hell is he, and who is he?\x02\x03",
+            "#10708F#6P…\x02\x03",
+            "#10706FWhat in the world is that woman?\x02\x03",
             "#10701FThat movement and reaction ─\x01",
             "Very human work#2RWork#I do not think.\x02",
         )
@@ -2214,7 +2214,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#03903F#11PI do not know the details either.\x02\x03",
+            "#03903F#11PI don't know the details\x02\x03",
             "However, using an awesome spear technique,\x01",
             "Hitoshi Atsushi also#2RBuddy#As a person\x01",
             "It is known for \"association\".\x02\x03",
@@ -2230,7 +2230,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00205F#6PAbout as much as that Mr. Len ……\x02",
+        "#00205F#6PLike that Renne girl\x02",
     )
 
     CloseMessageWindow()
@@ -2263,7 +2263,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#03900F#11PHmm, maybe so.\x02\x03",
+            "#03900F#11PYes that might be\x02\x03",
             "#03903FMost of all, Novartis's youth is\x01",
             "To the dolls who received the power of \"treasure\"\x01",
             "It looks interesting.\x02\x03",
@@ -2276,7 +2276,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6PIs that so……\x02",
+        "#00006F#6PI see…\x02",
     )
 
     CloseMessageWindow()
@@ -2317,14 +2317,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#6PWow\x02",
+        "#00011F#6PWaa\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x106,
-        "#10712F#12PWell, you talked …?\x02",
+        "#10712F#12PI-It talked?\x02",
     )
 
     CloseMessageWindow()
@@ -2347,7 +2347,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#6PI see.\x02",
+        "#00001F#6PI-I see\x02",
     )
 
     CloseMessageWindow()
@@ -2367,7 +2367,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#03903F#5PHuun, do not deny.\x02\x03",
+            "#03903F#5PHmm. I don't deny it\x02\x03",
             "Originally this \"Goldias grade\"\x01",
             "It was developed by multiplying all of my items.\x02\x03",
             "#03900FI took it away on the way,\x01",
@@ -2382,7 +2382,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#6Psurely……\x02",
+        "#00008F#6PRight..\x02",
     )
 
     CloseMessageWindow()
@@ -2415,7 +2415,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00012F#6PIs that so …?\x02",
+        "#00012F#6PI-I see…\x02",
     )
 
     CloseMessageWindow()
@@ -2423,7 +2423,7 @@ def main():
     ChrTalk(
         0x107,
         (
-            "#01203F#6P#3CWell, calm down.\x02\x03",
+            "#01203F#6P#3CWell, settle down\x02\x03",
             "#01200FAs usual it will be a work thing\x01",
             "It seems I can not keep calm.\x02",
         )
@@ -2481,14 +2481,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#6PReally……\x02",
+        "#00001F#6PIs that right\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10403F#12P… … It is a first-aid.\x02",
+        "#10403F#12PThat's the first we've heard of that\x02",
     )
 
     CloseMessageWindow()
@@ -2511,7 +2511,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#03903F#5PThat possibility will be high.\x02\x03",
+            "#03903F#5PThat is very likely\x02\x03",
             "#03900FIt seems that artifact\x01",
             "About \"big bell\"\x01",
             "I am also studying it personally.\x02\x03",
@@ -2536,7 +2536,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#6PIs it true? Is it?\x02",
+        "#00011F#6PR-really!?\x02",
     )
 
     CloseMessageWindow()
@@ -2556,7 +2556,7 @@ def main():
         (
             "#03903F#5PHun …#4RThis time#About the end of\x01",
             "I also have a few head minded.\x02\x03",
-            "#03901FIt seems also to be the young Novartis's youth … …\x02\x03",
+            "#03901FThat Nobaltisse brat aside\x02\x03",
             "I cooperated with \"the theater company#4RAlkane shell#The\x01",
             "Sometimes I was made casually.\x02",
         )
@@ -2566,7 +2566,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10708F#12PAh……\x02",
+        "#10708F#12PAh…\x02",
     )
 
     CloseMessageWindow()
@@ -2585,7 +2585,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#03903F#5PWell, it all will be rebuilt.\x02\x03",
+            "#03903F#5PRight. I have to remake all of them\x02\x03",
             "#03901FIn that sense, \"red constellation\" and\x01",
             "The owner of the Clois family who hired it also\x01",
             "Personally I can not forgive.\x02\x03",
@@ -2599,7 +2599,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10404F#12PHuh, I see.\x02",
+        "#10404F#12PEhe, I see\x02",
     )
 
     CloseMessageWindow()

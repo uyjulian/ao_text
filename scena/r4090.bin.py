@@ -424,7 +424,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F#11PどうやらFallen treeが\x01",
+            "#00303F#11PApparently a fallen tree\x01",
             "It seems I closed my way … …\x02\x03",
             "#00301FIt was about a month before I fell down.\x02",
         )
@@ -1021,7 +1021,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#11Pなんてdemon気……\x02",
+        "#00108F#11PWhat a demonic ……\x02",
     )
 
     CloseMessageWindow()
@@ -2022,7 +2022,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10102F#6PLieutenant Mireille……！\x02",
+        "#10102F#6PThree Lieutenant Mireille … …!\x02",
     )
 
     CloseMessageWindow()
@@ -2185,7 +2185,7 @@ def main():
     Sleep(500)
     OP_82(0xC8, 0x0, 0xBB8, 0xC8)
     SetMessageWindowPos(280, 10, -1, -1)
-    SetChrName("A security guardたち")
+    SetChrName("Security guards")
 
     AnonymousTalk(
         0xFF,
@@ -3229,7 +3229,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#50W#5PHa ha ……\x02",
+        "#00006F#50W#5PHaa Haa \x02",
     )
 
     CloseMessageWindow()
@@ -3267,14 +3267,14 @@ def main():
 
     ChrTalk(
         0x12,
-        "#6PAs expected to say ……\x02",
+        "#6PI guess I shouldn't be surprised\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x17,
-        "#11POkay, I will disarm you.\x02",
+        "#11POk then we're restraining him\x02",
     )
 
     CloseMessageWindow()
@@ -3293,7 +3293,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00015F#60W#5P……… refusing ……… … …\x02",
+        "#00015F#60W#5PI refuse…\x02",
     )
 
     CloseMessageWindow()
@@ -3355,14 +3355,14 @@ def main():
 
     ChrTalk(
         0x10,
-        "#12Pthis guy……!\x02",
+        "#12PThis guy…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x11,
-        "#12PYou still can move! Is it?\x02",
+        "#12PYou can still move?!\x02",
     )
 
     CloseMessageWindow()
@@ -3406,7 +3406,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00010F#5P#40WStill …\x02\x03",
+            "#00010F#5P#40WEven still\x02\x03",
             "But even so\x01",
             "If someone did not stand up\x01",
             "Nothing changes……!\x02\x03",
@@ -3456,21 +3456,21 @@ def main():
 
     ChrTalk(
         0x10,
-        "#6PWow ….\x02",
+        "#6PUg\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x13,
-        "#12PThis guy……\x02",
+        "#12PThis guy is…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x17,
-        "#5P…. Regardless.\x02",
+        "#5PSuspicous\x02",
     )
 
     CloseMessageWindow()
@@ -3494,7 +3494,7 @@ def main():
 
     ChrTalk(
         0x15,
-        "#12PAim at your feet.\x02",
+        "#12PTake him out!\x02",
     )
 
     CloseMessageWindow()
@@ -3587,7 +3587,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#2949V#40W#4S── Bless me.\x02",
+            "#2949V#40W#4SSeriously…\x02",
         )
     )
 
@@ -3625,28 +3625,28 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#5PHuh……\x02",
+        "#00005F#5PHuh?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x17,
-        "#11P……! Is it?\x02",
+        "#11P!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x16,
-        "#5PWell, now ……\x02",
+        "#5PThat was\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x13,
-        "#11PEchoing on my head ─\x02",
+        "#11PIt rang in my head…\x02",
     )
 
     CloseMessageWindow()
@@ -3686,7 +3686,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#12PHit …! Is it?\x02",
+        "#12PUgh\x02",
     )
 
     CloseMessageWindow()
@@ -3697,7 +3697,7 @@ def main():
 
     ChrTalk(
         0x15,
-        "#5PWhat is it …?! Is it?\x02",
+        "#5PWhat is it\x02",
     )
 
     CloseMessageWindow()
@@ -3756,21 +3756,21 @@ def main():
 
     ChrTalk(
         0x10,
-        "#5P#40W#2S………Huh…………?\x02",
+        "#5P#40W#2SHuh?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x16,
-        "#11P#40W#2Sな い ………………\x02",
+        "#11P#40W#2SWha….\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00005F#5P#30W………………………………\x02",
+        "#00005F#5P#30W….\x02",
     )
 
     CloseMessageWindow()
@@ -3805,7 +3805,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#2952V#40W#4SThis person is let me deposit you.\x02",
+            "#2952V#40W#4SI will be taking this person\x02",
         )
     )
 
@@ -3863,7 +3863,7 @@ def main():
 
     ChrTalk(
         0x17,
-        "#11P#4SFu, you playfully …!\x02",
+        "#11P#4SBullshit!\x02",
     )
 
     CloseMessageWindow()
@@ -3930,14 +3930,14 @@ def main():
 
     ChrTalk(
         0x11,
-        "#5P#50W……… Eh ……………\x02",
+        "#5P#50WHuh…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x14,
-        "#11P#50W………… ugh ………………\x02",
+        "#11P#50WHuh..\x02",
     )
 
     CloseMessageWindow()
@@ -4059,7 +4059,7 @@ def main():
 
     ChrTalk(
         0x17,
-        "#60W#12P…………………………………….\x02",
+        "#60W#12P….\x02",
     )
 
     CloseMessageWindow()
@@ -4086,7 +4086,7 @@ def main():
 
     ChrTalk(
         0x17,
-        "#60W#12P#60W……… That's not necessary …………\x02",
+        "#60W#12P#60WNo need…\x02",
     )
 
     CloseMessageWindow()
@@ -4117,7 +4117,7 @@ def main():
 
     ChrTalk(
         0x17,
-        "#5S#5PWithdrawal ─ ─! It is! It is!\x05\x02",
+        "#5S#5PRETREAT!!\x05\x02",
     )
 
     Sleep(1000)
@@ -4193,7 +4193,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5P#30W…………………………………….\x02",
+        "#00011F#5P#30W….\x02",
     )
 
     CloseMessageWindow()
@@ -4269,7 +4269,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#30WHm, what?\x02",
+            "#30WHmm? What\x02",
         )
     )
 
@@ -4288,7 +4288,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00007F#12P#4S#N──Zeit！\x01",
+            "#00007F#12P#4S#N─ ─ Zeit!\x01",
             "Timing is too good timing! Is it?\x02",
         )
     )

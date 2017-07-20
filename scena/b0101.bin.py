@@ -654,7 +654,7 @@ def main():
         1,
         (
             "#183I: Fist of the Wind God\x01",                    # 0
-            "#183I：終の太刀-黒皇-\x01",              # 1
+            "#183I: The Last Tachibana - Black Emperor -\x01",              # 1
             "#190I: Death · Parade\x01",              # 2
             "#207I: Crimson Fall\x01",          # 3
             "#189I: False Salt Pile\x01",                  # 4

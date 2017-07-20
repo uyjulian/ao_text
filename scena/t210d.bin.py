@@ -239,7 +239,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -544,7 +544,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00002FSonya Command……\x01",
+            "#12P#00002FSonya Command ……\x01",
             "I was in such a place.\x02",
         )
     )
@@ -687,7 +687,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#12P#10104FSonya Commandのおかげです！\x02\x03",
+            "#12P#10104FThanks to Sonya Command!\x02\x03",
             "#10102FBecause of that advice,\x01",
             "The way of independent ineffective declaration\x01",
             "I was able to find out!\x02",

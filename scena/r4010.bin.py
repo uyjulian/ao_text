@@ -25,7 +25,7 @@ def main():
         "Gante",                 # 4
         "Master Clion",       # 5
         "car",                     # 6
-        "列car",                   # 7
+        "train",                   # 7
         "SE control",                 # 8
         "br4000",                 # 9
         "br4000",                 # 10
@@ -931,7 +931,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1001,7 +1001,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -1693,7 +1693,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#5PHua, huh ……\x02",
+        "#00006F#5PHaa… Haa…\x02",
     )
 
     CloseMessageWindow()
@@ -1706,7 +1706,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F#11P…… Protecting the goddess.\x02",
+        "#00003F#11PWith Aidos' blessing\x02",
     )
 
     CloseMessageWindow()
@@ -1725,7 +1725,7 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00013F(\"Pleroma grass\" is here until … …)\x02\x03",
+            "#00013FThe Pleroma Flowers have spread this far\x02\x03",
             "(While I was caught\x01",
             "Is it that I started to bloom …?)\x02\x03",
             "#00008FBy chance\x01",
@@ -1759,7 +1759,7 @@ def main():
         (
             "#00003F#5P(… … everything\x01",
             "It is from here. )\x02\x03",
-            "(In any case, let's aim for the highway once.\x02",
+            "(Anyway, let's head for the highway)\x02",
         )
     )
 

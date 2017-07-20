@@ -674,7 +674,7 @@ def main():
         0x8,
         (
             "I forced a little while ago\x01",
-            "黒いTruckは、指名手配中の\x01",
+            "Black trucks are wanted\x01",
             "It looks like it was from a con artist.\x02",
         )
     )
@@ -726,7 +726,7 @@ def main():
         0x8,
         (
             "A little while ago, I forced through the gate\x01",
-            "黒いTruckは、指名手配中の\x01",
+            "Black trucks are wanted\x01",
             "It seems that it was from a con artist.\x02",
         )
     )
@@ -1462,7 +1462,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "じ、I am like this rain\x01",
+            "___ ___ 0\x01",
             "Without significant impact\x01",
             "That's why I wanted to say … ….\x02",
         )
@@ -1588,7 +1588,7 @@ def main():
         0x9,
         (
             "Thinking carefully\x01",
-            "改めて不可解ではThere is.\x02",
+            "It is incomprehensible again.\x02",
         )
     )
 
@@ -1958,7 +1958,7 @@ def main():
         0xA,
         (
             "Damage to the guard …\x01",
-            "隊員じゃない僕やRugさんも\x01",
+            "I'm not a crew member and I and Rag\x01",
             "It was pretty good event.\x02",
         )
     )
@@ -2871,7 +2871,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "噂では、Iria · Platier\x01",
+            "In rumors, Iria Prattier\x01",
             "It seems that consciousness has not returned yet …\x02",
         )
     )
@@ -4287,7 +4287,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100Fお疲れ様です、Timasuさん。\x02",
+        "#10100FGood day, Mr. Timas.\x02",
     )
 
     CloseMessageWindow()
@@ -4938,7 +4938,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003Fくそっ、あのTruckには\x01",
+            "#00003FDamn, that transporting car\x01",
             "The deceived medical supplies ……\x02",
         )
     )

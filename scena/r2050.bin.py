@@ -23,7 +23,7 @@ def main():
         "Madara Murder",         # 2
         "Steel Drew",           # 3
         "Steel Drew",           # 4
-        "アカMadara Murder",     # 5
+        "Akadamara Mader",     # 5
         " ",                      # 6
         "A security guard",               # 7
         "A security guard",               # 8
@@ -1165,7 +1165,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1314,7 +1314,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1384,7 +1384,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -2517,7 +2517,7 @@ def main():
         (
             "#04604F#5PNow, \"Tester = Rossa\".\x01",
             "I have more prey left … …\x02\x03",
-            "#04602FCharlieと一緒に\x01",
+            "#04602FWith Charlie\x01",
             "Let's have a lot of fun!\x02",
         )
     )
@@ -2895,7 +2895,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#11Pthis is……! Is it?\x02",
+        "#00011F#11PThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -2912,21 +2912,21 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10701F#11P………………………………\x02",
+        "#10701F#11P….\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00208F#12P……? (this is……)\x02",
+        "#00208F#12P…? (Is this..)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x107,
-        "#01201F#12P#3CHM……\x02",
+        "#01201F#12P#3CHmm\x02",
     )
 
     CloseMessageWindow()
@@ -2961,7 +2961,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#11P#5AHuh\x02",
+        "#00011F#11P#5AHuh?\x02",
     )
 
     CloseMessageWindow()
@@ -3067,7 +3067,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P#30WCome … OK.\x02\x03",
+            "#00006F#5P#30WAh… I'm fine\x02\x03",
             "#00008FI'm sorry.\x01",
             "I was saved, Lisa.\x02",
         )
@@ -3088,8 +3088,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10406F#12PWell, I'm pleased.\x02\x03",
-            "#10401FBut … … Is it landmine now?\x02",
+            "#10406F#12PCome on, really?\x02\x03",
+            "#10401FBut was that a mine?\x02",
         )
     )
 
@@ -3148,7 +3148,7 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10703F#11PThat probability seems to be high.\x02\x03",
+            "#10703F#11PThat seems likely\x02\x03",
             "#10708FPut your head down and clean up\x01",
             "I am going to … …\x02",
         )
@@ -3173,7 +3173,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#6PI understand.\x02",
+        "#00201F#6PRoger!\x02",
     )
 
     CloseMessageWindow()

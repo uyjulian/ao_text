@@ -1242,7 +1242,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1333,7 +1333,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1594,7 +1594,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "bus停がある。\x02",
+            "There is a bus stop.\x02",
         )
     )
 
@@ -1614,8 +1614,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1Kbus停がある。\x01",
-            "busで移動しますか？\x02",
+            "#1KThere is a bus stop.\x01",
+            "Do you want to move by bus?\x02",
         )
     )
 
@@ -2019,7 +2019,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力busは運行を見合わせているようだ。\x07\x00\x02",
+            "The guiding bus seems to be out of service.\x07\x00\x02",
         )
     )
 
@@ -2583,7 +2583,7 @@ def main():
 
     ChrTalk(
         0x19,
-        "#5PDid you come …?\x02",
+        "#5PThey came\x02",
     )
 
     CloseMessageWindow()
@@ -2758,7 +2758,7 @@ def main():
 
     ChrTalk(
         0x19,
-        "#5P──Start interception.\x02",
+        "#5PPush them back\x02",
     )
 
     CloseMessageWindow()
@@ -2767,7 +2767,7 @@ def main():
         0x19,
         (
             "#5PThe opponent is a master of melee fighting.\x01",
-            "Cougarを出して距離を保て。\x02",
+            "Put out the cougar and keep the distance.\x02",
         )
     )
 
@@ -2775,7 +2775,7 @@ def main():
     Sleep(500)
     OP_82(0x64, 0x0, 0xBB8, 0x12C)
     SetMessageWindowPos(280, 120, -1, -1)
-    SetChrName("A hunterたち")
+    SetChrName("Hunters")
 
     AnonymousTalk(
         0xFF,
@@ -2994,7 +2994,7 @@ def main():
         (
             "#03209F#11PGiggle\x01",
             "It is development of blood spring meat dancing.\x02\x03",
-            "#03210FLet's start with that.\x02",
+            "#03210FWell then, shall we get started?\x02",
         )
     )
 
@@ -3002,7 +3002,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#11PCertainly.\x02",
+        "#11PUnderstood\x02",
     )
 
     CloseMessageWindow()
@@ -3014,7 +3014,7 @@ def main():
         0xA,
         (
             "#11P── While expelling the animals,\x01",
-            "敵A hunter団を翻弄する。\x02",
+            "Move the enemy corps.\x02",
         )
     )
 
@@ -3036,7 +3036,7 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "#5SIs!\x02",
+        "#5SRIGHT!\x02",
     )
 
     CloseMessageWindow()

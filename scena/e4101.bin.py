@@ -1365,7 +1365,7 @@ def main():
         (
             "#00310FRed constellation cougar …\x01",
             "Had my uncle connected with you!\x02\x03",
-            "#00307F気をつけろ、This number can not be tolerated!\x02",
+            "#00307FBe careful, this number can not be tolerated!\x02",
         )
     )
 
@@ -1659,7 +1659,7 @@ def main():
         0x102,
         (
             "#00105FEven so ……\x01",
-            "さっきTruckを止めたのは\x01",
+            "I stopped the truck earlier.\x01",
             "I wonder what was it?\x02",
         )
     )
@@ -1670,7 +1670,7 @@ def main():
         0x109,
         (
             "#10105FI agree……\x02\x03",
-            "何かspearのような物が\x01",
+            "There is something like a spear\x01",
             "It looked like he was flying.\x02",
         )
     )
@@ -1974,7 +1974,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201Fでは、さっき飛んできたspearは……\x02",
+        "#00201FThen, the spear that flew a while ago ……\x02",
     )
 
     CloseMessageWindow()
@@ -1982,7 +1982,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F《鋼の聖女》Ariane Road……\x01",
+            "#00003F\"Steel Saint\" Ariane Road ……\x01",
             "Sure, it was called so.\x02\x03",
             "#00013F…. What the heck is it for?\x01",
             "Why do you imitate to help us?\x02",
@@ -2017,7 +2017,7 @@ def main():
         0x102,
         (
             "#00105FWell then, then …\x01",
-            "Minnesの犯罪を止める為に……？\x02",
+            "In order to stop Minnes' crime …?\x02",
         )
     )
 
@@ -2041,7 +2041,7 @@ def main():
             "#04900FNo matter how you perceive it.\x02\x03",
             "── Next look#2RMami#By the time I can\x01",
             "Further advance, do not you think?\x02\x03",
-            "我がspearの一閃の前に\x01",
+            "Before one spear of my spear\x01",
             "If you do not want to get scattered.\x02",
         )
     )
@@ -2183,7 +2183,7 @@ def main():
         0x102,
         (
             "#00103F…… Hey, Lloyd.\x01",
-            "ひとまずMinnesを連行しましょう？\x02\x03",
+            "Let's take minnes for a while now?\x02\x03",
             "#00100FAlways here\x01",
             "Even though I thought it would be useless.\x02",
         )
@@ -2231,7 +2231,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Lloyd's\x01",
             "Together with the escorted guard car\x01",
-            "Minnesを連行し……\x02",
+            "Carry Minnes … ….\x02",
         )
     )
 

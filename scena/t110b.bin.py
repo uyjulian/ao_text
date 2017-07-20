@@ -289,7 +289,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWelcome to Michelin Guesthouse.\x02",
+        "#5PWelcome to Michelam Greeting Hall\x02",
     )
 
     CloseMessageWindow()
@@ -311,7 +311,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWelcome to Michelin Guesthouse.\x02",
+        "#5PWelcome to Michelam Greeting Hall\x02",
     )
 
     CloseMessageWindow()
@@ -333,7 +333,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWelcome to Michelin Guesthouse.\x02",
+        "#5PWelcome to Michelam Greeting Hall\x02",
     )
 
     CloseMessageWindow()
@@ -355,7 +355,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWelcome to Michelin Guesthouse.\x02",
+        "#5PWelcome to Michelam Greeting Hall\x02",
     )
 
     CloseMessageWindow()
@@ -377,7 +377,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWelcome to Michelin Guesthouse.\x02",
+        "#5PWelcome to Michelam Greeting Hall\x02",
     )
 
     CloseMessageWindow()
@@ -397,7 +397,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#12PYes, I see.\x02",
+        "#00000F#12PYes, that's right\x02",
     )
 
     CloseMessageWindow()
@@ -406,7 +406,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#12PWell … you …?\x02",
+        "#00005F#12POh you are\x02",
     )
 
     CloseMessageWindow()
@@ -495,7 +495,7 @@ def main():
 
     AnonymousTalk(
         0x102,
-        "#00105FAh … That was right.\x02",
+        "#00105FOh that's right\x02",
     )
 
     CloseMessageWindow()
@@ -566,7 +566,7 @@ def main():
             "#00102F#12PAt the trade meeting\x01",
             "The leaders of each country here\x01",
             "You heard you were able to stay.\x02\x03",
-            "#00109FI really appreciate your work.\x02",
+            "#00109FReally, good work\x02",
         )
     )
 
@@ -657,8 +657,8 @@ def main():
 
     NpcTalk(
         0x9,
-        "Keyaの声",
-        "#11P#12A#30W#NI love you!\x02",
+        "Ka'a voice",
+        "#11P#12A#30W#NOH they're here\x02",
     )
 
     CloseMessageWindow()
@@ -680,7 +680,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#12PKeya、先に来てたのか。\x02",
+        "#00002F#12PKeA, you were here\x02",
     )
 
     CloseMessageWindow()
@@ -701,7 +701,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00004F#12POkay, I understand.\x02",
+        "#00004F#12PAhah, got it\x02",
     )
 
     CloseMessageWindow()

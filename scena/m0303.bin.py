@@ -312,7 +312,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -384,7 +384,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00005FIs this … …. underground parking lot?\x02",
+        "#6P#00005FThis is… an underground parking lot?\x02",
     )
 
     CloseMessageWindow()
@@ -425,7 +425,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10106F#5P……I see.\x02",
+        "#10106F#5PI see…\x02",
     )
 
     CloseMessageWindow()
@@ -445,7 +445,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00006FWell, that would be the correct answer.\x02\x03",
+            "#6P#00006FWell, that's probably true\x02\x03",
             "#00001FBut … wide and wide\x01",
             "It seems to be difficult to follow up.\x02",
         )
@@ -455,7 +455,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#5P#00200F………………………………\x02",
+        "#5P#00200F…\x02",
     )
 
     CloseMessageWindow()
@@ -495,7 +495,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#5P#00203F…… Confirmed human reaction.\x02\x03",
+            "#5P#00203FI verified their signatures\x02\x03",
             "#00201FApparently there are about 8 members\x01",
             "It seems that it is moving around here.\x02",
         )
@@ -505,7 +505,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00000FReally……! Is it?\x02",
+        "#12P#00000FReally?!\x02",
     )
 
     CloseMessageWindow()
@@ -747,8 +747,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#12P#00201F(Ah……)\x02\x03",
-            "#00207F(… …. everyone, that is over there!\x02",
+            "#12P#00201FAh!\x02\x03",
+            "#00207FEveryone, over there!~\x02",
         )
     )
 
@@ -809,14 +809,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#11P(Ah …)\x02",
+        "#00007F#11PAh!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#11P#10310F(Unpalatable……!)\x02",
+        "#11P#10310FThis is bad\x02",
     )
 
     CloseMessageWindow()
@@ -936,14 +936,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5Pwhat……\x02",
+        "#5PWhat?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#5PWhat are they! Is it?\x02",
+        "#5PWho are they?\x02",
     )
 
     CloseMessageWindow()
@@ -981,7 +981,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5PIs it a pursuer? Is it?\x02",
+        "#5PThey're chasing?\x02",
     )
 
     CloseMessageWindow()
@@ -1023,14 +1023,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00010FDamn\x02",
+        "#12P#00010FUgh\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00301FWait …!\x02",
+        "#00301FUgh\x02",
     )
 
     CloseMessageWindow()
@@ -1066,14 +1066,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWow …!\x02",
+        "#5PUgh…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "I'm armed with rifles!\x02",
+        "Back off!\x02",
     )
 
     CloseMessageWindow()
@@ -1081,7 +1081,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00107FWell, Noel!\x02",
+        "#12P#00107FMove, Noel!\x02",
     )
 
     CloseMessageWindow()
@@ -1107,7 +1107,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Wait …!\x02",
+        "Ugh\x02",
     )
 
     CloseMessageWindow()
@@ -1152,7 +1152,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#11PDamn\x01",
+            "#11PUgh\x01",
             "What are those guys! Is it?\x02",
         )
     )
@@ -1237,7 +1237,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#6P#00206FFu … … I removed it.\x02",
+        "#6P#00206FSigh\x02",
     )
 
     CloseMessageWindow()
@@ -1256,7 +1256,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00007FAnyway I'll chase you!\x02\x03",
+            "#12P#00007FAnyway let's chase them!\x02\x03",
             "Probably, I get off over there\x01",
             "There should be a route!\x02",
         )

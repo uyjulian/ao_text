@@ -548,7 +548,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1289,7 +1289,7 @@ def main():
     Sleep(500)
     OP_82(0x64, 0x0, 0xBB8, 0xC8)
     SetMessageWindowPos(200, 20, -1, -1)
-    SetChrName("memberたち")
+    SetChrName("Members")
 
     AnonymousTalk(
         0xFF,
@@ -1914,7 +1914,7 @@ def main():
     Sleep(300)
     OP_82(0xC8, 0x0, 0xBB8, 0xC8)
     SetMessageWindowPos(30, 150, -1, -1)
-    SetChrName("A hunterたち")
+    SetChrName("Hunters")
 
     AnonymousTalk(
         0xFF,
@@ -3541,7 +3541,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#00010FKu … … the building of \"black moon\".\x02",
+        "#5P#00010FTch. Heiyue's building…\x02",
     )
 
     CloseMessageWindow()
@@ -3565,7 +3565,7 @@ def main():
         0x104,
         (
             "#6P#00307FTime goes on ……\x01",
-            "とにかくIBCに向かうぞ！\x02",
+            "Anyway I will head to IBC!\x02",
         )
     )
 
@@ -4090,21 +4090,21 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00007FAre you okay! Is it?\x02",
+        "#12P#00007FEveryone ok!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00307F#12PWhat the hell happened! Is it?\x02",
+        "#00307F#12PWhat in the world happened!??\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xF,
-        "#5PNothing, anything ……\x02",
+        "#5PH-how to put it…\x02",
     )
 
     CloseMessageWindow()
@@ -4144,7 +4144,7 @@ def main():
     NpcTalk(
         0xB,
         "Voice of a boy",
-        "#4PA, you guys! Is it?\x02",
+        "#4PY-you guys!\x02",
     )
 
     CloseMessageWindow()
@@ -4198,7 +4198,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#6P#00202FYona、主任……\x01",
+            "#6P#00202FJonah, chief … …\x01",
             "Were you safe?\x02",
         )
     )
@@ -4207,7 +4207,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#11PHa ha, somehow ……\x02",
+        "#11PHaa Haa, somehow\x02",
     )
 
     CloseMessageWindow()
@@ -4252,7 +4252,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00007FWhat a boss …!\x02",
+        "#6P#00007FBoss!\x02",
     )
 
     CloseMessageWindow()
@@ -4298,7 +4298,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11PThe difficulties should have escaped!\x02",
+        "#11PShe should have gotten away safely\x02",
     )
 
     CloseMessageWindow()
@@ -4307,7 +4307,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#6P#00106FThat's right … that's good.\x02",
+        "#6P#00106FO-oh thank goodness\x02",
     )
 
     CloseMessageWindow()
@@ -4339,7 +4339,7 @@ def main():
         (
             "#00301F#12PI do not know …\x01",
             "Even in Roku I feel premonition.\x02\x03",
-            "#00307FLet's go!\x02",
+            "#00307FAnyway let's go!\x02",
         )
     )
 
@@ -4347,7 +4347,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00007FAh……!\x02",
+        "#6P#00007FRight!\x02",
     )
 
     CloseMessageWindow()
@@ -4357,7 +4357,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00107FEast Streetは比較的安全です！\x02\x03",
+            "#12P#00107FThe path to East Street is safe!\x02\x03",
             "Toward that one\x01",
             "Please depend on the guild!\x02",
         )
@@ -4367,7 +4367,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#11PWow, I understand!\x02",
+        "#11PEveryone, I'll lead stick to me!\x02",
     )
 
     CloseMessageWindow()
@@ -4525,7 +4525,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10303Fツァオやmemberたちは\x01",
+            "#6P#10303FTsao and the members\x01",
             "I do not see it.\x02\x03",
             "#10301FBefore being done\x01",
             "I wonder if he ran away well?\x02",
@@ -4561,7 +4561,7 @@ def main():
         (
             "#12P#00003F…… I am worried,\x01",
             "I do not have time to make sure now.\x02\x03",
-            "#00001F俺たちはIBCに急ごう！\x02",
+            "#00001FLet's hurry to IBC!\x02",
         )
     )
 
@@ -4585,7 +4585,7 @@ def main():
         (
             "#00003F… … that Tsao\x01",
             "I do not think that it was easily done.\x02\x03",
-            "#00001Fとにかく今はIBCに急ごう！\x02",
+            "#00001FAnyway now let's hurry to IBC!\x02",
         )
     )
 
@@ -4611,11 +4611,11 @@ def main():
 
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_6C7D")
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "導力carで移動する")
+    MenuCmd(1, 0, "Travel with a driving car")
     RunExpression(0x5, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     RunExpression(0x6, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_6B98")
-    MenuCmd(1, 0, "導力carで休憩する")
+    MenuCmd(1, 0, "Take a break with a driving car")
     RunExpression(0x5, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
     RunExpression(0x6, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
@@ -4631,7 +4631,7 @@ def main():
         0x101,
         (
             "#00001Fno time--\x01",
-            "急いでIBCに向かおう！\x02",
+            "Let's hurry and head for IBC!\x02",
         )
     )
 
@@ -4699,7 +4699,7 @@ def main():
         0x101,
         (
             "#00001Fno time--\x01",
-            "急いでIBCに向かおう！\x02",
+            "Let's hurry and head for IBC!\x02",
         )
     )
 
@@ -4721,7 +4721,7 @@ def main():
         0x101,
         (
             "#00001Fno time--\x01",
-            "急いでIBCに向かおう！\x02",
+            "Let's hurry and head for IBC!\x02",
         )
     )
 

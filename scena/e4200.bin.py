@@ -181,7 +181,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00003F#5PWhat is \"we\" …\x02\x03",
+            "#00003F#5PWe?\x02\x03",
             "#00001FPossibly due to Libert incident\x01",
             "Also \"dragon\" that appeared … ….?\x02",
         )
@@ -235,7 +235,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5PWhat, what is it …?\x02\x03",
+            "#00006F#5PThat's crazy…\x02\x03",
             "#00008FBut then also Zeit\x01",
             "From long ago to the crossbell land …?\x02",
         )
@@ -322,7 +322,7 @@ def main():
         (
             "#00001F#5P── I beg you.\x01",
             "Please let me know.\x02\x03",
-            "The events of 1200 years ago.\x02\x03",
+            "What happened 1200 years ago?\x02\x03",
             "And 500 years ago,\x01",
             "I wonder what happened to Ka'aa.\x02",
         )
@@ -339,7 +339,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P── It will be good.\x02",
+            "#11PVery well then\x02",
         )
     )
 
@@ -368,7 +368,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PThe treasure of the goddess transmitted to this place ……\x02",
+            "#11PThe Master of Aidos who were sent to this land\x02",
         )
     )
 
@@ -419,7 +419,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PIdentifying people#2RTo#Identify everything on the ground#2RTo#Ri\x01",
+            "#11PIdentifying people#2RTo#Ri地上の全てを識#2RTo#Ri\x01",
             "Leading humans by controlling causality ……\x02\x03",
             "It seemingly unlimited human desire\x01",
             "The treasure of \"Empty treasure#8RAuroru#\"Also\x01",
@@ -491,7 +491,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P…… Such a thing ……\x02\x03",
+            "#00006F#5PThat's what happened…\x02\x03",
             "#00013FBut then, then\x01",
             "People left after … …\x02",
         )
@@ -623,7 +623,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P…… It's a tremendous story.\x02\x03",
+            "#00006F#5PIt's a story without reason\x02\x03",
             "#00008FBut finally … the whole picture of the incident\x01",
             "I feel like I'm starting to see it.\x02",
         )
@@ -767,8 +767,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00008F#5P……Really……\x02\x03",
-            "#00003F…………………………………….\x02",
+            "#00008F#5PI see..\x02\x03",
+            "#00003F…\x02",
         )
     )
 
@@ -781,7 +781,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5PTell me one more thing.\x02\x03",
+            "#00006F#5PTell me one more thing\x02\x03",
             "#00008FAs long as I heard the story so far,\x01",
             "That girl … …\x02\x03",
             "#00001F…… Kaoru ……\x01",
@@ -795,7 +795,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P………… Yes.\x02",
+            "#11PHm.\x02",
         )
     )
 
@@ -805,7 +805,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PThose who do not have to do with people.\x02",
+            "#11PSomething inanimate of the form of humanity\x02",
         )
     )
 
@@ -835,7 +835,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#00008F#30W#5P………………………………\x02",
+        "#00008F#30W#5P….\x02",
     )
 
     CloseMessageWindow()
@@ -879,7 +879,7 @@ def main():
             "You knew … …)\x02\x03",
             "(Nevertheless in front of us\x01",
             "Laugh like that … …)\x02\x03",
-            "#00008F(………… Keya ……………)\x02",
+            "#00008F(KeA….)\x02",
         )
     )
 

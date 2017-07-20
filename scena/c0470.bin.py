@@ -460,7 +460,7 @@ def main():
         0x104,
         (
             "#00300FYou know well.\x01",
-            "さすがDrake ownerだぜ。\x02",
+            "As expected it is a Drake owner.\x02",
         )
     )
 
@@ -1629,7 +1629,7 @@ def main():
             "#10304FWell, for the host\x01",
             "Around here including the casino\x01",
             "It's like a workplace.\x02\x03",
-            "#10300F逆にDrake ownerと\x01",
+            "#10300FConversely with the Drake owner\x01",
             "I do not know a host I do not know\x01",
             "Is not it a moguri or a trip?\x02",
         )
@@ -1931,7 +1931,7 @@ def main():
         0x9,
         (
             "Uh, honestly scared ….\x01",
-            "GalettiさんとElindeさんが\x01",
+            "Garetti and Elinde\x01",
             "I'm glad it was a holiday.\x02",
         )
     )
@@ -1956,7 +1956,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "GalettiさんとElindeさんが\x01",
+            "Garetti and Elinde\x01",
             "Because it is a holiday, I can not play with 1F … …\x02",
         )
     )
@@ -2196,7 +2196,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "cherryにはよく分かんないけど、\x01",
+            "I do not know well in cherry,\x01",
             "Anyway I want you to go well\x02",
         )
     )
@@ -2301,7 +2301,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00304F全くだ、悪ぃなcherryちゃん。\x02\x03",
+            "#00304FTotally, evil Cherry.\x02\x03",
             "#00309FThen, immediately round up the work -\x02",
         )
     )
@@ -2389,7 +2389,7 @@ def main():
         0x9,
         (
             "Otherwise,\x01",
-            "cherryつまんないんだからぁ。\x02",
+            "Cherry I'm bored.\x02",
         )
     )
 
@@ -2431,7 +2431,7 @@ def main():
         0x9,
         (
             "Suddenly, Flat\x01",
-            "Rectorさんがやって来て\x01",
+            "Mr. Lecta came\x01",
             "I went up to the second floor.\x02",
         )
     )
@@ -2471,7 +2471,7 @@ def main():
         0x9,
         (
             "Suddenly, Flat\x01",
-            "Rectorさんがやって来て\x01",
+            "Mr. Lecta came\x01",
             "I went up to the second floor.\x02",
         )
     )
@@ -2659,7 +2659,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "常連のLaterarossaさんが\x01",
+            "Mr. Reitarossa regulars\x01",
             "After being returned home,\x01",
             "I am lonely.\x02",
         )
@@ -2695,7 +2695,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "常連のLaterarossaさん……\x01",
+            "Mr. Reitarossa regular … …\x01",
             "If Crosbell regains peace,\x01",
             "I want you to come and visit again.\x02",
         )
@@ -3155,7 +3155,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "いやはや、Laterarossa様は\x01",
+            "No, No, Raita Rossa\x01",
             "It really is unbelievable.\x02",
         )
     )
@@ -3522,7 +3522,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "Drake owner、\x01",
+            "Drake owner,\x01",
             "I heard that I am a little sleepy today.\x02",
         )
     )
@@ -4074,7 +4074,7 @@ def main():
         0xFE,
         (
             "Uhufu, after all\x01",
-            "Drake ownerみたいに\x01",
+            "Like Drake owner\x01",
             "I am bitter and must be Dandy.\x02",
         )
     )
@@ -4100,7 +4100,7 @@ def main():
         0xFE,
         (
             "Uhufu, after all\x01",
-            "Drake ownerみたいに\x01",
+            "Like Drake owner\x01",
             "I am bitter and must be Dandy.\x02",
         )
     )
@@ -4144,7 +4144,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Galettiさん、\x01",
+            "Galetti,\x01",
             "I lost to Mr. Gants before\x01",
             "I still have it in the roots.\x02",
         )
@@ -4216,7 +4216,7 @@ def main():
         0x104,
         (
             "#00305FOh, that kind of you\x01",
-            "Laterarossaのお姉さん。\x02\x03",
+            "Literallosa's older sister.\x02\x03",
             "#00302FHow about, celebrate the reunion\x01",
             "Even on a date with me ……\x02",
         )
@@ -4969,7 +4969,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00305Fん？　じゃあRicci grandfather、\x01",
+            "#00305FHmm? Okay, Ricci grandfather,\x01",
             "What are you doing without Mira?\x02",
         )
     )
@@ -5074,7 +5074,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00300Fよう、Ricci grandfather。\x01",
+            "#00300FLooks like Ricci grandfather.\x01",
             "Have you made doing?\x02",
         )
     )
@@ -5260,7 +5260,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00300Fよう、Ricci grandfather。\x01",
+            "#00300FLooks like Ricci grandfather.\x01",
             "How are you doing?\x02",
         )
     )
@@ -5345,7 +5345,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "バーに賭博場、溢れるtouristに\x01",
+            "A gaming center in the bar, a tourist full of abundance\x01",
             "Gathering group gush\x02",
         )
     )
@@ -5632,7 +5632,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "ククッ、ほどほどにしとけよYuri〜。\x02",
+        "Kukuto, do it in moderation Yuri ~.\x02",
     )
 
     CloseMessageWindow()
@@ -5766,7 +5766,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00006Fレ、Rectorさん……\x01",
+            "#6P#00006FLes Lector, … ….\x01",
             "Also to such a casino in …\x02",
         )
     )
@@ -6188,7 +6188,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PThis is everyone.\x02",
+        "#5PHello everyone\x02",
     )
 
     CloseMessageWindow()
@@ -6295,7 +6295,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00005FIs there something …?\x02",
+        "#12P#00005FSomething?\x02",
     )
 
     CloseMessageWindow()
@@ -6332,28 +6332,28 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106FSomething like that ….\x02",
+        "#00106FNo way…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#12P#10108F…… Randy senior ……\x02",
+        "#12P#10108FRandy-senpai..\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#6P#00206FIt seems … …. It is too little.\x02",
+        "#6P#00206FThat doesn't seem like him at all\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#5P#00008F……………………………………\x02",
+        "#5P#00008F…\x02",
     )
 
     CloseMessageWindow()
@@ -6390,7 +6390,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00100FOwner …\x02",
+        "#00100FOrner…\x02",
     )
 
     CloseMessageWindow()
@@ -6513,7 +6513,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00013F#12P──Rectorさん。\x01",
+            "#00013F#12P─ ─ Lecter.\x01",
             "I can not run away anymore.\x02",
         )
     )
@@ -6568,7 +6568,7 @@ def main():
             "#00003F#12P……I understand.\x01",
             "Then let me ask a question.\x02\x03",
             "#00001F─ ─ Empire Government Second Secretary,\x01",
-            "Rector・アランドール殿で\x01",
+            "At Rector Arundole\x01",
             "Is it correct?\x02",
         )
     )
@@ -7533,7 +7533,7 @@ def main():
             "After that, Lloyd's\x01",
             "Return to the police headquarters and call the first section ……\x02\x03",
             "Together with the trend of black moon\x01",
-            "Rectorに関する報告を行った。\x07\x00\x02",
+            "I made a report on Rector.\x07\x00\x02",
         )
     )
 

@@ -246,7 +246,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#00607F#3458V#30W#15A#11PCome along without delay!\x02",
+        "#00607F#3458V#30W#15A#11PKeep up with us!\x02",
     )
 
     CloseMessageWindow()
@@ -321,14 +321,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#11PLet us also hurry.\x02",
+        "#00101F#11PLet's hurry on\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#6P#00007F#5PAh……!\x02",
+        "#6P#00007F#5PRight!\x02",
     )
 
     CloseMessageWindow()
@@ -742,14 +742,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#11PThis … … I got a great place.\x02",
+        "#00011F#11PThis is… what a place\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10111F#11PIt is somewhat overwhelming …\x02",
+        "#10111F#11PI'm sort of scared\x02",
     )
 
     CloseMessageWindow()
@@ -791,7 +791,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00301F#5PWell, hurry up anyway.\x02",
+        "#00301F#5PAnyway let's hurry\x02",
     )
 
     CloseMessageWindow()
@@ -800,7 +800,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#00001FOh, it's towards the south.\x02",
+        "#5P#00001FYeah… to the south\x02",
     )
 
     CloseMessageWindow()

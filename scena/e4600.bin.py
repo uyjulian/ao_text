@@ -159,7 +159,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Good job, doctor.\x02\x03",
+            "Good work, professor\x02\x03",
             "── Campanella.\x01",
             "\"Enforcer#6RLegion#\"What's their move?\x02",
         )
@@ -192,7 +192,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Hmm, I understand.\x02\x03",
+            "Hmm. Understood\x02\x03",
             "Like Meister,\x01",
             "Please leave it to their will.\x02",
         )
@@ -239,7 +239,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Oh, did you come.\x02",
+            "Oh he's here\x02",
         )
     )
 
@@ -249,7 +249,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04809F#5PHuh, it's on time.\x02",
+        "#04809F#5PEhe, right on time\x02",
     )
 
     CloseMessageWindow()
@@ -292,8 +292,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#3885V#40W── We kept you waiting.\x02\x03",
-            "#3886VIt seems you are already starting.\x02",
+            "#3885V#40WSorry for the wait.\x02\x03",
+            "#3886VIt appears you've already begun\x02",
         )
     )
 
@@ -310,7 +310,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "No, I just started.\x02\x03",
+            "No, we just started\x02\x03",
             "About the case of example\x01",
             "Are you sure?\x02",
         )
@@ -376,7 +376,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Yes, there is no objection.\x02",
+            "Yes, no argument\x02",
         )
     )
 
@@ -420,7 +420,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Huh, I understand.\x02",
+            "Haha, roger\x02",
         )
     )
 
@@ -433,7 +433,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Everything is for the \"owner\".\x02",
+            "All for the Master\x02",
         )
     )
 

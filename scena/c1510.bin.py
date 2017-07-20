@@ -759,7 +759,7 @@ def main():
         0x8,
         (
             "Although there are still many confusion …\x01",
-            "ここがCitizenのためのビルであることに\x01",
+            "To be that this is a building for citizens\x01",
             "There is no change.\x02",
         )
     )
@@ -785,7 +785,7 @@ def main():
         0x8,
         (
             "Orkis Tower\x01",
-            "Citizenのためのビルであることに\x01",
+            "To be a building for citizens\x01",
             "There is no change.\x02",
         )
     )
@@ -824,7 +824,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "本日、Citizen会館では街の復興を\x01",
+            "Today, in the city hall, revive the city\x01",
             "Support charity event\x01",
             "We are holding.\x02",
         )
@@ -893,7 +893,7 @@ def main():
         0x8,
         (
             "Naturally ……\x01",
-            "Citizenの皆さんの間にもかなり\x01",
+            "It is quite among the citizens as well\x01",
             "It seems that shakes are spreading.\x02",
         )
     )
@@ -971,9 +971,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "本日は、Citizen会館にて\x01",
+            "Today at the municipal hall\x01",
             "The theme of 'independence of national independence'\x01",
-            "Citizenフォーラムが開催中です。\x02",
+            "A citizen forum is underway.\x02",
         )
     )
 
@@ -1128,7 +1128,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Citizenの皆様に、より有意義な\x01",
+            "To the citizens, more meaningful\x01",
             "To provide services\x01",
             "All the staff struggle hard on a daily basis.\x02",
         )
@@ -1203,7 +1203,7 @@ def main():
         0x8,
         (
             "From sightseeing information, medical and welfare etc.\x01",
-            "Citizen生活に関するご相談まで、\x01",
+            "Until consultation about civic life,\x01",
             "Please contact us for anything.\x02",
         )
     )
@@ -1230,7 +1230,7 @@ def main():
         0x8,
         (
             "From sightseeing information, medical and welfare etc.\x01",
-            "Citizen生活に関するご相談まで、\x01",
+            "Until consultation about civic life,\x01",
             "Please contact us for anything.\x02",
         )
     )
@@ -1250,7 +1250,7 @@ def main():
         0x8,
         (
             "Everyone, thanks for your hard work.\x01",
-            "こちらはThe Orkis Tower\x01",
+            "This is the Orkis Tower\x01",
             "It is a comprehensive receptionist.\x02",
         )
     )
@@ -1735,7 +1735,7 @@ def main():
         0x9,
         (
             "We are dealing with this window\x01",
-            "手続きの大半はCitizen会館でも\x01",
+            "Most of the procedure is also done at the city hall\x01",
             "We accept.\x02",
         )
     )
@@ -1869,7 +1869,7 @@ def main():
         0xA,
         (
             "Because it is such a time,\x01",
-            "Citizenのために\x01",
+            "For citizens\x01",
             "I have to work firmly.\x02",
         )
     )
@@ -1896,7 +1896,7 @@ def main():
         0xA,
         (
             "Because it is such a time,\x01",
-            "Citizenのために\x01",
+            "For citizens\x01",
             "I have to work firmly.\x02",
         )
     )
@@ -2003,7 +2003,7 @@ def main():
         0xA,
         (
             "If the damage will expand further\x01",
-            "Policeman隊の投入も考えられるけど……\x02",
+            "I can think of introducing the police force ….\x02",
         )
     )
 
@@ -2203,7 +2203,7 @@ def main():
         0xA,
         (
             "The opening day of the city hall is open to the public\x01",
-            "Citizenたちでこのエントランスが\x01",
+            "This entrance is citizens\x01",
             "Please be crowded.\x02",
         )
     )
@@ -2922,7 +2922,7 @@ def main():
         0xFE,
         (
             "Anyway the scenery is the best,\x01",
-            "何だかCitizenの皆さんに対して\x01",
+            "Somewhat against the citizens\x01",
             "I feel sorry.\x02",
         )
     )
@@ -2938,7 +2938,7 @@ def main():
         0xFE,
         (
             "However, the cafe should preferably\x01",
-            "早めにCitizenに開放しようという\x01",
+            "I will open it to citizens early\x01",
             "The talk has also been raised.\x02",
         )
     )
@@ -3034,7 +3034,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Mayor of Dieterから直接\x01",
+            "Directly from Mayor Dieter\x01",
             "To be able to guide the venue,\x01",
             "I'm a staff member of the Special Affairs Division.\x02",
         )
@@ -3406,7 +3406,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Roberts bossも来てくれてるし、\x01",
+            "Roberts' boss is also coming,\x01",
             "Trouble with conductivity net\x01",
             "You can handle anything.\x02",
         )
@@ -3686,7 +3686,7 @@ def main():
         0xFE,
         (
             "Huh, that's amazing ……\x01",
-            "これがThe Orkis Tower\x01",
+            "This is the Orkis Tower\x01",
             "Entrance?\x02",
         )
     )
@@ -4557,7 +4557,7 @@ def main():
             "#02302FThat reminds me … …\x01",
             "\"Pomutto! Account\x01",
             "You have it?\x02\x03",
-            "#02304Fフフン、折角だからこのYona様の\x01",
+            "#02304FHuhun, this is because of this Jonah-sama\x01",
             "I will give you an account.\x02\x03",
             "#02302FI was involved from the development stage\x01",
             "If you can win, try winning.\x02",
@@ -4572,7 +4572,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "『Yonaのアカウント』\x07\x00",
+            "\"Account of Yona\"\x07\x00",
             "I got it.\x02",
         )
     )
@@ -4615,7 +4615,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F仕方ありません、Yonaは\x01",
+            "#00203FThere's no helping, Jonah\x01",
             "Moyager's syndrome#6Rsyndrome#Therefore.\x02",
         )
     )
@@ -4658,7 +4658,7 @@ def main():
         (
             "#02303FI can not stop thinking\x01",
             "Let's say I'm going home after dandelion.\x02\x03",
-            "#02301Fアンタらも、If you go to a wetland\x01",
+            "#02301FIf you go to wetlands too\x01",
             "I can not go wrong.\x02",
         )
     )
@@ -4699,7 +4699,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100FGraceさんたちは\x01",
+            "#00100FGrace's are\x01",
             "Is it Congress's interview or something?\x02",
         )
     )
@@ -4819,7 +4819,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Grace先輩……議員の方に\x01",
+            "Grace senior … … For the lawmakers\x01",
             "I do not have to ask strange things.\x02",
         )
     )
@@ -4914,7 +4914,7 @@ def main():
         0x103,
         (
             "#00204FI agree……\x01",
-            "Roberts bossやギヨーム親方にも\x01",
+            "As Roberts and Guillaume boss\x01",
             "Let me help you.\x02",
         )
     )
@@ -5135,7 +5135,7 @@ def main():
         0x104,
         (
             "#00300FShould I have enough in the unlikely event …\x01",
-            "頼むぜ、Lishaちゃん。\x02",
+            "Let's ask, Lisa-chan.\x02",
         )
     )
 
@@ -5964,7 +5964,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011FMayor of Dieter！？\x02",
+        "#00011FMayor of Dieter! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -6010,7 +6010,7 @@ def main():
         (
             "It's been half a month ago,\x01",
             "Eli, Lloyd.\x02\x03",
-            "Waji君にNoel君に……\x02\x03",
+            "Waji, to Noel … …\x02\x03",
             "Oops, with Randy\x01",
             "Did you see Tio for a long time?\x02",
         )
@@ -6911,7 +6911,7 @@ def main():
     OP_0D()
     OP_CC(0x0, 0x0, 0x3)
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("Yonaの声")
+    SetChrName("Voice of Jonah")
 
     AnonymousTalk(
         0xFF,
@@ -6942,7 +6942,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("Yonaの声")
+    SetChrName("Voice of Jonah")
 
     AnonymousTalk(
         0xFF,
@@ -7281,7 +7281,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00104F#6P… That's right.\x02",
+        "#00104F#6PTrue…\x02",
     )
 
     CloseMessageWindow()
@@ -7370,7 +7370,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#5P#10708F… … It looks like it will still continue.\x02",
+        "#5P#10708FIt seems it's still continuining\x02",
     )
 
     CloseMessageWindow()
@@ -7413,7 +7413,7 @@ def main():
         (
             "#6P#00603FAs the meeting,\x01",
             "Here two people wait.\x02\x03",
-            "#00600FChoose, Bannings.\x02",
+            "#00600FChoose, Bannings\x02",
         )
     )
 
@@ -7462,7 +7462,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00001FIt is okay.\x02",
+        "#11P#00001FUnderstood\x02",
     )
 
     CloseMessageWindow()
@@ -7518,7 +7518,7 @@ def main():
     ChrTalk(
         0x1F,
         (
-            "カードがなければ、The elevator\x01",
+            "Without the card, the elevator\x01",
             "You can not use it.\x02",
         )
     )

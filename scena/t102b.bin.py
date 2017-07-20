@@ -566,7 +566,7 @@ def main():
         (
             "#01700FIt may be something that we are going through,\x01",
             "We are waiting here.\x02\x03",
-            "#01703FZeit君の様子を見ると、\x01",
+            "#01703FLooking at Zeit's appearance,\x01",
             "I feel somewhat disgusting … …\x02\x03",
             "#01702FMy younger brother, as soon as that girl\x01",
             "Please find it.\x02",
@@ -656,7 +656,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F……Lisha？\x02",
+        "#00005F… …. Lisha?\x02",
     )
 
     CloseMessageWindow()
@@ -828,7 +828,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00201F……Zeit、\x01",
+            "#00201F…… Zeit,\x01",
             "It seems to be pretty wary.\x02",
         )
     )
@@ -1053,7 +1053,7 @@ def main():
         0x11,
         (
             "Sakita, there you are\x01",
-            "アルカンシェルのIliaが\x01",
+            "Iria of alkane shell\x01",
             "I went through.\x02",
         )
     )
@@ -1079,7 +1079,7 @@ def main():
         0x11,
         (
             "A little while ago\x01",
-            "Ilia・プラティエが\x01",
+            "Iria · Platier\x01",
             "I went through.\x02",
         )
     )
@@ -1367,8 +1367,8 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#01203F#5P… …. Gurrule ………\x02\x03",
-            "#01201FGuru …… Won.\x02",
+            "#01203F#5PGrrrrr\x02\x03",
+            "#01201FGrrr, Woof!\x02",
         )
     )
 
@@ -1396,7 +1396,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#6PWell, but be careful …\x02",
+        "#00108F#6PB-but, be careful…\x02",
     )
 
     CloseMessageWindow()
@@ -1408,8 +1408,8 @@ def main():
         (
             "#00006F#11P……no time.\x01",
             "Anyway let's go.\x02\x03",
-            "#00003FFranc、Cecil姉、\x01",
-            "それとIliaさんたち……\x02\x03",
+            "#00003FFran, Cecil elder sister,\x01",
+            "And Iria's … …\x02\x03",
             "#00001FEveryone here\x01",
             "Please wait.\x02",
         )
@@ -1419,7 +1419,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#04207F#6PBut, it is …!\x02",
+        "#04207F#6PB-but…\x02",
     )
 
     CloseMessageWindow()
@@ -1448,7 +1448,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#11POh, I understand.\x02",
+        "#00002F#11PYeah, got it\x02",
     )
 
     CloseMessageWindow()

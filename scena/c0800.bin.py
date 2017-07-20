@@ -642,7 +642,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00002F#3316V#30WKeya……！\x01",
+            "#12P#00002F#3316V#30WKa aa …!\x01",
             "Did you come and pick me up?\x02",
         )
     )
@@ -691,7 +691,7 @@ def main():
         0x101,
         (
             "#12P#00004FOh, that's fine.\x02\x03",
-            "#00002Fただいま、Keya。\x02",
+            "#00002FI'm back, Ka'a.\x02",
         )
     )
 
@@ -720,7 +720,7 @@ def main():
         0x109,
         (
             "#12P#10109FHaha ……\x01",
-            "ただいま、Keyaちゃん。\x02",
+            "I'm back, Ka'aa.\x02",
         )
     )
 
@@ -796,7 +796,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#12P#10111F#3513V#30Wわわっ、Franc！？\x02",
+        "#12P#10111F#3513V#30WWow, franc! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -874,7 +874,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#6P#01909Fねー、Keyaちゃん？\x02",
+        "#6P#01909FNo, Kaewa-chan?\x02",
     )
 
     CloseMessageWindow()
@@ -1808,7 +1808,7 @@ def main():
         0xB,
         (
             "#6P#01906FOkay, the Special Affairs Division ……\x02\x03",
-            "お姉ちゃんもKeyaちゃんもいるし、\x01",
+            "Both my sister and Keia are there,\x01",
             "I can see Mr. Lloyd in need.\x02",
         )
     )
@@ -2981,7 +2981,7 @@ def main():
         0x102,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00100F帝国政府の専用train、\x01",
+            "#00100FPrivate train of the Imperial government,\x01",
             "\"Eisengraf issue\".\x02\x03",
             "#00103FThis luxurious appearance ……\x01",
             "It looks like it symbolizes the empire.\x02",
@@ -3056,8 +3056,8 @@ def main():
         (
             "#00203F…… What is amazing\x01",
             "It seems that it is not just looks.\x02\x03",
-            "#00200F何でもこのtrain、\x01",
-            "今ある導力trainの中でも\x01",
+            "#00200FAnything this train,\x01",
+            "Even in the presence train which is now\x01",
             "It seems to boast of the highest speed.\x02\x03",
             "Clear information\x01",
             "Because it is not published\x01",
@@ -3183,7 +3183,7 @@ def main():
         (
             "Well, as I said earlier\x01",
             "I would like to ask you guys\x01",
-            "trainの臨検業務の手伝いだ。\x02",
+            "I'm helping the train inspection work.\x02",
         )
     )
 
@@ -3192,7 +3192,7 @@ def main():
     ChrTalk(
         0x20,
         (
-            "具体的には、passenger全員の\x01",
+            "Specifically, all of the passengers\x01",
             "Entry application and baggage check.\x02",
         )
     )
@@ -3202,7 +3202,7 @@ def main():
     ChrTalk(
         0x20,
         (
-            "それから、trainそのものの\x01",
+            "Then, the train itself\x01",
             "We will carry out safety check sharing.\x02",
         )
     )
@@ -3212,7 +3212,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005Fえっと、trainの\x01",
+            "#00005FUm, the train's\x01",
             "What is a safety check?\x02",
         )
     )
@@ -5284,7 +5284,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00100Fですが、どういう理由でtrainに？\x02",
+        "#00100FBut why on a train?\x02",
     )
 
     CloseMessageWindow()
@@ -5941,7 +5941,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#6P#00206F……横断鉄道のtrainも\x01",
+            "#6P#00206F…… The train of the transverse railway is also\x01",
             "I want to keep stopped forever.\x02",
         )
     )
@@ -5950,7 +5950,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#5P#00108FI see …\x02",
+        "#5P#00108FTrue…\x02",
     )
 
     CloseMessageWindow()
@@ -5961,7 +5961,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#5P#00101F……３番ホームのtrainというと\x01",
+            "#5P#00101F…… When I say the third home train\x01",
             "Amazing?\x02",
         )
     )
@@ -5975,7 +5975,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#5P#00101F……３番ホームのtrainというと\x01",
+            "#5P#00101F…… When I say the third home train\x01",
             "I wonder?\x02",
         )
     )
@@ -6035,7 +6035,7 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00601Fフン、あのtrainの\x01",
+            "#00601FHun, that train's\x01",
             "It was the second car from the front.\x02",
         )
     )
@@ -6049,7 +6049,7 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00601Fフン、そのtrainの\x01",
+            "#00601FHun, that train's\x01",
             "It was the second car from the front.\x02",
         )
     )
@@ -6068,7 +6068,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10101Fええ、あのtrainの\x01",
+            "#10101FYeah, that train's\x01",
             "It was the second car from the front.\x02",
         )
     )
@@ -6082,7 +6082,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10101Fええ、そのtrainの\x01",
+            "#10101FYeah, that train's\x01",
             "It was the second car from the front.\x02",
         )
     )
@@ -6101,7 +6101,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10400Fああ、あのtrainの\x01",
+            "#10400FOh, that train's\x01",
             "It was the second car from the front.\x02",
         )
     )
@@ -6115,7 +6115,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10400Fああ、そのtrainの\x01",
+            "#10400FOh, that train's\x01",
             "It was the second car from the front.\x02",
         )
     )
@@ -6241,7 +6241,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#00001FAlright … Let's go.\x02",
+        "#5P#00001FOk, let's check it out\x02",
     )
 
     CloseMessageWindow()
@@ -6294,7 +6294,7 @@ def main():
         (
             "#11P#00008F(3rd Home, 2nd Car … ….\x01",
             "And it is not locked. )\x02\x03",
-            "#00013F(……what will you do?)\x02",
+            "#00013F(What do we do?)\x02",
         )
     )
 
@@ -6571,7 +6571,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "間もなく、共和国行きtrainの\x01",
+            "Soon, the train to the Republic\x01",
             "The inspection will be terminated.\x02",
         )
     )
@@ -6582,7 +6582,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "今しばらく、train内には\x01",
+            "For the time being, within the train\x01",
             "Please do not enter.\x02",
         )
     )
@@ -6598,7 +6598,7 @@ def main():
             "#00005FTo the Republic\x01",
             "Is it about to depart soon …?\x02\x03",
             "#00003FNow……\x01",
-            "Fake brand quotientはどこかな？\x02",
+            "Where is the fake brand name?\x02",
         )
     )
 
@@ -7010,7 +7010,7 @@ def main():
         (
             "#00100FWhatching\x01",
             "It seems I remembered,\x01",
-            "Fake brand quotientのお婆さん。\x02",
+            "A fake brand dealer's grandmother.\x02",
         )
     )
 
@@ -7025,7 +7025,7 @@ def main():
         0x103,
         (
             "#00200FDid you remember …?\x01",
-            "Fake brand quotientのお婆さん。\x02",
+            "A fake brand dealer's grandmother.\x02",
         )
     )
 
@@ -7041,7 +7041,7 @@ def main():
         (
             "#00300FHello, apparently\x01",
             "I wish I could remember it properly,\x01",
-            "Fake brand quotientのバーさんよ。\x02",
+            "Bar fake brand dealer.\x02",
         )
     )
 
@@ -7056,7 +7056,7 @@ def main():
         0x109,
         (
             "#10101FThis person listens to the story\x01",
-            "Fake brand quotientですか……\x02",
+            "Is it a fake brand name ……\x02",
         )
     )
 
@@ -7071,7 +7071,7 @@ def main():
         0x105,
         (
             "#10304FIndeed, this madam\x01",
-            "噂のFake brand quotientか。\x02",
+            "Rumor fake brand merchant?\x02",
         )
     )
 
@@ -7589,7 +7589,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "── We kept you waiting.\x01",
-            "共和国行きtrain、\x01",
+            "Train to Republic,\x01",
             "I will depart soon.\x02",
         )
     )

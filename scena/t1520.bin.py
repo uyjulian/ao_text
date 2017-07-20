@@ -416,7 +416,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00300FCecilさんは休憩中ッスか？\x02",
+        "#6P#00300FIs Cecil on during a break?\x02",
     )
 
     CloseMessageWindow()
@@ -527,8 +527,8 @@ def main():
     AnonymousTalk(
         0x104,
         (
-            "#00309FCecilさんも相当にお美しいッス！！\x02\x03",
-            "#00306Fくぅっ、俺もCecilさんの\x01",
+            "#00309FCecil is also quite beautiful! It is!\x02\x03",
+            "#00306FCow, I also like Cecil's\x01",
             "I wanted to be a childhood friend …\x02",
         )
     )
@@ -540,7 +540,7 @@ def main():
         (
             "#00106FWell, Randy.\x02\x03",
             "#00102FBut when I look like this … …\x01",
-            "本当にCecilさんとお似合いの方\x01",
+            "One who really matches Cecil\x01",
             "I thought that it was.\x02",
         )
     )
@@ -632,7 +632,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00005FCecil姉……\x02\x03",
+            "#6P#00005FCecil elder sister …\x02\x03",
             "#00003FIt may take a while but …\x01",
             "Please wait.\x02\x03",
             "#00000FThe truth of my brother's case, certainly someday\x01",
@@ -1154,7 +1154,7 @@ def main():
         0x8,
         (
             "Oh, maybe ….\x01",
-            "Director Ashraったら\x01",
+            "Ashura's chief director\x01",
             "I wonder if I'm oversleeping again.\x02",
         )
     )

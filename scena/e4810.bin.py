@@ -95,7 +95,7 @@ def main():
         (
             "#04804FHoshin#4RAstral#Code of\x01",
             "Complete installation …\x02\x03",
-            "#04802FWell then, I guess.\x02",
+            "#04802FWell then let's begin\x02",
         )
     )
 
@@ -126,8 +126,8 @@ def main():
         (
             "#04803F#30W─ ─ Access to topological space.\x01",
             "Start searching the whole area of the power net.\x02\x03",
-            "Secure intrusion route from multiple routes.\x02\x03",
-            "#04801FFirst, second and third barriers clear …\x02\x03",
+            "Confirming possible routes\x02\x03",
+            "#04801FFirewall 1, 2, and 3 clear\x02\x03",
             "Successful analysis of logic key.\x01",
             "Capture the final barrier to the main terminal …\x02",
         )

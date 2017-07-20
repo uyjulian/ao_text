@@ -620,7 +620,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "確か、今日はAlecが\x01",
+            "Sure, today is Alec\x01",
             "I wish it was Sunday school day.\x02",
         )
     )
@@ -656,7 +656,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Alecたちには\x01",
+            "To Alec\x01",
             "I want you to study hard.\x02",
         )
     )
@@ -1074,7 +1074,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "宴会の時、なんでTo Lucca-chan\x01",
+            "Why at the party, Lucca\x01",
             "I guess I said such a thing.\x02",
         )
     )
@@ -1110,7 +1110,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "あの様子じゃTo Lucca-chan\x01",
+            "In that situation Lucca-chan\x01",
             "I wonder if I got hated.\x02",
         )
     )
@@ -2145,7 +2145,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "猟兵のやつら、I will come back next time\x01",
+            "The hunters' bastards, if the next time comes\x01",
             "Absolutely not just it.\x02",
         )
     )
@@ -2304,7 +2304,7 @@ def main():
         (
             "Rocky also because it's so hard\x01",
             "Calling, hey.\x01",
-            "大宴会にI got it.\x02",
+            "It was a big party.\x02",
         )
     )
 
@@ -2329,7 +2329,7 @@ def main():
         0xFE,
         (
             "Yesterday, the miners all over\x01",
-            "大宴会にI got it.\x02",
+            "It was a big party.\x02",
         )
     )
 
@@ -2426,7 +2426,7 @@ def main():
         0xFE,
         (
             "For Kami and this town\x01",
-            "今日もDo not try hard to mining.\x02",
+            "Let 's do my best today and mining.\x02",
         )
     )
 

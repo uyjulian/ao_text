@@ -593,7 +593,7 @@ def main():
         0xFE,
         (
             "Bomb victory with the Emperor 's Club ……\x01",
-            "ロイド団員にもPlease give me cooperation.\x02",
+            "Please also cooperate with Lloyd members.\x02",
         )
     )
 
@@ -1789,7 +1789,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "分かったら、Go out quickly.\x02",
+        "When you understand, go out quickly.\x02",
     )
 
     CloseMessageWindow()

@@ -183,7 +183,7 @@ def main():
             "Is not it okay …?\x02\x03",
             "Even such a big injury ……\x01",
             "If you change my grandfather … …\x02\x03",
-            "Immediately soon ……\x02",
+            "And you'll be just like before…\x02",
         )
     )
 
@@ -222,7 +222,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00808F#6P#30W……Len………\x02",
+        "#00808F#6P#30WRenne…\x02",
     )
 
     CloseMessageWindow()
@@ -264,7 +264,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03315F#6P\"Patel = Mattel\"! Is it?\x02\x03",
+            "#03315F#6PPater Mater!?\x02\x03",
             "#03314FAll right……!\x01",
             "Be sure to fix it … …!\x02",
         )
@@ -312,7 +312,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03316F#12P#40WAh……………………\x02",
+        "#03316F#12P#40WAh\x02",
     )
 
     CloseMessageWindow()
@@ -335,7 +335,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03313F#11P#60W#30A…… ぅ ぅ ぅ …… ぁ ぁ ぁ ……\x02",
+        "#03313F#11P#60W#30AWahhhhh\x02",
     )
 
     WaitChrThread(0xA, 1)
@@ -353,7 +353,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03310F#11P#5S#25AWow aaaaaa … …!\x02",
+        "#03310F#11P#5S#25AWAAHHHHHHHHHH!\x02",
     )
 
     CloseMessageWindow()

@@ -575,7 +575,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -645,7 +645,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -735,7 +735,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -826,7 +826,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -917,7 +917,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1686,7 +1686,7 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#6P#00607F──Tsao支社長！\x01",
+            "#6P#00607F─ ─ Tsao branch manager!\x01",
             "They have serious suspicion!\x02\x03",
             "Even if the Representative's power of attorney\x01",
             "There should be no right to take along!\x02",
@@ -1722,7 +1722,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#6P#01401F……伝説の凶手《Silver#2Rイン#》。\x01",
+            "#6P#01401F… … Legendary hitter \"silver#2RIn#\".\x01",
             "Is this the first time to match your face?\x02\x03",
             "#01403FOther than that, considerable practice ……\x01",
             "As expected, a minute seems to be bad.\x02",
@@ -1742,7 +1742,7 @@ def main():
         0x12,
         (
             "#03209F#11PWithout worrying, Huff\x01",
-            "もう一方のterroristほど\x01",
+            "As much as the other terrorist\x01",
             "It should not be terrible eyes.\x02\x03",
             "#03202FAs a political criminal at most\x01",
             "To restrain nationalists\x01",
@@ -2438,7 +2438,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#11P#00011FThis … …. It is also a terrific place.\x02",
+        "#11P#00011FThis is.. Another amazing place\x02",
     )
 
     CloseMessageWindow()
@@ -2454,7 +2454,7 @@ def main():
             "Distribute steam throughout the city\x01",
             "Central heating is\x01",
             "Either way it seems possible.\x02\x03",
-            "#00211FTo the end it is the original schedule, though.\x02",
+            "#00211FAlthough that's still in the works\x02",
         )
     )
 
@@ -2484,9 +2484,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10305F#11PBut here …\x02\x03",
+            "#10305F#11PBut this is..\x02\x03",
             "#10301FDuring the Trade Council, Dudley\x01",
-            "共和国のterroristたちを\x01",
+            "Terrorists in the Republic\x01",
             "Was not it a tracked place?\x02",
         )
     )
@@ -2541,7 +2541,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00001Fby the way……\x02",
+        "#6P#00001FThat's right..\x02",
     )
 
     CloseMessageWindow()
@@ -2641,7 +2641,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00006FYou …\x02",
+        "#6P#00006FOh you\x02",
     )
 
     CloseMessageWindow()
@@ -2672,7 +2672,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306FGeez……\x02",
+        "#00306FSeriously…\x02",
     )
 
     CloseMessageWindow()
@@ -2868,10 +2868,10 @@ def main():
     ChrTalk(
         0x13E,
         (
-            "#02305F#5PBo, it's not my fault!\x02\x03",
+            "#02305F#5PIt's not my fault\x02\x03",
             "#02306FThat's right, the B parcel cleaning machine\x01",
             "I got a runaway … ….\x02\x03",
-            "#02310FIt was my first time to enter this area!\x02",
+            "#02310FThis is my first time here\x02",
         )
     )
 
@@ -2880,7 +2880,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00303F#11PSuspected …\x02",
+        "#00303F#11PSuspicious…\x02",
     )
 
     CloseMessageWindow()
@@ -2907,7 +2907,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#11P#10305Fby the way……\x02\x03",
+            "#11P#10305FThat's right..\x02\x03",
             "#10300FThis place is the Orkis Tower\x01",
             "It is connected also from the base, is not it?\x02\x03",
             "The option of going from there is\x01",
@@ -2923,7 +2923,7 @@ def main():
     ChrTalk(
         0x13E,
         (
-            "#02306F#6Pあー、例のterroristの件以来、\x01",
+            "#02306F#6PAh, since the case of the example terrorist,\x01",
             "It seems that the underground was blocked.\x02\x03",
             "From there, the \"fourth control terminal\" also\x01",
             "It seems to be close to mecha mecha\x01",
@@ -2964,7 +2964,7 @@ def main():
     ChrTalk(
         0x13E,
         (
-            "#02306F#6Pあー、例のterroristの件以来、\x01",
+            "#02306F#6PAh, since the case of the example terrorist,\x01",
             "It seems that the underground was blocked.\x02\x03",
             "From there, the \"fourth control terminal\" also\x01",
             "It seems to be close to mecha mecha\x01",
@@ -2983,7 +2983,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00006FI am in good condition at all.\x02",
+        "#12P#00006FSeriously, you're so lighthearted about it\x02",
     )
 
     CloseMessageWindow()

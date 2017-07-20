@@ -746,7 +746,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "昨日、Lieutenant Mireilleの連れた部隊が\x01",
+            "Yesterday, a unit with three lieutenant Mireille\x01",
             "I heard that he saw a huge monster.\x02",
         )
     )
@@ -1414,7 +1414,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sonya Commandの指揮する\x01",
+            "Command Sonja Command\x01",
             "Security during trade conference,\x01",
             "It is truly reasonable.\x02",
         )
@@ -1462,7 +1462,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Sonya Commandの目の黒いうちは\x01",
+            "The black eye of Sogna command\x01",
             "I realized that it would be impossible at all.\x02",
         )
     )
@@ -2184,7 +2184,7 @@ def main():
 
     NpcTalk(
         0xB,
-        "Soldier cres",
+        "Soldier crès",
         (
             "To be honest,\x01",
             "I do not know what to do.\x02",
@@ -2195,7 +2195,7 @@ def main():
 
     NpcTalk(
         0xB,
-        "Soldier cres",
+        "Soldier crès",
         (
             "But what is important\x01",
             "You have to protect with this hand.\x02",
@@ -2206,7 +2206,7 @@ def main():
 
     NpcTalk(
         0xB,
-        "Soldier cres",
+        "Soldier crès",
         (
             "OK, well …\x01",
             "For the time being I am eating!\x01",
@@ -2223,7 +2223,7 @@ def main():
 
     NpcTalk(
         0xB,
-        "Soldier cres",
+        "Soldier crès",
         "You can not fight if your hungry goes down.\x02",
     )
 
@@ -2231,7 +2231,7 @@ def main():
 
     NpcTalk(
         0xB,
-        "Soldier cres",
+        "Soldier crès",
         (
             "To protect important things ……\x01",
             "I am eating! I will eat it all! It is!\x02",
@@ -2272,7 +2272,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Stellaちゃんや大事な人々を\x01",
+            "Stella and important people\x01",
             "In order to protect it from now on,\x01",
             "You may need independence after all.\x02",
         )
@@ -2299,7 +2299,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Stellaちゃんや大事な人々を\x01",
+            "Stella and important people\x01",
             "In order to protect it from now on,\x01",
             "You may need independence after all.\x02",
         )
@@ -2319,7 +2319,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "昨日Stellaちゃんの\x01",
+            "Yesterday Stella's\x01",
             "After eating spicy simmered,\x01",
             "Somehow my physical condition is good.\x02",
         )
@@ -2352,7 +2352,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "昨日Stellaちゃんの\x01",
+            "Yesterday Stella's\x01",
             "After eating spicy simmered,\x01",
             "Somehow my physical condition is good.\x02",
         )
@@ -2455,7 +2455,7 @@ def main():
         0xFE,
         (
             "…… No matter,\x01",
-            "Stellaちゃんが見てるんだから\x01",
+            "Because Stella is watching\x01",
             "You have to kill it.\x02",
         )
     )
@@ -2471,7 +2471,7 @@ def main():
         0xFE,
         (
             "Recently I'm tired, but ….\x01",
-            "Stellaちゃんが見てるんだ、\x01",
+            "Stella is looking at it,\x01",
             "You have to kill it.\x02",
         )
     )
@@ -2490,7 +2490,7 @@ def main():
         0xFE,
         (
             "Today I guard with the bicycle,\x01",
-            "Stellaちゃんにいいトコ見せないとな。\x02",
+            "I should show it to Stella.\x02",
         )
     )
 
@@ -2515,7 +2515,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "折角Stellaちゃんと\x01",
+            "With Stella-chan\x01",
             "Even though I started dating,\x01",
             "I have not even bought a date.\x02",
         )
@@ -2543,7 +2543,7 @@ def main():
         0xFE,
         (
             "Goshiko ~ ….\x01",
-            "なんとかStellaちゃんと\x01",
+            "Somehow Stella-chan\x01",
             "I would like to make progress.\x02",
         )
     )
@@ -2574,7 +2574,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "Stellaちゃんのことなら、\x01",
+            "If it's about Stella,\x01",
             "I wish I could talk for hours!\x02",
         )
     )
@@ -2604,7 +2604,7 @@ def main():
         0xB,
         (
             "Tiny\x01",
-            "Stellaちゃんのことなら、\x01",
+            "If it's about Stella,\x01",
             "Even though I could talk for hours, …\x02",
         )
     )
@@ -2647,7 +2647,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "フフ、Stellaちゃん……\x01",
+            "Huff, Stella-chan ……\x01",
             "My sweet ……\x02",
         )
     )
@@ -2665,7 +2665,7 @@ def main():
         0x104,
         (
             "#00300FOh, that's seniors … …\x01",
-            "この間からStellaと『お試し』で\x01",
+            "From this time with Stella \"Try\"\x01",
             "I was saying you are going out with me.\x02\x03",
             "#00309FHaha, was it a little progress?\x02",
         )
@@ -2687,7 +2687,7 @@ def main():
         0xFE,
         (
             "Eating meals here every day,\x01",
-            "Stellaちゃんを眺めて……\x01",
+            "Looking at Stella … ….\x01",
             "Happy everyday.\x02",
         )
     )
@@ -2712,7 +2712,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ス、Stellaちゃんと俺は\x01",
+            "Su, Stella and I\x01",
             "It is coming now.\x02",
         )
     )
@@ -2722,7 +2722,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ランディ、Stellaちゃんを\x01",
+            "Randy, Stella-chan\x01",
             "Do not speak from the side.\x01",
             "……please.\x02",
         )
@@ -3053,7 +3053,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "近年、As the military of each country is becoming capitalized\x01",
+            "In recent years, as the military of each country is being mobilized\x01",
             "Air tactics have been regarded as important.\x02",
         )
     )
@@ -4822,7 +4822,7 @@ def main():
         0xB,
         (
             "#5PYes, that is, with me\x01",
-            "Stellaちゃんのラブラブな──\x02",
+            "Stella's loveable ──\x02",
         )
     )
 
@@ -4943,7 +4943,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00309Fよっ、Stella。\x02",
+        "#00309FOkay, Stella.\x02",
     )
 
     CloseMessageWindow()
@@ -5457,7 +5457,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100Fお疲れ様です、Lieutenant Mireille！\x02",
+        "#10100FGood job, Mirirey three lieutenants!\x02",
     )
 
     CloseMessageWindow()
@@ -5785,7 +5785,7 @@ def main():
             "Indeed this situation,\x01",
             "The current system, our way is,\x01",
             "Is it \"right\"?\x02\x03",
-            "Just - that's it.\x07\x00\x02",
+            "That is all I ask.\x07\x00\x02",
         )
     )
 

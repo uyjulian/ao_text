@@ -1119,7 +1119,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1210,7 +1210,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1301,7 +1301,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1392,7 +1392,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -2147,14 +2147,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00102FWaj, can you try it?\x02",
+        "#00102FWazy, should we try it out?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10302FHuh, of course.\x02",
+        "#10302FOf course\x02",
     )
 
     CloseMessageWindow()
@@ -2340,7 +2340,7 @@ def main():
         0x177,
         (
             "As I said, here is\x01",
-            "『Alma mushrooms』に形が似たキノコが\x01",
+            "Mushrooms similar in shape to \"Alma mushrooms\"\x01",
             "It should live in mass.\x02",
         )
     )
@@ -2737,7 +2737,7 @@ def main():
     ChrTalk(
         0x177,
         (
-            "これが『Alma mushrooms』に\x01",
+            "This is \"Alma mushroom\"\x01",
             "There is no mistake.\x02",
         )
     )
@@ -3257,7 +3257,7 @@ def main():
     ChrTalk(
         0x177,
         (
-            "この『Alma mushrooms』などは、\x01",
+            "This \"Alma mushroom\"\x01",
             "They are mushrooms that become food.\x02",
         )
     )
@@ -3332,7 +3332,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Arios' s \"Ante Grass\" and\x01",
-            "『Alma mushrooms』がセイランド教授に渡され、\x01",
+            "\"Alma mushroom\" was handed to Professor Seyland,\x01",
             "An antidote was formulated.\x07\x00\x02",
         )
     )
@@ -3382,7 +3382,7 @@ def main():
         0x177,
         (
             "… Well, this is\x01",
-            "『Alma mushrooms』ではないようだ。\x02",
+            "It seems not to be \"Alma mushrooms\".\x02",
         )
     )
 
@@ -3406,7 +3406,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "これは『Alma mushrooms』ではないようだ。\x07\x00\x02",
+            "This does not seem to be \"Alma mushrooms\".\x07\x00\x02",
         )
     )
 
@@ -3455,7 +3455,7 @@ def main():
         0x177,
         (
             "… It is not.\x01",
-            "これは『Alma mushrooms』ではない。\x02",
+            "This is not \"Alma mushrooms\".\x02",
         )
     )
 
@@ -3479,7 +3479,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "これは『Alma mushrooms』ではないようだ。\x07\x00\x02",
+            "This does not seem to be \"Alma mushrooms\".\x07\x00\x02",
         )
     )
 
@@ -3521,7 +3521,7 @@ def main():
         0x101,
         (
             "#00000FPrince Hiroko, this mushroom\x01",
-            "『Alma mushrooms』でしょうか？\x02",
+            "Is it \"Alma mushroom\"?\x02",
         )
     )
 
@@ -3555,7 +3555,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "これは『Alma mushrooms』ではないようだ。\x07\x00\x02",
+            "This does not seem to be \"Alma mushrooms\".\x07\x00\x02",
         )
     )
 
@@ -3607,7 +3607,7 @@ def main():
         0x177,
         (
             "Well … unfortunately\x01",
-            "『Alma mushrooms』ではないようだね。\x02",
+            "It seems not to be \"Alma mushrooms\".\x02",
         )
     )
 
@@ -3634,7 +3634,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "これは『Alma mushrooms』ではないようだ。\x07\x00\x02",
+            "This does not seem to be \"Alma mushrooms\".\x07\x00\x02",
         )
     )
 
@@ -3682,8 +3682,8 @@ def main():
     ChrTalk(
         0x177,
         (
-            "ううむ… It is not.\x01",
-            "これは『Alma mushrooms』ではない。\x02",
+            "No … not different.\x01",
+            "This is not \"Alma mushrooms\".\x02",
         )
     )
 
@@ -3710,7 +3710,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "これは『Alma mushrooms』ではないようだ。\x07\x00\x02",
+            "This does not seem to be \"Alma mushrooms\".\x07\x00\x02",
         )
     )
 
@@ -3742,7 +3742,7 @@ def main():
     ChrTalk(
         0x177,
         (
-            "『Alma mushrooms』は\x01",
+            "\"Alma mushrooms\"\x01",
             "It should be somewhere in this forest zone.\x01",
             "Let's try to find it carefully.\x02",
         )
@@ -3774,7 +3774,7 @@ def main():
     ChrTalk(
         0x177,
         (
-            "『Alma mushrooms』は\x01",
+            "\"Alma mushrooms\"\x01",
             "It should be somewhere in this forest zone.\x01",
             "Let's try to find it carefully.\x02",
         )

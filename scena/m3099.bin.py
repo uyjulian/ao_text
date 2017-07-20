@@ -138,7 +138,7 @@ def main():
     NpcTalk(
         0x102,
         "In the case of",
-        "#20A#00117F#6P#50WIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case of\x02",
+        "#20A#00117F#6P#50WIn the case of\x02",
     )
 
     CloseMessageWindow()
@@ -148,8 +148,8 @@ def main():
         0x104,
         "In the case of",
         (
-            "#25A#6P#00317F#50WIn the case ofIn the case ofIn the case ofIn the case of\x01",
-            "In the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case of\x02",
+            "#25A#6P#00317F#50WIn the case of\x01",
+            "In the case of\x02",
         )
     )
 
@@ -159,7 +159,7 @@ def main():
     NpcTalk(
         0x103,
         "In the case of",
-        "#20A#6P#00217F#50WIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case of\x02",
+        "#20A#6P#00217F#50WIn the case of\x02",
     )
 
     CloseMessageWindow()
@@ -169,8 +169,8 @@ def main():
         0x101,
         "In the case of",
         (
-            "#20A#6P#00016F#50WIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case of\x01",
-            "In the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case ofIn the case of\x02",
+            "#20A#6P#00016F#50WIn the case of\x01",
+            "In the case of\x02",
         )
     )
 

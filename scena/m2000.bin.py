@@ -1130,7 +1130,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6PThat is……\x02",
+        "#00005F#6PThat is!\x02",
     )
 
     CloseMessageWindow()
@@ -1176,7 +1176,7 @@ def main():
         (
             "#00208F#6PAgain by some technique\x01",
             "It seems that it is sealed … …\x02\x03",
-            "#00201FIt seems there are several types.\x02",
+            "#00201FThere seem to be several types\x02",
         )
     )
 
@@ -1235,7 +1235,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10400F#6PWell then let's go.\x02",
+        "#10400F#6POk then let's get going\x02",
     )
 
     CloseMessageWindow()

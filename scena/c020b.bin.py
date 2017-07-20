@@ -353,7 +353,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -380,7 +380,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "明日は、Orchis Towerで\x01",
+            "Tomorrow at the Orkis Tower\x01",
             "Two Shawaiigi\x01",
             "There seems to be it.\x02",
         )
@@ -550,7 +550,7 @@ def main():
         0xFE,
         (
             "During the trade conference to strengthen security\x01",
-            "夜間のcar輌通行を制限しています。\x02",
+            "We restrict the passage of vehicles at night.\x02",
         )
     )
 
@@ -559,7 +559,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "carで市外に出たい場合は\x01",
+            "If you want to drive out of the city by car\x01",
             "Please apply for permission on this occasion.\x02",
         )
     )
@@ -604,7 +604,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "今のところ、不審なcar輌は\x01",
+            "As of now, suspicious vehicles\x01",
             "I do not see it.\x02",
         )
     )
@@ -635,7 +635,7 @@ def main():
         0x101,
         (
             "#00000FGeoFront is a walkable distance.\x01",
-            "carを使う必要はないな。\x02",
+            "There is no need to use a car.\x02",
         )
     )
 
@@ -746,7 +746,7 @@ def main():
         0x101,
         (
             "#00002F#11PWhew …… Wide city too\x01",
-            "carを使えばあっという間か。\x02",
+            "If you use a car it will not be long before.\x02",
         )
     )
 
@@ -778,7 +778,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10309F#6PHuh, it's not too bad.\x02",
+        "#10309F#6PHah, it's not bad huh\x02",
     )
 
     CloseMessageWindow()
@@ -786,7 +786,7 @@ def main():
     ChrTalk(
         0x153,
         (
-            "#01109F#6PWell, it was fun!\x02\x03",
+            "#01109F#6PHehe, it was so fun!\x02\x03",
             "#01110FIt is a distant place.\x01",
             "It looked different!\x02",
         )
@@ -797,7 +797,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00109F#6PHuh, it seems so.\x02\x03",
+            "#00109F#6PEhe, yes that's right\x02\x03",
             "#00100FAlright in the city light\x01",
             "I felt like I was swimming.\x02",
         )

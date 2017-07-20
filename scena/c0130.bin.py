@@ -539,7 +539,7 @@ def main():
         0x8,
         (
             "#01108FIf Noel ceases to exist\x01",
-            "Keyaもサビしいけど……\x01",
+            "Ka aa also rusts ….\x01",
             "Cheer up, Noeloo.\x02\x03",
             "#01102FWith the Frank who got better\x01",
             "I'm waiting for two people to come and play.\x02",
@@ -583,7 +583,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000Fああ、Keyaは日曜学校の宿題か？\x02",
+        "#00000FOh, is Kaoru homework on Sunday school?\x02",
     )
 
     CloseMessageWindow()
@@ -660,7 +660,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00200FZeitがノエルさんに\x01",
+            "#00200FZeit to Noel\x01",
             "It seems to be \"good person.\"\x02",
         )
     )
@@ -671,7 +671,7 @@ def main():
         0x109,
         (
             "#10109FHaha ……\x01",
-            "ありがとう、Zeit君。\x02",
+            "Thank you, Mr. Zeit.\x02",
         )
     )
 
@@ -972,7 +972,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#6P#00200FKeya……大丈夫ですか？\x02",
+        "#6P#00200FKAWA … Are you okay?\x02",
     )
 
     CloseMessageWindow()
@@ -991,7 +991,7 @@ def main():
         0x8,
         (
             "#11P#01102FWell, yeah.\x01",
-            "Keyaは大丈夫だけど……\x02",
+            "Kaoru is okay ….\x02",
         )
     )
 
@@ -1071,8 +1071,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#12P#10103Fそ、そうだよ、Keyaちゃん。\x02\x03",
-            "#10102FKeyaちゃんが\x01",
+            "#12P#10103FThat's right, Ka'aa.\x02\x03",
+            "#10102FKia-chan\x01",
             "It would be better if you were smiling,\x01",
             "I think Shizuku is also happy!\x02",
         )
@@ -1084,7 +1084,7 @@ def main():
         0x8,
         (
             "#11P#01108F… Well, that's right.\x02\x03",
-            "#01102FKeyaはシズクの親友だから……\x01",
+            "#01102FBecause Ka'aa is a best friend of Shizuku … …\x01",
             "I have to cheer you up next time I see you.\x02",
         )
     )
@@ -1107,7 +1107,7 @@ def main():
         0x8,
         (
             "#11P#01109FThank you, everyone.\x01",
-            "Keyaもちょっと元気でてきた。\x02\x03",
+            "Kaaa came a little well.\x02\x03",
             "#01100FWell, I'm blowing away\x01",
             "I'm going out for fun.\x02",
         )
@@ -1158,7 +1158,7 @@ def main():
         0x101,
         (
             "#00003FI do not know but …\x01",
-            "Keyaならすぐに\x01",
+            "As soon as Ka'aa\x01",
             "It will become healthy.\x02\x03",
             "#00000FWell then, shall we go?\x02",
         )
@@ -1245,7 +1245,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F……そういえば、Keyaが\x01",
+            "#00000FSpeaking of which, Ka'aa\x01",
             "I told you to go to Sunday school.\x02\x03",
             "The manager also went out,\x01",
             "You may as well go out.\x02",
@@ -1276,7 +1276,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F……そういえば、Keyaが\x01",
+            "#00000FSpeaking of which, Ka'aa\x01",
             "I told you to go to Sunday school.\x02\x03",
             "The manager also went out,\x01",
             "You may as well go out.\x02",
@@ -1307,7 +1307,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FKeyaはこれから日曜学校だ。\x01",
+            "#00000FKa'a is a Sunday school from now.\x01",
             "The back door is a shortcut.\x02",
         )
     )
@@ -1377,7 +1377,7 @@ def main():
         (
             "#11P#00205FThis is certain ……\x02\x03",
             "#00200FMr. Lloyd in Mishram\x01",
-            "Keyaにプレゼントした……？\x02",
+            "I gave it to Ka'ah … ….?\x02",
         )
     )
 
@@ -1389,7 +1389,7 @@ def main():
         0x101,
         (
             "#00006FOh, on the Michelin beach\x01",
-            "Keyaにあげた『ホワイトストーン』だ。\x02",
+            "It is \"white stone\" given to Ka'aa.\x02",
         )
     )
 
@@ -1398,7 +1398,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00108FKeyaちゃんが\x01",
+            "#12P#00108FKia-chan\x01",
             "I wonder if I forgot to place it … ….?\x02",
         )
     )
@@ -1500,7 +1500,7 @@ def main():
         0x106,
         (
             "#11P#10708F#30WWell, now ……\x01",
-            "Keyaちゃん……？\x02",
+            "Ka'a-chan …?\x02",
         )
     )
 
@@ -1515,7 +1515,7 @@ def main():
         0x109,
         (
             "#11P#10113F#30WWell, now ……\x01",
-            "Keyaちゃん……？\x02",
+            "Ka'a-chan …?\x02",
         )
     )
 
@@ -1528,7 +1528,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#11P#10408F#30W今のは……Keya……？\x02",
+        "#11P#10408F#30WThe current … … Ka aa …?\x02",
     )
 
     CloseMessageWindow()
@@ -1563,7 +1563,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00106F#30WKeyaちゃん……\x02",
+        "#12P#00106F#30WKa'a-chan ……\x02",
     )
 
     CloseMessageWindow()
@@ -1603,7 +1603,7 @@ def main():
         0x109,
         (
             "#11P#10106F#30W…… the thought so far\x01",
-            "Keyaちゃんにさせてたなんて……\x02",
+            "I was letting Ka'a-chan ……\x02",
         )
     )
 
@@ -1621,7 +1621,7 @@ def main():
         (
             "#00006F#30W…… With this … ….\x01",
             "A piece of delusion was completely gone.\x02\x03",
-            "#00015FKeyaがあんな……\x01",
+            "#00015FKia ah … Ann …\x01",
             "With the feeling that I killed my heart\x01",
             "It was a while … ….\x02\x03",
             "#00010FThat situation is absolutely wrong!\x02",
@@ -1654,7 +1654,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#11P#00201Fええ、Keyaの笑顔を\x01",
+            "#11P#00201FYeah, Kea'a smile\x01",
             "To regain … ….!\x02",
         )
     )
@@ -1665,7 +1665,7 @@ def main():
         0x101,
         (
             "#00007FOh … let's go, everyone.\x02\x03",
-            "#00003F（Keya……待っててくれ。\x01",
+            "#00003F(Kea … wait for me.\x01",
             "I will absolutely pick you up …! )\x02",
         )
     )
@@ -2732,7 +2732,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "#00000F(by the way……\x01",
-            "  Keyaが喜びそうなぬいぐるみを\x01",
+            "Kawah is going to be pleased with a stuffed doll\x01",
             "You got it. )\x02\x03",
             "(Let 's give it as soon as possible.\x02",
         )
@@ -2747,7 +2747,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ロイドはKeyaを捜して\x01",
+            "Lloyd searches for Kia\x01",
             "I gave a stuffed animal present.\x07\x00\x02",
         )
     )
@@ -2761,8 +2761,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#01100F#3668Vわあ、Keyaにくれるのー！？\x02\x03",
-            "#3669VErr …\x01",
+            "#01100F#3668VWow, I will give you a keeper! Is it?\x02\x03",
+            "#3669VEhehe\x01",
             "Lloyd, thank you ♪\x02",
         )
     )
@@ -2917,7 +2917,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Keyaの部屋に\x01",
+            "In the room of Kea\x01",
             "New furniture was added.\x07\x00\x02",
         )
     )
@@ -5203,7 +5203,7 @@ def main():
     NpcTalk(
         0x101,
         "Voice of Lloyd",
-        "#2PKeya、ちょっといいか？\x02",
+        "#2PKaaa, is it okay?\x02",
     )
 
     CloseMessageWindow()
@@ -5260,7 +5260,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#01109FErr …\x01",
+            "#01109FEhehe\x01",
             "Everyone is cute!\x02\x03",
             "#01111FAh, but …\x02",
         )
@@ -5322,7 +5322,7 @@ def main():
         (
             "#00005F#2PCostume ……\x01",
             "Is it the same as Missi?\x02\x03",
-            "#00003Fなるほど、Keyaくらいの\x01",
+            "#00003FIndeed, Ka'a about\x01",
             "It seems likely to be a child.\x02",
         )
     )
@@ -5338,7 +5338,7 @@ def main():
         (
             "#00005F#2PCrocodile …\x01",
             "Oh, \"Costumes\"?\x02\x03",
-            "#00003Fなるほど、Keyaくらいの\x01",
+            "#00003FIndeed, Ka'a about\x01",
             "It seems likely to be a child.\x02",
         )
     )
@@ -5355,7 +5355,7 @@ def main():
         0x9,
         (
             "#01105FOh, then then …\x02\x03",
-            "#01109FKeya、中に入ってみるから\x01",
+            "#01109FKaea, I will go into it\x01",
             "Can you help me?\x02",
         )
     )
@@ -5440,7 +5440,7 @@ def main():
         0x101,
         (
             "#00004FAlright … this is fine with this.\x02\x03",
-            "#00000FKeya、苦しくないか？\x02",
+            "#00000FKaor, is not it painful?\x02",
         )
     )
 
@@ -5477,7 +5477,7 @@ def main():
 
     NpcTalk(
         0x9,
-        "Keyaペンギン",
+        "Kia Penguin",
         "Shazam!\x02",
     )
 
@@ -5509,7 +5509,7 @@ def main():
 
     NpcTalk(
         0xB,
-        "Keyaペンギン",
+        "Kia Penguin",
         "#1PWell, oh?\x02",
     )
 
@@ -5542,7 +5542,7 @@ def main():
 
     NpcTalk(
         0xB,
-        "Keyaペンギン",
+        "Kia Penguin",
         (
             "#1P#3672VHello.\x02\x03",
             "#3673VThank you for your consideration.\x02",
@@ -5695,7 +5695,7 @@ def main():
 
     NpcTalk(
         0x9,
-        "Keyaペンギン",
+        "Kia Penguin",
         (
             "Ah, it is Eli and Tio.\x02\x03",
             "How are you?\x02",
@@ -5787,7 +5787,7 @@ def main():
         0x102,
         (
             "#00114FOr, it is cute!\x01",
-            "カワイイわKeyaちゃん！\x02",
+            "Cute is my keea!\x02",
         )
     )
 
@@ -5830,7 +5830,7 @@ def main():
 
     NpcTalk(
         0x9,
-        "Keyaペンギン",
+        "Kia Penguin",
         (
             "It is painful, …\x02\x03",
             "Do not hold me so tight\x01",
@@ -5923,7 +5923,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10105F#12Pキ、Keyaちゃん！？\x02\x03",
+            "#10105F#12PKi, Ka'aa! Is it?\x02\x03",
             "#10109FWow Aaaaa!\x01",
             "Please let me hug you!\x02",
         )
@@ -6153,11 +6153,11 @@ def main():
 
     NpcTalk(
         0x9,
-        "Keyaペンギン",
+        "Kia Penguin",
         (
             "Authority ……\x01",
             "This is ……\x02\x03",
-            "そろそろゆるしてI want it ……\x02",
+            "I would like you to forgive me soon …\x02",
         )
     )
 
@@ -6224,7 +6224,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "あまりの危険さゆえに、Keyaペンギンは\x01",
+            "Because of too much danger, Kea Penguin\x01",
             "It became the rule of strict prohibition afterwards.\x02",
         )
     )
@@ -6239,7 +6239,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Keyaに全てのぬいぐるみを贈った！\x02",
+            "I gave all the stuffed toys to Ka!\x02",
         )
     )
 
@@ -6618,7 +6618,7 @@ def main():
     NpcTalk(
         0x101,
         "Voice of Lloyd",
-        "Keya？\x02",
+        "Keya?\x02",
     )
 
     CloseMessageWindow()
@@ -6649,7 +6649,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00005F#11PKeya、確か今日は\x01",
+            "#00005F#11PKaoru, for sure today\x01",
             "Should I have a Sunday school?\x02\x03",
             "#00000FIs it okay not to go out?\x02",
         )
@@ -6693,7 +6693,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10102F#12PKeyaちゃん、偉いなぁ。\x02\x03",
+            "#10102F#12PKaea is great.\x02\x03",
             "#10106FSunday School's preparation\x01",
             "I guess I did not do much.\x02",
         )
@@ -6777,7 +6777,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00111F#11PKeyaちゃんに悪影響を\x01",
+            "#00111F#11PAdverse effect to Kia-chan\x01",
             "I do not want to give it ….\x02",
         )
     )
@@ -6873,7 +6873,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#11PKeya、一緒に出るか？\x02",
+        "#00000F#11PKaaa, you go out together?\x02",
     )
 
     CloseMessageWindow()
@@ -6973,7 +6973,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00102FKeyaちゃんと一緒なら\x01",
+            "#12P#00102FIf you are with Kia-chan\x01",
             "Shall I get out of the back door?\x02",
         )
     )
@@ -7561,7 +7561,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P#01100FTake care, everyone.\x02",
+        "#11P#01100FHave a good day guys\x02",
     )
 
     CloseMessageWindow()
@@ -7569,8 +7569,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10109Fふふ、行ってくるねKeyaちゃん。\x02\x03",
-            "#10106F……こうしてKeyaちゃんに\x01",
+            "#6P#10109FHehe, we'll be back soon KeA\x02\x03",
+            "#10106F…… So Ka'aa-chan\x01",
             "Saying \"I do not mention you\"\x01",
             "It will be gone for a while.\x02",
         )
@@ -7580,7 +7580,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00002FOkay … after all I will miss you.\x02",
+        "#12P#00002FYeah, that is definitely sad\x02",
     )
 
     CloseMessageWindow()
@@ -7588,7 +7588,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106FKeyaちゃんと離れるなんて、\x01",
+            "#00106FTo leave Kia - chan,\x01",
             "You can not bear with just imagining it.\x02",
         )
     )
@@ -7599,7 +7599,7 @@ def main():
         0x8,
         (
             "#11P#01100FIf Noel ceases to exist\x01",
-            "Keyaもサビしいけど……\x01",
+            "Ka aa also rusts ….\x01",
             "Cheer up, Noeloo.\x02\x03",
             "#01109FWith the Frank who got better\x01",
             "I'm waiting for two people to come and play.\x02",
@@ -7610,7 +7610,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10102Fうん、ありがとうKeyaちゃん。\x02",
+        "#6P#10102FThanks KeA\x02",
     )
 
     CloseMessageWindow()
@@ -7639,8 +7639,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10109FHehe, that's right.\x02\x03",
-            "#10100FKeyaちゃんの笑顔に\x01",
+            "#6P#10109FYeah, me too\x02\x03",
+            "#10100FTo Kea-chan's smile\x01",
             "To see you again as soon as possible!\x02",
         )
     )
@@ -7649,14 +7649,14 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#10302FWell, it's burning.\x02",
+        "#12P#10302FShe's funny\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#11P#01102FErr …\x02",
+        "#11P#01102FEhehe\x02",
     )
 
     CloseMessageWindow()

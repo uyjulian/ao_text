@@ -401,7 +401,7 @@ def main():
             "#12P#00306FBut when I came earlier\x01",
             "It was pretty tough.\x02\x03",
             "#00309FI think that the bell rang, suddenly,\x01",
-            "突然“Demon”が現れやがって──\x02",
+            "Suddenly \"devil\" appears and ─ ─\x02",
         )
     )
 
@@ -498,7 +498,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#12P#00105Fあ、Demon……！？\x02",
+        "#12P#00105FOh, Devil ……! Is it?\x02",
     )
 
     CloseMessageWindow()

@@ -298,8 +298,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#6P#NI already … … I do not need words.\x02\x03",
-            "#00201FLloyd, let's go.\x02",
+            "#00203F#6P#NWell I have no words….\x02\x03",
+            "#00201FLloyd, let's go\x02",
         )
     )
 
@@ -390,7 +390,7 @@ def main():
         0x106,
         (
             "#10700F#13PI already need … no words.\x02\x03",
-            "Lloyd, let's go.\x02",
+            "Lloyd, let's go\x02",
         )
     )
 
@@ -404,7 +404,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#5PAh……!\x02",
+        "#00013F#5PYeah!\x02",
     )
 
     CloseMessageWindow()

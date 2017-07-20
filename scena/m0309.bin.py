@@ -3514,7 +3514,7 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#11P#04504FCharlie。\x01",
+            "#11P#04504FShirley.\x01",
             "You can kill the rest.\x02",
         )
     )
@@ -3785,7 +3785,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00311F#30W叔父貴……Charlie……\x02\x03",
+            "#6P#00311F#30WUncle Takashi …… Charlie ……\x02\x03",
             "#30W…… In such a place ……\x01",
             "What are you doing … ___ ___ 0\x02",
         )
@@ -3872,7 +3872,7 @@ def main():
         (
             "#04504F#11PI guess, it's business.\x02\x03",
             "Aiming at the chief priest of the imperial family and the royal family\x01",
-            "不届きなterroristを処刑する……\x02\x03",
+            "Execute unreasonable terrorists …\x02\x03",
             "#04502FThis time, from the Imperial Government\x01",
             "That's why we asked for it.\x02",
         )
@@ -3914,7 +3914,7 @@ def main():
         (
             "#04609F#12PYeah, from the Imperial Government\x01",
             "There is also a power of attorney ~.\x02\x03",
-            "#04611FこれがあればCharlieたちに\x01",
+            "#04611FWith this, Charlie\x01",
             "I can not hand it out, do you?\x02",
         )
     )
@@ -4317,7 +4317,7 @@ def main():
         (
             "#04504F#11PHuhu, to the least sorry\x01",
             "I will miss a single one.\x02\x03",
-            "#04500FCharlie、放してやれ。\x02",
+            "#04500FShirley, let go.\x02",
         )
     )
 
@@ -4565,7 +4565,7 @@ def main():
     WaitChrThread(0x1E, 0)
     Sleep(100)
     SetMessageWindowPos(300, 40, -1, -1)
-    SetChrName("A hunterたち")
+    SetChrName("Hunters")
     OP_82(0x64, 0x0, 0xBB8, 0x1F4)
 
     AnonymousTalk(
@@ -4596,7 +4596,7 @@ def main():
 
     NpcTalk(
         0x1B,
-        "A hunterザックス",
+        "Hunter Sachs",
         (
             "#11PWell then.\x01",
             "Captain Randolph.\x02",
@@ -5438,14 +5438,14 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00200FMr. Wadi, are you okay?\x02",
+        "#00200FWazy, sound good?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10300FOh, let's try it now.\x02",
+        "#10300FYes, let's try it out\x02",
     )
 
     CloseMessageWindow()

@@ -182,14 +182,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#6P(… … there …!!)\x02",
+        "#00002F#6PThere she is\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00106F#6P(Okay, good … …!)\x02",
+        "#00106F#6PT-thank goodness\x02",
     )
 
     CloseMessageWindow()
@@ -222,8 +222,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#05815F#3616V#60W#12P#N…………why……………\x02\x03",
-            "#3617V#60W…… How come … … … …?\x07\x00\x02",
+            "#05815F#3616V#60W#12P#NWhy…\x02\x03",
+            "#3617V#60WWhy…\x07\x00\x02",
         )
     )
 
@@ -235,7 +235,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00007F#4SKeya#3330V……！\x02",
+        "#00007F#4SKeya#3330V……!\x02",
     )
 
     CloseMessageWindow()
@@ -317,7 +317,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#5PKeya、大丈夫か！？\x02",
+        "#00013F#5PKeA, are you ok?!\x02",
     )
 
     CloseMessageWindow()
@@ -336,7 +336,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "#05815F#40W#5P…………………………………….\x07\x00\x02",
+            "#05815F#40W#5P….\x07\x00\x02",
         )
     )
 
@@ -361,7 +361,7 @@ def main():
         0x8,
         (
             "#05805F#3618V#6P#30Wthat~……?\x02\x03",
-            "#05810F#4109VLloyd, what's wrong?\x02",
+            "#05810F#4109VWhat's wrong Lloyd\x02",
         )
     )
 
@@ -375,8 +375,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5PGokutama ……\x02\x03",
-            "#00011FWhat is wrong with that.\x02",
+            "#00006F#5PGaku~!\x02\x03",
+            "#00011FWhat's wrong.. You know…\x02",
         )
     )
 
@@ -385,7 +385,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00206F#5PKeya、どうしてここへ？\x02\x03",
+            "#00206F#5PKeA, why are you here\x02\x03",
             "#00200FFrom Lloyd's room\x01",
             "You are walking, are not you?\x02",
         )
@@ -395,7 +395,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#05805F#6P#30WIs it? Is it? Is it?\x02",
+        "#05805F#6P#30W???\x02",
     )
 
     CloseMessageWindow()
@@ -410,8 +410,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#05811F#6P#30WHere is a castle in the daytime … …?\x02\x03",
-            "#05805FKeya、なんでここにいるのー？\x02",
+            "#05811F#6P#30WThis is.. The castle from before?\x02\x03",
+            "#05805FWhy is KeA here?\x02",
         )
     )
 
@@ -455,7 +455,7 @@ def main():
         (
             "#00306F#5PNo, I gotta do it,\x01",
             "It's too terrible and too sleepy ……\x02\x03",
-            "#00301FKeibo, you do not remember anything?\x02",
+            "#00301FKeA, you really don't remember anything?\x02",
         )
     )
 
@@ -464,11 +464,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#05803F#6P#30WHmm……\x02\x03",
-            "#05808F……なんか夢でKeyaを\x01",
+            "#05803F#6P#30WHmmmm\x02\x03",
+            "#05808F…… Kaoru in some sort of dream\x01",
             "It sounds like a calling voice ……\x02\x03",
             "#05805F…………that?\x01",
-            "Keyaが呼んでたのかな……？\x02",
+            "I wonder if Ka'a was calling …?\x02",
         )
     )
 
@@ -476,7 +476,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00303F#5PMuu.\x02",
+        "#00303F#5PHmm.\x02",
     )
 
     CloseMessageWindow()
@@ -486,7 +486,7 @@ def main():
         (
             "#00109F#11PWhatching\x01",
             "A dream thing, it can not be helped.\x02\x03",
-            "#00102FAnyway it was okay and it was okay …\x02",
+            "#00102FAnyway I'm just glad you're ok\x02",
         )
     )
 
@@ -495,10 +495,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#5PThat's right.\x02\x03",
+            "#00004F#5PRight\x02\x03",
             "#00002FOkay, we also\x01",
             "I will return to the hotel once.\x02\x03",
-            "Keya、部屋に戻ったら\x01",
+            "Ka'aa, back to the room\x01",
             "You are going to sleep properly?\x02",
         )
     )
@@ -511,7 +511,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#05809F#6PYes.\x02",
+        "#05809F#6PRight!\x02",
     )
 
     CloseMessageWindow()
@@ -530,7 +530,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Lloyds who returned to the hotel afterwards\x01",
-            "Keyaを寝かしつけてから\x01",
+            "After laying down Ka'aa\x01",
             "Contact the security department of Michelin … …\x02\x03",
             "Described the situation and went to the scene again\x01",
             "After all, no abnormality remained.\x02\x03",

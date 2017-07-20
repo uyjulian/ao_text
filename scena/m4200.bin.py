@@ -607,7 +607,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -698,7 +698,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -789,7 +789,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -859,7 +859,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -894,7 +894,7 @@ def main():
         1,
         (
             "talk\x01",            # 0
-            "Wajiと交代する\x01",      # 1
+            "Replace with Wadi\x01",      # 1
             "quit\x01",              # 2
         )
     )
@@ -947,7 +947,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#10103FJoachim Günter\x01",
+            "#10103FJoachim Gunter\x01",
             "Gnostic raw materials\x01",
             "Where they were collecting ……\x02\x03",
             "#10108FIn such a place, to Eoria\x01",
@@ -1008,7 +1008,7 @@ def main():
         1,
         (
             "talk\x01",              # 0
-            "Noelと交代する\x01",      # 1
+            "To replace Noel\x01",      # 1
             "quit\x01",                # 2
         )
     )
@@ -1021,7 +1021,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100FWaji君、後は任せたよ！\x02",
+        "#10100FWaji, I left it to you later!\x02",
     )
 
     CloseMessageWindow()
@@ -1811,7 +1811,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#5PTh-This is……\x02",
+        "#00007F#5PT-This is\x02",
     )
 
     CloseMessageWindow()
@@ -1821,7 +1821,7 @@ def main():
         (
             "#00106F#5PWell, there are things,\x01",
             "Lin's came on board\x01",
-            "boatみたいだけど……\x02",
+            "It looks like a boat, but ….\x02",
         )
     )
 
@@ -1955,7 +1955,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#6PAnd I can not believe it ….\x02\x03",
+            "#00208F#6PU-unbelievable\x02\x03",
             "#00201FIt is as if the structure of the space itself\x01",
             "It seems to be different from reality … …\x02",
         )
@@ -1969,7 +1969,7 @@ def main():
             "#00010F#6PPrelimma grass … From when\x01",
             "Were they breeding so much?\x02\x03",
             "#00003FBut, I see …\x01",
-            "ヨアヒムがGnostic raw materials\x01",
+            "Joachim makes the raw material of Gnostic\x01",
             "I was collecting ──\x02",
         )
     )
@@ -2035,14 +2035,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#6PI\x02",
+        "#00105F#6PAh!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10107F#6POh, that time …!\x02",
+        "#10107F#6PF-from that time..\x02",
     )
 
     CloseMessageWindow()
@@ -2050,7 +2050,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00011F#5P《Silver#2Rイン#》……\x01",
+            "#00011F#5P\"Silver#2RIn#\"… ….\x01",
             "How come you! Is it?\x02",
         )
     )
@@ -2068,7 +2068,7 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "That's the line here.\x02\x03",
+            "That would be my line\x02\x03",
             "With the shadow of the \"snake\"\x01",
             "Demolition of bad leaders … …\x02\x03",
             "Blue flowers that started to bloom in various places\x01",
@@ -2089,7 +2089,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10305F#6POh ….?\x02",
+        "#10305F#6PHmm\x02",
     )
 
     CloseMessageWindow()
@@ -2109,7 +2109,7 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#00700F#11PThat's right.\x02\x03",
+            "#00700F#11PExactly\x02\x03",
             "#00702FHmm, if you are\x01",
             "It seems that circumstances are somewhat different?\x07\x00\x02",
         )
@@ -2119,7 +2119,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106F#6PWell, yeah ….\x02",
+        "#00106F#6PR-right\x02",
     )
 
     CloseMessageWindow()
@@ -2152,7 +2152,7 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#00700F#11P──なるほど、あのboatは\x01",
+            "#00700F#11P─ ─ I see, that boat is\x01",
             "Was it a thief's stuff?\x02\x03",
             "#00702FPowered by chance, …\x01",
             "I like this person, apparently at the core\x01",
@@ -2164,7 +2164,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#6Pcore……\x02",
+        "#10101F#6PCore…\x02",
     )
 
     CloseMessageWindow()
@@ -2186,7 +2186,7 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#00702F#11PHuh, that's right.\x02\x03",
+            "#00702F#11PHmm. Exactly\x02\x03",
             "#00700FThis is also\x01",
             "It is a contract with \"Black moon\".\x02\x03",
             "The prisoners to you\x01",
@@ -2199,8 +2199,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P─ ─ No.\x02\x03",
-            "#00000F《Silver》……\x01",
+            "#00006F#5PNo.\x02\x03",
+            "#00000F\"Silver\"……\x01",
             "Will not you go with me here as well?\x02",
         )
     )
@@ -2274,14 +2274,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10111F#6PB, Mr. Lloyd! Is it?\x02",
+        "#10111F#6PL-Lloyd?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10305F#6PHey, is it serious?\x02",
+        "#10305F#6POi oi really?\x02",
     )
 
     CloseMessageWindow()
@@ -2298,7 +2298,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00204F#5PIt was as expected.\x02",
+        "#00204F#5PIt was just as I predicted\x02",
     )
 
     CloseMessageWindow()
@@ -2390,7 +2390,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5PYou can not say - no -?\x02\x03",
+            "#00003F#5PNothing. That's what you're going to say?\x02\x03",
             "#00001FLin and Aoria are\x01",
             "It is a great army to reach Class A.\x02\x03",
             "With 2 people together,\x01",
@@ -2409,7 +2409,7 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#00700F#11P……………………………………\x07\x00\x02",
+            "#00700F#11P…\x07\x00\x02",
         )
     )
 
@@ -2417,7 +2417,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00200F#5PWell, it's an emergency.\x02",
+        "#00200F#5PWell, it is an emergency situation\x02",
     )
 
     CloseMessageWindow()
@@ -2446,7 +2446,7 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#00702F#11P…… Kuku …………\x02\x03",
+            "#00702F#11PHa\x02\x03",
             "\"Special Affairs Support Division\" … …\x01",
             "Apparently to the leaders\x01",
             "You seem to be inspired?\x07\x00\x02",
@@ -2457,21 +2457,21 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00112F#6PIs that right?\x02",
+        "#00112F#6PI-I wonder\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00309F#6PWell, the denial is outright.\x02",
+        "#00309F#6PWell we can't deny that\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00211F#5P…… Although a bit unwilling to do.\x02",
+        "#00211F#5PI'm a bit reluctant\x02",
     )
 
     CloseMessageWindow()
@@ -2500,7 +2500,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10112F#6POh, haha ….\x02",
+        "#10112F#6PAhah\x02",
     )
 
     CloseMessageWindow()
@@ -2535,7 +2535,7 @@ def main():
             "This time#4RThis time#Let's accompany temporarily.\x02\x03",
             "#00700FBut \"wind sword of heaven\"\x01",
             "I keep going after catching up.\x02\x03",
-            "Is that okay?\x07\x00\x02",
+            "Is that fine?\x07\x00\x02",
         )
     )
 
@@ -2543,7 +2543,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#5POh, I understand.\x02",
+        "#00000F#5PYes, got it\x02",
     )
 
     CloseMessageWindow()
@@ -2620,7 +2620,7 @@ def main():
         (
             "#10103F#12PThen, someone else here\x01",
             "You may as well leave it.\x02\x03",
-            "#10101Fboatの見張りも\x01",
+            "#10101FBoat guards also\x01",
             "It may be necessary.\x02",
         )
     )
@@ -2640,7 +2640,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#11PLet's think about organizing.\x02",
+        "#00001F#11PGot it. Let's think of who to leave\x02",
     )
 
     CloseMessageWindow()
@@ -2763,8 +2763,8 @@ def main():
         -1,
         0,
         (
-            "【Waji】\x01",        # 0
-            "【Noel】\x01",      # 1
+            "【Wadi】\x01",        # 0
+            "[Noel]\x01",      # 1
         )
     )
 
@@ -2922,7 +2922,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "小型のboatが停められている。\x07\x00\x02",
+            "A small boat is parked.\x07\x00\x02",
         )
     )
 
@@ -2936,7 +2936,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001Fこれは２人が使ったboatだな。\x02\x03",
+            "#00001FThis is a boat that two people used.\x02\x03",
             "- Anyhow, let's hurry and head back.\x02",
         )
     )

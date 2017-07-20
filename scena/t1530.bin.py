@@ -1043,7 +1043,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "以前、通院していたpatientさんに\x01",
+            "To the patient who had been visiting the hospital before\x01",
             "To keep the prescribed medicine comfortable,\x01",
             "We are negotiating with the Defense Forces.\x02",
         )
@@ -1077,7 +1077,7 @@ def main():
         0x8,
         (
             "As outpatient reception is stopped,\x01",
-            "薬だけでも市内のpatientさんに\x01",
+            "For patients in the city just for medicine\x01",
             "I'd like to deliver it … …\x02",
         )
     )
@@ -1113,7 +1113,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "現在は、重病・重傷patientのみが\x01",
+            "Currently, only severely ill / seriously injured patients\x01",
             "With an ambulance with escort of Defense Forces\x01",
             "With it being transported ……\x02",
         )
@@ -1135,7 +1135,7 @@ def main():
         0x8,
         (
             "…… More than anything,\x01",
-            "市内のpatientさんがとても心配です。\x02",
+            "I am very worried about the patient in the city.\x02",
         )
     )
 
@@ -1161,7 +1161,7 @@ def main():
         (
             "Treat only serious illness · serious injury\x01",
             "I can not give up … ….\x01",
-            "市内のpatientさんがとても心配です。\x02",
+            "I am very worried about the patient in the city.\x02",
         )
     )
 
@@ -1281,7 +1281,7 @@ def main():
         0x8,
         (
             "Now in front of the examination room,\x01",
-            "Professor Seylandと３人で\x01",
+            "With Professor Seyland and three people\x01",
             "I seem to be consulting … ….\x02",
         )
     )
@@ -1304,7 +1304,7 @@ def main():
         0x8,
         (
             "Security guard Tony and the secretary general,\x01",
-            "診察室前でProfessor Seylandと\x01",
+            "With Professor Seyland in front of the examination room\x01",
             "It seems they are consulting.\x02",
         )
     )
@@ -1395,7 +1395,7 @@ def main():
         0x8,
         (
             "In a train accident yesterday,\x01",
-            "外国人を含む多数のpatientが\x01",
+            "Many patients, including foreigners,\x01",
             "It has been brought in.\x02",
         )
     )
@@ -1682,7 +1682,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Prince Albert閣下は街の方へ\x01",
+            "Dr. Albert D. Exarch to the city\x01",
             "You seem to have returned.\x02",
         )
     )
@@ -1699,7 +1699,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "patientさんのほうは退院まで\x01",
+            "The patient is discharged until discharge\x01",
             "I will treat you responsibly.\x02",
         )
     )
@@ -1714,8 +1714,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "先ほど、Prince Albert閣下が\x01",
-            "Ariosさんといらっしゃいました。\x02",
+            "In the past, Dr. Albert\x01",
+            "Welcome to Arios.\x02",
         )
     )
 
@@ -1739,8 +1739,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "現在、Prince Albert閣下が\x01",
-            "Ariosさんと一緒に\x01",
+            "Currently, Dr. Albert's Excellency\x01",
+            "With Arios\x01",
             "I am going to the medical examination room.\x02",
         )
     )
@@ -1795,7 +1795,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Professor Seylandは\x01",
+            "Professor Seyland\x01",
             "To the laboratory of pharmacology · neurology\x01",
             "Welcome.\x02",
         )
@@ -1821,7 +1821,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Professor Seylandは\x01",
+            "Professor Seyland\x01",
             "I will come to the laboratory.\x02",
         )
     )
@@ -1876,7 +1876,7 @@ def main():
         0x9,
         (
             "In this way,\x01",
-            "再開できただけでも、patientを救える\x01",
+            "Even if I can resume it, I can save my patient\x01",
             "The possibilities are quite different.\x02",
         )
     )
@@ -2011,7 +2011,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "ときどき救急patientの情報が\x01",
+            "Sometimes information on emergency patients\x01",
             "As much as it is sent,\x01",
             "Correspondence was also getting behind the back … ….\x02",
         )
@@ -2483,7 +2483,7 @@ def main():
         0x9,
         (
             "In Shizuku's surgery the other day,\x01",
-            "Professor Seylandの考案した\x01",
+            "Profiled by Professor Seyland\x01",
             "A revolutionary technique was given.\x02",
         )
     )
@@ -2550,7 +2550,7 @@ def main():
         0x9,
         (
             "in a few days,\x01",
-            "Professor Seylandによって\x01",
+            "Professor Seyland\x01",
             "A big surgery is done.\x02",
         )
     )
@@ -2560,7 +2560,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "昨日のPrince Albertの視察で\x01",
+            "On the visit of the Grand Duke Albert yesterday\x01",
             "From Remiferia as well\x01",
             "I was able to support you.\x02",
         )
@@ -2588,7 +2588,7 @@ def main():
         0x9,
         (
             "in a few days,\x01",
-            "Professor Seylandによって\x01",
+            "Professor Seyland\x01",
             "A big surgery is done.\x02",
         )
     )
@@ -2618,7 +2618,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Prince Albertから\x01",
+            "From the Grand Duke of Albert\x01",
             "Labor#2RNekira#I received the word of saying.\x02",
         )
     )
@@ -2709,7 +2709,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "patientさんの中には、いまだに\x01",
+            "Some of the patients still\x01",
             "There seems to be some people who can not ward off distrust.\x02",
         )
     )
@@ -2737,7 +2737,7 @@ def main():
         (
             "From now on, more open medical care\x01",
             "Aim and gradually regain trust\x01",
-            "いかなければYou can not do it.\x02",
+            "You must go and see.\x02",
         )
     )
 
@@ -2870,7 +2870,7 @@ def main():
         (
             "There was such a thing in town,\x01",
             "I have to stay in the hospital\x01",
-            "外来客もIt seems I started having hope.\x02",
+            "Foreign guests seem to have started hope.\x02",
         )
     )
 
@@ -3042,7 +3042,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "……ううん、patientさんたちは\x01",
+            "…… No, patients are\x01",
             "I am feeling more painful.\x01",
             "I can not say whining.\x02",
         )
@@ -3130,7 +3130,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "あの子も、Ariosさんも\x01",
+            "That girl, Arios also\x01",
             "I guess it really is uneasy.\x02",
         )
     )
@@ -3156,7 +3156,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "あの子も、Ariosさんも\x01",
+            "That girl, Arios also\x01",
             "I guess it really is uneasy.\x02",
         )
     )
@@ -3175,7 +3175,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "噂じゃProfessor Seylandが、\x01",
+            "Rumor that Professor Seyland,\x01",
             "Large surgery in the near future\x01",
             "I will tell you ….\x02",
         )
@@ -3236,7 +3236,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "今日はProfessor Lagoが\x01",
+            "Today Lago Professor\x01",
             "I do not have a business trip.\x02",
         )
     )
@@ -3256,7 +3256,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "代わりにProfessor Seylandが\x01",
+            "Instead Professor Seyland\x01",
             "I am in charge of internal medicine today.\x02",
         )
     )
@@ -3271,7 +3271,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "今日はProfessor Lago、\x01",
+            "Today Professor Lago,\x01",
             "I am on a business trip to a foreign conference.\x02",
         )
     )
@@ -3404,7 +3404,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "さあ、patientは待ってくれん。\x01",
+            "Now the patient will wait.\x01",
             "Let's say you're about to start.\x02",
         )
     )
@@ -3576,7 +3576,7 @@ def main():
         0xB,
         (
             "This is also a trial given by the goddess.\x01",
-            "patient達の為にも尽力せねばな。\x02",
+            "I should also work hard for the patients.\x02",
         )
     )
 
@@ -3988,7 +3988,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "Professor Gary、君の手術は\x01",
+            "Professor Gary, your surgery\x01",
             "I will have you act as an assistant.\x02",
         )
     )
@@ -4067,7 +4067,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "ウォッホン、Professor Gary。\x01",
+            "Who, Professor Gary.\x01",
             "…… That, what.\x02",
         )
     )
@@ -4123,7 +4123,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "重傷patientがいつ運び込まれるか\x01",
+            "When will a seriously injured patient be brought in?\x01",
             "Do not know, hospital\x01",
             "I can not leave.\x02",
         )
@@ -4133,7 +4133,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "それはProfessor Lagoも同じでしょう？\x02",
+        "Is that the same for Professor Lago?\x02",
     )
 
     CloseMessageWindow()
@@ -4247,7 +4247,7 @@ def main():
         0xE,
         (
             "I also came to visit the hospital yesterday\x01",
-            "Prince Albert直々に、\x01",
+            "Albert Prince directly,\x01",
             "I received the words of encouragement.\x02",
         )
     )
@@ -4321,7 +4321,7 @@ def main():
         0xC,
         (
             "In the hospital my field of mind is out of the field,\x01",
-            "そういうpatientさんの相談にも\x01",
+            "As a matter of consultation for such patients\x01",
             "I have to ride as much as possible.\x02",
         )
     )
@@ -4344,7 +4344,7 @@ def main():
         0xC,
         (
             "It depends so much on hospitals,\x01",
-            "そういうpatientさんの相談にも\x01",
+            "As a matter of consultation for such patients\x01",
             "I have to ride as much as possible.\x02",
         )
     )
@@ -4405,7 +4405,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "昨日、たくさんのpatientが\x01",
+            "Yesterday, many patients\x01",
             "After working over, work through.\x01",
             "The physical strength is the limit soon.\x02",
         )
@@ -4527,7 +4527,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "『patientがいるかぎり、\x01",
+            "\"As long as there are patients,\x01",
             "There is no time to depress us. \"\x01",
             "… … so so taught me.\x02",
         )
@@ -4608,7 +4608,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "大公閣下とProfessor Seyland、\x01",
+            "Dr. Okamoto and Professor Seyland,\x01",
             "It seems like I got acquainted from long ago.\x02",
         )
     )
@@ -4618,7 +4618,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "Professor Seylandが大公閣下に\x01",
+            "Professor Seyland to the Grand Priest\x01",
             "Talking in the usual atmosphere,\x01",
             "Somehow I will be disappointed … …\x02",
         )
@@ -4654,7 +4654,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "これも全て、Amisaちゃんが\x01",
+            "All this, too, Amisa\x01",
             "Thanks for your hard work.\x02",
         )
     )
@@ -4678,7 +4678,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "patientさんがどっと入ってきて\x01",
+            "Patient coming in one way\x01",
             "I'm pretty busy, but … I will do it!\x02",
         )
     )
@@ -4689,7 +4689,7 @@ def main():
         0xD,
         (
             "Although it is still a long way now,\x01",
-            "きっとProfessor Seylandみたいな\x01",
+            "Surely it looks like Professor Seyland\x01",
             "Because I'm going to be a female doctor!\x02",
         )
     )
@@ -4751,7 +4751,7 @@ def main():
         0xD,
         (
             "In the meantime I will manage somehow,\x01",
-            "難病のpatientさんがきたら\x01",
+            "When a patient with intractable disease comes\x01",
             "I can not deal with it …\x02",
         )
     )
@@ -4778,7 +4778,7 @@ def main():
         0xD,
         (
             "In the meantime I will manage somehow,\x01",
-            "難病のpatientさんがきたら\x01",
+            "When a patient with intractable disease comes\x01",
             "I can not deal with it …\x02",
         )
     )
@@ -4797,7 +4797,7 @@ def main():
         0xD,
         (
             "Although outpatient reception has ceased,\x01",
-            "重病のpatientがいつ来るか分からないわ。\x02",
+            "I do not know when a seriously ill patient will come.\x02",
         )
     )
 
@@ -4821,7 +4821,7 @@ def main():
         (
             "\"When the doctor is in such a situation\x01",
             "Do not show the sunken look … …. \"\x01",
-            "Professor Lagoが教えてくれたの。\x02",
+            "Professor Lago taught me.\x02",
         )
     )
 
@@ -4831,7 +4831,7 @@ def main():
         0xD,
         (
             "I wish we had an uneasy face\x01",
-            "patientにそれが伝染するものね。\x01",
+            "It is what it is transmitted to patients.\x01",
             "You have to be careful……\x02",
         )
     )
@@ -4963,7 +4963,7 @@ def main():
         0xD,
         (
             "Mumumu, I can not lose.\x01",
-            "patientさんに信用してもらえる\x01",
+            "Could you trust the patient\x01",
             "Because I'm going to be a female doctor!\x02",
         )
     )
@@ -5174,7 +5174,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "Professor Lagoなど嫌いだが、\x01",
+            "I dislike Professor Lago etc,\x01",
             "Beyond his support\x01",
             "There is no reliable one.\x02",
         )
@@ -5265,7 +5265,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "……Professor Lagoも、たまには\x01",
+            "…… Professor Lago, occasionally\x01",
             "You can say something wishful.\x02",
         )
     )
@@ -5350,7 +5350,7 @@ def main():
         (
             "I have been working in a hospital for many years,\x01",
             "It's enough to fill the hospital room\x01",
-            "入院patientが来たのは初めてだ。\x02",
+            "It is the first time for a hospitalized patient to come.\x02",
         )
     )
 
@@ -5404,7 +5404,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "何分、patientの数が多くてな。\x01",
+            "How many patients are many minutes.\x01",
             "The procedure took until morning.\x02",
         )
     )
@@ -5430,7 +5430,7 @@ def main():
         0xE,
         (
             "I was tired from surgery until morning … …\x01",
-            "patientは待ってくれない。\x02",
+            "The patient will not wait.\x02",
         )
     )
 
@@ -5478,7 +5478,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "下手をすると、Professor Lagoに\x01",
+            "If I do not do it well, I will ask Professor Lago\x01",
             "To the treatment of stomach pain\x01",
             "Maybe it will be.\x02",
         )
@@ -5504,7 +5504,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "下手をすると、Professor Lagoに\x01",
+            "If I do not do it well, I will ask Professor Lago\x01",
             "To the treatment of stomach pain\x01",
             "Maybe it will be.\x02",
         )
@@ -5540,7 +5540,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "この失敗にpatientが絶望してないか……\x01",
+            "The patient is not desperate for this failure ……\x01",
             "That's only a concern.\x02",
         )
     )
@@ -5636,7 +5636,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "Professor Lagoめ、どうも\x01",
+            "Professor Lago, thanks\x01",
             "It seems to be ecstatic.\x02",
         )
     )
@@ -5672,7 +5672,7 @@ def main():
     ChrTalk(
         0xE,
         (
-            "Professor Lagoの研究成果は\x01",
+            "Professor Lago's research results\x01",
             "I will not admit it.\x02",
         )
     )
@@ -5800,7 +5800,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "今はとにかく、patientさんの対応と\x01",
+            "Anyway, patient's response and\x01",
             "Maintenance of medical equipment\x01",
             "If you do not do it properly, is not it!\x02",
         )
@@ -6335,7 +6335,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "Professor Seylandが\x01",
+            "Professor Seyland\x01",
             "When I heard that I will be assigned to my place here,\x01",
             "It seemed like they were going to jump.\x02",
         )
@@ -6373,7 +6373,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "でも、Professor Seylandって\x01",
+            "But Professor Seyland\x01",
             "It is kind of cool, is not it?\x02",
         )
     )
@@ -6575,7 +6575,7 @@ def main():
         0x10,
         (
             "Because it was overnight check,\x01",
-            "Director Ashraも眠そうだな。\x02",
+            "It seems sleepy as chief of Asura.\x02",
         )
     )
 
@@ -6599,7 +6599,7 @@ def main():
     ChrTalk(
         0x10,
         (
-            "Professor Garyも家族の心配は\x01",
+            "Professor Gary also worries about the family\x01",
             "There would be a hospital's job\x01",
             "It seems to be very concentrated.\x02",
         )
@@ -6611,7 +6611,7 @@ def main():
         0x10,
         (
             "…… I also believe in family safety,\x01",
-            "今はDirector Ashraの手伝いに\x01",
+            "Now to assist the chief of Earth\x01",
             "I will decide to get in.\x02",
         )
     )
@@ -6771,7 +6771,7 @@ def main():
         0x10,
         (
             "If the medical device breaks down\x01",
-            "patientになにかあったりしたら\x01",
+            "If I have something in my patient\x01",
             "It's toppled over.\x02",
         )
     )
@@ -6781,7 +6781,7 @@ def main():
     ChrTalk(
         0x10,
         (
-            "またいつpatientが\x01",
+            "When the patient\x01",
             "As it is good to be carried,\x01",
             "I have to keep it properly.\x02",
         )
@@ -6797,7 +6797,7 @@ def main():
     ChrTalk(
         0x10,
         (
-            "またいつpatientが\x01",
+            "When the patient\x01",
             "As it is good to be carried,\x01",
             "I have to keep it properly.\x02",
         )
@@ -6951,7 +6951,7 @@ def main():
     ChrTalk(
         0x10,
         (
-            "Director Ashraは\x01",
+            "Ashra is the boss\x01",
             "No matter how much I fail, I can not afford it.\x02",
         )
     )
@@ -6980,7 +6980,7 @@ def main():
     ChrTalk(
         0x10,
         (
-            "結局Director Ashraは\x01",
+            "After all, Ashra\x01",
             "I could not make it in time.\x02",
         )
     )
@@ -7011,7 +7011,7 @@ def main():
     ChrTalk(
         0x10,
         (
-            "Director Ashraは、夜を徹して\x01",
+            "Ashura's chief, over the night\x01",
             "I often encourage research.\x02",
         )
     )
@@ -7040,7 +7040,7 @@ def main():
     ChrTalk(
         0x10,
         (
-            "Director Ashraは\x01",
+            "Ashra is the boss\x01",
             "It is a medical equipment expert.\x02",
         )
     )
@@ -7649,7 +7649,7 @@ def main():
     ChrTalk(
         0x13,
         (
-            "こういうのでpatientの気持ちを\x01",
+            "In this way the patient's feelings\x01",
             "I guess they are softening.\x02",
         )
     )
@@ -7854,7 +7854,7 @@ def main():
     ChrTalk(
         0x14,
         (
-            "私たちpatientが安心できるようにって\x01",
+            "We are trying to relieve the patient\x01",
             "I wonder why … ….\x02",
         )
     )
@@ -8576,7 +8576,7 @@ def main():
         0x1C,
         (
             "Well then,\x01",
-            "そっちの共和国のpatientさんの\x01",
+            "Patient in that Republic\x01",
             "Please contact your family.\x02",
         )
     )
@@ -8586,7 +8586,7 @@ def main():
     ChrTalk(
         0x1C,
         (
-            "私はProfessor Seylandに\x01",
+            "I am Professor of Seyland\x01",
             "I will deliver the chart.\x02",
         )
     )
@@ -8729,7 +8729,7 @@ def main():
         0x1D,
         (
             "For now,\x01",
-            "襲撃事件のpatientたちに\x01",
+            "To the patients of the raid incident\x01",
             "You will be able to respond adequately.\x02",
         )
     )
@@ -8755,7 +8755,7 @@ def main():
         0x1D,
         (
             "Now……\x01",
-            "そろそろ次のpatientの手術だ。\x02",
+            "It is about the operation of the next patient soon.\x02",
         )
     )
 
@@ -8843,7 +8843,7 @@ def main():
         0x1D,
         (
             "Litton,\x01",
-            "次はpatientたちの回診に向かうぞ。\x02",
+            "Next will head for patients' rounds.\x02",
         )
     )
 
@@ -8852,7 +8852,7 @@ def main():
     ChrTalk(
         0x1D,
         (
-            "今回の事故はpatientが多い。\x01",
+            "There are many patients in this accident.\x01",
             "Saying that the operation is over\x01",
             "Do not get out of my mind.\x02",
         )
@@ -8876,7 +8876,7 @@ def main():
     ChrTalk(
         0x1D,
         (
-            "今回の事故はpatientが多い。\x01",
+            "There are many patients in this accident.\x01",
             "Do not get out of my mind.\x02",
         )
     )
@@ -9190,7 +9190,7 @@ def main():
 
     ChrTalk(
         0x1F,
-        "これも全てAmisaのおかげじゃ。\x02",
+        "This is all thanks to Amisa.\x02",
     )
 
     CloseMessageWindow()
@@ -9369,7 +9369,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "それじゃ、Amisaちゃん。\x01",
+            "Well then, Amisa.\x01",
             "I always wrapped her medicine.\x02",
         )
     )
@@ -9435,7 +9435,7 @@ def main():
         (
             "Noderia mushroom\x01",
             "I'm waiting to bring it.\x02\x03",
-            "君たちとArios君なら\x01",
+            "If you and Arios\x01",
             "I'm sure you will achieve it.\x01",
             "Please, I beg you.\x02",
         )
@@ -9573,7 +9573,7 @@ def main():
         0xFE,
         (
             "I could not go to the hospital by regulation\x01",
-            "patientたちの搬送を手伝ってるの。\x02",
+            "I am helping patients transport.\x02",
         )
     )
 
@@ -9739,14 +9739,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100F#6PYes, now, is it okay?\x02",
+        "#10100F#6PYes, is now OK?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#11PYes, of course.\x02",
+        "#11PYes of course\x02",
     )
 
     CloseMessageWindow()
@@ -9791,14 +9791,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#6POh, let me get in the way.\x02",
+        "#00002F#6PYes. Let's head up there\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00104F#6PExcuse me, Sera.\x02",
+        "#00104F#6PExcuse us, Sara\x02",
     )
 
     CloseMessageWindow()
@@ -9892,7 +9892,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Professor Seylandにも\x01",
+            "Professor Seyland also\x01",
             "I got a confirmation.\x02",
         )
     )
@@ -10240,7 +10240,7 @@ def main():
         0x101,
         (
             "#00005FLes, in the princess of Remiferia\x01",
-            "Prince Albert閣下……！？\x02",
+            "Dear Grand Prince Albert … …! Is it?\x02",
         )
     )
 
@@ -10248,7 +10248,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105Fそれに、Ariosさんまで……\x02",
+        "#10105FAlso, to Mr. Arios ……\x02",
     )
 
     CloseMessageWindow()
@@ -10302,7 +10302,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000Fよ、Thank you.\x02",
+        "#00000FOh, thank you.\x02",
     )
 
     CloseMessageWindow()
@@ -10311,7 +10311,7 @@ def main():
         0x22,
         (
             "Huh, you guys,\x01",
-            "Arios君から聞いていてね。\x01",
+            "Please listen to me from Arios.\x01",
             "I definitely wanted to see you.\x02",
         )
     )
@@ -10378,7 +10378,7 @@ def main():
     ChrTalk(
         0x22,
         (
-            "フフ、Arios君のことを\x01",
+            "Huff, you about Arios\x01",
             "Because it is trusted\x01",
             "Please think.\x02",
         )
@@ -10466,7 +10466,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F（Prince Albert……\x01",
+            "#00003F(Grand Duke Albert … ….\x01",
             "Many friends seem to be wide people. )\x02",
         )
     )
@@ -10476,8 +10476,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10100F（ええ、エリィさんやAriosさん……\x01",
-            "  それにProfessor Seylandとも\x01",
+            "#10100F(Yeah, Eli and Arios … …\x01",
+            "Besides Professor Seyland\x01",
             "I'd like to know acquainted from before. )\x02",
         )
     )
@@ -10508,8 +10508,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FPrince Albert閣下、\x01",
-            "それにAriosさん。\x02",
+            "#00000FDear Grand Prince Albert,\x01",
+            "And Arios.\x02",
         )
     )
 
@@ -10528,7 +10528,7 @@ def main():
     ChrTalk(
         0x21,
         (
-            "#01400Fああ、今はProfessor Seylandに\x01",
+            "#01400FOh, now to Professor Seyland\x01",
             "I have been to a greeting.\x02",
         )
     )
@@ -10614,7 +10614,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F（Prince Albert……\x01",
+            "#00003F(Grand Duke Albert … ….\x01",
             "You really have a wide range of companionship. )\x02",
         )
     )
@@ -10624,7 +10624,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10100F（ええ、Professor Seylandとも\x01",
+            "#10100F(Yes, both Professor Isleand\x01",
             "You seem to know each other. )\x02",
         )
     )
@@ -10749,7 +10749,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "ついさっき、ロビーにいたpatientが\x01",
+            "The other day the patient who was in the lobby\x01",
             "It collapsed … ….\x02",
         )
     )
@@ -10863,7 +10863,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FAriosさん、俺たちは……\x02",
+        "#00000FArios, we are … …\x02",
     )
 
     CloseMessageWindow()
@@ -10987,7 +10987,7 @@ def main():
     ChrTalk(
         0x1D,
         (
-            "それまでpatientが持つかどうか、\x01",
+            "Whether the patient has it until then,\x01",
             "It's pretty tough at the moment.\x02",
         )
     )
@@ -11273,7 +11273,7 @@ def main():
 
     ChrTalk(
         0x22,
-        "Arios君、そして特務支援課の諸君。\x02",
+        "Arios, and men of the affairs support department.\x02",
     )
 
     CloseMessageWindow()
@@ -11369,7 +11369,7 @@ def main():
         0x22,
         (
             "Among these, for collection of \"ante grass\"\x01",
-            "Arios君に向かってもらいたい。\x02",
+            "I want you to head to Arios.\x02",
         )
     )
 
@@ -11475,7 +11475,7 @@ def main():
         (
             "#10303FHmm, certainly together\x01",
             "You seemed better looking.\x02\x03",
-            "#10300FAriosさんの護衛を\x01",
+            "#10300FMake Aios escort\x01",
             "It will take over to us\x01",
             "If it is not anxiety, though.\x02",
         )
@@ -11503,7 +11503,7 @@ def main():
     ChrTalk(
         0x22,
         (
-            "このpatientを一刻も早く\x01",
+            "This patient as soon as possible\x01",
             "If treatment is prioritized,\x01",
             "There will be no other way.\x02",
         )
@@ -11534,7 +11534,7 @@ def main():
     ChrTalk(
         0x22,
         (
-            "それに、Arios君が\x01",
+            "Also, Arios\x01",
             "If you come back in a hurry,\x01",
             "Is not there any problem?\x02",
         )
@@ -11595,7 +11595,7 @@ def main():
         0x22,
         (
             "Seiren guys,\x01",
-            "patientの経過を見つつ調合の準備を\x01",
+            "Preparing for preparation while seeing patient's progress\x01",
             "Please keep it.\x02",
         )
     )
@@ -11631,7 +11631,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Thus, Lloyd's\x01",
-            "Prince Albertの緊急要請を引き受け……\x07\x00\x02",
+            "Undertake the emergency request of Daqing Albert … …\x07\x00\x02",
         )
     )
 
@@ -11644,7 +11644,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Ariosと二手に分かれて\x01",
+            "Divided into two hands with Arios\x01",
             "I was going to procure materials for medicine.\x07\x00\x02",
         )
     )
@@ -11735,7 +11735,7 @@ def main():
     ChrTalk(
         0x24,
         (
-            "#1Pふう、To be sure it was a poisonous mushroom,\x01",
+            "#1PWow, it was not a poisonous mushroom,\x01",
             "It was careless.\x02",
         )
     )
@@ -11798,8 +11798,8 @@ def main():
     ChrTalk(
         0xC,
         (
-            "お礼なら、Prince Albert閣下と\x01",
-            "Ariosさん、そして特務支援課の\x01",
+            "If you are thankful, Dr. Albert and His Excellency\x01",
+            "Arios, and the Special Affairs Support Division's\x01",
             "Please tell people.\x02",
         )
     )
@@ -11820,7 +11820,7 @@ def main():
         0x24,
         (
             "#1PAh … That's right.\x01",
-            "皆さんもThank you very much.\x02",
+            "Thank you very much for everyone.\x02",
         )
     )
 
@@ -11829,7 +11829,7 @@ def main():
     ChrTalk(
         0x24,
         (
-            "#1PまさかあのPrince Albert閣下に\x01",
+            "#1PNo doubt that Dr. Albert of His Excellency\x01",
             "I can not help but …\x01",
             "It is somehow afraid.\x02",
         )
@@ -11856,7 +11856,7 @@ def main():
     ChrTalk(
         0x22,
         (
-            "やはり功績はArios君と\x01",
+            "After all, the accomplishment is with Arios\x01",
             "You are in the support department.\x02",
         )
     )
@@ -11984,7 +11984,7 @@ def main():
     ChrTalk(
         0x22,
         (
-            "Arios君と支援課の諸君、\x01",
+            "Arios and you and the support department,\x01",
             "And the cooperation of hospital staff\x01",
             "It has turned to treatment promptly.\x02",
         )
@@ -12070,7 +12070,7 @@ def main():
     ChrTalk(
         0x22,
         (
-            "Arios君、帰りの護衛も\x01",
+            "Arios, the escort on the way back\x01",
             "Can I ask you a favor?\x02",
         )
     )
@@ -12134,7 +12134,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00100Fふふ、Thank you very much.\x02",
+        "#00100FHehe, thank you.\x02",
     )
 
     CloseMessageWindow()
@@ -12450,7 +12450,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "でも、Medical supplies arrived\x01",
+            "But, medical supplies arrived\x01",
             "It was really good.\x02",
         )
     )
@@ -12461,7 +12461,7 @@ def main():
         0x1D,
         (
             "For now,\x01",
-            "襲撃事件のpatientたちに\x01",
+            "To the patients of the raid incident\x01",
             "You will be able to respond adequately.\x02",
         )
     )
@@ -12547,7 +12547,7 @@ def main():
         0x8,
         (
             "Yeah ….\x01",
-            "本当にThank you very much.\x02",
+            "I'm really thankful to you.\x02",
         )
     )
 
@@ -12759,7 +12759,7 @@ def main():
         0x101,
         (
             "#00003FExcuse me……\x01",
-            "後はThank you.\x02",
+            "Thank you in advance.\x02",
         )
     )
 

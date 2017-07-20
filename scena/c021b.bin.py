@@ -320,7 +320,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fサンキュー、Oscar。\x01",
+            "#00000FThank you, Oscar.\x01",
             "We will do so by all means … ….\x02",
         )
     )
@@ -416,7 +416,7 @@ def main():
         0xFE,
         (
             "My bread,\x01",
-            "Oscarのに\x01",
+            "Oscar's\x01",
             "I'm losing in sales …! Is it?\x02",
         )
     )
@@ -537,7 +537,7 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "ふふ、peachったらよっぽど\x01",
+            "Hehe, if you mom\x01",
             "I guess it was fun.\x02",
         )
     )
@@ -572,7 +572,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "そしたら、peachとアンリちゃんまで\x01",
+            "Then, until peach and Henri\x01",
             "Police officers are getting upset …\x02",
         )
     )

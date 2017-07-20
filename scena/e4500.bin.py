@@ -795,7 +795,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#5P…………………………………….\x02",
+        "#00001F#5P…\x02",
     )
 
     CloseMessageWindow()
@@ -869,7 +869,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F#5PAnyhow that girl … …\x02\x03",
+            "#00303F#5PHer aside\x02\x03",
             "#00301FLitora's dude and Ms. Kirika\x01",
             "Fiction#2RHo#Is the melee you true?\x02",
         )
@@ -891,7 +891,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#5P…………………………………….\x02",
+        "#00008F#5P…\x02",
     )
 
     CloseMessageWindow()
@@ -917,21 +917,21 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#5P……! Is it?\x02",
+        "#00005F#5P!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00208F#6P……that is……\x02",
+        "#00208F#6PThat is..\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00306F#5PIs not it completely black …?\x02",
+        "#00306F#5PTotally messed up\x02",
     )
 
     CloseMessageWindow()
@@ -968,7 +968,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#12P\"D∴G Church\" too! Is it?\x02",
+        "#00107F#12PThe D G Society too!?\x02",
     )
 
     CloseMessageWindow()
@@ -985,7 +985,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00208F#6PSomething like that … ….\x02",
+        "#00208F#6PNo way.. But\x02",
     )
 
     CloseMessageWindow()
@@ -1006,7 +1006,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00206F#6P……………………………………\x02",
+        "#00206F#6P…\x02",
     )
 
     CloseMessageWindow()
@@ -1076,7 +1076,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Okay, have you connected!\x02\x03",
+            "Good, it got through!\x02\x03",
             "I want to let Tio also hear it\x01",
             "Put it in speaker mode!\x02",
         )
@@ -1113,7 +1113,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#6PJonah, what's the matter?\x02",
+        "#00201F#6PJona, what's wrong?\x02",
     )
 
     CloseMessageWindow()
@@ -1122,7 +1122,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SIt does not matter what happened!\x07\x00\x02",
+            "#11P#2SWhat isn't wrong!\x07\x00\x02",
         )
     )
 
@@ -1146,14 +1146,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5Pmonster……?\x02",
+        "#00011F#5PMonster?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00105F#12PWhat, what do you mean?\x02",
+        "#00105F#12PW-what do you mean?\x02",
     )
 
     CloseMessageWindow()
@@ -1195,7 +1195,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#6P\"Astral code\" ……\x02\x03",
+            "#00208F#6PAstral Code\"\x02\x03",
             "#00201FIn other words, \"association\" started\x01",
             "Is there some trap?\x02",
         )
@@ -1228,8 +1228,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00205F#6PYeah, for sure …\x02\x03",
-            "#00201F……! Is it?\x02",
+            "#00205F#6PYes, it is..\x02\x03",
+            "#00201F!?\x02",
         )
     )
 
@@ -1252,7 +1252,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#5PWhat is ooyoo …\x02",
+        "#00307F#5POi oi so that means\x02",
     )
 
     CloseMessageWindow()
@@ -1265,7 +1265,7 @@ def main():
         (
             "#00003F#5P── Jonah.\x01",
             "What is that gem?\x02\x03",
-            "#00001FWhat's going to happen with that guy?\x02",
+            "#00001FCan something happen becase of that?\x02",
         )
     )
 
@@ -1275,7 +1275,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SWell, it's being analyzed … …\x07\x00\x02",
+            "#11P#2SI'm looking into that now but\x07\x00\x02",
         )
     )
 
@@ -1307,7 +1307,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#6PReal system … …?\x02",
+        "#00201F#6PReal sytem…\x02",
     )
 
     CloseMessageWindow()
@@ -1326,7 +1326,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SOh, all the sections of the geo front ……\x07\x00\x02",
+            "#11P#2SYes, in every Geofront Block\x07\x00\x02",
         )
     )
 
@@ -1358,14 +1358,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#5PMichelam …! Is it?\x02",
+        "#00007F#5PMichelam!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00310F#5PDoes that name come out! Is it?\x02",
+        "#00310F#5PSo that name came up\x02",
     )
 
     CloseMessageWindow()
@@ -1432,7 +1432,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106F#12P#30W………………………………\x02",
+        "#00106F#12P#30W…\x02",
     )
 
     CloseMessageWindow()

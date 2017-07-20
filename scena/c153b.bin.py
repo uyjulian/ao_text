@@ -138,7 +138,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#02503F#11PWhat is it?\x02\x03",
+            "#02503F#11PWhat a thing to happen…\x02\x03",
             "#02501FNo way it was a big deal this far\x01",
             "It is said that a solitary warrior causes.\x02",
         )
@@ -153,7 +153,7 @@ def main():
         (
             "#5P#02803F…… There is something behind us\x01",
             "There is no mistake.\x02\x03",
-            "#02801FAs well as at the time of the Trade Council … …\x02",
+            "#02801FIt's just like with the trade conference\x02",
         )
     )
 
@@ -162,7 +162,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#6P#01003FEleventh Empire Government ……\x02\x03",
+            "#6P#01003FThe Erebonia government\x02\x03",
             "#01001FNo, if you dare to identify it\x01",
             "Is it \"Imperial Army Information Bureau\"?\x02",
         )
@@ -221,7 +221,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "#6PSounds like that … ….\x02",
+        "#6PN-no way\x02",
     )
 
     CloseMessageWindow()
@@ -286,7 +286,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#02803FOf course, let's take countermeasures immediately.\x02\x03",
+            "#11P#02803FWe will of course plan a counterattack right away\x02\x03",
             "#02801F…… The damage of the guard\x01",
             "How much was it?\x02",
         )
@@ -308,7 +308,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P#02806FReally……\x02",
+        "#11P#02806FI see…\x02",
     )
 
     CloseMessageWindow()
@@ -332,14 +332,14 @@ def main():
 
     ChrTalk(
         0xA,
-        "#12P#00601FOK!\x02",
+        "#12P#00601FUnderstood!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xE,
-        "#6PWell, immediately!\x02",
+        "#6PAt once!\x02",
     )
 
     CloseMessageWindow()

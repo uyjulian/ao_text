@@ -43,7 +43,7 @@ def main():
         "Charlie",             # 22
         "Lieutenant Mireille",           # 23
         "Grace",               # 24
-        "A hunterガレス",             # 25
+        "Hunting soldier Gareth",             # 25
         "Cougar",               # 26
         "Cougar",               # 27
         "Cougar",               # 28
@@ -56,9 +56,9 @@ def main():
         "wolf",                     # 35
         "wolf",                     # 36
         "car",                     # 37
-        "装甲car",                 # 38
-        "装甲car",                 # 39
-        "新型装甲car",             # 40
+        "Armored car",                 # 38
+        "Armored car",                 # 39
+        "New armored car",             # 40
         "weapon",                   # 41
         "weapon",                   # 42
         "SE control",                 # 43
@@ -1297,7 +1297,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1388,7 +1388,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1479,7 +1479,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -3096,7 +3096,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "市内に潜伏していたA hunter団\x01",
+            "The hunting soldiers hiding in the city\x01",
             "Possibility of \"red constellation\".\x05\x02",
         )
     )
@@ -3447,7 +3447,7 @@ def main():
     CloseMessageWindow()
     Sleep(300)
     SetMessageWindowPos(290, 30, -1, -1)
-    SetChrName("A hunterたち")
+    SetChrName("R-right!")
     OP_82(0xC8, 0x0, 0xBB8, 0x12C)
 
     AnonymousTalk(
@@ -4321,7 +4321,7 @@ def main():
         0x15,
         (
             "Well!\x01",
-            "Cougarをぶつけろ！\x02",
+            "Hit Cougar!\x02",
         )
     )
 
@@ -4895,7 +4895,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10111F#5PあれがRandy先輩の\x01",
+            "#10111F#5PThat is Randy's senior\x01",
             "Real fighting ability ……\x02",
         )
     )
@@ -4927,7 +4927,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#5Pwhat……! Is it?\x02",
+        "#00007F#5PWhat!?\x02",
     )
 
     CloseMessageWindow()
@@ -4966,7 +4966,7 @@ def main():
         "Daughter's voice",
         (
             "#3954V#6P#25A#30WAhaha!\x01",
-            "絶好調だね、Randy兄！\x02",
+            "You're great, Randy Brother!\x02",
         )
     )
 
@@ -4978,7 +4978,7 @@ def main():
 
     ChrTalk(
         0x1C,
-        "#00311F#2763V#6P#15A#30W……Charlieか！\x02",
+        "#00311F#2763V#6P#15A#30W…… Charlie?\x02",
     )
 
     CloseMessageWindow()
@@ -5052,8 +5052,8 @@ def main():
         0x1D,
         (
             "#04612F#5PYes, of course\x01",
-            "Randy兄はそうじゃなくちゃ！\x02\x03",
-            "#04602FCharlieの好みとは違うけど\x01",
+            "Randy brother needs to do so!\x02\x03",
+            "#04602FIt is different from Shirley's preference\x01",
             "Cool!\x02",
         )
     )
@@ -5228,8 +5228,8 @@ def main():
     ChrTalk(
         0x1D,
         (
-            "#04609F#11Pくす、Randy兄に教わってた頃の\x01",
-            "Charlieじゃないんだってばァ。\x02",
+            "#04609F#11PKusu, when I was taught by Randy brother\x01",
+            "It's not Charlie, I guess.\x02",
         )
     )
 
@@ -5389,7 +5389,7 @@ def main():
     ChrTalk(
         0x1D,
         (
-            "#04606F#11Pうーん、今のRandy兄くらいじゃ\x01",
+            "#04606F#11PWell, it's about Randy's older brother right now.\x01",
             "I still can not be satisfied.\x02\x03",
             "#04611FWell someday.\x01",
             "Your best playing partner\x01",
@@ -5416,7 +5416,7 @@ def main():
     ChrTalk(
         0x1D,
         (
-            "#04604F#11Pふふ、Randy兄は\x01",
+            "#04604F#11PHehe, Randy elder brother\x01",
             "For a while at the dad\x01",
             "You should rehabilitate.\x02\x03",
             "#04602FAs soon as you regain the can\x01",
@@ -5450,7 +5450,7 @@ def main():
     NpcTalk(
         0x101,
         "Voice of Lloyd",
-        "#3320V#4S#10ARandy────ッ！！\x02",
+        "#3320V#4S#10ARandy ─ ─ ─ ─! It is!\x02",
     )
 
     CloseMessageWindow()
@@ -5678,7 +5678,7 @@ def main():
             "#04604F#11PCut …… Haha!\x02\x03",
             "#04602FOlder brother, regardless of appearance\x01",
             "Are you going to have a bad start?\x02\x03",
-            "Charlieみたいな小娘に\x01",
+            "To a girl like Charlie\x01",
             "It's an enormous collaboration attack!\x02",
         )
     )
@@ -5866,7 +5866,7 @@ def main():
 
     ChrTalk(
         0x16,
-        "Charlie様！\x02",
+        "Mr. Charlie!\x02",
     )
 
     CloseMessageWindow()
@@ -6020,7 +6020,7 @@ def main():
         0x1D,
         (
             "#04604F#3955V#11P#40WHuh, you okay.\x02\x03",
-            "#3956VそんなにCharlieと遊びたいなら\x01",
+            "#3956VIf you want to play with Charlie so much\x01",
             "I will give you some opportunities … …\x02",
         )
     )
@@ -6826,7 +6826,7 @@ def main():
         0x105,
         (
             "#10310F#5PThis is the strongest class\x01",
-            "A hunter団の実力か……\x02",
+            "Whether the skill of hunting corps … …\x02",
         )
     )
 
@@ -6955,7 +6955,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#6P#NLieutenant Mireille……！\x02",
+        "#00002F#6P#NThree Lieutenant Mireille … …!\x02",
     )
 
     CloseMessageWindow()
@@ -6987,7 +6987,7 @@ def main():
     Sleep(300)
     OP_82(0xC8, 0x0, 0xBB8, 0x12C)
     SetMessageWindowPos(-1, 20, -1, -1)
-    SetChrName("A security guardたち")
+    SetChrName("Security guards")
 
     AnonymousTalk(
         0xFF,
@@ -7412,7 +7412,7 @@ def main():
             "#07902FThe other party's\x01",
             "Leave it to us.\x02\x03",
             "……You guys.\x01",
-            "これ以上Randyが\x01",
+            "No more Randy\x01",
             "You asked me not to be unreasonable?\x02",
         )
     )
@@ -7533,7 +7533,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#12PRandy……？\x02",
+        "#00005F#12PRandy … …?\x02",
     )
 
     CloseMessageWindow()
@@ -7644,14 +7644,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#12PRandy！？\x02",
+        "#00105F#12PRandy! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00205F#11PRandyさん……！？\x02",
+        "#00205F#11PRandy's …! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -7667,7 +7667,7 @@ def main():
             "#00311F#30W#5PDo you understand ……\x01",
             "You are \"battlefield\"\x01",
             "You entered a step … ….?\x02\x03",
-            "#30W軍人でもA hunterでもない、\x01",
+            "#30WIt is not a soldier or a hunter,\x01",
             "It is not a professional killing professional\x01",
             "You guys ……\x02\x03",
             "#30WDid you do anything dangerous?\x01",
@@ -7679,7 +7679,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#12P……Randy………\x02",
+        "#00013F#12P… … Randy ………\x02",
     )
 
     CloseMessageWindow()
@@ -7859,7 +7859,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#12P……!\x02",
+        "#00005F#12P…!\x02",
     )
 
     CloseMessageWindow()
@@ -7919,14 +7919,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#12P#30W……Randy……\x02",
+        "#00108F#12P#30W… …. Randy …\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00206F#11P#30WRandyさん……\x02",
+        "#00206F#11P#30WRandy san ……\x02",
     )
 
     CloseMessageWindow()
@@ -8044,13 +8044,13 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#12P#30W考えてみればRandyも\x01",
+            "#00006F#12P#30WIf you think about it, Randy will also\x01",
             "It is the same young man as us … …\x02\x03",
             "#00008F…… I have a heavy thing\x01",
             "Everyone knows\x01",
             "I just cared about not to touch ……\x02\x03",
             "I just get to become a force,\x01",
-            "Randyの力にはなれなかった……\x02",
+            "I could not be the power of Randy ……\x02",
         )
     )
 
@@ -8084,9 +8084,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#12P#30W──Randyの過去も、\x01",
-            "罪悪感も、Randy自身のものだ。\x02\x03",
-            "#00003F多分それは、Randyが自分の中で\x01",
+            "#00006F#12P#30W── In the past of Randy,\x01",
+            "The feeling of guilt is also Randy's own.\x02\x03",
+            "#00003FPerhaps it is, Randy is in himself\x01",
             "I think that should be solved.\x02\x03",
             "#00001FAs a result, it is true that you\x01",
             "There may be things that can not be forgiven.\x02",
@@ -8106,11 +8106,11 @@ def main():
         0x101,
         (
             "#00003F#12P#30WBut someone else\x01",
-            "Randyを許さなくても……\x02\x03",
-            "たとえRandy自身が\x01",
+            "Even if I do not allow Randy ……\x02\x03",
+            "Even if Randy himself\x01",
             "Even if I can not forgive myself ……\x02\x03",
             "#00002F…… only us\x01",
-            "Randyのことを許すよ。\x02",
+            "I will forgive Randy.\x02",
         )
     )
 
@@ -8141,7 +8141,7 @@ def main():
         (
             "#00204F#11P#30WEveryone before, my past\x01",
             "As I accepted … ….\x02\x03",
-            "#00202FわたしもRandyさんの過去や、\x01",
+            "#00202FRandy's past, too,\x01",
             "Nanpa's personality and,\x01",
             "I will forgive sluggish place.\x02",
         )
@@ -8193,9 +8193,9 @@ def main():
             "I think that there is no other choice but to live alone.\x02\x03",
             "#00008FAnd now this moment ……\x01",
             "We are in the same place at the same time.\x02\x03",
-            "もしRandyがそれを少しでも\x01",
+            "If Randy does it even a little\x01",
             "If you are glad you …\x02\x03",
-            "#00000Fどうか──Randyを許す俺たちを\x01",
+            "#00000FPlease forgive us who forgive Randy\x01",
             "I want you to accept it as it is.\x02",
         )
     )
@@ -8467,7 +8467,7 @@ def main():
         0x109,
         (
             "#10105F#6PWait a minute, are not you …?\x02\x03",
-            "#10101F君、Randy先輩が\x01",
+            "#10101FYou, Randy-senpai\x01",
             "I knew that I went out! Is it?\x02",
         )
     )
@@ -9206,7 +9206,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#11PSound of battle ……!\x02",
+        "#00007F#11PTio\x02",
     )
 
     CloseMessageWindow()
@@ -9214,7 +9214,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00201F#12PNortheast, about 10 Serge!\x02\x03",
+            "#00201F#12PAbout 10 Selge from here!\x02\x03",
             "Probably deviated from the mountain path\x01",
             "Or battle in mountainous areas … …!\x02",
         )
@@ -9228,7 +9228,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#11PCut …… Mountainous area?\x02",
+        "#00010F#11PUgh. Mountainland\x02",
     )
 
     CloseMessageWindow()
@@ -9553,7 +9553,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#5P……?\x02",
+        "#00005F#5P…\x02",
     )
 
     CloseMessageWindow()
@@ -9562,7 +9562,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10707F#6P#4SMr. Lloyd!\x02",
+        "#10707F#6P#4SLLOYD!\x02",
     )
 
     CloseMessageWindow()
@@ -9636,7 +9636,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10410F#6PA sniper? …! Is it?\x02",
+        "#10410F#6PAmbush?!\x02",
     )
 
     CloseMessageWindow()
@@ -9644,7 +9644,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00207F#12PIt is over there!\x02",
+        "#00207F#12PUp there!\x02",
     )
 
     CloseMessageWindow()
@@ -9780,7 +9780,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#11PCut … Well!\x02",
+        "#00007F#11PTch. You think we'll let you?\x02",
     )
 
     CloseMessageWindow()
@@ -9797,7 +9797,7 @@ def main():
 
     ChrTalk(
         0x20,
-        "#5PThat's right.\x02",
+        "#5PI won't let you!\x02",
     )
 
     CloseMessageWindow()
@@ -9885,21 +9885,21 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10701F#11P……!\x02",
+        "#10701F#11P…!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x107,
-        "#01201F#11P#3CHmm, was it surrounded?\x02",
+        "#01201F#11P#3CHmm. So we're surrounded\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10408F#12PIt's a bit masui …\x02",
+        "#10408F#12PThis looks a bit bad\x02",
     )
 
     CloseMessageWindow()
@@ -10377,7 +10377,7 @@ def main():
 
     ChrTalk(
         0x20,
-        "#5PSurrender to the adult ──\x02",
+        "#5PStand down quietly\x02",
     )
 
     CloseMessageWindow()
@@ -10393,28 +10393,28 @@ def main():
 
     ChrTalk(
         0x20,
-        "#11Pwhat……! Is it?\x02",
+        "#11PWhat!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00005F#11PIt is … now!\x02",
+        "#00005F#11PThat was…!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00202F#11PPossibly, …\x02",
+        "#00202F#11PC-could it be\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x107,
-        "#01203F#11P#3CHmm, have you made it?\x02",
+        "#01203F#11P#3CHmm. They made it in time\x02",
     )
 
     CloseMessageWindow()
@@ -10588,14 +10588,14 @@ def main():
 
     ChrTalk(
         0x20,
-        "#11Pくっ……wolfだと！？\x02",
+        "#11PCut … … as a wolf! Is it?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00214F#11PMr. Zeit's subordinates ……!\x02",
+        "#00214F#11PTch. Wolves?\x02",
     )
 
     CloseMessageWindow()
@@ -10633,8 +10633,8 @@ def main():
 
     NpcTalk(
         0x104,
-        "青年のvoice",
-        "#2768V#15A#30WLet me do it, Gareth.\x02",
+        "Voice of a young man",
+        "#2768V#15A#30WVery well then I'll engage them from here!\x02",
     )
 
     CloseMessageWindow()
@@ -10680,28 +10680,28 @@ def main():
 
     ChrTalk(
         0x20,
-        "#5PHo! Is it?\x02",
+        "#5PYou think I'll let you, Gares?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00202F#11PAh……\x02",
+        "#00202F#11PHuh!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x107,
-        "#01200F#11P#3CLaw\x02",
+        "#01200F#11P#3CAh\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00005F#11Pラ、Randy！？\x02",
+        "#00005F#11POh\x02",
     )
 
     CloseMessageWindow()
@@ -10713,7 +10713,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00304F#2769V#11POh, it's been a long time.\x02\x03",
+            "#00304F#2769V#11PR-randy!\x02\x03",
             "#00302F#2770VThere will be stories to be piled up\x01",
             "For the time being, I will postpone it.\x02",
         )
@@ -10735,7 +10735,7 @@ def main():
 
     ChrTalk(
         0x20,
-        "#5PYoung … … Do it.\x02",
+        "#5PLots to say, but let's clean up the trash first\x02",
     )
 
     CloseMessageWindow()
@@ -10753,7 +10753,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#11Pま、wolfたちの加勢が無かったら\x01",
+            "#00306F#11PWell, if there are no activists from the wolves\x01",
             "Although it was bad place.\x02\x03",
             "#00301FFor those and Lloyd's\x01",
             "You made a mistake that was distracting.\x02",
@@ -10764,7 +10764,7 @@ def main():
 
     ChrTalk(
         0x20,
-        "#5PExactly.\x02",
+        "#5PAnd it was your bad for engaging Lloyd's team\x02",
     )
 
     CloseMessageWindow()
@@ -10819,7 +10819,7 @@ def main():
             "#00306FBesides, no matter how powerful it is\x01",
             "Once you are engaged in the engineering department\x01",
             "Usability drops.\x02\x03",
-            "#00302FI just use it at this time.\x02",
+            "#00302FAnd even if it is strong some engines are stronger than others\x02",
         )
     )
 
@@ -10827,7 +10827,7 @@ def main():
 
     ChrTalk(
         0x20,
-        "#5P……I see.\x02",
+        "#5PSo I got it all set for a time like this\x02",
     )
 
     CloseMessageWindow()
@@ -10844,7 +10844,7 @@ def main():
 
     ChrTalk(
         0x20,
-        "#5PIs it disadvantageous as expected?\x02",
+        "#5PI might be at a disadvantage\x02",
     )
 
     CloseMessageWindow()
@@ -10852,7 +10852,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F#11POh, finally get out.\x02\x03",
+            "#00303F#11PYeah. Get the hell out of here\x02\x03",
             "#00307FThen tell your uncle … …\x01",
             "I definitely want to knock it down!\x02",
         )
@@ -10862,7 +10862,7 @@ def main():
 
     ChrTalk(
         0x20,
-        "#5PI acknowledged it.\x02",
+        "#5PUnderstood\x02",
     )
 
     CloseMessageWindow()
@@ -10895,7 +10895,7 @@ def main():
     Sleep(300)
     OP_82(0x64, 0x0, 0xBB8, 0x1F4)
     SetMessageWindowPos(30, 150, -1, -1)
-    SetChrName("A hunterたち")
+    SetChrName("R-right!")
 
     AnonymousTalk(
         0xFF,
@@ -11070,7 +11070,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00014F#12PRandy……！\x02",
+        "#00014F#12PRandy …!\x02",
     )
 
     CloseMessageWindow()
@@ -11079,7 +11079,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00214F#11P……Randyさん！\x02",
+        "#00214F#11P…… Randy!\x02",
     )
 
     WaitChrThread(0x106, 1)
@@ -11118,7 +11118,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#12Pああ、Randyも……\x02",
+        "#00002F#12POh, Randy ….\x02",
     )
 
     CloseMessageWindow()
@@ -11182,7 +11182,7 @@ def main():
         0x107,
         (
             "#01203F#11P#3CWell, just in case.\x02\x03",
-            "#01200FそれとA hunterとやらの動きには\x01",
+            "#01200FAnd the movements of the soldiers and the hunters\x01",
             "I was telling you to be careful.\x02",
         )
     )
@@ -11262,8 +11262,8 @@ def main():
 
     NpcTalk(
         0x1E,
-        "女性のvoice",
-        "#5PRandy！\x02",
+        "Female voice",
+        "#5PRandy!\x02",
     )
 
     OP_64(0x104)
@@ -11422,7 +11422,7 @@ def main():
 
     NpcTalk(
         0x1F,
-        "女性のvoice",
+        "Female voice",
         "#4PYes, I agree!\x02",
     )
 
@@ -11502,7 +11502,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12Pグ、Graceさん！？\x02",
+        "#00011F#12PGood, Grace! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -11557,7 +11557,7 @@ def main():
             "Yea ~, I got a problem a little\x01",
             "I got hot in the crossbell city.\x02\x03",
             "So as a serving reporter and a photographer\x01",
-            "Randy君たちの所に押しかけたのよ。\x02",
+            "Randy pushed you guys.\x02",
         )
     )
 

@@ -24,7 +24,7 @@ def main():
         "Imperial army tank",             # 3
         "Imperial army tank",             # 4
         "Imperial army tank",             # 5
-        "Imperial army tank・壊れ",       # 6
+        "Imperial army tank · broken",       # 6
         "SE control",                 # 7
     ))
 

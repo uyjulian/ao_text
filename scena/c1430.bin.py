@@ -2632,7 +2632,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00000Fありがとうございます、Guillaume Masakata。\x01",
+            "#6P#00000FThank you, Guillaume Master.\x01",
             "You surely let me use it effectively.\x02",
         )
     )
@@ -2762,7 +2762,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10300Fそれで、Abbasはここで\x01",
+            "#10300FSo, Abbas is here\x01",
             "What are you doing to help?\x02",
         )
     )
@@ -2792,7 +2792,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100F確か、Abbasさんは\x01",
+            "#00100FSurely, Mr. Abbas\x01",
             "Cooking in Trinity\x01",
             "Was it being done?\x02",
         )
@@ -2814,7 +2814,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10302Fフフ、Abbasはこう見えて\x01",
+            "#10302FHugh, Abbas looks like this\x01",
             "Because the hands are dexterous.\x02\x03",
             "#10304FOf course not only cooking and work,\x01",
             "Even sewing is a fun thing.\x02",
@@ -2857,7 +2857,7 @@ def main():
         0x105,
         (
             "#10309FHuh, I will tell you\x01",
-            "Abbasは僕だけの\x01",
+            "Abbas is only me\x01",
             "Because it's stuff\x02\x03",
             "#10304FWell, as long as rental\x01",
             "You may think about it.\x02",
@@ -2874,7 +2874,7 @@ def main():
         (
             "#04100F…… What on earth are you talking about?\x02\x03",
             "Anyway, I will stay for a while\x01",
-            "ここでGuillaume Masakataの手伝いを\x01",
+            "Here I will help Guillaumemaster\x01",
             "I'm planning to do it.\x02\x03",
             "If there is something, come anytime.\x02",
         )
@@ -2886,7 +2886,7 @@ def main():
         0x101,
         (
             "#00002FOh, ah ……\x02\x03",
-            "#00003F（Abbasか……\x01",
+            "#00003F(Abbas? ….\x01",
             "It is a very mysterious person. )\x02",
         )
     )
@@ -2903,7 +2903,7 @@ def main():
         0xA,
         (
             "#04100FI will stay here for a while\x01",
-            "Guillaume Masakataの手伝いを\x01",
+            "Guillaume helping the boss\x01",
             "I'm planning to do it.\x02\x03",
             "If there is something, come anytime.\x02",
         )
@@ -3036,7 +3036,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00012F（Roberts boss、相変わらずだなあ……）\x02",
+        "#00012F(Roberts, Chief, as usual … …)\x02",
     )
 
     CloseMessageWindow()
@@ -3360,7 +3360,7 @@ def main():
             "Using material items such as\x01",
             "Equipment that is more effective than normal can be obtained.\x02\x03",
             "Talk to Guillaume at the counter\x01",
-            "　『Ask for remodeling』を選択すると、\x01",
+            "If you select \"Ask for remodeling\"\x01",
             "A menu is displayed and you can modify it.\x07\x00\x02",
         )
     )
@@ -3643,7 +3643,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000Fえっと、Guillaume Masakata……\x01",
+            "#00000FEr, Guillaume Parents ……\x01",
             "I like something like a metal detector\x01",
             "Do you have it?\x02",
         )
@@ -3653,7 +3653,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "Is it a metal detector …?\x02",
+        "A metal detector…?\x02",
     )
 
     CloseMessageWindow()
@@ -3690,14 +3690,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "But what on earth are you using?\x02",
+        "But it looks like you have a good use in mind\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00000FWell, that is ……\x02",
+        "#00000FYeah, that is\x02",
     )
 
     CloseMessageWindow()
@@ -3849,7 +3849,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00205FIt is surprisingly serious making.\x02\x03",
+            "#00205FIt looks better made than I was expecting\x02\x03",
             "#00203FEven what is used by police\x01",
             "It might be comparable.\x02",
         )
@@ -3890,7 +3890,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "Then, do you know how to use it?\x02",
+        "You know how to use it?\x02",
     )
 
     CloseMessageWindow()
@@ -3909,7 +3909,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "Generally it is such a place.\x02",
+        "Good that sounds good\x02",
     )
 
     CloseMessageWindow()
@@ -3940,7 +3940,7 @@ def main():
         (
             "#00004FI see……\x01",
             "I understand.\x02\x03",
-            "#00000FWell then, I will borrow it.\x02",
+            "#00000FOk then we'll put it to good use\x02",
         )
     )
 
@@ -3956,7 +3956,7 @@ def main():
             "It can only be used on outdoor maps.\x01",
             "Use it with \"△ button + L button\".\x02\x03",
             "※ Also, from the camp menu\x01",
-            "  [ITEMS]から使用することもできます。\x07\x00\x02",
+            "It can also be used from [ITEMS].\x07\x00\x02",
         )
     )
 
@@ -4007,7 +4007,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10300FHuh, he's doing it.\x02",
+        "#10300FHehe, you're working hard\x02",
     )
 
     CloseMessageWindow()
@@ -4024,7 +4024,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "Well, did you see the request?\x02",
+        "Oh, you saw our request?\x02",
     )
 
     CloseMessageWindow()
@@ -4053,7 +4053,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#04100FOh, that's right.\x02\x03",
+            "#04100FYeah, it is\x02\x03",
             "Tests were led,\x01",
             "In the residents' total in the old city\x01",
             "I am working but …\x02\x03",
@@ -4110,7 +4110,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10303F………………\x02",
+        "#10303F…\x02",
     )
 
     CloseMessageWindow()
@@ -4134,7 +4134,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003FThat's right.\x02",
+        "#00003FRight..\x02",
     )
 
     CloseMessageWindow()
@@ -4299,14 +4299,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FOh, leave it to me.\x02",
+        "#00000FYes. Leave it to us\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xA,
-        "#04100FHmm, I appreciate it.\x02",
+        "#04100FOh that's wonderful\x02",
     )
 
     CloseMessageWindow()
@@ -4393,14 +4393,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "A little while ago, I noticed a serious problem.\x02",
+        "I noticed a problem\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00205Fproblem? What does that mean ……\x02",
+        "#00205FA problem?\x02",
     )
 
     CloseMessageWindow()
@@ -4470,7 +4470,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10306FBoy, it is a hard way.\x02\x03",
+            "#10306FSeems quite difficult\x02\x03",
             "#10300FWell then, from somewhere\x01",
             "Picking up screws and nails\x01",
             "Is it okay?\x02",
@@ -4514,7 +4514,7 @@ def main():
         (
             "#00203F\"U Material\" is … …\x01",
             "Procurement seems to be very difficult though.\x02\x03",
-            "#00200FHow much do you need?\x02",
+            "#00200FHow many do you need?\x02",
         )
     )
 
@@ -4532,7 +4532,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "How about asking for procurement?\x02",
+        "Can I ask you guys for that?\x02",
     )
 
     CloseMessageWindow()
@@ -4549,7 +4549,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04100FI'm begging you, the Special Affairs Division.\x02",
+        "#04100FWe're counting on you SSS\x02",
     )
 
     CloseMessageWindow()
@@ -4605,7 +4605,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10300FOK, the leader.\x02\x03",
+            "#10300FGot it, Leader\x02\x03",
             "It is time when the old nest is difficult,\x01",
             "I will let it get dry.\x02",
         )
@@ -4799,7 +4799,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FWell then, I will hand it over.\x02",
+        "#00000FYes, go ahead\x02",
     )
 
     CloseMessageWindow()
@@ -4812,7 +4812,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_ITEM, 'Ｕ材料'),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "１０個.\x02",
+            "I handed 10 pieces.\x02",
         )
     )
 
@@ -4846,7 +4846,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00102FHuhuu, I'm happy to serve you.\x02",
+        "#00102FEhe, We're glad to be of help\x02",
     )
 
     CloseMessageWindow()
@@ -4894,9 +4894,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10303FAbbasとテスタメンツが\x01",
+            "#10303FAbbas and Testamentz\x01",
             "I will lead you.\x02\x03",
-            "#10309FWell, good luck.\x02",
+            "#10309FDo your best!\x02",
         )
     )
 
@@ -4904,7 +4904,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00206FI will tell you like someone else's … …\x02",
+        "#00206FYou talk like you're not one of them\x02",
     )
 
     CloseMessageWindow()
@@ -4930,7 +4930,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FOh, leave it to me.\x02\x03",
+            "#00000FYes. Leave it to us\x02\x03",
             "#00005FThe main place was\x01",
             "I almost finished helping …\x02\x03",
             "#00000FAs we go around the old town\x01",
@@ -4961,7 +4961,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FOh, I will let you.\x02",
+        "#00000FYeah, we'll do that\x02",
     )
 
     CloseMessageWindow()
@@ -5014,7 +5014,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#04100FWhat happened……?\x02",
+        "#04100FHow was it\x02",
     )
 
     CloseMessageWindow()
@@ -5031,7 +5031,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FWell, the main place is a whole street.\x02",
+        "#00000FYes, all the main needs\x02",
     )
 
     CloseMessageWindow()

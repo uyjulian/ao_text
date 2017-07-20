@@ -210,10 +210,10 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "Eventually all Lloyd members,\x01",
             "The guest house guest#4REducation#We gather in between \"…\x02\x03",
-            "程なくしてMayor of Dieterと\x01",
-            "娘のMarybeleも到着した。\x02\x03",
+            "Shortly afterward with Mayor of Dieter\x01",
+            "My daughter Maria Bell also arrived.\x02\x03",
             "And apologize for late arrival\x01",
-            "Mayor of Dieterの挨拶を合図に……\x02\x03",
+            "Signing greetings by Mayor Dieter … …\x02\x03",
             "It is luxurious but cozy\x01",
             "The dinner party began.\x07\x00\x02",
         )
@@ -266,7 +266,7 @@ def main():
 
     ChrTalk(
         0x11,
-        "#00202F#6PThank you very much.\x02",
+        "#00202F#6PThank you for your hard work\x02",
     )
 
     CloseMessageWindow()
@@ -293,7 +293,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#00106F#6PAlready, if the bell ……\x02",
+        "#00106F#6PCome on Belle\x02",
     )
 
     CloseMessageWindow()
@@ -328,7 +328,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#01704F#11PHuh, I see.\x02\x03",
+            "#01704F#11PEhe, I see\x02\x03",
             "#01702FAnd the stage where curtains came up\x01",
             "It is necessary to keep dancing until the end …\x02",
         )
@@ -339,7 +339,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#02803F#5PExactly.\x02\x03",
+            "#02803F#5PThat's right\x02\x03",
             "#02800FIf you ask, alkane shell\x01",
             "\"Golden Sun, Silver Moon\"\x01",
             "Trying to challenge renewal.\x02\x03",
@@ -355,7 +355,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6PIs that so……\x02",
+        "#00005F#6PIs that right\x02",
     )
 
     CloseMessageWindow()
@@ -372,14 +372,14 @@ def main():
 
     ChrTalk(
         0xC,
-        "#01804F#11PThank you very much.\x02",
+        "#01804F#11PThank you so much\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xD,
-        "#04203F#11P… ….\x02",
+        "#04203F#11PThanks\x02",
     )
 
     CloseMessageWindow()
@@ -397,12 +397,12 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#02805F#5PNo, no way.\x02\x03",
+            "#02805F#5PNo no not at all\x02\x03",
             "#02800FFrom officials of Ursula Hospital\x01",
             "I always hear about you rumors.\x02\x03",
             "With the return of the saint Ursula anything\x01",
             "It's like a hard worker told me.\x02\x03",
-            "#02809FI am honored to meet you.\x02",
+            "#02809FI'm honored to meet you\x02",
         )
     )
 
@@ -413,7 +413,7 @@ def main():
         (
             "#05905F#11PSurely, that is\x01",
             "I think whether it is exaggerated … ….\x02\x03",
-            "#05904FIt is an honor to be able to say so.\x02",
+            "#05904FI'm honored to hear that\x02",
         )
     )
 
@@ -435,7 +435,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#02805F#5POops, this is rude.\x02\x03",
+            "#02805F#5POh how rude of me\x02\x03",
             "#02809FNo, nothing but beautiful ladies\x01",
             "It seems that it is rising without age.\x02",
         )
@@ -445,7 +445,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00012F#6Pmy mother……\x02",
+        "#00012F#6PAhah\x02",
     )
 
     CloseMessageWindow()
@@ -474,28 +474,28 @@ def main():
 
     ChrTalk(
         0x13,
-        "#10109F#11PMayor, thank you.\x02",
+        "#10109F#11PMayor, thanks so much\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#06409F#11PIt was a lot of fun!\x02",
+        "#06409F#11PIt was so much fun~\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#01109F#6PKeyaも楽しかったー。\x02",
+        "#01109F#6PKeA had fun too!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xF,
-        "#02804F#5PHaha, that's nothing but something.\x02",
+        "#02804F#5PAhaha, well that's great\x02",
     )
 
     CloseMessageWindow()
@@ -524,14 +524,14 @@ def main():
 
     ChrTalk(
         0x13,
-        "#10108F#11PAh……\x02",
+        "#10108F#11PAh…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00008F#6PMayor of Dieter……\x02",
+        "#00008F#6PMayor Dieter…\x02",
     )
 
     CloseMessageWindow()
@@ -568,7 +568,7 @@ def main():
             "Then gradually form international public opinion,\x01",
             "Somehow from two major powers\x01",
             "Tear off \"independence\" …\x02\x03",
-            "#02800FThat's my scenario.\x02",
+            "#02800FThat's the scenario I'm pursuing\x02",
         )
     )
 
@@ -576,7 +576,7 @@ def main():
 
     ChrTalk(
         0x12,
-        "#00303F#6PI see …\x02",
+        "#00303F#6PI see\x02",
     )
 
     CloseMessageWindow()
@@ -595,7 +595,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#10101F#11Pワ、Waji君……！\x02",
+        "#10101F#11PW-Wazy..\x02",
     )
 
     CloseMessageWindow()
@@ -603,7 +603,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#02803F#5PNo, as you pointed out.\x02\x03",
+            "#02803F#5PNo it's exactly as you say\x02\x03",
             "#02801FFrom a geopolitical point of view\x01",
             "Crossbell's national independence is\x01",
             "It is in a very difficult situation ……\x02\x03",
@@ -621,7 +621,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#00102F#6P……uncle……\x02",
+        "#00102F#6PSir..\x02",
     )
 
     CloseMessageWindow()
@@ -638,14 +638,14 @@ def main():
 
     ChrTalk(
         0xC,
-        "#01808F#11P…………………………\x02",
+        "#01808F#11P….\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xB,
-        "#01704F#11PHmm … I see.\x02",
+        "#01704F#11PHmm. I see\x02",
     )
 
     CloseMessageWindow()
@@ -674,7 +674,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Mayor of Dieterは席を見渡して\x01",
+            "Mayor Dieter looked at the seat\x01",
             "I bowed my head deeply.\x07\x00\x02",
         )
     )
@@ -713,7 +713,7 @@ def main():
             "While being enveloped in a magical euphoria\x01",
             "Lloyds who were tired from play\x01",
             "I decided to take a day off as soon as possible.\x02\x03",
-            "And ──\x07\x00\x02",
+            "And then-\x07\x00\x02",
         )
     )
 

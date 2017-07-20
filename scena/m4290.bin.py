@@ -301,7 +301,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#6P(Here, here …!\x02",
+        "#00011F#6P(T-this is!)\x02",
     )
 
     CloseMessageWindow()
@@ -360,7 +360,7 @@ def main():
     NpcTalk(
         0x8,
         "A man in white robe",
-        "#04704F#11PHuh, that would be such thing.\x02",
+        "#04704F#11PHaha, that's right\x02",
     )
 
     CloseMessageWindow()
@@ -385,7 +385,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#04809F#11PAhaha, there surely is not.\x02\x03",
+            "#04809F#11PAhah, I think that's for sure\x02\x03",
             "#04805FBut, in addition to Dr.\x01",
             "I wish my professor came to crossbell\x01",
             "I wonder if I can not keep up with it?\x02\x03",
@@ -412,7 +412,7 @@ def main():
         "People of armor",
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5P……………………………………\x07\x00\x02",
+            "#5P….\x07\x00\x02",
         )
     )
 
@@ -460,7 +460,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#04805F#5PWhat's the matter?\x02\x03",
+            "#04805F#5PHuh? What's wrong?\x02\x03",
             "#04800FAfter all this mission,\x01",
             "Is not it easy to get rid of it?\x02",
         )
@@ -477,7 +477,7 @@ def main():
             "There is no objection etc.\x02\x03",
             "Better than that, Campanella.\x01",
             "The talk is that much.\x02\x03",
-            "Apparently it seems like a visitor.\x07\x00\x02",
+            "It appears we have visitors\x07\x00\x02",
         )
     )
 
@@ -562,14 +562,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#12P………………………………\x02",
+        "#00013F#12P…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00107F#12P…… Oh, you guys ……\x02",
+        "#00107F#12PY-you are…\x02",
     )
 
     CloseMessageWindow()
@@ -590,7 +590,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#04805F#5POh, you guys.\x02\x03",
+            "#04805F#5POh it's you guys\x02\x03",
             "#04804FThe sneakers of the prime minister\x01",
             "You ought to be unstable … …\x02\x03",
             "#04802FUhufu, how are you\x01",
@@ -655,7 +655,7 @@ def main():
         0x8,
         "A man in white robe",
         (
-            "#04703F#5PHM……\x02\x03",
+            "#04703F#5PHmm\x02\x03",
             "#04701FTo imply Cross Bell police\x01",
             "Is it like a rookie?\x02",
         )
@@ -709,7 +709,7 @@ def main():
         "People of armor",
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5PIt is a straight young man.\x07\x00\x02",
+            "#5PThe're quite the righteous young ones\x07\x00\x02",
         )
     )
 
@@ -776,7 +776,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "It is F · Novartis.\x02\x03",
+            "My name is F Nobaltisse\x02\x03",
             "\"Eating snake#10RUroboros#\"In the sixth pillar of,\x01",
             "\"Thirteen studio\" is entrusted.\x02\x03",
             "Huh, please feel free\x01",
@@ -824,7 +824,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#04801F#5PDoctor, doctor.\x02",
+        "#04801F#5PProfessor, Professor?\x02",
     )
 
     CloseMessageWindow()
@@ -845,7 +845,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00211F#12P#NWe refuse.\x02",
+        "#00211F#12P#NI refuse\x02",
     )
 
     CloseMessageWindow()
@@ -854,7 +854,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04705F#5P#4SKern!\x02",
+        "#04705F#5P#4SGaaah\x02",
     )
 
     CloseMessageWindow()
@@ -894,7 +894,7 @@ def main():
         "People of armor",
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#5P─ ─ Are you the next one?\x07\x00\x02",
+            "#5PI guess I'm next\x07\x00\x02",
         )
     )
 
@@ -920,10 +920,10 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#3887V#40W我が名はAriane Road。\x02\x03",
+            "#3887V#40WMy name is Arianrod\x02\x03",
             "#3888V\"Eating snake#10RUroboros#\"In the seventh pillar of it,\x01",
             "It is crowned with the name \"steel\".\x02\x03",
-            "#3889VPlease let me know every day.\x07\x00\x02",
+            "#3889VNice to meet you\x07\x00\x02",
         )
     )
 
@@ -940,7 +940,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12P#NWell …\x02",
+        "#00011F#12P#NAh\x02",
     )
 
     CloseMessageWindow()
@@ -949,7 +949,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#12P#NWhat a clear voice ……\x02",
+        "#00108F#12P#NWhat a cool voice\x02",
     )
 
     CloseMessageWindow()
@@ -1051,7 +1051,7 @@ def main():
         0x106,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#00702F#6P──この《Silver#2Rイン#》を前にして\x01",
+            "#00702F#6P── This \"silver#2RIn#\"In front of you\x01",
             "I can afford that, how much can I keep?\x07\x00\x02",
         )
     )
@@ -1063,7 +1063,7 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#04900F#11P#N…………………………………….\x07\x00\x02",
+            "#04900F#11P#NHmm\x07\x00\x02",
         )
     )
 
@@ -1073,14 +1073,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5Pお、おい《Silver》……\x02",
+        "#00011F#5PHey, Yin\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00108F#11PWhy is that … ….\x02",
+        "#00108F#11PWhy are you…\x02",
     )
 
     CloseMessageWindow()
@@ -1135,7 +1135,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6Pwhat……\x02",
+        "#00005F#6PWhat\x02",
     )
 
     CloseMessageWindow()
@@ -1143,7 +1143,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10105F#12P\"Nushi\" … …?\x02",
+        "#10105F#12PMaster…\x02",
     )
 
     CloseMessageWindow()
@@ -1154,7 +1154,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10305F#12P\"Nushi\" … …?\x02",
+        "#10305F#12PMaster…\x02",
     )
 
     CloseMessageWindow()
@@ -1170,8 +1170,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#6PConfirm the approach of a huge aura …\x02\x03",
-            "#00207FA big eid beast will come!\x02",
+            "#00208F#6PI feel a huge aura!\x02\x03",
+            "#00207FA large Cryptid is coming!\x02",
         )
     )
 
@@ -1235,7 +1235,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#5Pwhat……! Is it?\x02",
+        "#00307F#5PWhat!\x02",
     )
 
     CloseMessageWindow()
@@ -1254,7 +1254,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10308F#5PWhere the hell …! Is it?\x02",
+        "#10308F#5PFrom where?!\x02",
     )
 
     CloseMessageWindow()
@@ -1355,7 +1355,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#6P#NBecome Is it?\x02",
+        "#00007F#6P#NAh!\x02",
     )
 
     CloseMessageWindow()
@@ -1364,7 +1364,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00110F#6P#NHere, this monster …! Is it?\x02",
+        "#00110F#6P#NThis monster is\x02",
     )
 
     CloseMessageWindow()
@@ -1374,7 +1374,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#04804F#6P#N幻獣《Spinkimeira》……\x02\x03",
+            "#04804F#6P#NThe Cryptid Sufin Kimail\x02\x03",
             "#04802FAn old fantasy created\x01",
             "Is it such as the keeper of the sacred flower garden?\x02",
         )
@@ -1409,7 +1409,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#6P#NCut …!\x02",
+        "#00010F#6P#NUgh!\x02",
     )
 
     CloseMessageWindow()
@@ -2018,14 +2018,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6PCut … … Ha ha … ….\x02",
+        "#00006F#6PAhhh ahhh\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00108F#6PI managed to beat it …\x02",
+        "#00108F#6PWe managed to bring it down somehow..\x02",
     )
 
     CloseMessageWindow()
@@ -2123,7 +2123,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#6P#N………………………………\x02",
+        "#00201F#6P#N…\x02",
     )
 
     CloseMessageWindow()
@@ -2132,7 +2132,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00311F#6P#NWell …\x02",
+        "#00311F#6P#NYou guys…\x02",
     )
 
     CloseMessageWindow()
@@ -2185,14 +2185,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#11Peh! Is it?\x02",
+        "#00105F#11PHuh?!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00208F#11PAh……\x02",
+        "#00208F#11PAhh..\x02",
     )
 
     CloseMessageWindow()
@@ -2200,7 +2200,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10110F#11PWell, no way … ….\x02",
+        "#10110F#11POh you mean the leader from the hoodlum group\x02",
     )
 
     CloseMessageWindow()
@@ -2225,7 +2225,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10301F#11P………………………………\x02",
+        "#10301F#11P…\x02",
     )
 
     CloseMessageWindow()
@@ -2259,7 +2259,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00205F#12P#N\"appointed day\"……\x02",
+        "#00205F#12P#NPromised Day…\x02",
     )
 
     CloseMessageWindow()
@@ -2282,7 +2282,7 @@ def main():
         0xB,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#00700F#12P……………………………………\x07\x00\x02",
+            "#00700F#12P….\x07\x00\x02",
         )
     )
 
@@ -2307,7 +2307,7 @@ def main():
         0xB,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#00702F#12P─ ─ No words have been done.\x02\x03",
+            "#00702F#12PIt sounds like words wont get through\x02\x03",
             "From here onwards with power\x01",
             "Let's have your mouth open.\x07\x00\x02",
         )
@@ -2318,7 +2318,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#6PSilver#2Rイン#……\x02",
+        "#00008F#6PSilver#2RIn#… ….\x02",
     )
 
     CloseMessageWindow()
@@ -2378,7 +2378,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04704F#6PWhew.\x02",
+        "#04704F#6POh well now\x02",
     )
 
     CloseMessageWindow()
@@ -2409,7 +2409,7 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#04900F#5PIt can not be helped.\x07\x00\x02",
+            "#04900F#5PNo choice\x07\x00\x02",
         )
     )
 
@@ -2460,7 +2460,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#6P#NOr, a spear …?\x02",
+        "#00011F#6P#NA spear…\x02",
     )
 
     CloseMessageWindow()
@@ -2501,10 +2501,10 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#3890V#5P#30W─ ─ Questions are useless.\x02\x03",
+            "#3890V#5P#30WNo need for questions\x02\x03",
             "#3891VBecause I took each other's gifts\x01",
             "You should hit it with all your strength.\x02\x03",
-            "#3892VOtherwise there will be no life.\x07\x00\x02",
+            "#3892VOtherwise you'll die\x07\x00\x02",
         )
     )
 
@@ -2521,7 +2521,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#6P#NHuh! Is it?\x02",
+        "#00005F#6P#NAh!\x02",
     )
 
     CloseMessageWindow()
@@ -2532,7 +2532,7 @@ def main():
         0xB,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#00707F#12P#NCome ─ ─!\x07\x00\x02",
+            "#00707F#12P#NComing!\x07\x00\x02",
         )
     )
 
@@ -2573,14 +2573,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#11P#7AHuh\x02",
+        "#00105F#11P#7AEh\x02",
     )
 
     Sleep(800)
 
     ChrTalk(
         0x101,
-        "#00010F#4P#N#7Aな な ………\x02",
+        "#00010F#4P#N#7AAh\x02",
     )
 
     CloseMessageWindow()
@@ -2627,7 +2627,7 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#04900F#5P………………………………\x07\x00\x02",
+            "#04900F#5P…\x07\x00\x02",
         )
     )
 
@@ -2638,7 +2638,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10108F#12P#30W#NSounds like that … ….\x02",
+        "#10108F#12P#30W#NNo way that was\x02",
     )
 
     CloseMessageWindow()
@@ -2701,7 +2701,7 @@ def main():
         0xB,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#00710F#11P#30W… … … … … …\x07\x00\x02",
+            "#00710F#11P#30WUgh\x07\x00\x02",
         )
     )
 
@@ -2731,7 +2731,7 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#04900F#5PIt is quite a reaction.\x02\x03",
+            "#04900F#5PNot a bad reaction\x02\x03",
             "But compared with the \"previous generation\"\x01",
             "It seems that there is still hesitation.\x07\x00\x02",
         )
@@ -2747,7 +2747,7 @@ def main():
         0xB,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#00705F#11P#30W#10A………what…………\x07\x00\x02",
+            "#00705F#11P#30W#10AWhat…\x07\x00\x02",
         )
     )
 
@@ -2815,7 +2815,7 @@ def main():
 
     AnonymousTalk(
         0xC,
-        "#30W─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─ ─\x02",
+        "#30W…\x02",
     )
 
     CloseMessageWindow()
@@ -2831,28 +2831,28 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12P……!\x02",
+        "#00011F#12P…!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00105F#5Peh……! Is it?\x02",
+        "#00105F#5PHuh?!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00307F#11PWhat? Is it?\x02",
+        "#00307F#11PWha\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00205F#11PLisha……さん……？\x02",
+        "#00205F#11PRixia….\x02",
     )
 
     CloseMessageWindow()
@@ -2889,10 +2889,10 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#04809F#5PAhaha, this is a masterpiece!\x02\x03",
-            "《Silver#2Rイン#》の正体が\x01",
+            "#04809F#5POh this is something else!\x02\x03",
+            "\"Silver#2RIn#The identity of \"\x01",
             "Alkane Shell's semi-heroine,\x01",
-            "Lisha・マオだったなんてね！\x02\x03",
+            "It was Risha Mao!\x02\x03",
             "#04802FUhufu, that is funny\x01",
             "Is not there a drama?\x02",
         )
@@ -2902,7 +2902,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#00711F#5P… … … … … …\x02",
+        "#00711F#5PUgh\x02",
     )
 
     CloseMessageWindow()
@@ -2934,7 +2934,7 @@ def main():
     NpcTalk(
         0x109,
         "Daughter's voice",
-        "#3519V#6P#20AEveryone, are you okay? Is it?\x02",
+        "#3519V#6P#20AEveryone, are you ok?!\x02",
     )
 
     CloseMessageWindow()
@@ -3043,7 +3043,7 @@ def main():
         0x101,
         (
             "#00008F#6P#NWadi\x01",
-            "それにAriosさんたちも……\x02",
+            "And also Arios …\x02",
         )
     )
 
@@ -3057,7 +3057,7 @@ def main():
         0x101,
         (
             "#00008F#6P#NNoel …\x01",
-            "それにAriosさんたちも……\x02",
+            "And also Arios …\x02",
         )
     )
 
@@ -3070,7 +3070,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106F#6PYou came to see me ……\x02",
+        "#00106F#6PSo you're here\x02",
     )
 
     CloseMessageWindow()
@@ -3131,14 +3131,14 @@ def main():
 
     ChrTalk(
         0xE,
-        "#12PThey are …!\x02",
+        "#12PThose guys are…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xD,
-        "#12PAre they \"snakes\" ……!\x02",
+        "#12PThe Snake..\x02",
     )
 
     CloseMessageWindow()
@@ -3155,7 +3155,7 @@ def main():
     AnonymousTalk(
         0xF,
         (
-            "#4053V#11P#40W\"Clown\" Campanella ……\x02\x03",
+            "#4053V#11P#40WCampanella the Clown\x02\x03",
             "#4054VAlso, to the manager of \"13 studio\"\x01",
             "\"Steel's Saint\"? …\x02",
         )
@@ -3214,7 +3214,7 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#01403F#11P…… Flattery is fine.\x02\x03",
+            "#01403F#11PNo need for flattery\x02\x03",
             "As you like \"people's area\"\x01",
             "It has not been reached until it exceeds.\x02\x03",
             "#01401FEspecially in front of \"that spear\"\x01",
@@ -3239,7 +3239,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#6PAriosさん……！？\x02",
+        "#6PArios…?\x02",
     )
 
     CloseMessageWindow()
@@ -3266,7 +3266,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "#12PIt is! Is it?\x02",
+        "#12P!?\x02",
     )
 
     CloseMessageWindow()
@@ -3360,7 +3360,7 @@ def main():
 
     ChrTalk(
         0x10,
-        "#11P…………………………\x02",
+        "#11P…..\x02",
     )
 
     CloseMessageWindow()
@@ -3368,7 +3368,7 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#5PDamn\x01",
+            "#5PUgh…\x01",
             "Lynn got together?\x02",
         )
     )
@@ -3393,7 +3393,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10108F#11PDamn\x01",
+            "#10108F#11PUgh…\x01",
             "(There is no gap at all …!!)\x02",
         )
     )
@@ -3422,21 +3422,21 @@ def main():
 
     ChrTalk(
         0x11,
-        "#11PWhat.\x02",
+        "#11PRight.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x12,
-        "#5PHuh, I got it.\x02",
+        "#5PHah, understood\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x10,
-        "#11PLeave the master 's command.\x02",
+        "#11PFor the will of the Master\x02",
     )
 
     CloseMessageWindow()
@@ -3474,21 +3474,21 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00010F#1PDamn\x02",
+        "#00010F#1PUgh…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xC,
-        "#00712F#11P………………………………\x02",
+        "#00712F#11P…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#04804F#5P#NUhufu, it looks like a tide.\x02",
+        "#04804F#5P#NAhah, time to pull out then\x02",
     )
 
     CloseMessageWindow()
@@ -3585,7 +3585,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#12P#NWait … ….!\x02",
+        "#00007F#12P#NW-wait!\x02",
     )
 
     CloseMessageWindow()
@@ -3608,7 +3608,7 @@ def main():
         0xA,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#04900F#5POne, let me advise.\x02\x03",
+            "#04900F#5PI will give you one warning\x02\x03",
             "In this \"plan\"\x01",
             "We are nothing but supporting persons.\x07\x00\x02",
         )
@@ -3618,7 +3618,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#12P#NHuh……\x02",
+        "#00005F#12P#NHuh?!\x02",
     )
 
     CloseMessageWindow()
@@ -3777,7 +3777,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "#11PDamn\x02",
+        "#11PUgh…\x02",
     )
 
     CloseMessageWindow()
@@ -3794,7 +3794,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#00713F#11P#40W……………………………………\x02",
+        "#00713F#11P#40W….\x02",
     )
 
     CloseMessageWindow()
@@ -3840,14 +3840,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12PLisha……！？\x02",
+        "#00011F#12PRixia…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00108F#11PLishaさん……\x02",
+        "#00108F#11PRixia-san…\x02",
     )
 
     CloseMessageWindow()
@@ -3860,7 +3860,7 @@ def main():
         (
             "#00714F#3248V#5P#30W…. Soon so I will practice\x01",
             "Because I have to go back.\x02\x03",
-            "#00713F#3249V…………Excuse me……………\x02",
+            "#00713F#3249VExcuse me…\x02",
         )
     )
 
@@ -3909,7 +3909,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#6P………………………………\x02",
+        "#00008F#6P…\x02",
     )
 
     CloseMessageWindow()
@@ -3926,7 +3926,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F#12P………Ah………………\x02",
+        "#00306F#12PYeah…\x02",
     )
 
     CloseMessageWindow()
@@ -3943,7 +3943,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10106F#6PWell, it seems like that …\x02",
+        "#10106F#6PR-really…\x02",
     )
 
     CloseMessageWindow()
@@ -3963,7 +3963,7 @@ def main():
 
     ChrTalk(
         0xF,
-        "#01403F#4068V#5P#40WBut ─ ─ is undeniably reality.\x02",
+        "#01403F#4068V#5P#40WBut this is reality for sure\x02",
     )
 
     CloseMessageWindow()
@@ -4034,7 +4034,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#6PAriosさん……\x02",
+        "#00001F#6PArios…\x02",
     )
 
     CloseMessageWindow()
@@ -4047,7 +4047,7 @@ def main():
             "He left a clue.\x02\x03",
             "The meaning of this place, and\x01",
             "\"Beasts to be released soon\" … …\x02\x03",
-            "#01403FI do not have time to be stunned.\x02",
+            "#01403FWe don't have time to be surprised\x02",
         )
     )
 
@@ -4055,14 +4055,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#6PYes.\x02",
+        "#00013F#6PRight.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00311F#12P(\"Beasts\" … … No way … …)\x02",
+        "#00311F#12PBeasts… no way\x02",
     )
 
     CloseMessageWindow()
@@ -4155,7 +4155,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00200F#11PWell, I guess it's alright.\x02",
+        "#00200F#11PYes, barely\x02",
     )
 
     CloseMessageWindow()
@@ -4189,7 +4189,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#3459V#30W…… It's Dudley.\x02\x03",
+            "#3459V#30WThis is Dudley\x02\x03",
             "#3460VI heard that it went to the south shore of the lake\x01",
             "Now, are you there?\x02",
         )
@@ -4206,9 +4206,9 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00005FOh, yes.\x02\x03",
+            "#00005FAh, yes\x02\x03",
             "#00001FThat … … there are various things\x01",
-            "Ariosさんたちも一緒ですが。\x02",
+            "Arios are also with us.\x02",
         )
     )
 
@@ -4240,7 +4240,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00005F#4SI mean …! Is it?\x02",
+            "#00005F#4SWHAT!?\x02",
         )
     )
 
@@ -4256,7 +4256,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "If possible from Orlando\x01",
             "I want to hear the story.\x02\x03",
-            "Can you come back soon?\x02",
+            "Can you get back here right away?\x02",
         )
     )
 
@@ -4269,7 +4269,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00010FWow, I understand!\x02",
+            "#00010FU-understood\x02",
         )
     )
 
@@ -4288,14 +4288,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#5PWhere are you?\x02",
+        "#00101F#5PWhat happened?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10113F#5PI was hurried much … ….\x02",
+        "#10113F#5PYou had quite a reaction there\x02",
     )
 
     CloseMessageWindow()
@@ -4312,7 +4312,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F#6PAh……\x02",
+        "#00003F#6PYeah…\x02",
     )
 
     CloseMessageWindow()
@@ -4322,7 +4322,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Briefly explained information from Dudley.\x07\x00\x02",
+            "Lloyd relayed the info from Dudley\x07\x00\x02",
         )
     )
 
@@ -4352,21 +4352,21 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00310F#4S#11PIt is! It is!\x02",
+        "#00310F#4S#11P!!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00205F#11Pthat is……\x02",
+        "#00205F#11PThat is\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xD,
-        "#11P\"Red constellation\" … …\x02",
+        "#11PRed Constellation…\x02",
     )
 
     CloseMessageWindow()
@@ -4439,7 +4439,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00011F#6PAh……\x02\x03",
+            "#00011F#6PAhh..\x02\x03",
             "#00003F……Excuse me.\x01",
             "I will be saved if you do.\x02",
         )
@@ -4449,14 +4449,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F#12P… … Sorry.\x02",
+        "#00306F#12PSorry…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xD,
-        "#11PSuch times are mutually like.\x02",
+        "#11PWe have to work together at times like this\x02",
     )
 
     CloseMessageWindow()
@@ -4485,14 +4485,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#6PYes……!\x02",
+        "#00007F#6PRight!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10107F#6PThen I will excuse you!\x02",
+        "#10107F#6PExcuse us!\x02",
     )
 
     CloseMessageWindow()

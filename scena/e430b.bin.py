@@ -226,7 +226,7 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#40W…… nice wind ………\x02\x03",
+            "#40WThe wind is nice…\x02\x03",
             "If it is this cloud flow condition ……\x01",
             "I wonder if the people over there are sunny, too?\x02",
         )
@@ -316,8 +316,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#08009F#5PPewie!\x02\x03",
-            "#08000FPui, Pui, Pewie.\x02",
+            "#08009F#5PScree!\x02\x03",
+            "#08000FScree scree scree!\x02",
         )
     )
 
@@ -325,7 +325,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P#07004FHehe, thank you for all your hard work.\x02",
+        "#11P#07004FEhe, thanks for everything \x02",
     )
 
     CloseMessageWindow()
@@ -343,11 +343,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#07001F#30W……………………………………\x02\x03",
+            "#5P#07001F#30W…..\x02\x03",
             "#07003F…… Also after all in the Republic\x01",
             "The fire seems to be smoldering.\x02\x03",
             "And the existence of \"black moon\"\x01",
-            "大陸有数のA hunter団の介入……\x02\x03",
+            "Intervention of the continental leading hunting corps … …\x02\x03",
             "#07008F…… Again, \"Chairman of Iron Blood\"\x01",
             "What is working as a subordinate ……\x02",
         )
@@ -359,7 +359,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#08000F#5PPui?\x02",
+        "#08000F#5PScree?\x02",
     )
 
     CloseMessageWindow()
@@ -376,7 +376,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07004FHehe, it is nothing.\x02\x03",
+            "#11P#07004FAh, nothing, nothing\x02\x03",
             "#07002FI will head northeast tomorrow.\x01",
             "You are on a boat as it is?\x02\x03",
             "#07009FNo matter how much you even foreign countries\x01",
@@ -388,7 +388,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#08009F#5PPewie.\x02",
+        "#08009F#5PScree.\x02",
     )
 
     CloseMessageWindow()
@@ -535,7 +535,7 @@ def main():
 
     AnonymousTalk(
         0xA,
-        "Huhu, please joke.\x02",
+        "Ehe don't worry\x02",
     )
 
     CloseMessageWindow()
@@ -561,7 +561,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11P#08000FPuipui.\x02",
+        "#11P#08000FScreeScree\x02",
     )
 
     CloseMessageWindow()
@@ -569,7 +569,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#12P#07003F……this.\x02\x03",
+            "#12P#07003FThis\x02\x03",
             "#07001FReport from R & A research\x01",
             "It delivered.\x02",
         )
@@ -585,8 +585,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#5P#07101FFrom Richard's … …!\x02\x03",
-            "#07103FI look forward to seeing you.\x02",
+            "#5P#07101FFrom Richard's group?!\x02\x03",
+            "#07103FLet me see it\x02",
         )
     )
 
@@ -642,7 +642,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#5P#07105FShut … …?\x02",
+        "#5P#07105FConnection?\x02",
     )
 
     CloseMessageWindow()
@@ -673,7 +673,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#12P#07004FYeah ….\x02",
+        "#12P#07004FYes\x02",
     )
 
     CloseMessageWindow()

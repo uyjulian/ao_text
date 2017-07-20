@@ -320,7 +320,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -488,7 +488,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#12P#Nthis is……\x02",
+        "#00013F#12P#NThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -587,14 +587,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5PHeck! Is it?\x02",
+        "#00011F#5PHuh?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00105F#11PWaj, you …\x02",
+        "#00105F#11PWazy, you\x02",
     )
 
     CloseMessageWindow()
@@ -626,7 +626,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#5PThat's right, but …\x02",
+        "#00006F#5PRight. But \x02",
     )
 
     CloseMessageWindow()
@@ -677,14 +677,14 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#11PWhat, something?\x02",
+        "#00105F#11PW-what's that\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#10305F#11P…… This sound ……\x02",
+        "#10305F#11PThis sound is\x02",
     )
 
     CloseMessageWindow()
@@ -694,7 +694,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10110F#5P── Dont you!\x02",
+        "#10110F#5PThis is bad\x02",
     )
 
     CloseMessageWindow()
@@ -704,14 +704,14 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10107F#6P#4SEveryone, please go down!\x02",
+        "#10107F#6P#4SEveryone get back!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00010F#5PCow! Is it?\x02",
+        "#00010F#5PUgh\x02",
     )
 
     CloseMessageWindow()
@@ -918,7 +918,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#4S#12PCan you hear Gantz! Is it?\x02",
+        "#00007F#4S#12PGANTZ, CAN YOU HEAR ME!?\x02",
     )
 
     CloseMessageWindow()
@@ -927,7 +927,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10101F#4S#12PPlease reply me when you hear it!\x02",
+        "#10101F#4S#12PIF YOU CAN HEAR US, PLEASE ANSWER!\x02",
     )
 
     CloseMessageWindow()
@@ -972,7 +972,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#6PBut why are you sudden ……\x02\x03",
+            "#00106F#6PB-but why did that suddenly…\x02\x03",
             "#00108FJust before the collapse,\x01",
             "It seems that something sounded ….\x02",
         )
@@ -1003,7 +1003,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10106F#11POh, yeah.\x02\x03",
+            "#10106F#11POh right\x02\x03",
             "#10101FFeeling a slight smell of gunpowder\x01",
             "I thought it was dangerous ….\x02",
         )
@@ -1014,7 +1014,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10301F#12PGunpowder …?\x02\x03",
+            "#10301F#12PGunpowder…\x02\x03",
             "#10308FBy the way\x01",
             "I smell like burnt smell.\x02",
         )
@@ -1081,7 +1081,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#6PT, trap! Is it?\x02",
+        "#00107F#6PT-trap!\x02",
     )
 
     CloseMessageWindow()
@@ -1099,7 +1099,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10303F#12PI see.\x02\x03",
+            "#10303F#12PI see. So that's it\x02\x03",
             "#10301FThat \"Zejiji\" is\x01",
             "It was the sound of a spark of the trick?\x02",
         )
@@ -1110,7 +1110,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P… … Probably.\x02\x03",
+            "#00006F#5PMost likely\x02\x03",
             "#00008FSince someone entered\x01",
             "It will be a trick to break off the retreat.\x02\x03",
             "#00001FDo you hide in the vicinity?\x01",
@@ -1122,7 +1122,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00108F#6PBut, who is going to do that … …\x02",
+        "#00108F#6PB-but who would do that\x02",
     )
 
     CloseMessageWindow()
@@ -1143,7 +1143,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5POh, the possibility seems high.\x02\x03",
+            "#00003F#5PYeah. That seems likely\x02\x03",
             "#00013F…… I do not know anyone\x01",
             "Completely fit#2RIs#It seems like I was wrested.\x02",
         )
@@ -1153,7 +1153,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106F#6PSomething like that ….\x02",
+        "#00106F#6PNo way\x02",
     )
 
     CloseMessageWindow()
@@ -1162,7 +1162,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10102F#11PAll right!\x02\x03",
+            "#10102F#11PI-It's fine!\x02\x03",
             "#10112FFor such a time\x01",
             "There is Enigma!\x02",
         )
@@ -1215,7 +1215,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10111F#11PEr, this is ….\x02",
+        "#10111F#11PU-uhh, this is\x02",
     )
 
     CloseMessageWindow()
@@ -1234,7 +1234,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10106F#11PWell, is that so …?\x02",
+        "#10106F#11POh is that right…\x02",
     )
 
     CloseMessageWindow()
@@ -1340,7 +1340,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5PThat decrease, I am encouraging now.\x02\x03",
+            "#00006F#5PSomehow that impudent talk is sort of reassuring now\x02\x03",
             "#00007F── Supply is not possible.\x01",
             "Anyway we can work together\x01",
             "Let's get through this place somehow!\x02",
@@ -1351,7 +1351,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#6PYeah … …!\x02",
+        "#00101F#6PRight!\x02",
     )
 
     CloseMessageWindow()
@@ -1365,7 +1365,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10107F#11PI understand.\x02",
+        "#10107F#11PRoger that!\x02",
     )
 
     CloseMessageWindow()

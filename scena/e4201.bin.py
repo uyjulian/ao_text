@@ -155,7 +155,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04306F#6P#40W……… Hokkaido …………\x02\x03",
+            "#04306F#6P#40WGahhh\x02\x03",
             "#04310F…… Battle duty is\x01",
             "Was it impolite truly ……\x02",
         )
@@ -166,7 +166,7 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#13811F#11P……what goes around comes around.\x02\x03",
+            "#13811F#11PYou reap what you sow\x02\x03",
             "#13806FIn the real world \"Stigmata#4RStigma#The power of\x01",
             "I do not want to release it over there ……\x02\x03",
             "#13801FIf my sister were there,\x01",
@@ -181,7 +181,7 @@ def main():
         (
             "#04306F#6P#30WNo good …… Also to the president\x01",
             "Meguro is likely to be scolded … …\x02\x03",
-            "#04308FYou also destroy Mercapa …\x02",
+            "#04308FI ruined the Merkaba too\x02",
         )
     )
 
@@ -213,7 +213,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#13812F#11P……fool.\x02",
+        "#13812F#11PIdiot\x02",
     )
 
     CloseMessageWindow()
@@ -222,7 +222,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#04305F#5P#30WOya … Hey …?\x02",
+        "#04305F#5P#30WH-hey?\x02",
     )
 
     CloseMessageWindow()
@@ -234,7 +234,7 @@ def main():
             "……… It's really safe ………\x02\x03",
             "The place my sister was aiming for was\x01",
             "I still have been a long time ago ……\x02\x03",
-            "#13812FReally … … to be unreasonable ……\x02",
+            "#13812FBut you're always so reckless\x02",
         )
     )
 
@@ -243,7 +243,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04308F#5P#30Wlease……\x02\x03",
+            "#04308F#5P#30WReis…\x02\x03",
             "#04304F… …. Sorry ….\x01",
             "Is there still a long way to go …?\x02",
         )
@@ -262,7 +262,7 @@ def main():
             "#04303F#5P#30W…… From now on\x01",
             "To be amazed\x01",
             "There may be something … …\x02\x03",
-            "#04300FWill you support without discernment …?\x02",
+            "#04300FWon't you come see it with me?\x02",
         )
     )
 

@@ -556,7 +556,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "ヒヒ、Well it's about Jorg\x01",
+            "Baboons, it's about Jorg\x01",
             "In doll production even in this situation\x01",
             "It may be exciting though.\x02",
         )
@@ -1449,7 +1449,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PHihyaka, come.\x02",
+        "#11PHehe oh welcome\x02",
     )
 
     CloseMessageWindow()
@@ -1468,21 +1468,21 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PHihyacha, it's been a long time.\x02",
+        "#11PHehe long time no see\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#6P#00000FLong time no see, Imelda.\x02",
+        "#6P#00000FLong time no see, Ms. Imelda\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#6P#00100FIt looks like you are fine as usual.\x02",
+        "#6P#00100FYou're lively as usual\x02",
     )
 
     CloseMessageWindow()
@@ -1521,7 +1521,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#6P#00105F(Information shop on the power net … …)\x02",
+        "#6P#00105F(Information source in the orbal net…)\x02",
     )
 
     CloseMessageWindow()
@@ -1583,7 +1583,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10105FWhy is that … ….\x02",
+        "#6P#10105FH-how do you know that\x02",
     )
 
     CloseMessageWindow()
@@ -1612,7 +1612,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#6P#10309FAhaha, it is an interesting old lady.\x02",
+        "#6P#10309FWell that's quite interesting\x02",
     )
 
     CloseMessageWindow()
@@ -1632,7 +1632,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PHuh, do not accept it.\x02",
+        "#11PHere, take it\x02",
     )
 
     CloseMessageWindow()
@@ -1658,7 +1658,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#6P#00105Fthis is……\x02",
+        "#6P#00105FThis is\x02",
     )
 
     CloseMessageWindow()
@@ -1687,7 +1687,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PKorach, what is boro!\x02",
+        "#11PHey you it's not run down!\x02",
     )
 
     CloseMessageWindow()
@@ -1728,7 +1728,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10106FAfter all, it was pressed.\x02",
+        "#6P#10106FSo that's the purpose of this request today then\x02",
     )
 
     CloseMessageWindow()
@@ -1745,7 +1745,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PI asked for you, my baby girls.\x02",
+        "#11PI'll leave it to you guys\x02",
     )
 
     CloseMessageWindow()
@@ -1788,7 +1788,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "With the communication device under the counter\x01",
-            "Mrs. Imeldaが通話している。\x07\x00\x02",
+            "Mrs. Imelda is talking.\x07\x00\x02",
         )
     )
 

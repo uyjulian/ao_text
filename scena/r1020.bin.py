@@ -849,7 +849,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Monsterが現れた！\x07\x00\x02",
+            "A monster appeared!\x07\x00\x02",
         )
     )
 
@@ -948,7 +948,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1039,7 +1039,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1116,7 +1116,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Monsterが現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1224,7 +1224,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Monsterが現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1337,7 +1337,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Monsterが現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1445,7 +1445,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Monsterが現れた！\x02",
+            "A monster appeared!\x02",
         )
     )
 
@@ -1698,7 +1698,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#3831V#11P#30W帝国からのtrainだ。\x01",
+            "#3831V#11P#30WIt is a train from the empire.\x01",
             "Keep an eye on it.\x02",
         )
     )
@@ -1824,7 +1824,7 @@ def main():
         0x109,
         (
             "#10105F#12PFrom Elebonia\x01",
-            "大陸横断鉄道のtrainですね。\x02",
+            "It's a transcontinental railroad train.\x02",
         )
     )
 
@@ -1857,7 +1857,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#30W今のtrain──\x01",
+            "#11P#30WCurrent train ─\x01",
             "How many passengers were there?\x02",
         )
     )
@@ -2337,7 +2337,7 @@ def main():
         0x101,
         (
             "#00013F#5PNo way no …\x01",
-            "今朝、確認した手配Monsterか！？\x02",
+            "Well this morning I made arrangements demons! Is it?\x02",
         )
     )
 
@@ -2442,7 +2442,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "クエスト【西クロスベル街道の手配Monster】#0Cが\x01\x07\x00",
+            "Quest 【Arrangement of West Crossbell Highway Majuu】#0CBut\x01\x07\x00",
             "Forcibly terminated on the way, it disappeared.\x02",
         )
     )
@@ -2823,7 +2823,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#11Pagain……!\x02",
+        "#00013F#11PAgain…\x02",
     )
 
     CloseMessageWindow()
@@ -2851,7 +2851,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00206F#12PI think there is no mistake.\x02\x03",
+            "#00206F#12PI think you're right\x02\x03",
             "#00201F……he#2RZeit#Unlike\x01",
             "I feel violent will.\x02",
         )
@@ -2862,7 +2862,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10308F#12Pかなりの知能を持ったMonsterか\x01",
+            "#10308F#12PIs it a devil with quite intelligence?\x01",
             "Or …\x02",
         )
     )
@@ -3080,7 +3080,7 @@ def main():
     NpcTalk(
         0xA,
         "Reggie",
-        "#6A#40WHeck, I'm easy!\x02",
+        "#6A#40WThis is fun!\x02",
     )
 
     Sleep(1200)
@@ -3098,7 +3098,7 @@ def main():
     NpcTalk(
         0x9,
         "Lloyd",
-        "#00001F(It will be released as it is …!\x02",
+        "#00001F(What to do here?)\x02",
     )
 
     CloseMessageWindow()
@@ -3169,7 +3169,7 @@ def main():
     NpcTalk(
         0x9,
         "Lloyd",
-        "#00007FNoel、君に任せた！\x02",
+        "#00007FNoel, I'll leave it to you!\x02",
     )
 
     CloseMessageWindow()
@@ -3177,7 +3177,7 @@ def main():
     NpcTalk(
         0x9,
         "Noel",
-        "#10101FYes, sir! It is!\x02",
+        "#10101FYes sir!\x02",
     )
 
     CloseMessageWindow()
@@ -3300,7 +3300,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "大型のMonsterが徘徊#4Rはいかい#している。\x02",
+            "Large monsters wandering around#4RIt is alright#doing.\x02",
         )
     )
 
@@ -3386,7 +3386,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "手配Monsterを退治した！\x02",
+            "Arranged arrangements devils!\x02",
         )
     )
 
@@ -3426,7 +3426,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10105FTactical manual -\x02\x03",
+            "#10105FA combat book\x02\x03",
             "#10102FThis is with Randy Senpai\x01",
             "It looks good for you, is not it?\x02",
         )
@@ -3446,7 +3446,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10304FHuh, I understand.\x02",
+        "#10304FHehe, of course\x02",
     )
 
     CloseMessageWindow()

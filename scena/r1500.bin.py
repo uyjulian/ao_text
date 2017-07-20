@@ -29,7 +29,7 @@ def main():
         "Adolescents",                   # 8
         "Policeman",                   # 9
         "Policeman",                   # 10
-        "Billyのバン",           # 11
+        "Billy's van",           # 11
         "Fischer",           # 12
         "bus",                   # 13
         "Defense Forces soldier",             # 14
@@ -1980,8 +1980,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "#1Kbus停がある。\x01",
-            "busで移動しますか？\x02",
+            "#1KThere is a bus stop.\x01",
+            "Do you want to move by bus?\x02",
         )
     )
 
@@ -2993,10 +2993,10 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10403F#12PMercapaから観測した限りでは、\x01",
+            "#10403F#12PAs far as observing from Mercapa,\x01",
             "Crosbell dome the whole city\x01",
             "You seem to be wrapping around.\x02\x03",
-            "#10408F食糧の運搬carや緊急car両、\x01",
+            "#10408FFood carrier vehicles and emergency vehicles,\x01",
             "Defense Army, \"Red constellation\" … …\x02\x03",
             "#10401FThose presidents\x01",
             "Only the existence that gave permission\x01",
@@ -3080,7 +3080,7 @@ def main():
     Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_41B0")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 5)), scpexpr(EXPR_END)), "loc_3F6C")
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "Mercapaに乗り込む")
+    MenuCmd(1, 0, "Board Mercapa")
     MenuCmd(1, 0, "quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
@@ -3110,9 +3110,9 @@ def main():
     label("loc_3F6C")
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "導力carで移動する")
+    MenuCmd(1, 0, "Travel with a driving car")
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_3FA0")
-    MenuCmd(1, 0, "導力carで休憩する")
+    MenuCmd(1, 0, "Take a break with a driving car")
 
     label("loc_3FA0")
 
@@ -3280,7 +3280,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "導力busは運行を見合わせているようだ。\x07\x00\x02",
+            "The guiding bus seems to be out of service.\x07\x00\x02",
         )
     )
 

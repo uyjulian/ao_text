@@ -96,7 +96,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Oh, this is this.\x07\x00\x02",
+            "Oh, this is\x07\x00\x02",
         )
     )
 
@@ -136,7 +136,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Haha, we are aggressive.\x07\x00\x02",
+            "Ahha, you're passionate\x07\x00\x02",
         )
     )
 
@@ -169,7 +169,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#10A… … That's it.\x02",
+            "#10AThat's far enough\x02",
         )
     )
 
@@ -200,7 +200,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Uhufu, there is no choice.\x02\x03",
+            "Ehe, no helping it\x02\x03",
             "Well, it was just killing time\x01",
             "It was satisfying from pleasure.\x02\x03",
             "Then at most\x01",
@@ -229,7 +229,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#02310FAhh! Is it?\x02",
+            "#02310FAh!\x02",
         )
     )
 

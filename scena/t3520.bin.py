@@ -831,7 +831,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00002FArseille……\x01",
+            "#6P#00002FArseille ……\x01",
             "It is even more beautiful when you look closer.\x02",
         )
     )
@@ -863,7 +863,7 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10108F#2Sそ、それに、あのAssistant Juliaが\x01",
+            "#10108F#2SBesides, that Assistant Yuria\x01",
             "It's like being in such a place …!\x02",
         )
     )
@@ -1086,7 +1086,7 @@ def main():
         0x9,
         (
             "#07103F#11P── Welcome,\x01",
-            "巡洋艦《Arseille》へ。\x02\x03",
+            "To the cruise ship \"Arseille\".\x02\x03",
             "#07102FBy the way for confidentiality\x01",
             "The inside of the ship does not allow radio\x01",
             "I am in the process … …\x02\x03",
@@ -1513,7 +1513,7 @@ def main():
             "#04606F#11POh, this kind of disgusting\x01",
             "It's as tight as expected.\x02\x03",
             "#04603FLeave it to those girls\x01",
-            "Charlieたちの出番もないし。\x02\x03",
+            "There is no turn for Charlie 's.\x02\x03",
             "#04601FSpecial forces invading the border also\x01",
             "Because it was only in the beginning.\x02",
         )
@@ -1532,7 +1532,7 @@ def main():
         "A bold voice",
         (
             "#2SGiggle\x01",
-            "どうした、Charlie。\x02",
+            "What is wrong, Charlie.\x02",
         )
     )
 
@@ -1550,7 +1550,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#11P#04605FOh, dad.\x02\x03",
+            "#11P#04605FOh papa\x02\x03",
             "#04606F……Hey Hey,\x01",
             "Is not it a time of tide soon?\x02\x03",
             "The empire is supposed to be amazing,\x01",
@@ -1566,7 +1566,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#6P#04504FThe work of this time still remains.\x02\x03",
+            "#6P#04504FWe still have work left to do for this job.\x02\x03",
             "#04500FIf you do not have such a hindrance\x01",
             "Why do not you fuck up?\x02",
         )
@@ -1593,7 +1593,7 @@ def main():
         (
             "#6P#04504FIf so, around \"people\"\x01",
             "Why do not you join us?\x02\x03",
-            "#04500FI will not be bored at least.\x02",
+            "#04500FAt the very least it won't be boring\x02",
         )
     )
 
@@ -1602,7 +1602,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#11P#04606Fうーん、Charlieとは\x01",
+            "#11P#04606FWell, what is Charlie\x01",
             "Something seems to be incompatible ….\x02\x03",
             "#04600FTo that terrible older sister\x01",
             "definitely#6R噵 噵 噵#I feel like I will not win.\x02",
@@ -1614,8 +1614,8 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#6P#04504FKuku, you can see it as expected.\x02\x03",
-            "#04502F─ ─ Well, do not go bad.\x02\x03",
+            "#6P#04504FHah, so you understand\x02\x03",
+            "#04502FWell don't be so down\x02\x03",
             "Apparently \"guy\"\x01",
             "You started moving in the direction of Mainz.\x02",
         )
@@ -1628,7 +1628,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#11P#04611F… ….\x02\x03",
+            "#11P#04611FOh…?\x02\x03",
             "#04609FEven though they were beaten up by that much\x01",
             "Are you still planning to challenge?\x02",
         )
@@ -1639,7 +1639,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#6P#04504FDo not despise - a guy is strong.\x02\x03",
+            "#6P#04504FDon't underestimate him, he's strong\x02\x03",
             "#04500FPerhaps you\x01",
             "It's better than being uninvited.\x02",
         )
@@ -1650,7 +1650,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#11P#04600FHmm, I do not think so.\x02\x03",
+            "#11P#04600FOh, I don't think so\x02\x03",
             "#04604FWell, somewhere.\x01",
             "I'll leave it to Daddy.\x02",
         )
@@ -1661,7 +1661,7 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#6P#04504FOh, leave that to me.\x02\x03",
+            "#6P#04504FYeah, do that\x02\x03",
             "#04500F─ ─ You are your\x01",
             "You will have a play partner.\x02",
         )
@@ -1680,7 +1680,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#11P#04605FHuh\x02\x03",
+            "#11P#04605FHuh?\x02\x03",
             "#04601F… towards Calvert\x01",
             "Were not you home?\x02",
         )
@@ -1712,7 +1712,7 @@ def main():
 
     ChrTalk(
         0xC,
-        "#11P#04601F#4S……!\x02",
+        "#11P#04601F#4S…!\x02",
     )
 
     CloseMessageWindow()
@@ -1778,14 +1778,14 @@ def main():
 
     ChrTalk(
         0xB,
-        "#6P#04504FKuku …… Good luck.\x02",
+        "#6P#04504FHah, wow\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xD,
-        "#5PさすがはCharlie様かと。\x02",
+        "#5PThat's our Shirley\x02",
     )
 
     CloseMessageWindow()

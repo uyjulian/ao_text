@@ -436,7 +436,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -527,7 +527,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -817,7 +817,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00013Fwhat! Is it?\x02",
+        "#6P#00013FWhat was that!?\x02",
     )
 
     CloseMessageWindow()
@@ -834,7 +834,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307FBeyond that, I will go!\x02",
+        "#00307FLet's go check it out!\x02",
     )
 
     CloseMessageWindow()
@@ -1003,7 +1003,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#6PEveryone, that … …!\x02",
+        "#00201F#6PGuys, that…\x02",
     )
 
     CloseMessageWindow()
@@ -1119,7 +1119,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10107F#11Pthis is……!\x02",
+        "#10107F#11PThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -1443,7 +1443,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100FAh……!\x02",
+        "#10100FAH!\x02",
     )
 
     CloseMessageWindow()
@@ -1458,7 +1458,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00302FOkay, have you turned around!\x02",
+        "#00302FGreat, we got past it!\x02",
     )
 
     CloseMessageWindow()

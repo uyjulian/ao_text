@@ -860,7 +860,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -951,7 +951,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1100,7 +1100,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1519,7 +1519,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#5Phere……\x02",
+        "#00005F#5PThis is…\x02",
     )
 
     CloseMessageWindow()
@@ -1818,7 +1818,7 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x2),
             "#30WUfufu …\x01",
             "Ellie, of course.\x02\x03",
-            "── Welcome to \"Ao no Taiki\".\x02\x03",
+            "Welcome to the Tree of Azure\x02\x03",
             "Have you come\x01",
             "Ka'a would also be pleased.\x02\x03",
             "No … ──\x01",
@@ -1840,7 +1840,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#12P#NBell …… you … …!\x02",
+        "#00101F#12P#NBelle… you…\x02",
     )
 
     CloseMessageWindow()
@@ -1850,7 +1850,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#6P#NRegardless of your intention ……\x02\x03",
+            "#00006F#6P#NYour intentions aside\x02\x03",
             "#00001FAnyhow, we\x01",
             "I do not think he is going to hinder it, is it?\x02",
         )
@@ -1901,7 +1901,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00601F#13P#NSuch a mechanism ……\x02",
+        "#00601F#13P#NSo that's it…\x02",
     )
 
     CloseMessageWindow()
@@ -1945,7 +1945,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10712F#13P#NSuch a mechanism ……\x02",
+        "#10712F#13P#NSo that's it…\x02",
     )
 
     CloseMessageWindow()
@@ -2040,10 +2040,10 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#30WHuh, but it is the last party.\x02\x03",
+            "#30WEhe, but this is the last feast\x02\x03",
             "To make you enjoy more,\x01",
             "We had different venues prepared.\x02\x03",
-            "That's what those \"gates\" are.\x07\x00\x02",
+            "That is - those \"Gates\"\x07\x00\x02",
         )
     )
 
@@ -2221,7 +2221,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#6P#NAnother venue ……?\x02",
+        "#00201F#6P#NSeparate meeting places…\x02",
     )
 
     CloseMessageWindow()
@@ -2249,7 +2249,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#30WUhufu, that's easy.\x02\x03",
+            "#30WEhe, it's a simple matter\x02\x03",
             "This \"god area\" is Kaoru's\x01",
             "It reflects the inside … …\x02\x03",
             "In those gates,\x01",
@@ -2284,7 +2284,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#6P#NOther people …! Is it?\x02",
+        "#00007F#6P#NThe other people?\x02",
     )
 
     CloseMessageWindow()
@@ -2293,7 +2293,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#12P#NWell, maybe ….\x02",
+        "#00101F#12P#NC-could it be\x02",
     )
 
     CloseMessageWindow()
@@ -2360,7 +2360,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106F#11P…… Bell ………\x02",
+        "#00106F#11PBelle…\x02",
     )
 
     CloseMessageWindow()
@@ -2370,7 +2370,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5PIndeed plague is too much ……\x02\x03",
+            "#00003F#5PIt's too vague to know what's going on\x02\x03",
             "#00008FHowever, regardless of the central gate,\x01",
             "I can seem to be able to enter the right and left gates.\x02",
         )
@@ -2392,7 +2392,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#5PLet's try it for the time being.\x02\x03",
+            "#00306F#5PWell anyway, let's check it out\x02\x03",
             "#00300FApparently I have someone with a relationship\x01",
             "I do not want to put it inside.\x02",
         )
@@ -2440,7 +2440,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10708F#13P……Yes.\x02",
+        "#10708F#13PYes…\x02",
     )
 
     CloseMessageWindow()
@@ -2856,7 +2856,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5PIs it useless?\x02\x03",
+            "#00006F#5PNo good..\x02\x03",
             "#00001FApparently it attacks\x01",
             "It looks like it can not be broken.\x02",
         )
@@ -2880,7 +2880,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00003F#5P… … Is it the same as the right gate?\x02",
+        "#00003F#5PSame as the Right Gate\x02",
     )
 
     CloseMessageWindow()
@@ -2915,7 +2915,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#3577V#50W#40AKukuku …… Kakaka ………\x02",
+            "#3577V#50W#40AHahah, Hahaha\x02",
         )
     )
 
@@ -3029,7 +3029,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00008F#5PWadi\x02",
+        "#00008F#5PWazy…\x02",
     )
 
     CloseMessageWindow()
@@ -3037,7 +3037,7 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10403F#12PPick me, Lloyd.\x02\x03",
+            "#10403F#12PMove please, Lloyd\x02\x03",
             "#10401FApparently \"he\" is\x01",
             "It seems to have decided with me.\x02",
         )
@@ -3047,7 +3047,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#5P……I understood.\x02",
+        "#00006F#5PGot it…\x02",
     )
 
     CloseMessageWindow()
@@ -3155,7 +3155,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#12PThe barrier disappeared …\x02",
+        "#00105F#12PThe barrier vanished\x02",
     )
 
     CloseMessageWindow()
@@ -3201,7 +3201,7 @@ def main():
         (
             "#10406F#5POh … but this time\x01",
             "You will not finish playing.\x02\x03",
-            "#10400FLet's face it in perfect attitude.\x02",
+            "#10400FLet's plan for an all out raid\x02",
         )
     )
 
@@ -3283,7 +3283,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10701F#12PYes……!\x02",
+        "#10701F#12PYes!\x02",
     )
 
     CloseMessageWindow()
@@ -3487,7 +3487,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#11PIs it useless?\x02\x03",
+            "#00006F#11PNo good..\x02\x03",
             "Apparently it attacks\x01",
             "It looks like it can not be broken.\x02",
         )
@@ -3546,7 +3546,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#3961V#40W#40AFuhu … … Ahahahaha ………\x02",
+            "#3961V#40W#40AEhehe, HAHAH\x02",
         )
     )
 
@@ -3607,7 +3607,7 @@ def main():
 
     ChrTalk(
         0x106,
-        "#10708F#6P………………………………\x02",
+        "#10708F#6P….\x02",
     )
 
     CloseMessageWindow()
@@ -3615,7 +3615,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#5PWhew …… It's me.\x02\x03",
+            "#00306F#5POh so it's her\x02\x03",
             "#00301FMoreover, it is apparently waiting\x01",
             "It seems not to me.\x02",
         )
@@ -3667,7 +3667,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#11P…… Hello, Lisa.\x02\x03",
+            "#00003F#11PHey, Rixia\x02\x03",
             "#00001FIf possible we can\x01",
             "Leave it to us …\x02",
         )
@@ -3678,7 +3678,7 @@ def main():
     ChrTalk(
         0x106,
         (
-            "#10706F#6P─ ─ ─ No.\x02\x03",
+            "#10706F#6PNo\x02\x03",
             "#10708FIn a sense, I and she,\x01",
             "There are similar circumstances.\x02\x03",
             "I myself am going to the road ahead\x01",
@@ -3692,7 +3692,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#11P………I understood.\x02",
+        "#00006F#11PI see…\x02",
     )
 
     CloseMessageWindow()
@@ -3800,7 +3800,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#6PThe barrier disappeared …\x02",
+        "#00105F#6PThe barrier vanished\x02",
     )
 
     CloseMessageWindow()
@@ -3916,7 +3916,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#00601F#6PAh.\x02",
+        "#00601F#6PYes\x02",
     )
 
     CloseMessageWindow()
@@ -3972,7 +3972,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#5PWhew …… It's me.\x02\x03",
+            "#00306F#5POh so it's her\x02\x03",
             "#00301FMoreover, it is apparently waiting\x01",
             "It seems not to me.\x02",
         )
@@ -4290,7 +4290,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00102F#6P#NThe barrier is … …!\x02",
+        "#00102F#6P#NThe barrier…\x02",
     )
 
     CloseMessageWindow()
@@ -4758,7 +4758,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00102F#12PThe barrier is … …!\x02",
+        "#00102F#12PThe barrier…\x02",
     )
 
     CloseMessageWindow()

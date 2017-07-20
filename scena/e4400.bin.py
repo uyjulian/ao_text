@@ -524,7 +524,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F……Lisha、イリアさんに\x01",
+            "#00003F…… To Lisa and Iria\x01",
             "When I want to meet again,\x01",
             "Do not hesitate to say anytime.\x02\x03",
             "#00000FAbsolutely find the interval,\x01",
@@ -553,15 +553,15 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F……I see.\x01",
+            "#00000FI see…\x01",
             "Then, as soon as possible\x01",
             "You have to achieve it.\x02\x03",
-            "#00004FそれでLishaがイリアさんに\x01",
+            "#00004FSo Lisa to Mr. Ilya\x01",
             "If you were to be able to meet,\x01",
             "I think we can do better as well.\x02\x03",
             "#00000FKia, Iria, and\x01",
             "Even for friends ……\x01",
-            "お互い力を尽くそう、Lisha。\x02",
+            "Let's do our best, Lisha.\x02",
         )
     )
 
@@ -640,7 +640,7 @@ def main():
             "#01200F#3COilly direct help\x01",
             "When it is not necessary, I will return again\x01",
             "I let you go down to the back.\x02\x03",
-            "ただ、The responsibility as a police dog is\x01",
+            "However, the duty as a police dog is\x01",
             "Because I will let it go\x01",
             "Do not worry.\x02",
         )
@@ -1087,7 +1087,7 @@ def main():
             "I think that it is because it is starting to move.\x02\x03",
             "#00108FPerhaps at the turning point of history\x01",
             "It may be in presence … ….\x02\x03",
-            "…………………………………….\x02",
+            "….\x02",
         )
     )
 
@@ -1096,7 +1096,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P……Erie。\x02\x03",
+            "#00003F#5PElie.\x02\x03",
             "#00008FAfter all, with Mariavell\x01",
             "Is there resistance to setting things?\x02",
         )
@@ -1119,14 +1119,14 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00208F#6P………………………………\x02",
+        "#00208F#6P….\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#00006F#5P……Really……\x02",
+        "#00006F#5PI see…\x02",
     )
 
     CloseMessageWindow()
@@ -1145,7 +1145,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00103F#11P─ ─ But, I can say only this.\x02\x03",
+            "#00103F#11PBut I can say this\x02\x03",
             "#00101FWhether the situation will change\x01",
             "We are \"mission support department\".\x02\x03",
             "Only that part\x01",
@@ -1157,14 +1157,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#5PErie……\x02",
+        "#00005F#5PElie…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00202F#6P……Erieさん……\x02",
+        "#00202F#6PElie…\x02",
     )
 
     CloseMessageWindow()
@@ -1172,7 +1172,7 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00309F#12PHey, what is your daughter.\x02\x03",
+            "#00309F#12PHah, what's that now princess\x02\x03",
             "#00302FAfter all, police officers,\x01",
             "Was not it about the seat?\x02",
         )
@@ -1183,7 +1183,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00109F#11PHuhu, about the first time.\x02\x03",
+            "#00109F#11PEhe, that was early on\x02\x03",
             "#00104F…… But it is useless.\x01",
             "I have gotten dyed.\x02\x03",
             "Perhaps, in the future what kind of road\x01",
@@ -1198,14 +1198,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000F#5P……I see.\x02",
+        "#00000F#5PI see…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00204F#6PI, too, have the same feeling.\x02",
+        "#00204F#6PI feel the same\x02",
     )
 
     CloseMessageWindow()
@@ -1248,7 +1248,7 @@ def main():
             "I think that you do not have to think forcefully.\x02\x03",
             "For us\x01",
             "For what I think is important ……\x02\x03",
-            "#00000FJust for now, let's go forward and let's go.\x02",
+            "#00000FLet's just keep pressing forward\x02",
         )
     )
 
@@ -1256,7 +1256,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00102F#11PYeah … …!\x02",
+        "#00102F#11PRight!\x02",
     )
 
     CloseMessageWindow()
@@ -1273,7 +1273,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00309F#12PHa ha … … right.\x02",
+        "#00309F#12PHaha, true\x02",
     )
 
     CloseMessageWindow()
@@ -1292,7 +1292,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Erieがパーティに加入しました。\x07\x00\x02",
+            "Elie joined the party\x07\x00\x02",
         )
     )
 
@@ -1308,7 +1308,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "ErieがＳクラフト\x01\x07\x02",
+            "Erie is S craft\x01\x07\x02",
             "\"Devine Crusade\"\x07\x05",
             "I have learned.\x02",
         )
@@ -1357,7 +1357,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Erieが加入したことにより、\x01",
+            "As a result of Erie 's subscription,\x01",
             "The capacity of the party exceeded six people.\x02\x03",
             "From the following members\x01",
             "Participating members\x01",

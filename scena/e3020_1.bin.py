@@ -1158,7 +1158,7 @@ def main():
         0xE,
         (
             "#00302FWhatever he is,\x01",
-            "一歩だってI do not mean to retreat.\x02\x03",
+            "I will not retreat even if I step one.\x02\x03",
             "#00309FOur lovely daughter is\x01",
             "I'm waiting for their parents.\x01",
             "Let 's go pick me up.\x02",
@@ -3869,7 +3869,7 @@ def main():
         0x13,
         (
             "#01203F#3CKa'a is \"the treasure of the phantom#8RDemi-gols#\"When\x01",
-            "同じ結論にThe possibility of arriving,\x01",
+            "The possibility of arriving at the same conclusion,\x01",
             "It can not be said that it is not there.\x02\x03",
             "#01200FSon of man, regain the splendid kea,\x01",
             "Please stop it and show it.\x02",
@@ -4028,7 +4028,7 @@ def main():
             "I do not need my amulet etc.\x02\x03",
             "#01200FAs before, I will keep it behind\x01",
             "Call it when you need it.\x02\x03",
-            "これからはWith it returned to its original form\x01",
+            "From now on returning to the original form\x01",
             "Let's rush to the front.\x02\x03",
             "#01203FIf it is on the order of Muju\x01",
             "Let me drink a bite.\x02",
@@ -4046,7 +4046,7 @@ def main():
         0x13,
         (
             "#01200F#3CIf you call me when you need it,\x01",
-            "これからはWith it returned to its original form\x01",
+            "From now on returning to the original form\x01",
             "Let's rush to the front.\x02\x03",
             "#01203FIf it is on the order of Muju\x01",
             "Let me drink a bite.\x02",
@@ -4109,7 +4109,7 @@ def main():
         0x13,
         (
             "#01203F#3CReturning to its former state, it is said to be a hunter\x01",
-            "かなりの戦力をYou should be attracted.\x02\x03",
+            "You should be able to attract considerable strength.\x02\x03",
             "#01200FBe proud as a god wolf,\x01",
             "Let's say that you want the enemy to trick you.\x02",
         )
@@ -5151,7 +5151,7 @@ def main():
         (
             "#12100FWhen battle begins in Mishram\x01",
             "To prevent shooting down by anti-aircraft weapons\x01",
-            "艦はしばらくI will hide myself in the sky.\x02\x03",
+            "The ship is going to hide himself in the sky for a while.\x02\x03",
             "Meanwhile, you can not go back to the ship.\x01",
             "Equipment, an auction, a recovery drug ……\x01",
             "Prepare everything perfectly.\x02",
@@ -5246,7 +5246,7 @@ def main():
             "Resistance of the guard?\x02\x03",
             "Either way, over the opposite\x01",
             "I will not leave the President's side.\x02\x03",
-            "行くなら急いだ方がIt might be nice.\x02",
+            "You better be in a hurry if you go.\x02",
         )
     )
 
@@ -5263,7 +5263,7 @@ def main():
             "#12100FRegardless of the resistance of the guard,\x01",
             "With the strength of defense army and hunter\x01",
             "It will be hard to endure long.\x02\x03",
-            "行くなら急いだ方がIt might be nice.\x02",
+            "You better be in a hurry if you go.\x02",
         )
     )
 
@@ -5307,7 +5307,7 @@ def main():
             "#12100FMercapa and tactical auctions\x01",
             "With the cooperation of the foundation and the church\x01",
             "Although it was born for the first time … ….\x02\x03",
-            "……あくまでSecularly it is an informal matter.\x01",
+            "…… To the end secular is an informal matter.\x01",
             "Do not let it leak out to the outside.\x02",
         )
     )
@@ -5637,7 +5637,7 @@ def main():
         0x8,
         (
             "#12100FAnyway, while you are on the ship\x01",
-            "準備をKeep it well.\x02\x03",
+            "Please prepare thoroughly.\x02\x03",
             "If you are ready to get off the ground\x01",
             "Tell a voice.\x02",
         )
@@ -6812,7 +6812,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#02300Fまあ、You'd better do your best at best.\x02\x03",
+            "#02300FWell, at best, do your best.\x02\x03",
             "#02309FHurry up and it will be like before\x01",
             "Dedicated guiding net life\x01",
             "Please let me get it back.\x02",
@@ -6942,7 +6942,7 @@ def main():
         (
             "#02300FIt seems there is somehow a strong partner,\x01",
             "I asked for your kindness.\x02\x03",
-            "#02309FとっととLiberate Crossbell City,\x01",
+            "#02309FFinally liberate Cross Bell City,\x01",
             "I have to get back my base!\x02",
         )
     )
@@ -8778,7 +8778,7 @@ def main():
         (
             "…… I accompanied up to here,\x01",
             "The fate of this ship is to you\x01",
-            "預けさせてI will get you.\x02",
+            "I will deposit it.\x02",
         )
     )
 
@@ -8805,7 +8805,7 @@ def main():
         (
             "I accompanied it up to here,\x01",
             "The fate of this ship is to you\x01",
-            "預けさせてI will get you.\x02",
+            "I will deposit it.\x02",
         )
     )
 
@@ -8971,7 +8971,7 @@ def main():
         0x16,
         (
             "Even for the mission as an Order,\x01",
-            "全力を尽くさせてI will get you.\x02",
+            "I will do my best.\x02",
         )
     )
 
@@ -8985,7 +8985,7 @@ def main():
     ChrTalk(
         0x16,
         (
-            "自分はBecause the power net is not specialty\x01",
+            "Because I am a non-professional conducting net\x01",
             "Only on the system side of Mercapa\x01",
             "I can not be a force … ….\x02",
         )
@@ -8997,7 +8997,7 @@ def main():
         0x16,
         (
             "Even for the mission as an Order,\x01",
-            "全力を尽くさせてI will get you.\x02",
+            "I will do my best.\x02",
         )
     )
 

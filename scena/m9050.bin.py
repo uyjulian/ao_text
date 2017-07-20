@@ -775,7 +775,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -866,7 +866,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -957,7 +957,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1015,7 +1015,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -1084,7 +1084,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x02",
+            "There is nothing in the treasure box.\x02",
         )
     )
 
@@ -1174,7 +1174,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1323,7 +1323,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1472,7 +1472,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1563,7 +1563,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -1654,7 +1654,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the treasure box何も入っていない。\x07\x00\x02",
+            "There is nothing in the treasure box.\x07\x00\x02",
         )
     )
 
@@ -2141,7 +2141,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#6PThis is \"area\" …\x02",
+        "#00105F#6PSo this is a Territory?\x02",
     )
 
     CloseMessageWindow()
@@ -2239,7 +2239,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5Pgot it……\x02\x03",
+            "#00006F#5PI see…\x02\x03",
             "#00001F── I do not know what is.\x01",
             "Carefully start exploring.\x02",
         )
@@ -2424,7 +2424,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5PThe color of the sky has changed ……?\x02",
+        "#00011F#5PThe color of the sky changed?\x02",
     )
 
     CloseMessageWindow()
@@ -2589,7 +2589,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#5PThe color of the sky has changed ……?\x02",
+        "#00005F#5PThe color of the sky changed?\x02",
     )
 
     CloseMessageWindow()

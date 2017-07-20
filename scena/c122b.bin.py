@@ -404,7 +404,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "（Graceさん達のこと……\x01",
+            "(About Mr. Grays … ….\x01",
             "Thank you. )\x02",
         )
     )
@@ -437,7 +437,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "（Graceさん達のこと……\x01",
+            "(About Mr. Grays … ….\x01",
             "Thank you. )\x02",
         )
     )
@@ -483,7 +483,7 @@ def main():
         0xFE,
         (
             "Nobody has been hurt but salvation … …\x01",
-            "Graceもムチャをしやがる。\x02",
+            "Grace is also playing.\x02",
         )
     )
 
@@ -508,7 +508,7 @@ def main():
         0xFE,
         (
             "Nobody has been hurt but salvation … …\x01",
-            "Graceもムチャをしやがる。\x02",
+            "Grace is also playing.\x02",
         )
     )
 
@@ -611,7 +611,7 @@ def main():
 
     ChrTalk(
         0xFE,
-        "#02101FRaines君、カメラは持ったわね！\x02",
+        "#02101FRains, you got a camera!\x02",
     )
 
     CloseMessageWindow()
@@ -626,7 +626,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00011FGraceさん……\x01",
+            "#00011FMr. Grace ……\x01",
             "Are you going to interview! Is it?\x02",
         )
     )
@@ -730,7 +730,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#02102FRaines君、よろしく頼むわよ！\x02\x03",
+            "#02102FRains, I beg you to do my best!\x02\x03",
             "#02109FShow me your chest like I was a while ago\x01",
             "Follow me firmly!\x02",
         )
@@ -913,7 +913,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F#11PGraceさんたちは\x01",
+            "#00108F#11PGrace's are\x01",
             "Did he escape to another place?\x02",
         )
     )
@@ -1157,7 +1157,7 @@ def main():
         0x104,
         (
             "#00303F#6P(After all ……)\x02\x03",
-            "#00301F（外で暴れているA hunterどもだな？）\x02",
+            "#00301F(Are hunters rampaging outside?\x02",
         )
     )
 
@@ -1232,7 +1232,7 @@ def main():
             "#00013F#6P(… … I understand the circumstances.\x01",
             "For the time being\x01",
             "Please leave it to us. )\x02\x03",
-            "（Graceさん達は\x01",
+            "(Grace says\x01",
             "I will definitely help out. )\x02",
         )
     )
@@ -1259,7 +1259,7 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00201F#6P（相手はA hunterですし、\x01",
+            "#00201F#6P(The opponent is a hunter,\x01",
             "Being too careful is\x01",
             "There will be no. )\x02",
         )
@@ -1522,8 +1522,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F#5P（この上で、Graceさん達が\x01",
-            "  A hunterに拘束されている……）\x02",
+            "#00001F#5P(On this, Grace says\x01",
+            "It is bound by a hunter … …)\x02",
         )
     )
 
@@ -1610,7 +1610,7 @@ def main():
         0x104,
         (
             "#00303F#11P(Really……)\x02\x03",
-            "#00301F（救出が遅れれば、A hunterどもも\x01",
+            "#00301F(If the rescue is delayed, hunters also\x01",
             "I do not know what to do.\x01",
             "I will finally get ready! )\x02",
         )
@@ -1808,7 +1808,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#11PGrace君、あまり\x01",
+            "#11PGrace, not much\x01",
             "What is irritating … …!\x02",
         )
     )
@@ -1879,7 +1879,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#02105F#5Pレ、Raines君……！？\x02",
+        "#02105F#5PLes, Rains … …! Is it?\x02",
     )
 
     CloseMessageWindow()
@@ -2376,7 +2376,7 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000F#6PGraceさんたちこそ……\x01",
+            "#00000F#6PMr. Graces …\x01",
             "Are you injured?\x02",
         )
     )
@@ -2403,7 +2403,7 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#11Pやれやれ、Grace君も\x01",
+            "#11PWhew, Grace you too\x01",
             "It makes me messy.\x02",
         )
     )
@@ -2436,7 +2436,7 @@ def main():
         0x9,
         (
             "#02110FEven so\x01",
-            "Raines君も見直したわ！\x02\x03",
+            "Rains has also reviewed it!\x02\x03",
             "#02109FIt is said that he will shield me\x01",
             "To be honest, I did not think so?\x02",
         )
@@ -2480,7 +2480,7 @@ def main():
         0x109,
         (
             "#10108F#5PEven so ……\x01",
-            "どうしてA hunterは通信社を\x01",
+            "Why do hunters communicate?\x01",
             "I guess it was aimed?\x02",
         )
     )

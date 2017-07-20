@@ -232,7 +232,7 @@ def main():
             "#03200FEven so,\x01",
             "Please come and see me\x01",
             "Really love you#4RCompetition#was.\x02\x03",
-            "#03204FどうかSingh様のこと、\x01",
+            "#03204FShin's thing,\x01",
             "Thank you for your consideration.\x02",
         )
     )
@@ -264,7 +264,7 @@ def main():
             "#03200FEven so,\x01",
             "Please come and see me\x01",
             "Really love you#4RCompetition#was.\x02\x03",
-            "#03204FどうかSingh様のこと、\x01",
+            "#03204FShin's thing,\x01",
             "Thank you for your consideration.\x02",
         )
     )
@@ -298,7 +298,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Singh様はもちろん、我々の待てる\x01",
+            "Sin, of course, we can wait\x01",
             "Because time is limited, too.\x02",
         )
     )
@@ -312,7 +312,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Singh様、どうかお気をつけて\x01",
+            "Shin, please take care\x01",
             "Please do it.\x02",
         )
     )
@@ -436,7 +436,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#03204F── Aw, that's an interesting coincidence.\x02\x03",
+            "#03204FOh what an interesting coincidence\x02\x03",
             "#03210F\"Black auctioneer\" It is good\x01",
             "It seems that there is a border again.\x02",
         )
@@ -446,7 +446,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5PしかしTsao様……\x02",
+        "#5PBut Cao-sama\x02",
     )
 
     CloseMessageWindow()
@@ -477,7 +477,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5P……surely.\x02",
+        "#5PIndeed\x02",
     )
 
     CloseMessageWindow()
@@ -495,7 +495,7 @@ def main():
     NpcTalk(
         0xB,
         "Voice of a man",
-        "─ ─ Well, I will excuse you!\x02",
+        "E-excuse me!\x02",
     )
 
     CloseMessageWindow()
@@ -563,7 +563,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#6PI am sorry, too.\x02",
+        "#6PE-excuse me!\x02",
     )
 
     CloseMessageWindow()
@@ -580,14 +580,14 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11PUnbelievable report ……?\x02",
+        "#11PIncredible report…\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#03205F…………………………………….\x02",
+        "#03205F…\x02",
     )
 
     CloseMessageWindow()
@@ -903,7 +903,7 @@ def main():
         0x1A2,
         "Boys' Voices",
         (
-            "#5P#Nおそいぞ、Tsao！\x01",
+            "#5P#NOh my goodness, Tsao!\x01",
             "What on earth are you doing!\x02",
         )
     )
@@ -1010,7 +1010,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P#03200Fおお、これはSingh様。\x02",
+        "#11P#03200FOh, this is Sin.\x02",
     )
 
     CloseMessageWindow()
@@ -1143,7 +1143,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00005Fあ、あの、Tsao支社長……？\x02",
+        "#6P#00005FOh, that, Tsao branch manager … ….?\x02",
     )
 
     CloseMessageWindow()
@@ -1166,11 +1166,11 @@ def main():
         0x8,
         (
             "#11P#03200FI will introduce you.\x02\x03",
-            "#03204FこちらはSingh様といいまして、\x01",
+            "#03204FThis is called Sin,\x01",
             "Elder who is a \"black moon\" monkey\x01",
             "You are a grandchild.\x02\x03",
             "#03209FBy all means,\x01",
-            "Singh様にクロスベル市内を\x01",
+            "Mr. Shin to Crossbell City\x01",
             "I'd like you to show me around.\x02",
         )
     )
@@ -1333,7 +1333,7 @@ def main():
         0x9,
         (
             "Just the elder's grandchildren\x01",
-            "Singh様はなかなかの情報通でして。\x02",
+            "Mr. Shin is quite informative.\x02",
         )
     )
 
@@ -1632,7 +1632,7 @@ def main():
         (
             "#12P#00100FEr …\x01",
             "Ellie, McDael.\x02\x03",
-            "#00109Fふふっ、よろしくね、Singh君。\x02",
+            "#00109FHeh, thanks, Shin.\x02",
         )
     )
 
@@ -1700,7 +1700,7 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#6PTsao、気にいったぞ！\x02",
+        "#6PTsao, I love you!\x02",
     )
 
     CloseMessageWindow()
@@ -1720,7 +1720,7 @@ def main():
         (
             "#11P#03204FHuh, it looked like it.\x02\x03",
             "#03209F── Well then, everyone.\x01",
-            "Singh様をよろしくお願いします。\x02",
+            "Thank you Mr. Shin.\x02",
         )
     )
 
@@ -1775,7 +1775,7 @@ def main():
         0x8,
         (
             "#11P#03200FHow is Lloyd?\x02\x03",
-            "Singh様のクロスベル案内を\x01",
+            "Shin's crossbell guide\x01",
             "May I ask you?\x02",
         )
     )
@@ -1859,7 +1859,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00106Fごめんね、Singh君。\x01",
+            "#12P#00106FSorry, Shin.\x01",
             "I wish I could clean up business.\x02",
         )
     )
@@ -1880,7 +1880,7 @@ def main():
         0x8,
         (
             "#11P#03204FYes, of course.\x02\x03",
-            "#03200Fただし、Singh様をあまり\x01",
+            "#03200FHowever,\x01",
             "I will not be able to keep you waiting.\x02\x03",
             "In that case, please return early.\x02",
         )
@@ -1944,7 +1944,7 @@ def main():
         0x8,
         (
             "#11P#03200FOh, that area\x01",
-            "Singh様から直接お聞き下さい。\x02",
+            "Please listen directly from Mr. Shin.\x02",
         )
     )
 
@@ -1954,8 +1954,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03209FそれではSingh様。\x01",
-            "お気をつけてPlease do it.\x02",
+            "#11P#03209FWell then, Mr. Shin.\x01",
+            "Take care and do it.\x02",
         )
     )
 
@@ -2078,9 +2078,9 @@ def main():
         0x8,
         (
             "#11P#03200FOh, that area\x01",
-            "Singh様から直接お聞き下さい。\x02\x03",
-            "#03209FそれではSingh様。\x01",
-            "お気をつけてPlease do it.\x02",
+            "Please listen directly from Mr. Shin.\x02\x03",
+            "#03209FWell then, Mr. Shin.\x01",
+            "Take care and do it.\x02",
         )
     )
 
@@ -2101,7 +2101,7 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#5P──さあolder sister,\x01",
+            "#5P── Now your older sister,\x01",
             "Let's go ahead!\x02",
         )
     )
@@ -2231,7 +2231,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#11P#00105Fちょ、ちょっとSingh君……？\x02",
+        "#11P#00105FWait a minute, Shin: …?\x02",
     )
 
     CloseMessageWindow()
@@ -2283,7 +2283,7 @@ def main():
         0x102,
         (
             "#11P#00103F…… Kohon.\x02\x03",
-            "#00100FSingh君、今は通商会議前だから\x01",
+            "#00100FShin, now it's before the trade meeting\x01",
             "I do not know what it is.\x02\x03",
             "#00104FThinking about your safety\x01",
             "Do you think it would be better to have an escort?\x02",
@@ -2610,7 +2610,7 @@ def main():
         0x101,
         (
             "#5P#00000F… Well then.\x01",
-            "こんな所でいいか、Singh君？\x02",
+            "Is it OK in such a place, Shin?\x02",
         )
     )
 
@@ -2647,7 +2647,7 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#12PそれとボクのことはSinghと呼べ。\x01",
+            "#12PLet me know about it and Shin.\x01",
             "You are not a black moon.\x02",
         )
     )
@@ -2656,7 +2656,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#00009Fはは……分かった、Singh。\x02",
+        "#5P#00009FHaha … … I understood, Shin.\x02",
     )
 
     CloseMessageWindow()
@@ -2691,7 +2691,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "クエスト【Singh少年への市街地案内】\x07\x00",
+            "Quest 【City Guide to Shin Boy】\x07\x00",
             "I started!\x02",
         )
     )
@@ -2900,7 +2900,7 @@ def main():
         (
             "#11P#03200FMr. Lloyd, Ellie.\x01",
             "Everyone else too.\x02\x03",
-            "#03209FこんなにSingh様が喜ばれるとは\x01",
+            "#03209FThinking that Shin is pleased so much\x01",
             "I did not even think.\x02\x03",
             "#03204FThank you very much.\x01",
             "Thank you very much.\x02",
@@ -3004,7 +3004,7 @@ def main():
             "#11P#03204FHuh, I thought that would be the case\x01",
             "I have stopped harassing at Mira.\x02\x03",
             "#03210FNot myself\x01",
-            "Singh様との#10R噵  噵  噵  噵  噵#お近づきの印として\x01",
+            "With Sin#10R噵 噵 噵 噵 噵#As a sign of approval\x01",
             "Would you please accept it?\x02",
         )
     )
@@ -3064,7 +3064,7 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#5PTsao、気がきくじゃないか！\x02",
+        "#5PTsao, I do not care!\x02",
     )
 
     CloseMessageWindow()
@@ -3179,7 +3179,7 @@ def main():
         (
             "#6P#00000FWell then,\x01",
             "Excuse me around here.\x02\x03",
-            "#00009F──Singh、またな？\x02",
+            "#00009F── Shin, are you again?\x02",
         )
     )
 
@@ -3418,8 +3418,8 @@ def main():
         0x9,
         (
             "#6PIn the unlikely event that \"they\"\x01",
-            "Singh様を狙ったりすれば、\x01",
-            "Tsao様の責任問題にも……\x02",
+            "If you aim for Shin-sama,\x01",
+            "To Tsao's responsibility problem ……\x02",
         )
     )
 
@@ -3442,7 +3442,7 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6Pは、Singh様たちを尾行していた\x01",
+            "#6PHe was trailing Shin's\x01",
             "We captured two subjects.\x02",
         )
     )
@@ -3486,7 +3486,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "クエスト【Singh少年への市街地案内】\x07\x00",
+            "Quest 【City Guide to Shin Boy】\x07\x00",
             "Achieved!\x02",
         )
     )

@@ -962,7 +962,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#1POk ……!\x02",
+        "#00307F#1PSo you showed up\x02",
     )
 
     CloseMessageWindow()
@@ -1072,7 +1072,7 @@ def main():
     NpcTalk(
         0x8,
         "Daughter of a knight-costume",
-        "#5PLet's put it in stark wishes.\x02",
+        "#5PWho challenges me?\x02",
     )
 
     CloseMessageWindow()
@@ -1091,7 +1091,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5POf course, of course.\x02",
+        "#5PHaha, of coruse\x02",
     )
 
     CloseMessageWindow()
@@ -1196,7 +1196,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#12PIt's a place I want … ….!\x02",
+        "#00007F#12PThat's what we want to hear!\x02",
     )
 
     CloseMessageWindow()
@@ -1547,7 +1547,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PLet 's leave the way as promised.\x02",
+        "#5PAs promised, I shall let you pass\x02",
     )
 
     CloseMessageWindow()
@@ -1603,14 +1603,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PDo not challenge to challenge.\x02",
+        "#5PDo not rest yet\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00105F#12PAh……\x02",
+        "#00105F#12PAh\x02",
     )
 
     CloseMessageWindow()
@@ -1709,7 +1709,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00101F#30W#12P………………………………\x02",
+        "#00101F#30W#12P…\x02",
     )
 
     CloseMessageWindow()

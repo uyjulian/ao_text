@@ -850,7 +850,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5PTsu …… Do not panic.\x02",
+        "#5PTch. They got in\x02",
     )
 
     CloseMessageWindow()
