@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "r0000_1.bin",                # FileName
         "r0000",                    # MapName
@@ -25,13 +27,13 @@ def main():
 
     ScpFunction((
         "Function_0_164",          # 00, 0
-        "Function_1_1FA",          # 01, 1
-        "Function_2_24C",          # 02, 2
-        "Function_3_D36",          # 03, 3
-        "Function_4_14D3",         # 04, 4
-        "Function_5_18D4",         # 05, 5
-        "Function_6_1C2D",         # 06, 6
-        "Function_7_1C6E",         # 07, 7
+        "Function_1_1FE",          # 01, 1
+        "Function_2_250",          # 02, 2
+        "Function_3_D64",          # 03, 3
+        "Function_4_1518",         # 04, 4
+        "Function_5_1925",         # 05, 5
+        "Function_6_1C88",         # 06, 6
+        "Function_7_1CCD",         # 07, 7
     ))
 
 
@@ -45,7 +47,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "I found something.\x02",
+            "You found something.\x02",
         )
     )
 
@@ -53,79 +55,79 @@ def main():
     OP_57(0x0)
     OP_5A()
     RunExpression(0x0, (scpexpr(EXPR_RAND), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3D, 7)), scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1AF")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3D, 7)), scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1B3")
     Call(1, 5)
-    Jump("loc_1F9")
+    Jump("loc_1FD")
 
-    label("loc_1AF")
+    label("loc_1B3")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3D, 6)), scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1D7")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3D, 6)), scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1DB")
     Call(1, 4)
-    Jump("loc_1F9")
+    Jump("loc_1FD")
 
-    label("loc_1D7")
+    label("loc_1DB")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3D, 5)), scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1F6")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3D, 5)), scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1FA")
     Call(1, 3)
-    Jump("loc_1F9")
+    Jump("loc_1FD")
 
-    label("loc_1F6")
+    label("loc_1FA")
 
     Call(1, 2)
 
-    label("loc_1F9")
+    label("loc_1FD")
 
     Return()
 
     # Function_0_164 end
 
-    def Function_1_1FA(): pass
+    def Function_1_1FE(): pass
 
-    label("Function_1_1FA")
+    label("Function_1_1FE")
 
     RunExpression(0x0, (scpexpr(EXPR_RAND), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_224")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_228")
     Call(1, 5)
-    Jump("loc_24B")
+    Jump("loc_24F")
 
-    label("loc_224")
+    label("loc_228")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_248")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_24C")
     Call(1, 4)
-    Jump("loc_24B")
+    Jump("loc_24F")
 
-    label("loc_248")
+    label("loc_24C")
 
     Call(1, 3)
 
-    label("loc_24B")
+    label("loc_24F")
 
     Return()
 
-    # Function_1_1FA end
+    # Function_1_1FE end
 
-    def Function_2_24C(): pass
+    def Function_2_250(): pass
 
-    label("Function_2_24C")
+    label("Function_2_250")
 
-    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_AND), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_60A")
+    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_AND), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_619")
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_2AB"),
-        (1, "loc_2F9"),
-        (2, "loc_347"),
-        (3, "loc_395"),
-        (4, "loc_3E3"),
-        (5, "loc_431"),
-        (6, "loc_47F"),
-        (7, "loc_4CD"),
-        (8, "loc_51B"),
-        (9, "loc_569"),
-        (SWITCH_DEFAULT, "loc_5B7"),
+        (0, "loc_2AF"),
+        (1, "loc_2FE"),
+        (2, "loc_34D"),
+        (3, "loc_39C"),
+        (4, "loc_3EB"),
+        (5, "loc_43A"),
+        (6, "loc_489"),
+        (7, "loc_4D8"),
+        (8, "loc_527"),
+        (9, "loc_576"),
+        (SWITCH_DEFAULT, "loc_5C5"),
     )
 
 
-    label("loc_2AB")
+    label("loc_2AF")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -135,20 +137,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '解毒药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x200),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('解毒药', 1)
+    AddItemNumber(0x200, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_605")
+    Jump("loc_614")
 
-    label("loc_2F9")
+    label("loc_2FE")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -158,20 +160,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '软化膏'),
+            scpstr(SCPSTR_CODE_ITEM, 0x201),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('软化膏', 1)
+    AddItemNumber(0x201, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_605")
+    Jump("loc_614")
 
-    label("loc_347")
+    label("loc_34D")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -181,20 +183,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '绝缘胶带'),
+            scpstr(SCPSTR_CODE_ITEM, 0x202),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('绝缘胶带', 1)
+    AddItemNumber(0x202, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_605")
+    Jump("loc_614")
 
-    label("loc_395")
+    label("loc_39C")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -204,20 +206,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '解冻暖炉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x203),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('解冻暖炉', 1)
+    AddItemNumber(0x203, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_605")
+    Jump("loc_614")
 
-    label("loc_3E3")
+    label("loc_3EB")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -227,20 +229,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '舒缓凝胶'),
+            scpstr(SCPSTR_CODE_ITEM, 0x204),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('舒缓凝胶', 1)
+    AddItemNumber(0x204, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_605")
+    Jump("loc_614")
 
-    label("loc_431")
+    label("loc_43A")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -250,20 +252,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '冷却喷雾'),
+            scpstr(SCPSTR_CODE_ITEM, 0x205),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('冷却喷雾', 1)
+    AddItemNumber(0x205, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_605")
+    Jump("loc_614")
 
-    label("loc_47F")
+    label("loc_489")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -273,20 +275,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '眼药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x206),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('眼药', 1)
+    AddItemNumber(0x206, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_605")
+    Jump("loc_614")
 
-    label("loc_4CD")
+    label("loc_4D8")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -296,20 +298,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '提神薄荷'),
+            scpstr(SCPSTR_CODE_ITEM, 0x207),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('提神薄荷', 1)
+    AddItemNumber(0x207, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_605")
+    Jump("loc_614")
 
-    label("loc_51B")
+    label("loc_527")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -319,20 +321,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '苏醒药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x208),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('苏醒药', 1)
+    AddItemNumber(0x208, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_605")
+    Jump("loc_614")
 
-    label("loc_569")
+    label("loc_576")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -342,20 +344,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '镇静剂'),
+            scpstr(SCPSTR_CODE_ITEM, 0x209),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('镇静剂', 1)
+    AddItemNumber(0x209, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_605")
+    Jump("loc_614")
 
-    label("loc_5B7")
+    label("loc_5C5")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -365,64 +367,64 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('回复药', 1)
+    AddItemNumber(0x1F4, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_605")
+    Jump("loc_614")
 
-    label("loc_605")
+    label("loc_614")
 
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_60A")
+    label("loc_619")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x1F), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_6DA"),
-        (18, "loc_6DA"),
-        (25, "loc_6DA"),
-        (1, "loc_738"),
-        (19, "loc_738"),
-        (26, "loc_738"),
-        (2, "loc_796"),
-        (20, "loc_796"),
-        (27, "loc_796"),
-        (3, "loc_7F4"),
-        (21, "loc_7F4"),
-        (28, "loc_7F4"),
-        (4, "loc_852"),
-        (22, "loc_852"),
-        (29, "loc_852"),
-        (5, "loc_8B0"),
-        (23, "loc_8B0"),
-        (30, "loc_8B0"),
-        (6, "loc_90E"),
-        (24, "loc_90E"),
-        (31, "loc_90E"),
-        (7, "loc_96C"),
-        (8, "loc_9BD"),
-        (9, "loc_A0E"),
-        (10, "loc_A5F"),
-        (11, "loc_AB0"),
-        (12, "loc_B01"),
-        (13, "loc_B52"),
-        (14, "loc_BA3"),
-        (15, "loc_BF4"),
-        (16, "loc_C45"),
-        (17, "loc_C96"),
-        (SWITCH_DEFAULT, "loc_CE7"),
+        (0, "loc_6E9"),
+        (18, "loc_6E9"),
+        (25, "loc_6E9"),
+        (1, "loc_74A"),
+        (19, "loc_74A"),
+        (26, "loc_74A"),
+        (2, "loc_7AB"),
+        (20, "loc_7AB"),
+        (27, "loc_7AB"),
+        (3, "loc_80B"),
+        (21, "loc_80B"),
+        (28, "loc_80B"),
+        (4, "loc_86B"),
+        (22, "loc_86B"),
+        (29, "loc_86B"),
+        (5, "loc_8CB"),
+        (23, "loc_8CB"),
+        (30, "loc_8CB"),
+        (6, "loc_92C"),
+        (24, "loc_92C"),
+        (31, "loc_92C"),
+        (7, "loc_98E"),
+        (8, "loc_9E0"),
+        (9, "loc_A32"),
+        (10, "loc_A84"),
+        (11, "loc_AD6"),
+        (12, "loc_B28"),
+        (13, "loc_B7A"),
+        (14, "loc_BCC"),
+        (15, "loc_C1E"),
+        (16, "loc_C70"),
+        (17, "loc_CC2"),
+        (SWITCH_DEFAULT, "loc_D14"),
     )
 
 
-    label("loc_6DA")
+    label("loc_6E9")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -433,8 +435,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#56ISepis of the earth\x07\x00",
-            "I picked 10 pieces.\x02",
+            "#56IEarth Sepith\x07\x00",
+            " x10 picked up.\x02",
         )
     )
 
@@ -443,9 +445,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x0, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_738")
+    label("loc_74A")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -456,8 +458,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#57IWater sepis\x07\x00",
-            "I picked 10 pieces.\x02",
+            "#57IWater Sepith\x07\x00",
+            " x10 picked up.\x02",
         )
     )
 
@@ -466,9 +468,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x1, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_796")
+    label("loc_7AB")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -479,8 +481,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#58IFire Sepis\x07\x00",
-            "I picked 10 pieces.\x02",
+            "#58IFire Sepith\x07\x00",
+            " x10 picked up.\x02",
         )
     )
 
@@ -489,9 +491,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x2, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_7F4")
+    label("loc_80B")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -502,8 +504,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#59IWind sepice\x07\x00",
-            "I picked 10 pieces.\x02",
+            "#59IWind Sepith\x07\x00",
+            " x10 picked up.\x02",
         )
     )
 
@@ -512,9 +514,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x3, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_852")
+    label("loc_86B")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -525,8 +527,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#60ITime sepis\x07\x00",
-            "I picked 10 pieces.\x02",
+            "#60ITime Sepith\x07\x00",
+            " x10 picked up.\x02",
         )
     )
 
@@ -535,9 +537,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x4, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_8B0")
+    label("loc_8CB")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -548,8 +550,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#61IEmpty sepis\x07\x00",
-            "I picked 10 pieces.\x02",
+            "#61ISpace Sepith\x07\x00",
+            " x10 picked up.\x02",
         )
     )
 
@@ -558,9 +560,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x5, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_90E")
+    label("loc_92C")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -571,8 +573,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#62IPhantom Sepis\x07\x00",
-            "I picked 10 pieces.\x02",
+            "#62IMirage Sepith\x07\x00",
+            " x10 picked up.\x02",
         )
     )
 
@@ -581,32 +583,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x6, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_96C")
-
-    SetMessageWindowPos(-1, -1, -1, -1)
-    FadeToDark(300, 0, 100)
-    Sound(17, 0, 100, 0)
-    SetChrName("")
-
-    AnonymousTalk(
-        0x3E7,
-        (
-            scpstr(SCPSTR_CODE_ITEM, '鲑鱼卵'),
-            scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
-        )
-    )
-
-    CloseMessageWindow()
-    OP_57(0x0)
-    FadeToBright(300, 0)
-    AddItemNumber('鲑鱼卵', 2)
-    SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
-
-    label("loc_9BD")
+    label("loc_98E")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -616,20 +595,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '熬炼丸子'),
+            scpstr(SCPSTR_CODE_ITEM, 0x186),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('熬炼丸子', 2)
+    AddItemNumber(0x186, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_A0E")
+    label("loc_9E0")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -639,20 +618,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '红虫'),
+            scpstr(SCPSTR_CODE_ITEM, 0x187),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('红虫', 2)
+    AddItemNumber(0x187, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_A5F")
+    label("loc_A32")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -662,20 +641,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '蚯蚓'),
+            scpstr(SCPSTR_CODE_ITEM, 0x188),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('蚯蚓', 2)
+    AddItemNumber(0x188, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_AB0")
+    label("loc_A84")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -685,20 +664,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽兽肉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x189),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽兽肉', 2)
+    AddItemNumber(0x189, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_B01")
+    label("loc_AD6")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -708,20 +687,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽鱼肉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽鱼肉', 2)
+    AddItemNumber(0x12C, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_B52")
+    label("loc_B28")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -731,20 +710,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽之壳'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之壳', 2)
+    AddItemNumber(0x12D, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_BA3")
+    label("loc_B7A")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -754,20 +733,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽之卵'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之卵', 2)
+    AddItemNumber(0x12E, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_BF4")
+    label("loc_BCC")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -777,20 +756,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽羽翼'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12F),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽羽翼', 2)
+    AddItemNumber(0x12F, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_C45")
+    label("loc_C1E")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -800,20 +779,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽之种'),
+            scpstr(SCPSTR_CODE_ITEM, 0x130),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之种', 2)
+    AddItemNumber(0x130, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_C96")
+    label("loc_C70")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -823,20 +802,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽明胶'),
+            scpstr(SCPSTR_CODE_ITEM, 0x131),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽明胶', 2)
+    AddItemNumber(0x131, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_CE7")
+    label("loc_CC2")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -846,59 +825,82 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x132),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('回复药', 1)
+    AddItemNumber(0x132, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D35")
+    Jump("loc_D63")
 
-    label("loc_D35")
+    label("loc_D14")
+
+    SetMessageWindowPos(-1, -1, -1, -1)
+    FadeToDark(300, 0, 100)
+    Sound(17, 0, 100, 0)
+    SetChrName("")
+
+    AnonymousTalk(
+        0x3E7,
+        (
+            scpstr(SCPSTR_CODE_ITEM, 0x1F4),
+            scpstr(SCPSTR_CODE_COLOR, 0x0),
+            " picked up.\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    OP_57(0x0)
+    FadeToBright(300, 0)
+    AddItemNumber(0x1F4, 1)
+    SetMessageWindowPos(14, 280, 60, 3)
+    Jump("loc_D63")
+
+    label("loc_D63")
 
     Return()
 
-    # Function_2_24C end
+    # Function_2_250 end
 
-    def Function_3_D36(): pass
+    def Function_3_D64(): pass
 
-    label("Function_3_D36")
+    label("Function_3_D64")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x17), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_DD0"),
-        (1, "loc_E1E"),
-        (2, "loc_E6C"),
-        (3, "loc_EBA"),
-        (4, "loc_F08"),
-        (5, "loc_F56"),
-        (6, "loc_FA4"),
-        (7, "loc_FF2"),
-        (8, "loc_1040"),
-        (9, "loc_108E"),
-        (10, "loc_10DC"),
-        (11, "loc_112A"),
-        (12, "loc_1178"),
-        (13, "loc_11C6"),
-        (14, "loc_1214"),
-        (15, "loc_1262"),
-        (16, "loc_12B0"),
-        (17, "loc_12FE"),
-        (18, "loc_134C"),
-        (19, "loc_139A"),
-        (20, "loc_13E8"),
-        (21, "loc_1436"),
-        (22, "loc_1484"),
-        (SWITCH_DEFAULT, "loc_14D2"),
+        (0, "loc_DFE"),
+        (1, "loc_E4D"),
+        (2, "loc_E9C"),
+        (3, "loc_EEB"),
+        (4, "loc_F3A"),
+        (5, "loc_F89"),
+        (6, "loc_FD8"),
+        (7, "loc_1027"),
+        (8, "loc_1076"),
+        (9, "loc_10C5"),
+        (10, "loc_1114"),
+        (11, "loc_1163"),
+        (12, "loc_11B2"),
+        (13, "loc_1201"),
+        (14, "loc_1250"),
+        (15, "loc_129F"),
+        (16, "loc_12EE"),
+        (17, "loc_133D"),
+        (18, "loc_138C"),
+        (19, "loc_13DB"),
+        (20, "loc_142A"),
+        (21, "loc_1479"),
+        (22, "loc_14C8"),
+        (SWITCH_DEFAULT, "loc_1517"),
     )
 
 
-    label("loc_DD0")
+    label("loc_DFE")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -908,20 +910,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＨＰ１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x64),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＨＰ１', 1)
+    AddItemNumber(0x64, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_E1E")
+    label("loc_E4D")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -931,20 +933,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＥＰ１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x68),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＥＰ１', 1)
+    AddItemNumber(0x68, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_E6C")
+    label("loc_E9C")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -954,20 +956,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '攻击１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x6C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('攻击１', 1)
+    AddItemNumber(0x6C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_EBA")
+    label("loc_EEB")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -977,20 +979,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '防御１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x70),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('防御１', 1)
+    AddItemNumber(0x70, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_F08")
+    label("loc_F3A")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1000,20 +1002,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '精神１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x74),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('精神１', 1)
+    AddItemNumber(0x74, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_F56")
+    label("loc_F89")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1023,20 +1025,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔防１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x78),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔防１', 1)
+    AddItemNumber(0x78, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_FA4")
+    label("loc_FD8")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1046,20 +1048,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '命中１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x7C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('命中１', 1)
+    AddItemNumber(0x7C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_FF2")
+    label("loc_1027")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1069,20 +1071,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '回避１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x80),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('回避１', 1)
+    AddItemNumber(0x80, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_1040")
+    label("loc_1076")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1092,20 +1094,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '移动１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x84),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('移动１', 1)
+    AddItemNumber(0x84, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_108E")
+    label("loc_10C5")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1115,20 +1117,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '行动力１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x88),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('行动力１', 1)
+    AddItemNumber(0x88, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_10DC")
+    label("loc_1114")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1138,20 +1140,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '妨害１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x8C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('妨害１', 1)
+    AddItemNumber(0x8C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_112A")
+    label("loc_1163")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1161,20 +1163,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '省ＥＰ１'),
+            scpstr(SCPSTR_CODE_ITEM, 0x92),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('省ＥＰ１', 1)
+    AddItemNumber(0x92, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_1178")
+    label("loc_11B2")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1184,20 +1186,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '银胸针'),
+            scpstr(SCPSTR_CODE_ITEM, 0x3C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('银胸针', 1)
+    AddItemNumber(0x3C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_11C6")
+    label("loc_1201")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1207,20 +1209,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '珊瑚戒指'),
+            scpstr(SCPSTR_CODE_ITEM, 0x3D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('珊瑚戒指', 1)
+    AddItemNumber(0x3D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_1214")
+    label("loc_1250")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1230,20 +1232,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '英雄戒指'),
+            scpstr(SCPSTR_CODE_ITEM, 0x3E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('英雄戒指', 1)
+    AddItemNumber(0x3E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_1262")
+    label("loc_129F")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1253,20 +1255,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '夜光眼镜'),
+            scpstr(SCPSTR_CODE_ITEM, 0x3F),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('夜光眼镜', 1)
+    AddItemNumber(0x3F, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_12B0")
+    label("loc_12EE")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1276,20 +1278,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '凉爽项链'),
+            scpstr(SCPSTR_CODE_ITEM, 0x40),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('凉爽项链', 1)
+    AddItemNumber(0x40, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_12FE")
+    label("loc_133D")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1299,20 +1301,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '打火机'),
+            scpstr(SCPSTR_CODE_ITEM, 0x41),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('打火机', 1)
+    AddItemNumber(0x41, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_134C")
+    label("loc_138C")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1322,20 +1324,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '幻彩围巾'),
+            scpstr(SCPSTR_CODE_ITEM, 0x42),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('幻彩围巾', 1)
+    AddItemNumber(0x42, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_139A")
+    label("loc_13DB")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1345,20 +1347,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '叮当耳环'),
+            scpstr(SCPSTR_CODE_ITEM, 0x43),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('叮当耳环', 1)
+    AddItemNumber(0x43, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_13E8")
+    label("loc_142A")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1368,20 +1370,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '钢手镯'),
+            scpstr(SCPSTR_CODE_ITEM, 0x44),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('钢手镯', 1)
+    AddItemNumber(0x44, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_1436")
+    label("loc_1479")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1391,20 +1393,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '花之瓶'),
+            scpstr(SCPSTR_CODE_ITEM, 0x45),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('花之瓶', 1)
+    AddItemNumber(0x45, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_1484")
+    label("loc_14C8")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1414,48 +1416,48 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '神圣之链'),
+            scpstr(SCPSTR_CODE_ITEM, 0x46),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('神圣之链', 1)
+    AddItemNumber(0x46, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_14D2")
+    Jump("loc_1517")
 
-    label("loc_14D2")
+    label("loc_1517")
 
     Return()
 
-    # Function_3_D36 end
+    # Function_3_D64 end
 
-    def Function_4_14D3(): pass
+    def Function_4_1518(): pass
 
-    label("Function_4_14D3")
+    label("Function_4_1518")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xC), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_152B"),
-        (1, "loc_1579"),
-        (2, "loc_15C7"),
-        (3, "loc_1615"),
-        (4, "loc_1663"),
-        (5, "loc_16B1"),
-        (6, "loc_16FF"),
-        (7, "loc_174D"),
-        (8, "loc_179B"),
-        (9, "loc_17E9"),
-        (10, "loc_1837"),
-        (11, "loc_1885"),
-        (SWITCH_DEFAULT, "loc_18D3"),
+        (0, "loc_1570"),
+        (1, "loc_15BF"),
+        (2, "loc_160E"),
+        (3, "loc_165D"),
+        (4, "loc_16AC"),
+        (5, "loc_16FB"),
+        (6, "loc_174A"),
+        (7, "loc_1799"),
+        (8, "loc_17E8"),
+        (9, "loc_1837"),
+        (10, "loc_1886"),
+        (11, "loc_18D5"),
+        (SWITCH_DEFAULT, "loc_1924"),
     )
 
 
-    label("loc_152B")
+    label("loc_1570")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1465,20 +1467,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＨＰ２'),
+            scpstr(SCPSTR_CODE_ITEM, 0x65),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＨＰ２', 1)
+    AddItemNumber(0x65, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
+    Jump("loc_1924")
 
-    label("loc_1579")
+    label("loc_15BF")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1488,20 +1490,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＥＰ２'),
+            scpstr(SCPSTR_CODE_ITEM, 0x69),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＥＰ２', 1)
+    AddItemNumber(0x69, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
+    Jump("loc_1924")
 
-    label("loc_15C7")
+    label("loc_160E")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1511,20 +1513,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '攻击２'),
+            scpstr(SCPSTR_CODE_ITEM, 0x6D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('攻击２', 1)
+    AddItemNumber(0x6D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
+    Jump("loc_1924")
 
-    label("loc_1615")
+    label("loc_165D")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1534,20 +1536,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '防御２'),
+            scpstr(SCPSTR_CODE_ITEM, 0x71),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('防御２', 1)
+    AddItemNumber(0x71, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
+    Jump("loc_1924")
 
-    label("loc_1663")
+    label("loc_16AC")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1557,20 +1559,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '精神２'),
+            scpstr(SCPSTR_CODE_ITEM, 0x75),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('精神２', 1)
+    AddItemNumber(0x75, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
+    Jump("loc_1924")
 
-    label("loc_16B1")
+    label("loc_16FB")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1580,20 +1582,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔防２'),
+            scpstr(SCPSTR_CODE_ITEM, 0x79),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔防２', 1)
+    AddItemNumber(0x79, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
+    Jump("loc_1924")
 
-    label("loc_16FF")
+    label("loc_174A")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1603,20 +1605,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '命中２'),
+            scpstr(SCPSTR_CODE_ITEM, 0x7D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('命中２', 1)
+    AddItemNumber(0x7D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
+    Jump("loc_1924")
 
-    label("loc_174D")
+    label("loc_1799")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1626,20 +1628,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '回避２'),
+            scpstr(SCPSTR_CODE_ITEM, 0x81),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('回避２', 1)
+    AddItemNumber(0x81, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
+    Jump("loc_1924")
 
-    label("loc_179B")
+    label("loc_17E8")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1649,41 +1651,18 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '移动２'),
+            scpstr(SCPSTR_CODE_ITEM, 0x85),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('移动２', 1)
+    AddItemNumber(0x85, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
-
-    label("loc_17E9")
-
-    SetMessageWindowPos(-1, -1, -1, -1)
-    FadeToDark(300, 0, 100)
-    Sound(17, 0, 100, 0)
-    SetChrName("")
-
-    AnonymousTalk(
-        0x3E7,
-        (
-            scpstr(SCPSTR_CODE_ITEM, '行动力２'),
-            scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
-        )
-    )
-
-    CloseMessageWindow()
-    OP_57(0x0)
-    FadeToBright(300, 0)
-    AddItemNumber('行动力２', 1)
-    SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
+    Jump("loc_1924")
 
     label("loc_1837")
 
@@ -1695,20 +1674,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '妨害２'),
+            scpstr(SCPSTR_CODE_ITEM, 0x89),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('妨害２', 1)
+    AddItemNumber(0x89, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
+    Jump("loc_1924")
 
-    label("loc_1885")
+    label("loc_1886")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1718,46 +1697,69 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '省ＥＰ２'),
+            scpstr(SCPSTR_CODE_ITEM, 0x8D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('省ＥＰ２', 1)
+    AddItemNumber(0x8D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_18D3")
+    Jump("loc_1924")
 
-    label("loc_18D3")
+    label("loc_18D5")
+
+    SetMessageWindowPos(-1, -1, -1, -1)
+    FadeToDark(300, 0, 100)
+    Sound(17, 0, 100, 0)
+    SetChrName("")
+
+    AnonymousTalk(
+        0x3E7,
+        (
+            scpstr(SCPSTR_CODE_ITEM, 0x93),
+            scpstr(SCPSTR_CODE_COLOR, 0x0),
+            " picked up.\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    OP_57(0x0)
+    FadeToBright(300, 0)
+    AddItemNumber(0x93, 1)
+    SetMessageWindowPos(14, 280, 60, 3)
+    Jump("loc_1924")
+
+    label("loc_1924")
 
     Return()
 
-    # Function_4_14D3 end
+    # Function_4_1518 end
 
-    def Function_5_18D4(): pass
+    def Function_5_1925(): pass
 
-    label("Function_5_18D4")
+    label("Function_5_1925")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_1920"),
-        (1, "loc_196E"),
-        (2, "loc_19BC"),
-        (3, "loc_1A0A"),
-        (4, "loc_1A58"),
-        (5, "loc_1AA6"),
-        (6, "loc_1AF4"),
-        (7, "loc_1B42"),
-        (8, "loc_1B90"),
-        (9, "loc_1BDE"),
-        (SWITCH_DEFAULT, "loc_1C2C"),
+        (0, "loc_1971"),
+        (1, "loc_19C0"),
+        (2, "loc_1A0F"),
+        (3, "loc_1A5E"),
+        (4, "loc_1AAD"),
+        (5, "loc_1AFC"),
+        (6, "loc_1B4B"),
+        (7, "loc_1B9A"),
+        (8, "loc_1BE9"),
+        (9, "loc_1C38"),
+        (SWITCH_DEFAULT, "loc_1C87"),
     )
 
 
-    label("loc_1920")
+    label("loc_1971")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1767,20 +1769,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＨＰ３'),
+            scpstr(SCPSTR_CODE_ITEM, 0x66),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＨＰ３', 1)
+    AddItemNumber(0x66, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C2C")
+    Jump("loc_1C87")
 
-    label("loc_196E")
+    label("loc_19C0")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1790,20 +1792,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, 'ＥＰ３'),
+            scpstr(SCPSTR_CODE_ITEM, 0x6A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('ＥＰ３', 1)
+    AddItemNumber(0x6A, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C2C")
+    Jump("loc_1C87")
 
-    label("loc_19BC")
+    label("loc_1A0F")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1813,20 +1815,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '攻击３'),
+            scpstr(SCPSTR_CODE_ITEM, 0x6E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('攻击３', 1)
+    AddItemNumber(0x6E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C2C")
+    Jump("loc_1C87")
 
-    label("loc_1A0A")
+    label("loc_1A5E")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1836,20 +1838,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '防御３'),
+            scpstr(SCPSTR_CODE_ITEM, 0x72),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('防御３', 1)
+    AddItemNumber(0x72, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C2C")
+    Jump("loc_1C87")
 
-    label("loc_1A58")
+    label("loc_1AAD")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1859,20 +1861,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '精神３'),
+            scpstr(SCPSTR_CODE_ITEM, 0x76),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('精神３', 1)
+    AddItemNumber(0x76, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C2C")
+    Jump("loc_1C87")
 
-    label("loc_1AA6")
+    label("loc_1AFC")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1882,20 +1884,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔防３'),
+            scpstr(SCPSTR_CODE_ITEM, 0x7A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔防３', 1)
+    AddItemNumber(0x7A, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C2C")
+    Jump("loc_1C87")
 
-    label("loc_1AF4")
+    label("loc_1B4B")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1905,20 +1907,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '命中３'),
+            scpstr(SCPSTR_CODE_ITEM, 0x7E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('命中３', 1)
+    AddItemNumber(0x7E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C2C")
+    Jump("loc_1C87")
 
-    label("loc_1B42")
+    label("loc_1B9A")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1928,20 +1930,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '回避３'),
+            scpstr(SCPSTR_CODE_ITEM, 0x82),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('回避３', 1)
+    AddItemNumber(0x82, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C2C")
+    Jump("loc_1C87")
 
-    label("loc_1B90")
+    label("loc_1BE9")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1951,20 +1953,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '行动力３'),
+            scpstr(SCPSTR_CODE_ITEM, 0x8A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('行动力３', 1)
+    AddItemNumber(0x8A, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C2C")
+    Jump("loc_1C87")
 
-    label("loc_1BDE")
+    label("loc_1C38")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1974,28 +1976,28 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '省ＥＰ３'),
+            scpstr(SCPSTR_CODE_ITEM, 0x94),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('省ＥＰ３', 1)
+    AddItemNumber(0x94, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C2C")
+    Jump("loc_1C87")
 
-    label("loc_1C2C")
+    label("loc_1C87")
 
     Return()
 
-    # Function_5_18D4 end
+    # Function_5_1925 end
 
-    def Function_6_1C2D(): pass
+    def Function_6_1C88(): pass
 
-    label("Function_6_1C2D")
+    label("Function_6_1C88")
 
     SetMapFlags(0x80)
     SetMapFlags(0x8000000)
@@ -2006,7 +2008,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "I found something.\x02",
+            "You found something.\x02",
         )
     )
 
@@ -2020,32 +2022,32 @@ def main():
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_6_1C2D end
+    # Function_6_1C88 end
 
-    def Function_7_1C6E(): pass
+    def Function_7_1CCD(): pass
 
-    label("Function_7_1C6E")
+    label("Function_7_1CCD")
 
-    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_20E3")
+    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_214F")
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xC), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_1CD9"),
-        (1, "loc_1D2A"),
-        (2, "loc_1D7B"),
-        (3, "loc_1DCC"),
-        (4, "loc_1E1D"),
-        (5, "loc_1E6E"),
-        (6, "loc_1EBC"),
-        (7, "loc_1F0A"),
-        (8, "loc_1F58"),
-        (9, "loc_1FA6"),
-        (10, "loc_1FF4"),
-        (11, "loc_2042"),
-        (SWITCH_DEFAULT, "loc_2090"),
+        (0, "loc_1D38"),
+        (1, "loc_1D8A"),
+        (2, "loc_1DDC"),
+        (3, "loc_1E2E"),
+        (4, "loc_1E80"),
+        (5, "loc_1ED2"),
+        (6, "loc_1F21"),
+        (7, "loc_1F70"),
+        (8, "loc_1FBF"),
+        (9, "loc_200E"),
+        (10, "loc_205D"),
+        (11, "loc_20AC"),
+        (SWITCH_DEFAULT, "loc_20FB"),
     )
 
 
-    label("loc_1CD9")
+    label("loc_1D38")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2055,20 +2057,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '鲑鱼卵'),
+            scpstr(SCPSTR_CODE_ITEM, 0x186),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('鲑鱼卵', 2)
+    AddItemNumber(0x186, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_1D2A")
+    label("loc_1D8A")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2078,20 +2080,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '熬炼丸子'),
+            scpstr(SCPSTR_CODE_ITEM, 0x187),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('熬炼丸子', 2)
+    AddItemNumber(0x187, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_1D7B")
+    label("loc_1DDC")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2101,20 +2103,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '红虫'),
+            scpstr(SCPSTR_CODE_ITEM, 0x188),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('红虫', 2)
+    AddItemNumber(0x188, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_1DCC")
+    label("loc_1E2E")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2124,20 +2126,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '蚯蚓'),
+            scpstr(SCPSTR_CODE_ITEM, 0x189),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('蚯蚓', 2)
+    AddItemNumber(0x189, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_1E1D")
+    label("loc_1E80")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2147,20 +2149,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '熬炼丸子ＤＸ'),
+            scpstr(SCPSTR_CODE_ITEM, 0x18A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('熬炼丸子ＤＸ', 2)
+    AddItemNumber(0x18A, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_1E6E")
+    label("loc_1ED2")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2170,20 +2172,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽兽肉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽兽肉', 1)
+    AddItemNumber(0x12C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_1EBC")
+    label("loc_1F21")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2193,20 +2195,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽鱼肉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽鱼肉', 1)
+    AddItemNumber(0x12D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_1F0A")
+    label("loc_1F70")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2216,20 +2218,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽之壳'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之壳', 1)
+    AddItemNumber(0x12E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_1F58")
+    label("loc_1FBF")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2239,20 +2241,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽之卵'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12F),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之卵', 1)
+    AddItemNumber(0x12F, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_1FA6")
+    label("loc_200E")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2262,20 +2264,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽羽翼'),
+            scpstr(SCPSTR_CODE_ITEM, 0x130),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽羽翼', 1)
+    AddItemNumber(0x130, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_1FF4")
+    label("loc_205D")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2285,20 +2287,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽之种'),
+            scpstr(SCPSTR_CODE_ITEM, 0x131),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽之种', 1)
+    AddItemNumber(0x131, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_2042")
+    label("loc_20AC")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2308,20 +2310,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽明胶'),
+            scpstr(SCPSTR_CODE_ITEM, 0x132),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽明胶', 1)
+    AddItemNumber(0x132, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_2090")
+    label("loc_20FB")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2331,55 +2333,55 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '魔兽兽肉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x12C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up.\x02",
+            " picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('魔兽兽肉', 1)
+    AddItemNumber(0x12C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_20DE")
+    Jump("loc_214A")
 
-    label("loc_20DE")
+    label("loc_214A")
 
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_20E3")
+    label("loc_214F")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x17), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_217D"),
-        (1, "loc_21CE"),
-        (2, "loc_221F"),
-        (3, "loc_2270"),
-        (4, "loc_22C1"),
-        (5, "loc_2312"),
-        (6, "loc_2363"),
-        (7, "loc_23B4"),
-        (8, "loc_2405"),
-        (9, "loc_2456"),
-        (10, "loc_24A7"),
-        (11, "loc_24F8"),
-        (12, "loc_2549"),
-        (13, "loc_259A"),
-        (14, "loc_25EB"),
-        (15, "loc_263C"),
-        (16, "loc_268D"),
-        (17, "loc_26DE"),
-        (18, "loc_272F"),
-        (19, "loc_2780"),
-        (20, "loc_27D1"),
-        (21, "loc_2822"),
-        (22, "loc_2873"),
-        (SWITCH_DEFAULT, "loc_28C4"),
+        (0, "loc_21E9"),
+        (1, "loc_223B"),
+        (2, "loc_228D"),
+        (3, "loc_22DF"),
+        (4, "loc_2331"),
+        (5, "loc_2383"),
+        (6, "loc_23D5"),
+        (7, "loc_2427"),
+        (8, "loc_2479"),
+        (9, "loc_24CB"),
+        (10, "loc_251D"),
+        (11, "loc_256F"),
+        (12, "loc_25C1"),
+        (13, "loc_2613"),
+        (14, "loc_2665"),
+        (15, "loc_26B7"),
+        (16, "loc_2709"),
+        (17, "loc_275B"),
+        (18, "loc_27AD"),
+        (19, "loc_27FF"),
+        (20, "loc_2851"),
+        (21, "loc_28A3"),
+        (22, "loc_28F5"),
+        (SWITCH_DEFAULT, "loc_2947"),
     )
 
 
-    label("loc_217D")
+    label("loc_21E9")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2389,20 +2391,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '发芽糙米'),
+            scpstr(SCPSTR_CODE_ITEM, 0x134),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('发芽糙米', 2)
+    AddItemNumber(0x134, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_21CE")
+    label("loc_223B")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2412,20 +2414,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '五谷味噌'),
+            scpstr(SCPSTR_CODE_ITEM, 0x135),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('五谷味噌', 2)
+    AddItemNumber(0x135, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_221F")
+    label("loc_228D")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2435,20 +2437,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '百药精酒'),
+            scpstr(SCPSTR_CODE_ITEM, 0x136),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('百药精酒', 2)
+    AddItemNumber(0x136, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_2270")
+    label("loc_22DF")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2458,20 +2460,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '朝摘香叶'),
+            scpstr(SCPSTR_CODE_ITEM, 0x137),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked five pieces.\x02",
+            " x5 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('朝摘香叶', 5)
+    AddItemNumber(0x137, 5)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_22C1")
+    label("loc_2331")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2481,20 +2483,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '清绿香草'),
+            scpstr(SCPSTR_CODE_ITEM, 0x138),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked five pieces.\x02",
+            " x5 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('清绿香草', 5)
+    AddItemNumber(0x138, 5)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_2312")
+    label("loc_2383")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2504,20 +2506,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '胡椒粒'),
+            scpstr(SCPSTR_CODE_ITEM, 0x139),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked 8 pieces.\x02",
+            " x8 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('胡椒粒', 8)
+    AddItemNumber(0x139, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_2363")
+    label("loc_23D5")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2527,20 +2529,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '热辣椒'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked 8 pieces.\x02",
+            " x8 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('热辣椒', 8)
+    AddItemNumber(0x13A, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_23B4")
+    label("loc_2427")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2550,20 +2552,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '香油'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked 8 pieces.\x02",
+            " x8 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('香油', 8)
+    AddItemNumber(0x13B, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_2405")
+    label("loc_2479")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2573,20 +2575,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '蜂蜜糖浆'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked 8 pieces.\x02",
+            " x8 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('蜂蜜糖浆', 8)
+    AddItemNumber(0x13C, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_2456")
+    label("loc_24CB")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2596,20 +2598,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '粗碎岩盐'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked 8 pieces.\x02",
+            " x8 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('粗碎岩盐', 8)
+    AddItemNumber(0x13D, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_24A7")
+    label("loc_251D")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2619,20 +2621,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '新磨小麦粉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked 8 pieces.\x02",
+            " x8 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新磨小麦粉', 8)
+    AddItemNumber(0x13E, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_24F8")
+    label("loc_256F")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2642,20 +2644,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '新鲜牛奶'),
+            scpstr(SCPSTR_CODE_ITEM, 0x13F),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up 4 pieces.\x02",
+            " x4 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新鲜牛奶', 4)
+    AddItemNumber(0x13F, 4)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_2549")
+    label("loc_25C1")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2665,20 +2667,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '新鲜奶酪'),
+            scpstr(SCPSTR_CODE_ITEM, 0x140),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up 4 pieces.\x02",
+            " x4 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新鲜奶酪', 4)
+    AddItemNumber(0x140, 4)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_259A")
+    label("loc_2613")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2688,20 +2690,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '新鲜鸡蛋'),
+            scpstr(SCPSTR_CODE_ITEM, 0x141),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up 4 pieces.\x02",
+            " x4 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新鲜鸡蛋', 4)
+    AddItemNumber(0x141, 4)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_25EB")
+    label("loc_2665")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2711,20 +2713,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '铃铛草莓'),
+            scpstr(SCPSTR_CODE_ITEM, 0x142),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up three.\x02",
+            " x3 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('铃铛草莓', 3)
+    AddItemNumber(0x142, 3)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_263C")
+    label("loc_26B7")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2734,20 +2736,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '黑暗菇'),
+            scpstr(SCPSTR_CODE_ITEM, 0x143),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up three.\x02",
+            " x3 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('黑暗菇', 3)
+    AddItemNumber(0x143, 3)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_268D")
+    label("loc_2709")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2757,20 +2759,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '七彩豆'),
+            scpstr(SCPSTR_CODE_ITEM, 0x144),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up three.\x02",
+            " x3 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('七彩豆', 3)
+    AddItemNumber(0x144, 3)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_26DE")
+    label("loc_275B")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2780,20 +2782,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '国王马铃薯'),
+            scpstr(SCPSTR_CODE_ITEM, 0x145),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked five pieces.\x02",
+            " x5 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('国王马铃薯', 5)
+    AddItemNumber(0x145, 5)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_272F")
+    label("loc_27AD")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2803,20 +2805,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '万能青葱'),
+            scpstr(SCPSTR_CODE_ITEM, 0x146),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked five pieces.\x02",
+            " x5 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('万能青葱', 5)
+    AddItemNumber(0x146, 5)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_2780")
+    label("loc_27FF")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2826,20 +2828,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '迷你胡萝卜'),
+            scpstr(SCPSTR_CODE_ITEM, 0x147),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked five pieces.\x02",
+            " x5 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('迷你胡萝卜', 5)
+    AddItemNumber(0x147, 5)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_27D1")
+    label("loc_2851")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2849,20 +2851,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '苦西红柿'),
+            scpstr(SCPSTR_CODE_ITEM, 0x148),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('苦西红柿', 2)
+    AddItemNumber(0x148, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_2822")
+    label("loc_28A3")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2872,20 +2874,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '雪花里脊肉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x149),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('雪花里脊肉', 2)
+    AddItemNumber(0x149, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_2873")
+    label("loc_28F5")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2895,20 +2897,20 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '新鲜白肉鱼'),
+            scpstr(SCPSTR_CODE_ITEM, 0x14A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新鲜白肉鱼', 2)
+    AddItemNumber(0x14A, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_28C4")
+    label("loc_2947")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2918,24 +2920,24 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '新鲜白肉鱼'),
+            scpstr(SCPSTR_CODE_ITEM, 0x14A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I picked up two.\x02",
+            " x2 picked up.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('新鲜白肉鱼', 2)
+    AddItemNumber(0x14A, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2915")
+    Jump("loc_2999")
 
-    label("loc_2915")
+    label("loc_2999")
 
     Return()
 
-    # Function_7_1C6E end
+    # Function_7_1CCD end
 
     SaveToFile()
 

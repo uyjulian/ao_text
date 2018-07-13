@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "m1150.bin",                # FileName
         "m1150",                    # MapName
@@ -92,7 +94,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "The door is sealed by the barrier.\x02",
+            "The gate is sealed by a barrier.\x02",
         )
     )
 

@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "e0111.bin",                # FileName
         "e0111",                    # MapName
@@ -19,8 +21,8 @@ def main():
 
     BuildStringList((
         "e0111",                  # 0
-        "Charlie",             # 1
-        "Hunting soldier Gareth",             # 2
+        "Shirley",                # 1
+        "Jaeger Gareth",          # 2
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -129,9 +131,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10302FHaha, as glamorous as I thought\x02\x03",
-            "What is a hunting soldier?\x01",
-            "Do you make so much money?\x02",
+            "#12P#10302FHu hu, gorgeous, indeed.\x02\x03",
+            "Are jaegers so\x01",
+            "profitable?\x02",
         )
     )
 
@@ -142,9 +144,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04600F#5PUhh, we might be a special case\x02\x03",
-            "#04604FMany wealthy people and big noble members,\x01",
-            "It will come in as normal as 10 million mirrors.\x02",
+            "#04600F#5PUhhm, could we be special?\x02\x03",
+            "#04604FWe have many wealthy persons and great nobles \x01",
+            "as regulars, so we get millions of mira regularly.\x02",
         )
     )
 
@@ -152,14 +154,14 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#10305FHyuuu!\x02",
+        "#12P#10305Fpheew♪\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#12P#00011FThat much…\x02",
+        "#12P#00011FThat much...\x02",
     )
 
     CloseMessageWindow()
@@ -167,10 +169,10 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F…… If you hold a top class hunter\x01",
-            "It costs as much maintenance cost as it is.\x02\x03",
-            "#00301FNaturally, the arms are the latest only - ─\x01",
-            "Have you gotten an airship soon?\x02",
+            "#00303F...When you employ top class jaegers,\x01",
+            "in a way there're even maintenance costs.\x02\x03",
+            "#00301FOf course weapons are only the latest models──\x01",
+            "Did you finally get an airship too?\x02",
         )
     )
 
@@ -179,12 +181,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04604F#5PAhaha, not yet\x02\x03",
-            "#04602FAfter all it is robust\x01",
-            "I'd like a military boat of Libert, but\x01",
-            "It's hard to get behind.\x02\x03",
-            "#04609FWell, at the time of emergency, infiltrate\x01",
-            "There are hands to take away though ♪\x02",
+            "#04604F#5PAhaha, not yet.\x02\x03",
+            "#04602FAs you'd expect, Liberl military ships\x01",
+            "are good for sturdiness, but they don't \x01",
+            "quite appear on the black market.\x02\x03",
+            "#04609FWell, although if needed, we could do\x01",
+            "by sneaking inside one and stealing it♪\x02",
         )
     )
 
@@ -195,14 +197,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00008F(Was that a joke?)\x02",
+        "#12P#00008F(...She's kidding, right?)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00306F(You can think of it like that)\x02",
+        "#00306F(Well, just leave it at that.)\x02",
     )
 
     CloseMessageWindow()

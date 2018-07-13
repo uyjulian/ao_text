@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c033b.bin",                # FileName
         "c033b",                    # MapName
@@ -19,9 +21,9 @@ def main():
 
     BuildStringList((
         "c033b",                  # 0
-        "Harold",               # 1
-        "Sofia",               # 2
-        "Choline",                 # 3
+        "Harold",                 # 1
+        "Sophia",                 # 2
+        "Colin",                  # 3
     ))
 
     AddCharChip((
@@ -46,9 +48,9 @@ def main():
         "Function_1_1F0",          # 01, 1
         "Function_2_23A",          # 02, 2
         "Function_3_23B",          # 03, 3
-        "Function_4_2E3",          # 04, 4
-        "Function_5_4A8",          # 05, 5
-        "Function_6_51E",          # 06, 6
+        "Function_4_2F1",          # 04, 4
+        "Function_5_4BD",          # 05, 5
+        "Function_6_53E",          # 06, 6
     ))
 
 
@@ -155,7 +157,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a car magazine \"Monthly Carmania vol.1\".\x07\x00\x02",
+            "There is a car magazine, "Monthly Car Mania Vol.1".\x07\x00\x02",
         )
     )
 
@@ -163,7 +165,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 1)), scpexpr(EXPR_EXEC_OP, "GetItemNumber('天空色彩', 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_2DF")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 1)), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x36C, 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_2ED")
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
     SetChrName("")
@@ -171,9 +173,9 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Paint pattern\x01\x07\x02",
-            "\"Sky color\"\x07\x00",
-            "I learned.\x02",
+            "You learned the\x01",
+            ""Sky Coloring"\x07\x00",
+            " paint pattern.\x02",
         )
     )
 
@@ -181,25 +183,25 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    AddItemNumber('天空色彩', 1)
+    AddItemNumber(0x36C, 1)
 
-    label("loc_2DF")
+    label("loc_2ED")
 
     TalkEnd(0xFF)
     Return()
 
     # Function_3_23B end
 
-    def Function_4_2E3(): pass
+    def Function_4_2F1(): pass
 
-    label("Function_4_2E3")
+    label("Function_4_2F1")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x14A, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_427")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x14A, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_440")
 
     ChrTalk(
         0x8,
-        "#03605FAw, everyone.\x02",
+        "#03605FOh, everyone.\x02",
     )
 
     CloseMessageWindow()
@@ -214,9 +216,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00104FGood smell from the second floor …\x01",
-            "Wife prepares for dinner\x01",
-            "It seems to be done.\x02",
+            "#00104FA nice smell is coming from the second floor...\x01",
+            "It seems your wife is preparing dinner.\x01\x02",
         )
     )
 
@@ -225,54 +226,53 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#03600FWell, that's right.\x01",
-            "And also today Colin\x01",
-            "He seems to be helping.\x02\x03",
-            "#03609FWell, I am from the outset\x01",
-            "As I came back,\x01",
-            "My stomach is stupid.\x02",
+            "#03600FYes, you're right.\x01",
+            "Also, it seems that today\x01",
+            "Colin is helping her too.\x02\x03",
+            "#03609FMan, I've just returned\x01",
+            "from a place and I'm\x01",
+            "very hungry.\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x14A, 6)
-    Jump("loc_4A4")
+    Jump("loc_4B9")
 
-    label("loc_427")
+    label("loc_440")
 
 
     ChrTalk(
         0x8,
         (
-            "#03600FApparently today,\x01",
-            "Colin is helping cooking\x01",
-            "It looks like it.\x02\x03",
-            "#03609FHehe, what kind of dish\x01",
-            "I am looking forward to coming out.\x02",
+            "#03600FIt seems that today\x01",
+            "Colin is helping too.\x01\x02\x03",
+            "#03609FUh uh, I can't wait to see\x01",
+            "what dishes I'm going to have.\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_4A4")
+    label("loc_4B9")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_4_2E3 end
+    # Function_4_2F1 end
 
-    def Function_5_4A8(): pass
+    def Function_5_4BD(): pass
 
-    label("Function_5_4A8")
+    label("Function_5_4BD")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0x9,
         (
-            "#03700FLet's just wait for boiling.\x02\x03",
-            "#03709FHehe, well done, Colin.\x01",
-            "I'm sure Papa will be pleased.\x02",
+            "#03700FAlright, we only need to wait to simmer.\x02\x03",
+            "#03709FUh uh, you did well, Colin.\x01",
+            "Papa will be delighted for sure.\x02",
         )
     )
 
@@ -280,22 +280,22 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_4A8 end
+    # Function_5_4BD end
 
-    def Function_6_51E(): pass
+    def Function_6_53E(): pass
 
-    label("Function_6_51E")
+    label("Function_6_53E")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xA,
         (
-            "#03802FToday 's dinner is\x01",
-            "It's curry.\x02\x03",
-            "#03809FEh, I\x01",
-            "I cut a piece of chicken ~.\x01",
-            "Is not it amazing?\x02",
+            "#03802FTonight's dinner\x01",
+            "is curry...\x02\x03",
+            "#03809FEhehe, I cut\x01",
+            "the vegetables.\x01",
+            "Cool, eh?\x02",
         )
     )
 
@@ -303,7 +303,7 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_6_51E end
+    # Function_6_53E end
 
     SaveToFile()
 

@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "m0011.bin",                # FileName
         "m0011",                    # MapName
@@ -19,7 +21,7 @@ def main():
 
     BuildStringList((
         "m0011",                  # 0
-        "SE control",                 # 1
+        "SE制御",                 # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)

@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "m0102.bin",                # FileName
         "m0102",                    # MapName
@@ -19,14 +21,14 @@ def main():
 
     BuildStringList((
         "m0102",                  # 0
-        "Ice Condor",         # 1
-        "Ice Condor",         # 2
-        "Ice Condor",         # 3
-        "Ice Condor",         # 4
-        "Ice Condor",         # 5
-        "Ice Condor",         # 6
-        "Ice Condor",         # 7
-        "Ice Condor",         # 8
+        "アイスコンドル",         # 1
+        "アイスコンドル",         # 2
+        "アイスコンドル",         # 3
+        "アイスコンドル",         # 4
+        "アイスコンドル",         # 5
+        "アイスコンドル",         # 6
+        "アイスコンドル",         # 7
+        "アイスコンドル",         # 8
         "bm0100",                 # 9
     ))
 
@@ -83,9 +85,9 @@ def main():
         "Function_1_365",          # 01, 1
         "Function_2_366",          # 02, 2
         "Function_3_405",          # 03, 3
-        "Function_4_4D9",          # 04, 4
-        "Function_5_C0F",          # 05, 5
-        "Function_6_C2E",          # 06, 6
+        "Function_4_4CA",          # 04, 4
+        "Function_5_C00",          # 05, 5
+        "Function_6_C1F",          # 06, 6
     ))
 
 
@@ -145,7 +147,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#0000FI'm going to catch you here.\x02",
+        "#0000FIt seems I can fish here.\x02",
     )
 
     CloseMessageWindow()
@@ -160,7 +162,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Do you fish?\x07\x00\x02",
+            "Fish?\x07\x00\x02",
         )
     )
 
@@ -171,8 +173,8 @@ def main():
         -1,
         1,
         (
-            "To fish\x01",      # 0
-            "quit\x01",          # 1
+            "Fish \x01",      # 0
+            "Quit\x01",       # 1
         )
     )
 
@@ -181,11 +183,11 @@ def main():
     OP_57(0x0)
     OP_5A()
     OP_6F(0x1)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_4D4")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_4C5")
     OP_E2(0x2)
     MiniGame(0x6, 0x3, 0x1A0E, 0x0, 0xFFFFE430, 0xB4, 0x22BA, 0xFFFFE0C0, 0xFFFFD5F8)
 
-    label("loc_4D4")
+    label("loc_4C5")
 
     OP_E2(0x2)
     EventEnd(0x5)
@@ -193,9 +195,9 @@ def main():
 
     # Function_3_405 end
 
-    def Function_4_4D9(): pass
+    def Function_4_4CA(): pass
 
-    label("Function_4_4D9")
+    label("Function_4_4CA")
 
     EventBegin(0x0)
     FadeToDark(0, -1, 0)
@@ -290,46 +292,46 @@ def main():
     OP_6E(600, 0)
     SetCameraDistance(21000, 0)
 
-    def lambda_798():
+    def lambda_789():
         OP_97(0x101, 0x1388, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 0, lambda_798)
+    QueueWorkItem(0x101, 0, lambda_789)
     Sleep(50)
 
-    def lambda_7B5():
+    def lambda_7A6():
         OP_97(0x102, 0x1388, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x102, 0, lambda_7B5)
+    QueueWorkItem(0x102, 0, lambda_7A6)
     Sleep(50)
 
-    def lambda_7D2():
+    def lambda_7C3():
         OP_97(0x104, 0x1388, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 0, lambda_7D2)
+    QueueWorkItem(0x104, 0, lambda_7C3)
     Sleep(50)
 
-    def lambda_7EF():
+    def lambda_7E0():
         OP_97(0x109, 0x1388, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 0, lambda_7EF)
+    QueueWorkItem(0x109, 0, lambda_7E0)
     Sleep(50)
 
-    def lambda_80C():
+    def lambda_7FD():
         OP_97(0x105, 0x1388, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x105, 0, lambda_80C)
+    QueueWorkItem(0x105, 0, lambda_7FD)
     Sleep(50)
 
-    def lambda_829():
+    def lambda_81A():
         OP_97(0x10A, 0x1388, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x10A, 0, lambda_829)
+    QueueWorkItem(0x10A, 0, lambda_81A)
     OP_68(500, 1000, 0, 2500)
     SetCameraDistance(19000, 2500)
     FadeToBright(1000, 0)
@@ -342,35 +344,35 @@ def main():
     OP_63(0x104, 0x0, 2000, 0x2, 0x7, 0x50, 0x1)
     Sound(28, 0, 100, 0)
 
-    def lambda_8B3():
+    def lambda_8A4():
         OP_93(0xFE, 0xE1, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 2, lambda_8B3)
+    QueueWorkItem(0x104, 2, lambda_8A4)
     OP_63(0x109, 0x0, 2000, 0x2, 0x7, 0x50, 0x1)
     Sound(28, 0, 100, 0)
 
-    def lambda_8D8():
+    def lambda_8C9():
         OP_93(0xFE, 0x13B, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x109, 2, lambda_8D8)
+    QueueWorkItem(0x109, 2, lambda_8C9)
     OP_63(0x105, 0x0, 2000, 0x2, 0x7, 0x50, 0x1)
     Sound(28, 0, 100, 0)
 
-    def lambda_8FD():
+    def lambda_8EE():
         OP_93(0xFE, 0xE1, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x105, 2, lambda_8FD)
+    QueueWorkItem(0x105, 2, lambda_8EE)
     OP_63(0x10A, 0x0, 2000, 0x2, 0x7, 0x50, 0x1)
     Sound(28, 0, 100, 0)
 
-    def lambda_922():
+    def lambda_913():
         OP_93(0xFE, 0x13B, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x10A, 2, lambda_922)
+    QueueWorkItem(0x10A, 2, lambda_913)
     Sleep(1000)
     WaitChrThread(0x10A, 0)
     Fade(250)
@@ -498,34 +500,34 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_4_4D9 end
+    # Function_4_4CA end
 
-    def Function_5_C0F(): pass
+    def Function_5_C00(): pass
 
-    label("Function_5_C0F")
+    label("Function_5_C00")
 
 
-    def lambda_C14():
+    def lambda_C05():
         OP_98(0xFE, 0x0, 0x1B58, 0x0, 0xBB8, 0x0)
         ExitThread()
 
-    QueueWorkItem(0xFE, 1, lambda_C14)
+    QueueWorkItem(0xFE, 1, lambda_C05)
     WaitChrThread(0xFE, 1)
     Return()
 
-    # Function_5_C0F end
+    # Function_5_C00 end
 
-    def Function_6_C2E(): pass
+    def Function_6_C1F(): pass
 
-    label("Function_6_C2E")
+    label("Function_6_C1F")
 
     SetChrChip(0x0, 0xFE, 0x32, 0x12C)
 
-    def lambda_C3B():
+    def lambda_C2C():
         OP_96(0xFE, 0x0, 0x3E8, 0x0, 0x1B58, 0x0)
         ExitThread()
 
-    QueueWorkItem(0xFE, 1, lambda_C3B)
+    QueueWorkItem(0xFE, 1, lambda_C2C)
     Sleep(900)
     OP_4B(0xFE, 0x0)
     SetChrChipByIndex(0xFE, 0x25)
@@ -538,7 +540,7 @@ def main():
     SetChrChip(0x1, 0xFE, 0x0, 0x0)
     Return()
 
-    # Function_6_C2E end
+    # Function_6_C1F end
 
     SaveToFile()
 

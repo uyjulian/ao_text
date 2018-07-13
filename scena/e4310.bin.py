@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "e4310.bin",                # FileName
         "e4310",                    # MapName
@@ -19,11 +21,11 @@ def main():
 
     BuildStringList((
         "e4310",                  # 0
-        "Mercava factory",         # 1
-        "Mercapa machine",         # 2
-        "Shintanist Aion",         # 3
-        "Mercapa optical camouflage",       # 4
-        "SE control",                 # 5
+        "メルカバ伍号機",         # 1
+        "メルカバ玖号機",         # 2
+        "神機アイオーン",         # 3
+        "メルカバ光学迷彩",       # 4
+        "SE制御",                 # 5
     ))
 
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)

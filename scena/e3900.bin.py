@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "e3900.bin",                # FileName
         "e3900",                    # MapName
@@ -19,8 +21,8 @@ def main():
 
     BuildStringList((
         "e3900",                  # 0
-        "Kibun Sigmund",         # 1
-        "Airborne",                 # 2
+        "Ogre Sigmund",           # 1
+        "Airship",                # 2
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -32,7 +34,7 @@ def main():
         "Function_0_DC",           # 00, 0
         "Function_1_EC",           # 01, 1
         "Function_2_ED",           # 02, 2
-        "Function_3_662",          # 03, 3
+        "Function_3_64A",          # 03, 3
     ))
 
 
@@ -144,7 +146,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#6P#N#00106F#12AAh\x02",
+        "#6P#N#00106F#12AEeek...!?\x02",
     )
 
     CloseMessageWindow()
@@ -155,7 +157,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#12P#N#00210F#12AWha\x02",
+        "#12P#N#00210F#12A......!\x02",
     )
 
     CloseMessageWindow()
@@ -167,7 +169,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#N#00010F#15ANo way!\x02",
+        "#12P#N#00010F#15AWhat in the world...!\x02",
     )
 
     CloseMessageWindow()
@@ -179,7 +181,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00307F#4S#N#2755V#30W#15AUNCLE!!\x02",
+        "#6P#00307F#4S#N#2755V#30W#15AUncleeeeee!!\x02",
     )
 
     CloseMessageWindow()
@@ -187,7 +189,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04502F#3839V#15AHahah\x02",
+        "#04502F#3839V#15AEh eh eh......\x02",
     )
 
     CloseMessageWindow()
@@ -196,7 +198,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04509F#4114V#5S#18AAHAHAHAHAH\x02",
+        "#04509F#4114V#5S#18AHAAAHHAHAHAHAHAHAHA!!\x02",
     )
 
     CloseMessageWindow()
@@ -231,20 +233,20 @@ def main():
     SetChrSubChip(0x8, 0x2)
     Sound(844, 0, 100, 0)
 
-    def lambda_5C0():
+    def lambda_5A8():
         OP_9D(0xFE, 0x0, 0xFA0, 0xFFFF9E58, 0x1388, 0xBB8)
         ExitThread()
 
-    QueueWorkItem(0x8, 1, lambda_5C0)
+    QueueWorkItem(0x8, 1, lambda_5A8)
     WaitChrThread(0x8, 1)
     SetChrChip(0x1, 0x8, 0x0, 0x0)
     SetChrFlags(0x8, 0x8)
 
-    def lambda_5EE():
+    def lambda_5D6():
         OP_93(0xFE, 0x10E, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 2, lambda_5EE)
+    QueueWorkItem(0x104, 2, lambda_5D6)
     OP_6F(0x79)
     StopSound(825, 1000, 100)
     StopSound(868, 1000, 100)
@@ -269,9 +271,9 @@ def main():
 
     # Function_2_ED end
 
-    def Function_3_662(): pass
+    def Function_3_64A(): pass
 
-    label("Function_3_662")
+    label("Function_3_64A")
 
     OP_9F(0x0, 0x9)
     OP_9F(0x1, 0, 2000, -30000)
@@ -279,7 +281,7 @@ def main():
     OP_9F(0x2, 0x9, 35000, 0x6)
     Return()
 
-    # Function_3_662 end
+    # Function_3_64A end
 
     SaveToFile()
 

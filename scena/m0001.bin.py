@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "m0001.bin",                # FileName
         "m0001",                    # MapName
@@ -19,7 +21,7 @@ def main():
 
     BuildStringList((
         "m0001",                  # 0
-        "voice",                     # 1
+        "Voice",                  # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -100,8 +102,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11P…… Good afternoon …………\x01",
-            "………… Koitsu is the best …………\x02",
+            "#50W#11P...This is good...\x01",
+            "...This is the best...\x02",
         )
     )
 
@@ -113,7 +115,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11PHehe, with this, for sure\x02",
+            "#50W#11PEh eh...with this, I'll absolutely...\x02",
         )
     )
 
@@ -125,7 +127,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11PHe will…\x02",
+            "#50W#11P...Absolutely destroy "that guy"──!\x02",
         )
     )
 
@@ -139,7 +141,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#11PHuh\x02",
+            "#11PTsk...\x02",
         )
     )
 
@@ -164,7 +166,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11POh you\x02",
+            "#40W#11PAh...it's you...\x02",
         )
     )
 
@@ -176,7 +178,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P….\x02",
+            "#40W#11P............\x02",
         )
     )
 
@@ -188,7 +190,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11PRight… right\x02",
+            "#40W#11P...Yeah...yeah...\x02",
         )
     )
 
@@ -200,8 +202,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11PThat's a problem …\x01",
-            "Kuku …… I can go anytime ……\x02",
+            "#40W#11PNo problem...\x01",
+            "Eh eh...I can go anytime...\x02",
         )
     )
 
@@ -215,25 +217,25 @@ def main():
     SetChrSubChip(0x8, 0x0)
     OP_52(0x8, 0x24, (scpexpr(EXPR_PUSH_LONG, 0xDA), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    def lambda_42C():
+    def lambda_41F():
         OP_A0(0xFE, 900, 0x0, 0x1F)
         ExitThread()
 
-    QueueWorkItem(0x8, 2, lambda_42C)
+    QueueWorkItem(0x8, 2, lambda_41F)
     Sound(889, 0, 40, 0)
     Sleep(3000)
     FadeToDark(4000, 0, -1)
     OP_0D()
     Sleep(500)
     SetMessageWindowPos(-1, -1, -1, -1)
-    SetChrName("voice")
+    SetChrName("Voice")
 
     AnonymousTalk(
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P…… However, …\x01",
-            "Why do you leave it to me?\x07\x00\x02",
+            "#40W#11P...However...\x01",
+            "You'll let me choose how to do things, alright?\x07\x00\x02",
         )
     )
 

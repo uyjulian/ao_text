@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "m4000.bin",                # FileName
         "m4000",                    # MapName
@@ -19,9 +21,9 @@ def main():
 
     BuildStringList((
         "m4000",                  # 0
-        "Republican army officer",           # 1
-        "Event monster",   # 2
-        "Event monster",   # 3
+        "Republic Military Officer",# 1
+        "イベント用モンスター",   # 2
+        "イベント用モンスター",   # 3
         "bm4000",                 # 4
     ))
 
@@ -72,12 +74,12 @@ def main():
         "Function_2_2AA",          # 02, 2
         "Function_3_306",          # 03, 3
         "Function_4_33E",          # 04, 4
-        "Function_5_681",          # 05, 5
-        "Function_6_18C5",         # 06, 6
-        "Function_7_1920",         # 07, 7
-        "Function_8_19B8",         # 08, 8
-        "Function_9_1A50",         # 09, 9
-        "Function_10_1AE4",        # 0A, 10
+        "Function_5_677",          # 05, 5
+        "Function_6_19BF",         # 06, 6
+        "Function_7_1A1A",         # 07, 7
+        "Function_8_1AB2",         # 08, 8
+        "Function_9_1B4A",         # 09, 9
+        "Function_10_1BDE",        # 0A, 10
     ))
 
 
@@ -186,73 +188,73 @@ def main():
 
     label("loc_3B6")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_673")
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 5)), scpexpr(EXPR_END)), "loc_42F")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_669")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 5)), scpexpr(EXPR_END)), "loc_429")
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "Board Mercapa")
-    MenuCmd(1, 0, "quit")
+    MenuCmd(1, 0, "Board Merkabah")
+    MenuCmd(1, 0, "Quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
     OP_60(0x0)
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
-        (0, "loc_40F"),
-        (SWITCH_DEFAULT, "loc_420"),
+        (0, "loc_409"),
+        (SWITCH_DEFAULT, "loc_41A"),
     )
 
 
-    label("loc_40F")
+    label("loc_409")
 
     SetScenarioFlags(0x22, 0)
     NewScene("e3020", 0, 0, 0)
     IdleLoop()
-    Jump("loc_42A")
+    Jump("loc_424")
 
-    label("loc_420")
+    label("loc_41A")
 
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    label("loc_42A")
+    label("loc_424")
 
-    Jump("loc_66E")
+    Jump("loc_664")
 
-    label("loc_42F")
+    label("loc_429")
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "Travel with a driving car")
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_463")
-    MenuCmd(1, 0, "Take a break with a driving car")
+    MenuCmd(1, 0, "Use Orbal Car")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_45B")
+    MenuCmd(1, 0, "Rest in Orbal Car")
 
-    label("loc_463")
+    label("loc_45B")
 
-    MenuCmd(1, 0, "quit")
+    MenuCmd(1, 0, "Quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
     OP_60(0x0)
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
-        (0, "loc_497"),
-        (1, "loc_59B"),
-        (2, "loc_62C"),
-        (SWITCH_DEFAULT, "loc_664"),
+        (0, "loc_48D"),
+        (1, "loc_591"),
+        (2, "loc_622"),
+        (SWITCH_DEFAULT, "loc_65A"),
     )
 
 
-    label("loc_497")
+    label("loc_48D")
 
     SetMapObjFrame(0x0, "light", 0x0, 0x1)
     OP_74(0x0, 0x1E)
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_4C8")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_4BE")
     OP_70(0x0, 0x12C)
     OP_71(0x0, 0x12C, 0x14A, 0x0, 0x0)
-    Jump("loc_4D8")
+    Jump("loc_4CE")
 
-    label("loc_4C8")
+    label("loc_4BE")
 
     OP_70(0x0, 0xF0)
     OP_71(0x0, 0xF0, 0x10E, 0x0, 0x0)
 
-    label("loc_4D8")
+    label("loc_4CE")
 
     Sound(462, 0, 100, 0)
     SoundLoad(2500)
@@ -261,29 +263,29 @@ def main():
     Sleep(700)
     FadeToDark(300, 0, -1)
     OP_0D()
-    Jc((scpexpr(EXPR_EXEC_OP, "MiniGame(0x2E, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_52E")
+    Jc((scpexpr(EXPR_EXEC_OP, "MiniGame(0x2E, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_524")
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    label("loc_52E")
+    label("loc_524")
 
     FadeToDark(0, 0, -1)
     FadeToBright(300, 0)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1D4, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_551")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1D4, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_547")
     Sound(461, 0, 100, 0)
 
-    label("loc_551")
+    label("loc_547")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_571")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_567")
     OP_70(0x0, 0x14A)
     OP_71(0x0, 0x14A, 0x12C, 0x0, 0x0)
-    Jump("loc_581")
+    Jump("loc_577")
 
-    label("loc_571")
+    label("loc_567")
 
     OP_70(0x0, 0x10E)
     OP_71(0x0, 0x10E, 0xF0, 0x0, 0x0)
 
-    label("loc_581")
+    label("loc_577")
 
     Sleep(1000)
     OP_0D()
@@ -291,30 +293,30 @@ def main():
     OP_70(0x0, 0x0)
     Jump("loc_3B6")
 
-    label("loc_59B")
+    label("loc_591")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_60D")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_603")
     OP_57(0x0)
     StopBGM(0xBB8)
     FadeToDark(1000, 0, -1)
     OP_0D()
     OP_5A()
     Sound(13, 0, 100, 0)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 0)), scpexpr(EXPR_END)), "loc_5D0")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 0)), scpexpr(EXPR_END)), "loc_5C6")
     OP_32(0xFF, 0xFF, 0x0)
-    Jump("loc_5E8")
+    Jump("loc_5DE")
 
-    label("loc_5D0")
+    label("loc_5C6")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_5E3")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_5D9")
     OP_32(0xFF, 0xFE, 0x0)
-    Jump("loc_5E8")
+    Jump("loc_5DE")
 
-    label("loc_5E3")
+    label("loc_5D9")
 
     OP_32(0xFF, 0xFA, 0x0)
 
-    label("loc_5E8")
+    label("loc_5DE")
 
     OP_6A(0x0, 0x0)
     Sleep(3500)
@@ -322,51 +324,51 @@ def main():
     FadeToBright(1000, 0)
     OP_57(0x0)
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jump("loc_627")
+    Jump("loc_61D")
 
-    label("loc_60D")
+    label("loc_603")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_61D")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_613")
     OP_AF(0xFB)
-    Jump("loc_627")
+    Jump("loc_61D")
+
+    label("loc_613")
+
+    RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_61D")
 
+    Jump("loc_664")
+
+    label("loc_622")
+
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_63B")
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
+    Jump("loc_655")
 
-    label("loc_627")
+    label("loc_63B")
 
-    Jump("loc_66E")
-
-    label("loc_62C")
-
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_645")
-    RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jump("loc_65F")
-
-    label("loc_645")
-
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_655")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_64B")
     OP_AF(0xFB)
-    Jump("loc_65F")
+    Jump("loc_655")
+
+    label("loc_64B")
+
+    RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
     label("loc_655")
 
+    Jump("loc_664")
+
+    label("loc_65A")
+
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-
-    label("loc_65F")
-
-    Jump("loc_66E")
 
     label("loc_664")
 
-    RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-
-    label("loc_66E")
-
     Jump("loc_3B6")
 
-    label("loc_673")
+    label("loc_669")
 
     ClearMapFlags(0x8000000)
     OP_60(0x0)
@@ -376,84 +378,84 @@ def main():
 
     # Function_4_33E end
 
-    def Function_5_681(): pass
+    def Function_5_677(): pass
 
-    label("Function_5_681")
+    label("Function_5_677")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 7)), scpexpr(EXPR_END)), "loc_68C")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 7)), scpexpr(EXPR_END)), "loc_682")
     OutputDebugInt(0xC8)
 
-    label("loc_68C")
+    label("loc_682")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x5A, 0)), scpexpr(EXPR_END)), "loc_697")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x5A, 0)), scpexpr(EXPR_END)), "loc_68D")
     OutputDebugInt(0x6F)
 
-    label("loc_697")
+    label("loc_68D")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
     SetScenarioFlags(0x20, 0)
     OP_C9(0x0, 0x10000)
     SetScenarioFlags(0x20, 2)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x25, 3)), scpexpr(EXPR_END)), "loc_6C1")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x25, 3)), scpexpr(EXPR_END)), "loc_6B7")
     OP_50(0x65, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_6C1")
+    label("loc_6B7")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x25, 4)), scpexpr(EXPR_END)), "loc_6D3")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x25, 4)), scpexpr(EXPR_END)), "loc_6C9")
     OP_50(0x66, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_6D3")
+    label("loc_6C9")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x25, 5)), scpexpr(EXPR_END)), "loc_6E5")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x25, 5)), scpexpr(EXPR_END)), "loc_6DB")
     OP_50(0x67, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_6E5")
+    label("loc_6DB")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 5)), scpexpr(EXPR_END)), "loc_6F1")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 5)), scpexpr(EXPR_END)), "loc_6E7")
     SetScenarioFlags(0x2C, 0)
 
-    label("loc_6F1")
+    label("loc_6E7")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 6)), scpexpr(EXPR_END)), "loc_706")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 6)), scpexpr(EXPR_END)), "loc_6FC")
     SetScenarioFlags(0x2C, 2)
     OP_50(0x65, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_706")
+    label("loc_6FC")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 7)), scpexpr(EXPR_END)), "loc_71B")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF0, 7)), scpexpr(EXPR_END)), "loc_711")
     SetScenarioFlags(0x2C, 4)
     OP_50(0x66, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_71B")
+    label("loc_711")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF1, 0)), scpexpr(EXPR_END)), "loc_730")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0xF1, 0)), scpexpr(EXPR_END)), "loc_726")
     SetScenarioFlags(0x2C, 6)
     OP_50(0x67, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_730")
+    label("loc_726")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x21), scpexpr(EXPR_PUSH_LONG, 0xE), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_746")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x21), scpexpr(EXPR_PUSH_LONG, 0xE), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_73C")
     AddMira(20000)
-    Jump("loc_775")
+    Jump("loc_76B")
 
-    label("loc_746")
+    label("loc_73C")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x21), scpexpr(EXPR_PUSH_LONG, 0xD), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_75C")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x21), scpexpr(EXPR_PUSH_LONG, 0xD), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_752")
     AddMira(10000)
-    Jump("loc_775")
+    Jump("loc_76B")
 
-    label("loc_75C")
+    label("loc_752")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x21), scpexpr(EXPR_PUSH_LONG, 0xC), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_772")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x21), scpexpr(EXPR_PUSH_LONG, 0xC), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_768")
     AddMira(5000)
-    Jump("loc_775")
+    Jump("loc_76B")
 
-    label("loc_772")
+    label("loc_768")
 
     AddMira(2000)
 
-    label("loc_775")
+    label("loc_76B")
 
     ClearParty()
     AddParty(0x0, 0xFF, 0xFF)
@@ -514,7 +516,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#30W#40ASeiya calendar 1204 ─ ─ month",
+            "#30W#40ASeptian Calendar 1204 ── On a certain month ",
             scpstr(0x6),
             scpstr(SCPSTR_CODE_ENTER),
         )
@@ -526,8 +528,8 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#30W#50AWest Bend of the Republic of Calvert\x01",
-            "Altair city suburbs ──",
+            "#30W#50AWestern border of the Calvard Republic\x01",
+            "Altair City outskirts──",
             scpstr(0x6),
             scpstr(SCPSTR_CODE_ENTER),
         )
@@ -576,39 +578,39 @@ def main():
     SetChrPos(0x108, 6600, 0, -35100, 0)
     SetChrPos(0x10A, 7000, 0, -36500, 0)
 
-    def lambda_A9B():
+    def lambda_ABE():
         OP_97(0x8, 0x0, 0x0, 0x2710, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x8, 0, lambda_A9B)
+    QueueWorkItem(0x8, 0, lambda_ABE)
     Sleep(50)
 
-    def lambda_AB8():
+    def lambda_ADB():
         OP_97(0x101, 0x0, 0x0, 0x2710, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 0, lambda_AB8)
+    QueueWorkItem(0x101, 0, lambda_ADB)
     Sleep(50)
 
-    def lambda_AD5():
+    def lambda_AF8():
         OP_97(0x109, 0x0, 0x0, 0x2710, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 0, lambda_AD5)
+    QueueWorkItem(0x109, 0, lambda_AF8)
     Sleep(50)
 
-    def lambda_AF2():
+    def lambda_B15():
         OP_97(0x108, 0x0, 0x0, 0x2710, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x108, 0, lambda_AF2)
+    QueueWorkItem(0x108, 0, lambda_B15)
     Sleep(50)
 
-    def lambda_B0F():
+    def lambda_B32():
         OP_97(0x10A, 0x0, 0x0, 0x2710, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x10A, 0, lambda_B0F)
+    QueueWorkItem(0x10A, 0, lambda_B32)
     Sleep(50)
     WaitChrThread(0x8, 0)
     WaitChrThread(0x101, 0)
@@ -620,7 +622,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "…Here we are.\x02",
+        "──Here we are.\x02",
     )
 
     CloseMessageWindow()
@@ -630,7 +632,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#3306V#5P#30WAh…\x02",
+        "#00005F#3306V#5P#30WAh...!\x02",
     )
 
     CloseMessageWindow()
@@ -658,7 +660,7 @@ def main():
 
     ChrTalk(
         0x108,
-        "#01400F#4042V#3P#N#30WHasn't changed at all huh\x02",
+        "#01400F#4042V#3P#N#30W...Hasn't changed at all, hm.\x02",
     )
 
     CloseMessageWindow()
@@ -667,7 +669,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00001F#3307V#4P#N#30WThis is Altair Lodge…\x02",
+        "#00001F#3307V#4P#N#30WThis is the Altair Lodge...\x02",
     )
 
     CloseMessageWindow()
@@ -677,8 +679,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10101F#3508V#4P#N#30WSix years ago, Tio\x01",
-            "Is it a place I was saved ……\x02",
+            "#10101F#3508V#4P#N#30WSo this is the place Tio was\x01",
+            "saved from six years ago...\x02",
         )
     )
 
@@ -689,8 +691,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00601F#3443V#3P#N#30WHun …\x01",
-            "It's a bad taste for the gate.\x02",
+            "#00601F#3443V#3P#N#30WHmph...\x01",
+            "Such a distasteful entrance.\x02",
         )
     )
 
@@ -711,39 +713,39 @@ def main():
     SetChrPos(0x10A, 1000, 0, 25500, 0)
     SetChrPos(0x8, 2000, 0, 30400, 0)
 
-    def lambda_DCF():
+    def lambda_E04():
         OP_97(0x8, 0x0, 0x0, 0x1388, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x8, 0, lambda_DCF)
+    QueueWorkItem(0x8, 0, lambda_E04)
     Sleep(50)
 
-    def lambda_DEC():
+    def lambda_E21():
         OP_97(0x101, 0x0, 0x0, 0x1388, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 0, lambda_DEC)
+    QueueWorkItem(0x101, 0, lambda_E21)
     Sleep(50)
 
-    def lambda_E09():
+    def lambda_E3E():
         OP_97(0x109, 0x0, 0x0, 0x1388, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 0, lambda_E09)
+    QueueWorkItem(0x109, 0, lambda_E3E)
     Sleep(50)
 
-    def lambda_E26():
+    def lambda_E5B():
         OP_97(0x108, 0x0, 0x0, 0x1388, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x108, 0, lambda_E26)
+    QueueWorkItem(0x108, 0, lambda_E5B)
     Sleep(50)
 
-    def lambda_E43():
+    def lambda_E78():
         OP_97(0x10A, 0x0, 0x0, 0x1388, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x10A, 0, lambda_E43)
+    QueueWorkItem(0x10A, 0, lambda_E78)
     Sleep(50)
     WaitChrThread(0x8, 0)
     WaitChrThread(0x101, 0)
@@ -756,7 +758,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PThis is as far as I take you\x02",
+        "#11PThis is as far as my guidance goes.\x02",
     )
 
     CloseMessageWindow()
@@ -764,8 +766,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PThe deadline you can leave to there\x01",
-            "Today, until 17: 00 ……\x02",
+            "#11PI'll leave this place in your\x01",
+            "hands until 17:00 today.\x02",
         )
     )
 
@@ -774,8 +776,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PBeyond that we are in our troops\x01",
-            "I will let you control it.\x02",
+            "#11PIf you fail to meet the deadline,\x01",
+            "our army forces will take over.\x02",
         )
     )
 
@@ -786,7 +788,7 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#3P#00603F#3444VUnderstood.\x02",
+        "#3P#00603F#3444V...Understood.\x02",
     )
 
     CloseMessageWindow()
@@ -795,7 +797,7 @@ def main():
 
     ChrTalk(
         0x108,
-        "#01400F#4043VWe appreciate your help\x02",
+        "#01400F#4043VWe appreciate the thorough guidance.\x02",
     )
 
     CloseMessageWindow()
@@ -806,7 +808,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PJust try to be careful. Although since \x02",
+        "#11PJust try to be careful. Although...\x02",
     )
 
     CloseMessageWindow()
@@ -814,8 +816,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PIf the famous \"wind sword\" is together\x01",
-            "Although it may be unnecessary worry.\x02",
+            "#11PGoing in with the famous "Divine Blade of Wind",\x01",
+            "there should be nothing to worry about.\x02",
         )
     )
 
@@ -823,59 +825,59 @@ def main():
     OP_57(0x0)
     OP_5A()
 
-    def lambda_FF7():
+    def lambda_1072():
 
-        label("loc_FF7")
-
-        TurnDirection(0xFE, 0x8, 500)
-        Yield()
-        Jump("loc_FF7")
-
-    QueueWorkItem2(0x101, 2, lambda_FF7)
-
-    def lambda_1009():
-
-        label("loc_1009")
+        label("loc_1072")
 
         TurnDirection(0xFE, 0x8, 500)
         Yield()
-        Jump("loc_1009")
+        Jump("loc_1072")
 
-    QueueWorkItem2(0x109, 2, lambda_1009)
+    QueueWorkItem2(0x101, 2, lambda_1072)
 
-    def lambda_101B():
+    def lambda_1084():
 
-        label("loc_101B")
-
-        TurnDirection(0xFE, 0x8, 500)
-        Yield()
-        Jump("loc_101B")
-
-    QueueWorkItem2(0x108, 2, lambda_101B)
-
-    def lambda_102D():
-
-        label("loc_102D")
+        label("loc_1084")
 
         TurnDirection(0xFE, 0x8, 500)
         Yield()
-        Jump("loc_102D")
+        Jump("loc_1084")
 
-    QueueWorkItem2(0x10A, 2, lambda_102D)
+    QueueWorkItem2(0x109, 2, lambda_1084)
 
-    def lambda_103F():
+    def lambda_1096():
+
+        label("loc_1096")
+
+        TurnDirection(0xFE, 0x8, 500)
+        Yield()
+        Jump("loc_1096")
+
+    QueueWorkItem2(0x108, 2, lambda_1096)
+
+    def lambda_10A8():
+
+        label("loc_10A8")
+
+        TurnDirection(0xFE, 0x8, 500)
+        Yield()
+        Jump("loc_10A8")
+
+    QueueWorkItem2(0x10A, 2, lambda_10A8)
+
+    def lambda_10BA():
         OP_95(0xFE, 3800, 0, 31600, 2500, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x8, 1, lambda_103F)
+    QueueWorkItem(0x8, 1, lambda_10BA)
     WaitChrThread(0x8, 1)
     OP_68(2000, 1100, 31600, 3000)
 
-    def lambda_106E():
+    def lambda_10E9():
         OP_95(0xFE, 1000, 0, 21000, 2500, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x8, 1, lambda_106E)
+    QueueWorkItem(0x8, 1, lambda_10E9)
     WaitChrThread(0x8, 1)
     EndChrThread(0x101, 0x2)
     EndChrThread(0x109, 0x2)
@@ -888,8 +890,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#12P#10106F#3509V#30WWell, not much indeed\x01",
-            "It looks like it is not being welcomed.\x02",
+            "#12P#10106F#3509V#30WHmm... I get the impression that\x01",
+            "we're not really welcome here.\x02",
         )
     )
 
@@ -900,42 +902,42 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#3308V#11P#30WWell, if you do it over there\x01",
-            "A criminal who jumped into his own territory\x01",
-            "That's why I make it others.\x02\x03",
-            "#00001F#3309VWhat do you do?\x01",
-            "Do you step on as you are?\x02",
+            "#00006F#3308V#11P#30WWell, from their perspective it's like\x01",
+            "having outsiders take care of criminals\x01",
+            "on their own territory.\x02\x03",
+            "#00001F#3309V──What are we going to do?\x01",
+            "Just go ahead and step right in?\x02",
         )
     )
 
     CloseMessageWindow()
 
-    def lambda_11A7():
+    def lambda_124E():
         TurnDirection(0xFE, 0x101, 500)
         ExitThread()
 
-    QueueWorkItem(0x10A, 2, lambda_11A7)
+    QueueWorkItem(0x10A, 2, lambda_124E)
     Sleep(50)
 
-    def lambda_11B7():
+    def lambda_125E():
         TurnDirection(0x108, 0x10A, 500)
         ExitThread()
 
-    QueueWorkItem(0x108, 0, lambda_11B7)
+    QueueWorkItem(0x108, 0, lambda_125E)
     Sleep(50)
 
-    def lambda_11C7():
+    def lambda_126E():
         TurnDirection(0x109, 0x10A, 500)
         ExitThread()
 
-    QueueWorkItem(0x109, 0, lambda_11C7)
+    QueueWorkItem(0x109, 0, lambda_126E)
     Sleep(50)
     WaitChrThread(0x108, 0)
     WaitChrThread(0x109, 0)
 
     ChrTalk(
         0x10A,
-        "#6P#00603F#3445V#30WYes, no more time for delay.\x02",
+        "#6P#00603F#3445V#30WExactly, we can't waste time.\x02",
     )
 
     CloseMessageWindow()
@@ -946,33 +948,33 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#6P#00601F#3446V#30W…… McLae.\x01",
-            "What is the possibility of traps and gimmicks?\x02",
+            "#6P#00601F#3446V#30W...MacLaine. What are the chances\x01",
+            "on traps and similar mechanisms?\x02",
         )
     )
 
     CloseMessageWindow()
 
-    def lambda_1265():
+    def lambda_1326():
         TurnDirection(0xFE, 0x108, 500)
         ExitThread()
 
-    QueueWorkItem(0x101, 2, lambda_1265)
+    QueueWorkItem(0x101, 2, lambda_1326)
     Sleep(100)
 
-    def lambda_1275():
+    def lambda_1336():
         TurnDirection(0xFE, 0x108, 500)
         ExitThread()
 
-    QueueWorkItem(0x109, 2, lambda_1275)
+    QueueWorkItem(0x109, 2, lambda_1336)
     Sleep(200)
 
     ChrTalk(
         0x108,
         (
-            "#01403F#4044V#5P#30WMost of the time, six years ago\x01",
-            "It will be crushed by the control strategy.\x02\x03",
-            "#01401F#4045VBut the monsters on the other hand--\x02",
+            "#01403F#4044V#5P#30WI assume most traps have been left shut down\x01",
+            "due to the suppression operations six years ago.\x02\x03",
+            "#01401F#4045VRoaming monsters, however──\x02",
         )
     )
 
@@ -1002,25 +1004,25 @@ def main():
     OP_6E(650, 2000)
     SetCameraDistance(14500, 2000)
 
-    def lambda_13AE():
+    def lambda_149A():
         OP_93(0x101, 0x0, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x101, 0, lambda_13AE)
+    QueueWorkItem(0x101, 0, lambda_149A)
     Sleep(50)
 
-    def lambda_13BE():
+    def lambda_14AA():
         OP_93(0x10A, 0x0, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x10A, 0, lambda_13BE)
+    QueueWorkItem(0x10A, 0, lambda_14AA)
     Sleep(50)
 
-    def lambda_13CE():
+    def lambda_14BA():
         OP_93(0x109, 0x0, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x109, 0, lambda_13CE)
+    QueueWorkItem(0x109, 0, lambda_14BA)
     Sleep(50)
     WaitChrThread(0x101, 0)
     WaitChrThread(0x10A, 0)
@@ -1058,28 +1060,28 @@ def main():
 
     ChrTalk(
         0x10A,
-        "#3P#00610F#3447V#30WAhh!?\x02",
+        "#3P#00610F#3447V#30WWha!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#6P#10107F#3510V#30WM-Monsters!?\x02",
+        "#6P#10107F#3510V#30WM-Monsters...!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#6P#00010F#3310V#30WThey were hiding under the lodge!\x02",
+        "#6P#00010F#3310V#30WThey came from within the lodge...!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x108,
-        "#01407F#4046V#30WHere they come!\x02",
+        "#01407F#4046V#30W──Here they come!\x02",
     )
 
     CloseMessageWindow()
@@ -1098,11 +1100,11 @@ def main():
     EndChrThread(0xA, 0x1)
     EndChrThread(0x9, 0x3)
     EndChrThread(0xA, 0x3)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 7)), scpexpr(EXPR_END)), "loc_15A9")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 7)), scpexpr(EXPR_END)), "loc_16A3")
     OP_50(0x1F, (scpexpr(EXPR_PUSH_LONG, 0xFFFFFFFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jump("loc_16C9")
+    Jump("loc_17C3")
 
-    label("loc_15A9")
+    label("loc_16A3")
 
     OP_50(0x1F, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     OP_50(0x1F, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_OR_SAVE), scpexpr(EXPR_END)))
@@ -1137,7 +1139,7 @@ def main():
     OP_50(0x1F, (scpexpr(EXPR_PUSH_LONG, 0x40000000), scpexpr(EXPR_OR_SAVE), scpexpr(EXPR_END)))
     OP_50(0x1F, (scpexpr(EXPR_PUSH_LONG, 0x80000000), scpexpr(EXPR_OR_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_16C9")
+    label("loc_17C3")
 
     OP_C9(0x1, 0x80)
     OP_32(0x0, 0x0, 0x2D)
@@ -1226,14 +1228,14 @@ def main():
     AddCraft(0x7, 0xDF)
     AddCraft(0x7, 0x13B)
     SetChrChipPat(0x7, 0x6, 0x13B)
-    AddItemNumber('回复药', 20)
-    AddItemNumber('ＥＰ填充剂Ⅰ', 3)
-    AddItemNumber('复苏药', 3)
-    AddItemNumber('痊愈之药', 3)
-    AddItemNumber('战斗探测器', 10)
-    AddItemNumber('调查手册', 1)
-    AddItemNumber('战斗手册', 1)
-    AddItemNumber('受损的警察徽章', 1)
+    AddItemNumber(0x1F4, 20)
+    AddItemNumber(0x1F8, 3)
+    AddItemNumber(0x1FB, 3)
+    AddItemNumber(0x20B, 3)
+    AddItemNumber(0x20E, 10)
+    AddItemNumber(0x1, 1)
+    AddItemNumber(0x4, 1)
+    AddItemNumber(0x320, 1)
     OP_50(0x1E, (scpexpr(EXPR_PUSH_LONG, 0xFFFFFFFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     SetScenarioFlags(0x21, 4)
     Battle("BattleInfo_1FC", 0x0, 0x0, 0x0, 0x8, 0xFF)
@@ -1244,40 +1246,40 @@ def main():
     Call(0, 10)
     Return()
 
-    # Function_5_681 end
+    # Function_5_677 end
 
-    def Function_6_18C5(): pass
+    def Function_6_19BF(): pass
 
-    label("Function_6_18C5")
+    label("Function_6_19BF")
 
 
-    def lambda_18CA():
+    def lambda_19C4():
         OP_95(0xFE, 23500, 0, -43000, 2500, 0x0)
         ExitThread()
 
-    QueueWorkItem(0xFE, 1, lambda_18CA)
+    QueueWorkItem(0xFE, 1, lambda_19C4)
     WaitChrThread(0xFE, 1)
 
-    def lambda_18E8():
+    def lambda_19E2():
         OP_95(0xFE, 12000, 0, -36000, 2500, 0x0)
         ExitThread()
 
-    QueueWorkItem(0xFE, 1, lambda_18E8)
+    QueueWorkItem(0xFE, 1, lambda_19E2)
     WaitChrThread(0xFE, 1)
 
-    def lambda_1906():
+    def lambda_1A00():
         OP_95(0xFE, 8000, 0, -26000, 2500, 0x0)
         ExitThread()
 
-    QueueWorkItem(0xFE, 1, lambda_1906)
+    QueueWorkItem(0xFE, 1, lambda_1A00)
     WaitChrThread(0xFE, 1)
     Return()
 
-    # Function_6_18C5 end
+    # Function_6_19BF end
 
-    def Function_7_1920(): pass
+    def Function_7_1A1A(): pass
 
-    label("Function_7_1920")
+    label("Function_7_1A1A")
 
     ClearChrFlags(0x9, 0x80)
     SetChrChipByIndex(0x9, 0x24)
@@ -1287,18 +1289,18 @@ def main():
     OP_52(0x9, 0x34, (scpexpr(EXPR_PUSH_LONG, 0x7D0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     SetChrFlags(0x9, 0x20)
 
-    def lambda_1958():
+    def lambda_1A52():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x7D0)
         ExitThread()
 
-    QueueWorkItem(0x9, 2, lambda_1958)
+    QueueWorkItem(0x9, 2, lambda_1A52)
     BeginChrThread(0x9, 0, 0, 1)
 
-    def lambda_196F():
+    def lambda_1A69():
         OP_96(0xFE, 0x12C, 0x0, 0x9858, 0x9C4, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x9, 1, lambda_196F)
+    QueueWorkItem(0x9, 1, lambda_1A69)
     WaitChrThread(0x9, 1)
     SetChrChipByIndex(0x9, 0x23)
     SetChrSubChip(0x9, 0x0)
@@ -1308,11 +1310,11 @@ def main():
     BeginChrThread(0x9, 0, 0, 0)
     Return()
 
-    # Function_7_1920 end
+    # Function_7_1A1A end
 
-    def Function_8_19B8(): pass
+    def Function_8_1AB2(): pass
 
-    label("Function_8_19B8")
+    label("Function_8_1AB2")
 
     ClearChrFlags(0xA, 0x80)
     SetChrChipByIndex(0xA, 0x24)
@@ -1322,18 +1324,18 @@ def main():
     OP_52(0xA, 0x34, (scpexpr(EXPR_PUSH_LONG, 0x7D0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     SetChrFlags(0xA, 0x20)
 
-    def lambda_19F0():
+    def lambda_1AEA():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x7D0)
         ExitThread()
 
-    QueueWorkItem(0xA, 2, lambda_19F0)
+    QueueWorkItem(0xA, 2, lambda_1AEA)
     BeginChrThread(0xA, 0, 0, 1)
 
-    def lambda_1A07():
+    def lambda_1B01():
         OP_96(0xFE, 0xBB8, 0x0, 0x98BC, 0x9C4, 0x0)
         ExitThread()
 
-    QueueWorkItem(0xA, 1, lambda_1A07)
+    QueueWorkItem(0xA, 1, lambda_1B01)
     WaitChrThread(0xA, 1)
     SetChrChipByIndex(0xA, 0x23)
     SetChrSubChip(0xA, 0x0)
@@ -1343,11 +1345,11 @@ def main():
     BeginChrThread(0xA, 0, 0, 0)
     Return()
 
-    # Function_8_19B8 end
+    # Function_8_1AB2 end
 
-    def Function_9_1A50(): pass
+    def Function_9_1B4A(): pass
 
-    label("Function_9_1A50")
+    label("Function_9_1B4A")
 
     EndChrThread(0xFE, 0x0)
     SetChrChipByIndex(0xFE, 0x25)
@@ -1356,11 +1358,11 @@ def main():
     OP_52(0xFE, 0x7, (scpexpr(EXPR_PUSH_LONG, 0x7D0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     OP_52(0xFE, 0x34, (scpexpr(EXPR_PUSH_LONG, 0x7D0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    def lambda_1A82():
+    def lambda_1B7C():
         OP_A6(0xFE, 0x32, 0x0, 0x3E8, 0xBB8)
         ExitThread()
 
-    QueueWorkItem(0xFE, 2, lambda_1A82)
+    QueueWorkItem(0xFE, 2, lambda_1B7C)
     WaitChrThread(0xFE, 2)
     SetChrChipByIndex(0xFE, 0x25)
     SetChrSubChip(0xFE, 0x4)
@@ -1369,18 +1371,18 @@ def main():
     OP_52(0xFE, 0x34, (scpexpr(EXPR_PUSH_LONG, 0x7D0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     BeginChrThread(0xFE, 0, 0, 1)
 
-    def lambda_1ACE():
+    def lambda_1BC8():
         OP_96(0xFE, 0x6A4, 0x0, 0x4E20, 0xBB8, 0x0)
         ExitThread()
 
-    QueueWorkItem(0xFE, 1, lambda_1ACE)
+    QueueWorkItem(0xFE, 1, lambda_1BC8)
     Return()
 
-    # Function_9_1A50 end
+    # Function_9_1B4A end
 
-    def Function_10_1AE4(): pass
+    def Function_10_1BDE(): pass
 
-    label("Function_10_1AE4")
+    label("Function_10_1BDE")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -1444,8 +1446,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#3P#00607F#3448V#30WDamn\x01",
-            "No way, the gods now! Is it?\x02",
+            "#3P#00607F#3448V#30WTsk...\x01",
+            "Where do monstrosities like that come from!?\x02",
         )
     )
 
@@ -1456,8 +1458,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10101F#3511V#30WIt was in the \"tower\" or \"monastery\"\x01",
-            "It was a similar atmosphere, but ….\x02",
+            "#6P#10101F#3511V#30WThey gave off a similar vibe to the ones\x01",
+            "in the "Tower" and "Temple".\x02",
         )
     )
 
@@ -1468,10 +1470,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#5P#00003F#3311V#30W… … under the \"Fort of the Sun\" underground\x01",
-            "It is the same kind as I was wandering around.\x02\x03",
-            "#00013F#3312VApparently \"they\" are here\x01",
-            "It seems like it certainly escaped.\x02",
+            "#5P#00003F#3311V#30W...And the exact same species showed up\x01",
+            "in the lower strata of the "Fort of Sun".\x02\x03",
+            "#00013F#3312VLooks like they somehow managed\x01",
+            "to find shelter down here.\x02",
         )
     )
 
@@ -1482,8 +1484,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#3P#00610F#3449V#30WChit\x01",
-            "It's a bad thing to do with the past.\x02",
+            "#3P#00610F#3449V#30WTsk... They just don't\x01",
+            "know when to give up.\x02",
         )
     )
 
@@ -1495,27 +1497,27 @@ def main():
     ChrTalk(
         0x108,
         (
-            "#01403F#4047V#5P#30W─ ─ No time.\x01",
-            "Let's say we enter it anyway.\x02\x03",
-            "#01401F#4048VWe should be able to make it if we move now\x02",
+            "#01403F#4047V#5P#30W──We are running out of time.\x01",
+            "If we go in now...\x02\x03",
+            "#01401F#4048VWe should still be able to make it in time.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_24(0xFD0)
 
-    def lambda_1E3F():
+    def lambda_1F9D():
         TurnDirection(0xFE, 0x108, 500)
         ExitThread()
 
-    QueueWorkItem(0x101, 2, lambda_1E3F)
+    QueueWorkItem(0x101, 2, lambda_1F9D)
     Sleep(100)
     TurnDirection(0x109, 0x108, 500)
     Sleep(200)
 
     ChrTalk(
         0x101,
-        "#2P#00007F#3313V#30WRight!\x02",
+        "#2P#00007F#3313V#30WYes...!\x02",
     )
 
     CloseMessageWindow()
@@ -1530,8 +1532,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#3P#00607F#3450V#30WHun …\x01",
-            "Absolutely escape!\x02",
+            "#3P#00607F#3450V#30WHmph...\x01",
+            "I won't let them get away!\x02",
         )
     )
 
@@ -1539,25 +1541,25 @@ def main():
     OP_C9(0x1, 0x80000000)
     OP_24(0xD7A)
 
-    def lambda_1EDF():
+    def lambda_203D():
         OP_93(0x101, 0x0, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x101, 0, lambda_1EDF)
+    QueueWorkItem(0x101, 0, lambda_203D)
     Sleep(50)
 
-    def lambda_1EEF():
+    def lambda_204D():
         OP_93(0x108, 0x0, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x108, 0, lambda_1EEF)
+    QueueWorkItem(0x108, 0, lambda_204D)
     Sleep(50)
 
-    def lambda_1EFF():
+    def lambda_205D():
         OP_93(0x109, 0x0, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x109, 0, lambda_1EFF)
+    QueueWorkItem(0x109, 0, lambda_205D)
     Sleep(50)
     WaitChrThread(0x101, 0)
     WaitChrThread(0x108, 0)
@@ -1565,32 +1567,32 @@ def main():
     OP_68(1700, 1300, 38600, 4000)
     SetCameraDistance(18000, 4000)
 
-    def lambda_1F35():
+    def lambda_2093():
         OP_97(0x101, 0x0, 0x0, 0x3A98, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 0, lambda_1F35)
+    QueueWorkItem(0x101, 0, lambda_2093)
     Sleep(50)
 
-    def lambda_1F52():
+    def lambda_20B0():
         OP_97(0x109, 0x0, 0x0, 0x3A98, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 0, lambda_1F52)
+    QueueWorkItem(0x109, 0, lambda_20B0)
     Sleep(50)
 
-    def lambda_1F6F():
+    def lambda_20CD():
         OP_97(0x108, 0x0, 0x0, 0x3A98, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x108, 0, lambda_1F6F)
+    QueueWorkItem(0x108, 0, lambda_20CD)
     Sleep(50)
 
-    def lambda_1F8C():
+    def lambda_20EA():
         OP_97(0x10A, 0x0, 0x0, 0x3A98, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x10A, 0, lambda_1F8C)
+    QueueWorkItem(0x10A, 0, lambda_20EA)
     Sleep(2000)
     FadeToDark(2000, 0, -1)
     OP_0D()
@@ -1614,7 +1616,7 @@ def main():
     IdleLoop()
     Return()
 
-    # Function_10_1AE4 end
+    # Function_10_1BDE end
 
     SaveToFile()
 

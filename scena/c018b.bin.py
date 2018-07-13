@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c018b.bin",                # FileName
         "c018b",                    # MapName
@@ -19,10 +21,10 @@ def main():
 
     BuildStringList((
         "c018b",                  # 0
-        "tourist",                 # 1
-        "tourist",                 # 2
-        "Citizen",                   # 3
-        "Citizen",                   # 4
+        "Tourist",                # 1
+        "Tourist",                # 2
+        "Citizen",                # 3
+        "Citizen",                # 4
     ))
 
     AddCharChip((
@@ -44,9 +46,9 @@ def main():
         "Function_1_1E0",          # 01, 1
         "Function_2_209",          # 02, 2
         "Function_3_20A",          # 03, 3
-        "Function_4_24E",          # 04, 4
-        "Function_5_277",          # 05, 5
-        "Function_6_2EC",          # 06, 6
+        "Function_4_24A",          # 04, 4
+        "Function_5_27F",          # 05, 5
+        "Function_6_30D",          # 06, 6
     ))
 
 
@@ -152,8 +154,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Is this the Orkis Tower at night …?\x01",
-            "I will lose my words.\x02",
+            "That's the Orchis Tower at night...?\x01",
+            "Words fail me.\x02",
         )
     )
 
@@ -163,34 +165,34 @@ def main():
 
     # Function_3_20A end
 
-    def Function_4_24E(): pass
+    def Function_4_24A(): pass
 
-    label("Function_4_24E")
+    label("Function_4_24A")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xFE,
-        "Uhufu, it is a truly spectacular night view.\x02",
+        "Uhuhu, what a really perfect night view.\x02",
     )
 
     CloseMessageWindow()
     TalkEnd(0xFE)
     Return()
 
-    # Function_4_24E end
+    # Function_4_24A end
 
-    def Function_5_277(): pass
+    def Function_5_27F(): pass
 
-    label("Function_5_277")
+    label("Function_5_27F")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xFE,
         (
-            "Certainly the night view is too much\x01",
-            "It's beautiful, but ….\x02",
+            "As a night view is way more\x01",
+            "than pretty for sure...\x02",
         )
     )
 
@@ -199,8 +201,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "After all this kind of thing,\x01",
-            "I want to see it with people I like.\x02",
+            "As I thought, you'd want to look\x01",
+            "at something like this with your lover.\x02",
         )
     )
 
@@ -208,20 +210,20 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_277 end
+    # Function_5_27F end
 
-    def Function_6_2EC(): pass
+    def Function_6_30D(): pass
 
-    label("Function_6_2EC")
+    label("Function_6_30D")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3A9")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3D9")
 
     ChrTalk(
         0xFE,
         (
-            "Yeah, I want a boyfriend ….\x01",
-            "- Not!\x02",
+            "Yes, how I want a boyfriend...\x01",
+            "―No, that's not it!\x02",
         )
     )
 
@@ -234,9 +236,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Do your best at this place.\x01",
-            "Because I try not to think.\x01",
-            "Do not say anything unnecessary.\x02",
+            "I'm doing my best to try\x01",
+            "not thinking about it.\x01",
+            "Don't say anything unnecessary.\x02",
         )
     )
 
@@ -244,16 +246,16 @@ def main():
     OP_64(0xB)
     OP_93(0xB, 0x0, 0x1F4)
     SetScenarioFlags(0x0, 0)
-    Jump("loc_441")
+    Jump("loc_481")
 
-    label("loc_3A9")
+    label("loc_3D9")
 
 
     ChrTalk(
         0xFE,
         (
-            "Orkis Tower Clean,\x01",
-            "Orkis Tower Clean …\x02",
+            "The Orchis Tower is beautiful,\x01",
+            "the Orchis Tower is beautiful...\x02",
         )
     )
 
@@ -268,12 +270,12 @@ def main():
     Sound(23, 0, 100, 0)
     Sleep(1000)
 
-    label("loc_441")
+    label("loc_481")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_6_2EC end
+    # Function_6_30D end
 
     SaveToFile()
 

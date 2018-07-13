@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c0510.bin",                # FileName
         "c0510",                    # MapName
@@ -19,13 +21,13 @@ def main():
 
     BuildStringList((
         "c0510",                  # 0
-        "Dudley investigator",         # 1
-        "Emma investigator",             # 2
-        "Policeman",                   # 3
-        "Policeman",                   # 4
-        "Policeman",                   # 5
-        "Policeman",                   # 6
-        "Policeman",                   # 7
+        "Detective Dudley",       # 1
+        "Detective Emma",         # 2
+        "Policeman",              # 3
+        "Policeman",              # 4
+        "Policeman",              # 5
+        "Policeman",              # 6
+        "Policeman",              # 7
     ))
 
     AddCharChip((
@@ -47,7 +49,7 @@ def main():
         "Function_1_220",          # 01, 1
         "Function_2_24A",          # 02, 2
         "Function_3_260",          # 03, 3
-        "Function_4_1283",         # 04, 4
+        "Function_4_13FD",         # 04, 4
     ))
 
 
@@ -214,8 +216,8 @@ def main():
 
     NpcTalk(
         0x101,
-        "Voice of Lloyd",
-        "Excuse me.\x02",
+        "Lloyd's Voice",
+        "Excuse us.\x02",
     )
 
     CloseMessageWindow()
@@ -223,18 +225,18 @@ def main():
     OP_63(0x9, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
     Sleep(1000)
 
-    def lambda_4A7():
+    def lambda_4A8():
         TurnDirection(0xFE, 0x101, 500)
         ExitThread()
 
-    QueueWorkItem(0x8, 1, lambda_4A7)
+    QueueWorkItem(0x8, 1, lambda_4A8)
     Sleep(50)
 
-    def lambda_4B7():
+    def lambda_4B8():
         TurnDirection(0xFE, 0x101, 500)
         ExitThread()
 
-    QueueWorkItem(0x9, 1, lambda_4B7)
+    QueueWorkItem(0x9, 1, lambda_4B8)
     WaitChrThread(0x8, 1)
     OP_CB(0x0, 0x3, 0xFFFFFFFF, 0x1F4, 0x0, 0x0)
     OP_CB(0x0, 0x0, 0xFFFFD8F0, 0x0, 0x1F4, 0x0)
@@ -245,7 +247,7 @@ def main():
 
     AnonymousTalk(
         0x8,
-        "#5P#3461V#30WDid you come?\x02",
+        "#5P#3461V#30W──So you're here.\x02",
     )
 
     CloseMessageWindow()
@@ -260,46 +262,46 @@ def main():
     OP_C9(0x1, 0x80000000)
     OP_68(-820, 1270, 6090, 3300)
 
-    def lambda_578():
+    def lambda_580():
         OP_9B(0x0, 0xFE, 0x0, 0x1F40, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_578)
+    QueueWorkItem(0x101, 1, lambda_580)
     Sleep(50)
 
-    def lambda_590():
+    def lambda_598():
         OP_9B(0x0, 0xFE, 0x0, 0x1F40, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_590)
+    QueueWorkItem(0x102, 1, lambda_598)
     Sleep(50)
 
-    def lambda_5A8():
+    def lambda_5B0():
         OP_9B(0x0, 0xFE, 0x0, 0x1F40, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x103, 1, lambda_5A8)
+    QueueWorkItem(0x103, 1, lambda_5B0)
     Sleep(50)
 
-    def lambda_5C0():
+    def lambda_5C8():
         OP_9B(0x0, 0xFE, 0x0, 0x1F40, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_5C0)
+    QueueWorkItem(0x104, 1, lambda_5C8)
     Sleep(50)
 
-    def lambda_5D8():
+    def lambda_5E0():
         OP_9B(0x0, 0xFE, 0x0, 0x1F40, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_5D8)
+    QueueWorkItem(0x109, 1, lambda_5E0)
     Sleep(50)
 
-    def lambda_5F0():
+    def lambda_5F8():
         OP_9B(0x0, 0xFE, 0x0, 0x1F40, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_5F0)
+    QueueWorkItem(0x105, 1, lambda_5F8)
     OP_6F(0x1)
     FadeToDark(500, 0, -1)
     OP_0D()
@@ -340,7 +342,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5PWell, are you finally arriving?\x02",
+        "#5P*sigh*, you have finally arrived.\x02",
     )
 
     CloseMessageWindow()
@@ -348,8 +350,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#12PExcuse me.\x01",
-            "I was putting it a bit.\x02",
+            "#00006F#12PI am sorry.\x01",
+            "We were a little busy.\x02",
         )
     )
 
@@ -357,7 +359,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00301F#6PCan you tell me about the situation?\x02",
+        "#00301F#6PCan you tell us the situation?\x02",
     )
 
     CloseMessageWindow()
@@ -365,12 +367,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#00606F#5PAs I reported, in this building\x01",
-            "There is no one left anymore.\x02\x03",
-            "#00600FNearly a hundred members\x01",
-            "It seems to have been in and out … …\x02\x03",
-            "Everyone, via Geo Front\x01",
-            "It seems I was murmuring.\x02",
+            "#00606F#5PLike I informed you, there's no\x01",
+            "one remaining in this building.\x02\x03",
+            "#00600FWe believe there were about 100\x01",
+            "members coming and going, but...\x02\x03",
+            "It seems they went through the\x01",
+            "Geofront and made themselves scarce.\x02",
         )
     )
 
@@ -378,7 +380,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#12PThrough the geo front … ….\x02",
+        "#00105F#12PThrough the Geofront...\x02",
     )
 
     CloseMessageWindow()
@@ -386,8 +388,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00205F#12Pbut……\x01",
-            "Should not such a road exist?\x02",
+            "#00205F#12PHowever...\x01",
+            "There shouldn't have been such a way?\x02",
         )
     )
 
@@ -396,8 +398,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5P…… apparently by blasting work\x01",
-            "It seems that she pushed forcibly.\x02",
+            "#5P...It appears they used explosives\x01",
+            "to penetrate inside by force.\x02",
         )
     )
 
@@ -406,8 +408,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5PGo out under the Geo Front B parcel\x01",
-            "A loophole was discovered.\x02",
+            "#5PA path exiting on the lower stratum of\x01",
+            "Geofront B-Division was discovered.\x02",
         )
     )
 
@@ -415,7 +417,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10107F#12PThat's … …! Is it?\x02",
+        "#10107F#12PT-They did such a...!?\x02",
     )
 
     CloseMessageWindow()
@@ -423,8 +425,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10306F#12PWhew ……\x01",
-            "That's a terrible guy.\x02",
+            "#10306F#12POh boy...\x01",
+            "What crazy guys.\x02",
         )
     )
 
@@ -433,11 +435,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#00606F#5PThat is not all.\x01",
-            "Old Rubache's smuggling warehouse\x01",
-            "Most of it was remodeled.\x02\x03",
-            "#00610FIt also deals with heavy weapons\x01",
-            "As a full-fledged training and maintenance facility.\x02",
+            "#00606F#5PNot only that.\x01",
+            "They have remodeled in large part the old\x01",
+            "warehouse Revache used for smuggling...\x02\x03",
+            "#00610F...As a full-blown training and maintenance\x01",
+            "facility for dealing with heavy weapons.\x02",
         )
     )
 
@@ -445,7 +447,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#12P……!\x02",
+        "#00013F#12P......!\x02",
     )
 
     CloseMessageWindow()
@@ -453,11 +455,11 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F#6P…… Well, if you were my uncle\x01",
-            "That will do as much as you can.\x02\x03",
-            "#00301FTo make it to the actual battle anytime,\x01",
-            "Always want to sharpen the sense\x01",
-            "It's just a battle frenzy.\x02",
+            "#00303F#6P...Well, being uncle and the others,\x01",
+            "that's what they'd normally do.\x02\x03",
+            "#00301FAfter all, they're all battle crazy who\x01",
+            "want to be always sharply ready so they\x01",
+            "can deal with a real battle anytime.\x02",
         )
     )
 
@@ -465,7 +467,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5P……I see.\x02",
+        "#5P...I see.\x02",
     )
 
     CloseMessageWindow()
@@ -475,47 +477,47 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#00603F#5POrlando, listen frankly.\x02\x03",
-            "#00601FTheir aim is \"Black Month#4RHayuue#\"?\x01",
-            "Or terrorism to the station or airport?\x02",
+            "#00603F#5POrlando, I'll frankly ask you.\x02\x03",
+            "#00601FIs their objective the "Heiyue"?\x01",
+            "Or terrorism at the station or at the airport?\x02",
         )
     )
 
     CloseMessageWindow()
 
-    def lambda_B92():
+    def lambda_C50():
         TurnDirection(0x101, 0x104, 500)
         ExitThread()
 
-    QueueWorkItem(0x101, 0, lambda_B92)
+    QueueWorkItem(0x101, 0, lambda_C50)
     Sleep(50)
 
-    def lambda_BA2():
+    def lambda_C60():
         TurnDirection(0x102, 0x104, 500)
         ExitThread()
 
-    QueueWorkItem(0x102, 0, lambda_BA2)
+    QueueWorkItem(0x102, 0, lambda_C60)
     Sleep(50)
 
-    def lambda_BB2():
+    def lambda_C70():
         TurnDirection(0x103, 0x104, 500)
         ExitThread()
 
-    QueueWorkItem(0x103, 0, lambda_BB2)
+    QueueWorkItem(0x103, 0, lambda_C70)
     Sleep(50)
 
-    def lambda_BC2():
+    def lambda_C80():
         TurnDirection(0x105, 0x104, 500)
         ExitThread()
 
-    QueueWorkItem(0x105, 0, lambda_BC2)
+    QueueWorkItem(0x105, 0, lambda_C80)
     Sleep(50)
 
-    def lambda_BD2():
+    def lambda_C90():
         TurnDirection(0x109, 0x104, 500)
         ExitThread()
 
-    QueueWorkItem(0x109, 0, lambda_BD2)
+    QueueWorkItem(0x109, 0, lambda_C90)
     Sleep(50)
     WaitChrThread(0x101, 0)
     WaitChrThread(0x102, 0)
@@ -526,13 +528,13 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#6PI do not know exactly …\x01",
-            "If \"black moon\" aims, like this\x01",
-            "You should not disappear.\x02\x03",
-            "#00308FStations and airports ……\x01",
-            "You can not occupy without pain without them.\x02\x03",
-            "#00311FMore ridiculous things\x01",
-            "The possibility seems to be high.\x02",
+            "#00306F#6PI really don't know, but...\x01",
+            "If they were aimin' at the "Heiyue", \x01",
+            "they'd never vanish from here like that.\x02\x03",
+            "#00308FAs for the station and the airport too...\x01",
+            "They could occupy them without effort.\x02\x03",
+            "#00311FIt's very likely they're plannin'\x01",
+            "something way crazier.\x02",
         )
     )
 
@@ -540,7 +542,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#12PAnd, to say … …\x02",
+        "#00201F#12PSo that means...\x02",
     )
 
     CloseMessageWindow()
@@ -548,8 +550,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00107F#11PNo doubt Orchise Tower\x01",
-            "I mean to occupy … ….?\x02",
+            "#00107F#11PDon't tell me they intend to\x01",
+            "occupy Orchis Tower...?\x02",
         )
     )
 
@@ -558,9 +560,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00305F#5PThat seems to be … …\x02\x03",
-            "#00306F…… But from the taste of the guys\x01",
-            "It may be a while away.\x02",
+            "#00305F#5PThat's possible, but...\x02\x03",
+            "#00306F...But I think that maybe it's\x01",
+            "far from their preferences.\x02",
         )
     )
 
@@ -568,7 +570,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10305F#6POh, what do you say?\x02",
+        "#10305F#6PEeh, preferences you say?\x02",
     )
 
     CloseMessageWindow()
@@ -576,12 +578,12 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00308F#5P…… If the hunter can demonstrate his master\x01",
-            "Field warfare or guerrilla fight ……\x02\x03",
-            "#00303FIn other words, you can trick the regular army\x01",
-            "You probably prefer battles of intricate terrain.\x02\x03",
-            "#00301FThat is the whole city area … ….\x01",
-            "I guess it is a mountainous area with many undulations.\x02",
+            "#00308F#5P...A jaeger can display his specialties\x01",
+            "on fields or guerrilla warfare...\x02\x03",
+            "#00303FIn other words, they like intricate terrain battles\x01",
+            "where they can trifle with the regular army.\x02\x03",
+            "#00301FSo...the area of a whole town or...\x01",
+            "Mountain areas with many undulations.\x02",
         )
     )
 
@@ -589,7 +591,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#11PAh……\x02",
+        "#00005F#11PAh...\x02",
     )
 
     CloseMessageWindow()
@@ -597,8 +599,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10101F#12PWell, indeed …\x01",
-            "The movement of the vehicle is also limited.\x02",
+            "#10101F#12PT-That's true...\x01",
+            "Vehicles movements would also be restricted.\x02",
         )
     )
 
@@ -606,7 +608,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00610F#5PCut, if you say - ─\x02",
+        "#00610F#5PTsk, in that case──\x02",
     )
 
     CloseMessageWindow()
@@ -625,39 +627,39 @@ def main():
     Sleep(300)
     TurnDirection(0x9, 0x8, 500)
 
-    def lambda_F50():
+    def lambda_10AF():
         TurnDirection(0x101, 0x9, 500)
         ExitThread()
 
-    QueueWorkItem(0x101, 0, lambda_F50)
+    QueueWorkItem(0x101, 0, lambda_10AF)
     Sleep(30)
 
-    def lambda_F60():
+    def lambda_10BF():
         TurnDirection(0x102, 0x9, 500)
         ExitThread()
 
-    QueueWorkItem(0x102, 0, lambda_F60)
+    QueueWorkItem(0x102, 0, lambda_10BF)
     Sleep(30)
 
-    def lambda_F70():
+    def lambda_10CF():
         TurnDirection(0x103, 0x9, 500)
         ExitThread()
 
-    QueueWorkItem(0x103, 0, lambda_F70)
+    QueueWorkItem(0x103, 0, lambda_10CF)
     Sleep(30)
 
-    def lambda_F80():
+    def lambda_10DF():
         TurnDirection(0x109, 0x9, 500)
         ExitThread()
 
-    QueueWorkItem(0x109, 0, lambda_F80)
+    QueueWorkItem(0x109, 0, lambda_10DF)
     Sleep(30)
 
-    def lambda_F90():
+    def lambda_10EF():
         TurnDirection(0x105, 0x9, 500)
         ExitThread()
 
-    QueueWorkItem(0x105, 0, lambda_F90)
+    QueueWorkItem(0x105, 0, lambda_10EF)
     Sleep(30)
     WaitChrThread(0x101, 0)
     WaitChrThread(0x102, 0)
@@ -671,10 +673,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#00603F#11PInvestigation One Section, Dudley.\x02\x03",
-            "#00605F── The section chief ah.\x01",
-            "It is a pleasure working …\x02\x03",
-            "#30W………………………………\x02",
+            "#00603F#11PCrime Investigations Section One, Dudley speaking.\x02\x03",
+            "#00605F──Ah, Section Chief.\x01",
+            "Thank you for your hard work...\x02\x03",
+            "#30W............\x02",
         )
     )
 
@@ -688,7 +690,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00607F#3462V#4S#11P── What is it! Is it?\x02",
+        "#00607F#3462V#4S#11P──What did you say!?\x02",
     )
 
     CloseMessageWindow()
@@ -700,21 +702,21 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00013F#12P(What, what …?\x02",
+        "#00013F#12P(W-What the...?)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00108F#12P(At this timing … …)\x02",
+        "#00108F#12P(With such a timing...)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00311F#6P………………………………\x02",
+        "#00311F#6P............\x02",
     )
 
     CloseMessageWindow()
@@ -725,8 +727,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5PDa, Dudley.\x01",
-            "What on earth ……\x02",
+            "#5PM-Mr. Dudley.\x01",
+            "What could have...\x02",
         )
     )
 
@@ -747,23 +749,23 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#00603F#5P…… It is contact from the guard.\x02\x03",
-            "#00608FAn unidentified armed group\x01",
-            "Appears in the direction of Mainz's mountain road -\x02\x03",
-            "#00610FThe patrolling unit\x01",
-            "It seems that it was destroyed.\x02",
+            "#00603F#5P...A call from the CGF.\x02\x03",
+            "#00608FAn unidentified armed group has\x01",
+            "appeared on Mainz Mountain Path──\x02\x03",
+            "#00610FThe unit on patrol seems\x01",
+            "to have been crushed.\x02",
         )
     )
 
     CloseMessageWindow()
     Sleep(300)
     SetMessageWindowPos(250, 40, -1, -1)
-    SetChrName("All of us")
+    SetChrName("All")
     OP_82(0xC8, 0x0, 0xBB8, 0x12C)
 
     AnonymousTalk(
         0xFF,
-        "#5SIt is! It is! It is!\x02",
+        "#5S!!!\x02",
     )
 
     CloseMessageWindow()
@@ -783,9 +785,9 @@ def main():
 
     # Function_3_260 end
 
-    def Function_4_1283(): pass
+    def Function_4_13FD(): pass
 
-    label("Function_4_1283")
+    label("Function_4_13FD")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -802,62 +804,62 @@ def main():
     OP_A7(0x103, 0xFF, 0xFF, 0xFF, 0x0, 0x0)
     OP_A7(0x104, 0xFF, 0xFF, 0xFF, 0x0, 0x0)
 
-    def lambda_1332():
+    def lambda_14AC():
         OP_97(0x101, 0x0, 0x0, 0x1388, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 0, lambda_1332)
+    QueueWorkItem(0x101, 0, lambda_14AC)
     Sleep(50)
 
-    def lambda_134F():
+    def lambda_14C9():
         OP_97(0x102, 0x0, 0x0, 0x1388, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x102, 0, lambda_134F)
+    QueueWorkItem(0x102, 0, lambda_14C9)
     Sleep(50)
 
-    def lambda_136C():
+    def lambda_14E6():
         OP_97(0x103, 0x0, 0x0, 0x1388, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x103, 0, lambda_136C)
+    QueueWorkItem(0x103, 0, lambda_14E6)
     Sleep(50)
 
-    def lambda_1389():
+    def lambda_1503():
         OP_97(0x104, 0x0, 0x0, 0x1388, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 0, lambda_1389)
+    QueueWorkItem(0x104, 0, lambda_1503)
     FadeToBright(1000, 0)
     OP_68(0, 1500, 52000, 2000)
     Sleep(300)
 
-    def lambda_13C0():
+    def lambda_153A():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x101, 2, lambda_13C0)
+    QueueWorkItem(0x101, 2, lambda_153A)
     Sleep(50)
 
-    def lambda_13D4():
+    def lambda_154E():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x102, 2, lambda_13D4)
+    QueueWorkItem(0x102, 2, lambda_154E)
     Sleep(700)
 
-    def lambda_13E8():
+    def lambda_1562():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x103, 2, lambda_13E8)
+    QueueWorkItem(0x103, 2, lambda_1562)
     Sleep(50)
 
-    def lambda_13FC():
+    def lambda_1576():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 2, lambda_13FC)
+    QueueWorkItem(0x104, 2, lambda_1576)
     OP_0D()
     WaitChrThread(0x101, 0)
     OP_63(0x101, 0x0, 2000, 0x26, 0x26, 0xFA, 0x1)
@@ -876,8 +878,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00201FApparently before\x01",
-            "You seem to be coming.\x02",
+            "#00201FIt looks like he went\x01",
+            "further ahead.\x02",
         )
     )
 
@@ -886,8 +888,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001FAh……\x01",
-            "Let's get off carefully.\x02",
+            "#00001FYeah...\x01",
+            "Let's descend with prudence.\x02",
         )
     )
 
@@ -900,7 +902,7 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_4_1283 end
+    # Function_4_13FD end
 
     SaveToFile()
 

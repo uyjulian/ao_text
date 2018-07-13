@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c035b.bin",                # FileName
         "c035b",                    # MapName
@@ -19,8 +21,8 @@ def main():
 
     BuildStringList((
         "c035b",                  # 0
-        "Yuri",                 # 1
-        "Sykes",               # 2
+        "Yuri",                   # 1
+        "Sykes",                  # 2
         "Reggie",                 # 3
     ))
 
@@ -43,9 +45,9 @@ def main():
         "Function_2_1F3",          # 02, 2
         "Function_3_231",          # 03, 3
         "Function_4_232",          # 04, 4
-        "Function_5_468",          # 05, 5
-        "Function_6_472",          # 06, 6
-        "Function_7_631",          # 07, 7
+        "Function_5_494",          # 05, 5
+        "Function_6_49E",          # 06, 6
+        "Function_7_6BB",          # 07, 7
     ))
 
 
@@ -162,11 +164,11 @@ def main():
     label("Function_4_232")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x149, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3D8")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x149, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3FC")
 
     ChrTalk(
         0xFE,
-        "… … for what purpose for such a night?\x02",
+        "...What do you want in the dead of night?\x02",
     )
 
     CloseMessageWindow()
@@ -174,8 +176,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "What you did during the day … …\x01",
-            "I will not say that I forgot.\x02",
+            "I won't tell you that I forgot...\x01",
+            "What you did to us during the day.\x02",
         )
     )
 
@@ -184,8 +186,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00605F(you……\x01",
-            "Was there something with them? )\x02",
+            "#00605F(Did...\x01",
+            "Anything happen with them?)\x02",
         )
     )
 
@@ -194,8 +196,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F(No, well\x01",
-            "I could not help it ……)\x02",
+            "#00303F(Well, you see, it's like we\x01",
+            "couldn't avoid it happening...)\x02",
         )
     )
 
@@ -204,11 +206,11 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00603F(At all … in this subtle period\x01",
-            "Do not cause troubles. )\x02\x03",
-            "#00600F(Until tomorrow's plenary session ends,\x01",
-            "Never mind clearly.\x01",
-            "… … nice. )\x02",
+            "#00603F(Honestly...causing stupid trouble\x01",
+            "in this delicate time...)\x02\x03",
+            "#00600F(Don't absolutely let your guard down\x01",
+            "until tomorrow's conference is over.\x01",
+            "...Understood?)\x02",
         )
     )
 
@@ -216,21 +218,21 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F(Ryo, OK.\x02",
+        "#00005F(R-Roger.)\x02",
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x149, 3)
-    Jump("loc_464")
+    Jump("loc_490")
 
-    label("loc_3D8")
+    label("loc_3FC")
 
 
     ChrTalk(
         0xFE,
         (
-            "What you did during the day … …\x01",
-            "I will not say that I forgot.\x02",
+            "I won't tell you that I forgot...\x01",
+            "What you did to us during the day.\x02",
         )
     )
 
@@ -238,49 +240,49 @@ def main():
 
     ChrTalk(
         0xFE,
-        "I will regret it someday.\x02",
+        "I'll make you regret it one day.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00306F(I'm sorry I'm sorry … …)\x02",
+        "#00306F(So damn persistent...)\x02",
     )
 
     CloseMessageWindow()
 
-    label("loc_464")
+    label("loc_490")
 
     TalkEnd(0xFE)
     Return()
 
     # Function_4_232 end
 
-    def Function_5_468(): pass
+    def Function_5_494(): pass
 
-    label("Function_5_468")
+    label("Function_5_494")
 
     TalkBegin(0xFE)
     Call(0, 6)
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_468 end
+    # Function_5_494 end
 
-    def Function_6_472(): pass
+    def Function_6_49E(): pass
 
-    label("Function_6_472")
+    label("Function_6_49E")
 
     OP_4B(0x9, 0xFF)
     OP_4B(0xA, 0xFF)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_5BF")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_647")
 
     ChrTalk(
         0x9,
         (
-            "Yuri's guy,\x01",
-            "It is truly a bad mood … ….\x02",
+            "That Yuri is in a\x01",
+            "really bad mood...\x02",
         )
     )
 
@@ -289,9 +291,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "To try refreshing in the entertainment district,\x01",
-            "With VIP security and so on\x01",
-            "It seems that policemen are pretty good.\x02",
+            "Even if we went to the Entertainment District\x01",
+            "for a change of pace, it seems there're plenty\x01",
+            "of officers due to VIPs security or something.\x02",
         )
     )
 
@@ -300,9 +302,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "Well then, then …\x01",
-            "On the mountain road with a car\x01",
-            "How about a night drive?\x02",
+            "Hmm, then...\x01",
+            "What about we go for a drive\x01",
+            "at night on the mountain path?\x02",
         )
     )
 
@@ -311,9 +313,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "Passengers also\x01",
-            "It will be few, and to my utmost\x01",
-            "It seems to be burning me … …\x02",
+            "There will be few passersby at\x01",
+            "this hour and we could go all\x01",
+            "out at our heart's' content...\x02",
         )
     )
 
@@ -321,21 +323,21 @@ def main():
 
     ChrTalk(
         0x9,
-        "Oh, it's a pretty good idea.\x02",
+        "Ooh, that could be a nice idea.\x02",
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 1)
-    Jump("loc_628")
+    Jump("loc_6B2")
 
-    label("loc_5BF")
+    label("loc_647")
 
 
     ChrTalk(
         0x9,
         (
-            "Okay, if you decide so\x01",
-            "Do you propose to Yuri?\x02",
+            "Alright, being this the case,\x01",
+            "let's go propose it to Yuri.\x02",
         )
     )
 
@@ -343,36 +345,36 @@ def main():
 
     ChrTalk(
         0x9,
-        "Reggie, you should prepare your car.\x02",
+        "Reggie, prepare the car.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xA,
-        "OK.\x02",
+        "Got it.\x02",
     )
 
     CloseMessageWindow()
 
-    label("loc_628")
+    label("loc_6B2")
 
     OP_4C(0x9, 0xFF)
     OP_4C(0xA, 0xFF)
     Return()
 
-    # Function_6_472 end
+    # Function_6_49E end
 
-    def Function_7_631(): pass
+    def Function_7_6BB(): pass
 
-    label("Function_7_631")
+    label("Function_7_6BB")
 
     TalkBegin(0xFE)
     Call(0, 6)
     TalkEnd(0xFE)
     Return()
 
-    # Function_7_631 end
+    # Function_7_6BB end
 
     SaveToFile()
 

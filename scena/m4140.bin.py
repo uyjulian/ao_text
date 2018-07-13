@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "m4140.bin",                # FileName
         "m4140",                    # MapName
@@ -165,7 +167,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There are monsters with huge power.\x02",
+            "There is a monster harboring a great power.\x02",
         )
     )
 
@@ -176,8 +178,8 @@ def main():
         -1,
         0,
         (
-            "【Exterminate】\x01",      # 0
-            "【quit】\x01",        # 1
+            "[Exterminate]\x01",      # 0
+            "[Quit]\x01",             # 1
         )
     )
 
@@ -186,12 +188,12 @@ def main():
     OP_57(0x0)
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
-        (1, "loc_4A3"),
-        (SWITCH_DEFAULT, "loc_4BC"),
+        (1, "loc_4AF"),
+        (SWITCH_DEFAULT, "loc_4C8"),
     )
 
 
-    label("loc_4A3")
+    label("loc_4AF")
 
     Sleep(500)
     OP_E2(0x2)
@@ -199,7 +201,7 @@ def main():
     EventEnd(0x5)
     Return()
 
-    label("loc_4BC")
+    label("loc_4C8")
 
     Battle("BattleInfo_26C", 0x0, 0x0, 0x100, 0xC, 0xFF)
     OP_E2(0x2)
@@ -215,24 +217,24 @@ def main():
     OP_90(0x7, 6140, 3000, 181970, 180)
     Switch(
         (scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_END)),
-        (2, "loc_57E"),
-        (1, "loc_583"),
-        (SWITCH_DEFAULT, "loc_586"),
+        (2, "loc_58A"),
+        (1, "loc_58F"),
+        (SWITCH_DEFAULT, "loc_592"),
     )
 
 
-    label("loc_57E")
+    label("loc_58A")
 
     OP_E2(0x2)
     EventEnd(0x5)
     Return()
 
-    label("loc_583")
+    label("loc_58F")
 
     OP_B9(0x0)
     Return()
 
-    label("loc_586")
+    label("loc_592")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -247,7 +249,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "I exterminated monsters!\x02",
+            "Monster defeated!\x02",
         )
     )
 
@@ -260,19 +262,19 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            scpstr(SCPSTR_CODE_ITEM, '塞姆里亚石碎片'),
+            scpstr(SCPSTR_CODE_ITEM, 0x394),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I got it.\x02",
+            " obtained.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    AddItemNumber('塞姆里亚石碎片', 1)
+    AddItemNumber(0x394, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x21E, 3)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21F, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 2)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 3)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 4)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 5)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_676")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21F, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 2)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 3)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 4)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 5)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_684")
     Sound(629, 0, 100, 0)
     Sound(842, 0, 100, 0)
     Sleep(3000)
@@ -283,7 +285,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "I felt that tremendous power wakes up somewhere!\x02",
+            "You felt an outrageous power awakening somewhere!\x02",
         )
     )
 
@@ -291,7 +293,7 @@ def main():
     OP_57(0x0)
     SetScenarioFlags(0x21F, 0)
 
-    label("loc_676")
+    label("loc_684")
 
     OP_E2(0x2)
     ModifyEventFlags(0, 0, 0x80)

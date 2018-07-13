@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c022b.bin",                # FileName
         "c022b",                    # MapName
@@ -19,8 +21,8 @@ def main():
 
     BuildStringList((
         "c022b",                  # 0
-        "Ian lawyer",           # 1
-        "Pete",                 # 2
+        "Lawyer Ian",             # 1
+        "Pete",                   # 2
     ))
 
     AddCharChip((
@@ -41,8 +43,8 @@ def main():
         "Function_1_1C4",          # 01, 1
         "Function_2_1E4",          # 02, 2
         "Function_3_1EB",          # 03, 3
-        "Function_4_3EF",          # 04, 4
-        "Function_5_5E9",          # 05, 5
+        "Function_4_452",          # 04, 4
+        "Function_5_689",          # 05, 5
     ))
 
 
@@ -146,16 +148,16 @@ def main():
     label("Function_3_1EB")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_384")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3C3")
 
     ChrTalk(
         0xFE,
         (
-            "#02200FOh, you guys.\x01",
-            "It is rare to come this kind of night.\x02\x03",
-            "Daddy is with you … …\x01",
-            "It seems to be related to tomorrow's meeting\x01",
-            "Have you had problems as well?\x02",
+            "#02200FOh, it's you all. That's unusual\x01",
+            "for you to come at night.\x02\x03",
+            "And since Dudley is with you too... \x01",
+            "Could a problem or something have arised\x01",
+            "related to tomorrow's conference?\x02",
         )
     )
 
@@ -164,11 +166,11 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00603FFrom now on, make sure of it\x01",
-            "I'm going.\x02\x03",
-            "#00600FFor the sake of completeness,\x01",
-            "To keep uncertain elements crushed\x01",
-            "I have never done it before.\x02",
+            "#00603FWe're just going to\x01",
+            "confirm that now.\x02\x03",
+            "#00600FTo achieve perfection, \x01",
+            "there's nothing like crushing\x01",
+            "imperfect elements in advance.\x02",
         )
     )
 
@@ -177,52 +179,52 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "#02200FWell, it's too cautious.\x01",
-            "It will not be.\x02\x03",
-            "I do not know detailed circumstances … …\x01",
-            "Please do it by all means.\x02",
+            "#02200FHm, there's nothing like\x01",
+            "being too much prepared.\x02\x03",
+            "I don't know the details, but...\x01",
+            "Do your very best about it.\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 0)
-    Jump("loc_3EB")
+    Jump("loc_44E")
 
-    label("loc_384")
+    label("loc_3C3")
 
 
     ChrTalk(
         0xFE,
         (
-            "#02200FNow……\x01",
-            "Preparation is enough around here.\x02\x03",
-            "In preparation for tomorrow for the time being,\x01",
-            "Shall I take a day off earlier today?\x02",
+            "#02200FWell then... I'd say that these\x01",
+            "preparations are enough.\x02\x03",
+            "In preparation for tomorrow, \x01",
+            "today I'll go rest earlier than usual.\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_3EB")
+    label("loc_44E")
 
     TalkEnd(0xFE)
     Return()
 
     # Function_3_1EB end
 
-    def Function_4_3EF(): pass
+    def Function_4_452(): pass
 
-    label("Function_4_3EF")
+    label("Function_4_452")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x188, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_569")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x188, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_60C")
 
     ChrTalk(
         0xFE,
         (
-            "I was organizing documents\x01",
-            "When I was an answering machine before\x01",
-            "The book that I was reading came out.\x02",
+            "When I was sorting the documents,\x01",
+            "a book I read when I was taking care\x01",
+            "of the house previously popped out.\x02",
         )
     )
 
@@ -231,8 +233,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "\"Kagemaru\" appearing in this book … …\x01",
-            "I like it better than Mitchell.\x02",
+            "The "Kagemaru" that appears in this book...\x01",
+            "I personally like it more than Michey.\x02",
         )
     )
 
@@ -241,8 +243,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "I read the book once,\x01",
-            "It is a sex that I do not read too much … …\x02",
+            "I'm someone who, when he has read a\x01",
+            "book, he hardly reads it again...\x02",
         )
     )
 
@@ -251,8 +253,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Because it's no problem\x01",
-            "Why do not you read it, too?\x02",
+            "Since I have it here, why don't\x01",
+            "you give a try reading it?\x02",
         )
     )
 
@@ -265,30 +267,30 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '沐浴阳光的阿尼艾丝４卷'),
+            scpstr(SCPSTR_CODE_ITEM, 0x2F1),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I got it.\x02",
+            " obtained.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     FadeToBright(300, 0)
-    AddItemNumber('沐浴阳光的阿尼艾丝４卷', 1)
+    AddItemNumber(0x2F1, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x188, 3)
     TalkEnd(0xFE)
     SetChrFlags(0x9, 0x10)
     Return()
 
-    label("loc_569")
+    label("loc_60C")
 
 
     ChrTalk(
         0xFE,
         (
-            "That, this file …\x01",
-            "The place to store is wrong.\x02",
+            "Oh, this file...\x01",
+            "It was put away in the wrong place.\x02",
         )
     )
 
@@ -297,8 +299,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Ian Professor at all,\x01",
-            "Because it is Zubora like this … …\x02",
+            "Honestly, Mr. Grimwood...\x01",
+            "This is a sloppy side of him...\x02",
         )
     )
 
@@ -306,11 +308,11 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_4_3EF end
+    # Function_4_452 end
 
-    def Function_5_5E9(): pass
+    def Function_5_689(): pass
 
-    label("Function_5_5E9")
+    label("Function_5_689")
 
     EventBegin(0x2)
     ClearMapFlags(0x20)
@@ -321,7 +323,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a lock on the door.\x02",
+            "The door is locked.\x02",
         )
     )
 
@@ -331,7 +333,7 @@ def main():
     EventEnd(0x3)
     Return()
 
-    # Function_5_5E9 end
+    # Function_5_689 end
 
     SaveToFile()
 

@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c1330.bin",                # FileName
         "c1330",                    # MapName
@@ -86,7 +88,7 @@ def main():
     FadeToBright(500, 0)
     OP_0D()
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x0), scpexpr(EXPR_PUSH_LONG, 0x65), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1F9")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x0), scpexpr(EXPR_PUSH_LONG, 0x65), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1E9")
 
     Menu(
         0,
@@ -94,19 +96,19 @@ def main():
         10,
         0,
         (
-            "★ 【16F】\x01",      # 0
-            "【1F】\x01",      # 1
-            "【B5】\x01",      # 2
-            " 【get off】\x01",      # 3
+            "★[16F]\x01",          # 0
+            "　[ 1F]\x01",          # 1
+            "　[B5F]\x01",          # 2
+            "　[Get Off]\x01",      # 3
         )
     )
 
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jump("loc_2A8")
+    Jump("loc_278")
 
-    label("loc_1F9")
+    label("loc_1E9")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x0), scpexpr(EXPR_PUSH_LONG, 0x64), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_253")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x0), scpexpr(EXPR_PUSH_LONG, 0x64), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_233")
 
     Menu(
         0,
@@ -114,19 +116,19 @@ def main():
         10,
         0,
         (
-            "【16F】\x01",      # 0
-            "★ 【1F】\x01",      # 1
-            "【B5】\x01",      # 2
-            " 【get off】\x01",      # 3
+            "　[16F]\x01",          # 0
+            "★[ 1F]\x01",          # 1
+            "　[B5F]\x01",          # 2
+            "　[Get Off]\x01",      # 3
         )
     )
 
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jump("loc_2A8")
+    Jump("loc_278")
 
-    label("loc_253")
+    label("loc_233")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x0), scpexpr(EXPR_PUSH_LONG, 0x66), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2A8")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x0), scpexpr(EXPR_PUSH_LONG, 0x66), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_278")
 
     Menu(
         0,
@@ -134,28 +136,28 @@ def main():
         10,
         0,
         (
-            "【16F】\x01",      # 0
-            "【1F】\x01",      # 1
-            "★ 【B5】\x01",      # 2
-            " 【get off】\x01",      # 3
+            "　[16F]\x01",          # 0
+            "　[ 1F]\x01",          # 1
+            "★[B5F]\x01",          # 2
+            "　[Get Off]\x01",      # 3
         )
     )
 
     RunExpression(0x2, (scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    label("loc_2A8")
+    label("loc_278")
 
     MenuEnd(0x0)
     OP_60(0x0)
     OP_57(0x0)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2CF")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_29F")
     FadeToDark(500, 0, -1)
     OP_0D()
-    Jump("loc_352")
+    Jump("loc_322")
 
-    label("loc_2CF")
+    label("loc_29F")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_30B")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2DB")
     FadeToDark(2000, 0, -1)
     Sound(159, 0, 100, 0)
     OP_68(600, 16000, 0, 2000)
@@ -163,11 +165,11 @@ def main():
     OP_6F(0x1)
     Sleep(800)
     OP_24(0x67)
-    Jump("loc_352")
+    Jump("loc_322")
 
-    label("loc_30B")
+    label("loc_2DB")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_347")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_317")
     FadeToDark(2000, 0, -1)
     Sound(159, 0, 100, 0)
     OP_68(600, -14000, 0, 2000)
@@ -175,89 +177,89 @@ def main():
     OP_6F(0x1)
     Sleep(800)
     OP_24(0x67)
-    Jump("loc_352")
+    Jump("loc_322")
 
-    label("loc_347")
+    label("loc_317")
 
     FadeToDark(500, 0, -1)
     OP_0D()
 
-    label("loc_352")
+    label("loc_322")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_3B2")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_382")
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_END)),
-        (0, "loc_37D"),
-        (1, "loc_38D"),
-        (2, "loc_39D"),
-        (SWITCH_DEFAULT, "loc_3AD"),
+        (0, "loc_34D"),
+        (1, "loc_35D"),
+        (2, "loc_36D"),
+        (SWITCH_DEFAULT, "loc_37D"),
     )
 
+
+    label("loc_34D")
+
+    EventEnd(0x5)
+    NewScene("c1340", 100, 0, 0)
+    IdleLoop()
+    Jump("loc_37D")
+
+    label("loc_35D")
+
+    EventEnd(0x5)
+    NewScene("c1310", 101, 0, 0)
+    IdleLoop()
+    Jump("loc_37D")
+
+    label("loc_36D")
+
+    EventEnd(0x5)
+    NewScene("c1320", 102, 0, 0)
+    IdleLoop()
+    Jump("loc_37D")
 
     label("loc_37D")
 
-    EventEnd(0x5)
-    NewScene("c1340", 100, 0, 0)
-    IdleLoop()
-    Jump("loc_3AD")
+    Jump("loc_3E0")
 
-    label("loc_38D")
-
-    EventEnd(0x5)
-    NewScene("c1310", 101, 0, 0)
-    IdleLoop()
-    Jump("loc_3AD")
-
-    label("loc_39D")
-
-    EventEnd(0x5)
-    NewScene("c1320", 102, 0, 0)
-    IdleLoop()
-    Jump("loc_3AD")
-
-    label("loc_3AD")
-
-    Jump("loc_410")
-
-    label("loc_3B2")
+    label("loc_382")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
-        (0, "loc_3CE"),
-        (1, "loc_3E4"),
-        (2, "loc_3FA"),
-        (SWITCH_DEFAULT, "loc_410"),
+        (0, "loc_39E"),
+        (1, "loc_3B4"),
+        (2, "loc_3CA"),
+        (SWITCH_DEFAULT, "loc_3E0"),
     )
 
 
-    label("loc_3CE")
+    label("loc_39E")
 
     SetScenarioFlags(0x25, 1)
     Sleep(500)
     EventEnd(0x5)
     NewScene("c1340", 100, 0, 0)
     IdleLoop()
-    Jump("loc_410")
+    Jump("loc_3E0")
 
-    label("loc_3E4")
+    label("loc_3B4")
 
     SetScenarioFlags(0x25, 1)
     Sleep(500)
     EventEnd(0x5)
     NewScene("c1310", 101, 0, 0)
     IdleLoop()
-    Jump("loc_410")
+    Jump("loc_3E0")
 
-    label("loc_3FA")
+    label("loc_3CA")
 
     SetScenarioFlags(0x25, 1)
     Sleep(500)
     EventEnd(0x5)
     NewScene("c1320", 102, 0, 0)
     IdleLoop()
-    Jump("loc_410")
+    Jump("loc_3E0")
 
-    label("loc_410")
+    label("loc_3E0")
 
     Return()
 

@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "t1403.bin",                # FileName
         "t1403",                    # MapName
@@ -19,12 +21,12 @@ def main():
 
     BuildStringList((
         "t1403",                  # 0
-        "tourist",                 # 1
-        "tourist",                 # 2
-        "tourist",                 # 3
-        "tourist",                 # 4
-        "tourist",                 # 5
-        "tourist",                 # 6
+        "Tourist",                # 1
+        "Tourist",                # 2
+        "Tourist",                # 3
+        "Tourist",                # 4
+        "Tourist",                # 5
+        "Tourist",                # 6
     ))
 
     AddCharChip((
@@ -50,11 +52,11 @@ def main():
         "Function_1_230",          # 01, 1
         "Function_2_2DC",          # 02, 2
         "Function_3_34D",          # 03, 3
-        "Function_4_39A",          # 04, 4
-        "Function_5_3D2",          # 05, 5
-        "Function_6_408",          # 06, 6
-        "Function_7_446",          # 07, 7
-        "Function_8_46F",          # 08, 8
+        "Function_4_396",          # 04, 4
+        "Function_5_3D5",          # 05, 5
+        "Function_6_406",          # 06, 6
+        "Function_7_454",          # 07, 7
+        "Function_8_483",          # 08, 8
     ))
 
 
@@ -238,9 +240,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Jun, do not worry.\x01",
-            "I also have plenty\x01",
-            "I will lose to the young monkey.\x02",
+            "Hoh hoh ho, don't worry.\x01",
+            "I won't lose to the\x01",
+            "young ones yet.\x02",
         )
     )
 
@@ -250,17 +252,17 @@ def main():
 
     # Function_3_34D end
 
-    def Function_4_39A(): pass
+    def Function_4_396(): pass
 
-    label("Function_4_39A")
+    label("Function_4_396")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xFE,
         (
-            "Grandpa,\x01",
-            "It's a long stairway but it's okay ~?\x02",
+            "Grampa, the staircase is\x01",
+            "quite long, are you fine?\x02",
         )
     )
 
@@ -268,19 +270,19 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_4_39A end
+    # Function_4_396 end
 
-    def Function_5_3D2(): pass
+    def Function_5_3D5(): pass
 
-    label("Function_5_3D2")
+    label("Function_5_3D5")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xFE,
         (
-            "Hi, hoes ……\x01",
-            "I got tired a lot … …\x02",
+            "*pant pant*...\x01",
+            "Enough, I'm pooped...\x02",
         )
     )
 
@@ -288,19 +290,19 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_3D2 end
+    # Function_5_3D5 end
 
-    def Function_6_408(): pass
+    def Function_6_406(): pass
 
-    label("Function_6_408")
+    label("Function_6_406")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xFE,
         (
-            "Here, good luck.\x01",
-            "Because it is a little to the top floor.\x02",
+            "Come now, hang in there.\x01",
+            "Just a little bit more to the top floor.\x02",
         )
     )
 
@@ -308,36 +310,36 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_6_408 end
+    # Function_6_406 end
 
-    def Function_7_446(): pass
+    def Function_7_454(): pass
 
-    label("Function_7_446")
+    label("Function_7_454")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xFE,
-        "Huh …… It is a great height ……\x02",
+        "*haah*...what an amazing height...\x02",
     )
 
     CloseMessageWindow()
     TalkEnd(0xFE)
     Return()
 
-    # Function_7_446 end
+    # Function_7_454 end
 
-    def Function_8_46F(): pass
+    def Function_8_483(): pass
 
-    label("Function_8_46F")
+    label("Function_8_483")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xFE,
         (
-            "really……\x01",
-            "I got dizzy.\x02",
+            "Really...\x01",
+            "I've got some vertigo...\x02",
         )
     )
 
@@ -345,7 +347,7 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_8_46F end
+    # Function_8_483 end
 
     SaveToFile()
 

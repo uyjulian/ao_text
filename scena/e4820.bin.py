@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "e4820.bin",                # FileName
         "e4820",                    # MapName
@@ -19,7 +21,7 @@ def main():
 
     BuildStringList((
         "e4820",                  # 0
-        "SE control",                 # 1
+        "SE制御",                 # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -30,10 +32,10 @@ def main():
         "Function_0_CC",           # 00, 0
         "Function_1_DC",           # 01, 1
         "Function_2_E1",           # 02, 2
-        "Function_3_55F",          # 03, 3
-        "Function_4_58D",          # 04, 4
-        "Function_5_5AC",          # 05, 5
-        "Function_6_5E3",          # 06, 6
+        "Function_3_56A",          # 03, 3
+        "Function_4_598",          # 04, 4
+        "Function_5_5B7",          # 05, 5
+        "Function_6_5EE",          # 06, 6
     ))
 
 
@@ -90,13 +92,13 @@ def main():
     OP_0D()
     Sleep(500)
     SetMessageWindowPos(-1, 140, -1, -1)
-    SetChrName("Is it? Is it? Is it?")
+    SetChrName("???")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Oh, this is\x07\x00\x02",
+            "Eeh, well well.\x07\x00\x02",
         )
     )
 
@@ -111,17 +113,17 @@ def main():
     OP_71(0x0, 0x0, 0x257, 0x0, 0x20)
     Sleep(1000)
     SetMessageWindowPos(30, 140, -1, -1)
-    SetChrName("Yona")
+    SetChrName("Jona")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#02310FHappy\x01",
-            "Tommy makes my base\x01",
-            "Is he the culprit who made it a mess!\x02\x03",
-            "#02307FI will not forgive you!\x01",
-            "I'll let you make it bark!\x07\x00\x02",
+            "#02310FHuh...\x01",
+            "You're the one who made\x01",
+            "a mess of my base!?\x02\x03",
+            "#02307FI won't forgive you!\x01",
+            "I'm gonna make you cry!\x07\x00\x02",
         )
     )
 
@@ -130,13 +132,13 @@ def main():
     OP_5A()
     Sleep(300)
     SetMessageWindowPos(80, 50, -1, -1)
-    SetChrName("Is it? Is it? Is it?")
+    SetChrName("???")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Ahha, you're passionate\x07\x00\x02",
+            "Ahaha, high spirited, are you, eh?\x07\x00\x02",
         )
     )
 
@@ -163,13 +165,13 @@ def main():
     Sleep(600)
     BeginChrThread(0x8, 1, 0, 5)
     SetMessageWindowPos(100, 30, -1, -1)
-    SetChrName("Voice of Tio")
+    SetChrName("Tio's Voice")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#10AThat's far enough\x02",
+            "#10A...Freeze.\x02",
         )
     )
 
@@ -185,8 +187,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#00201FAdultly control the tower\x01",
-            "Shall I let you release?\x07\x00\x02",
+            "#00201FWill you quietly release\x01",
+            "the tower controls?\x07\x00\x02",
         )
     )
 
@@ -194,17 +196,17 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(200, 50, -1, -1)
-    SetChrName("Is it? Is it? Is it?")
+    SetChrName("???")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Ehe, no helping it\x02\x03",
-            "Well, it was just killing time\x01",
-            "It was satisfying from pleasure.\x02\x03",
-            "Then at most\x01",
-            "Good luck not to die\x02",
+            "Uhuhu, can't be helped then.\x02\x03",
+            "Well, I was just killing time.\x01",
+            "It was fine, so I guess I'm satisfied.\x02\x03",
+            "Well then, please do\x01",
+            "your best to not die㈱\x02",
         )
     )
 
@@ -223,13 +225,13 @@ def main():
     Sound(223, 0, 100, 0)
     Sleep(500)
     SetMessageWindowPos(30, 130, -1, -1)
-    SetChrName("Yona")
+    SetChrName("Jona")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#02310FAh!\x02",
+            "#02310FHaah!?\x02",
         )
     )
 
@@ -245,8 +247,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#00207FThere it is after!\x01",
-            "Control the tower as soon as possible!\x07\x00\x02",
+            "#00207FLeave him for later!\x01",
+            "Quick, the tower controls!\x07\x00\x02",
         )
     )
 
@@ -265,9 +267,9 @@ def main():
 
     # Function_2_E1 end
 
-    def Function_3_55F(): pass
+    def Function_3_56A(): pass
 
-    label("Function_3_55F")
+    label("Function_3_56A")
 
     OP_71(0x1, 0x552, 0x574, 0x0, 0x0)
     OP_79(0x1)
@@ -277,11 +279,11 @@ def main():
     OP_71(0x1, 0x271, 0x2A2, 0x0, 0x20)
     Return()
 
-    # Function_3_55F end
+    # Function_3_56A end
 
-    def Function_4_58D(): pass
+    def Function_4_598(): pass
 
-    label("Function_4_58D")
+    label("Function_4_598")
 
     OP_71(0x1, 0x2A3, 0x320, 0x0, 0x0)
     OP_79(0x1)
@@ -289,11 +291,11 @@ def main():
     OP_71(0x1, 0x320, 0x383, 0x0, 0x20)
     Return()
 
-    # Function_4_58D end
+    # Function_4_598 end
 
-    def Function_5_5AC(): pass
+    def Function_5_5B7(): pass
 
-    label("Function_5_5AC")
+    label("Function_5_5B7")
 
     Sleep(1540)
     Sound(251, 0, 50, 0)
@@ -308,11 +310,11 @@ def main():
     Sound(940, 0, 100, 0)
     Return()
 
-    # Function_5_5AC end
+    # Function_5_5B7 end
 
-    def Function_6_5E3(): pass
+    def Function_6_5EE(): pass
 
-    label("Function_6_5E3")
+    label("Function_6_5EE")
 
     Sleep(500)
     Sound(940, 0, 100, 0)
@@ -320,7 +322,7 @@ def main():
     Sound(935, 0, 100, 0)
     Return()
 
-    # Function_6_5E3 end
+    # Function_6_5EE end
 
     SaveToFile()
 

@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c140b.bin",                # FileName
         "c140b",                    # MapName
@@ -19,40 +21,40 @@ def main():
 
     BuildStringList((
         "c140b",                  # 0
-        "Central square",               # 1
-        "Nishi dori",                 # 2
-        "Administrative district",                 # 3
-        "Residential area",                 # 4
-        "Entertainment district",                 # 5
-        "East Street",                 # 6
-        "old Town",                 # 7
-        "Harbor district",                 # 8
-        "IBC",                 # 9
-        "Beside the station",               # 10
-        "Back street",                 # 11
-        "Ursula interchange",           # 12
-        "East Crossbell Highway",       # 13
-        "West Crossbell Highway",       # 14
-        "Mainz Mountain Road",           # 15
-        "Orchis Tower",         # 16
+        "Central Square",         # 1
+        "West Street",            # 2
+        "Governmental District",  # 3
+        "Residential Street",     # 4
+        "Entertainment District", # 5
+        "East Street",            # 6
+        "Downtown",               # 7
+        "Waterfront Area",        # 8
+        "IBC",                    # 9
+        "Station Street",         # 10
+        "Back Street",            # 11
+        "St. Ursula Byroad",      # 12
+        "East Crossbell Highway", # 13
+        "West Crossbell HIghway", # 14
+        "Mainz Mountain Road",    # 15
+        "Orchis Tower",           # 16
     ))
 
     DeclActor(47720,   4294966196, 4294934136, 1200,    47720,   100,     4294934136, 0x007C, 0,  2,  0x0000)
 
-    PlaceName(-110.69000244140625, 0.0, 106.94999694824219, 0x0000, 0x0000, "Central square")
-    PlaceName(-186.3000030517578, 0.0, 112.12999725341797, 0x0000, 0x0000, "Nishi dori")
-    PlaceName(-79.63999938964844, 0.0, 209.3000030517578, 0x0000, 0x0000, "Administrative district")
-    PlaceName(-256.45001220703125, 0.0, 197.8000030517578, 0x0000, 0x0000, "Residential area")
-    PlaceName(-172.5, 0.0, 188.60000610351562, 0x0000, 0x0000, "Entertainment district")
+    PlaceName(-110.69000244140625, 0.0, 106.94999694824219, 0x0000, 0x0000, "Central Square")
+    PlaceName(-186.3000030517578, 0.0, 112.12999725341797, 0x0000, 0x0000, "West Street")
+    PlaceName(-79.63999938964844, 0.0, 209.3000030517578, 0x0000, 0x0000, "Governmental District")
+    PlaceName(-256.45001220703125, 0.0, 197.8000030517578, 0x0000, 0x0000, "Residential Street")
+    PlaceName(-172.5, 0.0, 188.60000610351562, 0x0000, 0x0000, "Entertainment District")
     PlaceName(-17.25, 0.0, 80.5, 0x0000, 0x0000, "East Street")
-    PlaceName(23.579999923706055, 0.0, 17.25, 0x0000, 0x0000, "old Town")
-    PlaceName(14.949999809265137, 0.0, 156.39999389648438, 0x0000, 0x0000, "Harbor district")
+    PlaceName(23.579999923706055, 0.0, 17.25, 0x0000, 0x0000, "Downtown")
+    PlaceName(14.949999809265137, 0.0, 156.39999389648438, 0x0000, 0x0000, "Waterfront Area")
     PlaceName(-14.949999809265137, 0.0, 264.5, 0x0000, 0x0000, "IBC")
-    PlaceName(-97.75, 0.0, 27.600000381469727, 0x0000, 0x0000, "Beside the station")
-    PlaceName(-151.8000030517578, 0.0, 147.1999969482422, 0x0000, 0x0000, "Back street")
-    PlaceName(-101.19999694824219, 0.0, -8.050000190734863, 0x0000, 0x0000, "Ursula interchange")
+    PlaceName(-97.75, 0.0, 27.600000381469727, 0x0000, 0x0000, "Station Street")
+    PlaceName(-151.8000030517578, 0.0, 147.1999969482422, 0x0000, 0x0000, "Back Street")
+    PlaceName(-101.19999694824219, 0.0, -8.050000190734863, 0x0000, 0x0000, "St. Ursula Byroad")
     PlaceName(44.849998474121094, 0.0, 96.5999984741211, 0x0000, 0x0000, "East Crossbell Highway")
-    PlaceName(-244.9499969482422, 0.0, 110.4000015258789, 0x0000, 0x0000, "West Crossbell Highway")
+    PlaceName(-244.9499969482422, 0.0, 110.4000015258789, 0x0000, 0x0000, "West Crossbell HIghway")
     PlaceName(-238.0500030517578, 0.0, 225.39999389648438, 0x0000, 0x0000, "Mainz Mountain Road")
     PlaceName(-88.0, 0.0, 360.0, 0x0000, 0x0000, "Orchis Tower")
     PlaceName(-135.99000549316406, 0.0, 90.8499984741211, 0x0000, 0x0051, "")
@@ -111,12 +113,12 @@ def main():
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1EB, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_435")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1EB, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_431")
     Sound(14, 0, 100, 0)
     OP_74(0x7, 0x1E)
     OP_71(0x7, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('珊瑚戒指', 1)"), scpexpr(EXPR_END)), "loc_3BE")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x3D, 1)"), scpexpr(EXPR_END)), "loc_3BA")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -125,9 +127,9 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '珊瑚戒指'),
+            scpstr(SCPSTR_CODE_ITEM, 0x3D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I got it.\x02",
+            " obtained.\x02",
         )
     )
 
@@ -137,9 +139,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1EB, 5)
     OP_E0(0x5, 0x0)
-    Jump("loc_430")
+    Jump("loc_42C")
 
-    label("loc_3BE")
+    label("loc_3BA")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -147,14 +149,10 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "In the treasure box",
-            scpstr(SCPSTR_CODE_ITEM, '珊瑚戒指'),
+            scpstr(SCPSTR_CODE_ITEM, 0x3D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "Is contained.\x01",
-            "Because my belongings are full,",
-            scpstr(SCPSTR_CODE_ITEM, '珊瑚戒指'),
-            scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I gave up.\x02",
+            " is inside the chest.\x01",
+            "Since you have too many, you gave it up.\x02",
         )
     )
 
@@ -164,11 +162,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x7, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_430")
+    label("loc_42C")
 
-    Jump("loc_47A")
+    Jump("loc_47B")
 
-    label("loc_435")
+    label("loc_431")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -179,7 +177,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the treasure box.\x07\x00\x02",
+            "There is nothing in the chest. \x07\x00\x02",
         )
     )
 
@@ -187,7 +185,7 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_47A")
+    label("loc_47B")
 
     Sleep(30)
     TalkEnd(0xFF)

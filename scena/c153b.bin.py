@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c153b.bin",                # FileName
         "c153b",                    # MapName
@@ -19,14 +21,14 @@ def main():
 
     BuildStringList((
         "c153b",                  # 0
-        "Mayor of Dieter",         # 1
-        "McDowell",         # 2
-        "Dudley investigator",         # 3
-        "Sonya Command",           # 4
-        "Douglas deputy command",         # 5
-        "Sergey Manager",           # 6
-        "Pierre deputy director",         # 7
-        "Director-General",                 # 8
+        "Mayor Dieter",           # 1
+        "Chairman MacDowell",     # 2
+        "Detective Dudley",       # 3
+        "Commander Sonya",        # 4
+        "Vice Commander Douglas", # 5
+        "Chief Sergei",           # 6
+        "Vice Chief Pierre",      # 7
+        "Bureau Director?",       # 8
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -138,9 +140,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#02503F#11PWhat a thing to happen…\x02\x03",
-            "#02501FNo way it was a big deal this far\x01",
-            "It is said that a solitary warrior causes.\x02",
+            "#02503F#11PMy Goddess...\x02\x03",
+            "#02501FI'd never thought one group of jaegers\x01",
+            "could cause such a monstrous thing...\x02",
         )
     )
 
@@ -151,9 +153,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#02803F…… There is something behind us\x01",
-            "There is no mistake.\x02\x03",
-            "#02801FIt's just like with the trade conference\x02",
+            "#5P#02803F...No doubt that someone\x01",
+            "is behind this.\x02\x03",
+            "#02801FAlso, at the same time of the Trade Conference...\x02",
         )
     )
 
@@ -162,9 +164,9 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#6P#01003FThe Erebonia government\x02\x03",
-            "#01001FNo, if you dare to identify it\x01",
-            "Is it \"Imperial Army Information Bureau\"?\x02",
+            "#6P#01003FThe Erebonian Imperial government...\x02\x03",
+            "#01001FNo, daring to be specific, the\x01",
+            ""Imperial Army Intelligence Division"?\x02",
         )
     )
 
@@ -173,11 +175,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#12P#00606FIf the possibility is high\x01",
-            "I can not help but say …\x02\x03",
-            "#00601FEven with this crossbell\x01",
-            "The officer of the information department \"red constellation\"\x01",
-            "I kept in touch frequently.\x02",
+            "#12P#00606FI can state that that possibility\x01",
+            "is very high...\x02\x03",
+            "#00601FEven in Crossbell, an intelligence\x01",
+            "bureau officer exchanged messages\x01",
+            "frequently with the "Red Constellation".\x02",
         )
     )
 
@@ -186,9 +188,9 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#6PHere it is,\x01",
-            "Only trying to cry on the Imperial Government\x01",
-            "I do not think so! Is it?\x02",
+            "#6PB-Being this the situation, we\x01",
+            "can only beg the Imperial\x01",
+            "government for mercy, right!?\x02",
         )
     )
 
@@ -197,8 +199,8 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#6POr ask the Republic Government\x01",
-            "Or getting to be on your side … …!\x02",
+            "#6POr otherwise, begging the Republican\x01",
+            "government to become our ally...!\x02",
         )
     )
 
@@ -207,13 +209,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#02803FNo, already in the daytime\x01",
-            "I am inquiring the Imperial Government.\x02\x03",
-            "#02801FNaturally you will reply …\x01",
-            "It was \"I do not remember\".\x02\x03",
-            "#02806F…… And this is my responsibility\x01",
-            "Since Independent Recommendation, the Republic Government also\x01",
-            "I am not in a situation to ask for cooperation.\x02",
+            "#5P#02803FWell, with the occasion, during the day\x01",
+            "I already inquired the Imperial government.\x02\x03",
+            "#02801FI knew their obvious reply...\x01",
+            ""We don't know anything about it", it was.\x02\x03",
+            "#02806F...Also, this is my responsibility. After the \x01",
+            "independence proposal, I am not in a situation \x01",
+            "I can ask the Republican government to aid us.\x02",
         )
     )
 
@@ -221,7 +223,7 @@ def main():
 
     ChrTalk(
         0xE,
-        "#6PN-no way\x02",
+        "#6PN-No way...\x02",
     )
 
     CloseMessageWindow()
@@ -229,8 +231,8 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#6P……No!\x01",
-            "Never the mayor's responsibility!\x02",
+            "#6P...N-No!\x01",
+            "It's not the mayor's fault at all!\x02",
         )
     )
 
@@ -239,11 +241,11 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#02503F#11PEither way …\x01",
-            "As it is, as autonomous state government\x01",
-            "There is no choice but to issue a formal protest statement.\x02\x03",
-            "#02500FBut … anyway\x01",
-            "I am concerned about the safety of Mainz residents.\x02",
+            "#02503F#11PAt any rate... In this situation, even as\x01",
+            "the autonomous state government, we can\x01",
+            "only issue a formal protest declaration.\x02\x03",
+            "#02500FStill... In any case, I'm worried\x01",
+            "about Mainz citizens' safety.\x02",
         )
     )
 
@@ -252,10 +254,10 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#6P#02003F… … Ask a private flying boat\x01",
-            "I managed to confirm from the sky somehow.\x02\x03",
-            "#02001FAt the present time, acts such as looting\x01",
-            "There is no indication of being done.\x02",
+            "#6P#02003F...After requesting a civilian airliner, we could\x01",
+            "somehow check the situation from the skies.\x02\x03",
+            "#02001FAt present, pillaging acts and similars\x01",
+            "appear to have not occurred.\x02",
         )
     )
 
@@ -264,8 +266,8 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#5PHowever, residents of Mainz,\x01",
-            "The situation of being a hostage does not change.\x02",
+            "#5PHowever, Mainz citizens\x01",
+            "are hostages.\x02",
         )
     )
 
@@ -274,8 +276,8 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#5PI am worried about stockpiling of food,\x01",
-            "I can not do gozugu.\x02",
+            "#5PI'm worried for their emergency food.\x01",
+            "We can't dilly-dally.\x02",
         )
     )
 
@@ -286,9 +288,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#02803FWe will of course plan a counterattack right away\x02\x03",
-            "#02801F…… The damage of the guard\x01",
-            "How much was it?\x02",
+            "#11P#02803FOf course, let's take immediate countermeasures.\x02\x03",
+            "#02801F...At what level was the CGF damage?\x01\x02",
         )
     )
 
@@ -297,10 +298,10 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#6P#02006F…… both human and physical damage\x01",
-            "I can not help being said to be enormous.\x02\x03",
-            "#02001FCurrently, all of the reserve strength\x01",
-            "It is a situation that is developing on the mountain path.\x02",
+            "#6P#02006F...I have to say it was very great,\x01",
+            "humanly and materially.\x02\x03",
+            "#02001FAt present, we are fully deployed\x01",
+            "on the mountain path.\x02",
         )
     )
 
@@ -308,7 +309,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P#02806FI see…\x02",
+        "#11P#02806FI see...\x02",
     )
 
     CloseMessageWindow()
@@ -318,13 +319,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02801F#5P── The opponent is a battle pro\x01",
-            "It is a group hired by Mira to the last.\x02\x03",
-            "Depending on the negotiations, more disasters\x01",
-            "There is also the possibility of being stopped.\x02\x03",
-            "To the police,\x01",
-            "At the same time as we suppress civic unrest\x01",
-            "I also want you to explore the possibilities around that.\x02",
+            "#02801F#5P──Our enemies are war professionals,\x01",
+            "but after all they're a mira employed group.\x02\x03",
+            "According to negotiations, it's also possible that\x01",
+            "we can hold back a bigger disaster than this.\x02\x03",
+            "I want the members of the police to\x01",
+            "look for such a possibility and, at the\x01",
+            "same time, to quell the citizens' anxiety.\x02",
         )
     )
 
@@ -332,14 +333,14 @@ def main():
 
     ChrTalk(
         0xA,
-        "#12P#00601FUnderstood!\x02",
+        "#12P#00601FRoger!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0xE,
-        "#6PAt once!\x02",
+        "#6PA-At once!\x02",
     )
 
     CloseMessageWindow()
@@ -347,8 +348,8 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#6P#01003FAlso contact the guild\x01",
-            "Do you want to try your hand …?\x02",
+            "#6P#01003FI guess I'll contact the Guild too\x01",
+            "and try all possible means...\x02",
         )
     )
 

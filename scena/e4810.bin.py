@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "e4810.bin",                # FileName
         "e4810",                    # MapName
@@ -19,7 +21,7 @@ def main():
 
     BuildStringList((
         "e4810",                  # 0
-        "SE control",                 # 1
+        "SE制御",                 # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -30,9 +32,9 @@ def main():
         "Function_0_C8",           # 00, 0
         "Function_1_D8",           # 01, 1
         "Function_2_DD",           # 02, 2
-        "Function_3_49E",          # 03, 3
-        "Function_4_4D6",          # 04, 4
-        "Function_5_507",          # 05, 5
+        "Function_3_4C9",          # 03, 3
+        "Function_4_501",          # 04, 4
+        "Function_5_532",          # 05, 5
     ))
 
 
@@ -88,14 +90,14 @@ def main():
     OP_71(0x1, 0x0, 0x12C, 0x0, 0x0)
     BeginChrThread(0x8, 1, 0, 4)
     OP_79(0x1)
-    SetChrName("boy")
+    SetChrName("Boy")
 
     AnonymousTalk(
         0xFF,
         (
-            "#04804FHoshin#4RAstral#Code of\x01",
-            "Complete installation …\x02\x03",
-            "#04802FWell then let's begin\x02",
+            "#04804F"Astral Code" installation,\x01",
+            "complete.\x02\x03",
+            "#04802FThen, I guess I'll begin.\x02",
         )
     )
 
@@ -119,17 +121,17 @@ def main():
     FadeToBright(2000, 16777215)
     OP_0D()
     Sleep(500)
-    SetChrName("boy")
+    SetChrName("Boy")
 
     AnonymousTalk(
         0xFF,
         (
-            "#04803F#30W─ ─ Access to topological space.\x01",
-            "Start searching the whole area of the power net.\x02\x03",
-            "Confirming possible routes\x02\x03",
-            "#04801FFirewall 1, 2, and 3 clear\x02\x03",
-            "Successful analysis of logic key.\x01",
-            "Capture the final barrier to the main terminal …\x02",
+            "#04803F#30W──Access to phase space.\x01",
+            "Begin searching the orbal net whole domain.\x02\x03",
+            "Secure entry from multiple routes.\x02\x03",
+            "#04801FFirst, second and third protections, cleared...\x02\x03",
+            "Successful analysis of the logic key.\x01",
+            "Main terminal final protection, breached...\x02",
         )
     )
 
@@ -154,15 +156,15 @@ def main():
     OP_0D()
     BeginChrThread(0x8, 1, 0, 5)
     Sleep(2000)
-    SetChrName("boy")
+    SetChrName("Boy")
 
     AnonymousTalk(
         0xFF,
         (
-            "#04804FPhuff, as expected\x01",
-            "You may just be proud of it.\x02\x03",
-            "#04802FWell, as keeping fun\x01",
-            "I'm going to catch a trick of tricks.\x02",
+            "#04804FHu hu, it's not the Doctor's\x01",
+            "pride for nothing.\x02\x03",
+            "#04802FWell then, I'll set aside the fun\x01",
+            "and I guess I'll look for information.\x02",
         )
     )
 
@@ -188,31 +190,31 @@ def main():
 
     # Function_2_DD end
 
-    def Function_3_49E(): pass
+    def Function_3_4C9(): pass
 
-    label("Function_3_49E")
+    label("Function_3_4C9")
 
     MoveCamera(132, 22, 0, 5000)
     OP_6F(0x79)
 
-    label("loc_4AB")
+    label("loc_4D6")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_4D5")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_500")
     MoveCamera(119, -1, 0, 10000)
     OP_6F(0x79)
     MoveCamera(132, 22, 0, 10000)
     OP_6F(0x79)
-    Jump("loc_4AB")
+    Jump("loc_4D6")
 
-    label("loc_4D5")
+    label("loc_500")
 
     Return()
 
-    # Function_3_49E end
+    # Function_3_4C9 end
 
-    def Function_4_4D6(): pass
+    def Function_4_501(): pass
 
-    label("Function_4_4D6")
+    label("Function_4_501")
 
     Sound(939, 2, 100, 0)
     Sleep(800)
@@ -226,11 +228,11 @@ def main():
     Sound(935, 0, 100, 0)
     Return()
 
-    # Function_4_4D6 end
+    # Function_4_501 end
 
-    def Function_5_507(): pass
+    def Function_5_532(): pass
 
-    label("Function_5_507")
+    label("Function_5_532")
 
     Sound(839, 0, 100, 0)
     Sleep(400)
@@ -241,7 +243,7 @@ def main():
     Sound(839, 0, 100, 0)
     Return()
 
-    # Function_5_507 end
+    # Function_5_532 end
 
     SaveToFile()
 

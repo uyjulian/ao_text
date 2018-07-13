@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c1000_1.bin",                # FileName
         "map1",                    # MapName
@@ -54,8 +56,8 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00005FYes, Special Affairs Support Division,\x01",
-            "It is Lloyd · Bannings.\x02",
+            "#00005FYes, Special Support Section,\x01",
+            "Lloyd Bannings speaking.\x02",
         )
     )
 
@@ -64,14 +66,14 @@ def main():
     OP_5A()
     OP_C9(0x0, 0x80000000)
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("Voice of Franc")
+    SetChrName("Fran's Voice")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#2711V#30WMr. Lloyd ~!\x02\x03",
-            "#2712V#30WIt is a hard work in the rain.\x02",
+            "#2711V#30WHello, Mr. Lloooyd!\x02\x03",
+            "#2712V#30WThank you for your hard work in the raaain.\x02",
         )
     )
 
@@ -86,9 +88,9 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00002FOh, Fran?\x02\x03",
-            "#00000FWhat happened?\x01",
-            "Did you also enter an emergency request?\x02",
+            "#00002FAh, Fran?\x02\x03",
+            "#00000FIs something wrong?\x01",
+            "Has an urgent request come in?\x02",
         )
     )
 
@@ -96,15 +98,15 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("Voice of Franc")
+    SetChrName("Fran's Voice")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Er, that is ……\x02\x03",
-            "Mayex's Mayor of town\x01",
-            "Do you remember?\x02",
+            "Ehm, well...\x02\x03",
+            "Do you remember Mainz\x01",
+            "Town Mayor, Bickson?\x02",
         )
     )
 
@@ -117,7 +119,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00005FOh, of course.\x02",
+            "#00005FYeah, of course.\x02",
         )
     )
 
@@ -140,8 +142,8 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00001FPossibly\x01",
-            "Did something happen in the mining town?\x02",
+            "#00001F...Could it be that something has\x01",
+            "happened at the mining town?\x02",
         )
     )
 
@@ -149,17 +151,17 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("Voice of Franc")
+    SetChrName("Fran's Voice")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Yeah, that is to mine\x01",
-            "It seems that a monster has appeared … …\x02\x03",
-            "Oh, by the way,\x01",
-            "It is a little away from the town\x01",
-            "It seems to be the former mine.\x02",
+            "Yes, it appears that monsters\x01",
+            "showed up inside the mine...\x02\x03",
+            "Ah, however, it seems it's\x01",
+            "an old mine located a little\x01",
+            "far away from the town.\x02",
         )
     )
 
@@ -172,9 +174,9 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00005F……?\x02\x03",
-            "#00001FEven if a monster appears at such a place\x01",
-            "I do not think it's strange … ….\x02",
+            "#00005F...?\x02\x03",
+            "#00001FI don't think it's strange for monsters\x01",
+            "to appear in such a place...\x02",
         )
     )
 
@@ -182,18 +184,18 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("Voice of Franc")
+    SetChrName("Fran's Voice")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Yes, the miners hurt\x01",
-            "I heard that he did not come across.\x02\x03",
-            "Just inside, something strange\x01",
-            "It seems they are getting … ….\x02\x03",
-            "Just to be sure you can check it\x01",
-            "That was it.\x02",
+            "Yes, and it's not that any harm\x01",
+            "came to the miners too.\x02\x03",
+            "It's just that it appears that something\x01",
+            "very strange is happening inside...\x02\x03",
+            "To sum it up, he asks if you\x01",
+            "could investigate just in case.\x02",
         )
     )
 
@@ -206,11 +208,11 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00003FFunny thing …\x01",
-            "There is little point.\x02\x03",
-            "#00000F─ ─ It turned out.\x01",
-            "I cleared up the emergency request in the city,\x01",
-            "I will head to Mainz from now.\x02",
+            "#00003FSomething very strange...\x01",
+            "That's a bit incomprehensible.\x02\x03",
+            "#00000F──All right.\x01",
+            "We took care of the urgent requests in the\x01",
+            "city, so we'll head to Mainz from now on.\x02",
         )
     )
 
@@ -218,18 +220,18 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("Voice of Franc")
+    SetChrName("Fran's Voice")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Yes, please.\x02\x03",
-            "Oh, I will tell you\x01",
-            "In the direction of Mainz train direction earlier\x01",
-            "Designation of an arrangement magical beast came out.\x02\x03",
-            "If there is room\x01",
-            "Please try to correspond.\x02",
+            "Yes, pleeease.\x02\x03",
+            "Ah, I'm taking the opportunity to also tell\x01",
+            "you that, just before, a Wanted Monster\x01",
+            "request appeared for Mainz Mountain Path.\x02\x03",
+            "Please deal with it if you\x01",
+            "have time on your hands.\x02",
         )
     )
 
@@ -242,7 +244,7 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00002FThat's right, OK.\x02",
+            "#00002FI see, understood.\x02",
         )
     )
 
@@ -250,16 +252,16 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("Voice of Franc")
+    SetChrName("Fran's Voice")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Also, unlike Crossbell City\x01",
-            "The mountain road seems to be sunny.\x02\x03",
-            "Because it's so hard to drive with a car\x01",
-            "Why do not you visit?\x02",
+            "Also, unlike Crossbell City, it appears that\x01",
+            "there's a clear sky on Mainz Mountain Path.\x02\x03",
+            "Since you can, why not going\x01",
+            "there with your orbal car?\x02",
         )
     )
 
@@ -272,9 +274,9 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00004FIs it so … I knew.\x02\x03",
+            "#00004FIs that so? Got it.\x02\x03",
             "#00000FThank you, Fran.\x01",
-            "Please contact me again if there is something.\x02",
+            "If something comes up, contact us again.\x02",
         )
     )
 
@@ -282,13 +284,13 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("Voice of Franc")
+    SetChrName("Fran's Voice")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Yes, I will excuse myself.\x07\x00\x02",
+            "Yes, then excuse meee.\x07\x00\x02",
         )
     )
 
@@ -306,7 +308,7 @@ def main():
 
     AnonymousTalk(
         0x109,
-        "#10105FI'd like to be from Franc.\x02",
+        "#10105FIt seemed from Fran.\x02",
     )
 
     CloseMessageWindow()
@@ -317,8 +319,8 @@ def main():
     AnonymousTalk(
         0x102,
         (
-            "#00101FDirections to Mainz\x01",
-            "It looks like something happened?\x02",
+            "#00101FIt seems something has\x01",
+            "happened in the Mainz region?\x02",
         )
     )
 
@@ -330,12 +332,12 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00006FOh, in the place called the former mine\x01",
-            "It seems that strange things have happened.\x02\x03",
-            "#00000FI have also cleared up the city's support request,\x01",
-            "Let's go when you are ready.\x02\x03",
-            "#00002FOh, it seems that the direction of the mountain road is sunny\x01",
-            "It may be good to go by car.\x02",
+            "#00006FYeah, in an old mine it seems\x01",
+            "something strange is going on.\x02\x03",
+            "#00000FWe have cleared the support requests inside\x01",
+            "the city, so let's go after we're prepared.\x02\x03",
+            "#00002FOh, since it appears the weather is clear \x01",
+            "over there, we could go with the car.\x02",
         )
     )
 
@@ -346,7 +348,7 @@ def main():
 
     AnonymousTalk(
         0x105,
-        "#10304FOK, the leader.\x02",
+        "#10304FRoger, leader.\x02",
     )
 
     CloseMessageWindow()
@@ -357,8 +359,9 @@ def main():
     AnonymousTalk(
         0x109,
         (
-            "#10100FIf you go to mining town by car\x01",
-            "Let's go to the back door of the support department.\x02",
+            "#10100FIf we're going to the mining town with the car,\x01",
+            "then let's go to the Support Section back \x01",
+            "entrance.\x02",
         )
     )
 
@@ -374,8 +377,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "To the terminal of the investigation notebook and support department\x01",
-            "A new arrangement demon was added.\x07\x00\x02",
+            "A new Wanted Monster was added to the Detective\x01",
+            "Notebook and the Support Section terminal.\x07\x00\x02",
         )
     )
 

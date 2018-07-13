@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "b0100.bin",                # FileName
         "b0100",                    # MapName
@@ -27,7 +29,7 @@ def main():
         "Function_0_194",          # 00, 0
         "Function_1_245",          # 01, 1
         "Function_2_246",          # 02, 2
-        "Function_3_557",          # 03, 3
+        "Function_3_53A",          # 03, 3
     ))
 
 
@@ -82,7 +84,7 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "Event viewer",
+            "　　　Event Viewer",
             scpstr(0x18),
             scpstr(0x6),
             scpstr(SCPSTR_CODE_ENTER),
@@ -90,109 +92,109 @@ def main():
     )
 
     MenuCmd(0, 0)
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x28, 0x1)"), scpexpr(EXPR_END)), "loc_2BE")
-    MenuCmd(1, 0, "Bonds with Erie")
-    Jump("loc_2D2")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x28, 0x1)"), scpexpr(EXPR_END)), "loc_2BC")
+    MenuCmd(1, 0, "Bond with Elie")
+    Jump("loc_2CA")
 
-    label("loc_2BE")
+    label("loc_2BC")
 
-    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x0)
 
-    label("loc_2D2")
+    label("loc_2CA")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x29, 0x1)"), scpexpr(EXPR_END)), "loc_2F1")
-    MenuCmd(1, 0, "Ties with Tio")
-    Jump("loc_305")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x29, 0x1)"), scpexpr(EXPR_END)), "loc_2EA")
+    MenuCmd(1, 0, "Bond with Tio")
+    Jump("loc_2F8")
 
-    label("loc_2F1")
+    label("loc_2EA")
 
-    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x1)
 
-    label("loc_305")
+    label("loc_2F8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x2A, 0x1)"), scpexpr(EXPR_END)), "loc_326")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x2A, 0x1)"), scpexpr(EXPR_END)), "loc_31A")
     MenuCmd(1, 0, "Bond with Randy")
-    Jump("loc_33A")
+    Jump("loc_328")
 
-    label("loc_326")
+    label("loc_31A")
 
-    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x2)
 
-    label("loc_33A")
+    label("loc_328")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x25, 0x1)"), scpexpr(EXPR_END)), "loc_359")
-    MenuCmd(1, 0, "Bonds with Noel")
-    Jump("loc_36D")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x25, 0x1)"), scpexpr(EXPR_END)), "loc_349")
+    MenuCmd(1, 0, "Bond with Noｱl")
+    Jump("loc_357")
 
-    label("loc_359")
+    label("loc_349")
 
-    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x3)
 
-    label("loc_36D")
+    label("loc_357")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x26, 0x1)"), scpexpr(EXPR_END)), "loc_38A")
-    MenuCmd(1, 0, "Bonds with Wadi")
-    Jump("loc_39E")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x26, 0x1)"), scpexpr(EXPR_END)), "loc_378")
+    MenuCmd(1, 0, "Bond with Wazy")
+    Jump("loc_386")
 
-    label("loc_38A")
+    label("loc_378")
 
-    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x4)
 
-    label("loc_39E")
+    label("loc_386")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x27, 0x1)"), scpexpr(EXPR_END)), "loc_3BF")
-    MenuCmd(1, 0, "Bonds with Lisha")
-    Jump("loc_3D3")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_E0(0x27, 0x1)"), scpexpr(EXPR_END)), "loc_3A8")
+    MenuCmd(1, 0, "Bond with Rixia")
+    Jump("loc_3B6")
 
-    label("loc_3BF")
+    label("loc_3A8")
 
-    MenuCmd(1, 0, "Is it? Is it? Is it? Is it? Is it? Is it?")
+    MenuCmd(1, 0, "??????")
     MenuCmd(3, 0, 0x5)
 
-    label("loc_3D3")
+    label("loc_3B6")
 
-    MenuCmd(1, 0, "Return")
+    MenuCmd(1, 0, "Back")
     MenuCmd(4, 0, 0x3)
     MenuCmd(2, 0, -1, 56, 1)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AA, 3)), scpexpr(EXPR_END)), "loc_3F9")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AA, 3)), scpexpr(EXPR_END)), "loc_3DC")
     MenuCmd(5, 0, 0x0)
-    Jump("loc_44E")
+    Jump("loc_431")
 
-    label("loc_3F9")
+    label("loc_3DC")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AA, 4)), scpexpr(EXPR_END)), "loc_40B")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AA, 4)), scpexpr(EXPR_END)), "loc_3EE")
     MenuCmd(5, 0, 0x1)
-    Jump("loc_44E")
+    Jump("loc_431")
 
-    label("loc_40B")
+    label("loc_3EE")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AA, 5)), scpexpr(EXPR_END)), "loc_41D")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AA, 5)), scpexpr(EXPR_END)), "loc_400")
     MenuCmd(5, 0, 0x2)
-    Jump("loc_44E")
+    Jump("loc_431")
 
-    label("loc_41D")
+    label("loc_400")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AA, 6)), scpexpr(EXPR_END)), "loc_42F")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AA, 6)), scpexpr(EXPR_END)), "loc_412")
     MenuCmd(5, 0, 0x3)
-    Jump("loc_44E")
+    Jump("loc_431")
 
-    label("loc_42F")
+    label("loc_412")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AA, 7)), scpexpr(EXPR_END)), "loc_441")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AA, 7)), scpexpr(EXPR_END)), "loc_424")
     MenuCmd(5, 0, 0x4)
-    Jump("loc_44E")
+    Jump("loc_431")
 
-    label("loc_441")
+    label("loc_424")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AB, 0)), scpexpr(EXPR_END)), "loc_44E")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1AB, 0)), scpexpr(EXPR_END)), "loc_431")
     MenuCmd(5, 0, 0x5)
 
-    label("loc_44E")
+    label("loc_431")
 
     ClearScenarioFlags(0x22, 0)
     ClearScenarioFlags(0x1AA, 3)
@@ -205,71 +207,71 @@ def main():
     MenuCmd(6, 1)
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
-        (0, "loc_497"),
-        (1, "loc_4AE"),
-        (2, "loc_4C5"),
-        (3, "loc_4DC"),
-        (4, "loc_4F3"),
-        (5, "loc_50A"),
-        (SWITCH_DEFAULT, "loc_521"),
+        (0, "loc_47A"),
+        (1, "loc_491"),
+        (2, "loc_4A8"),
+        (3, "loc_4BF"),
+        (4, "loc_4D6"),
+        (5, "loc_4ED"),
+        (SWITCH_DEFAULT, "loc_504"),
     )
 
 
-    label("loc_497")
+    label("loc_47A")
 
     SetScenarioFlags(0x22, 0)
     SetScenarioFlags(0x1AA, 3)
     Call(0, 3)
     NewScene("e440B", 0, 0, 0)
     IdleLoop()
-    Jump("loc_556")
+    Jump("loc_539")
 
-    label("loc_4AE")
+    label("loc_491")
 
     SetScenarioFlags(0x22, 0)
     SetScenarioFlags(0x1AA, 4)
     Call(0, 3)
     NewScene("e440B", 0, 0, 0)
     IdleLoop()
-    Jump("loc_556")
+    Jump("loc_539")
 
-    label("loc_4C5")
+    label("loc_4A8")
 
     SetScenarioFlags(0x22, 0)
     SetScenarioFlags(0x1AA, 5)
     Call(0, 3)
     NewScene("e440B", 0, 0, 0)
     IdleLoop()
-    Jump("loc_556")
+    Jump("loc_539")
 
-    label("loc_4DC")
+    label("loc_4BF")
 
     SetScenarioFlags(0x22, 0)
     SetScenarioFlags(0x1AA, 6)
     Call(0, 3)
     NewScene("e440B", 0, 0, 0)
     IdleLoop()
-    Jump("loc_556")
+    Jump("loc_539")
 
-    label("loc_4F3")
+    label("loc_4D6")
 
     SetScenarioFlags(0x22, 0)
     SetScenarioFlags(0x1AA, 7)
     Call(0, 3)
     NewScene("e440B", 0, 0, 0)
     IdleLoop()
-    Jump("loc_556")
+    Jump("loc_539")
 
-    label("loc_50A")
+    label("loc_4ED")
 
     SetScenarioFlags(0x22, 0)
     SetScenarioFlags(0x1AB, 0)
     Call(0, 3)
     NewScene("e440B", 0, 0, 0)
     IdleLoop()
-    Jump("loc_556")
+    Jump("loc_539")
 
-    label("loc_521")
+    label("loc_504")
 
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     OP_60(0x0)
@@ -278,17 +280,17 @@ def main():
     OP_CB(0x0, 0x3, 0xFFFFFF, 0x1F4, 0x0, 0x0)
     Sleep(1000)
     OP_B9(0x2)
-    Jump("loc_556")
+    Jump("loc_539")
 
-    label("loc_556")
+    label("loc_539")
 
     Return()
 
     # Function_2_246 end
 
-    def Function_3_557(): pass
+    def Function_3_53A(): pass
 
-    label("Function_3_557")
+    label("Function_3_53A")
 
     OP_60(0x0)
     OP_57(0x0)
@@ -299,7 +301,7 @@ def main():
     OP_C9(0x1, 0x10)
     Return()
 
-    # Function_3_557 end
+    # Function_3_53A end
 
     SaveToFile()
 

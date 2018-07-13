@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c1580.bin",                # FileName
         "c1580",                    # MapName
@@ -27,9 +29,9 @@ def main():
 
     ATBonus("ATBonus_3F8", 100, 5, 1, 5, 1, 5, 1, 5, 5, 5, 5, 5, 5, 0, 0, 0)
 
-    Sepith("Sepith_255D", 16,  4,   16,  4,   12,  4,   4)
-    Sepith("Sepith_254D", 10,  9,   10,  9,   0,   8,   8)
-    Sepith("Sepith_2545", 8,   8,   8,   8,   11,  11,  11)
+    Sepith("Sepith_260B", 16,  4,   16,  4,   12,  4,   4)
+    Sepith("Sepith_25FB", 10,  9,   10,  9,   0,   8,   8)
+    Sepith("Sepith_25F3", 8,   8,   8,   8,   11,  11,  11)
 
     MonsterBattlePostion("MonsterBattlePostion_448", 8, 8, 180)
     MonsterBattlePostion("MonsterBattlePostion_44C", 5, 9, 180)
@@ -59,7 +61,7 @@ def main():
     # monster count: 15
 
     BattleInfo(
-        "BattleInfo_69C", 0x0010, 95, 6, 60, 4, 1, 20, 0, "bc1510", "Sepith_255D", 60, 25, 10, 0,
+        "BattleInfo_69C", 0x0010, 95, 6, 60, 4, 1, 20, 0, "bc1510", "Sepith_260B", 60, 25, 10, 0,
         (
             ("ms79200.dat", 0, 0, 0, 0, 0, "ms82600.dat", 0, "MonsterBattlePostion_448", "MonsterBattlePostion_4A8", "ed7450", "ed7453", "ATBonus_3F8"),
             ("ms79200.dat", "ms82600.dat", 0, 0, 0, 0, "ms82600.dat", 0, "MonsterBattlePostion_428", "MonsterBattlePostion_4A8", "ed7450", "ed7453", "ATBonus_3F8"),
@@ -69,7 +71,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_564", 0x0000, 95, 6, 60, 4, 1, 30, 0, "bc1510", "Sepith_254D", 60, 30, 10, 0,
+        "BattleInfo_564", 0x0000, 95, 6, 60, 4, 1, 30, 0, "bc1510", "Sepith_25FB", 60, 30, 10, 0,
         (
             ("ms82600.dat", "ms82600.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_428", "MonsterBattlePostion_4A8", "ed7450", "ed7453", "ATBonus_3F8"),
             ("ms82600.dat", "ms82600.dat", "ms82600.dat", 0, 0, 0, 0, 0, "MonsterBattlePostion_448", "MonsterBattlePostion_4A8", "ed7450", "ed7453", "ATBonus_3F8"),
@@ -79,7 +81,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_4C8", 0x0000, 95, 6, 60, 4, 1, 25, 0, "bc1510", "Sepith_2545", 60, 30, 10, 0,
+        "BattleInfo_4C8", 0x0000, 95, 6, 60, 4, 1, 25, 0, "bc1510", "Sepith_25F3", 60, 30, 10, 0,
         (
             ("ms85101.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_448", "MonsterBattlePostion_4A8", "ed7450", "ed7453", "ATBonus_3F8"),
             ("ms85101.dat", "ms82600.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_428", "MonsterBattlePostion_4A8", "ed7450", "ed7453", "ATBonus_3F8"),
@@ -89,7 +91,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_600", 0x0000, 95, 6, 60, 4, 1, 30, 0, "bc1520", "Sepith_254D", 60, 25, 10, 0,
+        "BattleInfo_600", 0x0000, 95, 6, 60, 4, 1, 30, 0, "bc1520", "Sepith_25FB", 60, 25, 10, 0,
         (
             ("ms82600.dat", "ms82600.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_428", "MonsterBattlePostion_4A8", "ed7450", "ed7453", "ATBonus_3F8"),
             ("ms82600.dat", "ms82600.dat", "ms82600.dat", 0, 0, 0, 0, 0, "MonsterBattlePostion_448", "MonsterBattlePostion_4A8", "ed7450", "ed7453", "ATBonus_3F8"),
@@ -162,15 +164,15 @@ def main():
         "Function_0_7B0",          # 00, 0
         "Function_1_7E3",          # 01, 1
         "Function_2_10E7",         # 02, 2
-        "Function_3_1238",         # 03, 3
-        "Function_4_1389",         # 04, 4
-        "Function_5_14DA",         # 05, 5
-        "Function_6_164F",         # 06, 6
-        "Function_7_1653",         # 07, 7
-        "Function_8_174F",         # 08, 8
-        "Function_9_1756",         # 09, 9
-        "Function_10_195C",        # 0A, 10
-        "Function_11_1B0F",        # 0B, 11
+        "Function_3_1239",         # 03, 3
+        "Function_4_138B",         # 04, 4
+        "Function_5_14DD",         # 05, 5
+        "Function_6_163E",         # 06, 6
+        "Function_7_1642",         # 07, 7
+        "Function_8_1738",         # 08, 8
+        "Function_9_173F",         # 09, 9
+        "Function_10_1951",        # 0A, 10
+        "Function_11_1B10",        # 0B, 11
     ))
 
 
@@ -469,12 +471,12 @@ def main():
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F8, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_11E7")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F8, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_11E3")
     Sound(14, 0, 100, 0)
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('爆灵宝玉', 1)"), scpexpr(EXPR_END)), "loc_1170")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x20C, 1)"), scpexpr(EXPR_END)), "loc_116C")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -483,9 +485,9 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '爆灵宝玉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x20C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I got it.\x02",
+            " obtained.\x02",
         )
     )
 
@@ -495,9 +497,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1F8, 0)
     OP_E0(0x5, 0x0)
-    Jump("loc_11E2")
+    Jump("loc_11DE")
 
-    label("loc_1170")
+    label("loc_116C")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -505,14 +507,10 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "In the treasure box",
-            scpstr(SCPSTR_CODE_ITEM, '爆灵宝玉'),
+            scpstr(SCPSTR_CODE_ITEM, 0x20C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "Is contained.\x01",
-            "Because my belongings are full,",
-            scpstr(SCPSTR_CODE_ITEM, '爆灵宝玉'),
-            scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I gave up.\x02",
+            " is inside the chest.\x01",
+            "Since you have too many, you gave it up.\x02",
         )
     )
 
@@ -522,11 +520,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x1, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_11E2")
+    label("loc_11DE")
 
-    Jump("loc_122C")
+    Jump("loc_122D")
 
-    label("loc_11E7")
+    label("loc_11E3")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -537,7 +535,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the treasure box.\x07\x00\x02",
+            "There is nothing in the chest. \x07\x00\x02",
         )
     )
 
@@ -545,7 +543,7 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_122C")
+    label("loc_122D")
 
     Sleep(30)
     TalkEnd(0xFF)
@@ -554,18 +552,18 @@ def main():
 
     # Function_2_10E7 end
 
-    def Function_3_1238(): pass
+    def Function_3_1239(): pass
 
-    label("Function_3_1238")
+    label("Function_3_1239")
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F8, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1338")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F8, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1335")
     Sound(14, 0, 100, 0)
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('暴风长袍', 1)"), scpexpr(EXPR_END)), "loc_12C1")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x5F1, 1)"), scpexpr(EXPR_END)), "loc_12BE")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -574,9 +572,9 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '暴风长袍'),
+            scpstr(SCPSTR_CODE_ITEM, 0x5F1),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I got it.\x02",
+            " obtained.\x02",
         )
     )
 
@@ -586,9 +584,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1F8, 1)
     OP_E0(0x5, 0x0)
-    Jump("loc_1333")
+    Jump("loc_1330")
 
-    label("loc_12C1")
+    label("loc_12BE")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -596,14 +594,10 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "In the treasure box",
-            scpstr(SCPSTR_CODE_ITEM, '暴风长袍'),
+            scpstr(SCPSTR_CODE_ITEM, 0x5F1),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "Is contained.\x01",
-            "Because my belongings are full,",
-            scpstr(SCPSTR_CODE_ITEM, '暴风长袍'),
-            scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I gave up.\x02",
+            " is inside the chest.\x01",
+            "Since you have too many, you gave it up.\x02",
         )
     )
 
@@ -613,11 +607,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x2, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_1333")
+    label("loc_1330")
 
-    Jump("loc_137D")
+    Jump("loc_137F")
 
-    label("loc_1338")
+    label("loc_1335")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -628,7 +622,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the treasure box.\x07\x00\x02",
+            "There is nothing in the chest. \x07\x00\x02",
         )
     )
 
@@ -636,27 +630,27 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_137D")
+    label("loc_137F")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_3_1238 end
+    # Function_3_1239 end
 
-    def Function_4_1389(): pass
+    def Function_4_138B(): pass
 
-    label("Function_4_1389")
+    label("Function_4_138B")
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F8, 2)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1489")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F8, 2)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1487")
     Sound(14, 0, 100, 0)
     OP_74(0x3, 0x1E)
     OP_71(0x3, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('虚空护腿', 1)"), scpexpr(EXPR_END)), "loc_1412")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x655, 1)"), scpexpr(EXPR_END)), "loc_1410")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -665,9 +659,9 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '虚空护腿'),
+            scpstr(SCPSTR_CODE_ITEM, 0x655),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I got it.\x02",
+            " obtained.\x02",
         )
     )
 
@@ -677,9 +671,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1F8, 2)
     OP_E0(0x5, 0x0)
-    Jump("loc_1484")
+    Jump("loc_1482")
 
-    label("loc_1412")
+    label("loc_1410")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -687,14 +681,10 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "In the treasure box",
-            scpstr(SCPSTR_CODE_ITEM, '虚空护腿'),
+            scpstr(SCPSTR_CODE_ITEM, 0x655),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "Is contained.\x01",
-            "Because my belongings are full,",
-            scpstr(SCPSTR_CODE_ITEM, '虚空护腿'),
-            scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I gave up.\x02",
+            " is inside the chest.\x01",
+            "Since you have too many, you gave it up.\x02",
         )
     )
 
@@ -704,11 +694,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x3, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_1484")
+    label("loc_1482")
 
-    Jump("loc_14CE")
+    Jump("loc_14D1")
 
-    label("loc_1489")
+    label("loc_1487")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -719,7 +709,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the treasure box.\x07\x00\x02",
+            "There is nothing in the chest. \x07\x00\x02",
         )
     )
 
@@ -727,23 +717,23 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_14CE")
+    label("loc_14D1")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_4_1389 end
+    # Function_4_138B end
 
-    def Function_5_14DA(): pass
+    def Function_5_14DD(): pass
 
-    label("Function_5_14DA")
+    label("Function_5_14DD")
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
     FadeToDark(300, 0, 100)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F8, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1618")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F8, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_160E")
     Sound(14, 0, 100, 0)
     OP_74(0x4, 0x1E)
     OP_71(0x4, 0x0, 0x1E, 0x0, 0x0)
@@ -763,14 +753,14 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#56ISepis of the earth × 200\x01\x07\x02",
-            "#57IWater sepis × 200\x01\x07\x02",
-            "#58IFire Sepis × 200\x01\x07\x02",
-            "#59IWind sepice × 200\x01\x07\x02",
-            "#60ITime sepis × 200\x01\x07\x02",
-            "#61IEmpty Sepis × 200\x01\x07\x02",
-            "#62IPhantom Sepis × 200\x01\x07\x00",
-            "I got it.\x02",
+            "#56IEarth Sepith x200\x01\x07\x02",
+            "#57IWater Sepith x200\x01\x07\x02",
+            "#58IFire Sepith x200\x01\x07\x02",
+            "#59IWind Sepith x200\x01\x07\x02",
+            "#60ITime Sepith x200\x01\x07\x02",
+            "#61ISpace Sepith x200\x01\x07\x02",
+            "#62IMirage Sepith x200\x01\x07\x00",
+            " obtained.\x02",
         )
     )
 
@@ -779,9 +769,9 @@ def main():
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x1F8, 3)
     OP_E0(0x5, 0x0)
-    Jump("loc_163D")
+    Jump("loc_162C")
 
-    label("loc_1618")
+    label("loc_160E")
 
 
     AnonymousTalk(
@@ -789,34 +779,34 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the treasure box.\x02",
+            "The chest is empty.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
 
-    label("loc_163D")
+    label("loc_162C")
 
     FadeToBright(300, 0)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_5_14DA end
+    # Function_5_14DD end
 
-    def Function_6_164F(): pass
+    def Function_6_163E(): pass
 
-    label("Function_6_164F")
+    label("Function_6_163E")
 
     Call(1, 6)
     Return()
 
-    # Function_6_164F end
+    # Function_6_163E end
 
-    def Function_7_1653(): pass
+    def Function_7_1642(): pass
 
-    label("Function_7_1653")
+    label("Function_7_1642")
 
     OP_F4(0x2)
     FadeToDark(300, 0, 100)
@@ -825,7 +815,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There are devices that can recover the orbment.\x07\x00\x02",
+            "There is an orbment charging station.\x07\x00\x02",
         )
     )
 
@@ -836,15 +826,15 @@ def main():
         -1,
         1,
         (
-            "To take a break here\x01",      # 0
-            "quit\x01",              # 1
+            "Rest Here\x01",      # 0
+            "Quit\x01",           # 1
         )
     )
 
     MenuEnd(0x0)
     OP_60(0x0)
     OP_57(0x0)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1740")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1729")
     FadeToBright(100, 0)
     Sleep(500)
     SoundLoad(13)
@@ -871,29 +861,29 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    label("loc_1740")
+    label("loc_1729")
 
     FadeToBright(300, 0)
     TalkEnd(0xFF)
     Return()
 
-    # Function_7_1653 end
+    # Function_7_1642 end
 
-    def Function_8_174F(): pass
+    def Function_8_1738(): pass
 
-    label("Function_8_174F")
+    label("Function_8_1738")
 
     Sound(160, 0, 100, 0)
     Return()
 
-    # Function_8_174F end
+    # Function_8_1738 end
 
-    def Function_9_1756(): pass
+    def Function_9_173F(): pass
 
-    label("Function_9_1756")
+    label("Function_9_173F")
 
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1B6, 0)), scpexpr(EXPR_END)), "loc_1795")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1B6, 0)), scpexpr(EXPR_END)), "loc_1792")
     TalkBegin(0xFF)
     SetChrName("")
 
@@ -901,7 +891,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "It does not seem to move anymore.\x02",
+            "It looks like it will not budge anymore.\x02",
         )
     )
 
@@ -910,9 +900,9 @@ def main():
     OP_5A()
     ClearMapFlags(0x8000000)
     TalkEnd(0xFF)
-    Jump("loc_195B")
+    Jump("loc_1950")
 
-    label("loc_1795")
+    label("loc_1792")
 
     EventBegin(0x1)
 
@@ -921,7 +911,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "There is a switch.\x01",
-            "Do you want to operate it?\x02",
+            "Operate it?\x02",
         )
     )
 
@@ -933,7 +923,7 @@ def main():
         1,
         (
             "Yes\x01",      # 0
-            "No\x01",      # 1
+            "No\x01",       # 1
         )
     )
 
@@ -941,7 +931,7 @@ def main():
     OP_60(0x0)
     OP_57(0x0)
     OP_5A()
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1954")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1949")
     Fade(500)
     OP_68(-250850, 1300, 2880, 0)
     MoveCamera(40, 40, 0, 0)
@@ -993,23 +983,23 @@ def main():
     Sleep(1700)
     SetScenarioFlags(0x1B6, 0)
 
-    label("loc_1954")
+    label("loc_1949")
 
     ClearMapFlags(0x8000000)
     EventEnd(0x5)
 
-    label("loc_195B")
+    label("loc_1950")
 
     Return()
 
-    # Function_9_1756 end
+    # Function_9_173F end
 
-    def Function_10_195C(): pass
+    def Function_10_1951(): pass
 
-    label("Function_10_195C")
+    label("Function_10_1951")
 
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1B6, 2)), scpexpr(EXPR_END)), "loc_199B")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1B6, 2)), scpexpr(EXPR_END)), "loc_19A4")
     TalkBegin(0xFF)
     SetChrName("")
 
@@ -1017,7 +1007,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "It does not seem to move anymore.\x02",
+            "It looks like it will not budge anymore.\x02",
         )
     )
 
@@ -1026,9 +1016,9 @@ def main():
     OP_5A()
     ClearMapFlags(0x8000000)
     TalkEnd(0xFF)
-    Jump("loc_1B0E")
+    Jump("loc_1B0F")
 
-    label("loc_199B")
+    label("loc_19A4")
 
     EventBegin(0x1)
 
@@ -1037,7 +1027,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             "There is a switch.\x01",
-            "Do you want to operate it?\x02",
+            "Operate it?\x02",
         )
     )
 
@@ -1049,7 +1039,7 @@ def main():
         1,
         (
             "Yes\x01",      # 0
-            "No\x01",      # 1
+            "No\x01",       # 1
         )
     )
 
@@ -1057,7 +1047,7 @@ def main():
     OP_60(0x0)
     OP_57(0x0)
     OP_5A()
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1B03")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1B04")
     OP_69(0x0, 0x0)
     Fade(500)
     OP_68(220, 46000, 11700, 0)
@@ -1097,21 +1087,21 @@ def main():
     Sleep(1300)
     SetScenarioFlags(0x1B6, 2)
 
-    label("loc_1B03")
+    label("loc_1B04")
 
     ClearMapFlags(0x8000000)
     OP_69(0xFF, 0x0)
     EventEnd(0x5)
 
-    label("loc_1B0E")
+    label("loc_1B0F")
 
     Return()
 
-    # Function_10_195C end
+    # Function_10_1951 end
 
-    def Function_11_1B0F(): pass
+    def Function_11_1B10(): pass
 
-    label("Function_11_1B0F")
+    label("Function_11_1B10")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -1154,7 +1144,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#N#6PAh…\x02",
+        "#00011F#N#6P......What......\x02",
     )
 
     CloseMessageWindow()
@@ -1163,7 +1153,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00105F#N#6P…..\x02",
+        "#00105F#N#6P............\x02",
     )
 
     CloseMessageWindow()
@@ -1182,7 +1172,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#5S#17AWHAT THE HELL IS THIS!\x02",
+        "#00307F#5S#17AW-What the heck is this!?\x02",
     )
 
     CloseMessageWindow()
@@ -1197,40 +1187,40 @@ def main():
     MoveCamera(90, -38, 0, 20000)
     OP_0D()
     Sleep(1000)
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1DF0")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1DD9")
 
     ChrTalk(
         0x109,
-        "#10111F#NAnd I can not believe it … …\x02",
+        "#10111F#NU-Unbelievable...\x02",
     )
 
     CloseMessageWindow()
-    Jump("loc_1E59")
+    Jump("loc_1E3D")
 
-    label("loc_1DF0")
+    label("loc_1DD9")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1E26")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1E0C")
 
     ChrTalk(
         0x10A,
-        "#00610F#NU-unbelievable\x02",
+        "#00610F#NI-Incredible...\x02",
     )
 
     CloseMessageWindow()
-    Jump("loc_1E59")
+    Jump("loc_1E3D")
 
-    label("loc_1E26")
+    label("loc_1E0C")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1E59")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1E3D")
 
     ChrTalk(
         0x106,
-        "#10712F#N……Incredible……\x02",
+        "#10712F#N...Unbelievable...\x02",
     )
 
     CloseMessageWindow()
 
-    label("loc_1E59")
+    label("loc_1E3D")
 
     OP_57(0x0)
     OP_5A()
@@ -1238,76 +1228,76 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00206F#NThis is the Mystic Core…\x02\x03",
-            "#00201FAlchemy with the Cloyce family\x01",
-            "Is it a blend of the latest guiding technology …?\x02",
+            "#00206F#NThis is the "Orbal Science" quintessence...\x02\x03",
+            "#00201FA fusion of the Crois clan alchemic arts\x01",
+            "with cutting edge orbal technology...?\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1F6E")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1FA3")
 
     ChrTalk(
         0x105,
         (
-            "#10406F#N…… It is over a thousand years\x01",
-            "I feel their obsession … …\x02",
+            "#10406F#N...I feel their deep-rooted delusion spanning \x01",
+            "for more than a thousand years...\x02",
         )
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1F66")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1F9B")
 
     ChrTalk(
         0x106,
         (
-            "#10708F#N(\"Silver#2RIn#\"The name of\x01",
-            "If you lose your way … possibly … …)\x02",
+            "#10708F#N(If the "Yin"'s name too lost\x01",
+            "its way, then, perhaps...)\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_1F66")
+    label("loc_1F9B")
 
     OP_57(0x0)
     OP_5A()
-    Jump("loc_2045")
+    Jump("loc_20D4")
 
-    label("loc_1F6E")
+    label("loc_1FA3")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1FF3")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_205C")
 
     ChrTalk(
         0x106,
         (
-            "#10703F#NThis is over a thousand years\x01",
-            "At the end of obscurity …\x02\x03",
-            "#10708F(\"Silver#2RIn#\"The name of\x01",
-            "If you lose your way … possibly … …)\x02",
+            "#10703F#NThis is the result of a deep-rooted delusion \x01",
+            "spanning more than a thousand years...\x02\x03",
+            "#10708F(If the "Yin"'s name too lost\x01",
+            "its way, then, perhaps...)\x02",
         )
     )
 
     CloseMessageWindow()
-    Jump("loc_2045")
+    Jump("loc_20D4")
 
-    label("loc_1FF3")
+    label("loc_205C")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_2045")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_20D4")
 
     ChrTalk(
         0x10A,
         (
-            "#00606F#NThis is said to span a thousand years\x01",
-            "Is it the end of imperialism …?\x02",
+            "#00606F#NIs this the result of a deep-rooted delusion\x01",
+            "spanning even more than a thousand years...?\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_2045")
+    label("loc_20D4")
 
     OP_57(0x0)
     OP_5A()
@@ -1315,9 +1305,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#N…… That obscurity\x01",
-            "Puppet called \"Church\"#4RPicture#Birth off … …\x02\x03",
-            "#00108FThat sacrificed countless people\x02",
+            "#00106F#N...That delusion gave birth\x01",
+            "to a puppet, the "Cult"...\x02\x03",
+            "#00108FAnd several people were sacrificed...\x02",
         )
     )
 
@@ -1328,10 +1318,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#NYeah…\x02\x03",
-            "#00008F… and still now,\x01",
-            "To Ka'aa the fate of \"treasure\"\x01",
-            "I am trying to press … ….\x02",
+            "#00006F#NYeah...\x02\x03",
+            "#00008F...And even now they're\x01",
+            "trying to force on KeA\x01",
+            "a "Sept-Terrion" fate...\x02",
         )
     )
 
@@ -1353,13 +1343,13 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P…… Come and check on this place\x01",
-            "We are not in a position to ask.\x02\x03",
-            "#00008FBut even so … …\x01",
-            "Before this, Ka'aa, Arios,\x01",
-            "If the President is … …\x02\x03",
-            "#00013FWe are everything\x01",
-            "I have to break through here.\x02",
+            "#00003F#5P...We aren't in a position to be able to\x01",
+            "question this place rights and wrongs.\x02\x03",
+            "#00008FHowever, still...\x01",
+            "If KeA, and Mr. Arios, the President \x01",
+            "and the others are up ahead...\x02\x03",
+            "#00013FWe must break through\x01",
+            "here at any cost!\x02",
         )
     )
 
@@ -1367,36 +1357,36 @@ def main():
     Fade(500)
     SetCameraDistance(14600, 800)
 
-    def lambda_2262():
+    def lambda_230B():
         OP_93(0xFE, 0xB4, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x101, 2, lambda_2262)
+    QueueWorkItem(0x101, 2, lambda_230B)
 
-    def lambda_226F():
+    def lambda_2318():
         OP_93(0xFE, 0x2D, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0xF4, 2, lambda_226F)
+    QueueWorkItem(0xF4, 2, lambda_2318)
 
-    def lambda_227C():
+    def lambda_2325():
         OP_93(0xFE, 0x13B, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 2, lambda_227C)
+    QueueWorkItem(0x104, 2, lambda_2325)
 
-    def lambda_2289():
+    def lambda_2332():
         TurnDirection(0x102, 0x101, 500)
         ExitThread()
 
-    QueueWorkItem(0x102, 0, lambda_2289)
+    QueueWorkItem(0x102, 0, lambda_2332)
     Sleep(0)
 
-    def lambda_2299():
+    def lambda_2342():
         TurnDirection(0x103, 0x101, 500)
         ExitThread()
 
-    QueueWorkItem(0x103, 0, lambda_2299)
+    QueueWorkItem(0x103, 0, lambda_2342)
     Sleep(0)
     WaitChrThread(0x102, 0)
     WaitChrThread(0x103, 0)
@@ -1411,9 +1401,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00007FLet's go guys!\x02\x03",
-            "We punish past pastures and illusions,\x01",
-            "Current#4RNow#To grasp the crossbells!\x02",
+            "#00007F──Let's go, everyone!\x02\x03",
+            "To brush away delusions and fantasies from\x01",
+            "the past and to seize Crossbell's present!\x02",
         )
     )
 
@@ -1421,93 +1411,93 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#6PYes!\x02",
+        "#00107F#6PYes...!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00207F#12PRight!\x02",
+        "#00207F#12P...Yes!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#12P#00307FYou got it!\x02",
+        "#12P#00307FGotcha!\x02",
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_23C1")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_2475")
 
     ChrTalk(
         0x109,
-        "#6P#10107FPreparation is perfect!\x02",
+        "#6P#10107FI'm totally ready!\x02",
     )
 
     CloseMessageWindow()
-    Jump("loc_2424")
+    Jump("loc_24E0")
 
-    label("loc_23C1")
+    label("loc_2475")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_23F4")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_24AD")
 
     ChrTalk(
         0x10A,
-        "#6P#00607FWe're totally ready\x02",
+        "#6P#00607FI'm fully prepared!\x02",
     )
 
     CloseMessageWindow()
-    Jump("loc_2424")
+    Jump("loc_24E0")
 
-    label("loc_23F4")
+    label("loc_24AD")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_2424")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_24E0")
 
     ChrTalk(
         0x106,
-        "#6P#10707FWe are thoroughly prepared!\x02",
+        "#6P#10707FI am well prepared!\x02",
     )
 
     CloseMessageWindow()
 
-    label("loc_2424")
+    label("loc_24E0")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_245D")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_2511")
 
     ChrTalk(
         0x105,
-        "#6P#10407FLet's go ……!\x02",
+        "#6P#10407FLet's go...!\x02",
     )
 
     CloseMessageWindow()
-    Jump("loc_24C0")
+    Jump("loc_256E")
 
-    label("loc_245D")
+    label("loc_2511")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_2494")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_2542")
 
     ChrTalk(
         0x106,
-        "#6P#10707FLet's go!\x02",
+        "#6P#10707FLet's go...!\x02",
     )
 
     CloseMessageWindow()
-    Jump("loc_24C0")
+    Jump("loc_256E")
 
-    label("loc_2494")
+    label("loc_2542")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_24C0")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetPartyIndex(0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_256E")
 
     ChrTalk(
         0x10A,
-        "#6P#00607Flet's go……!\x02",
+        "#6P#00607FLet's go...!\x02",
     )
 
     CloseMessageWindow()
 
-    label("loc_24C0")
+    label("loc_256E")
 
     SetCameraDistance(14350, 1000)
     FadeToDark(1000, 0, -1)
@@ -1528,7 +1518,7 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_11_1B0F end
+    # Function_11_1B10 end
 
     SaveToFile()
 

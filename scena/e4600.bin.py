@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "e4600.bin",                # FileName
         "e4600",                    # MapName
@@ -19,7 +21,7 @@ def main():
 
     BuildStringList((
         "e4600",                  # 0
-        "Clown Campanella",     # 1
+        "Campanella The Fool",    # 1
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -85,14 +87,14 @@ def main():
     OP_F3(100000)
     Sleep(1000)
     SetMessageWindowPos(-1, -1, -1, -1)
-    SetChrName("voice")
+    SetChrName("Voice")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#30W─ ─ I see.\x01",
-            "It seems quite smooth.\x02",
+            "#30W──I see. \x01",
+            "It looks like it's proceeding well.\x02",
         )
     )
 
@@ -137,31 +139,31 @@ def main():
     OP_0D()
     Sleep(500)
     SetMessageWindowPos(3, 120, -1, -1)
-    SetChrName("The sixth pillar")
+    SetChrName("6th Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Oh, the preparation here too\x01",
-            "There was a prospect of 90.\x02\x03",
-            "In this order\x01",
-            "I will manage in time.\x02",
+            "Yeah, our preparations should\x01",
+            "be at around 90%.\x02\x03",
+            "We'll probably be able to\x01",
+            "make it in time for this order.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(300, 100, -1, -1)
-    SetChrName("First pillar")
+    SetChrName("1st Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Good work, professor\x02\x03",
-            "── Campanella.\x01",
-            "\"Enforcer#6RLegion#\"What's their move?\x02",
+            "Good job, Doctor.\x02\x03",
+            "──Campanella.\x01",
+            "What about the "Enforcers" moves?\x02",
         )
     )
 
@@ -171,75 +173,75 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04804F#12PA while ago Bull Blanc\x01",
-            "It seems I was playing,\x01",
-            "It looks like I pulled out my hands already.\x02\x03",
-            "#04800FAfter Ren left to Libert\x01",
-            "There is no sign of returning.\x02\x03",
-            "#04806FAnd about \"her\" …\x01",
-            "Well, is not it good to see?\x02\x03",
-            "#04802FThe expression god lent me,\x01",
-            "For the moment I intend to intervene\x01",
-            "It seems nothing at all.\x02",
+            "#04804F#12PIt seems that Bleublanc was \x01",
+            "playing until a little while ago,\x01",
+            "but it seems he already pulled out.\x02\x03",
+            "#04800FRenne has left Liberl and it\x01",
+            "seems she has not returned.\x02\x03",
+            "#04806FAnd about "her"...\x01",
+            "Well, is it fine if she just wait and see?\x02\x03",
+            "#04802FShe lent me some bound spirits,\x01",
+            "but it seems she has no intention\x01",
+            "to intervene at all for now.\x02",
         )
     )
 
     CloseMessageWindow()
     SetMessageWindowPos(300, 100, -1, -1)
-    SetChrName("First pillar")
+    SetChrName("1st Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Hmm. Understood\x02\x03",
-            "Like Meister,\x01",
-            "Please leave it to their will.\x02",
+            "Hm, I understand.\x02\x03",
+            "Like with the Meister, let\x01",
+            "them do as they please.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(3, 120, -1, -1)
-    SetChrName("The sixth pillar")
+    SetChrName("6th Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "But \"enforcer\"\x01",
-            "Do you give all the freedom of action …?\x02\x03",
-            "Despite what he decided,\x01",
-            "It is somewhat unreasonable \"rule\".\x02",
+            "Still, giving the "Enforcers"\x01",
+            "entire movement liberty...\x02\x03",
+            "Although it's something that person decided, \x01",
+            "it's a somewhat irrational "rule", hm?\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(300, 100, -1, -1)
-    SetChrName("First pillar")
+    SetChrName("1st Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Everything is an \"owner\" 's thought …\x01",
-            "There is no need to ask anything.\x02\x03",
-            "More than that ──\x01",
-            "You seem to have come.\x02",
+            "Everything is to the "Grandmaster"'s likings...\x01",
+            "There is no need to question if it's right or wrong.\x02\x03",
+            "More importantly──\x01",
+            "It seems she has arrived.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(3, 120, -1, -1)
-    SetChrName("The sixth pillar")
+    SetChrName("6th Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Oh he's here\x02",
+            "Oh, you've come.\x02",
         )
     )
 
@@ -249,7 +251,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04809F#5PEhe, right on time\x02",
+        "#04809F#5PUh uh, just in time.\x02",
     )
 
     CloseMessageWindow()
@@ -286,14 +288,14 @@ def main():
     CancelBlur(1000)
     OP_C9(0x0, 0x80000000)
     SetMessageWindowPos(235, 130, -1, -1)
-    SetChrName("The seventh pillar")
+    SetChrName("7th Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#3885V#40WSorry for the wait.\x02\x03",
-            "#3886VIt appears you've already begun\x02",
+            "#3885V#40W──I am sorry to have kept you waiting.\x02\x03",
+            "#3886VIt looks like you have already started...\x02",
         )
     )
 
@@ -304,15 +306,15 @@ def main():
     OP_C9(0x1, 0x80000000)
     Sleep(300)
     SetMessageWindowPos(0, 100, -1, -1)
-    SetChrName("First pillar")
+    SetChrName("1st Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "No, we just started\x02\x03",
-            "About the case of example\x01",
-            "Are you sure?\x02",
+            "No, we have started just now.\x02\x03",
+            "About that matter,\x01",
+            "is it already fine?\x02",
         )
     )
 
@@ -320,18 +322,18 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(250, 130, -1, -1)
-    SetChrName("The seventh pillar")
+    SetChrName("7th Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Yeah, afterwards to \"Catch\"\x01",
-            "I left everything to you.\x02\x03",
-            "So then\x01",
-            "It was \"crossbell\".\x02\x03",
-            "To go to this place is\x01",
-            "I also have not seen for a long time.\x02",
+            "Yes, I left everything else\x01",
+            "to the "sinful" sir.\x02\x03",
+            "Also──\x01",
+            "That was "Crossbell", right?\x02\x03",
+            "It has been some time since\x01",
+            "I went to that land too.\x02",
         )
     )
 
@@ -342,10 +344,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04804F#6P#NUhufu, like so much change\x01",
-            "Do not you make your eyes round?\x02\x03",
-            "#04800FIn modern power civilization\x01",
-            "It will be a state-of-the-art big city.\x02",
+            "#04804F#6P#NUhuhu, it has changed so\x01",
+            "much to be left amazed, right?\x02\x03",
+            "#04800FIt is probably the most advanced\x01",
+            "metropolis of the present orbal culture.\x02",
         )
     )
 
@@ -353,16 +355,16 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(130, 170, -1, -1)
-    SetChrName("The sixth pillar")
+    SetChrName("6th Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Again before I completed it again,\x01",
-            "I am going to look out.\x02\x03",
-            "Please do not worry\x01",
-            "Shall we meet in the field?\x02",
+            "Before it's completed, I too \x01",
+            "intend to go see it once more.\x02\x03",
+            "What do you say, since it's a rare\x01",
+            "occasion, why not meeting there?\x02",
         )
     )
 
@@ -370,13 +372,13 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(250, 130, -1, -1)
-    SetChrName("The seventh pillar")
+    SetChrName("7th Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Yes, no argument\x02",
+            "Yes, I have no objections.\x02",
         )
     )
 
@@ -395,45 +397,45 @@ def main():
     CancelBlur(1000)
     SetCameraDistance(23500, 50000)
     SetMessageWindowPos(-1, 120, -1, -1)
-    SetChrName("First pillar")
+    SetChrName("1st Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "── Then, you two.\x01",
-            "After that we will leave the restriction.\x02\x03",
-            "\"Phantomhurgh#4RNuclear power plant#plan\"……\x01",
-            "For his final plan\x01",
-            "It is an indispensable step.\x02\x03",
-            "A mechanism as a first step,\x01",
-            "Thank you for your consideration.\x02",
+            "──Then, I leave the hereafter\x01",
+            "details to you both.\x02\x03",
+            "The "Phantasmal Blaze Plan"...\x01",
+            "It is an essential step\x01",
+            "to that person's final plan...\x02\x03",
+            "Please, take care of it as\x01",
+            "the first stage of the scheme.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(0, 170, -1, -1)
-    SetChrName("The sixth pillar")
+    SetChrName("6th Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Haha, roger\x02",
+            "Uh uh, understood.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     SetMessageWindowPos(300, 170, -1, -1)
-    SetChrName("The seventh pillar")
+    SetChrName("7th Anguis")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "All for the Master\x02",
+            "Everything is for the "Grandmaster".\x02",
         )
     )
 

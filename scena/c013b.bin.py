@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c013b.bin",                # FileName
         "c013b",                    # MapName
@@ -19,9 +21,9 @@ def main():
 
     BuildStringList((
         "c013b",                  # 0
-        "Keya",                 # 1
-        "dummy",                 # 2
-        "SE control",                 # 3
+        "KeA",                    # 1
+        "Dummy",                  # 2
+        "SE制御",                 # 3
     ))
 
     AddCharChip((
@@ -56,36 +58,36 @@ def main():
         "Function_0_3B4",          # 00, 0
         "Function_1_3C4",          # 01, 1
         "Function_2_5E1",          # 02, 2
-        "Function_3_622",          # 03, 3
-        "Function_4_623",          # 04, 4
-        "Function_5_7F4",          # 05, 5
-        "Function_6_9D7",          # 06, 6
-        "Function_7_BAA",          # 07, 7
-        "Function_8_D7D",          # 08, 8
-        "Function_9_F53",          # 09, 9
-        "Function_10_1129",        # 0A, 10
-        "Function_11_13BF",        # 0B, 11
-        "Function_12_1655",        # 0C, 12
-        "Function_13_18EB",        # 0D, 13
-        "Function_14_1B81",        # 0E, 14
-        "Function_15_1E17",        # 0F, 15
-        "Function_16_1E74",        # 10, 16
-        "Function_17_1F19",        # 11, 17
-        "Function_18_1FBE",        # 12, 18
-        "Function_19_2063",        # 13, 19
-        "Function_20_2116",        # 14, 20
-        "Function_21_21F3",        # 15, 21
-        "Function_22_21FC",        # 16, 22
-        "Function_23_22B3",        # 17, 23
-        "Function_24_236A",        # 18, 24
-        "Function_25_2423",        # 19, 25
-        "Function_26_24DA",        # 1A, 26
-        "Function_27_2591",        # 1B, 27
-        "Function_28_2648",        # 1C, 28
-        "Function_29_26FD",        # 1D, 29
-        "Function_30_27B6",        # 1E, 30
-        "Function_31_2871",        # 1F, 31
-        "Function_32_28E6",        # 20, 32
+        "Function_3_619",          # 03, 3
+        "Function_4_61A",          # 04, 4
+        "Function_5_7F2",          # 05, 5
+        "Function_6_9DC",          # 06, 6
+        "Function_7_BAF",          # 07, 7
+        "Function_8_D82",          # 08, 8
+        "Function_9_F5D",          # 09, 9
+        "Function_10_1138",        # 0A, 10
+        "Function_11_13D6",        # 0B, 11
+        "Function_12_1674",        # 0C, 12
+        "Function_13_1912",        # 0D, 13
+        "Function_14_1BB0",        # 0E, 14
+        "Function_15_1E4E",        # 0F, 15
+        "Function_16_1EBA",        # 10, 16
+        "Function_17_1F58",        # 11, 17
+        "Function_18_1FF6",        # 12, 18
+        "Function_19_2094",        # 13, 19
+        "Function_20_214C",        # 14, 20
+        "Function_21_2229",        # 15, 21
+        "Function_22_2232",        # 16, 22
+        "Function_23_22E9",        # 17, 23
+        "Function_24_23A1",        # 18, 24
+        "Function_25_2456",        # 19, 25
+        "Function_26_2508",        # 1A, 26
+        "Function_27_25BD",        # 1B, 27
+        "Function_28_2676",        # 1C, 28
+        "Function_29_272B",        # 1D, 29
+        "Function_30_27E7",        # 1E, 30
+        "Function_31_289F",        # 1F, 31
+        "Function_32_2914",        # 20, 32
     ))
 
 
@@ -232,8 +234,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FThis is the room of Tio.\x01",
-            "Let's stop entering.\x02",
+            "#00000FThis is Tio's room.\x01",
+            "Let's not enter.\x02",
         )
     )
 
@@ -243,17 +245,17 @@ def main():
 
     # Function_2_5E1 end
 
-    def Function_3_622(): pass
+    def Function_3_619(): pass
 
-    label("Function_3_622")
+    label("Function_3_619")
 
     Return()
 
-    # Function_3_622 end
+    # Function_3_619 end
 
-    def Function_4_623(): pass
+    def Function_4_61A(): pass
 
-    label("Function_4_623")
+    label("Function_4_61A")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -264,35 +266,35 @@ def main():
     MoveCamera(45, 26, 0, 0)
     OP_6E(350, 0)
     SetCameraDistance(25000, 0)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_67D")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_674")
     SetChrFlags(0x0, 0x8)
 
-    label("loc_67D")
+    label("loc_674")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_690")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_687")
     SetChrFlags(0x1, 0x8)
 
-    label("loc_690")
+    label("loc_687")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_6A3")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_69A")
     SetChrFlags(0x2, 0x8)
 
-    label("loc_6A3")
+    label("loc_69A")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_6B6")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_6AD")
     SetChrFlags(0x3, 0x8)
 
-    label("loc_6B6")
+    label("loc_6AD")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_6C9")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_6C0")
     SetChrFlags(0x4, 0x8)
 
-    label("loc_6C9")
+    label("loc_6C0")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_6DC")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_6D3")
     SetChrFlags(0x5, 0x8)
 
-    label("loc_6DC")
+    label("loc_6D3")
 
     ClearChrFlags(0x102, 0x8)
     SetChrPos(0x102, 157620, 30, 125080, 90)
@@ -301,7 +303,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#0100FI wonder if I can do it here.\x02",
+        "#0100FI wonder if here it's fine.\x02",
     )
 
     CloseMessageWindow()
@@ -313,57 +315,57 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the room of Eli\x01",
-            "New furniture was added.\x07\x00\x02",
+            "A new furniture was\x01",
+            "added to Elie's room.\x07\x00\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('优雅衣镜', 1)
+    SubItemNumber(0x34A, 1)
     SetScenarioFlags(0x13C, 6)
     OP_66(0x2, 0x1)
     Call(0, 15)
     Call(0, 31)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_781")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_77F")
     ClearChrFlags(0x0, 0x8)
 
-    label("loc_781")
+    label("loc_77F")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_794")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_792")
     ClearChrFlags(0x1, 0x8)
 
-    label("loc_794")
+    label("loc_792")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_7A7")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_7A5")
     ClearChrFlags(0x2, 0x8)
 
-    label("loc_7A7")
+    label("loc_7A5")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_7BA")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_7B8")
     ClearChrFlags(0x3, 0x8)
 
-    label("loc_7BA")
+    label("loc_7B8")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_7CD")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_7CB")
     ClearChrFlags(0x4, 0x8)
 
-    label("loc_7CD")
+    label("loc_7CB")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_7E0")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_7DE")
     ClearChrFlags(0x5, 0x8)
 
-    label("loc_7E0")
+    label("loc_7DE")
 
     SetChrPos(0x0, 155990, 30, 120980, 0)
     EventEnd(0x5)
     Return()
 
-    # Function_4_623 end
+    # Function_4_61A end
 
-    def Function_5_7F4(): pass
+    def Function_5_7F2(): pass
 
-    label("Function_5_7F4")
+    label("Function_5_7F2")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -377,35 +379,35 @@ def main():
     MoveCamera(45, 26, 0, 0)
     OP_6E(350, 0)
     SetCameraDistance(25000, 0)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_860")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_85E")
     SetChrFlags(0x0, 0x8)
 
-    label("loc_860")
+    label("loc_85E")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_873")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_871")
     SetChrFlags(0x1, 0x8)
 
-    label("loc_873")
+    label("loc_871")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_886")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_884")
     SetChrFlags(0x2, 0x8)
 
-    label("loc_886")
+    label("loc_884")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_899")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_897")
     SetChrFlags(0x3, 0x8)
 
-    label("loc_899")
+    label("loc_897")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_8AC")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_8AA")
     SetChrFlags(0x4, 0x8)
 
-    label("loc_8AC")
+    label("loc_8AA")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_8BF")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_8BD")
     SetChrFlags(0x5, 0x8)
 
-    label("loc_8BF")
+    label("loc_8BD")
 
     ClearChrFlags(0x102, 0x8)
     SetChrPos(0x102, 154920, 30, 122580, 0)
@@ -414,7 +416,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#0100FI wonder if I can do it here.\x02",
+        "#0100FI wonder if here it's fine.\x02",
     )
 
     CloseMessageWindow()
@@ -426,57 +428,57 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the room of Eli\x01",
-            "New furniture was added.\x07\x00\x02",
+            "A new furniture was\x01",
+            "added to Elie's room.\x07\x00\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('八音盒', 1)
+    SubItemNumber(0x34B, 1)
     SetScenarioFlags(0x13C, 7)
     OP_66(0x3, 0x1)
     Call(0, 15)
     Call(0, 31)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_964")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_969")
     ClearChrFlags(0x0, 0x8)
 
-    label("loc_964")
+    label("loc_969")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_977")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_97C")
     ClearChrFlags(0x1, 0x8)
 
-    label("loc_977")
+    label("loc_97C")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_98A")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_98F")
     ClearChrFlags(0x2, 0x8)
 
-    label("loc_98A")
+    label("loc_98F")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_99D")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_9A2")
     ClearChrFlags(0x3, 0x8)
 
-    label("loc_99D")
+    label("loc_9A2")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_9B0")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_9B5")
     ClearChrFlags(0x4, 0x8)
 
-    label("loc_9B0")
+    label("loc_9B5")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_9C3")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_9C8")
     ClearChrFlags(0x5, 0x8)
 
-    label("loc_9C3")
+    label("loc_9C8")
 
     SetChrPos(0x0, 155990, 30, 120980, 0)
     EventEnd(0x5)
     Return()
 
-    # Function_5_7F4 end
+    # Function_5_7F2 end
 
-    def Function_6_9D7(): pass
+    def Function_6_9DC(): pass
 
-    label("Function_6_9D7")
+    label("Function_6_9DC")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -487,35 +489,35 @@ def main():
     MoveCamera(45, 26, 0, 0)
     OP_6E(350, 0)
     SetCameraDistance(25000, 0)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A31")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A36")
     SetChrFlags(0x0, 0x8)
 
-    label("loc_A31")
+    label("loc_A36")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A44")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A49")
     SetChrFlags(0x1, 0x8)
 
-    label("loc_A44")
+    label("loc_A49")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A57")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A5C")
     SetChrFlags(0x2, 0x8)
 
-    label("loc_A57")
+    label("loc_A5C")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A6A")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A6F")
     SetChrFlags(0x3, 0x8)
 
-    label("loc_A6A")
+    label("loc_A6F")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A7D")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A82")
     SetChrFlags(0x4, 0x8)
 
-    label("loc_A7D")
+    label("loc_A82")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A90")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A95")
     SetChrFlags(0x5, 0x8)
 
-    label("loc_A90")
+    label("loc_A95")
 
     ClearChrFlags(0x103, 0x8)
     SetChrPos(0x103, 206000, 0, 129509, 0)
@@ -524,7 +526,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#0200FHere it is good.\x02",
+        "#0200FIt should be fine here.\x02",
     )
 
     CloseMessageWindow()
@@ -536,57 +538,57 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In Tio's room\x01",
-            "New furniture was added.\x07\x00\x02",
+            "A new furniture was\x01",
+            "added to Tio's room.\x07\x00\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('影丸储蓄罐', 1)
+    SubItemNumber(0x34C, 1)
     SetScenarioFlags(0x13D, 0)
     OP_66(0x4, 0x1)
     Call(0, 15)
     Call(0, 31)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B37")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B3C")
     ClearChrFlags(0x0, 0x8)
 
-    label("loc_B37")
+    label("loc_B3C")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B4A")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B4F")
     ClearChrFlags(0x1, 0x8)
 
-    label("loc_B4A")
+    label("loc_B4F")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B5D")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B62")
     ClearChrFlags(0x2, 0x8)
 
-    label("loc_B5D")
+    label("loc_B62")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B70")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B75")
     ClearChrFlags(0x3, 0x8)
 
-    label("loc_B70")
+    label("loc_B75")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B83")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B88")
     ClearChrFlags(0x4, 0x8)
 
-    label("loc_B83")
+    label("loc_B88")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B96")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_B9B")
     ClearChrFlags(0x5, 0x8)
 
-    label("loc_B96")
+    label("loc_B9B")
 
     SetChrPos(0x0, 206030, 30, 121140, 0)
     EventEnd(0x5)
     Return()
 
-    # Function_6_9D7 end
+    # Function_6_9DC end
 
-    def Function_7_BAA(): pass
+    def Function_7_BAF(): pass
 
-    label("Function_7_BAA")
+    label("Function_7_BAF")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -597,35 +599,35 @@ def main():
     MoveCamera(45, 26, 0, 0)
     OP_6E(350, 0)
     SetCameraDistance(25000, 0)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C04")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C09")
     SetChrFlags(0x0, 0x8)
 
-    label("loc_C04")
+    label("loc_C09")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C17")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C1C")
     SetChrFlags(0x1, 0x8)
 
-    label("loc_C17")
+    label("loc_C1C")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C2A")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C2F")
     SetChrFlags(0x2, 0x8)
 
-    label("loc_C2A")
+    label("loc_C2F")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C3D")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C42")
     SetChrFlags(0x3, 0x8)
 
-    label("loc_C3D")
+    label("loc_C42")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C50")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C55")
     SetChrFlags(0x4, 0x8)
 
-    label("loc_C50")
+    label("loc_C55")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C63")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_C68")
     SetChrFlags(0x5, 0x8)
 
-    label("loc_C63")
+    label("loc_C68")
 
     ClearChrFlags(0x103, 0x8)
     SetChrPos(0x103, 208220, 0, 123970, 90)
@@ -634,7 +636,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#0200FHere it is good.\x02",
+        "#0200FIt should be fine here.\x02",
     )
 
     CloseMessageWindow()
@@ -646,57 +648,57 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In Tio's room\x01",
-            "New furniture was added.\x07\x00\x02",
+            "A new furniture was\x01",
+            "added to Tio's room.\x07\x00\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('咪雪玩偶', 1)
+    SubItemNumber(0x34D, 1)
     SetScenarioFlags(0x13D, 1)
     OP_66(0x5, 0x1)
     Call(0, 15)
     Call(0, 31)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D0A")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D0F")
     ClearChrFlags(0x0, 0x8)
 
-    label("loc_D0A")
+    label("loc_D0F")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D1D")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D22")
     ClearChrFlags(0x1, 0x8)
 
-    label("loc_D1D")
+    label("loc_D22")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D30")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D35")
     ClearChrFlags(0x2, 0x8)
 
-    label("loc_D30")
+    label("loc_D35")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D43")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D48")
     ClearChrFlags(0x3, 0x8)
 
-    label("loc_D43")
+    label("loc_D48")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D56")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D5B")
     ClearChrFlags(0x4, 0x8)
 
-    label("loc_D56")
+    label("loc_D5B")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D69")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_D6E")
     ClearChrFlags(0x5, 0x8)
 
-    label("loc_D69")
+    label("loc_D6E")
 
     SetChrPos(0x0, 206030, 30, 121140, 0)
     EventEnd(0x5)
     Return()
 
-    # Function_7_BAA end
+    # Function_7_BAF end
 
-    def Function_8_D7D(): pass
+    def Function_8_D82(): pass
 
-    label("Function_8_D7D")
+    label("Function_8_D82")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -707,35 +709,35 @@ def main():
     MoveCamera(45, 26, 0, 0)
     OP_6E(350, 0)
     SetCameraDistance(25000, 0)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_DD7")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_DDC")
     SetChrFlags(0x0, 0x8)
 
-    label("loc_DD7")
+    label("loc_DDC")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_DEA")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_DEF")
     SetChrFlags(0x1, 0x8)
 
-    label("loc_DEA")
+    label("loc_DEF")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_DFD")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_E02")
     SetChrFlags(0x2, 0x8)
 
-    label("loc_DFD")
+    label("loc_E02")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_E10")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_E15")
     SetChrFlags(0x3, 0x8)
 
-    label("loc_E10")
+    label("loc_E15")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_E23")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_E28")
     SetChrFlags(0x4, 0x8)
 
-    label("loc_E23")
+    label("loc_E28")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_E36")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_E3B")
     SetChrFlags(0x5, 0x8)
 
-    label("loc_E36")
+    label("loc_E3B")
 
     ClearChrFlags(0x109, 0x8)
     SetChrPos(0x109, 258329, 0, 122180, 90)
@@ -744,7 +746,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100FIt looks good here.\x02",
+        "#10100FIt looks like here it's fine.\x02",
     )
 
     CloseMessageWindow()
@@ -756,57 +758,57 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Noel's room\x01",
-            "New furniture was added.\x07\x00\x02",
+            "A new furniture was\x01",
+            "added to Noｱl's room.\x07\x00\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('竞赛旗', 1)
+    SubItemNumber(0x350, 1)
     SetScenarioFlags(0x13D, 2)
     OP_66(0x6, 0x1)
     Call(0, 15)
     Call(0, 31)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_EE0")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_EEA")
     ClearChrFlags(0x0, 0x8)
 
-    label("loc_EE0")
+    label("loc_EEA")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_EF3")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_EFD")
     ClearChrFlags(0x1, 0x8)
 
-    label("loc_EF3")
+    label("loc_EFD")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_F06")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_F10")
     ClearChrFlags(0x2, 0x8)
 
-    label("loc_F06")
+    label("loc_F10")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_F19")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_F23")
     ClearChrFlags(0x3, 0x8)
 
-    label("loc_F19")
+    label("loc_F23")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_F2C")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_F36")
     ClearChrFlags(0x4, 0x8)
 
-    label("loc_F2C")
+    label("loc_F36")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_F3F")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_F49")
     ClearChrFlags(0x5, 0x8)
 
-    label("loc_F3F")
+    label("loc_F49")
 
     SetChrPos(0x0, 256010, 0, 121130, 0)
     EventEnd(0x5)
     Return()
 
-    # Function_8_D7D end
+    # Function_8_D82 end
 
-    def Function_9_F53(): pass
+    def Function_9_F5D(): pass
 
-    label("Function_9_F53")
+    label("Function_9_F5D")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -817,35 +819,35 @@ def main():
     MoveCamera(45, 26, 0, 0)
     OP_6E(350, 0)
     SetCameraDistance(25000, 0)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_FAD")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_FB7")
     SetChrFlags(0x0, 0x8)
 
-    label("loc_FAD")
+    label("loc_FB7")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_FC0")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_FCA")
     SetChrFlags(0x1, 0x8)
 
-    label("loc_FC0")
+    label("loc_FCA")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_FD3")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_FDD")
     SetChrFlags(0x2, 0x8)
 
-    label("loc_FD3")
+    label("loc_FDD")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_FE6")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_FF0")
     SetChrFlags(0x3, 0x8)
 
-    label("loc_FE6")
+    label("loc_FF0")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_FF9")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1003")
     SetChrFlags(0x4, 0x8)
 
-    label("loc_FF9")
+    label("loc_1003")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_100C")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1016")
     SetChrFlags(0x5, 0x8)
 
-    label("loc_100C")
+    label("loc_1016")
 
     ClearChrFlags(0x109, 0x8)
     SetChrPos(0x109, 258149, 0, 125700, 90)
@@ -854,7 +856,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10100FIt looks good here.\x02",
+        "#10100FIt looks like here it's fine.\x02",
     )
 
     CloseMessageWindow()
@@ -866,57 +868,57 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Noel's room\x01",
-            "New furniture was added.\x07\x00\x02",
+            "A new furniture was\x01",
+            "added to Noｱl's room.\x07\x00\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('小径自行车', 1)
+    SubItemNumber(0x351, 1)
     SetScenarioFlags(0x13D, 3)
     OP_66(0x7, 0x1)
     Call(0, 15)
     Call(0, 31)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_10B6")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_10C5")
     ClearChrFlags(0x0, 0x8)
 
-    label("loc_10B6")
+    label("loc_10C5")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_10C9")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_10D8")
     ClearChrFlags(0x1, 0x8)
 
-    label("loc_10C9")
+    label("loc_10D8")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_10DC")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_10EB")
     ClearChrFlags(0x2, 0x8)
 
-    label("loc_10DC")
+    label("loc_10EB")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_10EF")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_10FE")
     ClearChrFlags(0x3, 0x8)
 
-    label("loc_10EF")
+    label("loc_10FE")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1102")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1111")
     ClearChrFlags(0x4, 0x8)
 
-    label("loc_1102")
+    label("loc_1111")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1115")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1124")
     ClearChrFlags(0x5, 0x8)
 
-    label("loc_1115")
+    label("loc_1124")
 
     SetChrPos(0x0, 256010, 0, 121130, 0)
     EventEnd(0x5)
     Return()
 
-    # Function_9_F53 end
+    # Function_9_F5D end
 
-    def Function_10_1129(): pass
+    def Function_10_1138(): pass
 
-    label("Function_10_1129")
+    label("Function_10_1138")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -925,8 +927,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FYes, this stuffed animal ……\x01",
-            "It might be perfect for Ka'a's room.\x02",
+            "#00000FOh, right, this plushy...\x01",
+            "It could be perfect for KeA's room.\x02",
         )
     )
 
@@ -937,8 +939,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd searched for Kia,\x01",
-            "I gave a stuffed toy I had.\x07\x00\x02",
+            "Lloyd went to look for KeA and he gave her\x01",
+            "the plushy he had with him as a present.\x07\x00\x02",
         )
     )
 
@@ -950,35 +952,35 @@ def main():
     MoveCamera(45, 26, 0, 0)
     OP_6E(350, 0)
     SetCameraDistance(25000, 0)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1222")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_123D")
     SetChrFlags(0x0, 0x8)
 
-    label("loc_1222")
+    label("loc_123D")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1235")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1250")
     SetChrFlags(0x1, 0x8)
 
-    label("loc_1235")
+    label("loc_1250")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1248")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1263")
     SetChrFlags(0x2, 0x8)
 
-    label("loc_1248")
+    label("loc_1263")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_125B")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1276")
     SetChrFlags(0x3, 0x8)
 
-    label("loc_125B")
+    label("loc_1276")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_126E")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1289")
     SetChrFlags(0x4, 0x8)
 
-    label("loc_126E")
+    label("loc_1289")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1281")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_129C")
     SetChrFlags(0x5, 0x8)
 
-    label("loc_1281")
+    label("loc_129C")
 
     ClearChrFlags(0x101, 0x8)
     SetChrPos(0x101, 256980, 30, 66530, 225)
@@ -991,7 +993,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100FLet's put it here!\x02",
+        "#01100FI'll put it here!\x02",
     )
 
     CloseMessageWindow()
@@ -1003,46 +1005,46 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the room of Kea\x01",
-            "New furniture was added.\x07\x00\x02",
+            "A new furniture was\x01",
+            "added to KeA's room.\x07\x00\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('波波靠垫', 1)
+    SubItemNumber(0x355, 1)
     SetScenarioFlags(0x13D, 4)
     OP_66(0x8, 0x1)
     Call(0, 15)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1344")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_135B")
     ClearChrFlags(0x0, 0x8)
 
-    label("loc_1344")
+    label("loc_135B")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1357")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_136E")
     ClearChrFlags(0x1, 0x8)
 
-    label("loc_1357")
+    label("loc_136E")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_136A")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1381")
     ClearChrFlags(0x2, 0x8)
 
-    label("loc_136A")
+    label("loc_1381")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_137D")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1394")
     ClearChrFlags(0x3, 0x8)
 
-    label("loc_137D")
+    label("loc_1394")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1390")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_13A7")
     ClearChrFlags(0x4, 0x8)
 
-    label("loc_1390")
+    label("loc_13A7")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_13A3")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_13BA")
     ClearChrFlags(0x5, 0x8)
 
-    label("loc_13A3")
+    label("loc_13BA")
 
     Call(0, 31)
     SetChrFlags(0x8, 0x8)
@@ -1050,11 +1052,11 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_10_1129 end
+    # Function_10_1138 end
 
-    def Function_11_13BF(): pass
+    def Function_11_13D6(): pass
 
-    label("Function_11_13BF")
+    label("Function_11_13D6")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -1063,8 +1065,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FYes, this stuffed animal ……\x01",
-            "It might be perfect for Ka'a's room.\x02",
+            "#00000FOh, right, this plushy...\x01",
+            "It could be perfect for KeA's room.\x02",
         )
     )
 
@@ -1075,8 +1077,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd searched for Kia,\x01",
-            "I gave a stuffed toy I had.\x07\x00\x02",
+            "Lloyd went to look for KeA and he gave her\x01",
+            "the plushy he had with him as a present.\x07\x00\x02",
         )
     )
 
@@ -1088,35 +1090,35 @@ def main():
     MoveCamera(45, 26, 0, 0)
     OP_6E(350, 0)
     SetCameraDistance(25000, 0)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_14B8")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_14DB")
     SetChrFlags(0x0, 0x8)
 
-    label("loc_14B8")
+    label("loc_14DB")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_14CB")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_14EE")
     SetChrFlags(0x1, 0x8)
 
-    label("loc_14CB")
+    label("loc_14EE")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_14DE")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1501")
     SetChrFlags(0x2, 0x8)
 
-    label("loc_14DE")
+    label("loc_1501")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_14F1")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1514")
     SetChrFlags(0x3, 0x8)
 
-    label("loc_14F1")
+    label("loc_1514")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1504")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1527")
     SetChrFlags(0x4, 0x8)
 
-    label("loc_1504")
+    label("loc_1527")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1517")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_153A")
     SetChrFlags(0x5, 0x8)
 
-    label("loc_1517")
+    label("loc_153A")
 
     ClearChrFlags(0x101, 0x8)
     SetChrPos(0x101, 255780, 30, 69500, 135)
@@ -1129,7 +1131,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100FLet's put it here!\x02",
+        "#01100FI'll put it here!\x02",
     )
 
     CloseMessageWindow()
@@ -1141,46 +1143,46 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the room of Kea\x01",
-            "New furniture was added.\x07\x00\x02",
+            "A new furniture was\x01",
+            "added to KeA's room.\x07\x00\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('古怪靠垫', 1)
+    SubItemNumber(0x354, 1)
     SetScenarioFlags(0x13D, 5)
     OP_66(0x9, 0x1)
     Call(0, 15)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_15DA")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_15F9")
     ClearChrFlags(0x0, 0x8)
 
-    label("loc_15DA")
+    label("loc_15F9")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_15ED")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_160C")
     ClearChrFlags(0x1, 0x8)
 
-    label("loc_15ED")
+    label("loc_160C")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1600")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_161F")
     ClearChrFlags(0x2, 0x8)
 
-    label("loc_1600")
+    label("loc_161F")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1613")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1632")
     ClearChrFlags(0x3, 0x8)
 
-    label("loc_1613")
+    label("loc_1632")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1626")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1645")
     ClearChrFlags(0x4, 0x8)
 
-    label("loc_1626")
+    label("loc_1645")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1639")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1658")
     ClearChrFlags(0x5, 0x8)
 
-    label("loc_1639")
+    label("loc_1658")
 
     Call(0, 31)
     SetChrFlags(0x8, 0x8)
@@ -1188,11 +1190,11 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_11_13BF end
+    # Function_11_13D6 end
 
-    def Function_12_1655(): pass
+    def Function_12_1674(): pass
 
-    label("Function_12_1655")
+    label("Function_12_1674")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -1201,8 +1203,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FYes, this stuffed animal ……\x01",
-            "It might be perfect for Ka'a's room.\x02",
+            "#00000FOh, right, this plushy...\x01",
+            "It could be perfect for KeA's room.\x02",
         )
     )
 
@@ -1213,8 +1215,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd searched for Kia,\x01",
-            "I gave a stuffed toy I had.\x07\x00\x02",
+            "Lloyd went to look for KeA and he gave her\x01",
+            "the plushy he had with him as a present.\x07\x00\x02",
         )
     )
 
@@ -1226,35 +1228,35 @@ def main():
     MoveCamera(45, 26, 0, 0)
     OP_6E(350, 0)
     SetCameraDistance(25000, 0)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_174E")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1779")
     SetChrFlags(0x0, 0x8)
 
-    label("loc_174E")
+    label("loc_1779")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1761")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_178C")
     SetChrFlags(0x1, 0x8)
 
-    label("loc_1761")
+    label("loc_178C")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1774")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_179F")
     SetChrFlags(0x2, 0x8)
 
-    label("loc_1774")
+    label("loc_179F")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1787")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_17B2")
     SetChrFlags(0x3, 0x8)
 
-    label("loc_1787")
+    label("loc_17B2")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_179A")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_17C5")
     SetChrFlags(0x4, 0x8)
 
-    label("loc_179A")
+    label("loc_17C5")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_17AD")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_17D8")
     SetChrFlags(0x5, 0x8)
 
-    label("loc_17AD")
+    label("loc_17D8")
 
     ClearChrFlags(0x101, 0x8)
     SetChrPos(0x101, 259010, 0, 65730, 0)
@@ -1267,7 +1269,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100FLet's put it here!\x02",
+        "#01100FI'll put it here!\x02",
     )
 
     CloseMessageWindow()
@@ -1279,46 +1281,46 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the room of Kea\x01",
-            "New furniture was added.\x07\x00\x02",
+            "A new furniture was\x01",
+            "added to KeA's room.\x07\x00\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('黑泰迪熊', 1)
+    SubItemNumber(0x356, 1)
     SetScenarioFlags(0x13D, 6)
     OP_66(0xA, 0x1)
     Call(0, 15)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1870")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1897")
     ClearChrFlags(0x0, 0x8)
 
-    label("loc_1870")
+    label("loc_1897")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1883")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_18AA")
     ClearChrFlags(0x1, 0x8)
 
-    label("loc_1883")
+    label("loc_18AA")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1896")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_18BD")
     ClearChrFlags(0x2, 0x8)
 
-    label("loc_1896")
+    label("loc_18BD")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_18A9")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_18D0")
     ClearChrFlags(0x3, 0x8)
 
-    label("loc_18A9")
+    label("loc_18D0")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_18BC")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_18E3")
     ClearChrFlags(0x4, 0x8)
 
-    label("loc_18BC")
+    label("loc_18E3")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_18CF")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_18F6")
     ClearChrFlags(0x5, 0x8)
 
-    label("loc_18CF")
+    label("loc_18F6")
 
     Call(0, 31)
     SetChrFlags(0x8, 0x8)
@@ -1326,11 +1328,11 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_12_1655 end
+    # Function_12_1674 end
 
-    def Function_13_18EB(): pass
+    def Function_13_1912(): pass
 
-    label("Function_13_18EB")
+    label("Function_13_1912")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -1339,8 +1341,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FYes, this stuffed animal ……\x01",
-            "It might be perfect for Ka'a's room.\x02",
+            "#00000FOh, right, this plushy...\x01",
+            "It could be perfect for KeA's room.\x02",
         )
     )
 
@@ -1351,8 +1353,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd searched for Kia,\x01",
-            "I gave a stuffed toy I had.\x07\x00\x02",
+            "Lloyd went to look for KeA and he gave her\x01",
+            "the plushy he had with him as a present.\x07\x00\x02",
         )
     )
 
@@ -1364,35 +1366,35 @@ def main():
     MoveCamera(45, 26, 0, 0)
     OP_6E(350, 0)
     SetCameraDistance(25000, 0)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_19E4")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A17")
     SetChrFlags(0x0, 0x8)
 
-    label("loc_19E4")
+    label("loc_1A17")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_19F7")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A2A")
     SetChrFlags(0x1, 0x8)
 
-    label("loc_19F7")
+    label("loc_1A2A")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A0A")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A3D")
     SetChrFlags(0x2, 0x8)
 
-    label("loc_1A0A")
+    label("loc_1A3D")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A1D")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A50")
     SetChrFlags(0x3, 0x8)
 
-    label("loc_1A1D")
+    label("loc_1A50")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A30")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A63")
     SetChrFlags(0x4, 0x8)
 
-    label("loc_1A30")
+    label("loc_1A63")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A43")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A76")
     SetChrFlags(0x5, 0x8)
 
-    label("loc_1A43")
+    label("loc_1A76")
 
     ClearChrFlags(0x101, 0x8)
     SetChrPos(0x101, 254270, 30, 72640, 45)
@@ -1405,7 +1407,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100FLet's put it here!\x02",
+        "#01100FI'll put it here!\x02",
     )
 
     CloseMessageWindow()
@@ -1417,46 +1419,46 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the room of Kea\x01",
-            "New furniture was added.\x07\x00\x02",
+            "A new furniture was\x01",
+            "added to KeA's room.\x07\x00\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('苦番茄人玩偶', 1)
+    SubItemNumber(0x357, 1)
     SetScenarioFlags(0x13D, 7)
     OP_66(0xB, 0x1)
     Call(0, 15)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B06")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B35")
     ClearChrFlags(0x0, 0x8)
 
-    label("loc_1B06")
+    label("loc_1B35")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B19")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B48")
     ClearChrFlags(0x1, 0x8)
 
-    label("loc_1B19")
+    label("loc_1B48")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B2C")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B5B")
     ClearChrFlags(0x2, 0x8)
 
-    label("loc_1B2C")
+    label("loc_1B5B")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B3F")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B6E")
     ClearChrFlags(0x3, 0x8)
 
-    label("loc_1B3F")
+    label("loc_1B6E")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B52")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B81")
     ClearChrFlags(0x4, 0x8)
 
-    label("loc_1B52")
+    label("loc_1B81")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B65")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1B94")
     ClearChrFlags(0x5, 0x8)
 
-    label("loc_1B65")
+    label("loc_1B94")
 
     Call(0, 31)
     SetChrFlags(0x8, 0x8)
@@ -1464,11 +1466,11 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_13_18EB end
+    # Function_13_1912 end
 
-    def Function_14_1B81(): pass
+    def Function_14_1BB0(): pass
 
-    label("Function_14_1B81")
+    label("Function_14_1BB0")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -1477,8 +1479,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FYes, this stuffed animal ……\x01",
-            "It might be perfect for Ka'a's room.\x02",
+            "#00000FOh, right, this plushy...\x01",
+            "It could be perfect for KeA's room.\x02",
         )
     )
 
@@ -1489,8 +1491,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Lloyd searched for Kia,\x01",
-            "I gave a stuffed toy I had.\x07\x00\x02",
+            "Lloyd went to look for KeA and he gave her\x01",
+            "the plushy he had with him as a present.\x07\x00\x02",
         )
     )
 
@@ -1502,35 +1504,35 @@ def main():
     MoveCamera(45, 26, 0, 0)
     OP_6E(350, 0)
     SetCameraDistance(25000, 0)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1C7A")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1CB5")
     SetChrFlags(0x0, 0x8)
 
-    label("loc_1C7A")
+    label("loc_1CB5")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1C8D")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1CC8")
     SetChrFlags(0x1, 0x8)
 
-    label("loc_1C8D")
+    label("loc_1CC8")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1CA0")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1CDB")
     SetChrFlags(0x2, 0x8)
 
-    label("loc_1CA0")
+    label("loc_1CDB")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1CB3")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1CEE")
     SetChrFlags(0x3, 0x8)
 
-    label("loc_1CB3")
+    label("loc_1CEE")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1CC6")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1D01")
     SetChrFlags(0x4, 0x8)
 
-    label("loc_1CC6")
+    label("loc_1D01")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1CD9")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1D14")
     SetChrFlags(0x5, 0x8)
 
-    label("loc_1CD9")
+    label("loc_1D14")
 
     ClearChrFlags(0x101, 0x8)
     SetChrPos(0x101, 258410, 0, 65590, 180)
@@ -1543,7 +1545,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#01100FLet's put it here!\x02",
+        "#01100FI'll put it here!\x02",
     )
 
     CloseMessageWindow()
@@ -1555,46 +1557,46 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "In the room of Kea\x01",
-            "New furniture was added.\x07\x00\x02",
+            "A new furniture was\x01",
+            "added to KeA's room.\x07\x00\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
-    SubItemNumber('ＺＷＥＩ２企鹅', 1)
+    SubItemNumber(0x358, 1)
     SetScenarioFlags(0x13E, 0)
     OP_66(0xC, 0x1)
     Call(0, 15)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1D9C")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1DD3")
     ClearChrFlags(0x0, 0x8)
 
-    label("loc_1D9C")
+    label("loc_1DD3")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1DAF")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xB), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1DE6")
     ClearChrFlags(0x1, 0x8)
 
-    label("loc_1DAF")
+    label("loc_1DE6")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1DC2")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xC), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1DF9")
     ClearChrFlags(0x2, 0x8)
 
-    label("loc_1DC2")
+    label("loc_1DF9")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1DD5")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xD), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1E0C")
     ClearChrFlags(0x3, 0x8)
 
-    label("loc_1DD5")
+    label("loc_1E0C")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1DE8")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xE), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1E1F")
     ClearChrFlags(0x4, 0x8)
 
-    label("loc_1DE8")
+    label("loc_1E1F")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1DFB")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xF), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1E32")
     ClearChrFlags(0x5, 0x8)
 
-    label("loc_1DFB")
+    label("loc_1E32")
 
     Call(0, 31)
     SetChrFlags(0x8, 0x8)
@@ -1602,21 +1604,21 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_14_1B81 end
+    # Function_14_1BB0 end
 
-    def Function_15_1E17(): pass
+    def Function_15_1E4E(): pass
 
-    label("Function_15_1E17")
+    label("Function_15_1E4E")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13B, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1E73")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13B, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1EB9")
     SetChrName("")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "When I get furniture items\x01",
-            "You can put it in the support room 's room.\x07\x00\x02",
+            "When you acquire furniture items,\x01",
+            "you can place them in the protagonists' rooms.\x07\x00\x02",
         )
     )
 
@@ -1624,15 +1626,15 @@ def main():
     OP_57(0x0)
     SetScenarioFlags(0x13B, 7)
 
-    label("loc_1E73")
+    label("loc_1EB9")
 
     Return()
 
-    # Function_15_1E17 end
+    # Function_15_1E4E end
 
-    def Function_16_1E74(): pass
+    def Function_16_1EBA(): pass
 
-    label("Function_16_1E74")
+    label("Function_16_1EBA")
 
     OP_F4(0x3)
     TalkBegin(0xFF)
@@ -1644,15 +1646,15 @@ def main():
         -1,
         1,
         (
-            "To take a break here\x01",      # 0
-            "quit\x01",              # 1
+            "Rest Here\x01",      # 0
+            "Quit\x01",           # 1
         )
     )
 
     MenuEnd(0x0)
     OP_60(0x0)
     OP_57(0x0)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1EFB")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1F3A")
     SoundLoad(13)
     StopBGM(0xBB8)
     FadeToDark(1000, 0, -1)
@@ -1669,22 +1671,22 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    label("loc_1EFB")
+    label("loc_1F3A")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1F17")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1F56")
     FadeToBright(300, 0)
     TalkEnd(0xFF)
     Return()
 
-    label("loc_1F17")
+    label("loc_1F56")
 
     Return()
 
-    # Function_16_1E74 end
+    # Function_16_1EBA end
 
-    def Function_17_1F19(): pass
+    def Function_17_1F58(): pass
 
-    label("Function_17_1F19")
+    label("Function_17_1F58")
 
     OP_F4(0x3)
     TalkBegin(0xFF)
@@ -1696,15 +1698,15 @@ def main():
         -1,
         1,
         (
-            "To take a break here\x01",      # 0
-            "quit\x01",              # 1
+            "Rest Here\x01",      # 0
+            "Quit\x01",           # 1
         )
     )
 
     MenuEnd(0x0)
     OP_60(0x0)
     OP_57(0x0)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1FA0")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1FD8")
     SoundLoad(13)
     StopBGM(0xBB8)
     FadeToDark(1000, 0, -1)
@@ -1721,22 +1723,22 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    label("loc_1FA0")
+    label("loc_1FD8")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1FBC")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1FF4")
     FadeToBright(300, 0)
     TalkEnd(0xFF)
     Return()
 
-    label("loc_1FBC")
+    label("loc_1FF4")
 
     Return()
 
-    # Function_17_1F19 end
+    # Function_17_1F58 end
 
-    def Function_18_1FBE(): pass
+    def Function_18_1FF6(): pass
 
-    label("Function_18_1FBE")
+    label("Function_18_1FF6")
 
     OP_F4(0x3)
     TalkBegin(0xFF)
@@ -1748,15 +1750,15 @@ def main():
         -1,
         1,
         (
-            "To take a break here\x01",      # 0
-            "quit\x01",              # 1
+            "Rest Here\x01",      # 0
+            "Quit\x01",           # 1
         )
     )
 
     MenuEnd(0x0)
     OP_60(0x0)
     OP_57(0x0)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2045")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2076")
     SoundLoad(13)
     StopBGM(0xBB8)
     FadeToDark(1000, 0, -1)
@@ -1773,22 +1775,22 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    label("loc_2045")
+    label("loc_2076")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_2061")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_2092")
     FadeToBright(300, 0)
     TalkEnd(0xFF)
     Return()
 
-    label("loc_2061")
+    label("loc_2092")
 
     Return()
 
-    # Function_18_1FBE end
+    # Function_18_1FF6 end
 
-    def Function_19_2063(): pass
+    def Function_19_2094(): pass
 
-    label("Function_19_2063")
+    label("Function_19_2094")
 
     TalkBegin(0xFF)
     CreatePortrait(0, 112, 8, 368, 264, 0, 0, 256, 256, 0, 0, 256, 256, 0xFFFFFF, 0x1, "c_vis362.itp")
@@ -1802,7 +1804,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is an elegant appearance.\x02",
+            "It is a stylish mirror.\x02",
         )
     )
 
@@ -1818,11 +1820,11 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_19_2063 end
+    # Function_19_2094 end
 
-    def Function_20_2116(): pass
+    def Function_20_214C(): pass
 
-    label("Function_20_2116")
+    label("Function_20_214C")
 
     TalkBegin(0xFF)
     CreatePortrait(0, 112, 8, 368, 264, 0, 0, 256, 256, 0, 0, 256, 256, 0xFFFFFF, 0x1, "c_vis363.itp")
@@ -1836,7 +1838,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a music box.\x02",
+            "It is a music box.\x02",
         )
     )
 
@@ -1862,22 +1864,22 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_20_2116 end
+    # Function_20_214C end
 
-    def Function_21_21F3(): pass
+    def Function_21_2229(): pass
 
-    label("Function_21_21F3")
+    label("Function_21_2229")
 
     PlayBGM("ed7591", 0)
     Sleep(19000)
     OP_1F()
     Return()
 
-    # Function_21_21F3 end
+    # Function_21_2229 end
 
-    def Function_22_21FC(): pass
+    def Function_22_2232(): pass
 
-    label("Function_22_21FC")
+    label("Function_22_2232")
 
     TalkBegin(0xFF)
     CreatePortrait(0, 112, 8, 368, 264, 0, 0, 256, 256, 0, 0, 256, 256, 0xFFFFFF, 0x1, "c_vis364.itp")
@@ -1891,7 +1893,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a piggy banker.\x02",
+            "It is a Kagemaru bank.\x02",
         )
     )
 
@@ -1907,11 +1909,11 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_22_21FC end
+    # Function_22_2232 end
 
-    def Function_23_22B3(): pass
+    def Function_23_22E9(): pass
 
-    label("Function_23_22B3")
+    label("Function_23_22E9")
 
     TalkBegin(0xFF)
     CreatePortrait(0, 112, 8, 368, 264, 0, 0, 256, 256, 0, 0, 256, 256, 0xFFFFFF, 0x1, "c_vis365.itp")
@@ -1925,7 +1927,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is Meeeeee.\x02",
+            "It is a Miichie plushy.\x02",
         )
     )
 
@@ -1941,11 +1943,11 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_23_22B3 end
+    # Function_23_22E9 end
 
-    def Function_24_236A(): pass
+    def Function_24_23A1(): pass
 
-    label("Function_24_236A")
+    label("Function_24_23A1")
 
     TalkBegin(0xFF)
     CreatePortrait(0, 112, 8, 368, 264, 0, 0, 256, 256, 0, 0, 256, 256, 0xFFFFFF, 0x1, "c_vis370.itp")
@@ -1959,7 +1961,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a flag for the race.\x02",
+            "It is a racing flag.\x02",
         )
     )
 
@@ -1975,11 +1977,11 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_24_236A end
+    # Function_24_23A1 end
 
-    def Function_25_2423(): pass
+    def Function_25_2456(): pass
 
-    label("Function_25_2423")
+    label("Function_25_2456")
 
     TalkBegin(0xFF)
     CreatePortrait(0, 112, 8, 368, 264, 0, 0, 256, 256, 0, 0, 256, 256, 0xFFFFFF, 0x1, "c_vis371.itp")
@@ -1993,7 +1995,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a mini bell bike.\x02",
+            "It is a minivelo.\x02",
         )
     )
 
@@ -2009,11 +2011,11 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_25_2423 end
+    # Function_25_2456 end
 
-    def Function_26_24DA(): pass
+    def Function_26_2508(): pass
 
-    label("Function_26_24DA")
+    label("Function_26_2508")
 
     TalkBegin(0xFF)
     CreatePortrait(0, 112, 8, 368, 264, 0, 0, 256, 256, 0, 0, 256, 256, 0xFFFFFF, 0x1, "c_vis373.itp")
@@ -2027,7 +2029,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a pom cushion.\x02",
+            "It is a Pom cushion.\x02",
         )
     )
 
@@ -2043,11 +2045,11 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_26_24DA end
+    # Function_26_2508 end
 
-    def Function_27_2591(): pass
+    def Function_27_25BD(): pass
 
-    label("Function_27_2591")
+    label("Function_27_25BD")
 
     TalkBegin(0xFF)
     CreatePortrait(0, 112, 8, 368, 264, 0, 0, 256, 256, 0, 0, 256, 256, 0xFFFFFF, 0x1, "c_vis372.itp")
@@ -2061,7 +2063,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a strange cushion.\x02",
+            "It is a strange cushion.\x02",
         )
     )
 
@@ -2077,11 +2079,11 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_27_2591 end
+    # Function_27_25BD end
 
-    def Function_28_2648(): pass
+    def Function_28_2676(): pass
 
-    label("Function_28_2648")
+    label("Function_28_2676")
 
     TalkBegin(0xFF)
     CreatePortrait(0, 112, 8, 368, 264, 0, 0, 256, 256, 0, 0, 256, 256, 0xFFFFFF, 0x1, "c_vis374.itp")
@@ -2095,7 +2097,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a black teddy bear.\x02",
+            "It is a black teddy.\x02",
         )
     )
 
@@ -2111,11 +2113,11 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_28_2648 end
+    # Function_28_2676 end
 
-    def Function_29_26FD(): pass
+    def Function_29_272B(): pass
 
-    label("Function_29_26FD")
+    label("Function_29_272B")
 
     TalkBegin(0xFF)
     CreatePortrait(0, 112, 8, 368, 264, 0, 0, 256, 256, 0, 0, 256, 256, 0xFFFFFF, 0x1, "c_vis375.itp")
@@ -2129,7 +2131,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is an annoyance for a while.\x02",
+            "It is an Acerbic Tomartian.\x02",
         )
     )
 
@@ -2145,11 +2147,11 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_29_26FD end
+    # Function_29_272B end
 
-    def Function_30_27B6(): pass
+    def Function_30_27E7(): pass
 
-    label("Function_30_27B6")
+    label("Function_30_27E7")
 
     TalkBegin(0xFF)
     CreatePortrait(0, 112, 8, 368, 264, 0, 0, 256, 256, 0, 0, 256, 256, 0xFFFFFF, 0x1, "c_vis376.itp")
@@ -2163,7 +2165,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is ZWEI 2 penguin.\x02",
+            "It is a ZWEI 2 penguin.\x02",
         )
     )
 
@@ -2179,24 +2181,24 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_30_27B6 end
+    # Function_30_27E7 end
 
-    def Function_31_2871(): pass
+    def Function_31_289F(): pass
 
-    label("Function_31_2871")
+    label("Function_31_289F")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 0)), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 1)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 2)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 3)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 4)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 5)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 7)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 0)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 1)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 2)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 3)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 4)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 5)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 7)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13E, 0)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 0)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 1)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 2)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 3)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 4)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 5)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 7)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2D, 0)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2D, 1)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_28E5")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 0)), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 1)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 2)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 3)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 4)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 5)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13C, 7)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 0)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 1)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 2)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 3)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 4)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 5)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13D, 7)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x13E, 0)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 0)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 1)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 2)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 3)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 4)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 5)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2C, 7)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2D, 0)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x2D, 1)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_2913")
     OP_E0(0x16, 0x0)
 
-    label("loc_28E5")
+    label("loc_2913")
 
     Return()
 
-    # Function_31_2871 end
+    # Function_31_289F end
 
-    def Function_32_28E6(): pass
+    def Function_32_2914(): pass
 
-    label("Function_32_28E6")
+    label("Function_32_2914")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -2295,17 +2297,17 @@ def main():
     OP_71(0x1, 0x0, 0x5, 0x0, 0x0)
     OP_79(0x1)
 
-    def lambda_2BBC():
+    def lambda_2BEA():
         OP_96(0xFE, 0x36B0, 0x0, 0xF618, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_2BBC)
+    QueueWorkItem(0x104, 1, lambda_2BEA)
 
-    def lambda_2BD6():
+    def lambda_2C04():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 2, lambda_2BD6)
+    QueueWorkItem(0x104, 2, lambda_2C04)
     WaitChrThread(0x104, 1)
     Sound(104, 0, 70, 0)
     OP_71(0x1, 0x5, 0x0, 0x0, 0x0)
@@ -2314,17 +2316,17 @@ def main():
     OP_93(0x104, 0x10E, 0x1F4)
     OP_6B(0x9)
 
-    def lambda_2C10():
+    def lambda_2C3E():
         OP_95(0xFE, -1000, 0, 63000, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_2C10)
+    QueueWorkItem(0x104, 1, lambda_2C3E)
 
-    def lambda_2C2A():
+    def lambda_2C58():
         OP_95(0xFE, -1000, 800, 63000, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x9, 1, lambda_2C2A)
+    QueueWorkItem(0x9, 1, lambda_2C58)
     WaitChrThread(0x104, 1)
     Sleep(300)
     OP_6B(0xFF)
@@ -2339,26 +2341,26 @@ def main():
     OP_93(0x104, 0x0, 0x1F4)
     SetCameraDistance(23000, 7000)
 
-    def lambda_2C9E():
+    def lambda_2CCC():
         OP_95(0xFE, -1000, 0, 70500, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_2C9E)
+    QueueWorkItem(0x104, 1, lambda_2CCC)
     WaitChrThread(0x104, 1)
 
-    def lambda_2CBC():
+    def lambda_2CEA():
         OP_95(0xFE, 1500, 0, 70500, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_2CBC)
+    QueueWorkItem(0x104, 1, lambda_2CEA)
     WaitChrThread(0x104, 1)
     FadeToDark(2000, 0, -1)
 
-    def lambda_2CE4():
+    def lambda_2D12():
         OP_97(0xFE, 0x0, 0x0, 0xFFFFE890, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_2CE4)
+    QueueWorkItem(0x104, 1, lambda_2D12)
     WaitChrThread(0x104, 1)
     OP_0D()
     OP_6F(0x79)
@@ -2388,7 +2390,7 @@ def main():
     IdleLoop()
     Return()
 
-    # Function_32_28E6 end
+    # Function_32_2914 end
 
     SaveToFile()
 

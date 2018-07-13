@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "e4300.bin",                # FileName
         "e4300",                    # MapName
@@ -19,17 +21,17 @@ def main():
 
     BuildStringList((
         "e4300",                  # 0
-        "Mercava factory",         # 1
-        "Mercapa machine",         # 2
-        "Republic flying boat",           # 3
-        "Republic flying boat",           # 4
-        "Republic flying boat",           # 5
-        "Republic flying boat",           # 6
-        "Republic flying boat",           # 7
-        "Iron 2",           # 8
-        "Patel Matel",           # 9
-        "Len",                   # 10
-        "SE control",                 # 11
+        "メルカバ伍号機",         # 1
+        "メルカバ玖号機",         # 2
+        "共和国飛行艇",           # 3
+        "共和国飛行艇",           # 4
+        "共和国飛行艇",           # 5
+        "共和国飛行艇",           # 6
+        "共和国飛行艇",           # 7
+        "アイオーン２",           # 8
+        "Pater-Mater",            # 9
+        "Renne",                  # 10
+        "SE制御",                 # 11
     ))
 
     DeclNpc(0,       0,       0,       0,    197,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -927,7 +929,7 @@ def main():
         0xFF,
         (
             scpstr(0x18),
-            "#1K#30WThe next day, 9: 00 -\x02",
+            "#1K#30WNext Day, 9:00──\x02",
         )
     )
 

@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "r1060.bin",                # FileName
         "r1060",                    # MapName
@@ -93,9 +95,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FIs this direction to Crossbell City?\x02\x03",
-            "The distance is also a distance, so bother\x01",
-            "I will not go along the railroad tracks.\x02",
+            "#00000FThe Crossbell City area is this way, eh?\x02\x03",
+            "It's distant and there's no need to\x01",
+            "follow the railway tracks on purpose.\x02",
         )
     )
 

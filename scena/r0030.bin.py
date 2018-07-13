@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "r0030.bin",                # FileName
         "r0030",                    # MapName
@@ -19,17 +21,17 @@ def main():
 
     BuildStringList((
         "r0030",                  # 0
-        "bus",                   # 1
-        "Metal Saucer",         # 2
-        "Metal Saucer",         # 3
-        "Savage horn",         # 4
-        "Savage horn",         # 5
-        "Grass Drawme",         # 6
-        "Eidolon",                   # 7
-        "Armored car 01",               # 8
-        "Armor car 02",               # 9
-        "Armored car 03",               # 10
-        "SE control",                 # 11
+        "バス",                   # 1
+        "メタルソーサー",         # 2
+        "メタルソーサー",         # 3
+        "サベージホーン",         # 4
+        "サベージホーン",         # 5
+        "グラスドローメ",         # 6
+        "Cryptid",                # 7
+        "装甲車01",               # 8
+        "装甲車02",               # 9
+        "装甲車03",               # 10
+        "SE制御",                 # 11
         "br0000",                 # 12
         "br0000",                 # 13
         "br0000",                 # 14
@@ -39,19 +41,19 @@ def main():
         "br0000",                 # 18
         "br0000",                 # 19
         "br0000",                 # 20
-        "Cross Bell City",       # 21
-        "To the Tangram main gate",       # 22
-        "Direction to Almorika village",       # 23
+        "To Crossbell City",      # 21
+        "To Tangram Gate",        # 22
+        "To Armorica Village",    # 23
     ))
 
     ATBonus("ATBonus_674", 100, 5, 1, 5, 1, 5, 1, 5, 5, 0, 0, 0, 1, 0, 0, 0)
     ATBonus("ATBonus_694", 100, 5, 0, 5, 0, 5, 0, 2, 5, 0, 0, 0, 2, 0, 0, 0)
 
-    Sepith("Sepith_38C5", 7,   4,   5,   0,   0,   5,   0)
-    Sepith("Sepith_38DD", 7,   0,   3,   9,   0,   0,   2)
-    Sepith("Sepith_38CD", 2,   7,   0,   5,   4,   2,   2)
-    Sepith("Sepith_38E5", 3,   4,   11,  0,   3,   4,   0)
-    Sepith("Sepith_3905", 7,   9,   15,  5,   6,   3,   5)
+    Sepith("Sepith_3964", 7,   4,   5,   0,   0,   5,   0)
+    Sepith("Sepith_397C", 7,   0,   3,   9,   0,   0,   2)
+    Sepith("Sepith_396C", 2,   7,   0,   5,   4,   2,   2)
+    Sepith("Sepith_3984", 3,   4,   11,  0,   3,   4,   0)
+    Sepith("Sepith_39A4", 7,   9,   15,  5,   6,   3,   5)
 
     MonsterBattlePostion("MonsterBattlePostion_6D4", 8, 8, 180)
     MonsterBattlePostion("MonsterBattlePostion_6D8", 5, 9, 180)
@@ -89,7 +91,7 @@ def main():
     # monster count: 15
 
     BattleInfo(
-        "BattleInfo_774", 0x0000, 59, 6, 45, 6, 1, 25, 0, "br0000", "Sepith_38C5", 30, 45, 25, 0,
+        "BattleInfo_774", 0x0000, 59, 6, 45, 6, 1, 25, 0, "br0000", "Sepith_3964", 30, 45, 25, 0,
         (
             ("ms66500.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_6D4", "MonsterBattlePostion_734", "ed7450", "ed7453", "ATBonus_674"),
             ("ms66500.dat", "ms63000.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_6B4", "MonsterBattlePostion_734", "ed7450", "ed7453", "ATBonus_674"),
@@ -99,7 +101,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_810", 0x0000, 59, 6, 45, 6, 1, 75, 0, "br0000", "Sepith_38DD", 30, 45, 25, 0,
+        "BattleInfo_810", 0x0000, 59, 6, 45, 6, 1, 75, 0, "br0000", "Sepith_397C", 30, 45, 25, 0,
         (
             ("ms61000.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_6D4", "MonsterBattlePostion_734", "ed7450", "ed7453", "ATBonus_674"),
             ("ms61000.dat", "ms61000.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_6B4", "MonsterBattlePostion_734", "ed7450", "ed7453", "ATBonus_674"),
@@ -109,7 +111,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_8AC", 0x0000, 59, 6, 45, 6, 1, 25, 0, "br0000", "Sepith_38CD", 30, 45, 25, 0,
+        "BattleInfo_8AC", 0x0000, 59, 6, 45, 6, 1, 25, 0, "br0000", "Sepith_396C", 30, 45, 25, 0,
         (
             ("ms69900.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_6D4", "MonsterBattlePostion_734", "ed7450", "ed7453", "ATBonus_674"),
             ("ms69900.dat", "ms69900.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_6B4", "MonsterBattlePostion_734", "ed7450", "ed7453", "ATBonus_674"),
@@ -119,7 +121,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_948", 0x0000, 60, 6, 45, 6, 1, 50, 0, "br0000", "Sepith_38E5", 30, 45, 25, 0,
+        "BattleInfo_948", 0x0000, 60, 6, 45, 6, 1, 50, 0, "br0000", "Sepith_3984", 30, 45, 25, 0,
         (
             ("ms64000.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_6D4", "MonsterBattlePostion_734", "ed7450", "ed7453", "ATBonus_674"),
             ("ms64000.dat", "ms64000.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_6B4", "MonsterBattlePostion_734", "ed7450", "ed7453", "ATBonus_674"),
@@ -129,7 +131,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_9E4", 0x0000, 77, 6, 45, 6, 1, 40, 0, "br0000", "Sepith_3905", 40, 35, 25, 0,
+        "BattleInfo_9E4", 0x0000, 77, 6, 45, 6, 1, 40, 0, "br0000", "Sepith_39A4", 40, 35, 25, 0,
         (
             ("ms63701.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_6D4", "MonsterBattlePostion_734", "ed7450", "ed7453", "ATBonus_674"),
             ("ms63701.dat", "ms63701.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_6B4", "MonsterBattlePostion_734", "ed7450", "ed7453", "ATBonus_674"),
@@ -250,9 +252,9 @@ def main():
     DeclActor(117610,  4000,    32000,   1200,    117610,  5000,    32000,   0x007C, 0,  7,  0x0000)
     DeclActor(94410,   4000,    4294945176, 1500,    94410,   5700,    4294945176, 0x007C, 0,  26, 0x0000)
 
-    PlaceName(-17.0, 0.0, -10.0, 0x0000, 0x0000, "Cross Bell City")
-    PlaceName(152.0, 0.0, -82.0, 0x0000, 0x0000, "To the Tangram main gate")
-    PlaceName(79.0, 0.0, 66.0, 0x0000, 0x0000, "Direction to Almorika village")
+    PlaceName(-17.0, 0.0, -10.0, 0x0000, 0x0000, "To Crossbell City")
+    PlaceName(152.0, 0.0, -82.0, 0x0000, 0x0000, "To Tangram Gate")
+    PlaceName(79.0, 0.0, 66.0, 0x0000, 0x0000, "To Armorica Village")
     PlaceName(105.5999984741211, 0.0, -27.200000762939453, 0x0000, 0x0055, "")
 
     ChipFrameInfo(1000, 0, [0, 1, 2, 3, 4, 3, 2, 1])             # 0
@@ -273,27 +275,27 @@ def main():
         "Function_3_CCC",          # 03, 3
         "Function_4_11FE",         # 04, 4
         "Function_5_1D64",         # 05, 5
-        "Function_6_1EB5",         # 06, 6
-        "Function_7_2006",         # 07, 7
-        "Function_8_221D",         # 08, 8
-        "Function_9_257B",         # 09, 9
-        "Function_10_28D9",        # 0A, 10
-        "Function_11_2901",        # 0B, 11
-        "Function_12_2905",        # 0C, 12
-        "Function_13_29F1",        # 0D, 13
-        "Function_14_2B1E",        # 0E, 14
-        "Function_15_2C2B",        # 0F, 15
-        "Function_16_2C61",        # 10, 16
-        "Function_17_2D8E",        # 11, 17
-        "Function_18_2DDF",        # 12, 18
-        "Function_19_2E73",        # 13, 19
-        "Function_20_31B6",        # 14, 20
-        "Function_21_3202",        # 15, 21
-        "Function_22_327E",        # 16, 22
-        "Function_23_3714",        # 17, 23
-        "Function_24_3769",        # 18, 24
-        "Function_25_37DD",        # 19, 25
-        "Function_26_3800",        # 1A, 26
+        "Function_6_1EB6",         # 06, 6
+        "Function_7_2008",         # 07, 7
+        "Function_8_2224",         # 08, 8
+        "Function_9_2582",         # 09, 9
+        "Function_10_28E0",        # 0A, 10
+        "Function_11_2908",        # 0B, 11
+        "Function_12_290C",        # 0C, 12
+        "Function_13_2A04",        # 0D, 13
+        "Function_14_2B31",        # 0E, 14
+        "Function_15_2C3E",        # 0F, 15
+        "Function_16_2C74",        # 10, 16
+        "Function_17_2DA1",        # 11, 17
+        "Function_18_2DF2",        # 12, 18
+        "Function_19_2E86",        # 13, 19
+        "Function_20_31BF",        # 14, 20
+        "Function_21_3213",        # 15, 21
+        "Function_22_328F",        # 16, 22
+        "Function_23_37B3",        # 17, 23
+        "Function_24_3808",        # 18, 24
+        "Function_25_387C",        # 19, 25
+        "Function_26_389F",        # 1A, 26
     ))
 
 
@@ -991,12 +993,12 @@ def main():
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1E8, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1E64")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1E8, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1E60")
     Sound(14, 0, 100, 0)
     OP_74(0x0, 0x1E)
     OP_71(0x0, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('圣灵药', 1)"), scpexpr(EXPR_END)), "loc_1DED")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1FC, 1)"), scpexpr(EXPR_END)), "loc_1DE9")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1005,9 +1007,9 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1FC),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I got it.\x02",
+            " obtained.\x02",
         )
     )
 
@@ -1017,9 +1019,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1E8, 6)
     OP_E0(0x5, 0x0)
-    Jump("loc_1E5F")
+    Jump("loc_1E5B")
 
-    label("loc_1DED")
+    label("loc_1DE9")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -1027,14 +1029,10 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "In the treasure box",
-            scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1FC),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "Is contained.\x01",
-            "Because my belongings are full,",
-            scpstr(SCPSTR_CODE_ITEM, '圣灵药'),
-            scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I gave up.\x02",
+            " is inside the chest.\x01",
+            "Since you have too many, you gave it up.\x02",
         )
     )
 
@@ -1044,11 +1042,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x0, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_1E5F")
+    label("loc_1E5B")
 
-    Jump("loc_1EA9")
+    Jump("loc_1EAA")
 
-    label("loc_1E64")
+    label("loc_1E60")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1059,7 +1057,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the treasure box.\x07\x00\x02",
+            "There is nothing in the chest. \x07\x00\x02",
         )
     )
 
@@ -1067,7 +1065,7 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_1EA9")
+    label("loc_1EAA")
 
     Sleep(30)
     TalkEnd(0xFF)
@@ -1076,18 +1074,18 @@ def main():
 
     # Function_5_1D64 end
 
-    def Function_6_1EB5(): pass
+    def Function_6_1EB6(): pass
 
-    label("Function_6_1EB5")
+    label("Function_6_1EB6")
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1E8, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1FB5")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1E8, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1FB2")
     Sound(14, 0, 100, 0)
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('中回复药', 1)"), scpexpr(EXPR_END)), "loc_1F3E")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1F5, 1)"), scpexpr(EXPR_END)), "loc_1F3B")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1096,9 +1094,9 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '中回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I got it.\x02",
+            " obtained.\x02",
         )
     )
 
@@ -1108,9 +1106,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1E8, 7)
     OP_E0(0x5, 0x0)
-    Jump("loc_1FB0")
+    Jump("loc_1FAD")
 
-    label("loc_1F3E")
+    label("loc_1F3B")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -1118,14 +1116,10 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            "In the treasure box",
-            scpstr(SCPSTR_CODE_ITEM, '中回复药'),
+            scpstr(SCPSTR_CODE_ITEM, 0x1F5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "Is contained.\x01",
-            "Because my belongings are full,",
-            scpstr(SCPSTR_CODE_ITEM, '中回复药'),
-            scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I gave up.\x02",
+            " is inside the chest.\x01",
+            "Since you have too many, you gave it up.\x02",
         )
     )
 
@@ -1135,11 +1129,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x1, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_1FB0")
+    label("loc_1FAD")
 
-    Jump("loc_1FFA")
+    Jump("loc_1FFC")
 
-    label("loc_1FB5")
+    label("loc_1FB2")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1150,7 +1144,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the treasure box.\x07\x00\x02",
+            "There is nothing in the chest. \x07\x00\x02",
         )
     )
 
@@ -1158,41 +1152,41 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_1FFA")
+    label("loc_1FFC")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_6_1EB5 end
+    # Function_6_1EB6 end
 
-    def Function_7_2006(): pass
+    def Function_7_2008(): pass
 
-    label("Function_7_2006")
+    label("Function_7_2008")
 
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1E9, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_21D7")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1E9, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_21D9")
     Sound(14, 0, 100, 0)
     OP_74(0x6, 0x1E)
     OP_71(0x6, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x216, 4)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_2105")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x216, 4)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_210B")
     OP_A7(0xD, 0xFF, 0xFF, 0xFF, 0x0, 0x0)
     TurnDirection(0xD, 0x0, 0)
     OP_98(0xD, 0x0, 0x3E8, 0x0, 0x0, 0x0)
 
-    def lambda_2063():
+    def lambda_2065():
         OP_98(0xFE, 0x0, 0xFFFFFC18, 0x0, 0x3E8, 0x0)
         ExitThread()
 
-    QueueWorkItem(0xD, 1, lambda_2063)
+    QueueWorkItem(0xD, 1, lambda_2065)
 
-    def lambda_207D():
+    def lambda_207F():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x3E8)
         ExitThread()
 
-    QueueWorkItem(0xD, 2, lambda_207D)
+    QueueWorkItem(0xD, 2, lambda_207F)
     ClearChrFlags(0xD, 0x80)
     SetChrFlags(0xD, 0x8000)
 
@@ -1200,7 +1194,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "A monster appeared!\x07\x00\x02",
+            "Monsters appeared!\x07\x00\x02",
         )
     )
 
@@ -1212,35 +1206,35 @@ def main():
     ClearChrFlags(0xD, 0x8000)
     Switch(
         (scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_END)),
-        (0, "loc_20E6"),
-        (2, "loc_20F5"),
-        (1, "loc_2102"),
-        (SWITCH_DEFAULT, "loc_2105"),
+        (0, "loc_20EC"),
+        (2, "loc_20FB"),
+        (1, "loc_2108"),
+        (SWITCH_DEFAULT, "loc_210B"),
     )
 
 
-    label("loc_20E6")
+    label("loc_20EC")
 
     SetScenarioFlags(0x216, 4)
     OP_70(0x6, 0x1E)
     Sleep(500)
-    Jump("loc_2105")
+    Jump("loc_210B")
 
-    label("loc_20F5")
+    label("loc_20FB")
 
     OP_70(0x6, 0x0)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    label("loc_2102")
+    label("loc_2108")
 
     OP_B9(0x0)
     Return()
 
-    label("loc_2105")
+    label("loc_210B")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber('脱兔', 1)"), scpexpr(EXPR_END)), "loc_2162")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xB3, 1)"), scpexpr(EXPR_END)), "loc_2164")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1248,9 +1242,9 @@ def main():
     AnonymousTalk(
         0x3E7,
         (
-            scpstr(SCPSTR_CODE_ITEM, '脱兔'),
+            scpstr(SCPSTR_CODE_ITEM, 0xB3),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I got it.\x02",
+            " obtained.\x02",
         )
     )
 
@@ -1260,23 +1254,19 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1E9, 0)
     OP_E0(0x5, 0x0)
-    Jump("loc_21D2")
+    Jump("loc_21D4")
 
-    label("loc_2162")
+    label("loc_2164")
 
     FadeToDark(300, 0, 100)
 
     AnonymousTalk(
         0x3E7,
         (
-            "In the treasure box",
-            scpstr(SCPSTR_CODE_ITEM, '脱兔'),
+            scpstr(SCPSTR_CODE_ITEM, 0xB3),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "Is contained.\x01",
-            "Because my belongings are full,",
-            scpstr(SCPSTR_CODE_ITEM, '脱兔'),
-            scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "I gave up.\x02",
+            " is inside the chest.\x01",
+            "Since you have too many, you gave it up.\x02",
         )
     )
 
@@ -1286,11 +1276,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x6, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_21D2")
+    label("loc_21D4")
 
-    Jump("loc_2211")
+    Jump("loc_2218")
 
-    label("loc_21D7")
+    label("loc_21D9")
 
     FadeToDark(300, 0, 100)
 
@@ -1299,7 +1289,7 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the treasure box.\x07\x00\x02",
+            "There is nothing in the chest. \x07\x00\x02",
         )
     )
 
@@ -1307,22 +1297,22 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_2211")
+    label("loc_2218")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_7_2006 end
+    # Function_7_2008 end
 
-    def Function_8_221D(): pass
+    def Function_8_2224(): pass
 
-    label("Function_8_221D")
+    label("Function_8_2224")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_23D5")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_23DC")
     TalkBegin(0xFF)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3A, 3)), scpexpr(EXPR_END)), "loc_23B6")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3A, 3)), scpexpr(EXPR_END)), "loc_23BD")
     LoadEffect(0x7, "event\\eva07_00.eff")
 
     AnonymousTalk(
@@ -1331,8 +1321,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "Something seems to be buried.\x01",
-            "Do you dig it?\x07\x00\x02",
+            "It looks like something is buried.\x01",
+            "Dig it out?\x07\x00\x02",
         )
     )
 
@@ -1344,7 +1334,7 @@ def main():
         1,
         (
             "Yes\x01",      # 0
-            "No\x01",      # 1
+            "No\x01",       # 1
         )
     )
 
@@ -1352,19 +1342,19 @@ def main():
     OP_60(0x0)
     OP_57(0x0)
     OP_5A()
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_23B1")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_23B8")
     ClearScenarioFlags(0x3A, 3)
     OP_65(0x3, 0x1)
     StopEffect(0x9, 0x2)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 3)), scpexpr(EXPR_END)), "loc_23AE")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 3)), scpexpr(EXPR_END)), "loc_23B5")
     ClearScenarioFlags(0x38, 3)
     OP_A7(0x9, 0xFF, 0xFF, 0xFF, 0x0, 0x0)
 
-    def lambda_22D7():
+    def lambda_22DA():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x3E8)
         ExitThread()
 
-    QueueWorkItem(0x9, 2, lambda_22D7)
+    QueueWorkItem(0x9, 2, lambda_22DA)
     TurnDirection(0x9, 0x0, 0)
     ClearChrFlags(0x9, 0x80)
     SetChrFlags(0x9, 0x8000)
@@ -1376,7 +1366,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "A monster appeared!\x02",
+            "Monsters appeared!\x02",
         )
     )
 
@@ -1386,51 +1376,51 @@ def main():
     Battle("BattleInfo_A80", 0x0, 0x0, 0x0, 0x0, 0xFF)
     SetChrFlags(0x9, 0x80)
     ClearChrFlags(0x9, 0x8000)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_23A9")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_23B0")
     RunExpression(0x0, (scpexpr(EXPR_RAND), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_2390")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_2397")
     Call(1, 5)
-    Jump("loc_23A9")
+    Jump("loc_23B0")
 
-    label("loc_2390")
+    label("loc_2397")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_23A6")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_23AD")
     Call(1, 4)
-    Jump("loc_23A9")
+    Jump("loc_23B0")
 
-    label("loc_23A6")
+    label("loc_23AD")
 
     Call(1, 3)
 
-    label("loc_23A9")
+    label("loc_23B0")
 
-    Jump("loc_23B1")
+    Jump("loc_23B8")
 
-    label("loc_23AE")
+    label("loc_23B5")
 
     Call(1, 1)
 
-    label("loc_23B1")
+    label("loc_23B8")
 
-    Jump("loc_23CC")
+    Jump("loc_23D3")
 
-    label("loc_23B6")
+    label("loc_23BD")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 3)), scpexpr(EXPR_END)), "loc_23CC")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 3)), scpexpr(EXPR_END)), "loc_23D3")
     ClearScenarioFlags(0x38, 3)
     OP_65(0x3, 0x1)
     StopEffect(0x9, 0x2)
     Call(1, 0)
 
-    label("loc_23CC")
+    label("loc_23D3")
 
     TalkEnd(0xFF)
     Return()
 
-    label("loc_23D5")
+    label("loc_23DC")
 
     TalkBegin(0xFF)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3A, 3)), scpexpr(EXPR_END)), "loc_2560")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3A, 3)), scpexpr(EXPR_END)), "loc_2567")
     LoadEffect(0x7, "event\\eva07_00.eff")
 
     AnonymousTalk(
@@ -1439,8 +1429,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "Something seems to be buried.\x01",
-            "Do you dig it?\x07\x00\x02",
+            "It looks like something is buried.\x01",
+            "Dig it out?\x07\x00\x02",
         )
     )
 
@@ -1452,7 +1442,7 @@ def main():
         1,
         (
             "Yes\x01",      # 0
-            "No\x01",      # 1
+            "No\x01",       # 1
         )
     )
 
@@ -1460,19 +1450,19 @@ def main():
     OP_60(0x0)
     OP_57(0x0)
     OP_5A()
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_255B")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2562")
     ClearScenarioFlags(0x3A, 3)
     OP_65(0x3, 0x1)
     StopEffect(0x9, 0x2)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 3)), scpexpr(EXPR_END)), "loc_2558")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 3)), scpexpr(EXPR_END)), "loc_255F")
     ClearScenarioFlags(0x38, 3)
     OP_A7(0xB, 0xFF, 0xFF, 0xFF, 0x0, 0x0)
 
-    def lambda_2481():
+    def lambda_2484():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x3E8)
         ExitThread()
 
-    QueueWorkItem(0xB, 2, lambda_2481)
+    QueueWorkItem(0xB, 2, lambda_2484)
     TurnDirection(0xB, 0x0, 0)
     ClearChrFlags(0xB, 0x80)
     SetChrFlags(0xB, 0x8000)
@@ -1484,7 +1474,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "A monster appeared!\x02",
+            "Monsters appeared!\x02",
         )
     )
 
@@ -1494,56 +1484,56 @@ def main():
     Battle("BattleInfo_AC4", 0x0, 0x0, 0x0, 0x0, 0xFF)
     SetChrFlags(0xB, 0x80)
     ClearChrFlags(0xB, 0x8000)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2553")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_255A")
     RunExpression(0x0, (scpexpr(EXPR_RAND), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_253A")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_2541")
     Call(1, 5)
-    Jump("loc_2553")
+    Jump("loc_255A")
 
-    label("loc_253A")
+    label("loc_2541")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_2550")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_2557")
     Call(1, 4)
-    Jump("loc_2553")
+    Jump("loc_255A")
 
-    label("loc_2550")
+    label("loc_2557")
 
     Call(1, 3)
 
-    label("loc_2553")
+    label("loc_255A")
 
-    Jump("loc_255B")
+    Jump("loc_2562")
 
-    label("loc_2558")
+    label("loc_255F")
 
     Call(1, 1)
 
-    label("loc_255B")
+    label("loc_2562")
 
-    Jump("loc_2576")
+    Jump("loc_257D")
 
-    label("loc_2560")
+    label("loc_2567")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 3)), scpexpr(EXPR_END)), "loc_2576")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 3)), scpexpr(EXPR_END)), "loc_257D")
     ClearScenarioFlags(0x38, 3)
     OP_65(0x3, 0x1)
     StopEffect(0x9, 0x2)
     Call(1, 0)
 
-    label("loc_2576")
+    label("loc_257D")
 
     TalkEnd(0xFF)
     Return()
 
-    # Function_8_221D end
+    # Function_8_2224 end
 
-    def Function_9_257B(): pass
+    def Function_9_2582(): pass
 
-    label("Function_9_257B")
+    label("Function_9_2582")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2733")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_273A")
     TalkBegin(0xFF)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3A, 4)), scpexpr(EXPR_END)), "loc_2714")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3A, 4)), scpexpr(EXPR_END)), "loc_271B")
     LoadEffect(0x7, "event\\eva07_00.eff")
 
     AnonymousTalk(
@@ -1552,8 +1542,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "Something seems to be buried.\x01",
-            "Do you dig it?\x07\x00\x02",
+            "It looks like something is buried.\x01",
+            "Dig it out?\x07\x00\x02",
         )
     )
 
@@ -1565,7 +1555,7 @@ def main():
         1,
         (
             "Yes\x01",      # 0
-            "No\x01",      # 1
+            "No\x01",       # 1
         )
     )
 
@@ -1573,19 +1563,19 @@ def main():
     OP_60(0x0)
     OP_57(0x0)
     OP_5A()
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_270F")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2716")
     ClearScenarioFlags(0x3A, 4)
     OP_65(0x4, 0x1)
     StopEffect(0xA, 0x2)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 4)), scpexpr(EXPR_END)), "loc_270C")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 4)), scpexpr(EXPR_END)), "loc_2713")
     ClearScenarioFlags(0x38, 4)
     OP_A7(0xA, 0xFF, 0xFF, 0xFF, 0x0, 0x0)
 
-    def lambda_2635():
+    def lambda_2638():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x3E8)
         ExitThread()
 
-    QueueWorkItem(0xA, 2, lambda_2635)
+    QueueWorkItem(0xA, 2, lambda_2638)
     TurnDirection(0xA, 0x0, 0)
     ClearChrFlags(0xA, 0x80)
     SetChrFlags(0xA, 0x8000)
@@ -1597,7 +1587,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "A monster appeared!\x02",
+            "Monsters appeared!\x02",
         )
     )
 
@@ -1607,51 +1597,51 @@ def main():
     Battle("BattleInfo_A80", 0x0, 0x0, 0x0, 0x0, 0xFF)
     SetChrFlags(0xA, 0x80)
     ClearChrFlags(0xA, 0x8000)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2707")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_270E")
     RunExpression(0x0, (scpexpr(EXPR_RAND), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_26EE")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_26F5")
     Call(1, 5)
-    Jump("loc_2707")
+    Jump("loc_270E")
 
-    label("loc_26EE")
+    label("loc_26F5")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_2704")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_270B")
     Call(1, 4)
-    Jump("loc_2707")
+    Jump("loc_270E")
 
-    label("loc_2704")
+    label("loc_270B")
 
     Call(1, 3)
 
-    label("loc_2707")
+    label("loc_270E")
 
-    Jump("loc_270F")
+    Jump("loc_2716")
 
-    label("loc_270C")
+    label("loc_2713")
 
     Call(1, 1)
 
-    label("loc_270F")
+    label("loc_2716")
 
-    Jump("loc_272A")
+    Jump("loc_2731")
 
-    label("loc_2714")
+    label("loc_271B")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 4)), scpexpr(EXPR_END)), "loc_272A")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 4)), scpexpr(EXPR_END)), "loc_2731")
     ClearScenarioFlags(0x38, 4)
     OP_65(0x4, 0x1)
     StopEffect(0xA, 0x2)
     Call(1, 0)
 
-    label("loc_272A")
+    label("loc_2731")
 
     TalkEnd(0xFF)
     Return()
 
-    label("loc_2733")
+    label("loc_273A")
 
     TalkBegin(0xFF)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3A, 4)), scpexpr(EXPR_END)), "loc_28BE")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x3A, 4)), scpexpr(EXPR_END)), "loc_28C5")
     LoadEffect(0x7, "event\\eva07_00.eff")
 
     AnonymousTalk(
@@ -1660,8 +1650,8 @@ def main():
             scpstr(SCPSTR_CODE_COLOR, 0x5),
             scpstr(0x6),
             scpstr(0x18),
-            "Something seems to be buried.\x01",
-            "Do you dig it?\x07\x00\x02",
+            "It looks like something is buried.\x01",
+            "Dig it out?\x07\x00\x02",
         )
     )
 
@@ -1673,7 +1663,7 @@ def main():
         1,
         (
             "Yes\x01",      # 0
-            "No\x01",      # 1
+            "No\x01",       # 1
         )
     )
 
@@ -1681,19 +1671,19 @@ def main():
     OP_60(0x0)
     OP_57(0x0)
     OP_5A()
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_28B9")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_28C0")
     ClearScenarioFlags(0x3A, 4)
     OP_65(0x4, 0x1)
     StopEffect(0xA, 0x2)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 4)), scpexpr(EXPR_END)), "loc_28B6")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 4)), scpexpr(EXPR_END)), "loc_28BD")
     ClearScenarioFlags(0x38, 4)
     OP_A7(0xC, 0xFF, 0xFF, 0xFF, 0x0, 0x0)
 
-    def lambda_27DF():
+    def lambda_27E2():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x3E8)
         ExitThread()
 
-    QueueWorkItem(0xC, 2, lambda_27DF)
+    QueueWorkItem(0xC, 2, lambda_27E2)
     TurnDirection(0xC, 0x0, 0)
     ClearChrFlags(0xC, 0x80)
     SetChrFlags(0xC, 0x8000)
@@ -1705,7 +1695,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "A monster appeared!\x02",
+            "Monsters appeared!\x02",
         )
     )
 
@@ -1715,81 +1705,81 @@ def main():
     Battle("BattleInfo_AC4", 0x0, 0x0, 0x0, 0x0, 0xFF)
     SetChrFlags(0xC, 0x80)
     ClearChrFlags(0xC, 0x8000)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_28B1")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_28B8")
     RunExpression(0x0, (scpexpr(EXPR_RAND), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_2898")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_289F")
     Call(1, 5)
-    Jump("loc_28B1")
+    Jump("loc_28B8")
 
-    label("loc_2898")
+    label("loc_289F")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_28AE")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_28B5")
     Call(1, 4)
-    Jump("loc_28B1")
+    Jump("loc_28B8")
 
-    label("loc_28AE")
+    label("loc_28B5")
 
     Call(1, 3)
 
-    label("loc_28B1")
+    label("loc_28B8")
 
-    Jump("loc_28B9")
+    Jump("loc_28C0")
 
-    label("loc_28B6")
+    label("loc_28BD")
 
     Call(1, 1)
 
-    label("loc_28B9")
+    label("loc_28C0")
 
-    Jump("loc_28D4")
+    Jump("loc_28DB")
 
-    label("loc_28BE")
+    label("loc_28C5")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 4)), scpexpr(EXPR_END)), "loc_28D4")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x38, 4)), scpexpr(EXPR_END)), "loc_28DB")
     ClearScenarioFlags(0x38, 4)
     OP_65(0x4, 0x1)
     StopEffect(0xA, 0x2)
     Call(1, 0)
 
-    label("loc_28D4")
+    label("loc_28DB")
 
     TalkEnd(0xFF)
     Return()
 
-    # Function_9_257B end
+    # Function_9_2582 end
 
-    def Function_10_28D9(): pass
+    def Function_10_28E0(): pass
 
-    label("Function_10_28D9")
+    label("Function_10_28E0")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_28FB")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2902")
     SetChrFlags(0x1F, 0x80)
     SetChrFlags(0x20, 0x80)
     SetChrFlags(0x21, 0x80)
-    Jump("loc_2900")
+    Jump("loc_2907")
 
-    label("loc_28FB")
+    label("loc_2902")
 
     SetChrFlags(0x15, 0x80)
 
-    label("loc_2900")
+    label("loc_2907")
 
     Return()
 
-    # Function_10_28D9 end
+    # Function_10_28E0 end
 
-    def Function_11_2901(): pass
+    def Function_11_2908(): pass
 
-    label("Function_11_2901")
+    label("Function_11_2908")
 
     Call(1, 6)
     Return()
 
-    # Function_11_2901 end
+    # Function_11_2908 end
 
-    def Function_12_2905(): pass
+    def Function_12_290C(): pass
 
-    label("Function_12_2905")
+    label("Function_12_290C")
 
     EventBegin(0x2)
     SetMapFlags(0x8000000)
@@ -1801,7 +1791,7 @@ def main():
             scpstr(0x6),
             scpstr(0x18),
             "#1KThere is a bus stop.\x01",
-            "Do you want to move by bus?\x02",
+            "Move by bus?\x02",
         )
     )
 
@@ -1812,10 +1802,10 @@ def main():
         -1,
         1,
         (
-            "Crossbell City East Exit\x01",      # 0
-            "Almorika Village\x01",          # 1
-            "Tangram Gate\x01",          # 2
-            "quit\x01",                # 3
+            "Crossbell City East Entrance\x01",      # 0
+            "Armorica Village\x01",                  # 1
+            "Tangram Gate\x01",                      # 2
+            "Quit\x01",                              # 3
         )
     )
 
@@ -1823,44 +1813,44 @@ def main():
     OP_60(0x0)
     OP_57(0x0)
     OP_5A()
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_29A4")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_29B7")
     Call(0, 13)
     ClearMapFlags(0x8000000)
     NewScene("r0000", 0, 0, 0)
     IdleLoop()
-    Jump("loc_29E9")
+    Jump("loc_29FC")
 
-    label("loc_29A4")
+    label("loc_29B7")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_29C9")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_29DC")
     Call(0, 14)
     ClearMapFlags(0x8000000)
     NewScene("t0000", 0, 0, 0)
     IdleLoop()
-    Jump("loc_29E9")
+    Jump("loc_29FC")
 
-    label("loc_29C9")
+    label("loc_29DC")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_29E9")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_29FC")
     Call(0, 16)
     ClearMapFlags(0x8000000)
     NewScene("t2500", 0, 0, 0)
     IdleLoop()
 
-    label("loc_29E9")
+    label("loc_29FC")
 
     ClearMapFlags(0x8000000)
     EventEnd(0x3)
     Return()
 
-    # Function_12_2905 end
+    # Function_12_290C end
 
-    def Function_13_29F1(): pass
+    def Function_13_2A04(): pass
 
-    label("Function_13_29F1")
+    label("Function_13_2A04")
 
     ClearMapFlags(0x1)
-    SetEventSkip(0x0, "loc_2B1A")
+    SetEventSkip(0x0, "loc_2B2D")
     Fade(500)
     OP_68(101630, 4600, -27310, 0)
     MoveCamera(45, 25, 0, 0)
@@ -1882,11 +1872,11 @@ def main():
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x79, 0xB4, 0x0, 0x20)
 
-    def lambda_2AD1():
+    def lambda_2AE4():
         OP_95(0xFE, 99960, 4000, -24090, 4000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x8, 1, lambda_2AD1)
+    QueueWorkItem(0x8, 1, lambda_2AE4)
     OP_0D()
     Sound(466, 0, 100, 0)
     Sound(467, 0, 100, 0)
@@ -1898,19 +1888,19 @@ def main():
     OP_0D()
     SetEventSkip(0x1, 0x0)
 
-    label("loc_2B1A")
+    label("loc_2B2D")
 
     SetScenarioFlags(0x3E, 0)
     Return()
 
-    # Function_13_29F1 end
+    # Function_13_2A04 end
 
-    def Function_14_2B1E(): pass
+    def Function_14_2B31(): pass
 
-    label("Function_14_2B1E")
+    label("Function_14_2B31")
 
     ClearMapFlags(0x1)
-    SetEventSkip(0x0, "loc_2C27")
+    SetEventSkip(0x0, "loc_2C3A")
     Fade(500)
     OP_68(100290, 4600, -28120, 0)
     MoveCamera(45, 18, 0, 0)
@@ -1942,30 +1932,30 @@ def main():
     OP_0D()
     SetEventSkip(0x1, 0x0)
 
-    label("loc_2C27")
+    label("loc_2C3A")
 
     SetScenarioFlags(0x3E, 0)
     Return()
 
-    # Function_14_2B1E end
+    # Function_14_2B31 end
 
-    def Function_15_2C2B(): pass
+    def Function_15_2C3E(): pass
 
-    label("Function_15_2C2B")
+    label("Function_15_2C3E")
 
     OP_95(0x8, 92660, 4000, -29500, 4000, 0x0)
     OP_9E(0x8, 0x16EFE, 0xFFFFA560, 0xFFFEA840, 0xFA0, 0x1)
     OP_71(0x2, 0x5B, 0x78, 0x0, 0x0)
     Return()
 
-    # Function_15_2C2B end
+    # Function_15_2C3E end
 
-    def Function_16_2C61(): pass
+    def Function_16_2C74(): pass
 
-    label("Function_16_2C61")
+    label("Function_16_2C74")
 
     ClearMapFlags(0x1)
-    SetEventSkip(0x0, "loc_2D8A")
+    SetEventSkip(0x0, "loc_2D9D")
     Fade(500)
     OP_68(103530, 4600, -32380, 0)
     MoveCamera(45, 25, 0, 0)
@@ -1987,11 +1977,11 @@ def main():
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x79, 0xB4, 0x0, 0x20)
 
-    def lambda_2D41():
+    def lambda_2D54():
         OP_95(0xFE, 100900, 4000, -36100, 4000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x8, 1, lambda_2D41)
+    QueueWorkItem(0x8, 1, lambda_2D54)
     OP_0D()
     Sound(466, 0, 100, 0)
     Sound(467, 0, 100, 0)
@@ -2003,16 +1993,16 @@ def main():
     OP_0D()
     SetEventSkip(0x1, 0x0)
 
-    label("loc_2D8A")
+    label("loc_2D9D")
 
     SetScenarioFlags(0x3E, 0)
     Return()
 
-    # Function_16_2C61 end
+    # Function_16_2C74 end
 
-    def Function_17_2D8E(): pass
+    def Function_17_2DA1(): pass
 
-    label("Function_17_2D8E")
+    label("Function_17_2DA1")
 
     EventBegin(0x1)
     FadeToDark(0, 0, -1)
@@ -2026,11 +2016,11 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_17_2D8E end
+    # Function_17_2DA1 end
 
-    def Function_18_2DDF(): pass
+    def Function_18_2DF2(): pass
 
-    label("Function_18_2DDF")
+    label("Function_18_2DF2")
 
     EventBegin(0x1)
     SetMapFlags(0x8000000)
@@ -2040,30 +2030,30 @@ def main():
     Sleep(2000)
     StopSound(459, 1000, 100)
     Sound(492, 0, 70, 0)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 2)), scpexpr(EXPR_END)), "loc_2E3A")
-    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x64), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x32), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2E2F")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 2)), scpexpr(EXPR_END)), "loc_2E4D")
+    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x64), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x32), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2E42")
     Sound(2502, 255, 100, 0)
-    Jump("loc_2E35")
+    Jump("loc_2E48")
 
-    label("loc_2E2F")
+    label("loc_2E42")
 
     Sound(2503, 255, 100, 0)
 
-    label("loc_2E35")
+    label("loc_2E48")
 
-    Jump("loc_2E5E")
+    Jump("loc_2E71")
 
-    label("loc_2E3A")
+    label("loc_2E4D")
 
-    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x64), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x32), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2E58")
+    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x64), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x32), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2E6B")
     Sound(3347, 255, 100, 0)
-    Jump("loc_2E5E")
+    Jump("loc_2E71")
 
-    label("loc_2E58")
+    label("loc_2E6B")
 
     Sound(3348, 255, 100, 0)
 
-    label("loc_2E5E")
+    label("loc_2E71")
 
     Sleep(500)
     FadeToBright(500, 0)
@@ -2072,108 +2062,108 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_18_2DDF end
+    # Function_18_2DF2 end
 
-    def Function_19_2E73(): pass
+    def Function_19_2E86(): pass
 
-    label("Function_19_2E73")
+    label("Function_19_2E86")
 
     SetMapFlags(0x80)
     SetMapFlags(0x8000000)
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     ClearScenarioFlags(0x31, 2)
-    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x64), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x32), scpexpr(EXPR_LSS), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x182, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_2EA5")
+    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x64), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x32), scpexpr(EXPR_LSS), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x182, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_2EB8")
     SetScenarioFlags(0x31, 2)
 
-    label("loc_2EA5")
+    label("loc_2EB8")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2EEB")
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 2)), scpexpr(EXPR_END)), "loc_2EE5")
-    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x64), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x32), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2EDA")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x4), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2EFE")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 2)), scpexpr(EXPR_END)), "loc_2EF8")
+    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x64), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x32), scpexpr(EXPR_LSS), scpexpr(EXPR_END)), "loc_2EED")
     Sound(2499, 255, 100, 0)
-    Jump("loc_2EE0")
+    Jump("loc_2EF3")
 
-    label("loc_2EDA")
+    label("loc_2EED")
 
     Sound(3537, 255, 100, 0)
 
-    label("loc_2EE0")
+    label("loc_2EF3")
 
-    Jump("loc_2EEB")
+    Jump("loc_2EFE")
 
-    label("loc_2EE5")
+    label("loc_2EF8")
 
     Sound(3344, 255, 100, 0)
 
-    label("loc_2EEB")
+    label("loc_2EFE")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_31A8")
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 5)), scpexpr(EXPR_END)), "loc_2F64")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_31B1")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x20, 5)), scpexpr(EXPR_END)), "loc_2F71")
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "Board Mercapa")
-    MenuCmd(1, 0, "quit")
+    MenuCmd(1, 0, "Board Merkabah")
+    MenuCmd(1, 0, "Quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
     OP_60(0x0)
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
-        (0, "loc_2F44"),
-        (SWITCH_DEFAULT, "loc_2F55"),
+        (0, "loc_2F51"),
+        (SWITCH_DEFAULT, "loc_2F62"),
     )
 
 
-    label("loc_2F44")
+    label("loc_2F51")
 
     SetScenarioFlags(0x22, 0)
     NewScene("e3020", 0, 0, 0)
     IdleLoop()
-    Jump("loc_2F5F")
+    Jump("loc_2F6C")
 
-    label("loc_2F55")
+    label("loc_2F62")
 
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    label("loc_2F5F")
+    label("loc_2F6C")
 
-    Jump("loc_31A3")
+    Jump("loc_31AC")
 
-    label("loc_2F64")
+    label("loc_2F71")
 
     MenuCmd(0, 0)
-    MenuCmd(1, 0, "Travel with a driving car")
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_2F98")
-    MenuCmd(1, 0, "Take a break with a driving car")
+    MenuCmd(1, 0, "Use Orbal Car")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_2FA3")
+    MenuCmd(1, 0, "Rest in Orbal Car")
 
-    label("loc_2F98")
+    label("loc_2FA3")
 
-    MenuCmd(1, 0, "quit")
+    MenuCmd(1, 0, "Quit")
     MenuCmd(2, 0, -1, -1, 1)
     MenuEnd(0x0)
     OP_60(0x0)
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
-        (0, "loc_2FCC"),
-        (1, "loc_30D0"),
-        (2, "loc_3161"),
-        (SWITCH_DEFAULT, "loc_3199"),
+        (0, "loc_2FD5"),
+        (1, "loc_30D9"),
+        (2, "loc_316A"),
+        (SWITCH_DEFAULT, "loc_31A2"),
     )
 
 
-    label("loc_2FCC")
+    label("loc_2FD5")
 
     SetMapObjFrame(0x3, "light", 0x0, 0x1)
     OP_74(0x3, 0x1E)
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_END)), "loc_2FFD")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_END)), "loc_3006")
     OP_70(0x3, 0x12C)
     OP_71(0x3, 0x12C, 0x14A, 0x0, 0x0)
-    Jump("loc_300D")
+    Jump("loc_3016")
 
-    label("loc_2FFD")
+    label("loc_3006")
 
     OP_70(0x3, 0xF0)
     OP_71(0x3, 0xF0, 0x10E, 0x0, 0x0)
 
-    label("loc_300D")
+    label("loc_3016")
 
     Sound(462, 0, 100, 0)
     SoundLoad(2500)
@@ -2182,60 +2172,60 @@ def main():
     Sleep(700)
     FadeToDark(300, 0, -1)
     OP_0D()
-    Jc((scpexpr(EXPR_EXEC_OP, "MiniGame(0x2E, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_3063")
+    Jc((scpexpr(EXPR_EXEC_OP, "MiniGame(0x2E, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_306C")
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    label("loc_3063")
+    label("loc_306C")
 
     FadeToDark(0, 0, -1)
     FadeToBright(300, 0)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1D4, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3086")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1D4, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_308F")
     Sound(461, 0, 100, 0)
 
-    label("loc_3086")
+    label("loc_308F")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_END)), "loc_30A6")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_END)), "loc_30AF")
     OP_70(0x3, 0x14A)
     OP_71(0x3, 0x14A, 0x12C, 0x0, 0x0)
-    Jump("loc_30B6")
+    Jump("loc_30BF")
 
-    label("loc_30A6")
+    label("loc_30AF")
 
     OP_70(0x3, 0x10E)
     OP_71(0x3, 0x10E, 0xF0, 0x0, 0x0)
 
-    label("loc_30B6")
+    label("loc_30BF")
 
     Sleep(1000)
     OP_0D()
     SetMapObjFrame(0x3, "light", 0x1, 0x1)
     OP_70(0x3, 0x0)
-    Jump("loc_2EEB")
+    Jump("loc_2EFE")
 
-    label("loc_30D0")
+    label("loc_30D9")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_3142")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_END)), "loc_314B")
     OP_57(0x0)
     StopBGM(0xBB8)
     FadeToDark(1000, 0, -1)
     OP_0D()
     OP_5A()
     Sound(13, 0, 100, 0)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 0)), scpexpr(EXPR_END)), "loc_3105")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 0)), scpexpr(EXPR_END)), "loc_310E")
     OP_32(0xFF, 0xFF, 0x0)
-    Jump("loc_311D")
+    Jump("loc_3126")
 
-    label("loc_3105")
+    label("loc_310E")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_3118")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_3121")
     OP_32(0xFF, 0xFE, 0x0)
-    Jump("loc_311D")
+    Jump("loc_3126")
 
-    label("loc_3118")
+    label("loc_3121")
 
     OP_32(0xFF, 0xFA, 0x0)
 
-    label("loc_311D")
+    label("loc_3126")
 
     OP_6A(0x0, 0x0)
     Sleep(3500)
@@ -2243,51 +2233,51 @@ def main():
     FadeToBright(1000, 0)
     OP_57(0x0)
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jump("loc_315C")
+    Jump("loc_3165")
 
-    label("loc_3142")
+    label("loc_314B")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_3152")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_315B")
     OP_AF(0xFB)
-    Jump("loc_315C")
+    Jump("loc_3165")
 
-    label("loc_3152")
+    label("loc_315B")
 
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    label("loc_315C")
+    label("loc_3165")
 
-    Jump("loc_31A3")
+    Jump("loc_31AC")
 
-    label("loc_3161")
+    label("loc_316A")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_317A")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3183")
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jump("loc_3194")
+    Jump("loc_319D")
 
-    label("loc_317A")
+    label("loc_3183")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_318A")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x30, 7)), scpexpr(EXPR_END)), "loc_3193")
     OP_AF(0xFB)
-    Jump("loc_3194")
+    Jump("loc_319D")
 
-    label("loc_318A")
-
-    RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-
-    label("loc_3194")
-
-    Jump("loc_31A3")
-
-    label("loc_3199")
+    label("loc_3193")
 
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    label("loc_31A3")
+    label("loc_319D")
 
-    Jump("loc_2EEB")
+    Jump("loc_31AC")
 
-    label("loc_31A8")
+    label("loc_31A2")
+
+    RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
+
+    label("loc_31AC")
+
+    Jump("loc_2EFE")
+
+    label("loc_31B1")
 
     ClearMapFlags(0x8000000)
     OP_60(0x0)
@@ -2295,13 +2285,13 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_19_2E73 end
+    # Function_19_2E86 end
 
-    def Function_20_31B6(): pass
+    def Function_20_31BF(): pass
 
-    label("Function_20_31B6")
+    label("Function_20_31BF")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1A0, 0)), scpexpr(EXPR_END)), "loc_31FE")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1A0, 0)), scpexpr(EXPR_END)), "loc_320F")
     EventBegin(0x2)
     ClearMapFlags(0x20)
     SetChrName("")
@@ -2310,7 +2300,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "The guiding bus seems to be out of service.\x07\x00\x02",
+            "It seems the orbal bus service is not running.\x07\x00\x02",
         )
     )
 
@@ -2320,32 +2310,32 @@ def main():
     EventEnd(0x3)
     Return()
 
-    label("loc_31FE")
+    label("loc_320F")
 
     Call(0, 12)
     Return()
 
-    # Function_20_31B6 end
+    # Function_20_31BF end
 
-    def Function_21_3202(): pass
+    def Function_21_3213(): pass
 
-    label("Function_21_3202")
+    label("Function_21_3213")
 
     Battle("BattleInfo_B4C", 0x0, 0x0, 0x0, 0x0, 0xFF)
     FadeToDark(0, 0, -1)
     OP_E2(0x2)
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_3249")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_325A")
     OP_90(0x0, 46050, 3000, 7180, 270)
     EventEnd(0x5)
     SetChrFlags(0xE, 0x8000)
-    Jump("loc_327D")
+    Jump("loc_328E")
 
-    label("loc_3249")
+    label("loc_325A")
 
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_325C")
-    Jump("loc_327D")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_326D")
+    Jump("loc_328E")
 
-    label("loc_325C")
+    label("loc_326D")
 
     ModifyEventFlags(0, 0, 0x80)
     SetMapObjFlags(0x5, 0x4)
@@ -2356,17 +2346,17 @@ def main():
     ClearScenarioFlags(0x3C, 1)
     EventEnd(0x5)
 
-    label("loc_327D")
+    label("loc_328E")
 
     Return()
 
-    # Function_21_3202 end
+    # Function_21_3213 end
 
-    def Function_22_327E(): pass
+    def Function_22_328F(): pass
 
-    label("Function_22_327E")
+    label("Function_22_328F")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1BC, 4)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3683")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1BC, 4)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_36EE")
     EventBegin(0x0)
     OP_E2(0x3)
     Fade(500)
@@ -2397,8 +2387,8 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00205F#6Pthis is……\x01",
-            "It sounds like a running sound of an armored car.\x02",
+            "#00205F#6PThese seem...\x01",
+            "The noises of armed vehicles on the move.\x02",
         )
     )
 
@@ -2407,8 +2397,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001FBad …\x01",
-            "Let's get away!\x02",
+            "#00001FThis is bad...\x01",
+            "Let's get away for now!\x02",
         )
     )
 
@@ -2467,7 +2457,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00006F#6PDid you go ……\x02",
+        "#00006F#6PThey're gone...\x02",
     )
 
     CloseMessageWindow()
@@ -2475,9 +2465,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00200FApparently it looks like patrol security.\x02\x03",
-            "#00203FNow, without the use of the East Crossbell Highway\x01",
-            "It seems dangerous to come and go.\x02",
+            "#00200FIt appears they were on patrol.\x02\x03",
+            "#00203FAt present, it seems dangerous going back and\x01",
+            "fort the East Crossbell Highway without purpose.\x02",
         )
     )
 
@@ -2486,8 +2476,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00001F#6POh, in the direction of Almorica Kodo\x01",
-            "It seems better to go back.\x02",
+            "#00001F#6PYeah, it appears that it's better to go\x01",
+            "back to the Armorica Old Road area.\x02",
         )
     )
 
@@ -2498,9 +2488,9 @@ def main():
     SetScenarioFlags(0x1BC, 4)
     OP_E2(0x2)
     EventEnd(0x5)
-    Jump("loc_3713")
+    Jump("loc_37B2")
 
-    label("loc_3683")
+    label("loc_36EE")
 
     EventBegin(0x1)
     OP_E2(0x3)
@@ -2510,10 +2500,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003FRight now, East Crossbell Highway\x01",
-            "It is dangerous to come and go.\x02\x03",
-            "#00001FAlmorica towards the ancient road\x01",
-            "It seems better to go back.\x02",
+            "#00003FAt present, going back and forth the\x01",
+            "East Crossbell Highway is dangerous.\x02\x03",
+            "#00001FIt appears that it's better to go\x01",
+            "back to the Armorica Old Road area.\x02",
         )
     )
 
@@ -2523,15 +2513,15 @@ def main():
     OP_E2(0x2)
     EventEnd(0x4)
 
-    label("loc_3713")
+    label("loc_37B2")
 
     Return()
 
-    # Function_22_327E end
+    # Function_22_328F end
 
-    def Function_23_3714(): pass
+    def Function_23_37B3(): pass
 
-    label("Function_23_3714")
+    label("Function_23_37B3")
 
     Sound(465, 0, 100, 0)
     BeginChrThread(0xF, 1, 0, 24)
@@ -2551,11 +2541,11 @@ def main():
     SetMapObjFlags(0x24, 0x4)
     Return()
 
-    # Function_23_3714 end
+    # Function_23_37B3 end
 
-    def Function_24_3769(): pass
+    def Function_24_3808(): pass
 
-    label("Function_24_3769")
+    label("Function_24_3808")
 
     SetChrPos(0xFE, 117230, 4000, -51140, 315)
     OP_D5(0xFE, 0x0, 0x4CE78, 0x0, 0x0)
@@ -2569,11 +2559,11 @@ def main():
     SetChrFlags(0xFE, 0x4)
     Return()
 
-    # Function_24_3769 end
+    # Function_24_3808 end
 
-    def Function_25_37DD(): pass
+    def Function_25_387C(): pass
 
-    label("Function_25_37DD")
+    label("Function_25_387C")
 
     Sound(469, 2, 30, 0)
     Sleep(500)
@@ -2586,11 +2576,11 @@ def main():
     OP_25(0x1D5, 0x46)
     Return()
 
-    # Function_25_37DD end
+    # Function_25_387C end
 
-    def Function_26_3800(): pass
+    def Function_26_389F(): pass
 
-    label("Function_26_3800")
+    label("Function_26_389F")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -2600,9 +2590,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "West · Crosbell City 108 Serju\x01",
-            "North · Almorica village 166 Serju\x01",
-            "Southeastern · Tangram Main gate 98 Serju\x02",
+            "West - Crossbell City  108 selge\x01",
+            "North - Armorica Village  166 selge\x01",
+            "South-East - Tangram Gate  98 selge\x02",
         )
     )
 
@@ -2613,7 +2603,7 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_26_3800 end
+    # Function_26_389F end
 
     SaveToFile()
 

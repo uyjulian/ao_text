@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "e4201.bin",                # FileName
         "e4201",                    # MapName
@@ -19,12 +21,12 @@ def main():
 
     BuildStringList((
         "e4201",                  # 0
-        "Knight Cesar",           # 1
-        "Adjunct Marcus",         # 2
-        "Sister · Lease",       # 3
-        "Father Kevin",             # 4
-        "For APL display",              # 5
-        "SE control",                 # 6
+        "Squire Cesar",           # 1
+        "Squire Marcus",          # 2
+        "Sister Ries",            # 3
+        "Father Kevin",           # 4
+        "APL表示用",              # 5
+        "SE制御",                 # 6
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -40,14 +42,14 @@ def main():
         "Function_0_168",          # 00, 0
         "Function_1_178",          # 01, 1
         "Function_2_179",          # 02, 2
-        "Function_3_873",          # 03, 3
-        "Function_4_8F8",          # 04, 4
-        "Function_5_959",          # 05, 5
-        "Function_6_988",          # 06, 6
-        "Function_7_9B2",          # 07, 7
-        "Function_8_9D5",          # 08, 8
-        "Function_9_9FF",          # 09, 9
-        "Function_10_A72",         # 0A, 10
+        "Function_3_94D",          # 03, 3
+        "Function_4_9D2",          # 04, 4
+        "Function_5_A33",          # 05, 5
+        "Function_6_A62",          # 06, 6
+        "Function_7_A8C",          # 07, 7
+        "Function_8_AAF",          # 08, 8
+        "Function_9_AD9",          # 09, 9
+        "Function_10_B4C",         # 0A, 10
     ))
 
 
@@ -155,9 +157,9 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04306F#6P#40WGahhh\x02\x03",
-            "#04310F…… Battle duty is\x01",
-            "Was it impolite truly ……\x02",
+            "#04306F#6P#40W......Ghhhh......\x02\x03",
+            "#04310F...Going head to head against it\x01",
+            "was really reckless, I guess...?\x02",
         )
     )
 
@@ -166,11 +168,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#13811F#11PYou reap what you sow\x02\x03",
-            "#13806FIn the real world \"Stigmata#4RStigma#The power of\x01",
-            "I do not want to release it over there ……\x02\x03",
-            "#13801FIf my sister were there,\x01",
-            "I think he got angry.\x02",
+            "#13811F#11P...You reap what you sow.\x02\x03",
+            "#13806FReleasing that much "Stigma"\x01",
+            "power in the real world...\x02\x03",
+            "#13801FIf my big sister were here, I think she would've \x01",
+            "been mad about such recklessness for sure.\x02",
         )
     )
 
@@ -179,9 +181,9 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04306F#6P#30WNo good …… Also to the president\x01",
-            "Meguro is likely to be scolded … …\x02\x03",
-            "#04308FI ruined the Merkaba too\x02",
+            "#04306F#6P#30WRight... It seems the secretary-general\x01",
+            "too will yell at me like crazy...\x02\x03",
+            "#04308FI've also broken the Merkabah...\x02",
         )
     )
 
@@ -200,12 +202,12 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04303F#6P#30WHaa … when it comes to repair impossible\x01",
-            "I guess I'm going to be a guardian knight … …?\x02\x03",
-            "#04300FWell, once that happens,\x01",
-            "Do you want to get back from the rookie?\x02\x03",
-            "#04304FIf you become a regular knight\x01",
-            "Even if it comes with support … well …\x02",
+            "#04303F#6P#30W*sigh*...if it turns out that it can't be fixed,\x01",
+            "will I get fired from being a Dominion...?\x02\x03",
+            "#04300FWell, if that happens, I guess it'd be alright\x01",
+            "to do a fresh start as a Squire once again...\x02\x03",
+            "#04304FWhen you'll become a Knight,\x01",
+            "I could give you support too...\x02",
         )
     )
 
@@ -213,7 +215,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#13812F#11PIdiot\x02",
+        "#13812F#11P...Idiot.\x02",
     )
 
     CloseMessageWindow()
@@ -222,7 +224,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#04305F#5P#30WH-hey?\x02",
+        "#04305F#5P#30WH-Hey...?\x02",
     )
 
     CloseMessageWindow()
@@ -230,11 +232,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#13813F#11P#30W……Was good……\x01",
-            "……… It's really safe ………\x02\x03",
-            "The place my sister was aiming for was\x01",
-            "I still have been a long time ago ……\x02\x03",
-            "#13812FBut you're always so reckless\x02",
+            "#13813F#11P#30W......Thank goodness...\x01",
+            "......You're really safe......\x02\x03",
+            "The place big sister was aiming for\x01",
+            "is still so far away, and yet you...\x02\x03",
+            "#13812FReally...you do nothing but crazy stuff...\x02",
         )
     )
 
@@ -243,9 +245,9 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04308F#5P#30WReis…\x02\x03",
-            "#04304F… …. Sorry ….\x01",
-            "Is there still a long way to go …?\x02",
+            "#04308F#5P#30WRies...\x02\x03",
+            "#04304F...Yeah...\x01",
+            "There's still so much ahead to do...\x02",
         )
     )
 
@@ -259,10 +261,10 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04303F#5P#30W…… From now on\x01",
-            "To be amazed\x01",
-            "There may be something … …\x02\x03",
-            "#04300FWon't you come see it with me?\x02",
+            "#04303F#5P#30W...Maybe I'll do some\x01",
+            "shocking things from\x01",
+            "now on too, but...\x02\x03",
+            "#04300FWill you keep supporting me...?\x02",
         )
     )
 
@@ -271,8 +273,8 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#13814F#11P#30W… … Naturally …\x01",
-            "It can not be left alone … …\x02",
+            "#13814F#11P#30W...Naturally...\x01",
+            "How could I leave you be...\x02",
         )
     )
 
@@ -288,11 +290,11 @@ def main():
 
     # Function_2_179 end
 
-    def Function_3_873(): pass
+    def Function_3_94D(): pass
 
-    label("Function_3_873")
+    label("Function_3_94D")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_8F7")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_9D1")
     OP_93(0xFE, 0x0, 0x1F4)
     Sleep(700)
     OP_93(0xFE, 0x13B, 0x12C)
@@ -309,19 +311,19 @@ def main():
     OP_9B(0x0, 0xFE, 0x10E, 0xDAC, 0x3E8, 0x0)
     OP_93(0xFE, 0x0, 0x1F4)
     Sleep(2000)
-    Jump("Function_3_873")
+    Jump("Function_3_94D")
 
-    label("loc_8F7")
+    label("loc_9D1")
 
     Return()
 
-    # Function_3_873 end
+    # Function_3_94D end
 
-    def Function_4_8F8(): pass
+    def Function_4_9D2(): pass
 
-    label("Function_4_8F8")
+    label("Function_4_9D2")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_958")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_A32")
     OP_93(0xFE, 0x10E, 0x12C)
     Sleep(700)
     OP_93(0xFE, 0x0, 0x12C)
@@ -334,17 +336,17 @@ def main():
     OP_93(0xFE, 0x13B, 0x12C)
     Sleep(1000)
     OP_9B(0x1, 0xFE, 0x10E, 0x3E8, 0x3E8, 0x0)
-    Jump("Function_4_8F8")
+    Jump("Function_4_9D2")
 
-    label("loc_958")
+    label("loc_A32")
 
     Return()
 
-    # Function_4_8F8 end
+    # Function_4_9D2 end
 
-    def Function_5_959(): pass
+    def Function_5_A33(): pass
 
-    label("Function_5_959")
+    label("Function_5_A33")
 
     OP_68(3030, 1660, -14200, 25000)
     MoveCamera(359, 12, 0, 25000)
@@ -352,11 +354,11 @@ def main():
     SetCameraDistance(20000, 19000)
     Return()
 
-    # Function_5_959 end
+    # Function_5_A33 end
 
-    def Function_6_988(): pass
+    def Function_6_A62(): pass
 
-    label("Function_6_988")
+    label("Function_6_A62")
 
     Sound(812, 0, 100, 0)
     SetChrSubChip(0xFE, 0x0)
@@ -371,11 +373,11 @@ def main():
     Sleep(450)
     Return()
 
-    # Function_6_988 end
+    # Function_6_A62 end
 
-    def Function_7_9B2(): pass
+    def Function_7_A8C(): pass
 
-    label("Function_7_9B2")
+    label("Function_7_A8C")
 
     Sound(898, 0, 100, 0)
     SetChrSubChip(0xFE, 0x4)
@@ -388,11 +390,11 @@ def main():
     Sleep(450)
     Return()
 
-    # Function_7_9B2 end
+    # Function_7_A8C end
 
-    def Function_8_9D5(): pass
+    def Function_8_AAF(): pass
 
-    label("Function_8_9D5")
+    label("Function_8_AAF")
 
     Sound(898, 0, 100, 0)
     SetChrSubChip(0xFE, 0x8)
@@ -407,11 +409,11 @@ def main():
     Sleep(450)
     Return()
 
-    # Function_8_9D5 end
+    # Function_8_AAF end
 
-    def Function_9_9FF(): pass
+    def Function_9_AD9(): pass
 
-    label("Function_9_9FF")
+    label("Function_9_AD9")
 
     Sound(203, 0, 25, 0)
     Sleep(900)
@@ -440,11 +442,11 @@ def main():
     Sound(203, 0, 5, 0)
     Return()
 
-    # Function_9_9FF end
+    # Function_9_AD9 end
 
-    def Function_10_A72(): pass
+    def Function_10_B4C(): pass
 
-    label("Function_10_A72")
+    label("Function_10_B4C")
 
     OP_25(0x364, 0x23)
     Sleep(200)
@@ -455,7 +457,7 @@ def main():
     OP_25(0x364, 0x14)
     Return()
 
-    # Function_10_A72 end
+    # Function_10_B4C end
 
     SaveToFile()
 

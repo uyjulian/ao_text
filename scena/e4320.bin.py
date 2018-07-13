@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "e4320.bin",                # FileName
         "e4320",                    # MapName
@@ -19,12 +21,12 @@ def main():
 
     BuildStringList((
         "e4320",                  # 0
-        "Hunting soldier Gareth",             # 1
-        "Hunter Sachs",           # 2
-        "Mercapa",               # 3
-        "Beowulf",           # 4
-        "dummy",                 # 5
-        "SE control",                 # 6
+        "Jaeger Gareth",          # 1
+        "Jaeger Sachs",           # 2
+        "メルカバ",               # 3
+        "Beowulf",                # 4
+        "Dummy",                  # 5
+        "SE制御",                 # 6
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -47,8 +49,8 @@ def main():
         "Function_7_1276",         # 07, 7
         "Function_8_176E",         # 08, 8
         "Function_9_17CA",         # 09, 9
-        "Function_10_24D5",        # 0A, 10
-        "Function_11_24FA",        # 0B, 11
+        "Function_10_254C",        # 0A, 10
+        "Function_11_2571",        # 0B, 11
     ))
 
 
@@ -850,7 +852,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5PTch. They got in\x02",
+        "#5PTsk...they know their shit.\x02",
     )
 
     CloseMessageWindow()
@@ -858,8 +860,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5PCaught by anchor and fight melee\x01",
-            "I intended to bring it in.\x02",
+            "#5PAnd we were planning to catching them with the\x01",
+            "anchor and bring this to hand-to-hand combat...\x02",
         )
     )
 
@@ -868,8 +870,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PWe still have the skill of air combat\x01",
-            "That would be missing.\x02",
+            "#11PIt just means that our proficiency\x01",
+            "at air battles is still lacking.\x02",
         )
     )
 
@@ -878,8 +880,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PWell, later on to Sigmunds\x01",
-            "Leave it to me.\x02",
+            "#11PWell, we should just leave the rest\x01",
+            "to Master Sigmund and the young lady.\x02",
         )
     )
 
@@ -888,8 +890,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5PHead …\x01",
-            "My lady and deputy headmaster are envious.\x02",
+            "#5PHeh...\x01",
+            "I envy the missus and the vice leader.\x02",
         )
     )
 
@@ -898,8 +900,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5PIn such a terrible place\x01",
-            "You can get to know each other.\x02",
+            "#5PThey can fight at their hearts' content\x01",
+            "in that kind of amazing-looking place.\x02",
         )
     )
 
@@ -918,24 +920,24 @@ def main():
 
     # Function_9_17CA end
 
-    def Function_10_24D5(): pass
+    def Function_10_254C(): pass
 
-    label("Function_10_24D5")
+    label("Function_10_254C")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_24F9")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_2570")
     OP_82(0x2, 0x2, 0xBB8, 0x1388)
     Sleep(5000)
-    Jump("Function_10_24D5")
+    Jump("Function_10_254C")
 
-    label("loc_24F9")
+    label("loc_2570")
 
     Return()
 
-    # Function_10_24D5 end
+    # Function_10_254C end
 
-    def Function_11_24FA(): pass
+    def Function_11_2571(): pass
 
-    label("Function_11_24FA")
+    label("Function_11_2571")
 
     Sound(833, 0, 100, 0)
     Sleep(100)
@@ -957,7 +959,7 @@ def main():
     Sound(598, 0, 70, 0)
     Return()
 
-    # Function_11_24FA end
+    # Function_11_2571 end
 
     SaveToFile()
 

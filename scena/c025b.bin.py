@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c025b.bin",                # FileName
         "c025b",                    # MapName
@@ -19,9 +21,9 @@ def main():
 
     BuildStringList((
         "c025b",                  # 0
-        "Leyte",                 # 1
-        "Pance",                 # 2
-        "Kouken",               # 3
+        "Leyte",                  # 1
+        "Pinset",                 # 2
+        "Kｷken",                 # 3
     ))
 
     AddCharChip((
@@ -47,8 +49,8 @@ def main():
         "Function_2_1FF",          # 02, 2
         "Function_3_226",          # 03, 3
         "Function_4_227",          # 04, 4
-        "Function_5_29E",          # 05, 5
-        "Function_6_3AF",          # 06, 6
+        "Function_5_2B1",          # 05, 5
+        "Function_6_3EE",          # 06, 6
     ))
 
 
@@ -168,8 +170,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Oh no, in a moment\x01",
-            "The sky has become totally dark.\x02",
+            "Oh, before I knew it, the\x01",
+            "sky has become all dark.\x02",
         )
     )
 
@@ -178,8 +180,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "My father will come back,\x01",
-            "I have to prepare meals in a hurry.\x02",
+            "My husband is coming back home so\x01",
+            "I must hurry up and prepare dinner.\x02",
         )
     )
 
@@ -189,19 +191,19 @@ def main():
 
     # Function_4_227 end
 
-    def Function_5_29E(): pass
+    def Function_5_2B1(): pass
 
-    label("Function_5_29E")
+    label("Function_5_2B1")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_344")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_384")
 
     ChrTalk(
         0xFE,
         (
-            "……Ah!\x01",
-            "On my shelf of fashion magazines\x01",
-            "A railroad book is mixed … …\x02",
+            "...Ah! There's a railway\x01",
+            "book mixed in on the shelf\x01",
+            "of my fashion magazines...\x02",
         )
     )
 
@@ -210,25 +212,25 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Absolute father 's work.\x01",
-            "How many times have you handed your hands\x01",
-            "I wonder if you intend to use it.\x02",
+            "This must be my father's doing,\x01",
+            "for sure. I wonder how many times\x01",
+            "will he use the same tactics.\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 1)
     ClearChrFlags(0xFE, 0x10)
-    Jump("loc_3AB")
+    Jump("loc_3EA")
 
-    label("loc_344")
+    label("loc_384")
 
 
     ChrTalk(
         0xFE,
         (
-            "Father, sometimes doing this\x01",
-            "I try to like railroads.\x02",
+            "Sometimes father does like this\x01",
+            "to try to make me like the railway.\x02",
         )
     )
 
@@ -236,30 +238,30 @@ def main():
 
     ChrTalk(
         0xFE,
-        "Because it is koshaku at all.\x02",
+        "Honestly, how impudent.\x02",
     )
 
     CloseMessageWindow()
 
-    label("loc_3AB")
+    label("loc_3EA")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_29E end
+    # Function_5_2B1 end
 
-    def Function_6_3AF(): pass
+    def Function_6_3EE(): pass
 
-    label("Function_6_3AF")
+    label("Function_6_3EE")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_44B")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_498")
 
     ChrTalk(
         0xFE,
         (
-            "Ryu will someday get the wholesale job\x01",
-            "Well, I thought I wanted to make a connection … …\x02",
+            "One day I'd like to have Ryｹ inherit\x01",
+            "the wholesale store job, but...\x02",
         )
     )
 
@@ -268,24 +270,24 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Once upon a time\x01",
-            "Remember to just play and remember.\x01",
-            "Whew.\x02",
+            "When it comes to that\x01",
+            "guy, he thinks nothing\x01",
+            "but to play. Boy oh boy.\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 3)
-    Jump("loc_4BF")
+    Jump("loc_510")
 
-    label("loc_44B")
+    label("loc_498")
 
 
     ChrTalk(
         0xFE,
         (
-            "Ryu's guys also got the results of the Sunday school\x01",
-            "It's fresh.\x02",
+            "Ryｹ's results at Sunday School\x01",
+            "too are no good at all.\x02",
         )
     )
 
@@ -294,19 +296,19 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Not just to play,\x01",
-            "I have to learn a little bit.\x02",
+            "He shouldn't be only playing\x01",
+            "but study a little too...\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_4BF")
+    label("loc_510")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_6_3AF end
+    # Function_6_3EE end
 
     SaveToFile()
 

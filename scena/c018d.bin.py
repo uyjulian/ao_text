@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "c018d.bin",                # FileName
         "c018d",                    # MapName
@@ -19,8 +21,8 @@ def main():
 
     BuildStringList((
         "c018d",                  # 0
-        "Clown Campanella",     # 1
-        "Ariane Road",         # 2
+        "Campanella The Fool",    # 1
+        "Arianrhod",              # 2
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -113,12 +115,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#6P#04809FAhaha, it's beautiful.\x02\x03",
-            "The symbol of the financial city crossbell is also\x01",
-            "Oh mycha big torch#4RA torch#It is.\x02\x03",
-            "#04802FBut \"Red constellation\"? ….\x02\x03",
-            "It is about strengthening hunter of ours\x01",
-            "It looks like we can not compete.\x02",
+            "#6P#04809FAhaha, how pretty.\x02\x03",
+            "Even the symbol of Crossbell, the\x01",
+            "financial city, has become a big torch.\x02\x03",
+            "#04802FAnyway, the "Red Constellation", eh...?\x02\x03",
+            "It seems they can't oppose the\x01",
+            "level of our strengthened jaegers.\x02",
         )
     )
 
@@ -126,7 +128,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11P#04920F#30W………………………………\x07\x00\x02",
+        "#11P#04920F#30W............\x07\x00\x02",
     )
 
     CloseMessageWindow()
@@ -136,9 +138,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04804F#6PUhufu …\x02\x03",
-            "#04800FAs a matter of fact,\x01",
-            "Does it contradict your way?\x02",
+            "#04804F#6PUhuhu...\x02\x03",
+            "#04800FAs I thought, is such a\x01",
+            "thing against your style?\x02",
         )
     )
 
@@ -147,10 +149,10 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#11P#04923F#30W……I agree.\x02\x03",
-            "#04920FHowever,#2RHow old#And what is heartless.\x02\x03",
-            "They are in the way of theirs\x01",
-            "battlefield#4RTasiba#It will only be in.\x07\x00\x02",
+            "#11P#04923F#30W...It is.\x02\x03",
+            "#04920FHowever, by nature, "war" is a heartless thing.\x02\x03",
+            "Those persons are only dealing with\x01",
+            "a battlefield in their own style.\x07\x00\x02",
         )
     )
 
@@ -158,7 +160,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04804F#6PHuh, I see.\x02",
+        "#04804F#6PHu hu, I see.\x02",
     )
 
     CloseMessageWindow()
@@ -186,12 +188,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04800FOh, Dr..\x01",
-            "What happened to suddenly?\x02\x03",
-            "#04805F─ ─?\x01",
-            "Does the first one seem to be completed?\x02\x03",
-            "#04806FHi Hi, I understood.\x01",
-            "You can return to help, is not it?\x02",
+            "#5P#04800FAh, Doctor.\x01",
+            "What is it all of a sudden?\x02\x03",
+            "#04805F──Oh?\x01",
+            "You say that the first unit is complete?\x02\x03",
+            "#04806FYeah, yeah, understood.\x01",
+            "I just have to go back to help, eh?\x02",
         )
     )
 
@@ -213,10 +215,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04804F#6P…… That's why I also\x01",
-            "I will be rude for a while.\x02\x03",
-            "#04802FA witness to \"promised day\"\x01",
-            "You can leave it to me, are not you?\x02",
+            "#04804F#6P...And so, I'll excuse\x01",
+            "myself for a while.\x02\x03",
+            "#04802FCan I leave everything to you\x01",
+            "until the "promised day"?\x02",
         )
     )
 
@@ -224,7 +226,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11P#04923F#30WWell, I do not mind.\x02",
+        "#11P#04923F#30WYes, I do not mind.\x02",
     )
 
     CloseMessageWindow()
@@ -239,8 +241,8 @@ def main():
     AnonymousTalk(
         0x9,
         (
-            "#3882V#40WFate going around this place ……\x01",
-            "Let's just let me see you.\x07\x00\x02",
+            "#3882V#40WI will firmly see with my eyes...\x01",
+            "The fate surrounding this land.\x07\x00\x02",
         )
     )
 

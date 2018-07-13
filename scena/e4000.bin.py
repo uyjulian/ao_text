@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "e4000.bin",                # FileName
         "e4000",                    # MapName
@@ -19,19 +21,19 @@ def main():
 
     BuildStringList((
         "e4000",                  # 0
-        "Galleria Fortress Command",       # 1
-        "Imperial army soldier",             # 2
-        "Imperial army soldier",             # 3
-        "Imperial army soldier",             # 4
-        "Imperial army soldier",             # 5
-        "Imperial army soldier",             # 6
-        "Imperial army soldier",             # 7
-        "Imperial army soldier",             # 8
-        "Imperial army soldier",             # 9
-        "Imperial army soldier",             # 10
-        "Imperial army soldier",             # 11
-        "Imperial army soldier",             # 12
-        "Imperial army soldier",             # 13
+        "Garrelia Fortress Commander",# 1
+        "Imperial Army Soldier",  # 2
+        "Imperial Army Soldier",  # 3
+        "Imperial Army Soldier",  # 4
+        "Imperial Army Soldier",  # 5
+        "Imperial Army Soldier",  # 6
+        "Imperial Army Soldier",  # 7
+        "Imperial Army Soldier",  # 8
+        "Imperial Army Soldier",  # 9
+        "Imperial Army Soldier",  # 10
+        "Imperial Army Soldier",  # 11
+        "Imperial Army Soldier",  # 12
+        "Imperial Army Soldier",  # 13
     ))
 
     DeclNpc(0,       0,       0,       0,    453,  0x0, 0,   0,   0,   255, 255, 255, 255, 255,  0)
@@ -177,7 +179,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P#4SI-impossible!\x02",
+        "#5P#4SA-Absurd...!?\x02",
     )
 
     CloseMessageWindow()
@@ -185,8 +187,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PThe 5th Armored Division\x01",
-            "It has been destroyed! Is it?\x02",
+            "#5PYou say that the 5th Armored\x01",
+            "Division has been annihilated!?\x02",
         )
     )
 
@@ -203,7 +205,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#11PIt doesn't seem possible but\x02",
+        "#11PIt's h-hard to believe it, but...\x02",
     )
 
     CloseMessageWindow()
@@ -211,8 +213,8 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#11PA huge humanoid appears.\x01",
-            "I paid everything away ……\x02",
+            "#11PA giant human form appeared\x01",
+            "and mowed down everything...\x02",
         )
     )
 
@@ -220,7 +222,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PWhat is this stupidity\x02",
+        "#5PW-What absurdities are you...\x02",
     )
 
     CloseMessageWindow()
@@ -228,9 +230,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P… Well good.\x01",
-            "If you feel like that\x01",
-            "There is no mercy here either.\x02",
+            "#5P...Whatever.\x01",
+            "If they wish for it, we\x01",
+            "won't have any mercy too.\x02",
         )
     )
 
@@ -251,8 +253,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#4STrain cannon launch!\x01",
-            "Goal, Crossbell City!\x02",
+            "#5P#4SActivate the Railway Cannons!\x01",
+            "Target, Crossbell City!\x02",
         )
     )
 
@@ -261,8 +263,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#4SIt is least embarrassing!\x01",
-            "Avoid crowds of civilians!\x02",
+            "#5P#4SWe'll have a minimum of compassion!\x01",
+            "Avoid civilians crowded areas!\x02",
         )
     )
 
@@ -274,7 +276,7 @@ def main():
 
     AnonymousTalk(
         0xFF,
-        "#5Sroger that#4RYa#It is!\x02",
+        "#5SJaー!\x02",
     )
 
     CloseMessageWindow()

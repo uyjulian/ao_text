@@ -1,6 +1,8 @@
 ﻿from ScenarioHelper import *
 
 def main():
+    SetCodePage("ms932")
+
     CreateScenaFile(
         "m2010.bin",                # FileName
         "m2010",                    # MapName
@@ -26,9 +28,9 @@ def main():
 
     ATBonus("ATBonus_1B0", 100, 5, 1, 5, 1, 5, 1, 5, 5, 5, 5, 5, 5, 0, 0, 0)
 
-    Sepith("Sepith_A03", 12,  0,   0,   7,   16,  16,  0)
-    Sepith("Sepith_A0B", 13,  0,   8,   8,   13,  8,   0)
-    Sepith("Sepith_A13", 10,  6,   6,   5,   5,   8,   15)
+    Sepith("Sepith_9EF", 12,  0,   0,   7,   16,  16,  0)
+    Sepith("Sepith_9F7", 13,  0,   8,   8,   13,  8,   0)
+    Sepith("Sepith_9FF", 10,  6,   6,   5,   5,   8,   15)
 
     MonsterBattlePostion("MonsterBattlePostion_200", 8, 8, 180)
     MonsterBattlePostion("MonsterBattlePostion_204", 5, 9, 180)
@@ -58,7 +60,7 @@ def main():
     # monster count: 4
 
     BattleInfo(
-        "BattleInfo_280", 0x0000, 88, 6, 45, 6, 1, 35, 0, "bm2000", "Sepith_A03", 40, 35, 25, 0,
+        "BattleInfo_280", 0x0000, 88, 6, 45, 6, 1, 35, 0, "bm2000", "Sepith_9EF", 40, 35, 25, 0,
         (
             ("ms73600.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_200", "MonsterBattlePostion_260", "ed7450", "ed7453", "ATBonus_1B0"),
             ("ms73600.dat", "ms73600.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_1E0", "MonsterBattlePostion_260", "ed7450", "ed7453", "ATBonus_1B0"),
@@ -68,7 +70,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_31C", 0x0000, 88, 6, 45, 6, 1, 35, 0, "bm2000", "Sepith_A0B", 40, 35, 25, 0,
+        "BattleInfo_31C", 0x0000, 88, 6, 45, 6, 1, 35, 0, "bm2000", "Sepith_9F7", 40, 35, 25, 0,
         (
             ("ms73700.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_200", "MonsterBattlePostion_260", "ed7450", "ed7453", "ATBonus_1B0"),
             ("ms73700.dat", "ms73700.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_1E0", "MonsterBattlePostion_260", "ed7450", "ed7453", "ATBonus_1B0"),
@@ -78,7 +80,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_3B8", 0x0000, 88, 6, 45, 6, 1, 30, 0, "bm2000", "Sepith_A13", 100, 0, 0, 0,
+        "BattleInfo_3B8", 0x0000, 88, 6, 45, 6, 1, 30, 0, "bm2000", "Sepith_9FF", 100, 0, 0, 0,
         (
             ("ms74000.dat", "ms73000.dat", "ms73000.dat", "ms73000.dat", 0, 0, 0, 0, "MonsterBattlePostion_1E0", "MonsterBattlePostion_260", "ed7450", "ed7453", "ATBonus_1B0"),
             (),
@@ -243,7 +245,7 @@ def main():
     OP_F4(0x1)
     SetMapFlags(0x8000000)
     FadeToDark(300, 0, 100)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1EE, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_97C")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1EE, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_96F")
     Sound(14, 0, 100, 0)
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
@@ -263,14 +265,14 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#56ISepis of the earth × 200\x01\x07\x02",
-            "#57IWater sepis × 200\x01\x07\x02",
-            "#58IFire Sepis × 200\x01\x07\x02",
-            "#59IWind sepice × 200\x01\x07\x02",
-            "#60ITime sepis × 200\x01\x07\x02",
-            "#61IEmpty Sepis × 200\x01\x07\x02",
-            "#62IPhantom Sepis × 200\x01\x07\x00",
-            "I got it.\x02",
+            "#56IEarth Sepith x200\x01\x07\x02",
+            "#57IWater Sepith x200\x01\x07\x02",
+            "#58IFire Sepith x200\x01\x07\x02",
+            "#59IWind Sepith x200\x01\x07\x02",
+            "#60ITime Sepith x200\x01\x07\x02",
+            "#61ISpace Sepith x200\x01\x07\x02",
+            "#62IMirage Sepith x200\x01\x07\x00",
+            " obtained.\x02",
         )
     )
 
@@ -279,9 +281,9 @@ def main():
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x1EE, 0)
     OP_E0(0x5, 0x0)
-    Jump("loc_9A1")
+    Jump("loc_98D")
 
-    label("loc_97C")
+    label("loc_96F")
 
 
     AnonymousTalk(
@@ -289,14 +291,14 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the treasure box.\x02",
+            "The chest is empty.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
 
-    label("loc_9A1")
+    label("loc_98D")
 
     FadeToBright(300, 0)
     TalkEnd(0xFF)
