@@ -141,8 +141,9 @@ def main():
         0x9,
         (
             "#02503F#11PMy Goddess...\x02\x03",
-            "#02501FI'd never thought one group of jaegers\x01",
-            "could cause such a monstrous thing...\x02",
+            "#02501FI never thought one group\x01",
+            "of jaegers could cause\x01",
+            "something so appalling...\x02",
         )
     )
 
@@ -153,9 +154,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#02803F...No doubt that someone\x01",
-            "is behind this.\x02\x03",
-            "#02801FAlso, at the same time of the Trade Conference...\x02",
+            "#5P#02803FThere must be someone\x01",
+            "behind all of this.\x02\x03",
+            "#02801FThe same as with the\x01",
+            "trade conference...\x02",
         )
     )
 
@@ -164,9 +166,11 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#6P#01003FThe Erebonian Imperial government...\x02\x03",
-            "#01001FNo, daring to be specific, the\x01",
-            ""Imperial Army Intelligence Division"?\x02",
+            "#6P#01003FThe Erebonian Imperial\x01",
+            "government...\x02\x03",
+            "#01001FNo, to be specific, the\x01",
+            ""Imperial Army\x01",
+            "Intelligence Division".\x02",
         )
     )
 
@@ -175,11 +179,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#12P#00606FI can state that that possibility\x01",
-            "is very high...\x02\x03",
+            "#12P#00606FI can't help but say it's highly\x01",
+            "likely...\x02\x03",
             "#00601FEven in Crossbell, an intelligence\x01",
-            "bureau officer exchanged messages\x01",
-            "frequently with the "Red Constellation".\x02",
+            "division officer kept in contact\x01",
+            "with Red Constellation.\x02",
         )
     )
 
@@ -188,9 +192,9 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#6PB-Being this the situation, we\x01",
-            "can only beg the Imperial\x01",
-            "government for mercy, right!?\x02",
+            "#6PI-If it's like this, then do we\x01",
+            "have any other choice but to beg\x01",
+            "the Imperial government for mercy!?\x02",
         )
     )
 
@@ -199,8 +203,9 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#6POr otherwise, begging the Republican\x01",
-            "government to become our ally...!\x02",
+            "#6POr otherwise, begging the\x01",
+            "Republican government to\x01",
+            "be our ally!\x02",
         )
     )
 
@@ -209,13 +214,14 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#02803FWell, with the occasion, during the day\x01",
-            "I already inquired the Imperial government.\x02\x03",
-            "#02801FI knew their obvious reply...\x01",
-            ""We don't know anything about it", it was.\x02\x03",
-            "#02806F...Also, this is my responsibility. After the \x01",
-            "independence proposal, I am not in a situation \x01",
-            "I can ask the Republican government to aid us.\x02",
+            "#5P#02803FWell, I already asked the Imperial\x01",
+            "government earlier today.\x02\x03",
+            "#02801FTheir reply was obvious. "We don't know\x01",
+            "anything about it", they said.\x02\x03",
+            "#02806FAnd, although this is my responsibility,\x01",
+            "ever since the independence proposal, the\x01",
+            "situation has been such that I cannot ask\x01",
+            "for Republican assistance either.\x02",
         )
     )
 
@@ -231,8 +237,8 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#6P...N-No!\x01",
-            "It's not the mayor's fault at all!\x02",
+            "#6P...N-No! It's not your\x01",
+            "fault at all, Mr. Mayor!\x02",
         )
     )
 
@@ -241,11 +247,11 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#02503F#11PAt any rate... In this situation, even as\x01",
-            "the autonomous state government, we can\x01",
-            "only issue a formal protest declaration.\x02\x03",
+            "#02503F#11PAt any rate... As things are, even as\x01",
+            "the state government, we can only\x01",
+            "issue a formal declaration of protest.\x02\x03",
             "#02500FStill... In any case, I'm worried\x01",
-            "about Mainz citizens' safety.\x02",
+            "about the Mainz citizens' safety.\x02",
         )
     )
 
@@ -254,10 +260,11 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#6P#02003F...After requesting a civilian airliner, we could\x01",
-            "somehow check the situation from the skies.\x02\x03",
-            "#02001FAt present, pillaging acts and similars\x01",
-            "appear to have not occurred.\x02",
+            "#6P#02003F...After requesting a civilian\x01",
+            "airship, we were able to confirm\x01",
+            "the situation from the skies.\x02\x03",
+            "#02001FAt present, there's no sign of\x01",
+            "pillaging.\x02",
         )
     )
 
@@ -266,8 +273,9 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#5PHowever, Mainz citizens\x01",
-            "are hostages.\x02",
+            "#5PHowever, the fact that the\x01",
+            "Mainz citizens are being\x01",
+            "held hostage hasn't changed.\x02",
         )
     )
 
@@ -276,8 +284,9 @@ def main():
     ChrTalk(
         0xC,
         (
-            "#5PI'm worried for their emergency food.\x01",
-            "We can't dilly-dally.\x02",
+            "#5PI'm worried about their\x01",
+            "food reserves. This can't\x01",
+            "drag on for too long.\x02",
         )
     )
 
@@ -288,8 +297,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#02803FOf course, let's take immediate countermeasures.\x02\x03",
-            "#02801F...At what level was the CGF damage?\x01\x02",
+            "#11P#02803FOf course. Let's take\x01",
+            "immediate\x01",
+            "countermeasures.\x02\x03",
+            "#02801F...How bad was the\x01",
+            "damage to the CGF?\x02",
         )
     )
 
@@ -298,9 +310,11 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#6P#02006F...I have to say it was very great,\x01",
-            "humanly and materially.\x02\x03",
-            "#02001FAt present, we are fully deployed\x01",
+            "#6P#02006FI have to say it was\x01",
+            "enormous, in terms of both\x01",
+            "personnel and material.\x02\x03",
+            "#02001FAt present, all of our\x01",
+            "spare assets are deployed\x01",
             "on the mountain path.\x02",
         )
     )
@@ -319,13 +333,15 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#02801F#5P──Our enemies are war professionals,\x01",
-            "but after all they're a mira employed group.\x02\x03",
-            "According to negotiations, it's also possible that\x01",
-            "we can hold back a bigger disaster than this.\x02\x03",
-            "I want the members of the police to\x01",
-            "look for such a possibility and, at the\x01",
-            "same time, to quell the citizens' anxiety.\x02",
+            "#02801F#5P─Our enemies are combat professionals,\x01",
+            "but at the end of the day they're a\x01",
+            "group that works for mira.\x02\x03",
+            "Depending on how negotiations go, it's\x01",
+            "we may be able to avoid any further\x01",
+            "disaster.\x02\x03",
+            "I want the police to look for such a\x01",
+            "possibility and quell the citizens'\x01",
+            "anxiety at the same time.\x02",
         )
     )
 
@@ -348,8 +364,9 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#6P#01003FI guess I'll contact the Guild too\x01",
-            "and try all possible means...\x02",
+            "#6P#01003FI guess I'll contact the\x01",
+            "guild and try everything\x01",
+            "we can...\x02",
         )
     )
 

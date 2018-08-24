@@ -131,9 +131,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10302FHu hu, gorgeous, indeed.\x02\x03",
-            "Are jaegers so\x01",
-            "profitable?\x02",
+            "#12P#10302FHehe, gorgeous indeed.\x02\x03",
+            "Do jaegers really make\x01",
+            "this much?\x02",
         )
     )
 
@@ -144,9 +144,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04600F#5PUhhm, could we be special?\x02\x03",
-            "#04604FWe have many wealthy persons and great nobles \x01",
-            "as regulars, so we get millions of mira regularly.\x02",
+            "#04600F#5PHmm, maybe we're special?\x02\x03",
+            "#04604FWe have a lot of aristocrats and influential\x01",
+            "nobles as regular customers. It's normal to\x01",
+            "get around a million mira from them.\x02",
         )
     )
 
@@ -154,7 +155,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#10305Fpheew♪\x02",
+        "#12P#10305FWhoo♪\x02",
     )
 
     CloseMessageWindow()
@@ -169,10 +170,11 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F...When you employ top class jaegers,\x01",
-            "in a way there're even maintenance costs.\x02\x03",
-            "#00301FOf course weapons are only the latest models──\x01",
-            "Did you finally get an airship too?\x02",
+            "#00303FWhen you employ top-class\x01",
+            "jaegers, you even pay a retainer.\x02\x03",
+            "#00301FTheir weapons are only the latest\x01",
+            "models, of course. Are you guys\x01",
+            "gonna get an airship soon?\x02",
         )
     )
 
@@ -182,11 +184,11 @@ def main():
         0x8,
         (
             "#04604F#5PAhaha, not yet.\x02\x03",
-            "#04602FAs you'd expect, Liberl military ships\x01",
-            "are good for sturdiness, but they don't \x01",
-            "quite appear on the black market.\x02\x03",
-            "#04609FWell, although if needed, we could do\x01",
-            "by sneaking inside one and stealing it♪\x02",
+            "#04602FLiberlian warships are good in\x01",
+            "terms of strength but don't appear\x01",
+            "on the black market that often.\x02\x03",
+            "#04609FWell, if needed, we could\x01",
+            "infiltrate and steal one, though.♪\x02",
         )
     )
 
@@ -197,14 +199,20 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00008F(...She's kidding, right?)\x02",
+        (
+            "#12P#00008F(...She's kidding,\x01",
+            "right?)\x02",
+        )
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00306F(Well, just leave it at that.)\x02",
+        (
+            "#00306F(Well, let's just leave\x01",
+            "it at that.)\x02",
+        )
     )
 
     CloseMessageWindow()

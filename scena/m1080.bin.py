@@ -27,8 +27,8 @@ def main():
 
     ATBonus("ATBonus_168", 100, 5, 1, 5, 1, 5, 1, 5, 5, 5, 5, 5, 5, 0, 0, 0)
 
-    Sepith("Sepith_6FF", 19,  0,   0,   10,  10,  8,   8)
-    Sepith("Sepith_727", 9,   9,   9,   21,  4,   4,   4)
+    Sepith("Sepith_6FD", 19,  0,   0,   10,  10,  8,   8)
+    Sepith("Sepith_725", 9,   9,   9,   21,  4,   4,   4)
 
     MonsterBattlePostion("MonsterBattlePostion_1B8", 8, 8, 180)
     MonsterBattlePostion("MonsterBattlePostion_1BC", 5, 9, 180)
@@ -58,7 +58,7 @@ def main():
     # monster count: 2
 
     BattleInfo(
-        "BattleInfo_238", 0x0000, 90, 6, 60, 6, 1, 25, 0, "bm1020", "Sepith_6FF", 40, 30, 20, 10,
+        "BattleInfo_238", 0x0000, 90, 6, 60, 6, 1, 25, 0, "bm1020", "Sepith_6FD", 40, 30, 20, 10,
         (
             ("ms63300.dat", "ms63300.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_1B8", "MonsterBattlePostion_218", "ed7450", "ed7453", "ATBonus_168"),
             ("ms63300.dat", "ms64600.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_198", "MonsterBattlePostion_218", "ed7450", "ed7453", "ATBonus_168"),
@@ -68,7 +68,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_300", 0x0000, 90, 6, 60, 6, 1, 30, 0, "bm1020", "Sepith_727", 40, 30, 20, 10,
+        "BattleInfo_300", 0x0000, 90, 6, 60, 6, 1, 30, 0, "bm1020", "Sepith_725", 40, 30, 20, 10,
         (
             ("ms75200.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_1B8", "MonsterBattlePostion_218", "ed7450", "ed7453", "ATBonus_168"),
             ("ms75200.dat", "ms62700.dat", "ms62700.dat", 0, 0, 0, 0, 0, "MonsterBattlePostion_198", "MonsterBattlePostion_218", "ed7450", "ed7453", "ATBonus_168"),
@@ -195,7 +195,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is an orbment charging station.\x07\x00\x02",
+            "It's an orbment charging station.\x07\x00\x02",
         )
     )
 
@@ -207,14 +207,14 @@ def main():
         1,
         (
             "Rest Here\x01",      # 0
-            "Quit\x01",           # 1
+            "Cancel\x01",         # 1
         )
     )
 
     MenuEnd(0x0)
     OP_60(0x0)
     OP_57(0x0)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_6C8")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_6C6")
     FadeToBright(100, 0)
     Sleep(500)
     SoundLoad(13)
@@ -241,7 +241,7 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    label("loc_6C8")
+    label("loc_6C6")
 
     FadeToBright(300, 0)
     TalkEnd(0xFF)

@@ -45,9 +45,9 @@ def main():
         "Function_2_1F3",          # 02, 2
         "Function_3_231",          # 03, 3
         "Function_4_232",          # 04, 4
-        "Function_5_494",          # 05, 5
-        "Function_6_49E",          # 06, 6
-        "Function_7_6BB",          # 07, 7
+        "Function_5_487",          # 05, 5
+        "Function_6_491",          # 06, 6
+        "Function_7_6A8",          # 07, 7
     ))
 
 
@@ -164,11 +164,15 @@ def main():
     label("Function_4_232")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x149, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3FC")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x149, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3F8")
 
     ChrTalk(
         0xFE,
-        "...What do you want in the dead of night?\x02",
+        (
+            "...Whaddya need with us\x01",
+            "in the middle of the\x01",
+            "night?\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -176,8 +180,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "I won't tell you that I forgot...\x01",
-            "What you did to us during the day.\x02",
+            "I won't tell you that I\x01",
+            "forgot... what you did\x01",
+            "to us today.\x02",
         )
     )
 
@@ -186,8 +191,8 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00605F(Did...\x01",
-            "Anything happen with them?)\x02",
+            "#00605F(Did... Something happen\x01",
+            "with them?)\x02",
         )
     )
 
@@ -196,8 +201,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F(Well, you see, it's like we\x01",
-            "couldn't avoid it happening...)\x02",
+            "#00303F(Well, you see, it's\x01",
+            "like we didn't have a\x01",
+            "choice...)\x02",
         )
     )
 
@@ -206,11 +212,12 @@ def main():
     ChrTalk(
         0x10A,
         (
-            "#00603F(Honestly...causing stupid trouble\x01",
-            "in this delicate time...)\x02\x03",
-            "#00600F(Don't absolutely let your guard down\x01",
-            "until tomorrow's conference is over.\x01",
-            "...Understood?)\x02",
+            "#00603F(Honestly... Causing stupid\x01",
+            "trouble in this delicate\x01",
+            "time...)\x02\x03",
+            "#00600F(Absolutely never let your guard\x01",
+            "down until tomorrow's conference\x01",
+            "is over. ...Understood?)\x02",
         )
     )
 
@@ -223,16 +230,17 @@ def main():
 
     CloseMessageWindow()
     SetScenarioFlags(0x149, 3)
-    Jump("loc_490")
+    Jump("loc_483")
 
-    label("loc_3FC")
+    label("loc_3F8")
 
 
     ChrTalk(
         0xFE,
         (
-            "I won't tell you that I forgot...\x01",
-            "What you did to us during the day.\x02",
+            "I won't tell you that I\x01",
+            "forgot... what you did\x01",
+            "to us today.\x02",
         )
     )
 
@@ -240,7 +248,10 @@ def main():
 
     ChrTalk(
         0xFE,
-        "I'll make you regret it one day.\x02",
+        (
+            "I'll make you regret it\x01",
+            "one day.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -252,37 +263,37 @@ def main():
 
     CloseMessageWindow()
 
-    label("loc_490")
+    label("loc_483")
 
     TalkEnd(0xFE)
     Return()
 
     # Function_4_232 end
 
-    def Function_5_494(): pass
+    def Function_5_487(): pass
 
-    label("Function_5_494")
+    label("Function_5_487")
 
     TalkBegin(0xFE)
     Call(0, 6)
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_494 end
+    # Function_5_487 end
 
-    def Function_6_49E(): pass
+    def Function_6_491(): pass
 
-    label("Function_6_49E")
+    label("Function_6_491")
 
     OP_4B(0x9, 0xFF)
     OP_4B(0xA, 0xFF)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_647")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_634")
 
     ChrTalk(
         0x9,
         (
-            "That Yuri is in a\x01",
-            "really bad mood...\x02",
+            "That Yuri is in a really\x01",
+            "bad mood...\x02",
         )
     )
 
@@ -293,7 +304,7 @@ def main():
         (
             "Even if we went to the Entertainment District\x01",
             "for a change of pace, it seems there're plenty\x01",
-            "of officers due to VIPs security or something.\x02",
+            "of officers due to VIP security or something.\x02",
         )
     )
 
@@ -302,9 +313,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "Hmm, then...\x01",
-            "What about we go for a drive\x01",
-            "at night on the mountain path?\x02",
+            "Hmm, then... How about\x01",
+            "we go for a night drive\x01",
+            "on the mountain path?\x02",
         )
     )
 
@@ -313,9 +324,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "There will be few passersby at\x01",
+            "There will be few passerbys at\x01",
             "this hour and we could go all\x01",
-            "out at our heart's' content...\x02",
+            "out at our hearts' content...\x02",
         )
     )
 
@@ -323,21 +334,25 @@ def main():
 
     ChrTalk(
         0x9,
-        "Ooh, that could be a nice idea.\x02",
+        (
+            "Ohh, that might be a\x01",
+            "good idea.\x02",
+        )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 1)
-    Jump("loc_6B2")
+    Jump("loc_69F")
 
-    label("loc_647")
+    label("loc_634")
 
 
     ChrTalk(
         0x9,
         (
-            "Alright, being this the case,\x01",
-            "let's go propose it to Yuri.\x02",
+            "Alright, that being the\x01",
+            "case, let's go propose\x01",
+            "it to Yuri.\x02",
         )
     )
 
@@ -357,24 +372,24 @@ def main():
 
     CloseMessageWindow()
 
-    label("loc_6B2")
+    label("loc_69F")
 
     OP_4C(0x9, 0xFF)
     OP_4C(0xA, 0xFF)
     Return()
 
-    # Function_6_49E end
+    # Function_6_491 end
 
-    def Function_7_6BB(): pass
+    def Function_7_6A8(): pass
 
-    label("Function_7_6BB")
+    label("Function_7_6A8")
 
     TalkBegin(0xFE)
     Call(0, 6)
     TalkEnd(0xFE)
     Return()
 
-    # Function_7_6BB end
+    # Function_7_6A8 end
 
     SaveToFile()
 

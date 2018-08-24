@@ -31,8 +31,8 @@ def main():
     ATBonus("ATBonus_2AC", 100, 5, 1, 5, 1, 5, 1, 5, 5, 5, 5, 5, 5, 0, 0, 0)
     ATBonus("ATBonus_2BC", 100, 5, 0, 5, 0, 5, 0, 2, 5, 0, 0, 0, 2, 0, 0, 0)
 
-    Sepith("Sepith_14AF", 0,   26,  8,   8,   0,   0,   8)
-    Sepith("Sepith_14A7", 1,   19,  0,   26,  1,   0,   3)
+    Sepith("Sepith_14AD", 0,   26,  8,   8,   0,   0,   8)
+    Sepith("Sepith_14A5", 1,   19,  0,   26,  1,   0,   3)
 
     MonsterBattlePostion("MonsterBattlePostion_2FC", 8, 8, 180)
     MonsterBattlePostion("MonsterBattlePostion_300", 5, 9, 180)
@@ -62,7 +62,7 @@ def main():
     # monster count: 6
 
     BattleInfo(
-        "BattleInfo_37C", 0x0000, 88, 6, 60, 6, 1, 35, 0, "bm2050", "Sepith_14AF", 40, 30, 20, 10,
+        "BattleInfo_37C", 0x0000, 88, 6, 60, 6, 1, 35, 0, "bm2050", "Sepith_14AD", 40, 30, 20, 10,
         (
             ("ms73500.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_2FC", "MonsterBattlePostion_35C", "ed7450", "ed7453", "ATBonus_2AC"),
             ("ms73500.dat", "ms73500.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_2DC", "MonsterBattlePostion_35C", "ed7450", "ed7453", "ATBonus_2AC"),
@@ -72,7 +72,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_444", 0x0000, 88, 6, 60, 6, 1, 35, 0, "bm2050", "Sepith_14A7", 40, 30, 20, 10,
+        "BattleInfo_444", 0x0000, 88, 6, 60, 6, 1, 35, 0, "bm2050", "Sepith_14A5", 40, 30, 20, 10,
         (
             ("ms74700.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_2FC", "MonsterBattlePostion_35C", "ed7450", "ed7453", "ATBonus_2AC"),
             ("ms74700.dat", "ms73500.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_2DC", "MonsterBattlePostion_35C", "ed7450", "ed7453", "ATBonus_2AC"),
@@ -143,9 +143,9 @@ def main():
         "Function_1_5B7",          # 01, 1
         "Function_2_5D5",          # 02, 2
         "Function_3_C01",          # 03, 3
-        "Function_4_D53",          # 04, 4
-        "Function_5_EA5",          # 05, 5
-        "Function_6_13BA",         # 06, 6
+        "Function_4_D52",          # 04, 4
+        "Function_5_EA3",          # 05, 5
+        "Function_6_13B8",         # 06, 6
     ))
 
 
@@ -377,7 +377,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x42E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -389,7 +390,7 @@ def main():
 
     label("loc_CF8")
 
-    Jump("loc_D47")
+    Jump("loc_D46")
 
     label("loc_CFD")
 
@@ -402,7 +403,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -410,7 +412,7 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_D47")
+    label("loc_D46")
 
     Sleep(30)
     TalkEnd(0xFF)
@@ -419,18 +421,18 @@ def main():
 
     # Function_3_C01 end
 
-    def Function_4_D53(): pass
+    def Function_4_D52(): pass
 
-    label("Function_4_D53")
+    label("Function_4_D52")
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1EF, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_E4F")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1EF, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_E4E")
     Sound(14, 0, 100, 0)
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1FD, 1)"), scpexpr(EXPR_END)), "loc_DD8")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1FD, 1)"), scpexpr(EXPR_END)), "loc_DD7")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -451,9 +453,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1EF, 1)
     OP_E0(0x5, 0x0)
-    Jump("loc_E4A")
+    Jump("loc_E49")
 
-    label("loc_DD8")
+    label("loc_DD7")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -464,7 +466,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x1FD),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -474,11 +477,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x2, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_E4A")
+    label("loc_E49")
 
-    Jump("loc_E99")
+    Jump("loc_E97")
 
-    label("loc_E4F")
+    label("loc_E4E")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -489,7 +492,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -497,181 +501,181 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_E99")
+    label("loc_E97")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_4_D53 end
+    # Function_4_D52 end
 
-    def Function_5_EA5(): pass
+    def Function_5_EA3(): pass
 
-    label("Function_5_EA5")
+    label("Function_5_EA3")
 
     EventBegin(0x0)
     FadeToDark(500, 0, -1)
     OP_0D()
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_ECA")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_EC8")
     LoadChrToIndex("chr/ch00050.itc", 0x1E)
 
-    label("loc_ECA")
+    label("loc_EC8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x1)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_EE2")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x1)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_EE0")
     LoadChrToIndex("chr/ch00150.itc", 0x1E)
 
-    label("loc_EE2")
+    label("loc_EE0")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x2)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_EFA")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x2)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_EF8")
     LoadChrToIndex("chr/ch00250.itc", 0x1E)
 
-    label("loc_EFA")
+    label("loc_EF8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x3)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F12")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x3)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F10")
     LoadChrToIndex("chr/ch00350.itc", 0x1E)
 
-    label("loc_F12")
+    label("loc_F10")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F2A")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F28")
     LoadChrToIndex("chr/ch02950.itc", 0x1E)
 
-    label("loc_F2A")
+    label("loc_F28")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F42")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F40")
     LoadChrToIndex("chr/ch03150.itc", 0x1E)
 
-    label("loc_F42")
+    label("loc_F40")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F5A")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F58")
     LoadChrToIndex("chr/ch03250.itc", 0x1E)
 
-    label("loc_F5A")
+    label("loc_F58")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F72")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F70")
     LoadChrToIndex("chr/ch00950.itc", 0x1E)
 
-    label("loc_F72")
+    label("loc_F70")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F8A")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_F88")
     LoadChrToIndex("chr/ch00050.itc", 0x1F)
 
-    label("loc_F8A")
+    label("loc_F88")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x1)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_FA2")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x1)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_FA0")
     LoadChrToIndex("chr/ch00150.itc", 0x1F)
 
-    label("loc_FA2")
+    label("loc_FA0")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x2)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_FBA")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x2)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_FB8")
     LoadChrToIndex("chr/ch00250.itc", 0x1F)
 
-    label("loc_FBA")
+    label("loc_FB8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x3)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_FD2")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x3)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_FD0")
     LoadChrToIndex("chr/ch00350.itc", 0x1F)
 
-    label("loc_FD2")
+    label("loc_FD0")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_FEA")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_FE8")
     LoadChrToIndex("chr/ch02950.itc", 0x1F)
 
-    label("loc_FEA")
+    label("loc_FE8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1002")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1000")
     LoadChrToIndex("chr/ch03150.itc", 0x1F)
 
-    label("loc_1002")
+    label("loc_1000")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_101A")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1018")
     LoadChrToIndex("chr/ch03250.itc", 0x1F)
 
-    label("loc_101A")
+    label("loc_1018")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1032")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1030")
     LoadChrToIndex("chr/ch00950.itc", 0x1F)
 
-    label("loc_1032")
+    label("loc_1030")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_104A")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1048")
     LoadChrToIndex("chr/ch00050.itc", 0x20)
 
-    label("loc_104A")
+    label("loc_1048")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x1)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1062")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x1)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1060")
     LoadChrToIndex("chr/ch00150.itc", 0x20)
 
-    label("loc_1062")
+    label("loc_1060")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x2)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_107A")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x2)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1078")
     LoadChrToIndex("chr/ch00250.itc", 0x20)
 
-    label("loc_107A")
+    label("loc_1078")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x3)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1092")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x3)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1090")
     LoadChrToIndex("chr/ch00350.itc", 0x20)
 
-    label("loc_1092")
+    label("loc_1090")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_10AA")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_10A8")
     LoadChrToIndex("chr/ch02950.itc", 0x20)
 
-    label("loc_10AA")
+    label("loc_10A8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_10C2")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_10C0")
     LoadChrToIndex("chr/ch03150.itc", 0x20)
 
-    label("loc_10C2")
+    label("loc_10C0")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_10DA")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_10D8")
     LoadChrToIndex("chr/ch03250.itc", 0x20)
 
-    label("loc_10DA")
+    label("loc_10D8")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_10F2")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_10F0")
     LoadChrToIndex("chr/ch00950.itc", 0x20)
 
-    label("loc_10F2")
+    label("loc_10F0")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_110A")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x0)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1108")
     LoadChrToIndex("chr/ch00050.itc", 0x21)
 
-    label("loc_110A")
+    label("loc_1108")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x1)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1122")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x1)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1120")
     LoadChrToIndex("chr/ch00150.itc", 0x21)
 
-    label("loc_1122")
+    label("loc_1120")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x2)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_113A")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x2)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1138")
     LoadChrToIndex("chr/ch00250.itc", 0x21)
 
-    label("loc_113A")
+    label("loc_1138")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x3)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1152")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x3)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1150")
     LoadChrToIndex("chr/ch00350.itc", 0x21)
 
-    label("loc_1152")
+    label("loc_1150")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_116A")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x8)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1168")
     LoadChrToIndex("chr/ch02950.itc", 0x21)
 
-    label("loc_116A")
+    label("loc_1168")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1182")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x4)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1180")
     LoadChrToIndex("chr/ch03150.itc", 0x21)
 
-    label("loc_1182")
+    label("loc_1180")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_119A")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_1198")
     LoadChrToIndex("chr/ch03250.itc", 0x21)
 
-    label("loc_119A")
+    label("loc_1198")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_11B2")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x9)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_END)), "loc_11B0")
     LoadChrToIndex("chr/ch00950.itc", 0x21)
 
-    label("loc_11B2")
+    label("loc_11B0")
 
     LoadChrToIndex("monster/ch80652.itc", 0x22)
     SetChrPos(0x0, 20300, -1500, 29000, 90)
@@ -716,10 +720,10 @@ def main():
     Sleep(1000)
     Sound(805, 0, 100, 0)
     Sound(531, 0, 100, 0)
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_OR), scpexpr(EXPR_END)), "loc_1364")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_FB(0x0, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_EXEC_OP, "OP_FB(0x1, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "OP_FB(0x2, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_OR), scpexpr(EXPR_EXEC_OP, "OP_FB(0x3, 0x5)"), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_NEG), scpexpr(EXPR_GTR), scpexpr(EXPR_OR), scpexpr(EXPR_END)), "loc_1362")
     Sound(540, 0, 50, 0)
 
-    label("loc_1364")
+    label("loc_1362")
 
     SetChrChipByIndex(0x0, 0x1E)
     SetChrSubChip(0x0, 0x0)
@@ -741,11 +745,11 @@ def main():
     IdleLoop()
     Return()
 
-    # Function_5_EA5 end
+    # Function_5_EA3 end
 
-    def Function_6_13BA(): pass
+    def Function_6_13B8(): pass
 
-    label("Function_6_13BA")
+    label("Function_6_13B8")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -759,7 +763,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "The seal has been released.\x07\x00\x02",
+            "The seal has been\x01",
+            "released.\x07\x00\x02",
         )
     )
 
@@ -769,7 +774,7 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_6_13BA end
+    # Function_6_13B8 end
 
     SaveToFile()
 

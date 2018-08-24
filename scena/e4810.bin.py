@@ -32,9 +32,9 @@ def main():
         "Function_0_C8",           # 00, 0
         "Function_1_D8",           # 01, 1
         "Function_2_DD",           # 02, 2
-        "Function_3_4C9",          # 03, 3
-        "Function_4_501",          # 04, 4
-        "Function_5_532",          # 05, 5
+        "Function_3_4C5",          # 03, 3
+        "Function_4_4FD",          # 04, 4
+        "Function_5_52E",          # 05, 5
     ))
 
 
@@ -95,9 +95,10 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#04804F"Astral Code" installation,\x01",
+            "#04804FAstral Code installation\x01",
             "complete.\x02\x03",
-            "#04802FThen, I guess I'll begin.\x02",
+            "#04802FWell then, shall we\x01",
+            "begin?\x02",
         )
     )
 
@@ -126,12 +127,15 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#04803F#30W──Access to phase space.\x01",
-            "Begin searching the orbal net whole domain.\x02\x03",
-            "Secure entry from multiple routes.\x02\x03",
-            "#04801FFirst, second and third protections, cleared...\x02\x03",
-            "Successful analysis of the logic key.\x01",
-            "Main terminal final protection, breached...\x02",
+            "#04803F#30W─Accessing topology map.\x01",
+            "Starting all-domain orbal\x01",
+            "network search.\x02\x03",
+            "Securing multiple invasion\x01",
+            "routes.\x02\x03",
+            "#04801FFirewalls 1, 2, and 3 clear.\x02\x03",
+            "Logic key analysis complete.\x01",
+            "Capturing the main terminal's\x01",
+            "final protective barrier...\x02",
         )
     )
 
@@ -161,10 +165,11 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "#04804FHu hu, it's not the Doctor's\x01",
-            "pride for nothing.\x02\x03",
-            "#04802FWell then, I'll set aside the fun\x01",
-            "and I guess I'll look for information.\x02",
+            "#04804FHaha, the professor was right\x01",
+            "to be confident.\x02\x03",
+            "#04802FNow then, for a little fun, I\x01",
+            "think I'll set up a little joke\x01",
+            "I've been saving for them.\x02",
         )
     )
 
@@ -190,31 +195,31 @@ def main():
 
     # Function_2_DD end
 
-    def Function_3_4C9(): pass
+    def Function_3_4C5(): pass
 
-    label("Function_3_4C9")
+    label("Function_3_4C5")
 
     MoveCamera(132, 22, 0, 5000)
     OP_6F(0x79)
 
-    label("loc_4D6")
+    label("loc_4D2")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_500")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_4FC")
     MoveCamera(119, -1, 0, 10000)
     OP_6F(0x79)
     MoveCamera(132, 22, 0, 10000)
     OP_6F(0x79)
-    Jump("loc_4D6")
+    Jump("loc_4D2")
 
-    label("loc_500")
+    label("loc_4FC")
 
     Return()
 
-    # Function_3_4C9 end
+    # Function_3_4C5 end
 
-    def Function_4_501(): pass
+    def Function_4_4FD(): pass
 
-    label("Function_4_501")
+    label("Function_4_4FD")
 
     Sound(939, 2, 100, 0)
     Sleep(800)
@@ -228,11 +233,11 @@ def main():
     Sound(935, 0, 100, 0)
     Return()
 
-    # Function_4_501 end
+    # Function_4_4FD end
 
-    def Function_5_532(): pass
+    def Function_5_52E(): pass
 
-    label("Function_5_532")
+    label("Function_5_52E")
 
     Sound(839, 0, 100, 0)
     Sleep(400)
@@ -243,7 +248,7 @@ def main():
     Sound(839, 0, 100, 0)
     Return()
 
-    # Function_5_532 end
+    # Function_5_52E end
 
     SaveToFile()
 

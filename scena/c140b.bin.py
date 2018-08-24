@@ -152,7 +152,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x3D),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -164,7 +165,7 @@ def main():
 
     label("loc_42C")
 
-    Jump("loc_47B")
+    Jump("loc_47A")
 
     label("loc_431")
 
@@ -177,7 +178,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -185,7 +187,7 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_47B")
+    label("loc_47A")
 
     Sleep(30)
     TalkEnd(0xFF)

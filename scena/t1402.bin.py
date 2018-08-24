@@ -36,10 +36,10 @@ def main():
     ATBonus("ATBonus_3A8", 100, 5, 1, 5, 1, 5, 1, 5, 5, 5, 5, 5, 5, 0, 0, 0)
     ATBonus("ATBonus_3B8", 100, 5, 0, 5, 0, 5, 0, 2, 5, 0, 0, 0, 2, 0, 0, 0)
 
-    Sepith("Sepith_1E59", 4,   6,   6,   8,   4,   11,  4)
-    Sepith("Sepith_1E51", 6,   2,   6,   6,   9,   7,   7)
-    Sepith("Sepith_1E71", 5,   15,  5,   5,   25,  5,   10)
-    Sepith("Sepith_1E79", 5,   5,   15,  5,   10,  25,  5)
+    Sepith("Sepith_1E50", 4,   6,   6,   8,   4,   11,  4)
+    Sepith("Sepith_1E48", 6,   2,   6,   6,   9,   7,   7)
+    Sepith("Sepith_1E68", 5,   15,  5,   5,   25,  5,   10)
+    Sepith("Sepith_1E70", 5,   5,   15,  5,   10,  25,  5)
 
     MonsterBattlePostion("MonsterBattlePostion_3F8", 8, 8, 180)
     MonsterBattlePostion("MonsterBattlePostion_3FC", 5, 9, 180)
@@ -69,7 +69,7 @@ def main():
     # monster count: 10
 
     BattleInfo(
-        "BattleInfo_540", 0x0000, 78, 6, 45, 6, 1, 30, 0, "bt1420", "Sepith_1E59", 40, 30, 20, 10,
+        "BattleInfo_540", 0x0000, 78, 6, 45, 6, 1, 30, 0, "bt1420", "Sepith_1E50", 40, 30, 20, 10,
         (
             ("ms82200.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_3F8", "MonsterBattlePostion_458", "ed7450", "ed7453", "ATBonus_3A8"),
             ("ms82200.dat", "ms82200.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_3D8", "MonsterBattlePostion_458", "ed7450", "ed7453", "ATBonus_3A8"),
@@ -79,7 +79,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_478", 0x0000, 78, 6, 45, 6, 1, 30, 0, "bt1410", "Sepith_1E51", 40, 30, 20, 10,
+        "BattleInfo_478", 0x0000, 78, 6, 45, 6, 1, 30, 0, "bt1410", "Sepith_1E48", 40, 30, 20, 10,
         (
             ("ms82100.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_3F8", "MonsterBattlePostion_458", "ed7450", "ed7453", "ATBonus_3A8"),
             ("ms82100.dat", "ms82100.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_3D8", "MonsterBattlePostion_458", "ed7450", "ed7453", "ATBonus_3A8"),
@@ -89,7 +89,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_798", 0x0000, 78, 6, 60, 6, 1, 20, 0, "bt1410", "Sepith_1E71", 40, 30, 20, 10,
+        "BattleInfo_798", 0x0000, 78, 6, 60, 6, 1, 20, 0, "bt1410", "Sepith_1E68", 40, 30, 20, 10,
         (
             ("ms79700.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_3F8", "MonsterBattlePostion_458", "ed7450", "ed7453", "ATBonus_3A8"),
             ("ms79700.dat", "ms82100.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_3D8", "MonsterBattlePostion_458", "ed7450", "ed7453", "ATBonus_3A8"),
@@ -99,7 +99,7 @@ def main():
     )
 
     BattleInfo(
-        "BattleInfo_860", 0x0000, 78, 6, 60, 6, 1, 20, 0, "bt1420", "Sepith_1E79", 40, 30, 20, 10,
+        "BattleInfo_860", 0x0000, 78, 6, 60, 6, 1, 20, 0, "bt1420", "Sepith_1E70", 40, 30, 20, 10,
         (
             ("ms79800.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_3F8", "MonsterBattlePostion_458", "ed7450", "ed7453", "ATBonus_3A8"),
             ("ms79800.dat", "ms82200.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_3D8", "MonsterBattlePostion_458", "ed7450", "ed7453", "ATBonus_3A8"),
@@ -202,12 +202,12 @@ def main():
         "Function_2_A74",          # 02, 2
         "Function_3_A75",          # 03, 3
         "Function_4_1188",         # 04, 4
-        "Function_5_12DA",         # 05, 5
-        "Function_6_14F6",         # 06, 6
-        "Function_7_1648",         # 07, 7
-        "Function_8_179A",         # 08, 8
-        "Function_9_1BE1",         # 09, 9
-        "Function_10_1D33",        # 0A, 10
+        "Function_5_12D9",         # 05, 5
+        "Function_6_14F4",         # 06, 6
+        "Function_7_1645",         # 07, 7
+        "Function_8_1796",         # 08, 8
+        "Function_9_1BDB",         # 09, 9
+        "Function_10_1D2C",        # 0A, 10
     ))
 
 
@@ -521,7 +521,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x7A),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -533,7 +534,7 @@ def main():
 
     label("loc_127F")
 
-    Jump("loc_12CE")
+    Jump("loc_12CD")
 
     label("loc_1284")
 
@@ -546,7 +547,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -554,7 +556,7 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_12CE")
+    label("loc_12CD")
 
     Sleep(30)
     TalkEnd(0xFF)
@@ -563,32 +565,32 @@ def main():
 
     # Function_4_1188 end
 
-    def Function_5_12DA(): pass
+    def Function_5_12D9(): pass
 
-    label("Function_5_12DA")
+    label("Function_5_12D9")
 
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_14AB")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_14AA")
     Sound(14, 0, 100, 0)
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x207, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_13DD")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x207, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_13DC")
     OP_A7(0x8, 0xFF, 0xFF, 0xFF, 0x0, 0x0)
     TurnDirection(0x8, 0x0, 0)
     OP_98(0x8, 0x0, 0x3E8, 0x0, 0x0, 0x0)
 
-    def lambda_1337():
+    def lambda_1336():
         OP_98(0xFE, 0x0, 0xFFFFFC18, 0x0, 0x3E8, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x8, 1, lambda_1337)
+    QueueWorkItem(0x8, 1, lambda_1336)
 
-    def lambda_1351():
+    def lambda_1350():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x3E8)
         ExitThread()
 
-    QueueWorkItem(0x8, 2, lambda_1351)
+    QueueWorkItem(0x8, 2, lambda_1350)
     ClearChrFlags(0x8, 0x80)
     SetChrFlags(0x8, 0x8000)
 
@@ -608,35 +610,35 @@ def main():
     ClearChrFlags(0x8, 0x8000)
     Switch(
         (scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_END)),
-        (0, "loc_13BE"),
-        (2, "loc_13CD"),
-        (1, "loc_13DA"),
-        (SWITCH_DEFAULT, "loc_13DD"),
+        (0, "loc_13BD"),
+        (2, "loc_13CC"),
+        (1, "loc_13D9"),
+        (SWITCH_DEFAULT, "loc_13DC"),
     )
 
 
-    label("loc_13BE")
+    label("loc_13BD")
 
     SetScenarioFlags(0x207, 3)
     OP_70(0x1, 0x1E)
     Sleep(500)
-    Jump("loc_13DD")
+    Jump("loc_13DC")
 
-    label("loc_13CD")
+    label("loc_13CC")
 
     OP_70(0x1, 0x0)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    label("loc_13DA")
+    label("loc_13D9")
 
     OP_B9(0x0)
     Return()
 
-    label("loc_13DD")
+    label("loc_13DC")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xB1, 1)"), scpexpr(EXPR_END)), "loc_1436")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xB1, 1)"), scpexpr(EXPR_END)), "loc_1435")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -656,9 +658,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1FD, 3)
     OP_E0(0x5, 0x0)
-    Jump("loc_14A6")
+    Jump("loc_14A5")
 
-    label("loc_1436")
+    label("loc_1435")
 
     FadeToDark(300, 0, 100)
 
@@ -668,7 +670,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0xB1),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -678,11 +681,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x1, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_14A6")
+    label("loc_14A5")
 
-    Jump("loc_14EA")
+    Jump("loc_14E8")
 
-    label("loc_14AB")
+    label("loc_14AA")
 
     FadeToDark(300, 0, 100)
 
@@ -691,7 +694,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -699,27 +703,27 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_14EA")
+    label("loc_14E8")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_5_12DA end
+    # Function_5_12D9 end
 
-    def Function_6_14F6(): pass
+    def Function_6_14F4(): pass
 
-    label("Function_6_14F6")
+    label("Function_6_14F4")
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 4)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_15F2")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 4)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_15F0")
     Sound(14, 0, 100, 0)
     OP_74(0x2, 0x1E)
     OP_71(0x2, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1D5, 1)"), scpexpr(EXPR_END)), "loc_157B")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1D5, 1)"), scpexpr(EXPR_END)), "loc_1579")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -740,9 +744,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1FD, 4)
     OP_E0(0x5, 0x0)
-    Jump("loc_15ED")
+    Jump("loc_15EB")
 
-    label("loc_157B")
+    label("loc_1579")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -753,7 +757,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x1D5),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -763,11 +768,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x2, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_15ED")
+    label("loc_15EB")
 
-    Jump("loc_163C")
+    Jump("loc_1639")
 
-    label("loc_15F2")
+    label("loc_15F0")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -778,7 +783,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -786,27 +792,27 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_163C")
+    label("loc_1639")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_6_14F6 end
+    # Function_6_14F4 end
 
-    def Function_7_1648(): pass
+    def Function_7_1645(): pass
 
-    label("Function_7_1648")
+    label("Function_7_1645")
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1744")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 5)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1741")
     Sound(14, 0, 100, 0)
     OP_74(0x3, 0x1E)
     OP_71(0x3, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1FA, 1)"), scpexpr(EXPR_END)), "loc_16CD")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x1FA, 1)"), scpexpr(EXPR_END)), "loc_16CA")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -827,9 +833,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1FD, 5)
     OP_E0(0x5, 0x0)
-    Jump("loc_173F")
+    Jump("loc_173C")
 
-    label("loc_16CD")
+    label("loc_16CA")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -840,7 +846,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x1FA),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -850,11 +857,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x3, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_173F")
+    label("loc_173C")
 
-    Jump("loc_178E")
+    Jump("loc_178A")
 
-    label("loc_1744")
+    label("loc_1741")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -865,7 +872,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -873,42 +881,42 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_178E")
+    label("loc_178A")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_7_1648 end
+    # Function_7_1645 end
 
-    def Function_8_179A(): pass
+    def Function_8_1796(): pass
 
-    label("Function_8_179A")
+    label("Function_8_1796")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xEB, 0x4)"), scpexpr(EXPR_END)), "loc_19C5")
+    Jc((scpexpr(EXPR_EXEC_OP, "GetItemNumber(0xEB, 0x4)"), scpexpr(EXPR_END)), "loc_19C0")
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1976")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1972")
     Sound(14, 0, 100, 0)
     OP_74(0x4, 0x1E)
     OP_71(0x4, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x218, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_18A8")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x218, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_18A4")
     OP_A7(0x9, 0xFF, 0xFF, 0xFF, 0x0, 0x0)
     TurnDirection(0x9, 0x0, 0)
     OP_98(0x9, 0x0, 0x3E8, 0x0, 0x0, 0x0)
 
-    def lambda_1802():
+    def lambda_17FE():
         OP_98(0xFE, 0x0, 0xFFFFFC18, 0x0, 0x3E8, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x9, 1, lambda_1802)
+    QueueWorkItem(0x9, 1, lambda_17FE)
 
-    def lambda_181C():
+    def lambda_1818():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x3E8)
         ExitThread()
 
-    QueueWorkItem(0x9, 2, lambda_181C)
+    QueueWorkItem(0x9, 2, lambda_1818)
     ClearChrFlags(0x9, 0x80)
     SetChrFlags(0x9, 0x8000)
 
@@ -928,35 +936,35 @@ def main():
     ClearChrFlags(0x9, 0x8000)
     Switch(
         (scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_END)),
-        (0, "loc_1889"),
-        (2, "loc_1898"),
-        (1, "loc_18A5"),
-        (SWITCH_DEFAULT, "loc_18A8"),
+        (0, "loc_1885"),
+        (2, "loc_1894"),
+        (1, "loc_18A1"),
+        (SWITCH_DEFAULT, "loc_18A4"),
     )
 
 
-    label("loc_1889")
+    label("loc_1885")
 
     SetScenarioFlags(0x218, 0)
     OP_70(0x4, 0x1E)
     Sleep(500)
-    Jump("loc_18A8")
+    Jump("loc_18A4")
 
-    label("loc_1898")
+    label("loc_1894")
 
     OP_70(0x4, 0x0)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    label("loc_18A5")
+    label("loc_18A1")
 
     OP_B9(0x0)
     Return()
 
-    label("loc_18A8")
+    label("loc_18A4")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x8B, 1)"), scpexpr(EXPR_END)), "loc_1901")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x8B, 1)"), scpexpr(EXPR_END)), "loc_18FD")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -976,9 +984,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1FD, 6)
     OP_E0(0x5, 0x0)
-    Jump("loc_1971")
+    Jump("loc_196D")
 
-    label("loc_1901")
+    label("loc_18FD")
 
     FadeToDark(300, 0, 100)
 
@@ -988,7 +996,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x8B),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -998,11 +1007,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x4, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_1971")
+    label("loc_196D")
 
-    Jump("loc_19B5")
+    Jump("loc_19B0")
 
-    label("loc_1976")
+    label("loc_1972")
 
     FadeToDark(300, 0, 100)
 
@@ -1011,7 +1020,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -1019,37 +1029,37 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_19B5")
+    label("loc_19B0")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
-    Jump("loc_1BE0")
+    Jump("loc_1BDA")
 
-    label("loc_19C5")
+    label("loc_19C0")
 
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1B96")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1B91")
     Sound(14, 0, 100, 0)
     OP_74(0x4, 0x1E)
     OP_71(0x4, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x218, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1AC8")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x218, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1AC3")
     OP_A7(0x9, 0xFF, 0xFF, 0xFF, 0x0, 0x0)
     TurnDirection(0x9, 0x0, 0)
     OP_98(0x9, 0x0, 0x3E8, 0x0, 0x0, 0x0)
 
-    def lambda_1A22():
+    def lambda_1A1D():
         OP_98(0xFE, 0x0, 0xFFFFFC18, 0x0, 0x3E8, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x9, 1, lambda_1A22)
+    QueueWorkItem(0x9, 1, lambda_1A1D)
 
-    def lambda_1A3C():
+    def lambda_1A37():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x3E8)
         ExitThread()
 
-    QueueWorkItem(0x9, 2, lambda_1A3C)
+    QueueWorkItem(0x9, 2, lambda_1A37)
     ClearChrFlags(0x9, 0x80)
     SetChrFlags(0x9, 0x8000)
 
@@ -1069,35 +1079,35 @@ def main():
     ClearChrFlags(0x9, 0x8000)
     Switch(
         (scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_END)),
-        (0, "loc_1AA9"),
-        (2, "loc_1AB8"),
-        (1, "loc_1AC5"),
-        (SWITCH_DEFAULT, "loc_1AC8"),
+        (0, "loc_1AA4"),
+        (2, "loc_1AB3"),
+        (1, "loc_1AC0"),
+        (SWITCH_DEFAULT, "loc_1AC3"),
     )
 
 
-    label("loc_1AA9")
+    label("loc_1AA4")
 
     SetScenarioFlags(0x218, 0)
     OP_70(0x4, 0x1E)
     Sleep(500)
-    Jump("loc_1AC8")
+    Jump("loc_1AC3")
 
-    label("loc_1AB8")
+    label("loc_1AB3")
 
     OP_70(0x4, 0x0)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    label("loc_1AC5")
+    label("loc_1AC0")
 
     OP_B9(0x0)
     Return()
 
-    label("loc_1AC8")
+    label("loc_1AC3")
 
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xEB, 1)"), scpexpr(EXPR_END)), "loc_1B21")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0xEB, 1)"), scpexpr(EXPR_END)), "loc_1B1C")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1117,9 +1127,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1FD, 6)
     OP_E0(0x5, 0x0)
-    Jump("loc_1B91")
+    Jump("loc_1B8C")
 
-    label("loc_1B21")
+    label("loc_1B1C")
 
     FadeToDark(300, 0, 100)
 
@@ -1129,7 +1139,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0xEB),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -1138,13 +1149,13 @@ def main():
     FadeToBright(300, 0)
     Sound(15, 0, 100, 0)
     OP_71(0x4, 0x1E, 0x0, 0x0, 0x0)
+
+    label("loc_1B8C")
+
+    Jump("loc_1BCF")
 
     label("loc_1B91")
 
-    Jump("loc_1BD5")
-
-    label("loc_1B96")
-
     FadeToDark(300, 0, 100)
 
     AnonymousTalk(
@@ -1152,7 +1163,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -1160,30 +1172,30 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_1BD5")
+    label("loc_1BCF")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
 
-    label("loc_1BE0")
+    label("loc_1BDA")
 
     Return()
 
-    # Function_8_179A end
+    # Function_8_1796 end
 
-    def Function_9_1BE1(): pass
+    def Function_9_1BDB(): pass
 
-    label("Function_9_1BE1")
+    label("Function_9_1BDB")
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1CDD")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1FD, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_1CD7")
     Sound(14, 0, 100, 0)
     OP_74(0x5, 0x1E)
     OP_71(0x5, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x5EB, 1)"), scpexpr(EXPR_END)), "loc_1C66")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x5EB, 1)"), scpexpr(EXPR_END)), "loc_1C60")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1204,9 +1216,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1FD, 7)
     OP_E0(0x5, 0x0)
-    Jump("loc_1CD8")
+    Jump("loc_1CD2")
 
-    label("loc_1C66")
+    label("loc_1C60")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -1217,7 +1229,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x5EB),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -1227,11 +1240,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x5, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_1CD8")
+    label("loc_1CD2")
 
-    Jump("loc_1D27")
+    Jump("loc_1D20")
 
-    label("loc_1CDD")
+    label("loc_1CD7")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -1242,7 +1255,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -1250,18 +1264,18 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_1D27")
+    label("loc_1D20")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_9_1BE1 end
+    # Function_9_1BDB end
 
-    def Function_10_1D33(): pass
+    def Function_10_1D2C(): pass
 
-    label("Function_10_1D33")
+    label("Function_10_1D2C")
 
     OP_F4(0x2)
     FadeToDark(300, 0, 100)
@@ -1270,7 +1284,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is an orbment charging station.\x07\x00\x02",
+            "It's an orbment charging station.\x07\x00\x02",
         )
     )
 
@@ -1282,14 +1296,14 @@ def main():
         1,
         (
             "Rest Here\x01",      # 0
-            "Quit\x01",           # 1
+            "Cancel\x01",         # 1
         )
     )
 
     MenuEnd(0x0)
     OP_60(0x0)
     OP_57(0x0)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1E1A")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1E11")
     FadeToBright(100, 0)
     Sleep(500)
     SoundLoad(13)
@@ -1316,13 +1330,13 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    label("loc_1E1A")
+    label("loc_1E11")
 
     FadeToBright(300, 0)
     TalkEnd(0xFF)
     Return()
 
-    # Function_10_1D33 end
+    # Function_10_1D2C end
 
     SaveToFile()
 

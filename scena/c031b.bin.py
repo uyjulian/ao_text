@@ -41,7 +41,7 @@ def main():
         "Function_2_1C7",          # 02, 2
         "Function_3_1C8",          # 03, 3
         "Function_4_1C9",          # 04, 4
-        "Function_5_38D",          # 05, 5
+        "Function_5_38B",          # 05, 5
     ))
 
 
@@ -150,13 +150,13 @@ def main():
     label("Function_4_1C9")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_2F4")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_2F5")
 
     ChrTalk(
         0xFE,
         (
-            "Lately, the Master is busy and\x01",
-            "often rests at City Hall without\x01",
+            "Lately, the master is busy and\x01",
+            "often rests at city hall without\x01",
             "coming back to the mansion, but...\x02",
         )
     )
@@ -166,9 +166,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "He called  just before and\x01",
-            "it seems that today he will be able \x01",
-            "to come home after a long time.\x02",
+            "He called earlier and it seems he\x01",
+            "will be able to come home this\x01",
+            "evening after a long time away.\x02",
         )
     )
 
@@ -177,25 +177,25 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "I want to absolutely build up\x01",
-            "his energy for tomorrow's\x01",
-            "conference.\x02",
+            "I want to absolutely\x01",
+            "build up his energy for\x01",
+            "tomorrow's conference.\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 0)
-    Jump("loc_389")
+    Jump("loc_387")
 
-    label("loc_2F4")
+    label("loc_2F5")
 
 
     ChrTalk(
         0xFE,
         (
-            "Tonight, we are going to \x01",
+            "Tonight, I am going to\x01",
             "prepare a nutrient-rich\x01",
-            "menu for the Master.\x02",
+            "menu for the master.\x02",
         )
     )
 
@@ -204,32 +204,33 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "I want to absolutely build up his\x01",
-            "energy for tomorrow's conference.\x02",
+            "I want to absolutely\x01",
+            "build up his energy for\x01",
+            "tomorrow's conference.\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_389")
+    label("loc_387")
 
     TalkEnd(0xFE)
     Return()
 
     # Function_4_1C9 end
 
-    def Function_5_38D(): pass
+    def Function_5_38B(): pass
 
-    label("Function_5_38D")
+    label("Function_5_38B")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_4C1")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_4C4")
 
     ChrTalk(
         0xFE,
         (
             "For tonight's dinner we\x01",
-            "have Master's favorite\x01",
+            "have the master's favorite\x01",
             "acerbic tomato dishes.\x02",
         )
     )
@@ -239,9 +240,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Acerbic tomato salad,\x01",
-            "acerbic tomato sauce spaghetti,\x01",
-            "100% acerbic tomato juice...\x02",
+            "Acerbic tomato salad, acerbic\x01",
+            "tomato sauce spaghetti, 100%\x01",
+            "acerbic tomato juice...\x02",
         )
     )
 
@@ -250,8 +251,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00012F(W-Whoa...\x01",
-            "What a painstaking menu.)\x02",
+            "#00012F(W-Whoa... What a\x01",
+            "painstaking menu.)\x02",
         )
     )
 
@@ -260,23 +261,25 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F(Grandfather, to think you liked \x01",
-            "acerbic tomatoes so much...)\x02",
+            "#00106F(Grandfather, to think\x01",
+            "you liked acerbic\x01",
+            "tomatoes that much...)\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 1)
-    Jump("loc_57D")
+    Jump("loc_57F")
 
-    label("loc_4C1")
+    label("loc_4C4")
 
 
     ChrTalk(
         0xFE,
         (
-            "Today, we have Master's favorite\x01",
-            "acerbic tomato dishes.\x02",
+            "Today, we have Master's\x01",
+            "favorite acerbic tomato\x01",
+            "dishes.\x02",
         )
     )
 
@@ -285,8 +288,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "They say they are good\x01",
-            "for your health, so I will\x01",
+            "They say they're good for\x01",
+            "your health, so I will\x01",
             "endure and eat them too...\x02",
         )
     )
@@ -295,17 +298,20 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00106FD-Don't overdo it, all right...?\x02",
+        (
+            "#00106FD-Don't overdo it, all\x01",
+            "right...?\x02",
+        )
     )
 
     CloseMessageWindow()
 
-    label("loc_57D")
+    label("loc_57F")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_38D end
+    # Function_5_38B end
 
     SaveToFile()
 

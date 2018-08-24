@@ -40,28 +40,28 @@ def main():
         "Function_0_184",          # 00, 0
         "Function_1_194",          # 01, 1
         "Function_2_195",          # 02, 2
-        "Function_3_9BA",          # 03, 3
-        "Function_4_9E2",          # 04, 4
-        "Function_5_A2D",          # 05, 5
-        "Function_6_A51",          # 06, 6
-        "Function_7_A75",          # 07, 7
-        "Function_8_ABE",          # 08, 8
-        "Function_9_AE2",          # 09, 9
-        "Function_10_B22",         # 0A, 10
-        "Function_11_B4D",         # 0B, 11
-        "Function_12_B85",         # 0C, 12
-        "Function_13_B9A",         # 0D, 13
-        "Function_14_BB9",         # 0E, 14
-        "Function_15_C21",         # 0F, 15
-        "Function_16_CD8",         # 10, 16
-        "Function_17_D8F",         # 11, 17
-        "Function_18_DD6",         # 12, 18
-        "Function_19_E4E",         # 13, 19
-        "Function_20_EFD",         # 14, 20
-        "Function_21_FE6",         # 15, 21
-        "Function_22_1109",        # 16, 22
-        "Function_23_11CD",        # 17, 23
-        "Function_24_11E7",        # 18, 24
+        "Function_3_9B4",          # 03, 3
+        "Function_4_9DC",          # 04, 4
+        "Function_5_A27",          # 05, 5
+        "Function_6_A4B",          # 06, 6
+        "Function_7_A6F",          # 07, 7
+        "Function_8_AB8",          # 08, 8
+        "Function_9_ADC",          # 09, 9
+        "Function_10_B1C",         # 0A, 10
+        "Function_11_B47",         # 0B, 11
+        "Function_12_B7F",         # 0C, 12
+        "Function_13_B94",         # 0D, 13
+        "Function_14_BB3",         # 0E, 14
+        "Function_15_C1B",         # 0F, 15
+        "Function_16_CD2",         # 10, 16
+        "Function_17_D89",         # 11, 17
+        "Function_18_DD0",         # 12, 18
+        "Function_19_E48",         # 13, 19
+        "Function_20_EF7",         # 14, 20
+        "Function_21_FE0",         # 15, 21
+        "Function_22_1103",        # 16, 22
+        "Function_23_11C7",        # 17, 23
+        "Function_24_11E1",        # 18, 24
     ))
 
 
@@ -181,11 +181,13 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03315F#6P#40W..."Pater-Mater"...\x01",
-            "You are all right, eh...?\x02\x03",
-            "Even with such big wounds...\x01",
-            "If grandpa patches you up...\x02\x03",
-            "You will immediately return as you were before...\x02",
+            "#03315F#6P#40W...Pater-Mater... You're\x01",
+            "all right, right...?\x02\x03",
+            "Even with such severe\x01",
+            "damage... If grandpa\x01",
+            "patches you up, then...\x02\x03",
+            "You'll be right back to\x01",
+            "how you were before...\x02",
         )
     )
 
@@ -202,10 +204,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03310F#6P#30WNo...\x01",
-            "...It's not true...!\x02\x03",
-            "#03316F#30W...I won't believe it...!\x01",
-            "I won't believe iiit!!\x02",
+            "#03310F#6P#30WNo... ...It's not true!\x02\x03",
+            "#03316F#30W...I won't believe it! I\x01",
+            "won't believe iiit!!\x02",
         )
     )
 
@@ -232,8 +233,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#00906F#6P#30W...He received fatal damage\x01",
-            "to the logic unit...\x02\x03",
+            "#00906F#6P#30W...His logic unit has\x01",
+            "suffered fatal damage...\x02\x03",
             "#00908FA Gordias-class system\x01",
             "can't be backed up...\x02",
         )
@@ -266,9 +267,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03315F#6P"Pater-Mater"!?\x02\x03",
-            "#03314FIt's all right...!\x01",
-            "I'll fix you for sure...!\x02",
+            "#03315F#6PPater-Mater!?\x02\x03",
+            "#03314FIt's all right! I'll fix\x01",
+            "you... for sure...!\x02",
         )
     )
 
@@ -337,7 +338,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03313F#11P#60W#30A...uuuh...aaaah...\x02",
+        "#03313F#11P#60W#30A...Uuuh... Aaaah...\x02",
     )
 
     WaitChrThread(0xA, 1)
@@ -355,7 +356,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03310F#11P#5S#25AUAAAAAAAAAH...!!\x02",
+        "#03310F#11P#5S#25AUAAAAAAAAAH!!\x02",
     )
 
     CloseMessageWindow()
@@ -373,9 +374,9 @@ def main():
 
     # Function_2_195 end
 
-    def Function_3_9BA(): pass
+    def Function_3_9B4(): pass
 
-    label("Function_3_9BA")
+    label("Function_3_9B4")
 
     SetChrChipByIndex(0xFE, 0x21)
     SetChrFlags(0xFE, 0x2)
@@ -389,11 +390,11 @@ def main():
     SetChrSubChip(0xFE, 0x1B)
     Return()
 
-    # Function_3_9BA end
+    # Function_3_9B4 end
 
-    def Function_4_9E2(): pass
+    def Function_4_9DC(): pass
 
-    label("Function_4_9E2")
+    label("Function_4_9DC")
 
     SetChrChipByIndex(0xFE, 0x21)
     SetChrFlags(0xFE, 0x2)
@@ -417,11 +418,11 @@ def main():
     SetChrSubChip(0xFE, 0x1B)
     Return()
 
-    # Function_4_9E2 end
+    # Function_4_9DC end
 
-    def Function_5_A2D(): pass
+    def Function_5_A27(): pass
 
-    label("Function_5_A2D")
+    label("Function_5_A27")
 
     SetChrChipByIndex(0xFE, 0x21)
     SetChrFlags(0xFE, 0x2)
@@ -434,11 +435,11 @@ def main():
     Sleep(300)
     Return()
 
-    # Function_5_A2D end
+    # Function_5_A27 end
 
-    def Function_6_A51(): pass
+    def Function_6_A4B(): pass
 
-    label("Function_6_A51")
+    label("Function_6_A4B")
 
     SetChrChipByIndex(0xFE, 0x21)
     SetChrFlags(0xFE, 0x2)
@@ -451,11 +452,11 @@ def main():
     Sleep(300)
     Return()
 
-    # Function_6_A51 end
+    # Function_6_A4B end
 
-    def Function_7_A75(): pass
+    def Function_7_A6F(): pass
 
-    label("Function_7_A75")
+    label("Function_7_A6F")
 
     OP_9B(0x1, 0xFE, 0x19, 0x64, 0x3E8, 0x0)
     OP_9B(0x1, 0xFE, 0x19, 0x30C, 0x5DC, 0x0)
@@ -472,11 +473,11 @@ def main():
     Sleep(333)
     Return()
 
-    # Function_7_A75 end
+    # Function_7_A6F end
 
-    def Function_8_ABE(): pass
+    def Function_8_AB8(): pass
 
-    label("Function_8_ABE")
+    label("Function_8_AB8")
 
     SetChrChipByIndex(0xFE, 0x21)
     SetChrFlags(0xFE, 0x2)
@@ -489,11 +490,11 @@ def main():
     Sleep(300)
     Return()
 
-    # Function_8_ABE end
+    # Function_8_AB8 end
 
-    def Function_9_AE2(): pass
+    def Function_9_ADC(): pass
 
-    label("Function_9_AE2")
+    label("Function_9_ADC")
 
     Sound(904, 2, 100, 0)
     OP_74(0x0, 0x5)
@@ -506,11 +507,11 @@ def main():
     StopSound(904, 1000, 100)
     Return()
 
-    # Function_9_AE2 end
+    # Function_9_ADC end
 
-    def Function_10_B22(): pass
+    def Function_10_B1C(): pass
 
-    label("Function_10_B22")
+    label("Function_10_B1C")
 
     SetChrChipByIndex(0xFE, 0x21)
     SetChrFlags(0xFE, 0x2)
@@ -525,11 +526,11 @@ def main():
     Sleep(500)
     Return()
 
-    # Function_10_B22 end
+    # Function_10_B1C end
 
-    def Function_11_B4D(): pass
+    def Function_11_B47(): pass
 
-    label("Function_11_B4D")
+    label("Function_11_B47")
 
     SetChrChipByIndex(0xFE, 0x21)
     SetChrFlags(0xFE, 0x2)
@@ -547,31 +548,31 @@ def main():
     Sleep(375)
     Return()
 
-    # Function_11_B4D end
+    # Function_11_B47 end
 
-    def Function_12_B85(): pass
+    def Function_12_B7F(): pass
 
-    label("Function_12_B85")
+    label("Function_12_B7F")
 
     OP_96(0xFE, 0x4A92, 0x0, 0xF96, 0x3E8, 0x0)
     Return()
 
-    # Function_12_B85 end
+    # Function_12_B7F end
 
-    def Function_13_B9A(): pass
+    def Function_13_B94(): pass
 
-    label("Function_13_B9A")
+    label("Function_13_B94")
 
     Sleep(500)
     OP_95(0xFE, 19410, 0, 5320, 1000, 0x0)
     OP_93(0xFE, 0xB4, 0x1F4)
     Return()
 
-    # Function_13_B9A end
+    # Function_13_B94 end
 
-    def Function_14_BB9(): pass
+    def Function_14_BB3(): pass
 
-    label("Function_14_BB9")
+    label("Function_14_BB3")
 
     SetChrChipByIndex(0xFE, 0x22)
     SetChrFlags(0xFE, 0x2)
@@ -602,11 +603,11 @@ def main():
     Sleep(667)
     Return()
 
-    # Function_14_BB9 end
+    # Function_14_BB3 end
 
-    def Function_15_C21(): pass
+    def Function_15_C1B(): pass
 
-    label("Function_15_C21")
+    label("Function_15_C1B")
 
     SetChrChipByIndex(0xFE, 0x22)
     SetChrFlags(0xFE, 0x2)
@@ -661,11 +662,11 @@ def main():
     Sleep(143)
     Return()
 
-    # Function_15_C21 end
+    # Function_15_C1B end
 
-    def Function_16_CD8(): pass
+    def Function_16_CD2(): pass
 
-    label("Function_16_CD8")
+    label("Function_16_CD2")
 
     SetChrChipByIndex(0xFE, 0x21)
     SetChrFlags(0xFE, 0x2)
@@ -720,11 +721,11 @@ def main():
     Sleep(143)
     Return()
 
-    # Function_16_CD8 end
+    # Function_16_CD2 end
 
-    def Function_17_D8F(): pass
+    def Function_17_D89(): pass
 
-    label("Function_17_D8F")
+    label("Function_17_D89")
 
     SetChrChipByIndex(0xFE, 0x21)
     SetChrFlags(0xFE, 0x2)
@@ -747,11 +748,11 @@ def main():
     Sleep(571)
     Return()
 
-    # Function_17_D8F end
+    # Function_17_D89 end
 
-    def Function_18_DD6(): pass
+    def Function_18_DD0(): pass
 
-    label("Function_18_DD6")
+    label("Function_18_DD0")
 
     SetChrChipByIndex(0xFE, 0x22)
     SetChrFlags(0xFE, 0x2)
@@ -788,11 +789,11 @@ def main():
     Sleep(571)
     Return()
 
-    # Function_18_DD6 end
+    # Function_18_DD0 end
 
-    def Function_19_E4E(): pass
+    def Function_19_E48(): pass
 
-    label("Function_19_E4E")
+    label("Function_19_E48")
 
     PlayEffect(0x0, 0xFF, 0xFF, 0x0, 21670, 1300, 4640, 0, 0, 0, 250, 250, 250, 0xFF, 0, 0, 0, 0)
     Sleep(350)
@@ -802,11 +803,11 @@ def main():
     Sleep(300)
     Return()
 
-    # Function_19_E4E end
+    # Function_19_E48 end
 
-    def Function_20_EFD(): pass
+    def Function_20_EF7(): pass
 
-    label("Function_20_EFD")
+    label("Function_20_EF7")
 
     PlayEffect(0x0, 0xFF, 0xFF, 0x0, 21670, 1300, 4640, 0, 0, 0, 200, 200, 200, 0xFF, 0, 0, 0, 0)
     Sleep(350)
@@ -818,11 +819,11 @@ def main():
     Sleep(300)
     Return()
 
-    # Function_20_EFD end
+    # Function_20_EF7 end
 
-    def Function_21_FE6(): pass
+    def Function_21_FE0(): pass
 
-    label("Function_21_FE6")
+    label("Function_21_FE0")
 
     PlayEffect(0x0, 0xFF, 0xFF, 0x0, 21670, 1300, 4640, 0, 0, 0, 250, 250, 250, 0xFF, 0, 0, 0, 0)
     Sleep(350)
@@ -836,11 +837,11 @@ def main():
     Sleep(300)
     Return()
 
-    # Function_21_FE6 end
+    # Function_21_FE0 end
 
-    def Function_22_1109(): pass
+    def Function_22_1103(): pass
 
-    label("Function_22_1109")
+    label("Function_22_1103")
 
     Sound(203, 0, 25, 0)
     Sleep(900)
@@ -887,11 +888,11 @@ def main():
     Sound(203, 0, 5, 0)
     Return()
 
-    # Function_22_1109 end
+    # Function_22_1103 end
 
-    def Function_23_11CD(): pass
+    def Function_23_11C7(): pass
 
-    label("Function_23_11CD")
+    label("Function_23_11C7")
 
     OP_25(0x364, 0x23)
     Sleep(200)
@@ -902,11 +903,11 @@ def main():
     OP_25(0x364, 0x14)
     Return()
 
-    # Function_23_11CD end
+    # Function_23_11C7 end
 
-    def Function_24_11E7(): pass
+    def Function_24_11E1(): pass
 
-    label("Function_24_11E7")
+    label("Function_24_11E1")
 
     Sound(954, 0, 100, 0)
     Sleep(200)
@@ -917,7 +918,7 @@ def main():
     Sound(880, 0, 40, 0)
     Return()
 
-    # Function_24_11E7 end
+    # Function_24_11E1 end
 
     SaveToFile()
 

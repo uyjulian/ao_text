@@ -32,10 +32,10 @@ def main():
         "Function_0_CC",           # 00, 0
         "Function_1_DC",           # 01, 1
         "Function_2_E1",           # 02, 2
-        "Function_3_56A",          # 03, 3
-        "Function_4_598",          # 04, 4
-        "Function_5_5B7",          # 05, 5
-        "Function_6_5EE",          # 06, 6
+        "Function_3_53A",          # 03, 3
+        "Function_4_568",          # 04, 4
+        "Function_5_587",          # 05, 5
+        "Function_6_5BE",          # 06, 6
     ))
 
 
@@ -98,7 +98,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Eeh, well well.\x07\x00\x02",
+            "My, what do we have\x01",
+            "here.\x07\x00\x02",
         )
     )
 
@@ -119,11 +120,10 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#02310FHuh...\x01",
-            "You're the one who made\x01",
-            "a mess of my base!?\x02\x03",
-            "#02307FI won't forgive you!\x01",
-            "I'm gonna make you cry!\x07\x00\x02",
+            "#02310FHuh? You're the criminal\x01",
+            "who wrecked my base!?\x02\x03",
+            "#02307FI'll never forgive you!\x01",
+            "I'll make you pay!\x07\x00\x02",
         )
     )
 
@@ -138,7 +138,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Ahaha, high spirited, are you, eh?\x07\x00\x02",
+            "Ahaha. You sure talk a\x01",
+            "big game.\x07\x00\x02",
         )
     )
 
@@ -187,8 +188,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#00201FWill you quietly release\x01",
-            "the tower controls?\x07\x00\x02",
+            "#00201FRelease the tower\x01",
+            "controls.\x07\x00\x02",
         )
     )
 
@@ -202,11 +203,12 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Uhuhu, can't be helped then.\x02\x03",
-            "Well, I was just killing time.\x01",
-            "It was fine, so I guess I'm satisfied.\x02\x03",
-            "Well then, please do\x01",
-            "your best to not die㈱\x02",
+            "Uhuhu. I suppose I have\x01",
+            "no choice.\x02\x03",
+            "Well, I was just killing\x01",
+            "time. I've had my fun.\x02\x03",
+            "Well at least try not to\x01",
+            "die㈱\x02",
         )
     )
 
@@ -231,7 +233,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#02310FHaah!?\x02",
+            "#02310FHuh!?\x02",
         )
     )
 
@@ -247,8 +249,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#00207FLeave him for later!\x01",
-            "Quick, the tower controls!\x07\x00\x02",
+            "#00207FDon't worry about him!\x01",
+            "Hurry! The controls!!\x07\x00\x02",
         )
     )
 
@@ -267,9 +269,9 @@ def main():
 
     # Function_2_E1 end
 
-    def Function_3_56A(): pass
+    def Function_3_53A(): pass
 
-    label("Function_3_56A")
+    label("Function_3_53A")
 
     OP_71(0x1, 0x552, 0x574, 0x0, 0x0)
     OP_79(0x1)
@@ -279,11 +281,11 @@ def main():
     OP_71(0x1, 0x271, 0x2A2, 0x0, 0x20)
     Return()
 
-    # Function_3_56A end
+    # Function_3_53A end
 
-    def Function_4_598(): pass
+    def Function_4_568(): pass
 
-    label("Function_4_598")
+    label("Function_4_568")
 
     OP_71(0x1, 0x2A3, 0x320, 0x0, 0x0)
     OP_79(0x1)
@@ -291,11 +293,11 @@ def main():
     OP_71(0x1, 0x320, 0x383, 0x0, 0x20)
     Return()
 
-    # Function_4_598 end
+    # Function_4_568 end
 
-    def Function_5_5B7(): pass
+    def Function_5_587(): pass
 
-    label("Function_5_5B7")
+    label("Function_5_587")
 
     Sleep(1540)
     Sound(251, 0, 50, 0)
@@ -310,11 +312,11 @@ def main():
     Sound(940, 0, 100, 0)
     Return()
 
-    # Function_5_5B7 end
+    # Function_5_587 end
 
-    def Function_6_5EE(): pass
+    def Function_6_5BE(): pass
 
-    label("Function_6_5EE")
+    label("Function_6_5BE")
 
     Sleep(500)
     Sound(940, 0, 100, 0)
@@ -322,7 +324,7 @@ def main():
     Sound(935, 0, 100, 0)
     Return()
 
-    # Function_6_5EE end
+    # Function_6_5BE end
 
     SaveToFile()
 

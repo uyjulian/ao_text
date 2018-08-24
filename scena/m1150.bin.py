@@ -94,7 +94,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "The gate is sealed by a barrier.\x02",
+            "The door is sealed by a\x01",
+            "barrier.\x02",
         )
     )
 

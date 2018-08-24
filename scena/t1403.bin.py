@@ -52,11 +52,11 @@ def main():
         "Function_1_230",          # 01, 1
         "Function_2_2DC",          # 02, 2
         "Function_3_34D",          # 03, 3
-        "Function_4_396",          # 04, 4
-        "Function_5_3D5",          # 05, 5
-        "Function_6_406",          # 06, 6
-        "Function_7_454",          # 07, 7
-        "Function_8_483",          # 08, 8
+        "Function_4_39B",          # 04, 4
+        "Function_5_3E5",          # 05, 5
+        "Function_6_41D",          # 06, 6
+        "Function_7_46C",          # 07, 7
+        "Function_8_49C",          # 08, 8
     ))
 
 
@@ -242,7 +242,7 @@ def main():
         (
             "Hoh hoh ho, don't worry.\x01",
             "I won't lose to the\x01",
-            "young ones yet.\x02",
+            "young ones just yet.\x02",
         )
     )
 
@@ -252,9 +252,9 @@ def main():
 
     # Function_3_34D end
 
-    def Function_4_396(): pass
+    def Function_4_39B(): pass
 
-    label("Function_4_396")
+    label("Function_4_39B")
 
     TalkBegin(0xFE)
 
@@ -262,7 +262,8 @@ def main():
         0xFE,
         (
             "Grampa, the staircase is\x01",
-            "quite long, are you fine?\x02",
+            "pretty long. Will you be\x01",
+            "all right~?\x02",
         )
     )
 
@@ -270,19 +271,19 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_4_396 end
+    # Function_4_39B end
 
-    def Function_5_3D5(): pass
+    def Function_5_3E5(): pass
 
-    label("Function_5_3D5")
+    label("Function_5_3E5")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xFE,
         (
-            "*pant pant*...\x01",
-            "Enough, I'm pooped...\x02",
+            "*pant pant*... That's\x01",
+            "enough, I'm pooped...\x02",
         )
     )
 
@@ -290,19 +291,20 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_3D5 end
+    # Function_5_3E5 end
 
-    def Function_6_406(): pass
+    def Function_6_41D(): pass
 
-    label("Function_6_406")
+    label("Function_6_41D")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xFE,
         (
-            "Come now, hang in there.\x01",
-            "Just a little bit more to the top floor.\x02",
+            "C'mon, hang in there.\x01",
+            "It's just a little\x01",
+            "further to the top floor.\x02",
         )
     )
 
@@ -310,36 +312,19 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_6_406 end
+    # Function_6_41D end
 
-    def Function_7_454(): pass
+    def Function_7_46C(): pass
 
-    label("Function_7_454")
-
-    TalkBegin(0xFE)
-
-    ChrTalk(
-        0xFE,
-        "*haah*...what an amazing height...\x02",
-    )
-
-    CloseMessageWindow()
-    TalkEnd(0xFE)
-    Return()
-
-    # Function_7_454 end
-
-    def Function_8_483(): pass
-
-    label("Function_8_483")
+    label("Function_7_46C")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xFE,
         (
-            "Really...\x01",
-            "I've got some vertigo...\x02",
+            "*sigh*... What an\x01",
+            "amazing height...\x02",
         )
     )
 
@@ -347,7 +332,27 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_8_483 end
+    # Function_7_46C end
+
+    def Function_8_49C(): pass
+
+    label("Function_8_49C")
+
+    TalkBegin(0xFE)
+
+    ChrTalk(
+        0xFE,
+        (
+            "Really... I'm getting a\x01",
+            "little dizzy...\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    TalkEnd(0xFE)
+    Return()
+
+    # Function_8_49C end
 
     SaveToFile()
 

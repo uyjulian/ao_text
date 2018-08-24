@@ -115,7 +115,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11PEh eh...with this, I'll absolutely...\x02",
+            "#50W#11PHehe... With this, I'll\x01",
+            "definitely...\x02",
         )
     )
 
@@ -127,7 +128,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#50W#11P...Absolutely destroy "that guy"──!\x02",
+            "#50W#11PAbsolutely destroy "that\x01",
+            "guy"!!\x02",
         )
     )
 
@@ -141,7 +143,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#11PTsk...\x02",
+            "#11PTch...\x02",
         )
     )
 
@@ -166,7 +168,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11PAh...it's you...\x02",
+            "#40W#11PAh... It's you, eh...\x02",
         )
     )
 
@@ -178,7 +180,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P............\x02",
+            "#40W#11P...............\x02",
         )
     )
 
@@ -190,7 +192,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P...Yeah...yeah...\x02",
+            "#40W#11P...Yeah... Yeah...\x02",
         )
     )
 
@@ -202,8 +204,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11PNo problem...\x01",
-            "Eh eh...I can go anytime...\x02",
+            "#40W#11PNo problem... Hehe...\x01",
+            "I'm ready anytime...\x02",
         )
     )
 
@@ -217,11 +219,11 @@ def main():
     SetChrSubChip(0x8, 0x0)
     OP_52(0x8, 0x24, (scpexpr(EXPR_PUSH_LONG, 0xDA), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    def lambda_41F():
+    def lambda_423():
         OP_A0(0xFE, 900, 0x0, 0x1F)
         ExitThread()
 
-    QueueWorkItem(0x8, 2, lambda_41F)
+    QueueWorkItem(0x8, 2, lambda_423)
     Sound(889, 0, 40, 0)
     Sleep(3000)
     FadeToDark(4000, 0, -1)
@@ -234,8 +236,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#40W#11P...However...\x01",
-            "You'll let me choose how to do things, alright?\x07\x00\x02",
+            "#40W#11P...However... You'll let\x01",
+            "me choose how to do\x01",
+            "things, alright?\x07\x00\x02",
         )
     )
 

@@ -29,11 +29,11 @@ def main():
         "Function_0_164",          # 00, 0
         "Function_1_1FE",          # 01, 1
         "Function_2_250",          # 02, 2
-        "Function_3_D64",          # 03, 3
-        "Function_4_1518",         # 04, 4
-        "Function_5_1925",         # 05, 5
-        "Function_6_1C88",         # 06, 6
-        "Function_7_1CCD",         # 07, 7
+        "Function_3_D6B",          # 03, 3
+        "Function_4_151F",         # 04, 4
+        "Function_5_192C",         # 05, 5
+        "Function_6_1C8F",         # 06, 6
+        "Function_7_1CD4",         # 07, 7
     ))
 
 
@@ -382,7 +382,7 @@ def main():
 
     label("loc_614")
 
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
     label("loc_619")
 
@@ -391,36 +391,36 @@ def main():
         (0, "loc_6E9"),
         (18, "loc_6E9"),
         (25, "loc_6E9"),
-        (1, "loc_74A"),
-        (19, "loc_74A"),
-        (26, "loc_74A"),
-        (2, "loc_7AB"),
-        (20, "loc_7AB"),
-        (27, "loc_7AB"),
-        (3, "loc_80B"),
-        (21, "loc_80B"),
-        (28, "loc_80B"),
-        (4, "loc_86B"),
-        (22, "loc_86B"),
-        (29, "loc_86B"),
-        (5, "loc_8CB"),
-        (23, "loc_8CB"),
-        (30, "loc_8CB"),
-        (6, "loc_92C"),
-        (24, "loc_92C"),
-        (31, "loc_92C"),
-        (7, "loc_98E"),
-        (8, "loc_9E0"),
-        (9, "loc_A32"),
-        (10, "loc_A84"),
-        (11, "loc_AD6"),
-        (12, "loc_B28"),
-        (13, "loc_B7A"),
-        (14, "loc_BCC"),
-        (15, "loc_C1E"),
-        (16, "loc_C70"),
-        (17, "loc_CC2"),
-        (SWITCH_DEFAULT, "loc_D14"),
+        (1, "loc_74B"),
+        (19, "loc_74B"),
+        (26, "loc_74B"),
+        (2, "loc_7AD"),
+        (20, "loc_7AD"),
+        (27, "loc_7AD"),
+        (3, "loc_80E"),
+        (21, "loc_80E"),
+        (28, "loc_80E"),
+        (4, "loc_86F"),
+        (22, "loc_86F"),
+        (29, "loc_86F"),
+        (5, "loc_8D0"),
+        (23, "loc_8D0"),
+        (30, "loc_8D0"),
+        (6, "loc_932"),
+        (24, "loc_932"),
+        (31, "loc_932"),
+        (7, "loc_995"),
+        (8, "loc_9E7"),
+        (9, "loc_A39"),
+        (10, "loc_A8B"),
+        (11, "loc_ADD"),
+        (12, "loc_B2F"),
+        (13, "loc_B81"),
+        (14, "loc_BD3"),
+        (15, "loc_C25"),
+        (16, "loc_C77"),
+        (17, "loc_CC9"),
+        (SWITCH_DEFAULT, "loc_D1B"),
     )
 
 
@@ -435,7 +435,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#56IEarth Sepith\x07\x00",
+            "#56I Earth Sepith\x07\x00",
             " x10 picked up.\x02",
         )
     )
@@ -445,9 +445,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x0, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_74A")
+    label("loc_74B")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -458,7 +458,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#57IWater Sepith\x07\x00",
+            "#57I Water Sepith\x07\x00",
             " x10 picked up.\x02",
         )
     )
@@ -468,9 +468,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x1, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_7AB")
+    label("loc_7AD")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -481,7 +481,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#58IFire Sepith\x07\x00",
+            "#58I Fire Sepith\x07\x00",
             " x10 picked up.\x02",
         )
     )
@@ -491,9 +491,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x2, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_80B")
+    label("loc_80E")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -504,7 +504,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#59IWind Sepith\x07\x00",
+            "#59I Wind Sepith\x07\x00",
             " x10 picked up.\x02",
         )
     )
@@ -514,9 +514,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x3, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_86B")
+    label("loc_86F")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -527,7 +527,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#60ITime Sepith\x07\x00",
+            "#60I Time Sepith\x07\x00",
             " x10 picked up.\x02",
         )
     )
@@ -537,9 +537,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x4, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_8CB")
+    label("loc_8D0")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -550,7 +550,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#61ISpace Sepith\x07\x00",
+            "#61I Space Sepith\x07\x00",
             " x10 picked up.\x02",
         )
     )
@@ -560,9 +560,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x5, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_92C")
+    label("loc_932")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -573,7 +573,7 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "#62IMirage Sepith\x07\x00",
+            "#62I Mirage Sepith\x07\x00",
             " x10 picked up.\x02",
         )
     )
@@ -583,9 +583,9 @@ def main():
     FadeToBright(300, 0)
     AddSepith(0x6, 10)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_98E")
+    label("loc_995")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -606,9 +606,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x186, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_9E0")
+    label("loc_9E7")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -629,9 +629,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x187, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_A32")
+    label("loc_A39")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -652,9 +652,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x188, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_A84")
+    label("loc_A8B")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -675,9 +675,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x189, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_AD6")
+    label("loc_ADD")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -698,9 +698,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x12C, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_B28")
+    label("loc_B2F")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -721,9 +721,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x12D, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_B7A")
+    label("loc_B81")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -744,9 +744,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x12E, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_BCC")
+    label("loc_BD3")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -767,9 +767,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x12F, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_C1E")
+    label("loc_C25")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -790,9 +790,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x130, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_C70")
+    label("loc_C77")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -813,9 +813,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x131, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_CC2")
+    label("loc_CC9")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -836,9 +836,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x132, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_D14")
+    label("loc_D1B")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -859,48 +859,48 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x1F4, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_D63")
+    Jump("loc_D6A")
 
-    label("loc_D63")
+    label("loc_D6A")
 
     Return()
 
     # Function_2_250 end
 
-    def Function_3_D64(): pass
+    def Function_3_D6B(): pass
 
-    label("Function_3_D64")
+    label("Function_3_D6B")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x17), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_DFE"),
-        (1, "loc_E4D"),
-        (2, "loc_E9C"),
-        (3, "loc_EEB"),
-        (4, "loc_F3A"),
-        (5, "loc_F89"),
-        (6, "loc_FD8"),
-        (7, "loc_1027"),
-        (8, "loc_1076"),
-        (9, "loc_10C5"),
-        (10, "loc_1114"),
-        (11, "loc_1163"),
-        (12, "loc_11B2"),
-        (13, "loc_1201"),
-        (14, "loc_1250"),
-        (15, "loc_129F"),
-        (16, "loc_12EE"),
-        (17, "loc_133D"),
-        (18, "loc_138C"),
-        (19, "loc_13DB"),
-        (20, "loc_142A"),
-        (21, "loc_1479"),
-        (22, "loc_14C8"),
-        (SWITCH_DEFAULT, "loc_1517"),
+        (0, "loc_E05"),
+        (1, "loc_E54"),
+        (2, "loc_EA3"),
+        (3, "loc_EF2"),
+        (4, "loc_F41"),
+        (5, "loc_F90"),
+        (6, "loc_FDF"),
+        (7, "loc_102E"),
+        (8, "loc_107D"),
+        (9, "loc_10CC"),
+        (10, "loc_111B"),
+        (11, "loc_116A"),
+        (12, "loc_11B9"),
+        (13, "loc_1208"),
+        (14, "loc_1257"),
+        (15, "loc_12A6"),
+        (16, "loc_12F5"),
+        (17, "loc_1344"),
+        (18, "loc_1393"),
+        (19, "loc_13E2"),
+        (20, "loc_1431"),
+        (21, "loc_1480"),
+        (22, "loc_14CF"),
+        (SWITCH_DEFAULT, "loc_151E"),
     )
 
 
-    label("loc_DFE")
+    label("loc_E05")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -921,9 +921,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x64, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_E4D")
+    label("loc_E54")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -944,9 +944,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x68, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_E9C")
+    label("loc_EA3")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -967,9 +967,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x6C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_EEB")
+    label("loc_EF2")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -990,9 +990,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x70, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_F3A")
+    label("loc_F41")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1013,9 +1013,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x74, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_F89")
+    label("loc_F90")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1036,9 +1036,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x78, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_FD8")
+    label("loc_FDF")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1059,9 +1059,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x7C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_1027")
+    label("loc_102E")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1082,9 +1082,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x80, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_1076")
+    label("loc_107D")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1105,9 +1105,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x84, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_10C5")
+    label("loc_10CC")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1128,9 +1128,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x88, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_1114")
+    label("loc_111B")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1151,9 +1151,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x8C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_1163")
+    label("loc_116A")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1174,9 +1174,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x92, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_11B2")
+    label("loc_11B9")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1197,9 +1197,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x3C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_1201")
+    label("loc_1208")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1220,9 +1220,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x3D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_1250")
+    label("loc_1257")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1243,9 +1243,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x3E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_129F")
+    label("loc_12A6")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1266,9 +1266,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x3F, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_12EE")
+    label("loc_12F5")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1289,9 +1289,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x40, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_133D")
+    label("loc_1344")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1312,9 +1312,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x41, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_138C")
+    label("loc_1393")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1335,9 +1335,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x42, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_13DB")
+    label("loc_13E2")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1358,9 +1358,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x43, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_142A")
+    label("loc_1431")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1381,9 +1381,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x44, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_1479")
+    label("loc_1480")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1404,9 +1404,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x45, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_14C8")
+    label("loc_14CF")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1427,37 +1427,37 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x46, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1517")
+    Jump("loc_151E")
 
-    label("loc_1517")
+    label("loc_151E")
 
     Return()
 
-    # Function_3_D64 end
+    # Function_3_D6B end
 
-    def Function_4_1518(): pass
+    def Function_4_151F(): pass
 
-    label("Function_4_1518")
+    label("Function_4_151F")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xC), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_1570"),
-        (1, "loc_15BF"),
-        (2, "loc_160E"),
-        (3, "loc_165D"),
-        (4, "loc_16AC"),
-        (5, "loc_16FB"),
-        (6, "loc_174A"),
-        (7, "loc_1799"),
-        (8, "loc_17E8"),
-        (9, "loc_1837"),
-        (10, "loc_1886"),
-        (11, "loc_18D5"),
-        (SWITCH_DEFAULT, "loc_1924"),
+        (0, "loc_1577"),
+        (1, "loc_15C6"),
+        (2, "loc_1615"),
+        (3, "loc_1664"),
+        (4, "loc_16B3"),
+        (5, "loc_1702"),
+        (6, "loc_1751"),
+        (7, "loc_17A0"),
+        (8, "loc_17EF"),
+        (9, "loc_183E"),
+        (10, "loc_188D"),
+        (11, "loc_18DC"),
+        (SWITCH_DEFAULT, "loc_192B"),
     )
 
 
-    label("loc_1570")
+    label("loc_1577")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1478,9 +1478,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x65, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_15BF")
+    label("loc_15C6")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1501,9 +1501,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x69, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_160E")
+    label("loc_1615")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1524,9 +1524,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x6D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_165D")
+    label("loc_1664")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1547,9 +1547,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x71, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_16AC")
+    label("loc_16B3")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1570,9 +1570,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x75, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_16FB")
+    label("loc_1702")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1593,9 +1593,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x79, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_174A")
+    label("loc_1751")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1616,9 +1616,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x7D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_1799")
+    label("loc_17A0")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1639,9 +1639,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x81, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_17E8")
+    label("loc_17EF")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1662,9 +1662,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x85, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_1837")
+    label("loc_183E")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1685,9 +1685,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x89, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_1886")
+    label("loc_188D")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1708,9 +1708,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x8D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_18D5")
+    label("loc_18DC")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1731,35 +1731,35 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x93, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1924")
+    Jump("loc_192B")
 
-    label("loc_1924")
+    label("loc_192B")
 
     Return()
 
-    # Function_4_1518 end
+    # Function_4_151F end
 
-    def Function_5_1925(): pass
+    def Function_5_192C(): pass
 
-    label("Function_5_1925")
+    label("Function_5_192C")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_1971"),
-        (1, "loc_19C0"),
-        (2, "loc_1A0F"),
-        (3, "loc_1A5E"),
-        (4, "loc_1AAD"),
-        (5, "loc_1AFC"),
-        (6, "loc_1B4B"),
-        (7, "loc_1B9A"),
-        (8, "loc_1BE9"),
-        (9, "loc_1C38"),
-        (SWITCH_DEFAULT, "loc_1C87"),
+        (0, "loc_1978"),
+        (1, "loc_19C7"),
+        (2, "loc_1A16"),
+        (3, "loc_1A65"),
+        (4, "loc_1AB4"),
+        (5, "loc_1B03"),
+        (6, "loc_1B52"),
+        (7, "loc_1BA1"),
+        (8, "loc_1BF0"),
+        (9, "loc_1C3F"),
+        (SWITCH_DEFAULT, "loc_1C8E"),
     )
 
 
-    label("loc_1971")
+    label("loc_1978")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1780,9 +1780,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x66, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C87")
+    Jump("loc_1C8E")
 
-    label("loc_19C0")
+    label("loc_19C7")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1803,9 +1803,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x6A, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C87")
+    Jump("loc_1C8E")
 
-    label("loc_1A0F")
+    label("loc_1A16")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1826,9 +1826,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x6E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C87")
+    Jump("loc_1C8E")
 
-    label("loc_1A5E")
+    label("loc_1A65")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1849,9 +1849,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x72, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C87")
+    Jump("loc_1C8E")
 
-    label("loc_1AAD")
+    label("loc_1AB4")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1872,9 +1872,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x76, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C87")
+    Jump("loc_1C8E")
 
-    label("loc_1AFC")
+    label("loc_1B03")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1895,9 +1895,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x7A, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C87")
+    Jump("loc_1C8E")
 
-    label("loc_1B4B")
+    label("loc_1B52")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1918,9 +1918,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x7E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C87")
+    Jump("loc_1C8E")
 
-    label("loc_1B9A")
+    label("loc_1BA1")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1941,9 +1941,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x82, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C87")
+    Jump("loc_1C8E")
 
-    label("loc_1BE9")
+    label("loc_1BF0")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1964,9 +1964,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x8A, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C87")
+    Jump("loc_1C8E")
 
-    label("loc_1C38")
+    label("loc_1C3F")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -1987,17 +1987,17 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x94, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_1C87")
+    Jump("loc_1C8E")
 
-    label("loc_1C87")
+    label("loc_1C8E")
 
     Return()
 
-    # Function_5_1925 end
+    # Function_5_192C end
 
-    def Function_6_1C88(): pass
+    def Function_6_1C8F(): pass
 
-    label("Function_6_1C88")
+    label("Function_6_1C8F")
 
     SetMapFlags(0x80)
     SetMapFlags(0x8000000)
@@ -2022,32 +2022,32 @@ def main():
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_6_1C88 end
+    # Function_6_1C8F end
 
-    def Function_7_1CCD(): pass
+    def Function_7_1CD4(): pass
 
-    label("Function_7_1CCD")
+    label("Function_7_1CD4")
 
-    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_214F")
+    Jc((scpexpr(EXPR_RAND), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_IMOD), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2156")
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xC), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_1D38"),
-        (1, "loc_1D8A"),
-        (2, "loc_1DDC"),
-        (3, "loc_1E2E"),
-        (4, "loc_1E80"),
-        (5, "loc_1ED2"),
-        (6, "loc_1F21"),
-        (7, "loc_1F70"),
-        (8, "loc_1FBF"),
-        (9, "loc_200E"),
-        (10, "loc_205D"),
-        (11, "loc_20AC"),
-        (SWITCH_DEFAULT, "loc_20FB"),
+        (0, "loc_1D3F"),
+        (1, "loc_1D91"),
+        (2, "loc_1DE3"),
+        (3, "loc_1E35"),
+        (4, "loc_1E87"),
+        (5, "loc_1ED9"),
+        (6, "loc_1F28"),
+        (7, "loc_1F77"),
+        (8, "loc_1FC6"),
+        (9, "loc_2015"),
+        (10, "loc_2064"),
+        (11, "loc_20B3"),
+        (SWITCH_DEFAULT, "loc_2102"),
     )
 
 
-    label("loc_1D38")
+    label("loc_1D3F")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2068,9 +2068,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x186, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_1D8A")
+    label("loc_1D91")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2091,9 +2091,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x187, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_1DDC")
+    label("loc_1DE3")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2114,9 +2114,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x188, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_1E2E")
+    label("loc_1E35")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2137,9 +2137,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x189, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_1E80")
+    label("loc_1E87")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2160,9 +2160,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x18A, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_1ED2")
+    label("loc_1ED9")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2183,9 +2183,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x12C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_1F21")
+    label("loc_1F28")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2206,9 +2206,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x12D, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_1F70")
+    label("loc_1F77")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2229,9 +2229,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x12E, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_1FBF")
+    label("loc_1FC6")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2252,9 +2252,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x12F, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_200E")
+    label("loc_2015")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2275,9 +2275,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x130, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_205D")
+    label("loc_2064")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2298,9 +2298,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x131, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_20AC")
+    label("loc_20B3")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2321,9 +2321,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x132, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_20FB")
+    label("loc_2102")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2344,44 +2344,44 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x12C, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_214A")
+    Jump("loc_2151")
 
-    label("loc_214A")
+    label("loc_2151")
 
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_214F")
+    label("loc_2156")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0x17), scpexpr(EXPR_IMOD), scpexpr(EXPR_END)),
-        (0, "loc_21E9"),
-        (1, "loc_223B"),
-        (2, "loc_228D"),
-        (3, "loc_22DF"),
-        (4, "loc_2331"),
-        (5, "loc_2383"),
-        (6, "loc_23D5"),
-        (7, "loc_2427"),
-        (8, "loc_2479"),
-        (9, "loc_24CB"),
-        (10, "loc_251D"),
-        (11, "loc_256F"),
-        (12, "loc_25C1"),
-        (13, "loc_2613"),
-        (14, "loc_2665"),
-        (15, "loc_26B7"),
-        (16, "loc_2709"),
-        (17, "loc_275B"),
-        (18, "loc_27AD"),
-        (19, "loc_27FF"),
-        (20, "loc_2851"),
-        (21, "loc_28A3"),
-        (22, "loc_28F5"),
-        (SWITCH_DEFAULT, "loc_2947"),
+        (0, "loc_21F0"),
+        (1, "loc_2242"),
+        (2, "loc_2294"),
+        (3, "loc_22E6"),
+        (4, "loc_2338"),
+        (5, "loc_238A"),
+        (6, "loc_23DC"),
+        (7, "loc_242E"),
+        (8, "loc_2480"),
+        (9, "loc_24D2"),
+        (10, "loc_2524"),
+        (11, "loc_2576"),
+        (12, "loc_25C8"),
+        (13, "loc_261A"),
+        (14, "loc_266C"),
+        (15, "loc_26BE"),
+        (16, "loc_2710"),
+        (17, "loc_2762"),
+        (18, "loc_27B4"),
+        (19, "loc_2806"),
+        (20, "loc_2858"),
+        (21, "loc_28AA"),
+        (22, "loc_28FC"),
+        (SWITCH_DEFAULT, "loc_294E"),
     )
 
 
-    label("loc_21E9")
+    label("loc_21F0")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2402,9 +2402,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x134, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_223B")
+    label("loc_2242")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2425,9 +2425,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x135, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_228D")
+    label("loc_2294")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2448,9 +2448,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x136, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_22DF")
+    label("loc_22E6")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2471,9 +2471,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x137, 5)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_2331")
+    label("loc_2338")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2494,9 +2494,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x138, 5)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_2383")
+    label("loc_238A")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2517,9 +2517,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x139, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_23D5")
+    label("loc_23DC")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2540,9 +2540,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x13A, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_2427")
+    label("loc_242E")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2563,9 +2563,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x13B, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_2479")
+    label("loc_2480")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2586,9 +2586,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x13C, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_24CB")
+    label("loc_24D2")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2609,9 +2609,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x13D, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_251D")
+    label("loc_2524")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2632,9 +2632,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x13E, 8)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_256F")
+    label("loc_2576")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2655,9 +2655,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x13F, 4)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_25C1")
+    label("loc_25C8")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2678,9 +2678,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x140, 4)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_2613")
+    label("loc_261A")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2701,9 +2701,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x141, 4)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_2665")
+    label("loc_266C")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2724,9 +2724,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x142, 3)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_26B7")
+    label("loc_26BE")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2747,9 +2747,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x143, 3)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_2709")
+    label("loc_2710")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2770,9 +2770,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x144, 3)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_275B")
+    label("loc_2762")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2793,9 +2793,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x145, 5)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_27AD")
+    label("loc_27B4")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2816,9 +2816,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x146, 5)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_27FF")
+    label("loc_2806")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2839,9 +2839,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x147, 5)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_2851")
+    label("loc_2858")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2862,9 +2862,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x148, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_28A3")
+    label("loc_28AA")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2885,32 +2885,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x149, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_28F5")
-
-    SetMessageWindowPos(-1, -1, -1, -1)
-    FadeToDark(300, 0, 100)
-    Sound(17, 0, 100, 0)
-    SetChrName("")
-
-    AnonymousTalk(
-        0x3E7,
-        (
-            scpstr(SCPSTR_CODE_ITEM, 0x14A),
-            scpstr(SCPSTR_CODE_COLOR, 0x0),
-            " x2 picked up.\x02",
-        )
-    )
-
-    CloseMessageWindow()
-    OP_57(0x0)
-    FadeToBright(300, 0)
-    AddItemNumber(0x14A, 2)
-    SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
-
-    label("loc_2947")
+    label("loc_28FC")
 
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -2931,13 +2908,36 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x14A, 2)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_2999")
+    Jump("loc_29A0")
 
-    label("loc_2999")
+    label("loc_294E")
+
+    SetMessageWindowPos(-1, -1, -1, -1)
+    FadeToDark(300, 0, 100)
+    Sound(17, 0, 100, 0)
+    SetChrName("")
+
+    AnonymousTalk(
+        0x3E7,
+        (
+            scpstr(SCPSTR_CODE_ITEM, 0x14A),
+            scpstr(SCPSTR_CODE_COLOR, 0x0),
+            " x2 picked up.\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    OP_57(0x0)
+    FadeToBright(300, 0)
+    AddItemNumber(0x14A, 2)
+    SetMessageWindowPos(14, 280, 60, 3)
+    Jump("loc_29A0")
+
+    label("loc_29A0")
 
     Return()
 
-    # Function_7_1CCD end
+    # Function_7_1CD4 end
 
     SaveToFile()
 

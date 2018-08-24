@@ -39,14 +39,14 @@ def main():
         "Function_1_14E",          # 01, 1
         "Function_2_1CA",          # 02, 2
         "Function_3_1CE",          # 03, 3
-        "Function_4_591",          # 04, 4
-        "Function_5_1429",         # 05, 5
-        "Function_6_1474",         # 06, 6
-        "Function_7_14BF",         # 07, 7
-        "Function_8_150A",         # 08, 8
-        "Function_9_155B",         # 09, 9
-        "Function_10_15A6",        # 0A, 10
-        "Function_11_3632",        # 0B, 11
+        "Function_4_4C7",          # 04, 4
+        "Function_5_11E5",         # 05, 5
+        "Function_6_1230",         # 06, 6
+        "Function_7_127B",         # 07, 7
+        "Function_8_12C6",         # 08, 8
+        "Function_9_1317",         # 09, 9
+        "Function_10_1362",        # 0A, 10
+        "Function_11_3207",        # 0B, 11
     ))
 
 
@@ -120,14 +120,14 @@ def main():
     label("loc_1FA")
 
     TalkBegin(0x8)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_446")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3C0")
 
     ChrTalk(
         0x8,
         (
-            "About the patients of that drug, the treatment\x01",
-            "is almost over, but there're persons of whom\x01",
-            "I don't have a medical questionnaire.\x02",
+            "Nearly all drug patients have completed\x01",
+            "treatment, but some haven't submitted\x01",
+            "their medical questionnaires.\x02",
         )
     )
 
@@ -136,8 +136,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "First of all, in Crossbell City, there's a\x01",
-            "young boy called Dino who lives in Downtown.\x02",
+            "Firstly, Dino, a young\x01",
+            "boy who lives in\x01",
+            "Downtown.\x02",
         )
     )
 
@@ -146,8 +147,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Next, we have an artist called Nikol,\x01",
-            "a member of the Arc-en-ciel troupe.\x02",
+            "Next is Nikol, Arc-en-\x01",
+            "Ciel artist.\x02",
         )
     )
 
@@ -156,8 +157,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Then, a soldier named Cless in service\x01",
-            "in the Crossbell CGF at Bellguard Gate.\x02",
+            "Finally, CGF member\x01",
+            "Cless, stationed at\x01",
+            "Bellguard Gate.\x02",
         )
     )
 
@@ -166,8 +168,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "I want you to tell them the situation\x01",
-            "and get their medical questionnaires.\x02",
+            "I want you to explain the\x01",
+            "situation and collect their\x01",
+            "questionnaires for me.\x02",
         )
     )
 
@@ -176,24 +179,24 @@ def main():
     ChrTalk(
         0x8,
         (
-            "When you have gathered them all,\x01",
-            "come back here again to report.\x01",
-            "So, I'm counting on you.\x02",
+            "Once you have them all,\x01",
+            "return here and report. I'm\x01",
+            "counting on all of you.\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 0)
-    Jump("loc_58D")
+    Jump("loc_4C3")
 
-    label("loc_446")
+    label("loc_3C0")
 
 
     ChrTalk(
         0x8,
         (
-            "Crossbell City, a young boy\x01",
-            "called Dino who lives in Downtown.\x02",
+            "Dino, a boy who lives in\x01",
+            "Downtown.\x02",
         )
     )
 
@@ -202,8 +205,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Nikol, an artist, member\x01",
-            "of the Arc-en-ciel troupe.\x02",
+            "Nikol, Arc-en-Ciel\x01",
+            "artist.\x02",
         )
     )
 
@@ -212,8 +215,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "Then, a soldier named Cless in service\x01",
-            "in the Crossbell CGF at Bellguard Gate.\x02",
+            "Finally, CGF member\x01",
+            "Cless, stationed at\x01",
+            "Bellguard Gate.\x02",
         )
     )
 
@@ -222,8 +226,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "I want you to tell them the situation\x01",
-            "and get their medical questionnaires.\x02",
+            "I want you to explain the\x01",
+            "situation and collect their\x01",
+            "questionnaires for me.\x02",
         )
     )
 
@@ -231,21 +236,24 @@ def main():
 
     ChrTalk(
         0x8,
-        "Well then, I'm counting on you.\x02",
+        (
+            "Well then, I'm counting\x01",
+            "on all of you.\x02",
+        )
     )
 
     CloseMessageWindow()
 
-    label("loc_58D")
+    label("loc_4C3")
 
     TalkEnd(0x8)
     Return()
 
     # Function_3_1CE end
 
-    def Function_4_591(): pass
+    def Function_4_4C7(): pass
 
-    label("Function_4_591")
+    label("Function_4_4C7")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -267,8 +275,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00000F──Excuse us, we're coming in.\x01",
-            "We're from the Special Support Section....\x02",
+            "#6P#00000F─Excuse us, we're the\x01",
+            "Special Support\x01",
+            "Section....\x02",
         )
     )
 
@@ -277,7 +286,7 @@ def main():
     NpcTalk(
         0x8,
         "Woman's Voice",
-        "Come in.\x02",
+        "Please come in.\x02",
     )
 
     CloseMessageWindow()
@@ -320,7 +329,7 @@ def main():
     NpcTalk(
         0x8,
         "Woman Doctor",
-        "Hm, finally here I see.\x02",
+        "You're finally here.\x02",
     )
 
     CloseMessageWindow()
@@ -329,9 +338,9 @@ def main():
         0x8,
         "Woman Doctor",
         (
-            "You're about 2 minutes later than\x01",
-            "the time I was expecting, but...\x01",
-            "Well, they say you're good, so, fine.\x02",
+            "You're about 2 minutes later\x01",
+            "than I expected, but... Well,\x01",
+            "they say you're good, so, fine.\x02",
         )
     )
 
@@ -351,8 +360,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#12P#00306F(S-Somehow she seems weird...\x01",
-            "Although no doubt she's a beauty.)\x02",
+            "#12P#00306F(She seems scary\x01",
+            "somehow... though she's\x01",
+            "certainly beautiful.)\x02",
         )
     )
 
@@ -362,8 +372,9 @@ def main():
         0x8,
         "Woman Doctor",
         (
-            "Well, in any case, come here.\x01",
-            "At this distance it's hard to talk.\x02",
+            "Come here at once. It's\x01",
+            "hard to talk from this\x01",
+            "distance.\x02",
         )
     )
 
@@ -371,7 +382,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00000FY-You're right.\x02",
+        "#12P#00000FR-Right.\x02",
     )
 
     CloseMessageWindow()
@@ -381,84 +392,85 @@ def main():
     OP_6E(440, 5000)
     SetCameraDistance(20000, 5000)
 
-    def lambda_A1B():
+    def lambda_91D():
         OP_95(0xFE, 107920, 0, 57770, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_A1B)
+    QueueWorkItem(0x101, 1, lambda_91D)
     Sleep(500)
 
-    def lambda_A38():
+    def lambda_93A():
         OP_95(0xFE, 107840, 0, 56600, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_A38)
+    QueueWorkItem(0x102, 1, lambda_93A)
     Sleep(500)
 
-    def lambda_A55():
+    def lambda_957():
         OP_95(0xFE, 106710, 0, 58390, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_A55)
+    QueueWorkItem(0x104, 1, lambda_957)
     Sleep(700)
 
-    def lambda_A72():
+    def lambda_974():
         OP_95(0xFE, 106120, 0, 57330, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_A72)
+    QueueWorkItem(0x109, 1, lambda_974)
     Sleep(500)
 
-    def lambda_A8F():
+    def lambda_991():
         OP_95(0xFE, 106680, 0, 56190, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_A8F)
+    QueueWorkItem(0x105, 1, lambda_991)
     WaitChrThread(0x101, 1)
 
-    def lambda_AAD():
+    def lambda_9AF():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_AAD)
+    QueueWorkItem(0x101, 1, lambda_9AF)
     WaitChrThread(0x102, 1)
 
-    def lambda_ABE():
+    def lambda_9C0():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_ABE)
+    QueueWorkItem(0x102, 1, lambda_9C0)
     WaitChrThread(0x109, 1)
 
-    def lambda_ACF():
+    def lambda_9D1():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_ACF)
+    QueueWorkItem(0x109, 1, lambda_9D1)
     WaitChrThread(0x104, 1)
 
-    def lambda_AE0():
+    def lambda_9E2():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_AE0)
+    QueueWorkItem(0x104, 1, lambda_9E2)
     WaitChrThread(0x105, 1)
 
-    def lambda_AF1():
+    def lambda_9F3():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_AF1)
+    QueueWorkItem(0x105, 1, lambda_9F3)
     OP_6F(0x79)
     OP_0D()
 
     ChrTalk(
         0x102,
         (
-            "#6P#00100FEhm, you're Professor\x01",
-            "Seiland, am I right?\x02\x03",
-            "#00103FAbout the analysis results \x01",
-            "of the Gnosis' ingredients──\x02",
+            "#6P#00100FUmm, Professor Seiland, I\x01",
+            "presume?\x02\x03",
+            "#00103FI heard the Gnosis\x01",
+            "component analysis\x01",
+            "results were published...\x02",
         )
     )
 
@@ -467,8 +479,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P──Sorry but before that,\x01",
-            "I've got a favor to ask.\x02",
+            "#11P─Sorry, I've have a\x01",
+            "favor to ask beforehand.\x02",
         )
     )
 
@@ -477,8 +489,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PI'd like you to be done\x01",
-            "with that first of all.\x02",
+            "#11PI'd like all of you to\x01",
+            "take care of that first.\x02",
         )
     )
 
@@ -487,10 +499,11 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10303FThe matter you issued a request for, right?\x02\x03",
-            "#10301FI guess you can't\x01",
-            "give us the Gnosis\x01",
-            "analysis results?\x02",
+            "#6P#10303FThe request you\x01",
+            "submitted right?\x02\x03",
+            "#10301FYou can't give us the\x01",
+            "Gnosis analysis results\x01",
+            "now?\x02",
         )
     )
 
@@ -499,8 +512,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PBecause it regards the analysis result,\x01",
-            "I want you to take care of that first.\x02",
+            "#11PThe request concerns the\x01",
+            "analysis results, so I'd like\x01",
+            "you to take care of it first.\x02",
         )
     )
 
@@ -509,8 +523,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PBecause it's related to the patients\x01",
-            "who suffered damage from Gnosis.\x02",
+            "#11PBecause it concerns the\x01",
+            "patients who were harmed\x01",
+            "by Gnosis.\x02",
         )
     )
 
@@ -533,7 +548,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10105FI see, so that's what it is.\x02",
+        "#6P#10105FI see.\x02",
     )
 
     CloseMessageWindow()
@@ -541,9 +556,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00003F...Understood.\x01",
-            "We'll do that first.\x02\x03",
-            "#00000FCould we know the request contents?\x02",
+            "#6P#00003F...Understood. We'll do\x01",
+            "that first.\x02\x03",
+            "#00000FCan you tell us the\x01",
+            "details of your request?\x02",
         )
     )
 
@@ -552,8 +568,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PHm, what I want to ask you is to\x01",
-            ""collect medical questionnaires".\x02",
+            "#11PYes. I'd like you all to\x01",
+            ""collect medical\x01",
+            "questionnaires".\x02",
         )
     )
 
@@ -562,9 +579,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P...After that Cult incident, the hospital\x01",
-            "concentrated its effort on the after care\x01",
-            "of the "Gnosis" victims.\x02",
+            "#11P...After the cult incident,\x01",
+            "the hospital focused on caring\x01",
+            "for the "Gnosis" victims.\x02",
         )
     )
 
@@ -573,8 +590,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PThe treatment of almost all\x01",
-            "patients has been completed, but...\x02",
+            "#11PNearly all patients have\x01",
+            "completed treatment,\x01",
+            "but...\x02",
         )
     )
 
@@ -583,8 +601,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PIn the end, some patients didn't submit the\x01",
-            "medical questionnaire I asked to fill in.\x02",
+            "#11PIn the end, several patients\x01",
+            "haven't submitted the medical\x01",
+            "questionnaire I asked them to.\x02",
         )
     )
 
@@ -593,26 +612,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00003FI see...\x01",
-            "It really seems that it also\x01",
-            "involves the analysis results.\x02",
-        )
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x8,
-        "#11PHm, I want you to do it fast.\x02",
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x8,
-        (
-            "#11P...There're three persons who haven't \x01",
-            "returned their medical questionnaire.\x02",
+            "#6P#00003FI see... That certainly\x01",
+            "would affect the\x01",
+            "analysis results.\x02",
         )
     )
 
@@ -621,8 +623,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PFirst, in Crossbell City, a young boy\x01",
-            "called Dino who lives in Downtown.\x02",
+            "#11PYes. I'd like you to\x01",
+            "take care of this\x01",
+            "quickly.\x02",
         )
     )
 
@@ -631,8 +634,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PNext, Nikol, an artist, member\x01",
-            "of the Arc-en-ciel troupe.\x02",
+            "#11P...I'm missing the\x01",
+            "questionnaires from 3\x01",
+            "patients.\x02",
         )
     )
 
@@ -641,8 +645,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PThen, a soldier in service in the Crossbell\x01",
-            "CGF at Bellguard Gate, Cless.\x02",
+            "#11PDino, of Crossbell\x01",
+            "City's Downtown.\x02",
         )
     )
 
@@ -651,8 +655,29 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PI want you to explain the situation to the aforementioned\x01",
-            "patients and collect their medical questionnaires.\x02",
+            "#11PNikol, Arc-en-Ciel\x01",
+            "artist.\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x8,
+        (
+            "#11PCless, stationed at\x01",
+            "Bellguard Gate.\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x8,
+        (
+            "#11PExplain the situation to\x01",
+            "each patient and collect\x01",
+            "their questionnaires.\x02",
         )
     )
 
@@ -661,12 +686,14 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00300FI see, they seem all known names.\x02\x03",
-            "#00303FFor the guys at Downtown and the\x01",
-            "Arc-en-ciel, if we look for them\x01",
-            "in the city, we'll find 'em out.\x02\x03",
-            "#00302FAs for senior Cless, he'll be probably\x01",
-            "havin' a meal at the Bellguard Gate mess hall.\x02",
+            "#6P#00300FI see. We know all of them\x01",
+            "personally.\x02\x03",
+            "#00303FWe'll probably find Dino\x01",
+            "and Nikol in the city if\x01",
+            "we look around.\x02\x03",
+            "#00302FCless is probably having a\x01",
+            "meal in the Bellguard Gate\x01",
+            "mess hall around now.\x02",
         )
     )
 
@@ -674,14 +701,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00000FYeah, let's go at once.\x02",
+        "#6P#00000FAlright, let's go.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#11PThen, I'm counting on you.\x02",
+        "#11PI'm counting on you.\x02",
     )
 
     CloseMessageWindow()
@@ -689,8 +716,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PWhen you've finished collecting them,\x01",
-            "return here and report.\x02",
+            "#11POnce you've collected\x01",
+            "them, return here and\x01",
+            "report.\x02",
         )
     )
 
@@ -699,8 +727,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PWhen you do that, I'll officially talk\x01",
-            "about the Gnosis analysis results.\x02",
+            "#11PI'll give you the Gnosis\x01",
+            "analysis results then.\x02",
         )
     )
 
@@ -714,7 +742,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Quest [New Professor's Request]\x07\x00",
+            "Quest [New Professor's\x01",
+            "Request]\x07\x00",
             " started!\x02",
         )
     )
@@ -734,127 +763,127 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_4_591 end
+    # Function_4_4C7 end
 
-    def Function_5_1429(): pass
+    def Function_5_11E5(): pass
 
-    label("Function_5_1429")
+    label("Function_5_11E5")
 
 
-    def lambda_142E():
+    def lambda_11EA():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x101, 2, lambda_142E)
+    QueueWorkItem(0x101, 2, lambda_11EA)
 
-    def lambda_143F():
+    def lambda_11FB():
         OP_98(0xFE, 0x10CC, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_143F)
+    QueueWorkItem(0x101, 1, lambda_11FB)
     WaitChrThread(0x101, 1)
     OP_95(0x101, 105730, 0, 50340, 2000, 0x0)
     OP_93(0x101, 0x0, 0x1F4)
     Return()
 
-    # Function_5_1429 end
+    # Function_5_11E5 end
 
-    def Function_6_1474(): pass
+    def Function_6_1230(): pass
 
-    label("Function_6_1474")
+    label("Function_6_1230")
 
 
-    def lambda_1479():
+    def lambda_1235():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x102, 2, lambda_1479)
+    QueueWorkItem(0x102, 2, lambda_1235)
 
-    def lambda_148A():
+    def lambda_1246():
         OP_98(0xFE, 0x10CC, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_148A)
+    QueueWorkItem(0x102, 1, lambda_1246)
     WaitChrThread(0x102, 1)
     OP_95(0x102, 104600, 0, 50890, 2000, 0x0)
     OP_93(0x102, 0x0, 0x1F4)
     Return()
 
-    # Function_6_1474 end
+    # Function_6_1230 end
 
-    def Function_7_14BF(): pass
+    def Function_7_127B(): pass
 
-    label("Function_7_14BF")
+    label("Function_7_127B")
 
 
-    def lambda_14C4():
+    def lambda_1280():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 2, lambda_14C4)
+    QueueWorkItem(0x104, 2, lambda_1280)
 
-    def lambda_14D5():
+    def lambda_1291():
         OP_98(0xFE, 0x10CC, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_14D5)
+    QueueWorkItem(0x104, 1, lambda_1291)
     WaitChrThread(0x104, 1)
     OP_95(0x104, 105690, 0, 48970, 2000, 0x0)
     OP_93(0x104, 0x0, 0x1F4)
     Return()
 
-    # Function_7_14BF end
+    # Function_7_127B end
 
-    def Function_8_150A(): pass
+    def Function_8_12C6(): pass
 
-    label("Function_8_150A")
+    label("Function_8_12C6")
 
 
-    def lambda_150F():
+    def lambda_12CB():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x109, 2, lambda_150F)
+    QueueWorkItem(0x109, 2, lambda_12CB)
 
-    def lambda_1520():
+    def lambda_12DC():
         OP_98(0xFE, 0x10CC, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_1520)
+    QueueWorkItem(0x109, 1, lambda_12DC)
     WaitChrThread(0x109, 1)
     Sound(107, 0, 100, 0)
     OP_95(0x109, 104810, 0, 49520, 2000, 0x0)
     OP_93(0x109, 0x0, 0x1F4)
     Return()
 
-    # Function_8_150A end
+    # Function_8_12C6 end
 
-    def Function_9_155B(): pass
+    def Function_9_1317(): pass
 
-    label("Function_9_155B")
+    label("Function_9_1317")
 
 
-    def lambda_1560():
+    def lambda_131C():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x105, 2, lambda_1560)
+    QueueWorkItem(0x105, 2, lambda_131C)
 
-    def lambda_1571():
+    def lambda_132D():
         OP_98(0xFE, 0x10CC, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_1571)
+    QueueWorkItem(0x105, 1, lambda_132D)
     WaitChrThread(0x105, 1)
     OP_95(0x105, 103660, 0, 49780, 2000, 0x0)
     OP_93(0x105, 0x0, 0x1F4)
     Return()
 
-    # Function_9_155B end
+    # Function_9_1317 end
 
-    def Function_10_15A6(): pass
+    def Function_10_1362(): pass
 
-    label("Function_10_15A6")
+    label("Function_10_1362")
 
     EventBegin(0x0)
     FadeToDark(1000, 0, -1)
@@ -883,7 +912,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PYou're five minutes later than what I thought, but...\x01",
+            "#11PYou're five minutes later\x01",
+            "than expected, but...\x01",
             "Well, it's passable.\x02",
         )
     )
@@ -903,7 +933,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00306F(S-She IS weird...)\x02",
+        "#6P#00306F(S-She IS scary...)\x02",
     )
 
     CloseMessageWindow()
@@ -911,8 +941,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00000FUhhm, we've finished collecting the\x01",
-            "medical questionnaires...here they're.\x02",
+            "#6P#00000FUmm, we've collected the\x01",
+            "forms. Here you go.\x02",
         )
     )
 
@@ -923,7 +953,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Handed over the medical questionnaires to Professor Seiland.\x07\x00\x02",
+            "Lloyd handed the medical\x01",
+            "questionnaires to\x01",
+            "Professor Seiland.\x07\x00\x02",
         )
     )
 
@@ -936,7 +968,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P...Hm.........\x02",
+        "#11P...Hmm...\x02",
     )
 
     CloseMessageWindow()
@@ -946,8 +978,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00101FE-Excuse me...\x01",
-            "Is there any problem?\x02",
+            "#6P#00101FE-Excuse me... Is there\x01",
+            "a problem?\x02",
         )
     )
 
@@ -957,16 +989,9 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P...No, it's the opposite.\x02",
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x8,
         (
-            "#11PAccording to what I'm seeing,\x01",
-            "it seems there're no after-effects.\x02",
+            "#11P...No, it's the\x01",
+            "opposite.\x02",
         )
     )
 
@@ -975,9 +1000,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PWith this, for the time being,\x01",
-            "the treatment of all the Gnosis\x01",
-            "recipients is over.\x02",
+            "#11PBased on the questionnaires,\x01",
+            "all patients are free of the\x01",
+            "drug's effects.\x02",
         )
     )
 
@@ -985,21 +1010,32 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PGood job.\x02",
+        (
+            "#11PThis means the treatment\x01",
+            "of the patients who took\x01",
+            "Gnosis is now complete.\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x8,
+        "#11PNice work.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#6P#00002FI-I see...!\x02",
+        "#6P#00002FR-Really!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#6P#10109FUh uh, thank goodness.\x02",
+        "#6P#10109FHaha, that's great.\x02",
     )
 
     CloseMessageWindow()
@@ -1007,8 +1043,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10300FIt took us quite some time to do,\x01",
-            "but it's an honor to have been of help.\x02",
+            "#6P#10300FIt was a lot of running\x01",
+            "around, but It's an honor\x01",
+            "to have been of help.\x02",
         )
     )
 
@@ -1017,8 +1054,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PThen, I know it's sudden, but I'll report\x01",
-            "to you the Gnosis analysis results.\x02",
+            "#11PThen, I'll inform you of\x01",
+            "the Gnosis analysis\x01",
+            "results immediately.\x02",
         )
     )
 
@@ -1026,7 +1064,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11PCan you make me company for a bit?\x02",
+        "#11PDo you have a moment?\x02",
     )
 
     CloseMessageWindow()
@@ -1034,10 +1072,7 @@ def main():
 
     ChrTalk(
         0x101,
-        (
-            "#6P#00001FAh...\x01",
-            "Yes, please!\x02",
-        )
+        "#6P#00001FY-Yes, please do!\x02",
     )
 
     CloseMessageWindow()
@@ -1082,8 +1117,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P──The results of a Gnosis\x01",
-            "thorough analysis...\x02",
+            "#5P─Regarding the results\x01",
+            "of the Gnosis\x01",
+            "analysis...\x02",
         )
     )
 
@@ -1092,9 +1128,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PFirst and foremost, I figured that\x01",
-            "Gnosis has the effect of forcefully\x01",
-            "release the "brain limiters".\x02",
+            "#5PFirstly, I figured that Gnosis\x01",
+            "has the effect of forcefully\x01",
+            "releasing the "brain limiters".\x02",
         )
     )
 
@@ -1103,8 +1139,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00005FBrain limiters...\x01",
-            "What does it...?\x02",
+            "#12P#00005FBrain limiters...you\x01",
+            "say?\x02",
         )
     )
 
@@ -1113,9 +1149,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PTo begin with, man is regarded as\x01",
-            "not being able to use even half of the \x01",
-            "physical abilities it naturally has.\x02",
+            "#5PTo begin with, humans are thought to\x01",
+            "normally use not even half of the\x01",
+            "physical abilities they possess.\x02",
         )
     )
 
@@ -1124,9 +1160,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PTo decrease the burden on the body,\x01",
-            "the brain put unconscious limiters\x01",
-            "to the abilities it can draw out.\x02",
+            "#5PTo decrease stress on the\x01",
+            "body, unconsciously, the brain\x01",
+            "places limiters on abilities.\x02",
         )
     )
 
@@ -1135,7 +1171,7 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PIf it was possible to\x01",
+            "#5PIf it were possible to\x01",
             "intentionally release\x01",
             "these limiters...\x02",
         )
@@ -1146,9 +1182,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PIn theory, it could become possible\x01",
-            "to display abilities up to the limit\x01",
-            "a single person possesses.\x02",
+            "#5PIn theory, the individual\x01",
+            "would be able to perform up to\x01",
+            "the limits of their abilities.\x02",
         )
     )
 
@@ -1157,10 +1193,12 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10303FIn other words, Gnosis is not a drug to\x01",
-            "solely enhance physical strength, but...\x02\x03",
-            "#10301FA drug that forcibly draws out the latent\x01",
-            "faculties that aren't normally used?\x02",
+            "#12P#10303FIn other words, Gnosis is not a\x01",
+            "drug that simply enhances\x01",
+            "strength...\x02\x03",
+            "#10301FSo you're saying it's a drug that\x01",
+            "forcibly draws out a person's\x01",
+            "normally unused latent abilities?\x02",
         )
     )
 
@@ -1176,9 +1214,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PNaturally, if the limiters that were\x01",
-            "unconsciously active are released,\x01",
-            "the strain on the body is extreme.\x02",
+            "#5PNaturally, if the limiters are\x01",
+            "removed, is places considerable\x01",
+            "stress on the body.\x02",
         )
     )
 
@@ -1187,14 +1225,14 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#12P#00301FIndeed, after the Cult incident\x01",
-            "the CGF guys seemed to be\x01",
-            "pretty exhausted.\x02\x03",
-            "#00303FIt seems they were in such a bad state\x01",
-            "that they couldn't even lift a finger...\x02\x03",
-            "#00302FWell, thanks to the strict rehabilitation\x01",
-            "practice that they did, it seems they were\x01",
-            "finally able to get back their senses.\x02",
+            "#12P#00301FIndeed. After the cult incident, the\x01",
+            "Guardian Force troops were rather\x01",
+            "exhausted.\x02\x03",
+            "#00303FFor a little while, they couldn't even\x01",
+            "lift a single finger.\x02\x03",
+            "#00302FWell, thanks to the strict\x01",
+            "rehabilitation training they did, they\x01",
+            "finally came back to their senses.\x02",
         )
     )
 
@@ -1202,7 +1240,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#5P#10104FYes...it seems so.\x02",
+        "#5P#10104FYes... It seems so.\x02",
     )
 
     CloseMessageWindow()
@@ -1210,15 +1248,16 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#11P#00103F...Speaking of...senses.\x02\x03",
-            "#00101FThere was also a man who\x01",
-            "kept winning at gambling relying\x01",
-            "on heightened luck and senses.\x02\x03",
-            "#00108FAt the same time, it seems that personality,\x01",
-            "speech and conduct had a complete change....\x02\x03",
-            "#00101FCould those too be explained\x01",
-            "because Gnosis released the\x01",
-            "brain limiters, I wonder?\x02",
+            "#11P#00103FSpeaking of senses...\x02\x03",
+            "#00101FThere was a man with a string\x01",
+            "of gambling wins who relied on\x01",
+            "heightened luck and senses.\x02\x03",
+            "#00108FAt the same time, his\x01",
+            "personality and conduct\x01",
+            "suddenly changed, too.\x02\x03",
+            "#00101FCould those changes be\x01",
+            "explained by the effect of\x01",
+            "Gnosis on brain limiters?\x02",
         )
     )
 
@@ -1226,7 +1265,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PHm, that could be.\x02",
+        "#5PHmm, it could be.\x02",
     )
 
     CloseMessageWindow()
@@ -1234,20 +1273,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PAfter all, it's also confirmed for this\x01",
-            "drug the effect of rapidly increasing\x01",
-            "the five senses functions.\x02",
-        )
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x8,
-        (
-            "#5PI also figured that as side\x01",
-            "effects there're nervousness\x01",
-            "and an emotional instability state.\x02",
+            "#5PThe drug is confirmed to\x01",
+            "rapidly increase the user's\x01",
+            "five senses, after all.\x02",
         )
     )
 
@@ -1256,8 +1284,20 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PThose are probably related with\x01",
-            "the change to a brutal personality.\x02",
+            "#5PWe also know that side effects\x01",
+            "of the drug include nervousness\x01",
+            "and emotional instability.\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x8,
+        (
+            "#5PThose are likely the cause of\x01",
+            "the aggressive personality\x01",
+            "the man developed.\x02",
         )
     )
 
@@ -1273,8 +1313,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#5P#10100FIndeed, the explanation\x01",
-            "is adequate.\x02",
+            "#5P#10100FThat does seem to\x01",
+            "explain everything.\x02",
         )
     )
 
@@ -1283,8 +1323,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P──Still, this is the extent of what\x01",
-            "can be explained biochemically.\x02",
+            "#5P─However, that is the full\x01",
+            "extent of what can be\x01",
+            "explained biochemically.\x02",
         )
     )
 
@@ -1302,7 +1343,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00005FWhat...\x02",
+        "#12P#00005FHuh...\x02",
     )
 
     CloseMessageWindow()
@@ -1310,8 +1351,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PRegarding some effects, I can\x01",
-            "only say they're unscientific.\x02",
+            "#5PRegarding several\x01",
+            "effects, I can only say\x01",
+            "they're unscientific.\x02",
         )
     )
 
@@ -1320,8 +1362,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PConcretely, the effect to call in luck\x01",
-            "that you spoke about moments ago...\x02",
+            "#5PSpecifically, the case where\x01",
+            "the user's luck increased,\x01",
+            "that you just mentioned...\x02",
         )
     )
 
@@ -1330,8 +1373,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PAnd what you have witnessed many times too.\x01",
-            "The metamorphose phenomenon called "demonize".\x02",
+            "#5PAnd also the "Demonization"\x01",
+            "metamorphosis phenomenon that you\x01",
+            "have witnessed several times already.\x02",
         )
     )
 
@@ -1339,7 +1383,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#11P#00105F...T-True...\x02",
+        "#11P#00105FR-Right...\x02",
     )
 
     CloseMessageWindow()
@@ -1354,10 +1398,12 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00003F...What causes "demonize"\x01",
-            "is the red type of Gnosis...\x02\x03",
-            "#00001FAs expected, it's made with different\x01",
-            "ingredients than the blue type one?\x02",
+            "#12P#00003F...The cause of\x01",
+            "Demonization is the red-\x01",
+            "type Gnosis...\x02\x03",
+            "#00001FIt has different\x01",
+            "components than the blue\x01",
+            "type, correct?\x02",
         )
     )
 
@@ -1373,9 +1419,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PActually, the blue type of Gnosis\x01",
-            "and the red type of Gnosis are\x01",
-            "no different, ingredients wise.\x02",
+            "#5PActually, the blue and red\x01",
+            "Gnosis are no different in\x01",
+            "terms of ingredients.\x02",
         )
     )
 
@@ -1383,7 +1429,10 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PBiochemically, at least.\x02",
+        (
+            "#5PIn terms of chemistry,\x01",
+            "at least.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -1413,8 +1462,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PYeah, the color difference is\x01",
-            "given by the refining process.\x02",
+            "#5PYes. The color difference\x01",
+            "is due to a difference in\x01",
+            "the degree of refinement.\x02",
         )
     )
 
@@ -1423,8 +1473,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PThere's no difference in the main ingredients\x01",
-            "and even the molecular structure almost fits...\x02",
+            "#5PThere is no difference in the main\x01",
+            "ingredients, and the molecular\x01",
+            "structure is an almost exact match...\x02",
         )
     )
 
@@ -1433,9 +1484,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PDespite that, the red type\x01",
-            "causes a phenomenon impossible\x01",
-            "to explain like a metamorphosis...\x02",
+            "#5PBut regardless of that, the red type\x01",
+            "causes a metamorphosis phenomenon\x01",
+            "that defies explanation...\x02",
         )
     )
 
@@ -1444,9 +1495,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P──Frankly, what I could think that "demonize"\x01",
-            "matches best is an "hallucination" that you all\x01",
-            "had due to too much terror.\x02",
+            "#5P...Honestly, the most likely explanation\x01",
+            "of Demonization I can think of is an\x01",
+            ""illusion" you all saw due to great fear.\x02",
         )
     )
 
@@ -1465,7 +1516,10 @@ def main():
 
     ChrTalk(
         0x104,
-        "#12P#00306FNo, that's not totally it...\x02",
+        (
+            "#12P#00306FNo, that's totally not\x01",
+            "it...\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -1473,8 +1527,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#5P#10108FI have witnessed Secretary\x01",
-            "Ernest's demonize myself...\x02",
+            "#5P#10108FI witnessed Secretary\x01",
+            "Ernest's Demonization\x01",
+            "myself...\x02",
         )
     )
 
@@ -1483,8 +1538,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PI know.\x01",
-            "──That's why this is a limit.\x02",
+            "#5PI know. ...That's why\x01",
+            "this is the limit.\x02",
         )
     )
 
@@ -1493,9 +1548,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PThe approach to only explain from\x01",
-            "the sphere of biochemistry the true\x01",
-            "nature of the drug called Gnosis.\x02",
+            "#5PUsing an approach to\x01",
+            "explain Gnosis using\x01",
+            "only biochemistry.\x02",
         )
     )
 
@@ -1511,8 +1566,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10302FQuite a commendable view for someone in\x01",
-            "charge of cutting-edge medical care, eh?\x02",
+            "#12P#10302FYou have a pretty high\x01",
+            "opinion of modern\x01",
+            "medicine, right?\x02",
         )
     )
 
@@ -1521,8 +1577,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PModern medical care is not almighty, you know.\x01",
-            "Regarding mind and soul problems.\x02",
+            "#5PModern medicine is not all-\x01",
+            "powerful. Especially regarding\x01",
+            "problems of the mind and soul.\x02",
         )
     )
 
@@ -1531,9 +1588,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PAnd Gnosis probably hides some\x01",
-            "functions to make resonate the\x01",
-            "body with those.\x02",
+            "#5PAnd it's likely that Gnosis\x01",
+            "has some hidden effect on the\x01",
+            "body with regard to those.\x02",
         )
     )
 
@@ -1542,8 +1599,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PI'm sure that not even Joachim had\x01",
-            "grasped the full details of Gnosis.\x02",
+            "#5PI have no doubt that\x01",
+            "even Joachim didn't know\x01",
+            "the full story.\x02",
         )
     )
 
@@ -1552,9 +1610,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PHe made it perfect by trial and error with\x01",
-            "the secret rituals transmitted by the Cult \x01",
-            "and only succeeded in its mass production.\x02",
+            "#5PUsing the cult's secret rituals as a base,\x01",
+            "he only perfected the drug using trial and\x01",
+            "error, and succeeded in mass producing it.\x02",
         )
     )
 
@@ -1563,7 +1621,7 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#11P#00101FI'm sure that he himself\x01",
+            "#11P#00101FI think he himself\x01",
             "confirmed that...\x02",
         )
     )
@@ -1573,9 +1631,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00001FYeah, he said he completed it by trial\x01",
-            "and error on the basis of the data of \x01",
-            "the rituals performed throughout the land.\x02",
+            "#12P#00001FYeah. He said that, using each lodge's\x01",
+            "ritual data as a base, he perfected\x01",
+            "the drug through trial and error.\x02",
         )
     )
 
@@ -1583,7 +1641,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PHm, as expected then.\x02",
+        "#5PHmm. As I thought.\x02",
     )
 
     CloseMessageWindow()
@@ -1591,9 +1649,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PThat guy had skills and was zealous,\x01",
-            "but he didn't have the outstanding\x01",
-            "mindset of a genius.\x02",
+            "#5PHe was skilled and\x01",
+            "enthusiastic, but didn't\x01",
+            "have the mind of a genius.\x02",
         )
     )
 
@@ -1601,7 +1659,10 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PAnd in the end he went wrong...\x02",
+        (
+            "#5PMaybe that's what drew\x01",
+            "him to the dark side.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -1626,8 +1687,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#12P#00305FDid you personally\x01",
-            "know that Joachim?\x02",
+            "#12P#00305FDid you know Joachim\x01",
+            "personally?\x02",
         )
     )
 
@@ -1636,8 +1697,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PYeah, he was my colleague when I was studying\x01",
-            "at the medical college in Remiferia.\x02",
+            "#5PYes, he was my colleague\x01",
+            "when I was studying at\x01",
+            "Remiferia Medical School.\x02",
         )
     )
 
@@ -1646,9 +1708,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PI didn't meet him after graduation,\x01",
-            "but now and then we exchanged letters\x01",
-            "about the latest research results.\x02",
+            "#5PI never saw him after we graduated,\x01",
+            "but we exchanged letters occasionally\x01",
+            "about our latest research results.\x02",
         )
     )
 
@@ -1657,9 +1719,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PHowever, I'd never thought he would've\x01",
-            "misused medical techniques in such a way\x01",
-            "and that he even destroyed his own body...\x02",
+            "#5PBut I never thought he'd abuse\x01",
+            "medical technology like that and\x01",
+            "even destroy his own body...\x02",
         )
     )
 
@@ -1674,14 +1736,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#5P#10103F...You have my sympathies.\x02",
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x8,
-        "#5PNo, I said something trifling.\x02",
+        "#5P#10103F...My sympathies.\x02",
     )
 
     CloseMessageWindow()
@@ -1689,8 +1744,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P──In any case, this\x01",
-            "is all I can report.\x02",
+            "#5PNo, don't worry about\x01",
+            "it.\x02",
         )
     )
 
@@ -1699,8 +1754,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PTo face the truth about Gnosis,\x01",
-            "a different approach is needed.\x02",
+            "#5P─In any case, that's all\x01",
+            "I can report.\x02",
         )
     )
 
@@ -1708,7 +1763,11 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PThis is just my intuition, but...\x02",
+        (
+            "#5PTo find the truth about\x01",
+            "Gnosis, a different\x01",
+            "approach is needed.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -1716,9 +1775,19 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PI think that the characteristics of the\x01",
-            ""Pleroma Grass" plant, the base ingredient\x01",
-            "for the Gnosis, is going to be the key to it.\x02",
+            "#5PThis is entirely my\x01",
+            "intuition, but...\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x8,
+        (
+            "#5PI think the characteristics of\x01",
+            "Pleroma Grass, an ingredient\x01",
+            "of Gnosis, could be the key.\x02",
         )
     )
 
@@ -1726,7 +1795,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#00001F"Pleroma Grass"...\x02",
+        "#12P#00001FThe Pleroma Grass...\x02",
     )
 
     CloseMessageWindow()
@@ -1734,8 +1803,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#11P#00103FThat's a name that was recorded\x01",
-            "in the Cult's database...\x02",
+            "#11P#00103FThat name was recorded\x01",
+            "in the cult's\x01",
+            "database...\x02",
         )
     )
 
@@ -1744,9 +1814,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#12P#00306FHowever, in the end we didn't\x01",
-            "get what kind of plant it is\x01",
-            "and where we can get it, huh?\x02",
+            "#12P#00306FBut in the end, we never learned\x01",
+            "what kind of plant it is or\x01",
+            "where it was obtained, right?\x02",
         )
     )
 
@@ -1755,9 +1825,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PYeah, I tried to inquire a\x01",
-            "botanist I know, but he didn't\x01",
-            "find anything corresponding.\x02",
+            "#5PYes. I asked my colleagues too,\x01",
+            "including a botanist, but I\x01",
+            "didn't find any relevant answers.\x02",
         )
     )
 
@@ -1766,8 +1836,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PIt could be a new species only\x01",
-            "transmitted in the Cult or...\x02",
+            "#5PCould it be a species\x01",
+            "only the cult has access\x01",
+            "to? Or...\x02",
         )
     )
 
@@ -1776,9 +1847,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PIn any event, thinking about the drug\x01",
-            "effects, I can suppose that that plant\x01",
-            "has got "unbelievable" properties.\x02",
+            "#5PIn any case, thinking about the\x01",
+            "drug's effects, I guess that that\x01",
+            "plant has "impossible" properties.\x02",
         )
     )
 
@@ -1786,7 +1857,10 @@ def main():
 
     ChrTalk(
         0x102,
-        "#11P#00101F"Unbelievable properties"...?\x02",
+        (
+            "#11P#00101FImpossible\x01",
+            "properties...?\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -1794,8 +1868,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10309FHu hu, since it's somehow occult,\x01",
-            "it's become interesting, eh?\x02",
+            "#12P#10309FHaha. This is getting\x01",
+            "interesting now that\x01",
+            "it's somehow occult.\x02",
         )
     )
 
@@ -1807,28 +1882,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00003F──Professor Seiland,\x01",
-            "thank you very much.\x02\x03",
-            "#00000FThanks to you, I feel that we've been\x01",
-            "able to sort out to a certain degree\x01",
-            "some things that were vague until now.\x02",
-        )
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x8,
-        "#5PIs that so? I'm glad for you.\x02",
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x8,
-        (
-            "#5PI'll temporarily interrupt the Gnosis\x01",
-            "ingredients investigation, but...\x02",
+            "#12P#00003F...Thank you very much, Professor\x01",
+            "Seiland.\x02\x03",
+            "#00000FThanks to you, I feel we understand\x01",
+            "past events that were unclear up\x01",
+            "until now, to a certain degree.\x02",
         )
     )
 
@@ -1837,8 +1895,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PIf you figure out something again,\x01",
-            "don't hesitate to come visit me.\x02",
+            "#5PIs that so? Well good\x01",
+            "then.\x02",
         )
     )
 
@@ -1847,8 +1905,31 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PAfter all I'll at least give you an opinion,\x01",
-            "if you're fine for it to be from a doctor's perspective.\x02",
+            "#5PI'll temporarily suspend\x01",
+            "the Gnosis component\x01",
+            "analysis, but...\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x8,
+        (
+            "#5PIf you learn anything\x01",
+            "else, please feel free\x01",
+            "to visit.\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x8,
+        (
+            "#5PI'll at least be able to\x01",
+            "give you a doctor's\x01",
+            "opinion on the matter.\x02",
         )
     )
 
@@ -1862,11 +1943,11 @@ def main():
     IdleLoop()
     Return()
 
-    # Function_10_15A6 end
+    # Function_10_1362 end
 
-    def Function_11_3632(): pass
+    def Function_11_3207(): pass
 
-    label("Function_11_3632")
+    label("Function_11_3207")
 
     EventBegin(0x2)
     FadeToDark(300, 0, 100)
@@ -1878,8 +1959,8 @@ def main():
         -1,
         0,
         (
-            "[Exit the Research Laboratory Building]\x01",      # 0
-            "[Quit]\x01",                                       # 1
+            "[Exit the Research Building]\x01",      # 0
+            "[Cancel]\x01",                          # 1
         )
     )
 
@@ -1891,31 +1972,31 @@ def main():
     OP_0D()
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
-        (0, "loc_36A8"),
-        (1, "loc_36C1"),
-        (SWITCH_DEFAULT, "loc_36D9"),
+        (0, "loc_3274"),
+        (1, "loc_328D"),
+        (SWITCH_DEFAULT, "loc_32A5"),
     )
 
 
-    label("loc_36A8")
+    label("loc_3274")
 
     FadeToDark(1000, 0, -1)
     OP_0D()
     NewScene("t1600", 104, 0, 0)
     IdleLoop()
-    Jump("loc_36D9")
+    Jump("loc_32A5")
 
-    label("loc_36C1")
+    label("loc_328D")
 
     SetChrPos(0x0, 100500, 0, 50000, 90)
     EventEnd(0x5)
-    Jump("loc_36D9")
+    Jump("loc_32A5")
 
-    label("loc_36D9")
+    label("loc_32A5")
 
     Return()
 
-    # Function_11_3632 end
+    # Function_11_3207 end
 
     SaveToFile()
 

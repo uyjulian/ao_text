@@ -100,11 +100,12 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Afterwards, Lloyd and the others were\x01",
-            "guided to Sister Ries' private room...\x02\x03",
-            "They explained in general to her the\x01",
-            "story about the Azure Flowers and\x01",
-            "their arguing with the Archbishop.\x07\x00\x02",
+            "Afterwards, Lloyd and the\x01",
+            "others were shown to Sister\x01",
+            "Ries' room...\x02\x03",
+            "They told her about the\x01",
+            "flowers they picked and their\x01",
+            "arguments with the Archbishop.\x07\x00\x02",
         )
     )
 
@@ -120,9 +121,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04406F#11P──I see.\x02\x03",
-            "#04408FIndeed, being the Archbishop it can't be\x01",
-            "helped that he doesn't want to talk about them.\x02",
+            "#04406F#11P─I see.\x02\x03",
+            "#04408FIndeed. It's understandable\x01",
+            "that the Archbishop won't\x01",
+            "tell you about them.\x02",
         )
     )
 
@@ -145,15 +147,18 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00005F#12PHuh...!?\x02",
+        "#00005F#12PHuh!?\x02",
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x7C, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_9FD")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x7C, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_9B0")
 
     ChrTalk(
         0x104,
-        "#00305F#12PMiss Sister, do you know something!?\x02",
+        (
+            "#00305F#12PYou know something,\x01",
+            "Sister!?\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -163,9 +168,9 @@ def main():
         0x8,
         (
             "#04403F#5PBefore that...\x02\x03",
-            "#04402F...Miss Elie.\x01",
-            "It seems you haven't told\x01",
-            "them about my status yet...?\x02",
+            "#04402FElie. It seems you\x01",
+            "haven't told them about\x01",
+            "my position?\x02",
         )
     )
 
@@ -174,9 +179,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#11PNo, I haven't...\x01",
-            "I wondered about how to express\x01",
-            "that in a roundabout way...\x02",
+            "#00106F#11PThat's right... I was\x01",
+            "thinking of telling them\x01",
+            "indirectly.\x02",
         )
     )
 
@@ -184,21 +189,24 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04404F#5PUh uh...thank you.\x02",
+        "#04404F#5PHaha... Thank you.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#10105F#12PEhhm...\x02",
+        "#10105F#12PUmm...\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00201F#6PWhat could that status be...?\x02",
+        (
+            "#00201F#6PWhat could your position\x01",
+            "be?\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -207,13 +215,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04403F#5PIt appears it was already slightly\x01",
-            "sensed by the Archbishop, but...\x02\x03",
-            "I belong to a special organization\x01",
-            "among the Church.\x02\x03",
-            "#04400F──The "Gralsritter".\x01",
-            "It's an organization that collect Artifacts.\x01",
-            "It belongs to the Congregation for the Sacraments.\x02",
+            "#04403F#5PIt seems the Archbishop already has\x01",
+            "a vague idea, but...\x02\x03",
+            "I am a member of a special\x01",
+            "organization even within the Church.\x02\x03",
+            "#04400F─The "Gralsritter". An organization\x01",
+            "that collects artifacts, and part of\x01",
+            "the Congregation for the Sacraments.\x02",
         )
     )
 
@@ -234,7 +242,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#12PThe Gralsritter...!\x02",
+        "#00011F#12PThe Gralsritter!\x02",
     )
 
     CloseMessageWindow()
@@ -242,8 +250,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10111F#12PThey helped us at\x01",
-            "the Altair Lodge...!?\x02",
+            "#10111F#12PThey helped us at Altair\x01",
+            "Lodge!\x02",
         )
     )
 
@@ -253,14 +261,14 @@ def main():
         0x8,
         (
             "#04404F#5PKevin Graham, right?\x02\x03",
-            "#04402FSpeaking about him, I have the \x01",
-            "rank of "squire" and I support him.\x02\x03",
-            "#04406FOriginally, the plan was for\x01",
-            "him to come to Crossbell for\x01",
-            "various investigations, but...\x02\x03",
-            "#04400FBeing not very liked by the Archbishop,\x01",
-            "I was dispatched as intelligence\x01",
-            "gatherer instead of him.\x02",
+            "#04402FBy the way, I hold the rank of "squire" and\x01",
+            "support him.\x02\x03",
+            "#04406FOriginally, the plan was for Kevin himself\x01",
+            "to come to Crossbell for various\x01",
+            "investigations, but...\x02\x03",
+            "#04400FBecause of the watchful eyes of the\x01",
+            "Archbishop, I was dispatched as a temporary\x01",
+            "sister to gather intelligence instead.\x02",
         )
     )
 
@@ -275,7 +283,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00102F#11PIs that so...?\x02",
+        "#00102F#11PSo that's what it was...\x02",
     )
 
     CloseMessageWindow()
@@ -283,8 +291,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#12POr like, it seems that even the Church\x01",
-            "has got a variety of restraints.\x02",
+            "#00306F#12POr like, it seems the\x01",
+            "Church has its own\x01",
+            "various restraints.\x02",
         )
     )
 
@@ -293,35 +302,40 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04403F#5PYes, it's very embarrassing.\x02\x03",
-            "#04408F──Going back to the subject,\x01",
-            "the flowers you all picked up...\x02",
+            "#04403F#5PYes, although it's\x01",
+            "embarrassing to admit.\x02\x03",
+            "#04408F─Getting back to the\x01",
+            "subject, the flowers you\x01",
+            "all picked up...\x02",
         )
     )
 
     CloseMessageWindow()
     OP_93(0x8, 0x10E, 0x1F4)
     Sleep(300)
-    Jump("loc_A66")
+    Jump("loc_A09")
 
-    label("loc_9FD")
+    label("loc_9B0")
 
 
     ChrTalk(
         0x104,
-        "#00305F#12PDear Ries, do you know something!?\x02",
+        "#00305F#12PYou know them, Ries!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#04408F#11PYes, the flowers you all picked up...\x02",
+        (
+            "#04408F#11PYes, the flowers you all\x01",
+            "picked...\x02",
+        )
     )
 
     CloseMessageWindow()
 
-    label("loc_A66")
+    label("loc_A09")
 
     OP_CB(0x0, 0x3, 0xFFFFFFFF, 0x1F4, 0x0, 0x0)
     OP_CB(0x0, 0x0, 0x0, 0xFFFFD8F0, 0x1F4, 0x0)
@@ -332,10 +346,11 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#04403FIt's indeed highly likely they're those\x01",
-            "mentioned in a certain Testaments.\x02\x03",
-            "#04401FAlthough I should say they're not the official\x01",
-            "Testaments but the so called "Apocrypha".\x02",
+            "#04403FIndeed, it's likely they're the\x01",
+            "same flowers mentioned in a\x01",
+            "certain volume of the Testaments.\x02\x03",
+            "#04401FNot an official one, but rather\x01",
+            "one of the so-called "Apocrypha".\x02",
         )
     )
 
@@ -355,8 +370,9 @@ def main():
     AnonymousTalk(
         0x105,
         (
-            "#10301FIn other words, an alternative\x01",
-            "version not officially approved...?\x02",
+            "#10301FIn other words, a\x01",
+            "Testament that isn't\x01",
+            "recognized as official?\x02",
         )
     )
 
@@ -367,12 +383,15 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#04403FYes. Even in the Church, their reading\x01",
-            "is allowed only to limited individuals.\x02\x03",
-            "#04400FHowever, the reading of those Apocrypha is\x01",
-            "allowed to those belonging to the "Gralsritter".\x02\x03",
-            "After all, they record the existence\x01",
-            "of many dangerous Artifacts.\x02",
+            "#04403FYes. Even within the\x01",
+            "Church, only a select few\x01",
+            "are permitted to read them.\x02\x03",
+            "#04400FHowever, members of the\x01",
+            ""Gralsritter" are allowed\x01",
+            "to read them.\x02\x03",
+            "After all, the existence of\x01",
+            "many dangerous artifacts is\x01",
+            "recorded therein.\x02",
         )
     )
 
@@ -382,7 +401,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00005FI understand...\x02",
+        "#00005FI see...\x02",
     )
 
     CloseMessageWindow()
@@ -396,8 +415,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00101F#11PThen, these Azure Flowers...\x01",
-            "Where're they mentioned...?\x02",
+            "#00101F#11PThen, what is written\x01",
+            "about these azure\x01",
+            "flowers?\x02",
         )
     )
 
@@ -406,12 +426,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04403F#11PIn the "Book of Rader", one of the Apocrypha, \x01",
-            "there's the depiction of Azure Flowers.\x02\x03",
-            "#04408FThey bloom right above Septium veins,\x01",
-            "mysterious flowers that brings both\x01",
-            "good and ill omens...\x02\x03",
-            "#04401FTheir name is also recorded: "Pleroma Grass".\x02",
+            "#04403F#11PThey're described in "The Book\x01",
+            "of Rader", one of the apocrypha.\x02\x03",
+            "#04408FBlooming atop septium veins,\x01",
+            "they are mysterious flowers seen\x01",
+            "as both good and bad omens.\x02\x03",
+            "#04401FTheir name is also recorded:\x01",
+            ""Pleroma Grass".\x02",
         )
     )
 
@@ -431,7 +452,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#4S#12PWHA...!?\x02",
+        "#00007F#4S#12PWha...!?\x02",
     )
 
     CloseMessageWindow()
@@ -458,8 +479,9 @@ def main():
     AnonymousTalk(
         0x105,
         (
-            "#10305FIsn't that the name left in the "Cult" terminals,\x01",
-            "the name of the plant used as Gnosis ingredient?\x02",
+            "#10305FIsn't that the name of the plant\x01",
+            "used as a Gnosis ingredient left\x01",
+            "behind in the "Cult's" terminals?\x02",
         )
     )
 
@@ -479,8 +501,9 @@ def main():
     AnonymousTalk(
         0x104,
         (
-            "#00301FTo think we'd hear than\x01",
-            "name in such a place...\x02",
+            "#00301FTo think we'd hear that\x01",
+            "name in a place like\x01",
+            "this...\x02",
         )
     )
 
@@ -496,11 +519,12 @@ def main():
         0x8,
         (
             "#04403F#5P...I understand, so that's what happened.\x02\x03",
-            "#04401FThe mysteries left behind by that Cult haven't \x01",
-            "almost been explained by the Church too.\x02\x03",
-            "There're also Archbishop Eralda's ideas,\x01",
-            "and so even the incident Joachim Gｸnther\x01",
-            "has cause hasn't been quite researched...\x02",
+            "#04401FVery few of the mysteries left behind by\x01",
+            "that cult have been explained by the\x01",
+            "Church.\x02\x03",
+            "Archbishop Eralda has his ideas, but\x01",
+            "there's been very little investigation into\x01",
+            "the incident Joachim Gｸnther caused...\x02",
         )
     )
 
@@ -510,11 +534,12 @@ def main():
         0x109,
         (
             "#10111F#12PP-Please, wait a moment.\x02\x03",
-            "#10106FIf those flowers are really\x01",
-            "the ingredient of that\x01",
-            "drug called Gnosis...\x02\x03",
-            "#10101FWell, what meaning could it have\x01",
-            "that's been spotted in all places...?\x02",
+            "#10106FIf those flowers really\x01",
+            "were an ingredient of that\x01",
+            "Gnosis drug...\x02\x03",
+            "#10101FWell, what meaning could it\x01",
+            "have that we found it in\x01",
+            "all those different places?\x02",
         )
     )
 
@@ -523,8 +548,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F#11PY-You have a point...\x01",
-            "I'm also worried about the "Cryptids" showing up.\x02",
+            "#00108F#11PT-That's right... I'm\x01",
+            "also worried about\x01",
+            "Cryptids showing up.\x02",
         )
     )
 
@@ -533,9 +559,11 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#6PFlowers that bloom right above Septium veins...\x02\x03",
-            "#00201FFurthermore, flowers that bring\x01",
-            "both good and ill omens...\x02",
+            "#00203F#6PFlowers that bloom atop\x01",
+            "septium veins...\x02\x03",
+            "#00201FFurthermore, they bring\x01",
+            "both good and ill\x01",
+            "omens...\x02",
         )
     )
 
@@ -543,7 +571,10 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F#12PYeah, quite the bad coincidence.\x02",
+        (
+            "#00306F#12PYeah, quite the bad\x01",
+            "coincidence.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -554,13 +585,15 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#11P──In any case, it doesn't seem a\x01",
-            "matter that we alone can deal with.\x02\x03",
-            "Let's return to the Support Section for now and\x01",
-            "try to put together a detailed written report.\x02\x03",
-            "#00001FMiss Ries.\x01",
-            "Can we convey what you told us\x01",
-            "to the CGF and the Guild too?\x02",
+            "#00003F#11P─Anyhow, this doesn't seem\x01",
+            "like a problem we can deal\x01",
+            "with alone.\x02\x03",
+            "Let's return to the Support\x01",
+            "Section for now and try to put\x01",
+            "together a detailed report.\x02\x03",
+            "#00001FRies. Can we convey what you\x01",
+            "told us to the CGF and guild\x01",
+            "as well?\x02",
         )
     )
 
@@ -570,8 +603,9 @@ def main():
         0x8,
         (
             "#04403F#5PLet's see...\x02\x03",
-            "#04400FIf you can do me the favor to\x01",
-            "not mention my name at all...\x02",
+            "#04400FIf you can do me the\x01",
+            "favor of not mentioning\x01",
+            "my name at all...\x02",
         )
     )
 
@@ -580,8 +614,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10302F#12PHu hu, for the Archbishop\x01",
-            "you'll be like a spy.\x02",
+            "#10302F#12PHehe. To the Archbishop,\x01",
+            "you're like a spy.\x02",
         )
     )
 
@@ -590,8 +624,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100F#11POf course, we'll be considerate\x01",
-            "about that as much as possible.\x02",
+            "#00100F#11POf course, we'll be as\x01",
+            "careful as we can be.\x02",
         )
     )
 
@@ -600,11 +634,14 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#04404F#5PThen, I have no problem with that.\x02\x03",
-            "#04402FAfter I contact the Gralsritter, I too\x01",
-            "intend to join the investigation.\x02\x03",
-            "What do you say if we exchange information\x01",
-            "with each other if there're any progresses?\x02",
+            "#04404F#5PIn that case there's no\x01",
+            "problem.\x02\x03",
+            "#04402FAfter I contact the\x01",
+            "Gralsritter, I intend to join\x01",
+            "the investigation as well.\x02\x03",
+            "Why don't we exchange\x01",
+            "information if there's any\x01",
+            "progress?\x02",
         )
     )
 
@@ -612,14 +649,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#12PYes, gladly.\x02",
+        "#00002F#12PYes, we'd be happy to.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x103,
-        "#00202F#6PThank you very much.\x02",
+        "#00202F#6PWe're counting on you.\x02",
     )
 
     CloseMessageWindow()
@@ -633,14 +670,14 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Afterwards, Lloyd and the other returned to the SSS.\x01",
-            "They urgently put together a detailed written report \x01",
-            "about Cryptids and the Azure Flowers──"Pleroma Grass".\x02\x03",
-            "After sending the report through the orbal net\x01",
-            "to the CGF Commander and the Guild reception...\x02\x03",
-            "Being tired for having gone around all places, after having\x01",
-            "had a late dinner with the Chief and KeA, they went back to\x01",
-            "their rooms and decided to rest early.\x07\x00\x02",
+            "Afterwards, Lloyd and the others returned to the Support\x01",
+            "Section and hurriedly put together a report about the\x01",
+            "Cryptids and azure flowers─ the Pleroma Grass.\x02\x03",
+            "After sending the report through the orbal net to the\x01",
+            "CGF commander and guild reception desk...\x02\x03",
+            "Tired from having gone all over the state, after a late\x01",
+            "dinner with Chief and KeA, they returned to their rooms\x01",
+            "and decided to rest early that night.\x07\x00\x02",
         )
     )
 

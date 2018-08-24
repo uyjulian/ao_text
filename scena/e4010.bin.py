@@ -90,11 +90,11 @@ def main():
     Sound(103, 0, 100, 0)
     Sleep(500)
     SetMessageWindowPos(-1, -1, -1, -1)
-    SetChrName("Young Man's Voice")
+    SetChrName("Youth's Voice")
 
     AnonymousTalk(
         0xFF,
-        "──Are you still awake?\x02",
+        "─So you're still awake.\x02",
     )
 
     CloseMessageWindow()
@@ -113,26 +113,26 @@ def main():
     MoveCamera(315, 21, 0, 8000)
     SetCameraDistance(18500, 8000)
 
-    def lambda_2DF():
+    def lambda_2DB():
         OP_95(0xFE, -4000, 0, -3000, 1800, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x9, 1, lambda_2DF)
+    QueueWorkItem(0x9, 1, lambda_2DB)
 
-    def lambda_2F9():
+    def lambda_2F5():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x9, 2, lambda_2F9)
+    QueueWorkItem(0x9, 2, lambda_2F5)
     Sleep(1000)
     OP_CB(0x0, 0x3, 0xFFFFFFFF, 0x320, 0x0, 0x0)
     WaitChrThread(0x9, 1)
 
-    def lambda_324():
+    def lambda_320():
         OP_95(0xFE, 0, 0, 4300, 1800, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x9, 1, lambda_324)
+    QueueWorkItem(0x9, 1, lambda_320)
     Sound(104, 0, 100, 0)
     OP_71(0x3, 0x5, 0x0, 0x0, 0x0)
     Sleep(3500)
@@ -150,8 +150,8 @@ def main():
     AnonymousTalk(
         0x9,
         (
-            "We depart early, tomorrow.\x01",
-            "What about sleeping already?\x02",
+            "We're leaving early tomorrow. How\x01",
+            "about getting to sleep already?\x02",
         )
     )
 
@@ -167,9 +167,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07208F#30WAh...yes...\x02\x03",
-            "#07203FI just want look over\x01",
-            "these reports for now.\x02",
+            "#11P#07208F#30WOh, right...\x02\x03",
+            "#07203FI just want to briefly\x01",
+            "look over these reports.\x02",
         )
     )
 
@@ -178,9 +178,11 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07303FThe military academy...?\x02\x03",
-            "#07302FI would've never thought you'd devoted\x01",
-            "yourself to your duties this seriously.\x02",
+            "#6P#07303FThe military academy,\x01",
+            "huh...\x02\x03",
+            "#07302FTo think you'd make such\x01",
+            "a serious effort towards\x01",
+            "your duties.\x02",
         )
     )
 
@@ -189,10 +191,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07204FUh uh, after all I'm on the board of\x01",
-            "directors, although in name only.\x02\x03",
-            "#07200FThose kids seem to be doing their best,\x01",
-            "so I must do at least this much.\x02",
+            "#11P#07204FHaha. In the end, I'm only a\x01",
+            "member of the board of\x01",
+            "directors on paper, though.\x02\x03",
+            "#07200FIt looks like those kids are\x01",
+            "trying their hardest. I owe\x01",
+            "them at least this much.\x02",
         )
     )
 
@@ -201,11 +205,13 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07304FHmph...oh, well.\x02\x03",
-            "#07300F──At any rate, about that matter,\x01",
-            "it appears it's true.\x02\x03",
-            "It seems Duke Cayenne's subordinate\x01",
-            "is taking measures in secret.\x02",
+            "#6P#07304FHmph... Well fine, then.\x02\x03",
+            "#07300F─However, about that\x01",
+            "matter, it seems it's\x01",
+            "true.\x02\x03",
+            "Duke Cayenne's\x01",
+            "subordinates are acting\x01",
+            "in secret.\x02",
         )
     )
 
@@ -214,9 +220,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07206FHim, eh...?\x01",
-            "I didn't think it was that kind of man, though.\x02\x03",
-            "#07200FDo you know the scale of his plan?\x02",
+            "#11P#07206FHim, huh? I wondered\x01",
+            "whether he was that kind\x01",
+            "of man.\x02\x03",
+            "#07200FDo we know what he's\x01",
+            "planning?\x02",
         )
     )
 
@@ -225,9 +233,10 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07303FNo, that's still unknown.\x02\x03",
-            "#07300FThe intelligence division seem to have\x01",
-            "failed to catch on that regard.\x02",
+            "#6P#07303FNo, that's still unclear.\x02\x03",
+            "#07300FIt seems the intelligence\x01",
+            "division failed to learn\x01",
+            "it as well.\x02",
         )
     )
 
@@ -236,10 +245,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07209FAhaha, although he reaps what he sows,\x01",
-            "this is a disaster for the Chancellor too.\x02\x03",
-            "#07202FUh uh, could they be planning to,\x01",
-            "unexpectedly, include me as a target too?\x02",
+            "#11P#07209FAhaha. Though he got what he\x01",
+            "deserves, this is a disaster\x01",
+            "for the chancellor, too.\x02\x03",
+            "#07202FHaha, could he be planning\x01",
+            "on targeting me, as well?\x02",
         )
     )
 
@@ -248,10 +258,13 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07306F...That's no laughing matter, you know.\x02\x03",
-            "#07301FAs expected, wouldn't it be better to increase\x01",
-            "the 7th Division personnel numbers?\x02\x03",
-            "It should be still possible to include some more.\x02",
+            "#6P#07306FThat's no laughing\x01",
+            "matter.\x02\x03",
+            "#07301FShould we reinforce the\x01",
+            "escort with personnel\x01",
+            "from the 7th Division?\x02\x03",
+            "It's still possible to\x01",
+            "include a few more.\x02",
         )
     )
 
@@ -260,11 +273,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07204FNo, it won't be necessary.\x02\x03",
-            "Chancellor aside, if someone like\x01",
-            "me did something like that, it would\x01",
-            "ruin the image I created of myself.\x02\x03",
-            "#07202FAlso──\x02",
+            "#11P#07204FNo, that won't be\x01",
+            "necessary.\x02\x03",
+            "Unlike the chancellor,\x01",
+            "it'd ruin my image if I\x01",
+            "did something like that.\x02\x03",
+            "#07202FAlso─\x02",
         )
     )
 
@@ -287,9 +301,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07209FI have you㈱\x02\x03",
-            "#07212FIf you protected me between your arms, \x01",
-            "that would be more than enough!\x02",
+            "#11P#07209FI have you!㈱\x02\x03",
+            "#07212FIf you held me in your arms\x01",
+            "and protected me, that\x01",
+            "alone would be enough!\x02",
         )
     )
 
@@ -302,7 +317,10 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11P#07303F──Well then, I'll go to sleep early too.\x02",
+        (
+            "#11P#07303F─Well then, I'm going to\x01",
+            "bed early, too.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -320,10 +338,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07206FSorry, I got carried away.\x02\x03",
-            "#07200FIn any case, I'd like to talk to the \x01",
-            "crown princess during tomorrow.\x02\x03",
-            "How are the arrangements?\x02",
+            "#11P#07206FSorry, I got carried\x01",
+            "away.\x02\x03",
+            "#07200FIn any case, I'd like to\x01",
+            "talk to the princess\x01",
+            "tomorrow.\x02\x03",
+            "How are those\x01",
+            "arrangements going?\x02",
         )
     )
 
@@ -333,9 +354,11 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07304FYes, I have contacted the Captain.\x02\x03",
-            "#07302FIt's going to be after tomorrow's \x01",
-            "luncheon meeting, towards evening.\x02",
+            "#6P#07304FI received word from the\x01",
+            "captain.\x02\x03",
+            "#07302FIt'll be tomorrow after\x01",
+            "the luncheon, towards\x01",
+            "evening.\x02",
         )
     )
 
@@ -344,12 +367,14 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07202FI see...\x01",
-            "Hu hu, I guess it's been a year?\x02\x03",
-            "#07206FIf Estelle and the others were there,\x01",
-            "we could've held a reunion, eh?\x02\x03",
-            "#07208FSince Schera seems to be busy, it appears\x01",
-            "she has no time for a business trip...\x02",
+            "#11P#07202FI see. Haha, so it's\x01",
+            "been a whole year.\x02\x03",
+            "#07206FExcluding Estelle and\x01",
+            "the others, I guess it's\x01",
+            "a class reunion.\x02\x03",
+            "#07208FSchera's busy too. It\x01",
+            "seems she doesn't have\x01",
+            "time for a trip abroad.\x02",
         )
     )
 
@@ -365,14 +390,15 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#07204FWell, I'll allow myself to enjoy\x01",
-            "the most advanced urban\x01",
-            "resort at the utmost.\x02\x03",
-            "#07212FOh, don't worry, because I've got no \x01",
-            "intention of getting in the way of\x01",
-            "your rendezvous with the Captain㈱\x02\x03",
-            "#07209FIf you wish, what about going on\x01",
-            "a date at the rumored theme park?\x02",
+            "#11P#07204FWell, I suppose I'll have to\x01",
+            "be satisfied with the world's\x01",
+            "leading urban resort.\x02\x03",
+            "#07212FAh, I don't intend to\x01",
+            "interrupt the date between you\x01",
+            "and the captain, so rest easy㈱\x02\x03",
+            "#07209FIf you like, how about going\x01",
+            "to a certain theme park for\x01",
+            "that date?\x02",
         )
     )
 
@@ -381,11 +407,14 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07306F──It's none of your business, idiot.\x02\x03",
-            "#07303FStill, it seems to me that you're spouting \x01",
-            "more stupid nonsense than usual.\x02\x03",
-            "#07301F...It's not that you're thinking\x01",
-            "to do something bad, are you?\x02",
+            "#6P#07306F─That's none of your\x01",
+            "business, idiot.\x02\x03",
+            "#07303FBut, it seems you're\x01",
+            "spouting more stupid\x01",
+            "nonsense than usual.\x02\x03",
+            "#07301FYou wouldn't be thinking\x01",
+            "of doing anything bad,\x01",
+            "would you?\x02",
         )
     )
 
@@ -395,8 +424,8 @@ def main():
         0x8,
         (
             "#11P#07211F*gulp*...\x02\x03",
-            "#07209FHa ha ha, come'ooon.\x01",
-            "Of course it's not that.\x02",
+            "#07209FHahaha, come'ooon. I\x01",
+            "wouldn't dream of it.\x02",
         )
     )
 
@@ -405,8 +434,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6P#07308F(...Should I put him a rope\x01",
-            "around the neck tomorrow?)\x02",
+            "#6P#07308F(I think I'll put a rope\x01",
+            "around his neck\x01",
+            "tomorrow.)\x02",
         )
     )
 
@@ -423,15 +453,14 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "──Well, this is probably going\x01",
-            "to be my last foreign travel.\x02\x03",
-            "Continuing to sound out what\x01",
-            "the Chancellor is trying to do...\x02\x03",
-            "Probing his movements across\x01",
-            "the entire continent...\x02\x03",
-            "I'm causing a lot of troubles to\x01",
-            "you as usual, but I'm counting\x01",
-            "on your support── my best friend.\x02",
+            "─Well, this'll probably be my last\x01",
+            "trip abroad.\x02\x03",
+            "Looking into those after the\x01",
+            "chancellor's life, probing\x01",
+            "developments across the\x02\x03",
+            "continent...\x02\x03",
+            "I know I'm a pain as usual, but I\x01",
+            "am counting you─ friend.\x02",
         )
     )
 
@@ -446,7 +475,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#6P#07304FHmph, that goes without saying.\x02",
+        "#6P#07304FHmph, of course.\x02",
     )
 
     CloseMessageWindow()

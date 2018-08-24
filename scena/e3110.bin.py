@@ -36,7 +36,7 @@ def main():
         "Function_0_F8",           # 00, 0
         "Function_1_108",          # 01, 1
         "Function_2_109",          # 02, 2
-        "Function_3_4CE",          # 03, 3
+        "Function_3_483",          # 03, 3
     ))
 
 
@@ -87,89 +87,93 @@ def main():
     BeginChrThread(0x101, 3, 0, 3)
     Sleep(8000)
     OP_0D()
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x147, 2)), scpexpr(EXPR_END)), "loc_271")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x147, 2)), scpexpr(EXPR_END)), "loc_26C")
     SetMessageWindowPos(40, 230, -1, -1)
 
     AnonymousTalk(
         0x102,
         (
             "#00102FBeautiful...\x02\x03",
-            "If I remember correctly, they fire\x01",
-            "them up every night at Michelam.\x02",
+            "If I remember correctly,\x01",
+            "they do this every night\x01",
+            "at Michelam.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    Jump("loc_464")
+    Jump("loc_425")
 
-    label("loc_271")
+    label("loc_26C")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x147, 3)), scpexpr(EXPR_END)), "loc_2F0")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x147, 3)), scpexpr(EXPR_END)), "loc_2DD")
     SetMessageWindowPos(40, 230, -1, -1)
 
     AnonymousTalk(
         0x103,
         (
-            "#00202F...They are beautiful.\x02\x03",
-            "If I remember correctly, they fire\x01",
-            "them up every night at Michelam.\x02",
+            "#00202F...Beautiful.\x02\x03",
+            "If I remember correctly,\x01",
+            "they do this every night\x01",
+            "at Michelam.\x02",
         )
     )
 
     CloseMessageWindow()
-    Jump("loc_464")
+    Jump("loc_425")
 
-    label("loc_2F0")
+    label("loc_2DD")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x147, 4)), scpexpr(EXPR_END)), "loc_36B")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x147, 4)), scpexpr(EXPR_END)), "loc_34A")
     SetMessageWindowPos(40, 230, -1, -1)
 
     AnonymousTalk(
         0x104,
         (
-            "#00309FHa ha, "bravooo"...that's it, right?\x02\x03",
-            "They fire 'em up every\x01",
-            "night at Michelam, huh?\x02",
+            "#00309FHaha. "Woohoo!", I\x01",
+            "guess.\x02\x03",
+            "They do this every night\x01",
+            "at Michelam, yeah?\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    Jump("loc_464")
+    Jump("loc_425")
 
-    label("loc_36B")
+    label("loc_34A")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x147, 5)), scpexpr(EXPR_END)), "loc_3F0")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x147, 5)), scpexpr(EXPR_END)), "loc_3C5")
     SetMessageWindowPos(40, 230, -1, -1)
 
     AnonymousTalk(
         0x109,
         (
-            "#10102FEh eh, they're beautiful.\x02\x03",
-            "If I remember correctly, they fire\x01",
-            "them up every night at Michelam.\x02",
+            "#10102FHaha, how beautiful.\x02\x03",
+            "If I remember correctly,\x01",
+            "they do this every night\x01",
+            "at Michelam.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_57(0x0)
     OP_5A()
-    Jump("loc_464")
+    Jump("loc_425")
 
-    label("loc_3F0")
+    label("loc_3C5")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x147, 6)), scpexpr(EXPR_END)), "loc_464")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x147, 6)), scpexpr(EXPR_END)), "loc_425")
     SetMessageWindowPos(40, 230, -1, -1)
 
     AnonymousTalk(
         0x105,
         (
-            "#10302FHu hu, quite splendid.\x02\x03",
-            "It's a spectacle you can see\x01",
-            "here every night, am I right?\x02",
+            "#10302FHehe, splendid.\x02\x03",
+            "You can this every night\x01",
+            "at Michelam, though.\x02",
         )
     )
 
@@ -177,15 +181,15 @@ def main():
     OP_57(0x0)
     OP_5A()
 
-    label("loc_464")
+    label("loc_425")
 
     SetMessageWindowPos(280, 230, -1, -1)
 
     AnonymousTalk(
         0x101,
         (
-            "#00002FHa ha, we could see them\x01",
-            "with a nice timing, eh?\x02",
+            "#00002FHaha. I guess we had\x01",
+            "perfect timing.\x02",
         )
     )
 
@@ -202,11 +206,11 @@ def main():
 
     # Function_2_109 end
 
-    def Function_3_4CE(): pass
+    def Function_3_483(): pass
 
-    label("Function_3_4CE")
+    label("Function_3_483")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_64F")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_604")
     Sleep(300)
     Sound(447, 0, 100, 0)
     Sleep(700)
@@ -224,13 +228,13 @@ def main():
     Sleep(1500)
     PlayEffect(0x4, 0x4, 0xFF, 0x0, 0, 18000, 0, 0, 0, 0, 1000, 1000, 1000, 0xFF, 0, 0, 0, 0)
     Sleep(500)
-    Jump("Function_3_4CE")
+    Jump("Function_3_483")
 
-    label("loc_64F")
+    label("loc_604")
 
     Return()
 
-    # Function_3_4CE end
+    # Function_3_483 end
 
     SaveToFile()
 

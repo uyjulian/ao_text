@@ -49,8 +49,8 @@ def main():
         "Function_7_1276",         # 07, 7
         "Function_8_176E",         # 08, 8
         "Function_9_17CA",         # 09, 9
-        "Function_10_254C",        # 0A, 10
-        "Function_11_2571",        # 0B, 11
+        "Function_10_2542",        # 0A, 10
+        "Function_11_2567",        # 0B, 11
     ))
 
 
@@ -852,7 +852,10 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5PTsk...they know their shit.\x02",
+        (
+            "#5PTch... They know their\x01",
+            "shit.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -860,8 +863,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5PAnd we were planning to catching them with the\x01",
-            "anchor and bring this to hand-to-hand combat...\x02",
+            "#5PAnd we were planning to catch\x01",
+            "them with the anchor and take\x01",
+            "it to hand-to-hand combat...\x02",
         )
     )
 
@@ -870,8 +874,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PIt just means that our proficiency\x01",
-            "at air battles is still lacking.\x02",
+            "#11PIt just means that our\x01",
+            "proficiency at air\x01",
+            "battles is still lacking.\x02",
         )
     )
 
@@ -880,8 +885,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11PWell, we should just leave the rest\x01",
-            "to Master Sigmund and the young lady.\x02",
+            "#11PWell, we should just leave\x01",
+            "the rest to Master Sigmund\x01",
+            "and the young lady.\x02",
         )
     )
 
@@ -890,8 +896,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5PHeh...\x01",
-            "I envy the missus and the vice leader.\x02",
+            "#5PHeh... I envy the missus\x01",
+            "and the vice leader.\x02",
         )
     )
 
@@ -900,8 +906,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5PThey can fight at their hearts' content\x01",
-            "in that kind of amazing-looking place.\x02",
+            "#5PThey get to fight to their\x01",
+            "hearts' content in that\x01",
+            "amazing-looking place.\x02",
         )
     )
 
@@ -920,24 +927,24 @@ def main():
 
     # Function_9_17CA end
 
-    def Function_10_254C(): pass
+    def Function_10_2542(): pass
 
-    label("Function_10_254C")
+    label("Function_10_2542")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_2570")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_2566")
     OP_82(0x2, 0x2, 0xBB8, 0x1388)
     Sleep(5000)
-    Jump("Function_10_254C")
+    Jump("Function_10_2542")
 
-    label("loc_2570")
+    label("loc_2566")
 
     Return()
 
-    # Function_10_254C end
+    # Function_10_2542 end
 
-    def Function_11_2571(): pass
+    def Function_11_2567(): pass
 
-    label("Function_11_2571")
+    label("Function_11_2567")
 
     Sound(833, 0, 100, 0)
     Sleep(100)
@@ -959,7 +966,7 @@ def main():
     Sound(598, 0, 70, 0)
     Return()
 
-    # Function_11_2571 end
+    # Function_11_2567 end
 
     SaveToFile()
 

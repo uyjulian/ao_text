@@ -210,14 +210,17 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Before long, Lloyd and the others all\x01",
-            "gathered at the guest house "banquet hall".\x02\x03",
-            "Shortly thereafter, Mayor Dieter and\x01",
-            "her daughter Mariabell arrived too.\x02\x03",
-            "Then, with the greetings of\x01",
-            "Mayor Dieter who had arrived late...\x02\x03",
+            "And so, Lloyd and the others\x01",
+            "gathered at the guest house\x01",
+            "Banquet Hall...\x02\x03",
+            "Shortly thereafter, Mayor\x01",
+            "Dieter and his daughter\x01",
+            "Mariabell arrived.\x02\x03",
+            "Then, after Mayor Dieter\x01",
+            "greeted everyone and apologized\x01",
+            "for his late arrival...\x02\x03",
             "A wonderful though comfortable\x01",
-            "dinner party started.\x07\x00\x02",
+            "dinner party began.\x07\x00\x02",
         )
     )
 
@@ -240,10 +243,10 @@ def main():
     AnonymousTalk(
         0xF,
         (
-            "My my, I'm really sorry\x01",
-            "for having arrived late.\x02\x03",
-            "It's unforgivable that who has\x01",
-            "invited you arrives late.\x02",
+            "No, no, I really am sorry for being\x01",
+            "late.\x02\x03",
+            "For the host to be late is simply\x01",
+            "inexcusable.\x02",
         )
     )
 
@@ -259,8 +262,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#6PNo, we know very well that\x01",
-            "you're busy, Mayor Dieter.\x02",
+            "#00004F#6PWe know how busy you\x01",
+            "are, Mr. Mayor.\x02",
         )
     )
 
@@ -268,7 +271,10 @@ def main():
 
     ChrTalk(
         0x11,
-        "#00202F#6PThank you for all you do.\x02",
+        (
+            "#00202F#6PThank you for all that\x01",
+            "you do.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -276,8 +282,9 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#02904F#11PWell, in case of my father the fact that he's\x01",
-            "busy is the consequence of what he sows.\x02",
+            "#02904F#11PWell in my father's\x01",
+            "case, being busy is his\x01",
+            "own choice.\x02",
         )
     )
 
@@ -286,8 +293,8 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#02809F#5PHah hah hah.\x01",
-            "Well, it's as you say.\x02",
+            "#02809F#5PHah hah hah. Well, it is\x01",
+            "as you say.\x02",
         )
     )
 
@@ -303,10 +310,12 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#01703F#11PDue to only practicing and performing\x01",
-            "I don't know the details well, but...\x02\x03",
-            "#01700FIt seems you did another \x01",
-            "quite drastic proposal?\x02",
+            "#01703F#11PI've been practicing and\x01",
+            "performing so I don't\x01",
+            "know the details, but...\x02\x03",
+            "#01700FIt seems you made\x01",
+            "another drastic\x01",
+            "proposal?\x02",
         )
     )
 
@@ -315,13 +324,13 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#02804F#5PHa ha, actually that was an idea I thought\x01",
-            "of since my assumption of office.\x02\x03",
-            "The truth is that I didn't intend\x01",
-            "to use it at that point, but...\x01",
+            "#02804F#5PHaha. Actually, it's an idea I've\x01",
+            "been thinking about ever since I\x01",
+            "took office.\x02\x03",
+            "Truth is, I didn't intend to\x01",
+            "reveal it with this timing, but...\x01",
             "I couldn't stand it anymore.\x02\x03",
-            "#02800FAnd so, I resolutely\x01",
-            "cast the die.\x02",
+            "#02800FAnd so, I resolutely cast the die.\x02",
         )
     )
 
@@ -330,9 +339,10 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#01704F#11PHu hu, I see.\x02\x03",
-            "#01702FSo you have to keep dancing until the end\x01",
-            "on the stage with the curtain risen...\x02",
+            "#01704F#11PHuhu, I see.\x02\x03",
+            "#01702FAnd now that the curtain has\x01",
+            "risen, you have to keep dancing\x01",
+            "onstage until the end...\x02",
         )
     )
 
@@ -342,15 +352,15 @@ def main():
         0xF,
         (
             "#02803F#5PPrecisely.\x02\x03",
-            "#02800FI heard that Arc-en-ciel is\x01",
-            "undertaking a renewal of\x01",
-            ""Golden Sun, Silver Moon"...\x02\x03",
-            "Actually, I decided to carry out the\x01",
-            "local referendum to question the state\x01",
-            "independence proposal on the following\x01",
-            "week of your first performance.\x02\x03",
-            "#02804FSo, thinking it was fate,\x01",
-            "I allowed myself to invite you.\x02",
+            "#02800FI heard that Arc-en-Ciel is\x01",
+            "undertaking a renewal of "Golden\x01",
+            "Sun, Silver Moon"...\x02\x03",
+            "Actually, it has been decided that\x01",
+            "the referendum on the question of\x01",
+            "state independence will be held the\x01",
+            "week after its first performance.\x02\x03",
+            "#02804FSo, thinking it was fate, I invited\x01",
+            "you.\x02",
         )
     )
 
@@ -366,8 +376,9 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#01709F#11PHu hu, thanks to you,\x01",
-            "we could spend a fun break.\x02",
+            "#01709F#11PHuhu. Thanks to you, we\x01",
+            "got to enjoy a nice\x01",
+            "holiday.\x02",
         )
     )
 
@@ -382,7 +393,7 @@ def main():
 
     ChrTalk(
         0xD,
-        "#04203F#11P...Thank you.\x02",
+        "#04203F#11P...Thanks.\x02",
     )
 
     CloseMessageWindow()
@@ -390,8 +401,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#05902F#11PUh uh, since I am an outsider, maybe\x01",
-            "it is not appropriate to be here...\x02",
+            "#05902F#11PHaha. Since I'm an outsider,\x01",
+            "maybe it's not appropriate\x01",
+            "for me to be here...\x02",
         )
     )
 
@@ -401,10 +413,11 @@ def main():
         0xF,
         (
             "#02805F#5PNo no, not at all.\x02\x03",
-            "#02800FYou're someone related to St. Ursula Hospital\x01",
-            "and I always hear rumors about you.\x02\x03",
-            "Like you're a hard worker said to be\x01",
-            "Saint Ursula's second coming and so on...\x02\x03",
+            "#02800FI hear rumors about you constantly\x01",
+            "from the St. Ursula Hospital staff.\x02\x03",
+            "I'm told you're such a hard worker\x01",
+            "that you could be the second coming\x01",
+            "of St. Ursula herself and such.\x02\x03",
             "#02809FIt's an honor to meet you.\x02",
         )
     )
@@ -414,9 +427,10 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#05905F#11PA-As you might expect,\x01",
-            "I think that is an exaggeration...\x02\x03",
-            "#05904FBut I am honored to be told that.\x02",
+            "#05905F#11PThat's obviously an\x01",
+            "exaggeration, but...\x02\x03",
+            "#05904FBut I am honored you\x01",
+            "would say that.\x02",
         )
     )
 
@@ -425,11 +439,11 @@ def main():
     ChrTalk(
         0xE,
         (
-            "#02906F#11POh, father.\x01",
-            "Since before you did nothing but\x01",
-            "singing the praise of the young women...\x02\x03",
-            "#02900FWhat about praising Lloyd\x01",
-            "and the others a little too?\x02",
+            "#02906F#11POh, father. You've been doing\x01",
+            "nothing but singing the praises\x01",
+            "of the young women here...\x02\x03",
+            "#02900FHow about a little praise for\x01",
+            "Lloyd and the others as well?\x02",
         )
     )
 
@@ -439,8 +453,9 @@ def main():
         0xF,
         (
             "#02805F#5POh, my apologies.\x02\x03",
-            "#02809FDear me, it seems that I was elated despite\x01",
-            "my age due to all the beautiful young ladies.\x02",
+            "#02809FPardon me. It seems I got more carried\x01",
+            "away than a man of my age should because\x01",
+            "of all these beautiful young ladies.\x02",
         )
     )
 
@@ -448,7 +463,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00012F#6PHa ha...\x02",
+        "#00012F#6PHaha...\x02",
     )
 
     CloseMessageWindow()
@@ -456,7 +471,7 @@ def main():
     ChrTalk(
         0x12,
         (
-            "#00309F#6PWell, I'm really happy\x01",
+            "#00309F#6PWell, I'm really glad\x01",
             "you invited us.\x02",
         )
     )
@@ -466,8 +481,8 @@ def main():
     ChrTalk(
         0x14,
         (
-            "#10304F#6P#NRight.\x01",
-            "It was a good change of pace.\x02",
+            "#10304F#6P#NRight. It made a good\x01",
+            "change of pace.\x02",
         )
     )
 
@@ -477,7 +492,10 @@ def main():
 
     ChrTalk(
         0x13,
-        "#10109F#11PMayor, thank you very much.\x02",
+        (
+            "#10109F#11PMr. Mayor, thank you\x01",
+            "very much.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -498,7 +516,10 @@ def main():
 
     ChrTalk(
         0xF,
-        "#02804F#5PHa ha, I'm glad to hear that.\x02",
+        (
+            "#02804F#5PHaha, I'm glad to hear\x01",
+            "that.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -509,17 +530,20 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#02803F#5P──I'm sorry to bring it up again,\x01",
-            "but that was really an unfortunate incident.\x02\x03",
-            "#02801FNo matter that the terrorists\x01",
-            "tried even to blow up the tower...\x02\x03",
-            "I can't think they were\x01",
-            "sinful to have to lose\x01",
-            "their lives in that way.\x02\x03",
-            "#02803FI intend to exert myself so that such\x01",
-            "an incident doesn't happen again.\x02\x03",
-            "#02800FAlso to make everyone believe\x01",
-            "that "justice" exists in this world.\x02",
+            "#02803F#5P─I'm sorry to bring it up\x01",
+            "again, but that really was an\x01",
+            "unfortunate incident.\x02\x03",
+            "#02801FEven though the terrorists did\x01",
+            "try to blow up the tower...\x02\x03",
+            "I cannot think their sins were\x01",
+            "so great as to have their\x01",
+            "lives ended in such a manner.\x02\x03",
+            "#02803FI intend to work to ensure\x01",
+            "that such an incident doesn't\x01",
+            "happen again.\x02\x03",
+            "#02800FAnd to make everyone believe\x01",
+            "that Justice exists in this\x01",
+            "world.\x02",
         )
     )
 
@@ -542,8 +566,9 @@ def main():
     ChrTalk(
         0x10,
         (
-            "#00104F#6P...Hearing you say that I feel like what I \x01",
-            "had been weighing on my mind has gone.\x02",
+            "#00104F#6P...Hearing you say that\x01",
+            "makes me feel like a load\x01",
+            "has been taken off my chest.\x02",
         )
     )
 
@@ -552,9 +577,10 @@ def main():
     ChrTalk(
         0x11,
         (
-            "#00203F#6PHowever, about that local referendum\x01",
-            "to question the independence...\x02\x03",
-            "#00200FIn case it is approved, can we\x01",
+            "#00203F#6PHowever, about the\x01",
+            "referendum on the question\x01",
+            "of independence...\x02\x03",
+            "#00200FIf it is approved, can we\x01",
             "really become independent?\x02",
         )
     )
@@ -564,13 +590,13 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#02806F#5PNo, the local referendum itself doesn't have\x01",
-            "the power to to realize the independence.\x02\x03",
-            "#02804FHowever, its result will become a declaration\x01",
-            "of intent to all the other countries, for sure.\x02\x03",
-            "Then, an international public opinion will\x01",
-            "gradually form and we will possibly snatch\x01",
-            ""independence" from the two major powers.\x02\x03",
+            "#02806F#5PNo, the referendum itself doesn't have the\x01",
+            "power to realize the independence.\x02\x03",
+            "#02804FHowever, it will be a declaration of intent\x01",
+            "to all foreign countries for sure.\x02\x03",
+            "Then, international opinion will gradually\x01",
+            "take hold, and we will snatch "independence"\x01",
+            "from the major powers somehow or other...\x02\x03",
             "#02800FThat's my scenario.\x02",
         )
     )
@@ -587,8 +613,9 @@ def main():
     ChrTalk(
         0x14,
         (
-            "#10302F#6P#NYou say it like this, but it's going to\x01",
-            "be quite a tough road ahead, eh?\x02",
+            "#10302F#6P#NYou say that, but it's\x01",
+            "going to be quite a\x01",
+            "tough road ahead, eh?\x02",
         )
     )
 
@@ -598,7 +625,7 @@ def main():
 
     ChrTalk(
         0x13,
-        "#10101F#11PW-Wazy...!\x02",
+        "#10101F#11PW-Wazy!\x02",
     )
 
     CloseMessageWindow()
@@ -606,17 +633,18 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#02803F#5PWell, it's like you pointed out.\x02\x03",
-            "#02801FEven from a geopolitical point of view,\x01",
-            "the state independence of Crossbell\x01",
-            "is a pretty complex situation...\x02\x03",
-            "#02800FHowever, I believe that "man"\x01",
-            "is not just a living being to be\x01",
-            "swept away by the state of things.\x02\x03",
-            "Even in time of trouble, it pursues \x01",
-            "an ideal and it aims at it with pride...\x02\x03",
-            "#02804FI feel that "man" has such\x01",
-            "hidden power and potential.\x02",
+            "#02803F#5PNo, it's like you pointed out.\x02\x03",
+            "#02801FEven from a geopolitical point of\x01",
+            "view, Crossbell State independence\x01",
+            "is a rather complex situation...\x02\x03",
+            "#02800FHowever, I believe "man" is not a\x01",
+            "thing that lives by merely going\x01",
+            "with the flow.\x02\x03",
+            "Even if there may be trouble, he\x01",
+            "pursues an ideal and works towards\x01",
+            "it with pride...\x02\x03",
+            "#02804FI feel that "man" has such hidden\x01",
+            "power and potential.\x02",
         )
     )
 
@@ -633,7 +661,8 @@ def main():
         0x101,
         (
             "#00003F#6PA power and potential\x01",
-            "to be proud of...is it?\x02",
+            "for the sake of pride...\x01",
+            "is it?\x02",
         )
     )
 
@@ -648,7 +677,7 @@ def main():
 
     ChrTalk(
         0xB,
-        "#01704F#11PHm...I see.\x02",
+        "#01704F#11PHm... I see.\x02",
     )
 
     CloseMessageWindow()
@@ -656,14 +685,15 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#02803F#5PThe path Crossbell will walk on in \x01",
-            "the future could be a difficult one...\x02\x03",
-            "Naturally we adults intend to cut \x01",
-            "through that path by being very \x01",
-            "prepared and with great efforts.\x02\x03",
+            "#02803F#5PCrossbell will likely walk a\x01",
+            "difficult path going\x01",
+            "forward...\x02\x03",
+            "Naturally we adults intend to\x01",
+            "cut through that path by being\x01",
+            "prepared and working hard.\x02\x03",
             "#02800FHowever, it will be the duty\x01",
-            "of you young ones to aim\x01",
-            "high following on that path.\x02",
+            "of you young ones to aim high\x01",
+            "and continue along it.\x02",
         )
     )
 
@@ -677,8 +707,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Mayor Dieter took an extensive view\x01",
-            "of the seats and bowed very deeply.\x07\x00\x02",
+            "Mayor Dieter looked over\x01",
+            "the seats and bowed very\x01",
+            "deeply.\x07\x00\x02",
         )
     )
 
@@ -690,9 +721,9 @@ def main():
     ChrTalk(
         0xF,
         (
-            "#02804F#5PPlease, you too──\x01",
-            "I want you to devote yourselves to Crossbell\x01",
-            "future doing things in your own way.\x02",
+            "#02804F#5PI implore all of you─ Please\x01",
+            "devote yourselves to Crossbell's\x01",
+            "future, each in your own way.\x02",
         )
     )
 
@@ -711,12 +742,12 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Afterwards, the dinner party ended...\x01",
-            "And after having gone back to the hotel 3F...\x02\x03",
-            "Although enveloped in a mysterious elation,\x01",
-            "Lloyd and the others, tired by the fun day,\x01",
-            "decided to go rest early.\x02\x03",
-            "Then──\x07\x00\x02",
+            "Afterwards, the dinner party ended, and\x01",
+            "after they returned to the hotel's 3F...\x02\x03",
+            "Though enveloped by a mysterious elation,\x01",
+            "Lloyd and the others, tired by the fun\x01",
+            "day, decided to rest early that night.\x02\x03",
+            "And then─\x07\x00\x02",
         )
     )
 

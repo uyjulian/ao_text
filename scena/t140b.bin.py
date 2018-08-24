@@ -184,14 +184,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00002F#6P(...There she is...!)\x02",
+        "#00002F#6P(...There she is!)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#00106F#6P(T-Thank goodness...!)\x02",
+        "#00106F#6P(T-Thank goodness!)\x02",
     )
 
     CloseMessageWindow()
@@ -225,7 +225,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0xD),
             "#05815F#3616V#60W#12P#N...Why...\x02\x03",
-            "#3617V#60W...Why...is that...?\x07\x00\x02",
+            "#3617V#60W...Why... is that...?\x07\x00\x02",
         )
     )
 
@@ -237,7 +237,7 @@ def main():
 
     AnonymousTalk(
         0x101,
-        "#00007F#4SKeA#3330V......!\x02",
+        "#00007F#4SKeA#3330V!\x02",
     )
 
     CloseMessageWindow()
@@ -261,60 +261,60 @@ def main():
     OP_6E(650, 0)
     SetCameraDistance(16000, 0)
 
-    def lambda_611():
+    def lambda_606():
         OP_9B(0x0, 0x101, 0x0, 0x2CEC, 0xFA0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 0, lambda_611)
+    QueueWorkItem(0x101, 0, lambda_606)
     Sleep(50)
 
-    def lambda_629():
+    def lambda_61E():
         OP_9B(0x0, 0x102, 0x0, 0x2CEC, 0xFA0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x102, 0, lambda_629)
+    QueueWorkItem(0x102, 0, lambda_61E)
     Sleep(50)
 
-    def lambda_641():
+    def lambda_636():
         OP_9B(0x0, 0x103, 0x0, 0x2CEC, 0xFA0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x103, 0, lambda_641)
+    QueueWorkItem(0x103, 0, lambda_636)
     Sleep(50)
 
-    def lambda_659():
+    def lambda_64E():
         OP_9B(0x0, 0x104, 0x0, 0x2CEC, 0xFA0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 0, lambda_659)
+    QueueWorkItem(0x104, 0, lambda_64E)
     Sleep(50)
 
-    def lambda_671():
+    def lambda_666():
         OP_9B(0x0, 0x109, 0x0, 0x2CEC, 0xFA0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 0, lambda_671)
+    QueueWorkItem(0x109, 0, lambda_666)
     Sleep(50)
 
-    def lambda_689():
+    def lambda_67E():
         OP_9B(0x0, 0x105, 0x0, 0x2CEC, 0xFA0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x105, 0, lambda_689)
+    QueueWorkItem(0x105, 0, lambda_67E)
     WaitChrThread(0x102, 0)
 
-    def lambda_6A2():
+    def lambda_697():
         TurnDirection(0xFE, 0x8, 500)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_6A2)
+    QueueWorkItem(0x102, 1, lambda_697)
     WaitChrThread(0x103, 0)
 
-    def lambda_6B3():
+    def lambda_6A8():
         TurnDirection(0xFE, 0x8, 500)
         ExitThread()
 
-    QueueWorkItem(0x103, 1, lambda_6B3)
+    QueueWorkItem(0x103, 1, lambda_6A8)
     OP_6F(0x79)
 
     ChrTalk(
@@ -327,8 +327,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00101F#11PThank goodness...\x01",
-            "Are you hurt anywhere!?\x02",
+            "#00101F#11PThank goodness... Are\x01",
+            "you hurt!?\x02",
         )
     )
 
@@ -363,7 +363,8 @@ def main():
         0x8,
         (
             "#05805F#3618V#6P#30WWhaaat...?\x02\x03",
-            "#05810F#4109VLloyd, guys, what's wrong?\x02",
+            "#05810F#4109VLloyd, guys, what's\x01",
+            "wrong?\x02",
         )
     )
 
@@ -377,8 +378,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P*slump*...\x02\x03",
-            "#00011FHey now, "why" you say.\x02",
+            "#00006F#5PGah...\x02\x03",
+            "#00011F"What's wrong"? Now look\x01",
+            "here.\x02",
         )
     )
 
@@ -388,8 +390,8 @@ def main():
         0x103,
         (
             "#00206F#5PKeA, why are you here?\x02\x03",
-            "#00200FYou walked here from Lloyd\x01",
-            "and the others' room, right?\x02",
+            "#00200FYou walked here from\x01",
+            "Lloyd's room, right?\x02",
         )
     )
 
@@ -412,8 +414,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#05811F#6P#30WThis place is that castle...?\x02\x03",
-            "#05805FWhy is KeA in this place?\x02",
+            "#05811F#6P#30WThis is that castle...?\x02\x03",
+            "#05805FWhy is KeA here?\x02",
         )
     )
 
@@ -435,8 +437,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10306F#5POh boy...\x01",
-            "It looks like she doesn't remember at all.\x02",
+            "#10306F#5POh man... Looks like she\x01",
+            "doesn't remember at all.\x02",
         )
     )
 
@@ -455,9 +457,11 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#5PNo, such a thing would be too\x01",
-            "much to call it half asleep...\x02\x03",
-            "#00301FKeddo, don't you remember anything?\x02",
+            "#00306F#5PNah. You can't do this\x01",
+            "while half asleep, can\x01",
+            "you?\x02\x03",
+            "#00301FKeddo, do you remember\x01",
+            "anything?\x02",
         )
     )
 
@@ -467,10 +471,11 @@ def main():
         0x8,
         (
             "#05803F#6P#30WHmm...\x02\x03",
-            "#05808F...It's like KeA heard a voice in a\x01",
-            "dream that was, like, calling her...\x02\x03",
-            "#05805F..........Hm?\x01",
-            "Or was it KeA calling...?\x02",
+            "#05808F...It's like KeA heard a\x01",
+            "voice in a dream that\x01",
+            "was, like, calling her...\x02\x03",
+            "#05805F..........Hm? Or was it\x01",
+            "KeA calling...?\x02",
         )
     )
 
@@ -478,7 +483,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00303F#5PHmr.\x02",
+        "#00303F#5PHmm.\x02",
     )
 
     CloseMessageWindow()
@@ -486,9 +491,11 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00109F#11PHu hu...\x01",
-            "It was a dream, nothing can be done about it.\x02\x03",
-            "#00102FAt any rate, I'm glad you're safe...\x02",
+            "#00109F#11PHaha... It was a dream,\x01",
+            "she couldn't have done\x01",
+            "anything about it.\x02\x03",
+            "#00102FAnyway, I'm glad you're\x01",
+            "safe...\x02",
         )
     )
 
@@ -497,11 +504,13 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00004F#5PYou're right...\x02\x03",
+            "#00004F#5PThat's right...\x02\x03",
             "#00002FAlright, let's return to\x01",
-            "the hotel for now too.\x02\x03",
-            "KeA, after we go back to the room\x01",
-            "you'll sleep properly, okay?\x02",
+            "the hotel for now as\x01",
+            "well.\x02\x03",
+            "KeA, after we go back to\x01",
+            "the room you'll sleep\x01",
+            "properly, okay?\x02",
         )
     )
 
@@ -513,7 +522,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#05809F#6PYeees.\x02",
+        "#05809F#6POkaaay.\x02",
     )
 
     CloseMessageWindow()
@@ -531,14 +540,16 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "After Lloyd and the others went back\x01",
-            "to the hotel and put KeA to sleep,\x01",
-            "they contacted Michelam's security...\x02\x03",
-            "They explained the situation and returned to the\x01",
-            "scene again, but there was nothing out of order.\x02\x03",
-            "Then, at dawn──they finally returned to the\x01",
-            "hotel and, after sleeping until about noon...\x02\x03",
-            "They left Michelam together with Mariabell\x01",
+            "After Lloyd and the others went back to the\x01",
+            "hotel and put KeA to sleep, they contacted\x01",
+            "the Michelam Security Department...\x02\x03",
+            "They explained the situation and returned\x01",
+            "to the scene, but nothing out of the\x01",
+            "ordinary remained.\x02\x03",
+            "Then, at dawn── They finally returned to\x01",
+            "the hotel and, after sleeping until about\x01",
+            "noon...\x02\x03",
+            "They left Michelam behind with Mariabell,\x01",
             "who had come to pick them up.\x07\x00\x02",
         )
     )

@@ -319,7 +319,7 @@ def main():
 
     label("loc_4A1")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A43")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A4D")
     FadeToDark(300, 0, 100)
     OP_0D()
 
@@ -345,17 +345,17 @@ def main():
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
         (0, "loc_53F"),
-        (1, "loc_A69"),
-        (2, "loc_E76"),
-        (3, "loc_122E"),
-        (4, "loc_1593"),
-        (SWITCH_DEFAULT, "loc_1A25"),
+        (1, "loc_A6B"),
+        (2, "loc_E7A"),
+        (3, "loc_1234"),
+        (4, "loc_159B"),
+        (SWITCH_DEFAULT, "loc_1A2F"),
     )
 
 
     label("loc_53F")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A61")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_A63")
 
     Menu(
         2,
@@ -375,148 +375,148 @@ def main():
             "#179I: Crimson Gale\x01",        # 9
             "#179I: Death Scorpion\x01",      # 10
             "#179I: Berserker\x01",           # 11
-            "Quit\x01",                       # 12
+            "Cancel\x01",                     # 12
         )
     )
 
     Call(0, 6)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_NEG), scpexpr(EXPR_NEQ), scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xC), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_66B")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_NEG), scpexpr(EXPR_NEQ), scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xC), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_66D")
     Call(0, 2)
     SetScenarioFlags(0x0, 0)
 
-    label("loc_66B")
+    label("loc_66D")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_END)),
-        (0, "loc_6BD"),
-        (1, "loc_709"),
-        (2, "loc_755"),
-        (3, "loc_7A1"),
-        (4, "loc_7ED"),
-        (5, "loc_839"),
-        (6, "loc_885"),
-        (7, "loc_8D1"),
-        (8, "loc_91D"),
-        (9, "loc_969"),
-        (10, "loc_9B5"),
-        (11, "loc_A01"),
-        (SWITCH_DEFAULT, "loc_A4D"),
+        (0, "loc_6BF"),
+        (1, "loc_70B"),
+        (2, "loc_757"),
+        (3, "loc_7A3"),
+        (4, "loc_7EF"),
+        (5, "loc_83B"),
+        (6, "loc_887"),
+        (7, "loc_8D3"),
+        (8, "loc_91F"),
+        (9, "loc_96B"),
+        (10, "loc_9B7"),
+        (11, "loc_A03"),
+        (SWITCH_DEFAULT, "loc_A4F"),
     )
 
 
-    label("loc_6BD")
+    label("loc_6BF")
 
     SetScenarioFlags(0x5C, 0)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000000, 0x0, 0x0, 0x0, 0x30087200, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 0)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_709")
+    label("loc_70B")
 
     SetScenarioFlags(0x5C, 1)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000000, 0x0, 0x0, 0x0, 0x30087200, 0x30087200, 0x30087200, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 1)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_755")
+    label("loc_757")
 
     SetScenarioFlags(0x5C, 2)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000000, 0x0, 0x0, 0x0, 0x30087200, 0x30087200, 0x30087200, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 2)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_7A1")
+    label("loc_7A3")
 
     SetScenarioFlags(0x5C, 3)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000100, 0x30000000, 0x30000200, 0x30000300, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 3)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_7ED")
+    label("loc_7EF")
 
     SetScenarioFlags(0x5C, 4)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000100, 0x0, 0x0, 0x0, 0x30087500, 0x30087500, 0x30087500, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 4)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_839")
+    label("loc_83B")
 
     SetScenarioFlags(0x5C, 5)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000100, 0x0, 0x0, 0x0, 0x30087500, 0x30087500, 0x30087500, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 5)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_885")
+    label("loc_887")
 
     SetScenarioFlags(0x5C, 6)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000200, 0x0, 0x0, 0x0, 0x30087100, 0x30087100, 0x30087100, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 6)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_8D1")
+    label("loc_8D3")
 
     SetScenarioFlags(0x5C, 7)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000200, 0x30000000, 0x30000100, 0x30000300, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 7)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_91D")
+    label("loc_91F")
 
     SetScenarioFlags(0x5D, 0)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000200, 0x0, 0x0, 0x0, 0x30087100, 0x30087100, 0x30087100, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 0)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_969")
+    label("loc_96B")
 
     SetScenarioFlags(0x5D, 1)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000300, 0x0, 0x0, 0x0, 0x30087000, 0x30087000, 0x30087000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 1)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_9B5")
+    label("loc_9B7")
 
     SetScenarioFlags(0x5D, 2)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000300, 0x0, 0x0, 0x0, 0x30087000, 0x30087000, 0x30087000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 2)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_A01")
+    label("loc_A03")
 
     SetScenarioFlags(0x5D, 3)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000300, 0x0, 0x0, 0x0, 0x30087000, 0x30087000, 0x30087000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 3)
     Call(0, 3)
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_A4D")
+    label("loc_A4F")
 
     RunExpression(0x3, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jump("loc_A5C")
+    Jump("loc_A5E")
 
-    label("loc_A5C")
+    label("loc_A5E")
 
     Jump("loc_53F")
 
-    label("loc_A61")
+    label("loc_A63")
 
     ClearScenarioFlags(0x0, 0)
-    Jump("loc_1A3E")
+    Jump("loc_1A48")
 
-    label("loc_A69")
+    label("loc_A6B")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_E6E")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_E72")
 
     Menu(
         2,
@@ -533,121 +533,121 @@ def main():
             "#185I: Justice Hammer\x01",             # 6
             "#185I: Justice Magnum\x01",             # 7
             "#186I: Killing Driver\x01",             # 8
-            "Quit\x01",                              # 9
+            "Cancel\x01",                            # 9
         )
     )
 
     Call(0, 6)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_NEG), scpexpr(EXPR_NEQ), scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x9), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_B6E")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_NEG), scpexpr(EXPR_NEQ), scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x9), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_B72")
     Call(0, 2)
     SetScenarioFlags(0x0, 0)
 
-    label("loc_B6E")
+    label("loc_B72")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_END)),
-        (0, "loc_BAE"),
-        (1, "loc_BFA"),
-        (2, "loc_C46"),
-        (3, "loc_C92"),
-        (4, "loc_CDE"),
-        (5, "loc_D2A"),
-        (6, "loc_D76"),
-        (7, "loc_DC2"),
-        (8, "loc_E0E"),
-        (SWITCH_DEFAULT, "loc_E5A"),
+        (0, "loc_BB2"),
+        (1, "loc_BFE"),
+        (2, "loc_C4A"),
+        (3, "loc_C96"),
+        (4, "loc_CE2"),
+        (5, "loc_D2E"),
+        (6, "loc_D7A"),
+        (7, "loc_DC6"),
+        (8, "loc_E12"),
+        (SWITCH_DEFAULT, "loc_E5E"),
     )
 
 
-    label("loc_BAE")
+    label("loc_BB2")
 
     SetScenarioFlags(0x5D, 4)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000400, 0x0, 0x0, 0x0, 0x30087400, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 4)
     Call(0, 3)
-    Jump("loc_E69")
+    Jump("loc_E6D")
 
-    label("loc_BFA")
+    label("loc_BFE")
 
     SetScenarioFlags(0x5D, 5)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30003100, 0x0, 0x0, 0x0, 0x30087400, 0x30087400, 0x30087400, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 5)
     Call(0, 3)
-    Jump("loc_E69")
+    Jump("loc_E6D")
 
-    label("loc_C46")
+    label("loc_C4A")
 
     SetScenarioFlags(0x5D, 6)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000800, 0x0, 0x0, 0x0, 0x30087300, 0x30087300, 0x30087300, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 6)
     Call(0, 3)
-    Jump("loc_E69")
+    Jump("loc_E6D")
 
-    label("loc_C92")
+    label("loc_C96")
 
     SetScenarioFlags(0x5D, 7)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000800, 0x0, 0x0, 0x0, 0x30087300, 0x30087300, 0x30087300, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 7)
     Call(0, 3)
-    Jump("loc_E69")
+    Jump("loc_E6D")
 
-    label("loc_CDE")
+    label("loc_CE2")
 
     SetScenarioFlags(0x5E, 0)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000500, 0x0, 0x0, 0x0, 0x30087500, 0x30087500, 0x30087500, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5E, 0)
     Call(0, 3)
-    Jump("loc_E69")
+    Jump("loc_E6D")
 
-    label("loc_D2A")
+    label("loc_D2E")
 
     SetScenarioFlags(0x5E, 1)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30003200, 0x0, 0x0, 0x0, 0x30087500, 0x30087500, 0x30087500, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5E, 1)
     Call(0, 3)
-    Jump("loc_E69")
+    Jump("loc_E6D")
 
-    label("loc_D76")
+    label("loc_D7A")
 
     SetScenarioFlags(0x5E, 2)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000900, 0x0, 0x0, 0x0, 0x30087000, 0x30087000, 0x30087000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5E, 2)
     Call(0, 3)
-    Jump("loc_E69")
+    Jump("loc_E6D")
 
-    label("loc_DC2")
+    label("loc_DC6")
 
     SetScenarioFlags(0x5E, 3)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30000900, 0x0, 0x0, 0x0, 0x30087000, 0x30087000, 0x30087000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5E, 3)
     Call(0, 3)
-    Jump("loc_E69")
+    Jump("loc_E6D")
 
-    label("loc_E0E")
+    label("loc_E12")
 
     SetScenarioFlags(0x5E, 4)
     Battle(0xFFFFFFFF, 0x30200100, "", 0x30004100, 0x0, 0x0, 0x0, 0x30087400, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5E, 4)
     Call(0, 3)
-    Jump("loc_E69")
+    Jump("loc_E6D")
 
-    label("loc_E5A")
+    label("loc_E5E")
 
     RunExpression(0x3, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jump("loc_E69")
+    Jump("loc_E6D")
 
-    label("loc_E69")
+    label("loc_E6D")
 
-    Jump("loc_A69")
+    Jump("loc_A6B")
 
-    label("loc_E6E")
+    label("loc_E72")
 
     ClearScenarioFlags(0x0, 0)
-    Jump("loc_1A3E")
+    Jump("loc_1A48")
 
-    label("loc_E76")
+    label("loc_E7A")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1226")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_122C")
 
     Menu(
         2,
@@ -663,110 +663,110 @@ def main():
             "#188I: Holy Craft - Grand Cross\x01",         # 5
             "#191I: Crimson Zanber\x01",                   # 6
             "#191I: Merry Merry Castle\x01",               # 7
-            "Quit\x01",                                    # 8
+            "Cancel\x01",                                  # 8
         )
     )
 
     Call(0, 6)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_NEG), scpexpr(EXPR_NEQ), scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x8), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_F7E")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_NEG), scpexpr(EXPR_NEQ), scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x8), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_F84")
     Call(0, 2)
     SetScenarioFlags(0x0, 0)
 
-    label("loc_F7E")
+    label("loc_F84")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_END)),
-        (0, "loc_FB8"),
-        (1, "loc_1004"),
-        (2, "loc_1050"),
-        (3, "loc_109C"),
-        (4, "loc_10E8"),
-        (5, "loc_1134"),
-        (6, "loc_1180"),
-        (7, "loc_11CC"),
-        (SWITCH_DEFAULT, "loc_1212"),
+        (0, "loc_FBE"),
+        (1, "loc_100A"),
+        (2, "loc_1056"),
+        (3, "loc_10A2"),
+        (4, "loc_10EE"),
+        (5, "loc_113A"),
+        (6, "loc_1186"),
+        (7, "loc_11D2"),
+        (SWITCH_DEFAULT, "loc_1218"),
     )
 
 
-    label("loc_FB8")
+    label("loc_FBE")
 
     SetScenarioFlags(0x5C, 0)
     Battle(0xFFFFFFFF, 0x30200101, "", 0x30002400, 0x0, 0x0, 0x0, 0x30087400, 0x30087400, 0x30087400, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 0)
     Call(0, 3)
-    Jump("loc_1221")
+    Jump("loc_1227")
 
-    label("loc_1004")
+    label("loc_100A")
 
     SetScenarioFlags(0x5C, 1)
     Battle(0xFFFFFFFF, 0x30200101, "", 0x30002400, 0x0, 0x0, 0x0, 0x30087400, 0x30087400, 0x30087400, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 1)
     Call(0, 3)
-    Jump("loc_1221")
+    Jump("loc_1227")
 
-    label("loc_1050")
+    label("loc_1056")
 
     SetScenarioFlags(0x5C, 2)
     Battle(0xFFFFFFFF, 0x30200101, "", 0x30003400, 0x0, 0x0, 0x0, 0x30087100, 0x30087100, 0x30087100, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 2)
     Call(0, 3)
-    Jump("loc_1221")
+    Jump("loc_1227")
 
-    label("loc_109C")
+    label("loc_10A2")
 
     SetScenarioFlags(0x5C, 3)
     Battle(0xFFFFFFFF, 0x30200101, "", 0x30003300, 0x0, 0x0, 0x0, 0x30087000, 0x30087000, 0x30087000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 3)
     Call(0, 3)
-    Jump("loc_1221")
+    Jump("loc_1227")
 
-    label("loc_10E8")
+    label("loc_10EE")
 
     SetScenarioFlags(0x5C, 4)
     Battle(0xFFFFFFFF, 0x30200101, "", 0x30003600, 0x0, 0x0, 0x0, 0x30087100, 0x30087100, 0x30087100, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 4)
     Call(0, 3)
-    Jump("loc_1221")
+    Jump("loc_1227")
 
-    label("loc_1134")
+    label("loc_113A")
 
     SetScenarioFlags(0x5C, 5)
     Battle(0xFFFFFFFF, 0x30200101, "", 0x30004200, 0x0, 0x0, 0x0, 0x30087200, 0x30087200, 0x30087200, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 5)
     Call(0, 3)
-    Jump("loc_1221")
+    Jump("loc_1227")
 
-    label("loc_1180")
+    label("loc_1186")
 
     SetScenarioFlags(0x5C, 6)
     Battle(0xFFFFFFFF, 0x30200101, "", 0x30003700, 0x0, 0x0, 0x0, 0x30087300, 0x30087300, 0x30087300, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 6)
     Call(0, 3)
-    Jump("loc_1221")
+    Jump("loc_1227")
 
-    label("loc_11CC")
+    label("loc_11D2")
 
     Battle(0xFFFFFFFF, 0x30200101, "", 0x30003700, 0x0, 0x0, 0x0, 0x30087300, 0x30087300, 0x30087300, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     Call(0, 3)
-    Jump("loc_1221")
+    Jump("loc_1227")
 
-    label("loc_1212")
+    label("loc_1218")
 
     RunExpression(0x3, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jump("loc_1221")
+    Jump("loc_1227")
 
-    label("loc_1221")
+    label("loc_1227")
 
-    Jump("loc_E76")
+    Jump("loc_E7A")
 
-    label("loc_1226")
+    label("loc_122C")
 
     ClearScenarioFlags(0x0, 0)
-    Jump("loc_1A3E")
+    Jump("loc_1A48")
 
-    label("loc_122E")
+    label("loc_1234")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_158B")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1593")
 
     Menu(
         2,
@@ -781,71 +781,71 @@ def main():
             "#176I#180I: Strike Heaven\x01",             # 4
             "#176I#187I: Double Dragon Strike\x01",      # 5
             "#176I#185I: Hearts of Iron\x01",            # 6
-            "Quit\x01",                                  # 7
+            "Cancel\x01",                                # 7
         )
     )
 
     Call(0, 6)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_NEG), scpexpr(EXPR_NEQ), scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_1326")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_NEG), scpexpr(EXPR_NEQ), scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x7), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_132E")
     Call(0, 2)
     SetScenarioFlags(0x0, 0)
 
-    label("loc_1326")
+    label("loc_132E")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_END)),
-        (0, "loc_135A"),
-        (1, "loc_13A6"),
-        (2, "loc_13F2"),
-        (3, "loc_143E"),
-        (4, "loc_148A"),
-        (5, "loc_14D6"),
-        (6, "loc_1530"),
-        (SWITCH_DEFAULT, "loc_157C"),
+        (0, "loc_1362"),
+        (1, "loc_13AE"),
+        (2, "loc_13FA"),
+        (3, "loc_1446"),
+        (4, "loc_1492"),
+        (5, "loc_14DE"),
+        (6, "loc_1538"),
+        (SWITCH_DEFAULT, "loc_1584"),
     )
 
 
-    label("loc_135A")
+    label("loc_1362")
 
     SetScenarioFlags(0x5C, 0)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000000, 0x30000100, 0x0, 0x0, 0x30087500, 0x30087500, 0x30087500, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 0)
     Call(0, 3)
-    Jump("loc_1586")
+    Jump("loc_158E")
 
-    label("loc_13A6")
+    label("loc_13AE")
 
     SetScenarioFlags(0x5C, 1)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000000, 0x30000200, 0x0, 0x0, 0x30087100, 0x30087100, 0x30087100, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 1)
     Call(0, 3)
-    Jump("loc_1586")
+    Jump("loc_158E")
 
-    label("loc_13F2")
+    label("loc_13FA")
 
     SetScenarioFlags(0x5C, 2)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000000, 0x30000300, 0x0, 0x0, 0x30087000, 0x30087000, 0x30087000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 2)
     Call(0, 3)
-    Jump("loc_1586")
+    Jump("loc_158E")
 
-    label("loc_143E")
+    label("loc_1446")
 
     SetScenarioFlags(0x5C, 3)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000000, 0x30000800, 0x0, 0x0, 0x30087300, 0x30087300, 0x30087300, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 3)
     Call(0, 3)
-    Jump("loc_1586")
+    Jump("loc_158E")
 
-    label("loc_148A")
+    label("loc_1492")
 
     SetScenarioFlags(0x5C, 4)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000000, 0x30000400, 0x0, 0x0, 0x30087400, 0x30087400, 0x30087400, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 4)
     Call(0, 3)
-    Jump("loc_1586")
+    Jump("loc_158E")
 
-    label("loc_14D6")
+    label("loc_14DE")
 
     SetScenarioFlags(0x5C, 5)
     SetChrChipPat(0x5, 0x1, 0x20)
@@ -853,32 +853,32 @@ def main():
     SetChrChipPat(0x5, 0x1, 0x5)
     ClearScenarioFlags(0x5C, 5)
     Call(0, 3)
-    Jump("loc_1586")
+    Jump("loc_158E")
 
-    label("loc_1530")
+    label("loc_1538")
 
     SetScenarioFlags(0x5C, 6)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000000, 0x30000900, 0x0, 0x0, 0x30087000, 0x30087000, 0x30087000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 6)
     Call(0, 3)
-    Jump("loc_1586")
+    Jump("loc_158E")
 
-    label("loc_157C")
+    label("loc_1584")
 
     RunExpression(0x3, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    label("loc_1586")
+    label("loc_158E")
 
-    Jump("loc_122E")
-
-    label("loc_158B")
-
-    ClearScenarioFlags(0x0, 0)
-    Jump("loc_1A3E")
+    Jump("loc_1234")
 
     label("loc_1593")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A1D")
+    ClearScenarioFlags(0x0, 0)
+    Jump("loc_1A48")
+
+    label("loc_159B")
+
+    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_NEQ), scpexpr(EXPR_END)), "loc_1A27")
 
     Menu(
         2,
@@ -896,138 +896,138 @@ def main():
             "#179I#184I: Howling Raid\x01",         # 7
             "#179I#180I: Last Rebellion\x01",       # 8
             "#180I#184I: Blue Breaker\x01",         # 9
-            "Quit\x01",                             # 10
+            "Cancel\x01",                           # 10
         )
     )
 
     Call(0, 6)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_NEG), scpexpr(EXPR_NEQ), scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_16D0")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_NEG), scpexpr(EXPR_NEQ), scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_PUSH_LONG, 0xA), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_16DA")
     Call(0, 2)
     SetScenarioFlags(0x0, 0)
 
-    label("loc_16D0")
+    label("loc_16DA")
 
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x3), scpexpr(EXPR_END)),
-        (0, "loc_1716"),
-        (1, "loc_1762"),
-        (2, "loc_17AE"),
-        (3, "loc_17FA"),
-        (4, "loc_1846"),
-        (5, "loc_1892"),
-        (6, "loc_18DE"),
-        (7, "loc_192A"),
-        (8, "loc_1976"),
-        (9, "loc_19C2"),
-        (SWITCH_DEFAULT, "loc_1A0E"),
+        (0, "loc_1720"),
+        (1, "loc_176C"),
+        (2, "loc_17B8"),
+        (3, "loc_1804"),
+        (4, "loc_1850"),
+        (5, "loc_189C"),
+        (6, "loc_18E8"),
+        (7, "loc_1934"),
+        (8, "loc_1980"),
+        (9, "loc_19CC"),
+        (SWITCH_DEFAULT, "loc_1A18"),
     )
 
 
-    label("loc_1716")
+    label("loc_1720")
 
     SetScenarioFlags(0x5C, 7)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000100, 0x30000200, 0x0, 0x0, 0x30087100, 0x30087100, 0x30087100, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5C, 7)
     Call(0, 3)
-    Jump("loc_1A18")
+    Jump("loc_1A22")
 
-    label("loc_1762")
+    label("loc_176C")
 
     SetScenarioFlags(0x5D, 0)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000100, 0x30000300, 0x0, 0x0, 0x30087500, 0x30087500, 0x30087500, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 0)
     Call(0, 3)
-    Jump("loc_1A18")
+    Jump("loc_1A22")
 
-    label("loc_17AE")
+    label("loc_17B8")
 
     SetScenarioFlags(0x5D, 1)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000100, 0x30000800, 0x0, 0x0, 0x30087300, 0x30087300, 0x30087300, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 1)
     Call(0, 3)
-    Jump("loc_1A18")
+    Jump("loc_1A22")
 
-    label("loc_17FA")
+    label("loc_1804")
 
     SetScenarioFlags(0x5D, 2)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000100, 0x30000400, 0x0, 0x0, 0x30087400, 0x30087400, 0x30087400, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 2)
     Call(0, 3)
-    Jump("loc_1A18")
+    Jump("loc_1A22")
 
-    label("loc_1846")
+    label("loc_1850")
 
     SetScenarioFlags(0x5D, 3)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000200, 0x30000300, 0x0, 0x0, 0x30087000, 0x30087000, 0x30087000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 3)
     Call(0, 3)
-    Jump("loc_1A18")
+    Jump("loc_1A22")
 
-    label("loc_1892")
+    label("loc_189C")
 
     SetScenarioFlags(0x5D, 4)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000200, 0x30000800, 0x0, 0x0, 0x30087100, 0x30087100, 0x30087100, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 4)
     Call(0, 3)
-    Jump("loc_1A18")
+    Jump("loc_1A22")
 
-    label("loc_18DE")
+    label("loc_18E8")
 
     SetScenarioFlags(0x5D, 5)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000200, 0x30000400, 0x0, 0x0, 0x30087200, 0x30087200, 0x30087200, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 5)
     Call(0, 3)
-    Jump("loc_1A18")
+    Jump("loc_1A22")
 
-    label("loc_192A")
+    label("loc_1934")
 
     SetScenarioFlags(0x5D, 6)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000300, 0x30000800, 0x0, 0x0, 0x30087300, 0x30087300, 0x30087300, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 6)
     Call(0, 3)
-    Jump("loc_1A18")
+    Jump("loc_1A22")
 
-    label("loc_1976")
+    label("loc_1980")
 
     SetScenarioFlags(0x5D, 7)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000300, 0x30000400, 0x0, 0x0, 0x30087400, 0x30087400, 0x30087400, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5D, 7)
     Call(0, 3)
-    Jump("loc_1A18")
+    Jump("loc_1A22")
 
-    label("loc_19C2")
+    label("loc_19CC")
 
     SetScenarioFlags(0x5E, 0)
     Battle(0xFFFFFFFF, 0x30200200, "", 0x30000400, 0x30000800, 0x0, 0x0, 0x30087000, 0x30087000, 0x30087000, 0x0, 0x0, 0x0, 0x0, 0x0, 0x1C2, 0x8)
     ClearScenarioFlags(0x5E, 0)
     Call(0, 3)
-    Jump("loc_1A18")
-
-    label("loc_1A0E")
-
-    RunExpression(0x3, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
+    Jump("loc_1A22")
 
     label("loc_1A18")
 
-    Jump("loc_1593")
+    RunExpression(0x3, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
 
-    label("loc_1A1D")
+    label("loc_1A22")
+
+    Jump("loc_159B")
+
+    label("loc_1A27")
 
     ClearScenarioFlags(0x0, 0)
-    Jump("loc_1A3E")
+    Jump("loc_1A48")
 
-    label("loc_1A25")
+    label("loc_1A2F")
 
     FadeToBright(300, 0)
     OP_0D()
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0xFF), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jump("loc_1A3E")
+    Jump("loc_1A48")
 
-    label("loc_1A3E")
+    label("loc_1A48")
 
     Jump("loc_4A1")
 
-    label("loc_1A43")
+    label("loc_1A4D")
 
     RunExpression(0x0, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
     OP_60(0x1)

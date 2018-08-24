@@ -46,9 +46,9 @@ def main():
         "Function_1_1E0",          # 01, 1
         "Function_2_209",          # 02, 2
         "Function_3_20A",          # 03, 3
-        "Function_4_24A",          # 04, 4
-        "Function_5_27F",          # 05, 5
-        "Function_6_30D",          # 06, 6
+        "Function_4_246",          # 04, 4
+        "Function_5_27E",          # 05, 5
+        "Function_6_30F",          # 06, 6
     ))
 
 
@@ -154,8 +154,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "That's the Orchis Tower at night...?\x01",
-            "Words fail me.\x02",
+            "That's Orchis Tower at\x01",
+            "night...? Words fail me.\x02",
         )
     )
 
@@ -165,34 +165,38 @@ def main():
 
     # Function_3_20A end
 
-    def Function_4_24A(): pass
+    def Function_4_246(): pass
 
-    label("Function_4_24A")
-
-    TalkBegin(0xFE)
-
-    ChrTalk(
-        0xFE,
-        "Uhuhu, what a really perfect night view.\x02",
-    )
-
-    CloseMessageWindow()
-    TalkEnd(0xFE)
-    Return()
-
-    # Function_4_24A end
-
-    def Function_5_27F(): pass
-
-    label("Function_5_27F")
+    label("Function_4_246")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xFE,
         (
-            "As a night view is way more\x01",
-            "than pretty for sure...\x02",
+            "Uhuhu. Truly, what a\x01",
+            "perfect night skyline.\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    TalkEnd(0xFE)
+    Return()
+
+    # Function_4_246 end
+
+    def Function_5_27E(): pass
+
+    label("Function_5_27E")
+
+    TalkBegin(0xFE)
+
+    ChrTalk(
+        0xFE,
+        (
+            "This night skyline goes\x01",
+            "beyond just pretty for\x01",
+            "sure...\x02",
         )
     )
 
@@ -201,8 +205,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "As I thought, you'd want to look\x01",
-            "at something like this with your lover.\x02",
+            "As I thought, you'd want\x01",
+            "to look at something like\x01",
+            "this with your lover.\x02",
         )
     )
 
@@ -210,20 +215,21 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_27F end
+    # Function_5_27E end
 
-    def Function_6_30D(): pass
+    def Function_6_30F(): pass
 
-    label("Function_6_30D")
+    label("Function_6_30F")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3D9")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_3E0")
 
     ChrTalk(
         0xFE,
         (
-            "Yes, how I want a boyfriend...\x01",
-            "―No, that's not it!\x02",
+            "Yeah. Oh, how I want a\x01",
+            "boyfriend... ―No, that's\x01",
+            "not it!\x02",
         )
     )
 
@@ -236,9 +242,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "I'm doing my best to try\x01",
-            "not thinking about it.\x01",
-            "Don't say anything unnecessary.\x02",
+            "I'm doing my best to try not\x01",
+            "to think about it. Don't say\x01",
+            "anything unnecessary.\x02",
         )
     )
 
@@ -246,16 +252,17 @@ def main():
     OP_64(0xB)
     OP_93(0xB, 0x0, 0x1F4)
     SetScenarioFlags(0x0, 0)
-    Jump("loc_481")
+    Jump("loc_480")
 
-    label("loc_3D9")
+    label("loc_3E0")
 
 
     ChrTalk(
         0xFE,
         (
-            "The Orchis Tower is beautiful,\x01",
-            "the Orchis Tower is beautiful...\x02",
+            "Orchis Tower is\x01",
+            "beautiful, Orchis Tower\x01",
+            "is beautiful...\x02",
         )
     )
 
@@ -270,12 +277,12 @@ def main():
     Sound(23, 0, 100, 0)
     Sleep(1000)
 
-    label("loc_481")
+    label("loc_480")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_6_30D end
+    # Function_6_30F end
 
     SaveToFile()
 

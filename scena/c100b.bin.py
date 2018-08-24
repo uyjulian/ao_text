@@ -97,12 +97,12 @@ def main():
         "Function_1_4EC",          # 01, 1
         "Function_2_510",          # 02, 2
         "Function_3_53F",          # 03, 3
-        "Function_4_691",          # 04, 4
-        "Function_5_7E3",          # 05, 5
-        "Function_6_941",          # 06, 6
-        "Function_7_98A",          # 07, 7
-        "Function_8_9B8",          # 08, 8
-        "Function_9_C77",          # 09, 9
+        "Function_4_690",          # 04, 4
+        "Function_5_7E1",          # 05, 5
+        "Function_6_93F",          # 06, 6
+        "Function_7_988",          # 07, 7
+        "Function_8_9B6",          # 08, 8
+        "Function_9_C75",          # 09, 9
     ))
 
 
@@ -269,7 +269,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x38E),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -281,7 +282,7 @@ def main():
 
     label("loc_636")
 
-    Jump("loc_685")
+    Jump("loc_684")
 
     label("loc_63B")
 
@@ -294,7 +295,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -302,7 +304,7 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_685")
+    label("loc_684")
 
     Sleep(30)
     TalkEnd(0xFF)
@@ -311,18 +313,18 @@ def main():
 
     # Function_3_53F end
 
-    def Function_4_691(): pass
+    def Function_4_690(): pass
 
-    label("Function_4_691")
+    label("Function_4_690")
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1EB, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_78D")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1EB, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_78C")
     Sound(14, 0, 100, 0)
     OP_74(0xB, 0x1E)
     OP_71(0xB, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x98, 1)"), scpexpr(EXPR_END)), "loc_716")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x98, 1)"), scpexpr(EXPR_END)), "loc_715")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -343,9 +345,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1EB, 3)
     OP_E0(0x5, 0x0)
-    Jump("loc_788")
+    Jump("loc_787")
 
-    label("loc_716")
+    label("loc_715")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -356,7 +358,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x98),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -366,11 +369,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0xB, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_788")
+    label("loc_787")
 
-    Jump("loc_7D7")
+    Jump("loc_7D5")
 
-    label("loc_78D")
+    label("loc_78C")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -381,7 +384,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -389,18 +393,18 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_7D7")
+    label("loc_7D5")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_4_691 end
+    # Function_4_690 end
 
-    def Function_5_7E3(): pass
+    def Function_5_7E1(): pass
 
-    label("Function_5_7E3")
+    label("Function_5_7E1")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -418,7 +422,7 @@ def main():
     SetMapObjFlags(0xC, 0x1000)
     OP_74(0xC, 0x1E)
     OP_71(0xC, 0x79, 0xB4, 0x1, 0x20)
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_8C0")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_8BE")
     ClearChrFlags(0xE, 0x80)
     LoadChrToIndex("chr/ch24000.itc", 0x1E)
     SetChrChipByIndex(0xE, 0x1E)
@@ -435,7 +439,7 @@ def main():
     SetChrFlags(0xF, 0x8000)
     SetChrPos(0xF, -14050, -300, 16200, 180)
 
-    label("loc_8C0")
+    label("loc_8BE")
 
     FadeToBright(1000, 0)
     Sound(458, 0, 100, 0)
@@ -456,11 +460,11 @@ def main():
     IdleLoop()
     Return()
 
-    # Function_5_7E3 end
+    # Function_5_7E1 end
 
-    def Function_6_941(): pass
+    def Function_6_93F(): pass
 
-    label("Function_6_941")
+    label("Function_6_93F")
 
     SetChrPos(0xFE, -21000, -300, 28700, 180)
     OP_9F(0x0, 0xFE)
@@ -470,22 +474,22 @@ def main():
     OP_9F(0x2, 0xFE, 5000, 0x6)
     Return()
 
-    # Function_6_941 end
+    # Function_6_93F end
 
-    def Function_7_98A(): pass
+    def Function_7_988(): pass
 
-    label("Function_7_98A")
+    label("Function_7_988")
 
     OP_9B(0x0, 0xFE, 0x0, 0x1F40, 0x7D0, 0x0)
     OP_9B(0x0, 0xFE, 0x5A, 0xBB8, 0x7D0, 0x0)
     OP_9B(0x0, 0xFE, 0x2D, 0x3A98, 0x7D0, 0x0)
     Return()
 
-    # Function_7_98A end
+    # Function_7_988 end
 
-    def Function_8_9B8(): pass
+    def Function_8_9B6(): pass
 
-    label("Function_8_9B8")
+    label("Function_8_9B6")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -527,35 +531,35 @@ def main():
     SetChrFlags(0xC, 0x8000)
     SetChrPos(0xC, -9800, -300, 11600, 305)
 
-    def lambda_AF5():
+    def lambda_AF3():
 
-        label("loc_AF5")
-
-        TurnDirection(0xFE, 0x8, 500)
-        Yield()
-        Jump("loc_AF5")
-
-    QueueWorkItem2(0xA, 2, lambda_AF5)
-
-    def lambda_B07():
-
-        label("loc_B07")
+        label("loc_AF3")
 
         TurnDirection(0xFE, 0x8, 500)
         Yield()
-        Jump("loc_B07")
+        Jump("loc_AF3")
 
-    QueueWorkItem2(0xB, 2, lambda_B07)
+    QueueWorkItem2(0xA, 2, lambda_AF3)
 
-    def lambda_B19():
+    def lambda_B05():
 
-        label("loc_B19")
+        label("loc_B05")
 
         TurnDirection(0xFE, 0x8, 500)
         Yield()
-        Jump("loc_B19")
+        Jump("loc_B05")
 
-    QueueWorkItem2(0xC, 2, lambda_B19)
+    QueueWorkItem2(0xB, 2, lambda_B05)
+
+    def lambda_B17():
+
+        label("loc_B17")
+
+        TurnDirection(0xFE, 0x8, 500)
+        Yield()
+        Jump("loc_B17")
+
+    QueueWorkItem2(0xC, 2, lambda_B17)
     SetMapObjFrame(0xFF, "turi00", 0x1, 0x1)
     SetMapObjFrame(0xFF, "turi01", 0x0, 0x1)
     OP_68(-12700, 900, 11600, 0)
@@ -572,25 +576,25 @@ def main():
     TurnDirection(0x101, 0x8, 500)
     TurnDirection(0x8, 0x101, 500)
 
-    def lambda_BC0():
+    def lambda_BBE():
         TurnDirection(0xFE, 0x8, 500)
         ExitThread()
 
-    QueueWorkItem(0x104, 2, lambda_BC0)
+    QueueWorkItem(0x104, 2, lambda_BBE)
     Sleep(50)
 
-    def lambda_BD0():
+    def lambda_BCE():
         TurnDirection(0xFE, 0x8, 500)
         ExitThread()
 
-    QueueWorkItem(0x109, 2, lambda_BD0)
+    QueueWorkItem(0x109, 2, lambda_BCE)
     Sleep(50)
 
-    def lambda_BE0():
+    def lambda_BDE():
         TurnDirection(0xFE, 0x8, 500)
         ExitThread()
 
-    QueueWorkItem(0x105, 2, lambda_BE0)
+    QueueWorkItem(0x105, 2, lambda_BDE)
     Sleep(1000)
     OP_93(0x8, 0x131, 0x1F4)
     OP_68(-20000, 900, 11600, 9000)
@@ -619,23 +623,23 @@ def main():
     IdleLoop()
     Return()
 
-    # Function_8_9B8 end
+    # Function_8_9B6 end
 
-    def Function_9_C77(): pass
+    def Function_9_C75(): pass
 
-    label("Function_9_C77")
+    label("Function_9_C75")
 
     OP_93(0xFE, 0x10E, 0x1F4)
 
-    def lambda_C83():
+    def lambda_C81():
         OP_97(0xFE, 0xFFFF9E58, 0x0, 0x0, 0x6A4, 0x0)
         ExitThread()
 
-    QueueWorkItem(0xFE, 1, lambda_C83)
+    QueueWorkItem(0xFE, 1, lambda_C81)
     WaitChrThread(0xFE, 1)
     Return()
 
-    # Function_9_C77 end
+    # Function_9_C75 end
 
     SaveToFile()
 

@@ -95,9 +95,11 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00000FThe Crossbell City area is this way, eh?\x02\x03",
-            "It's distant and there's no need to\x01",
-            "follow the railway tracks on purpose.\x02",
+            "#00000FCrossbell City is this\x01",
+            "way, huh.\x02\x03",
+            "It's far away and there's\x01",
+            "no need to follow the\x01",
+            "tracks there specifically.\x02",
         )
     )
 

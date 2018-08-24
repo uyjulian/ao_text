@@ -179,7 +179,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5P#4SA-Absurd...!?\x02",
+        "#5P#4ST-That's crazy!?\x02",
     )
 
     CloseMessageWindow()
@@ -187,8 +187,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5PYou say that the 5th Armored\x01",
-            "Division has been annihilated!?\x02",
+            "#5PThe 5th Armored Division\x01",
+            "has been annihilated!?\x02",
         )
     )
 
@@ -205,7 +205,10 @@ def main():
 
     ChrTalk(
         0xD,
-        "#11PIt's h-hard to believe it, but...\x02",
+        (
+            "#11PIt's h-hard to believe\x01",
+            "it, but...\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -213,8 +216,9 @@ def main():
     ChrTalk(
         0xD,
         (
-            "#11PA giant human form appeared\x01",
-            "and mowed down everything...\x02",
+            "#11PA giant humanoid form\x01",
+            "appeared and mowed down\x01",
+            "everything...\x02",
         )
     )
 
@@ -222,7 +226,10 @@ def main():
 
     ChrTalk(
         0x8,
-        "#5PW-What absurdities are you...\x02",
+        (
+            "#5PW-What absurdities are\x01",
+            "you...\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -230,9 +237,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P...Whatever.\x01",
-            "If they wish for it, we\x01",
-            "won't have any mercy too.\x02",
+            "#5P...Whatever. If that's\x01",
+            "how they want to play\x01",
+            "it, we'll show no mercy.\x02",
         )
     )
 
@@ -253,8 +260,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#4SActivate the Railway Cannons!\x01",
-            "Target, Crossbell City!\x02",
+            "#5P#4SActivate the Railway\x01",
+            "Cannons! Target,\x01",
+            "Crossbell City!\x02",
         )
     )
 
@@ -263,8 +271,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#4SWe'll have a minimum of compassion!\x01",
-            "Avoid civilians crowded areas!\x02",
+            "#5P#4SWe'll have a minimum of\x01",
+            "compassion! Avoid\x01",
+            "crowded areas!\x02",
         )
     )
 

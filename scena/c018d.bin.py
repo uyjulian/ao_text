@@ -116,11 +116,14 @@ def main():
         0x8,
         (
             "#6P#04809FAhaha, how pretty.\x02\x03",
-            "Even the symbol of Crossbell, the\x01",
-            "financial city, has become a big torch.\x02\x03",
-            "#04802FAnyway, the "Red Constellation", eh...?\x02\x03",
-            "It seems they can't oppose the\x01",
-            "level of our strengthened jaegers.\x02",
+            "Even the symbol of Crossbell,\x01",
+            "the financial city, has\x01",
+            "become a big torch.\x02\x03",
+            "#04802FAnyway, Red Constellation,\x01",
+            "eh?\x02\x03",
+            "It doesn't seem like they'd\x01",
+            "be a match for our\x01",
+            "strengthened jaegers.\x02",
         )
     )
 
@@ -139,8 +142,9 @@ def main():
         0x8,
         (
             "#04804F#6PUhuhu...\x02\x03",
-            "#04800FAs I thought, is such a\x01",
-            "thing against your style?\x02",
+            "#04800FAs I thought, is\x01",
+            "something like that\x01",
+            "against your style?\x02",
         )
     )
 
@@ -149,10 +153,13 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#11P#04923F#30W...It is.\x02\x03",
-            "#04920FHowever, by nature, "war" is a heartless thing.\x02\x03",
-            "Those persons are only dealing with\x01",
-            "a battlefield in their own style.\x07\x00\x02",
+            "#11P#04923F#30W...That is correct.\x02\x03",
+            "#04920FHowever, war is a\x01",
+            "heartless thing by its\x01",
+            "very nature.\x02\x03",
+            "Those persons are only\x01",
+            "facing a battlefield in\x01",
+            "their own style.\x07\x00\x02",
         )
     )
 
@@ -160,7 +167,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04804F#6PHu hu, I see.\x02",
+        "#04804F#6PHehe, I see.\x02",
     )
 
     CloseMessageWindow()
@@ -188,12 +195,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#5P#04800FAh, Doctor.\x01",
-            "What is it all of a sudden?\x02\x03",
-            "#04805F──Oh?\x01",
-            "You say that the first unit is complete?\x02\x03",
+            "#5P#04800FAh, Doctor. What's this\x01",
+            "all of a sudden?\x02\x03",
+            "#04805F─Oh? The first unit is\x01",
+            "complete, you say?\x02\x03",
             "#04806FYeah, yeah, understood.\x01",
-            "I just have to go back to help, eh?\x02",
+            "I should return to help,\x01",
+            "right?\x02",
         )
     )
 
@@ -217,8 +225,9 @@ def main():
         (
             "#04804F#6P...And so, I'll excuse\x01",
             "myself for a while.\x02\x03",
-            "#04802FCan I leave everything to you\x01",
-            "until the "promised day"?\x02",
+            "#04802FCan I leave everything\x01",
+            "to you until the\x01",
+            ""promised day"?\x02",
         )
     )
 
@@ -241,8 +250,8 @@ def main():
     AnonymousTalk(
         0x9,
         (
-            "#3882V#40WI will firmly see with my eyes...\x01",
-            "The fate surrounding this land.\x07\x00\x02",
+            "#3882V#40WThe fate surrounding this land... I\x01",
+            "will see it with my own eyes.\x07\x00\x02",
         )
     )
 

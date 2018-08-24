@@ -34,7 +34,7 @@ def main():
         "Function_0_DC",           # 00, 0
         "Function_1_EC",           # 01, 1
         "Function_2_ED",           # 02, 2
-        "Function_3_64A",          # 03, 3
+        "Function_3_643",          # 03, 3
     ))
 
 
@@ -157,7 +157,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#12P#N#00210F#12A......!\x02",
+        "#12P#N#00210F#12A...!\x02",
     )
 
     CloseMessageWindow()
@@ -169,7 +169,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#12P#N#00010F#15AWhat in the world...!\x02",
+        "#12P#N#00010F#15AWhat in the world...!?\x02",
     )
 
     CloseMessageWindow()
@@ -189,7 +189,7 @@ def main():
 
     ChrTalk(
         0x8,
-        "#04502F#3839V#15AEh eh eh......\x02",
+        "#04502F#3839V#15AHehehe...\x02",
     )
 
     CloseMessageWindow()
@@ -233,20 +233,20 @@ def main():
     SetChrSubChip(0x8, 0x2)
     Sound(844, 0, 100, 0)
 
-    def lambda_5A8():
+    def lambda_5A1():
         OP_9D(0xFE, 0x0, 0xFA0, 0xFFFF9E58, 0x1388, 0xBB8)
         ExitThread()
 
-    QueueWorkItem(0x8, 1, lambda_5A8)
+    QueueWorkItem(0x8, 1, lambda_5A1)
     WaitChrThread(0x8, 1)
     SetChrChip(0x1, 0x8, 0x0, 0x0)
     SetChrFlags(0x8, 0x8)
 
-    def lambda_5D6():
+    def lambda_5CF():
         OP_93(0xFE, 0x10E, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 2, lambda_5D6)
+    QueueWorkItem(0x104, 2, lambda_5CF)
     OP_6F(0x79)
     StopSound(825, 1000, 100)
     StopSound(868, 1000, 100)
@@ -271,9 +271,9 @@ def main():
 
     # Function_2_ED end
 
-    def Function_3_64A(): pass
+    def Function_3_643(): pass
 
-    label("Function_3_64A")
+    label("Function_3_643")
 
     OP_9F(0x0, 0x9)
     OP_9F(0x1, 0, 2000, -30000)
@@ -281,7 +281,7 @@ def main():
     OP_9F(0x2, 0x9, 35000, 0x6)
     Return()
 
-    # Function_3_64A end
+    # Function_3_643 end
 
     SaveToFile()
 

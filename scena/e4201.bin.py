@@ -42,14 +42,14 @@ def main():
         "Function_0_168",          # 00, 0
         "Function_1_178",          # 01, 1
         "Function_2_179",          # 02, 2
-        "Function_3_94D",          # 03, 3
-        "Function_4_9D2",          # 04, 4
-        "Function_5_A33",          # 05, 5
-        "Function_6_A62",          # 06, 6
-        "Function_7_A8C",          # 07, 7
-        "Function_8_AAF",          # 08, 8
-        "Function_9_AD9",          # 09, 9
-        "Function_10_B4C",         # 0A, 10
+        "Function_3_946",          # 03, 3
+        "Function_4_9CB",          # 04, 4
+        "Function_5_A2C",          # 05, 5
+        "Function_6_A5B",          # 06, 6
+        "Function_7_A85",          # 07, 7
+        "Function_8_AA8",          # 08, 8
+        "Function_9_AD2",          # 09, 9
+        "Function_10_B45",         # 0A, 10
     ))
 
 
@@ -158,8 +158,9 @@ def main():
         0xB,
         (
             "#04306F#6P#40W......Ghhhh......\x02\x03",
-            "#04310F...Going head to head against it\x01",
-            "was really reckless, I guess...?\x02",
+            "#04310F...Going head to head\x01",
+            "against it was really\x01",
+            "reckless, I guess...?\x02",
         )
     )
 
@@ -169,10 +170,11 @@ def main():
         0xA,
         (
             "#13811F#11P...You reap what you sow.\x02\x03",
-            "#13806FReleasing that much "Stigma"\x01",
-            "power in the real world...\x02\x03",
-            "#13801FIf my big sister were here, I think she would've \x01",
-            "been mad about such recklessness for sure.\x02",
+            "#13806FReleasing that much Stigma power\x01",
+            "in the real world...\x02\x03",
+            "#13801FIf my big sister were here, I\x01",
+            "think she would've been mad about\x01",
+            "such recklessness for sure.\x02",
         )
     )
 
@@ -181,9 +183,11 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04306F#6P#30WRight... It seems the secretary-general\x01",
-            "too will yell at me like crazy...\x02\x03",
-            "#04308FI've also broken the Merkabah...\x02",
+            "#04306F#6P#30WRight... Looks like the\x01",
+            "Grand Master's gonna rip\x01",
+            "me a new one...\x02\x03",
+            "#04308FI've also broken the\x01",
+            "Merkabah...\x02",
         )
     )
 
@@ -202,12 +206,14 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04303F#6P#30W*sigh*...if it turns out that it can't be fixed,\x01",
-            "will I get fired from being a Dominion...?\x02\x03",
-            "#04300FWell, if that happens, I guess it'd be alright\x01",
-            "to do a fresh start as a Squire once again...\x02\x03",
-            "#04304FWhen you'll become a Knight,\x01",
-            "I could give you support too...\x02",
+            "#04303F#6P#30W*sigh*... If it turns out that\x01",
+            "it can't be fixed, will I get\x01",
+            "fired from being a Dominion...?\x02\x03",
+            "#04300FWell, if that happens, I guess\x01",
+            "it'd be alright to make a fresh\x01",
+            "start as a Squire once again...\x02\x03",
+            "#04304FWhen you become a Knight, I\x01",
+            "could support you as well...\x02",
         )
     )
 
@@ -215,7 +221,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#13812F#11P...Idiot.\x02",
+        "#13812F#11P...You idiot.\x02",
     )
 
     CloseMessageWindow()
@@ -233,10 +239,13 @@ def main():
         0xA,
         (
             "#13813F#11P#30W......Thank goodness...\x01",
-            "......You're really safe......\x02\x03",
-            "The place big sister was aiming for\x01",
-            "is still so far away, and yet you...\x02\x03",
-            "#13812FReally...you do nothing but crazy stuff...\x02",
+            "......You're really\x01",
+            "safe......\x02\x03",
+            "The place that big sister\x01",
+            "was aiming for is still so\x01",
+            "far away, and yet you...\x02\x03",
+            "#13812FReally... You always do\x01",
+            "these insane stunts...\x02",
         )
     )
 
@@ -246,8 +255,8 @@ def main():
         0xB,
         (
             "#04308F#5P#30WRies...\x02\x03",
-            "#04304F...Yeah...\x01",
-            "There's still so much ahead to do...\x02",
+            "#04304F...Yeah... There's still\x01",
+            "so much ahead to do...\x02",
         )
     )
 
@@ -261,10 +270,11 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#04303F#5P#30W...Maybe I'll do some\x01",
-            "shocking things from\x01",
-            "now on too, but...\x02\x03",
-            "#04300FWill you keep supporting me...?\x02",
+            "#04303F#5P#30W...I might always do\x01",
+            "crazy things like this,\x01",
+            "but...\x02\x03",
+            "#04300FWill you keep supporting\x01",
+            "me...?\x02",
         )
     )
 
@@ -273,8 +283,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#13814F#11P#30W...Naturally...\x01",
-            "How could I leave you be...\x02",
+            "#13814F#11P#30W...Of course... How\x01",
+            "could I leave you\x01",
+            "alone...\x02",
         )
     )
 
@@ -290,11 +301,11 @@ def main():
 
     # Function_2_179 end
 
-    def Function_3_94D(): pass
+    def Function_3_946(): pass
 
-    label("Function_3_94D")
+    label("Function_3_946")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_9D1")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_9CA")
     OP_93(0xFE, 0x0, 0x1F4)
     Sleep(700)
     OP_93(0xFE, 0x13B, 0x12C)
@@ -311,19 +322,19 @@ def main():
     OP_9B(0x0, 0xFE, 0x10E, 0xDAC, 0x3E8, 0x0)
     OP_93(0xFE, 0x0, 0x1F4)
     Sleep(2000)
-    Jump("Function_3_94D")
+    Jump("Function_3_946")
 
-    label("loc_9D1")
+    label("loc_9CA")
 
     Return()
 
-    # Function_3_94D end
+    # Function_3_946 end
 
-    def Function_4_9D2(): pass
+    def Function_4_9CB(): pass
 
-    label("Function_4_9D2")
+    label("Function_4_9CB")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_A32")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_A2B")
     OP_93(0xFE, 0x10E, 0x12C)
     Sleep(700)
     OP_93(0xFE, 0x0, 0x12C)
@@ -336,17 +347,17 @@ def main():
     OP_93(0xFE, 0x13B, 0x12C)
     Sleep(1000)
     OP_9B(0x1, 0xFE, 0x10E, 0x3E8, 0x3E8, 0x0)
-    Jump("Function_4_9D2")
+    Jump("Function_4_9CB")
 
-    label("loc_A32")
+    label("loc_A2B")
 
     Return()
 
-    # Function_4_9D2 end
+    # Function_4_9CB end
 
-    def Function_5_A33(): pass
+    def Function_5_A2C(): pass
 
-    label("Function_5_A33")
+    label("Function_5_A2C")
 
     OP_68(3030, 1660, -14200, 25000)
     MoveCamera(359, 12, 0, 25000)
@@ -354,11 +365,11 @@ def main():
     SetCameraDistance(20000, 19000)
     Return()
 
-    # Function_5_A33 end
+    # Function_5_A2C end
 
-    def Function_6_A62(): pass
+    def Function_6_A5B(): pass
 
-    label("Function_6_A62")
+    label("Function_6_A5B")
 
     Sound(812, 0, 100, 0)
     SetChrSubChip(0xFE, 0x0)
@@ -373,11 +384,11 @@ def main():
     Sleep(450)
     Return()
 
-    # Function_6_A62 end
+    # Function_6_A5B end
 
-    def Function_7_A8C(): pass
+    def Function_7_A85(): pass
 
-    label("Function_7_A8C")
+    label("Function_7_A85")
 
     Sound(898, 0, 100, 0)
     SetChrSubChip(0xFE, 0x4)
@@ -390,11 +401,11 @@ def main():
     Sleep(450)
     Return()
 
-    # Function_7_A8C end
+    # Function_7_A85 end
 
-    def Function_8_AAF(): pass
+    def Function_8_AA8(): pass
 
-    label("Function_8_AAF")
+    label("Function_8_AA8")
 
     Sound(898, 0, 100, 0)
     SetChrSubChip(0xFE, 0x8)
@@ -409,11 +420,11 @@ def main():
     Sleep(450)
     Return()
 
-    # Function_8_AAF end
+    # Function_8_AA8 end
 
-    def Function_9_AD9(): pass
+    def Function_9_AD2(): pass
 
-    label("Function_9_AD9")
+    label("Function_9_AD2")
 
     Sound(203, 0, 25, 0)
     Sleep(900)
@@ -442,11 +453,11 @@ def main():
     Sound(203, 0, 5, 0)
     Return()
 
-    # Function_9_AD9 end
+    # Function_9_AD2 end
 
-    def Function_10_B4C(): pass
+    def Function_10_B45(): pass
 
-    label("Function_10_B4C")
+    label("Function_10_B45")
 
     OP_25(0x364, 0x23)
     Sleep(200)
@@ -457,7 +468,7 @@ def main():
     OP_25(0x364, 0x14)
     Return()
 
-    # Function_10_B4C end
+    # Function_10_B45 end
 
     SaveToFile()
 

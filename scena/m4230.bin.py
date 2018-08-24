@@ -166,7 +166,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a monster harboring a great power.\x02",
+            "There is a monster\x01",
+            "harboring great power.\x02",
         )
     )
 
@@ -178,7 +179,7 @@ def main():
         0,
         (
             "[Exterminate]\x01",      # 0
-            "[Quit]\x01",             # 1
+            "[Cancel]\x01",           # 1
         )
     )
 
@@ -284,7 +285,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "You felt an outrageous power awakening somewhere!\x02",
+            "You felt an\x01",
+            "extraordinary power\x01",
+            "awaken somewhere!\x02",
         )
     )
 

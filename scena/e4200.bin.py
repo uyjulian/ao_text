@@ -40,13 +40,13 @@ def main():
         "Function_0_148",          # 00, 0
         "Function_1_158",          # 01, 1
         "Function_2_16D",          # 02, 2
-        "Function_3_22ED",         # 03, 3
-        "Function_4_2364",         # 04, 4
-        "Function_5_2398",         # 05, 5
-        "Function_6_23C0",         # 06, 6
-        "Function_7_23E8",         # 07, 7
-        "Function_8_2405",         # 08, 8
-        "Function_9_241B",         # 09, 9
+        "Function_3_21E6",         # 03, 3
+        "Function_4_225D",         # 04, 4
+        "Function_5_2291",         # 05, 5
+        "Function_6_22B9",         # 06, 6
+        "Function_7_22E1",         # 07, 7
+        "Function_8_22FE",         # 08, 8
+        "Function_9_2314",         # 09, 9
     ))
 
 
@@ -142,17 +142,9 @@ def main():
 
     ChrTalk(
         0xA,
-        "#00011F#5PA Goddess-sent divine beast...?\x02",
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x9,
         (
-            scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PHm, it's quicker if you think\x01",
-            "about me in those terms.\x02",
+            "#00011F#5PA Goddess-sent divine\x01",
+            "beast...?\x02",
         )
     )
 
@@ -162,8 +154,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PThe great "Sept-Terrions" were once\x01",
-            "bestowed upon man by the Goddess...\x02",
+            "#11PYes, it's quicker if you\x01",
+            "think of me in those\x01",
+            "terms.\x02",
         )
     )
 
@@ -173,8 +166,21 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PWe're those who keep existing\x01",
-            "in order to watch man's future.\x02",
+            "#11PThe great Sept-Terrions\x01",
+            "were once bestowed upon\x01",
+            "man by the Goddess...\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x9,
+        (
+            scpstr(SCPSTR_CODE_COLOR, 0x3),
+            "#11PWe are they who continue\x01",
+            "to exist to keep watch\x01",
+            "over man's future.\x02",
         )
     )
 
@@ -183,9 +189,10 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00003F#5P"We"...you mean that...\x02\x03",
-            "#00001FEven the "dragon" that appeared\x01",
-            "during the Liberl phenomenon...?\x02",
+            "#00003F#5PBy "We", you mean...\x02\x03",
+            "#00001FEven the "dragon" that\x01",
+            "appeared during the\x01",
+            "Liberl phenomenon...?\x02",
         )
     )
 
@@ -195,7 +202,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PHm, you really are sharp.\x02",
+            "#11PHm, you really are quite\x01",
+            "sharp.\x02",
         )
     )
 
@@ -205,8 +213,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PThat dragon, Ragnard, is indeed\x01",
-            "one of my brethren too.\x02",
+            "#11PThat dragon, Ragnard, is\x01",
+            "indeed one of my\x01",
+            "brethren.\x02",
         )
     )
 
@@ -216,8 +225,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PHe remained in the land of Liberl to\x01",
-            "protect the "Sept-Terrion of Space", but...\x02",
+            "#11PHe remained in the land of\x01",
+            "Liberl to protect the Sept-\x01",
+            "Terrion of Space, but...\x02",
         )
     )
 
@@ -227,8 +237,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PEven I don't know where he disappeared to,\x01",
-            "now that he's been untied from his "duty".\x02",
+            "#11PEven I don't know where he\x01",
+            "disappeared to, now that he's\x01",
+            "been released from his "duty".\x02",
         )
     )
 
@@ -237,9 +248,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5PI hardly get it, but...\x02\x03",
-            "#00008FBut then, you too have been staying\x01",
-            "in Crossbell since a long time ago...?\x02",
+            "#00006F#5PI-I don't really get\x01",
+            "it...\x02\x03",
+            "#00008FBut then, you've been in\x01",
+            "this land of Crossbell\x01",
+            "for a long time...?\x02",
         )
     )
 
@@ -249,8 +262,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PHm, since before the "Great Collapse"\x01",
-            "of 1200 years ago.\x02",
+            "#11PYes, since before the\x01",
+            "Great Collapse 1200\x01",
+            "years ago.\x02",
         )
     )
 
@@ -260,8 +274,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PWhy did the former "Sept-Terrion of\x01",
-            "Mirage" ended up disappearing...?\x02",
+            "#11PWhy did the former Sept-\x01",
+            "Terrion of Mirage\x01",
+            "disappear...?\x02",
         )
     )
 
@@ -271,8 +286,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PAnd what was done afterwards\x01",
-            "to revive that Sept-Terrion...?\x02",
+            "#11PAnd afterwards, what was\x01",
+            "done to revive that\x01",
+            "Sept-Terrion...?\x02",
         )
     )
 
@@ -282,7 +298,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PI know those things to a certain degree.\x02",
+            "#11PI know those things to a\x01",
+            "certain degree.\x02",
         )
     )
 
@@ -305,12 +322,14 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P...Honestly, even if we researched\x01",
-            "that part, we couldn't understand it.\x02\x03",
-            "#00008FA Goddess' Sept-Terrion...\x01",
-            "That the Crois clan inherited...\x02\x03",
-            "Why was the Sept-Terrion lost?\x01",
-            "Why KeA ended up being\x01",
+            "#00006F#5P...Honestly, even if we tried\x01",
+            "to research those things,\x01",
+            "there'd be parts we couldn't.\x02\x03",
+            "#00008FOne of the Goddess' Sept-\x01",
+            "Terrion... that the Crois\x01",
+            "clan inherited...\x02\x03",
+            "Why was the Sept-Terrion\x01",
+            "lost? Why did KeA have to be\x01",
             "burdened with such a role...?\x02",
         )
     )
@@ -322,11 +341,12 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00001F#5P──I beg you.\x01",
-            "Please, tell me...\x02\x03",
-            "The events of 1200 years ago.\x02\x03",
-            "And what happened to\x01",
-            "KeA 500 years ago.\x02",
+            "#00001F#5P─I beg you. Please, tell\x01",
+            "me...\x02\x03",
+            "The events of 1200 years\x01",
+            "ago.\x02\x03",
+            "And what happened to KeA\x01",
+            "500 years ago as well.\x02",
         )
     )
 
@@ -341,7 +361,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P──Very well.\x02",
+            "#11P─Very well.\x02",
         )
     )
 
@@ -352,7 +372,7 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
             "#11PWell, that's why I\x01",
-            "appeared to you.\x02",
+            "appeared before you.\x02",
         )
     )
 
@@ -370,7 +390,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PThe Sept-Terrion handed down to this land...\x02",
+            "#11PThe Sept-Terrion handed\x01",
+            "down to this land...\x02",
         )
     )
 
@@ -380,8 +401,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PIt was called "Demiourgos",\x01",
-            "the god that governs "Mirage".\x02",
+            "#11PIt was called\x01",
+            "Demiourgos, the god that\x01",
+            "governs "Mirage".\x02",
         )
     )
 
@@ -398,13 +420,14 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P"Mirage" is an attribute that controls perception\x01",
-            "and cognizance. Furthermore, it governs "karma".\x02\x03",
-            "There was something that a part of the humans,\x01",
-            "with the Crois clan of back then at the centre\x01",
-            "who had the Sept-Terrion's power, wanted...\x02\x03",
-            "And that was the role of a "God" of the surface...\x01",
-            "Instead of Aidios.\x07\x00\x02",
+            "#11P"Mirage" is an attribute that controls\x01",
+            "perception and cognizance. Furthermore, it\x01",
+            "governs Fate.\x02\x03",
+            "There was something that some humans, with\x01",
+            "the Crois clan of back then with the Sept-\x01",
+            "Terrion's power at the center, wanted...\x02\x03",
+            "And that was the role of a God of the\x01",
+            "surface... instead of Aidios.\x07\x00\x02",
         )
     )
 
@@ -421,20 +444,23 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PTo guide the humans by knowing man, knowing\x01",
-            "all of the surface, controlling karma...\x02\x03",
-            "Apparently, it was something that \x01",
-            "even the "Aureole" that limitlessly\x01",
-            "granted man's desires, had too.\x02\x03",
-            "However, in the case of "Demiourgos"...\x01",
-            "It did the same without making mistakes\x01",
-            "by being able to award an eminent personality.\x02\x03",
-            "Wisdom and discernment to guide on the right\x01",
-            "path without corrupting man in the end...\x02\x03",
-            "With that power, it should've been able to guide\x01",
-            "on the correct path the existence called "man".\x02\x03",
-            "──That is, until the Sept-Terrion\x01",
-            "own "soul" didn't reach the limit.\x07\x00\x02",
+            "#11PTo guide mankind by knowing humans,\x01",
+            "knowing the entire world and\x01",
+            "controlling fate...\x02\x03",
+            "At first glance, it could be understood\x01",
+            "as similar to the Aureole that granted\x01",
+            "human desires without limit.\x02\x03",
+            "However, Demiourgos avoided the same\x01",
+            "faults by choosing eminent personality.\x02\x03",
+            "In the end, it had wisdom and judgment\x01",
+            "to guide humans without corrupting\x01",
+            "them...\x02\x03",
+            "With those powers, it should have been\x01",
+            "able to guide the existence called\x01",
+            ""man" on the correct path.\x02\x03",
+            "─That is, if the "heart" of the Sept-\x01",
+            "Terrion itself had not reached its\x01",
+            "limit.\x07\x00\x02",
         )
     )
 
@@ -452,18 +478,23 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PAll the human's "natures" and "karmas",\x01",
-            "all the world's irrationalities──\x02\x03",
-            "Comprehending those and guiding means\x01",
-            "to have the same human "emotions".\x02\x03",
-            "So "Demiourgos"'s "soul" gradually\x01",
-            "broke and fell ill.\x02\x03",
-            ""If it keeps going like this, in time I will go \x01",
-            "berserk and hurt the people I should protect..."\x02\x03",
-            "The Sept-Terrion who understood that──\x01",
-            "After much worries, took a decision.\x02\x03",
-            "To dissolve his own karma...\x01",
-            "The path to disappear from this world.\x07\x00\x02",
+            "#11PAll of human nature and fate,\x01",
+            "all the world's\x01",
+            "irrationalities─\x02\x03",
+            "Comprehending them and guiding\x01",
+            "is the same as having human\x01",
+            ""emotions".\x02\x03",
+            "And so, Demiourgos' "heart"\x01",
+            "gradually deteriorated and\x01",
+            "fell ill.\x02\x03",
+            ""At this rate, I will\x01",
+            "eventually go berserk and harm\x01",
+            "those I should protect"...\x02\x03",
+            "The Sept-Terrion sensed this─\x01",
+            "And after much worry, reached\x01",
+            "a decision.\x02\x03",
+            "It would unbind its own fate,\x01",
+            "and disappear from this world.\x02",
         )
     )
 
@@ -493,9 +524,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P...That's what happened...\x02\x03",
-            "#00013FBut then, the people\x01",
-            "who were left behind...\x02",
+            "#00006F#5P...That much, huh...\x02\x03",
+            "#00013FBut then, the people who\x01",
+            "were left behind...\x02",
         )
     )
 
@@ -505,8 +536,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PHm──they were earnestly bewildered, in sorrow\x01",
-            "and scared by the Sept-Terrion's disappearance.\x02",
+            "#11PYes─ They were earnestly\x01",
+            "bewildered, sorrowed and scared by\x01",
+            "the Sept-Terrion's disappearance.\x02",
         )
     )
 
@@ -516,9 +548,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PThen, without reflecting upon why \x01",
-            "things went that way and about what \x01",
-            "the Sept-Terrion was thinking...\x02",
+            "#11PThen, without reflecting upon\x01",
+            "why it happened or what the\x01",
+            "Sept-Terrion was thinking...\x02",
         )
     )
 
@@ -528,8 +560,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PThey became obsessed to create an\x01",
-            "existence equal to the lost Sept-Terrion.\x02",
+            "#11PThey became obsessed with the\x01",
+            "creation of an existence equal\x01",
+            "to the lost Sept-Terrion.\x02",
         )
     )
 
@@ -545,13 +578,14 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P──Naturally, at the very beginning,\x01",
-            "it was just fumbling.\x02\x03",
-            "However, across 700 years,\x01",
-            "while they gathered many kinds of knowledge,\x01",
-            "they worked out a peculiar technique.\x02\x03",
-            "Namely, the witchcraft called "Alchemy"\x01",
-            "that can bring forth matter from nothing.\x07\x00\x02",
+            "#11P─Naturally, at the very\x01",
+            "beginning, it was just fumbling.\x02\x03",
+            "However, across 700 years, they\x01",
+            "gathered much knowledge and\x01",
+            "worked out a peculiar technique.\x02\x03",
+            "Namely, the witchcraft called\x01",
+            "Alchemy that can bring forth\x01",
+            "matter from nothing.\x07\x00\x02",
         )
     )
 
@@ -566,18 +600,14 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PThen, they made an outrageous\x01",
-            "grand plan in this land.\x02\x03",
-            "They prepared a puppet, a "Cult".\x01",
-            "They entrusted them an existence that\x01",
-            "would've become the new Sept-Terrion's \x01",
-            ""core" and had them raise it...\x02\x03",
-            "Then, they prepared in this land\x01",
-            "massive "rituals" to which it was applied,\x01",
-            "to the extreme, the concept of "education"...\x02\x03",
-            "This was the plan the alchemists\x01",
-            "of the Crois clan had started──\x01",
-            "Several hundred years ago.\x07\x00\x02",
+            "#11PThen, they made a grand plan for this land.\x02\x03",
+            "They prepared a puppet, a Cult. They entrusted\x01",
+            "them an existence that would become the new\x01",
+            "Sept-Terrion's "core" and had them raise it...\x02\x03",
+            "Then, in the name of "education", they\x01",
+            "prepared massive "rituals" in this land...\x02\x03",
+            "This was the plan the alchemists of the Crois\x01",
+            "clan started─ several hundred years ago.\x07\x00\x02",
         )
     )
 
@@ -595,14 +625,14 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PFor that to be financially feasible,\x01",
-            "they decided to don the outward\x01",
-            "mask of "bankers"...\x02\x03",
-            "On the other hand, the "Cult" began\x01",
-            "to move to awaken the "core" that was\x01",
-            "given to them as an object of worship.\x02\x03",
-            "Then, 500 years passed──\x01",
-            "And that's how we reached this situation.\x07\x00\x02",
+            "#11PFor that to be financially\x01",
+            "feasible, they decided to don the\x01",
+            "outward mask of "bankers"...\x02\x03",
+            "On the other hand, the Cult began\x01",
+            "to awaken the "core" that was given\x01",
+            "to them as an object of worship.\x02\x03",
+            "Then, 500 years passed─ which\x01",
+            "brings us to the current situation.\x07\x00\x02",
         )
     )
 
@@ -626,9 +656,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P...That's an absurd story.\x02\x03",
-            "#00008FBut I feel that...I can finally\x01",
-            "begin to see the full picture.\x02",
+            "#00006F#5P...That's an absurd\x01",
+            "story.\x02\x03",
+            "#00008FBut I feel that... I can\x01",
+            "finally begin to see the\x01",
+            "full picture.\x02",
         )
     )
 
@@ -640,12 +672,13 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00003F#5P──Zeit.\x01",
-            "Miss Mariabell said that KeA\x01",
-            "is the "Sept-Terrion of Zero".\x02\x03",
+            "#00003F#5P─Zeit. Mariabell said\x01",
+            "that KeA is the Sept-\x01",
+            "Terrion of Zero.\x02\x03",
             "#00013FWhat did she mean?\x02\x03",
-            "Is that another different thing from\x01",
-            "the lost "Sept-Terrion of Mirage"?\x02",
+            "Is that different from\x01",
+            "the lost Sept-Terrion of\x01",
+            "Mirage?\x02",
         )
     )
 
@@ -655,8 +688,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PUnfortunately...\x01",
-            "I don't know about what you're asking me.\x02",
+            "#11PUnfortunately... I do\x01",
+            "not know.\x02",
         )
     )
 
@@ -666,8 +699,8 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PProbably, the Crois clan caught hold\x01",
-            "of "something" at the end of their deep\x01",
+            "#11PMost likely, the Crois clan grabbed\x01",
+            "hold of "something" during their deep\x01",
             "rooted delusion spanning 1200 years.\x02",
         )
     )
@@ -678,9 +711,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PBecause of that, not only\x01",
-            "they reproduced an existence\x01",
-            "equal to "Demiourgos"...\x02",
+            "#11PBecause of that, they not\x01",
+            "only reproduced an existence\x01",
+            "equal to Demiourgos...\x02",
         )
     )
 
@@ -690,8 +723,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PBut it seems they completed a Sept-Terrion\x01",
-            "which holds powers surpassing his.\x02",
+            "#11PBut it seems they produced\x01",
+            "a Sept-Terrion holding\x01",
+            "powers surpassing its.\x02",
         )
     )
 
@@ -707,9 +741,11 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P──The powers of that white doll.\x02\x03",
-            "Those are not the doll's,\x01",
-            "but the "Sept-Terrion"'s.\x02",
+            "#11P─The powers of that\x01",
+            "white doll.\x02\x03",
+            "Those are not the\x01",
+            "doll's, but the Sept-\x01",
+            "Terrion's.\x02",
         )
     )
 
@@ -727,9 +763,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PAlso, the "Sept-Terrion of Mirage"\x01",
-            "didn't posses powers that could do\x01",
-            "such a thing in mere moments.\x02",
+            "#11PAlso, the Sept-Terrion of Mirage\x01",
+            "didn't posses powers that could\x01",
+            "do such things in mere moments.\x02",
         )
     )
 
@@ -747,12 +783,12 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PIf anything, the power to make\x01",
-            "space disappear origins in the \x01",
-            "attribute of "Space".\x02\x03",
-            "Assuming that that isn't all...\x01",
-            "Even I can't fathom how much\x01",
-            "latent faculties it has.\x07\x00\x02",
+            "#11PIf pushed, I'd say the power to\x01",
+            "create void lies in the attribute\x01",
+            "of "Space".\x02\x03",
+            "If that isn't the limit of its\x01",
+            "abilities... I can only imagine\x01",
+            "what sort of powers it might have.\x07\x00\x02",
         )
     )
 
@@ -784,11 +820,12 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P──Tell me one more thing.\x02\x03",
+            "#00006F#5P─Tell me one more thing.\x02\x03",
             "#00008FAccording to what I've\x01",
-            "heard until now, that kid...\x02\x03",
-            "#00001F...KeA...\x01",
-            "Is not a human being?\x02",
+            "heard until now, that\x01",
+            "kid...\x02\x03",
+            "#00001F...KeA... She's not a\x01",
+            "human being?\x02",
         )
     )
 
@@ -798,7 +835,7 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11P......Hm.\x02",
+            "#11P......Yes.\x02",
         )
     )
 
@@ -818,8 +855,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PShe's a made existence as a "core"\x01",
-            "to reproduce a "Sept-Terrion"──\x02",
+            "#11PShe is a created\x01",
+            "existence to serve as the\x01",
+            ""core" of a Sept-Terrion─\x02",
         )
     )
 
@@ -829,8 +867,9 @@ def main():
         0x9,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x3),
-            "#11PShe's probably a "Homunculus" that was\x01",
-            "educated with alchemy's secret techniques.\x02",
+            "#11PMost likely a Homunculus\x01",
+            "created using the secret\x01",
+            "techniques of alchemy.\x02",
         )
     )
 
@@ -878,10 +917,11 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#00006F#5P#30W(Maybe... She had known about\x01",
-            "that already for a while, but...)\x02\x03",
-            "(But in front of us,\x01",
-            "she smiled like that...)\x02\x03",
+            "#00006F#5P#30W(She has probably known\x01",
+            "that for quite a while,\x01",
+            "but...)\x02\x03",
+            "(But in front of us, she\x01",
+            "smiled like that...)\x02\x03",
             "#00008F(......KeA......)\x02",
         )
     )
@@ -910,9 +950,9 @@ def main():
 
     # Function_2_16D end
 
-    def Function_3_22ED(): pass
+    def Function_3_21E6(): pass
 
-    label("Function_3_22ED")
+    label("Function_3_21E6")
 
     Sound(132, 2, 20, 0)
     Sleep(200)
@@ -949,11 +989,11 @@ def main():
     OP_25(0x84, 0x64)
     Return()
 
-    # Function_3_22ED end
+    # Function_3_21E6 end
 
-    def Function_4_2364(): pass
+    def Function_4_225D(): pass
 
-    label("Function_4_2364")
+    label("Function_4_225D")
 
     Sleep(200)
     Sound(962, 2, 30, 0)
@@ -971,11 +1011,11 @@ def main():
     OP_25(0x3C2, 0x3C)
     Return()
 
-    # Function_4_2364 end
+    # Function_4_225D end
 
-    def Function_5_2398(): pass
+    def Function_5_2291(): pass
 
-    label("Function_5_2398")
+    label("Function_5_2291")
 
     OP_25(0x3C2, 0x37)
     Sleep(100)
@@ -990,11 +1030,11 @@ def main():
     OP_25(0x3C2, 0x1E)
     Return()
 
-    # Function_5_2398 end
+    # Function_5_2291 end
 
-    def Function_6_23C0(): pass
+    def Function_6_22B9(): pass
 
-    label("Function_6_23C0")
+    label("Function_6_22B9")
 
     OP_25(0x3C2, 0x23)
     Sleep(100)
@@ -1009,11 +1049,11 @@ def main():
     OP_25(0x3C2, 0x3C)
     Return()
 
-    # Function_6_23C0 end
+    # Function_6_22B9 end
 
-    def Function_7_23E8(): pass
+    def Function_7_22E1(): pass
 
-    label("Function_7_23E8")
+    label("Function_7_22E1")
 
     SetChrSubChip(0x101, 0x1)
     Sleep(150)
@@ -1025,11 +1065,11 @@ def main():
     Sleep(1000)
     Return()
 
-    # Function_7_23E8 end
+    # Function_7_22E1 end
 
-    def Function_8_2405(): pass
+    def Function_8_22FE(): pass
 
-    label("Function_8_2405")
+    label("Function_8_22FE")
 
     SetChrSubChip(0x101, 0x0)
     Sleep(100)
@@ -1039,11 +1079,11 @@ def main():
     Sleep(200)
     Return()
 
-    # Function_8_2405 end
+    # Function_8_22FE end
 
-    def Function_9_241B(): pass
+    def Function_9_2314(): pass
 
-    label("Function_9_241B")
+    label("Function_9_2314")
 
     SetChrSubChip(0x101, 0x2)
     Sleep(100)
@@ -1053,7 +1093,7 @@ def main():
     Sleep(200)
     Return()
 
-    # Function_9_241B end
+    # Function_9_2314 end
 
     SaveToFile()
 

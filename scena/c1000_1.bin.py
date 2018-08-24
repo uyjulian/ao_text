@@ -56,7 +56,7 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00005FYes, Special Support Section,\x01",
+            "#00005FSpecial Support Section,\x01",
             "Lloyd Bannings speaking.\x02",
         )
     )
@@ -72,8 +72,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#2711V#30WHello, Mr. Lloooyd!\x02\x03",
-            "#2712V#30WThank you for your hard work in the raaain.\x02",
+            "#2711V#30WHello, Lloyd!\x02\x03",
+            "#2712V#30WGood work in the rain,\x01",
+            "everyone.\x02",
         )
     )
 
@@ -88,9 +89,9 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00002FAh, Fran?\x02\x03",
-            "#00000FIs something wrong?\x01",
-            "Has an urgent request come in?\x02",
+            "#00002FOh, Fran.\x02\x03",
+            "#00000FWhat's wrong? An urgent\x01",
+            "request?\x02",
         )
     )
 
@@ -104,9 +105,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Ehm, well...\x02\x03",
-            "Do you remember Mainz\x01",
-            "Town Mayor, Bickson?\x02",
+            "Umm, well...\x02\x03",
+            "Do you remember Mayor\x01",
+            "Bickson of Mainz?\x02",
         )
     )
 
@@ -142,8 +143,8 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00001F...Could it be that something has\x01",
-            "happened at the mining town?\x02",
+            "#00001F...Did something happen\x01",
+            "up at the mining town?\x02",
         )
     )
 
@@ -157,11 +158,12 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Yes, it appears that monsters\x01",
-            "showed up inside the mine...\x02\x03",
-            "Ah, however, it seems it's\x01",
-            "an old mine located a little\x01",
-            "far away from the town.\x02",
+            "Yes, it seems monsters\x01",
+            "have appeared in the\x01",
+            "mine...\x02\x03",
+            "Though, they appeared in\x01",
+            "the old mine a little\x01",
+            "ways from town.\x02",
         )
     )
 
@@ -175,8 +177,9 @@ def main():
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             "#00005F...?\x02\x03",
-            "#00001FI don't think it's strange for monsters\x01",
-            "to appear in such a place...\x02",
+            "#00001FI'm pretty sure it isn't\x01",
+            "strange for monsters to show\x01",
+            "up in a place like that.\x02",
         )
     )
 
@@ -190,12 +193,14 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Yes, and it's not that any harm\x01",
-            "came to the miners too.\x02\x03",
-            "It's just that it appears that something\x01",
-            "very strange is happening inside...\x02\x03",
-            "To sum it up, he asks if you\x01",
-            "could investigate just in case.\x02",
+            "Yes, apparently, all of\x01",
+            "the miners are unhurt.\x02\x03",
+            "It's just, it appears\x01",
+            "that something strange is\x01",
+            "going on inside...\x02\x03",
+            "Mayor Bickson is asking\x01",
+            "if you could investigate,\x01",
+            "just to be safe.\x02",
         )
     )
 
@@ -208,11 +213,11 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00003FSomething very strange...\x01",
-            "That's a bit incomprehensible.\x02\x03",
-            "#00000F──All right.\x01",
-            "We took care of the urgent requests in the\x01",
-            "city, so we'll head to Mainz from now on.\x02",
+            "#00003FSomething strange... That's\x01",
+            "rather nonspecific.\x02\x03",
+            "#00000F─Understood. Our urgent requests\x01",
+            "in the city are finished, so\x01",
+            "we'll head for Mainz.\x02",
         )
     )
 
@@ -226,12 +231,12 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Yes, pleeease.\x02\x03",
-            "Ah, I'm taking the opportunity to also tell\x01",
-            "you that, just before, a Wanted Monster\x01",
-            "request appeared for Mainz Mountain Path.\x02\x03",
-            "Please deal with it if you\x01",
-            "have time on your hands.\x02",
+            "Yes, please do!\x02\x03",
+            "Ah, there's another thing I need\x01",
+            "to tell you: A wanted monster was\x01",
+            "spotted on Mainz Mountain Path.\x02\x03",
+            "Please deal with it if you have\x01",
+            "extra time.\x02",
         )
     )
 
@@ -258,10 +263,12 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Also, unlike Crossbell City, it appears that\x01",
-            "there's a clear sky on Mainz Mountain Path.\x02\x03",
-            "Since you can, why not going\x01",
-            "there with your orbal car?\x02",
+            "Also, unlike Crossbell\x01",
+            "City, there's clear skies\x01",
+            "on Mainz Mountain Path.\x02\x03",
+            "Since you have a car, how\x01",
+            "about going there using\x01",
+            "it?\x02",
         )
     )
 
@@ -274,9 +281,11 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00004FIs that so? Got it.\x02\x03",
-            "#00000FThank you, Fran.\x01",
-            "If something comes up, contact us again.\x02",
+            "#00004FThat's right...\x01",
+            "Understood.\x02\x03",
+            "#00000FThanks Fran. Contact us\x01",
+            "again if anything\x01",
+            "happens.\x02",
         )
     )
 
@@ -290,7 +299,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Yes, then excuse meee.\x07\x00\x02",
+            "Yes, well goodbye, then.\x07\x00\x02",
         )
     )
 
@@ -308,7 +317,10 @@ def main():
 
     AnonymousTalk(
         0x109,
-        "#10105FIt seemed from Fran.\x02",
+        (
+            "#10105FThat was Fran, wasn't\x01",
+            "it.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -319,8 +331,8 @@ def main():
     AnonymousTalk(
         0x102,
         (
-            "#00101FIt seems something has\x01",
-            "happened in the Mainz region?\x02",
+            "#00101FSomething happened\x01",
+            "around Mainz?\x02",
         )
     )
 
@@ -332,12 +344,14 @@ def main():
     AnonymousTalk(
         0x101,
         (
-            "#00006FYeah, in an old mine it seems\x01",
-            "something strange is going on.\x02\x03",
-            "#00000FWe have cleared the support requests inside\x01",
-            "the city, so let's go after we're prepared.\x02\x03",
-            "#00002FOh, since it appears the weather is clear \x01",
-            "over there, we could go with the car.\x02",
+            "#00006FYeah, something strange occurred\x01",
+            "at the old mine.\x02\x03",
+            "#00000FWe took care of the support\x01",
+            "requests in the city, so let's go\x01",
+            "there once we're ready.\x02\x03",
+            "#00002FOh yeah, there's clear weather on\x01",
+            "the mountain path now, so I think\x01",
+            "we should go using our car.\x02",
         )
     )
 
@@ -359,9 +373,9 @@ def main():
     AnonymousTalk(
         0x109,
         (
-            "#10100FIf we're going to the mining town with the car,\x01",
-            "then let's go to the Support Section back \x01",
-            "entrance.\x02",
+            "#10100FIf we're going by car,\x01",
+            "let's head to the Support\x01",
+            "Section rear entrance.\x02",
         )
     )
 
@@ -377,8 +391,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "A new Wanted Monster was added to the Detective\x01",
-            "Notebook and the Support Section terminal.\x07\x00\x02",
+            "A new wanted monster was added\x01",
+            "to the Detective Notebook and\x01",
+            "Support Section terminal.\x07\x00\x02",
         )
     )
 

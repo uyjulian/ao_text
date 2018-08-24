@@ -48,9 +48,9 @@ def main():
         "Function_1_1F0",          # 01, 1
         "Function_2_23A",          # 02, 2
         "Function_3_23B",          # 03, 3
-        "Function_4_2F1",          # 04, 4
-        "Function_5_4BD",          # 05, 5
-        "Function_6_53E",          # 06, 6
+        "Function_4_2EB",          # 04, 4
+        "Function_5_49D",          # 05, 5
+        "Function_6_520",          # 06, 6
     ))
 
 
@@ -157,7 +157,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a car magazine, "Monthly Car Mania Vol.1".\x07\x00\x02",
+            "It's a car magazine,\x01",
+            ""Monthly Car Mania\x01",
+            "Vol.1".\x07\x00\x02",
         )
     )
 
@@ -165,7 +167,7 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(14, 280, 60, 3)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 1)), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x36C, 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_2ED")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x31, 1)), scpexpr(EXPR_EXEC_OP, "GetItemNumber(0x36C, 0x0)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_2E7")
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
     SetChrName("")
@@ -173,8 +175,9 @@ def main():
     AnonymousTalk(
         0xFF,
         (
-            "You learned the\x01",
-            ""Sky Coloring"\x07\x00",
+            "Learned the \x07\x02",
+            ""Sky\x01",
+            "Coloring"\x07\x00",
             " paint pattern.\x02",
         )
     )
@@ -185,19 +188,19 @@ def main():
     SetMessageWindowPos(14, 280, 60, 3)
     AddItemNumber(0x36C, 1)
 
-    label("loc_2ED")
+    label("loc_2E7")
 
     TalkEnd(0xFF)
     Return()
 
     # Function_3_23B end
 
-    def Function_4_2F1(): pass
+    def Function_4_2EB(): pass
 
-    label("Function_4_2F1")
+    label("Function_4_2EB")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x14A, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_440")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x14A, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_425")
 
     ChrTalk(
         0x8,
@@ -208,7 +211,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00000FGood evening, Mr. Harold.\x02",
+        "#00000FGood evening, Harold.\x02",
     )
 
     CloseMessageWindow()
@@ -216,8 +219,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00104FA nice smell is coming from the second floor...\x01",
-            "It seems your wife is preparing dinner.\x01\x02",
+            "#00104FA nice smell is coming from\x01",
+            "the second floor... It seems\x01",
+            "your wife is preparing dinner.\x02",
         )
     )
 
@@ -226,53 +230,56 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#03600FYes, you're right.\x01",
-            "Also, it seems that today\x01",
-            "Colin is helping her too.\x02\x03",
-            "#03609FMan, I've just returned\x01",
-            "from a place and I'm\x01",
-            "very hungry.\x02",
+            "#03600FYes, you're right. And\x01",
+            "it seems Colin is\x01",
+            "helping her today, too.\x02\x03",
+            "#03609FMan, I've just gotten\x01",
+            "home and I'm very\x01",
+            "hungry.\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x14A, 6)
-    Jump("loc_4B9")
+    Jump("loc_499")
 
-    label("loc_440")
+    label("loc_425")
 
 
     ChrTalk(
         0x8,
         (
-            "#03600FIt seems that today\x01",
-            "Colin is helping too.\x01\x02\x03",
-            "#03609FUh uh, I can't wait to see\x01",
-            "what dishes I'm going to have.\x02",
+            "#03600FIt seems Colin is\x01",
+            "helping too today.\x02\x03",
+            "#03609FHaha, I can't wait to\x01",
+            "see what dishes we're\x01",
+            "going to have.\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_4B9")
+    label("loc_499")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_4_2F1 end
+    # Function_4_2EB end
 
-    def Function_5_4BD(): pass
+    def Function_5_49D(): pass
 
-    label("Function_5_4BD")
+    label("Function_5_49D")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0x9,
         (
-            "#03700FAlright, we only need to wait to simmer.\x02\x03",
-            "#03709FUh uh, you did well, Colin.\x01",
-            "Papa will be delighted for sure.\x02",
+            "#03700FAlright, we only need to\x01",
+            "let it simmer.\x02\x03",
+            "#03709FHaha. You did well,\x01",
+            "Colin. Your dad will be\x01",
+            "delighted for sure.\x02",
         )
     )
 
@@ -280,22 +287,21 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_4BD end
+    # Function_5_49D end
 
-    def Function_6_53E(): pass
+    def Function_6_520(): pass
 
-    label("Function_6_53E")
+    label("Function_6_520")
 
     TalkBegin(0xFE)
 
     ChrTalk(
         0xA,
         (
-            "#03802FTonight's dinner\x01",
-            "is curry...\x02\x03",
-            "#03809FEhehe, I cut\x01",
-            "the vegetables.\x01",
-            "Cool, eh?\x02",
+            "#03802FTonight's dinner is\x01",
+            "curry...\x02\x03",
+            "#03809FEhehe, I cut the\x01",
+            "vegetables. Cool, huh?\x02",
         )
     )
 
@@ -303,7 +309,7 @@ def main():
     TalkEnd(0xFE)
     Return()
 
-    # Function_6_53E end
+    # Function_6_520 end
 
     SaveToFile()
 

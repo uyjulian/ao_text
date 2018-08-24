@@ -49,8 +49,8 @@ def main():
         "Function_2_1FF",          # 02, 2
         "Function_3_226",          # 03, 3
         "Function_4_227",          # 04, 4
-        "Function_5_2B1",          # 05, 5
-        "Function_6_3EE",          # 06, 6
+        "Function_5_2AA",          # 05, 5
+        "Function_6_3E9",          # 06, 6
     ))
 
 
@@ -170,8 +170,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Oh, before I knew it, the\x01",
-            "sky has become all dark.\x02",
+            "Oh, before I knew it,\x01",
+            "the sky has become all\x01",
+            "dark.\x02",
         )
     )
 
@@ -180,8 +181,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "My husband is coming back home so\x01",
-            "I must hurry up and prepare dinner.\x02",
+            "My husband is coming\x01",
+            "home, so I must hurry\x01",
+            "and prepare dinner.\x02",
         )
     )
 
@@ -191,12 +193,12 @@ def main():
 
     # Function_4_227 end
 
-    def Function_5_2B1(): pass
+    def Function_5_2AA(): pass
 
-    label("Function_5_2B1")
+    label("Function_5_2AA")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_384")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_375")
 
     ChrTalk(
         0xFE,
@@ -212,25 +214,26 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "This must be my father's doing,\x01",
-            "for sure. I wonder how many times\x01",
-            "will he use the same tactics.\x02",
+            "This is my father's doing for\x01",
+            "sure. I wonder how many times\x01",
+            "he'll use the same tactics.\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 1)
     ClearChrFlags(0xFE, 0x10)
-    Jump("loc_3EA")
+    Jump("loc_3E5")
 
-    label("loc_384")
+    label("loc_375")
 
 
     ChrTalk(
         0xFE,
         (
-            "Sometimes father does like this\x01",
-            "to try to make me like the railway.\x02",
+            "My father does things like\x01",
+            "this sometimes to try to\x01",
+            "make me like the railway.\x02",
         )
     )
 
@@ -243,25 +246,26 @@ def main():
 
     CloseMessageWindow()
 
-    label("loc_3EA")
+    label("loc_3E5")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_2B1 end
+    # Function_5_2AA end
 
-    def Function_6_3EE(): pass
+    def Function_6_3E9(): pass
 
-    label("Function_6_3EE")
+    label("Function_6_3E9")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_498")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_493")
 
     ChrTalk(
         0xFE,
         (
-            "One day I'd like to have Ryｹ inherit\x01",
-            "the wholesale store job, but...\x02",
+            "One day I'd like to have\x01",
+            "Ryｹ inherit the wholesale\x01",
+            "store job, but...\x02",
         )
     )
 
@@ -271,23 +275,24 @@ def main():
         0xFE,
         (
             "When it comes to that\x01",
-            "guy, he thinks nothing\x01",
-            "but to play. Boy oh boy.\x02",
+            "boy, he thinks of nothing\x01",
+            "but play. Boy oh boy.\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 3)
-    Jump("loc_510")
+    Jump("loc_4FE")
 
-    label("loc_498")
+    label("loc_493")
 
 
     ChrTalk(
         0xFE,
         (
-            "Ryｹ's results at Sunday School\x01",
-            "too are no good at all.\x02",
+            "Ryｹ's Sunday School\x01",
+            "grades are no good\x01",
+            "either.\x02",
         )
     )
 
@@ -296,19 +301,20 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "He shouldn't be only playing\x01",
-            "but study a little too...\x02",
+            "He shouldn't just play,\x01",
+            "but study a little\x01",
+            "too...\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_510")
+    label("loc_4FE")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_6_3EE end
+    # Function_6_3E9 end
 
     SaveToFile()
 

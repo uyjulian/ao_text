@@ -38,12 +38,12 @@ def main():
         "Function_0_128",          # 00, 0
         "Function_1_160",          # 01, 1
         "Function_2_161",          # 02, 2
-        "Function_3_9CB",          # 03, 3
-        "Function_4_A09",          # 04, 4
-        "Function_5_15E7",         # 05, 5
-        "Function_6_161A",         # 06, 6
-        "Function_7_2FC2",         # 07, 7
-        "Function_8_30C0",         # 08, 8
+        "Function_3_98C",          # 03, 3
+        "Function_4_9CA",          # 04, 4
+        "Function_5_1519",         # 05, 5
+        "Function_6_154C",         # 06, 6
+        "Function_7_2E03",         # 07, 7
+        "Function_8_2F01",         # 08, 8
     ))
 
 
@@ -157,8 +157,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#5P...It cleared up this afternoon,\x01",
-            "just as forecasted.\x02",
+            "#00203F#5PIt cleared up this\x01",
+            "afternoon, just as\x01",
+            "forecasted.\x02",
         )
     )
 
@@ -167,10 +168,11 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#5PThis too could be the\x01",
-            "Goddess' guidance.\x02\x03",
-            "#00301FHonestly, we have no idea what\x01",
-            "kind of danger is waitin' for us.\x02",
+            "#00306F#5PIt might be Aidios'\x01",
+            "guidance.\x02\x03",
+            "#00301FHonestly, we have no\x01",
+            "idea what kind of danger\x01",
+            "is waiting for us.\x02",
         )
     )
 
@@ -179,8 +181,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10304F#5PWell, it's definitely better than\x01",
-            "an investigation in the rain.\x02",
+            "#10304F#5PWell, it's definitely\x01",
+            "better than an\x01",
+            "investigation in the rain.\x02",
         )
     )
 
@@ -189,8 +192,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10108F#5P...It's possible that there's\x01",
-            "a "Cryptid", or maybe...\x02",
+            "#10108F#5P...Is possible that it's\x01",
+            "a Cryptid, or\x01",
+            "possibly...\x02",
         )
     )
 
@@ -199,8 +203,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#5PHonestly, anything is possible\x01",
-            "given the current situation...\x02",
+            "#00106F#5PHonestly, anything is\x01",
+            "possible given the\x01",
+            "current situation...\x02",
         )
     )
 
@@ -209,14 +214,14 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P...We don't know when Mr. Arios and\x01",
-            "the others are getting here either.\x02\x03",
+            "#00003F#5PWe don't know when Arios' team is\x01",
+            "getting here either.\x02\x03",
             "#00008FAs the vanguard team, we need to\x01",
-            "do everything we can to guarantee \x01",
-            "Miss Ling and Miss Eolia's safety.\x02\x03",
-            "#00001FDepending on the situation...\x01",
-            "We might even need to call\x01",
-            "the CGF for backup.\x02",
+            "do everything we can to guarantee\x01",
+            "Ling and Eolia's safety.\x02\x03",
+            "#00001FDepending on the situation... We\x01",
+            "might even need to call the CGF\x01",
+            "for backup.\x02",
         )
     )
 
@@ -232,8 +237,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00301F#5PThose girls... \x01",
-            "I hope they're all right.\x02",
+            "#00301F#5PLing and Eolia... I hope\x01",
+            "they're all right.\x02",
         )
     )
 
@@ -246,40 +251,41 @@ def main():
         0x103,
         (
             "#00205F#5P...This is...\x02\x03",
-            "#00207FSudden increase in humidity confirmed. \x01",
-            "Please be careful...!\x02",
+            "#00207FSudden increase in\x01",
+            "humidity confirmed. Be\x01",
+            "careful!\x02",
         )
     )
 
     CloseMessageWindow()
     Sleep(150)
 
-    def lambda_758():
+    def lambda_721():
         OP_93(0xFE, 0x2D, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 2, lambda_758)
+    QueueWorkItem(0x104, 2, lambda_721)
     Sleep(50)
 
-    def lambda_768():
+    def lambda_731():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x105, 2, lambda_768)
+    QueueWorkItem(0x105, 2, lambda_731)
     Sleep(50)
 
-    def lambda_778():
+    def lambda_741():
         OP_93(0xFE, 0x87, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x102, 2, lambda_778)
+    QueueWorkItem(0x102, 2, lambda_741)
     Sleep(50)
 
-    def lambda_788():
+    def lambda_751():
         OP_93(0xFE, 0xE1, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x101, 2, lambda_788)
+    QueueWorkItem(0x101, 2, lambda_751)
     Sleep(500)
 
     ChrTalk(
@@ -301,7 +307,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#10301F#6PThis is...fog!?\x02",
+        "#10301F#6PThis is... fog!?\x02",
     )
 
     CloseMessageWindow()
@@ -309,8 +315,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00107F#6PB-But, it was so clear\x01",
-            "just moments ago!?\x02",
+            "#00107F#6PB-But, it was clear just\x01",
+            "a moment ago!\x02",
         )
     )
 
@@ -318,7 +324,10 @@ def main():
 
     ChrTalk(
         0x109,
-        "#10107F#5PMr. L-Lloyd... What do we do!?\x02",
+        (
+            "#10107F#5PL-Lloyd... What do we\x01",
+            "do!?\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -327,8 +336,8 @@ def main():
         0x101,
         (
             "#00010F#5PUgh...\x02\x03",
-            "#00007FReduce speed and\x01",
-            "proceed with caution!\x02\x03",
+            "#00007FReduce speed and proceed\x01",
+            "with caution!\x02\x03",
             "Tio, can you sense the\x01",
             "approaching shore!?\x02",
         )
@@ -338,7 +347,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#5PYes, somehow...!\x02",
+        "#00201F#5PYes, I think so!\x02",
     )
 
     CloseMessageWindow()
@@ -346,8 +355,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00310F#5PConsidering the situation,\x01",
-            "we need to be ready for anything...!\x02",
+            "#00310F#5PIf it's gonna be like\x01",
+            "this, we need to be\x01",
+            "ready for anything.\x02",
         )
     )
 
@@ -375,9 +385,9 @@ def main():
 
     # Function_2_161 end
 
-    def Function_3_9CB(): pass
+    def Function_3_98C(): pass
 
-    label("Function_3_9CB")
+    label("Function_3_98C")
 
     Sound(126, 2, 50, 0)
     Sound(483, 2, 20, 0)
@@ -397,11 +407,11 @@ def main():
     OP_25(0x1E3, 0x5A)
     Return()
 
-    # Function_3_9CB end
+    # Function_3_98C end
 
-    def Function_4_A09(): pass
+    def Function_4_9CA(): pass
 
-    label("Function_4_A09")
+    label("Function_4_9CA")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -466,10 +476,11 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#5P...Who could have imagined that "Yin"'s\x01",
-            "true identity would turn out to be Rixia...\x02\x03",
-            "#00108FI was sure he was a\x01",
-            "man this whole time...\x02",
+            "#00106F#5P...I can't believe it.\x01",
+            "To think Yin's true\x01",
+            "identity was Rixia...\x02\x03",
+            "#00108FI was sure he was a man\x01",
+            "this whole time...\x02",
         )
     )
 
@@ -478,10 +489,12 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10303F#6PIt seems that when she appears in that form, \x01",
-            "she can change her presence.\x02\x03",
-            "#10301FIt's possible that she's changing\x01",
-            "the shape of her body as well.\x02",
+            "#10303F#6PIt seems she can change\x01",
+            "her presence when she is\x01",
+            "in that form.\x02\x03",
+            "#10301FIt's possible that she's\x01",
+            "changing the shape of\x01",
+            "her body as well.\x02",
         )
     )
 
@@ -492,10 +505,11 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10111F#5PI-Is that something a\x01",
-            "normal human can do?\x02\x03",
-            "#10106F...Wait, it seems like we've been running into\x01",
-            "humans who're anything but normal lately...\x02",
+            "#10111F#5PI-Is that something a normal\x01",
+            "human can do?\x02\x03",
+            "#10106F...But, it seems like we've been\x01",
+            "running into people who are\x01",
+            "anything but normal lately...\x02",
         )
     )
 
@@ -504,10 +518,11 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00206F#6PIt is possible that our mental stress during\x01",
-            "those times played a role too, but...\x02\x03",
-            "#00200FYou aren't as surprised\x01",
-            "as I thought, Mr. Lloyd...?\x02",
+            "#00206F#6PIt's possible that our mental\x01",
+            "stress during those times\x01",
+            "played a role too, but...\x02\x03",
+            "#00200FYou're not as surprised as I\x01",
+            "thought you'd be...?\x02",
         )
     )
 
@@ -516,9 +531,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P...Yeah, that's right.\x02\x03",
-            "#00008FI had a chance to speak with\x01",
-            "Rixia not too long ago...\x02",
+            "#00003F#5PNo, I'm not.\x02\x03",
+            "#00008FI had a chance to speak\x01",
+            "with Rixia not too long\x01",
+            "ago...\x02",
         )
     )
 
@@ -539,12 +555,14 @@ def main():
         (
             scpstr(0x18),
             scpstr(SCPSTR_CODE_COLOR, 0xD),
-            "...Since I was a child...\x01",
-            "I've been living for that.\x02\x03",
-            "A path my ancestors inherited\x01",
-            "since way, way in the past...\x02\x03",
-            "A path I currently don't know\x01",
-            "for what reason to walk on.\x07\x00\x02",
+            "Ever since I was little...\x01",
+            "I lived for that reason.\x02\x03",
+            "The path my ancestors have\x01",
+            "inherited for as long as\x01",
+            "anyone can remember...\x02\x03",
+            "Even now, I do not know\x01",
+            "the reason I walk this\x01",
+            "path.\x07\x00\x02",
         )
     )
 
@@ -567,10 +585,12 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P──I thought it couldn't be, and never\x01",
-            "thought anything more about it, but...\x02\x03",
-            "#00001FSomehow, I never really threw away\x01",
-            "the possibility that she could be "Yin".\x02",
+            "#00006F#5P─I thought it couldn't be,\x01",
+            "and never thought anything\x01",
+            "more about it, but...\x02\x03",
+            "#00001FSomehow, I never really\x01",
+            "threw away the possibility\x01",
+            "that she could be Yin.\x02",
         )
     )
 
@@ -590,7 +610,7 @@ def main():
         (
             "#00306F#6P...Now that I think about it,\x01",
             "there's no way an amateur could be\x01",
-            "selected as an Arc-en-ciel co-star.\x02",
+            "selected as Arc-en-Ciel co-star.\x02",
         )
     )
 
@@ -600,11 +620,11 @@ def main():
         0x101,
         (
             "#00006F#5PYeah. The story about being forced\x01",
-            "into it by Miss Ilya and given intensive\x01",
+            "into it by Ilya and given intensive\x01",
             "training was oddly persuasive, though.\x02\x03",
-            "#00008FAnd the time when "Yin" appeared and\x01",
-            "the time Rixia arrived in Crossbell\x01",
-            "are almost exactly the same.\x02",
+            "#00008FAnd the time when Yin appeared and the\x01",
+            "time Rixia arrived in Crossbell are\x01",
+            "almost exactly the same.\x02",
         )
     )
 
@@ -613,8 +633,9 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00201F#6PI wonder if Mr. Cao of the "Heiyue"\x01",
-            "knows her real identity.\x02",
+            "#00201F#6PI wonder if Cao and his\x01",
+            "men in Heiyue know her\x01",
+            "real identity.\x02",
         )
     )
 
@@ -623,10 +644,11 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#10304F#6PWell, given her position, she'd want to\x01",
-            "keep that secret as much as possible.\x02\x03",
-            "#10300FIf she carelessly made her lineage known,\x01",
-            "it could only be used for their good.\x02",
+            "#10304F#6PWell given her position,\x01",
+            "it'd be normal to keep\x01",
+            "that secret.\x02\x03",
+            "#10300FIf they knew, nothing\x01",
+            "good would come of it.\x02",
         )
     )
 
@@ -635,9 +657,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F#5P...In that sense, it's better\x01",
-            "if we don't tell her real\x01",
-            "identity around too much.\x02",
+            "#00108F#5PGiven that, it might be\x01",
+            "best if we keep her\x01",
+            "identity a secret, too.\x02",
         )
     )
 
@@ -646,10 +668,12 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5PYeah, aside to the Chief.\x01",
-            "We'll watch the situation for a while.\x02\x03",
-            "#00013FAnd... Right now, the "Red Constellation"\x01",
-            "takes priority over the "Heiyue".\x02",
+            "#00003F#5PYeah. Chief aside, let's\x01",
+            "wait and see for a\x01",
+            "while.\x02\x03",
+            "#00013FAnd... Right now, Red\x01",
+            "Constellation takes\x01",
+            "priority over Heiyue.\x02",
         )
     )
 
@@ -659,10 +683,11 @@ def main():
         0x104,
         (
             "#00303F#6PYeah...\x02\x03",
-            "#00301F──Uncle and the others have\x01",
+            "#00301F─Uncle and the others have\x01",
             "disappeared. They're acting as if\x01",
             "their preparations are complete.\x02\x03",
-            "They'll probably strike without warning.\x02",
+            "They'll probably strike without\x01",
+            "warning.\x02",
         )
     )
 
@@ -678,8 +703,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#10101F#5P...Looks like we also need to\x01",
-            "contact Commander Sonya.\x02",
+            "#10101F#5PLooks like I need to\x01",
+            "contact Commander Sonya\x01",
+            "as well.\x02",
         )
     )
 
@@ -706,11 +732,11 @@ def main():
     IdleLoop()
     Return()
 
-    # Function_4_A09 end
+    # Function_4_9CA end
 
-    def Function_5_15E7(): pass
+    def Function_5_1519(): pass
 
-    label("Function_5_15E7")
+    label("Function_5_1519")
 
     Sound(126, 2, 50, 0)
     Sound(483, 2, 20, 0)
@@ -727,11 +753,11 @@ def main():
     Sleep(300)
     Return()
 
-    # Function_5_15E7 end
+    # Function_5_1519 end
 
-    def Function_6_161A(): pass
+    def Function_6_154C(): pass
 
-    label("Function_6_161A")
+    label("Function_6_154C")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -806,8 +832,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#6PI'm glad we could somehow\x01",
-            "secure a police boat, but...\x02",
+            "#00106F#6PThank goodness were were\x01",
+            "able to secure a police\x01",
+            "boat...\x02",
         )
     )
 
@@ -816,10 +843,11 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00203F#6P...It seems that Michelam has\x01",
-            "been completely sealed off.\x02\x03",
-            "#00201FThe theme park's and all\x01",
-            "the shops' staff have left.\x02",
+            "#00203F#6P...Looks like Michelam\x01",
+            "is totally blockaded.\x02\x03",
+            "#00201FThe resident theme park\x01",
+            "and shop staff were\x01",
+            "evacuated too.\x02",
         )
     )
 
@@ -828,10 +856,10 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#5PThere was also the possibility they\x01",
-            "went to the Marshlands, but...\x02\x03",
-            "#00301FWell, Michelam was the\x01",
-            "right choice, without a doubt.\x02",
+            "#00306F#5PThey might've headed for\x01",
+            "those Marshlands...\x02\x03",
+            "#00301FNo, I'm sure Michelam is\x01",
+            "the right answer.\x02",
         )
     )
 
@@ -840,9 +868,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00008F#5PElie...\x01",
-            "Were you able to reach\x01",
-            "Miss Mariabell?\x02",
+            "#00008F#5PElie... Did you hear\x01",
+            "anything from Mariabell?\x02",
         )
     )
 
@@ -851,10 +878,12 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#6P...No. I couldn't get hold\x01",
-            "of her in the last days.\x02\x03",
-            "#00108FDue to the measures for the blown up\x01",
-            "IBC building, it seems she's busy...\x02",
+            "#00106F#6PNo. I've haven't been able to\x01",
+            "contact her for the past few\x01",
+            "days.\x02\x03",
+            "#00108FIt seems she's been busy dealing\x01",
+            "with the aftermath of the\x01",
+            "destroyed IBC building, but...\x02",
         )
     )
 
@@ -872,9 +901,10 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F#5PLeavin' aside that young lady...\x02\x03",
-            "#00301FThe hint that Lechter jerk and Miss Kilika\x01",
-            "have dropped on us...is it true?\x02",
+            "#00303F#5PThat young lady aside...\x02\x03",
+            "#00301FWhat Lechter and Kilika\x01",
+            "were implying, is it\x01",
+            "true?\x02",
         )
     )
 
@@ -883,10 +913,11 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00206F#6PThe true wirepuller of the Crossbell\x01",
-            "raid is not the Erebonian Empire, but...\x02\x03",
-            "#00201FThe Mayor, Dieter Crois... I mean,\x01",
-            "the President. Is that possible?\x02",
+            "#00206F#6PThen the real mastermind\x01",
+            "behind the attack on Crossbell\x01",
+            "isn't the Erebonian Empire...\x02\x03",
+            "#00201FIt was Mayor... No, President\x01",
+            "Dieter Crois.\x02",
         )
     )
 
@@ -904,13 +935,14 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00106F#12P......Lloyd.\x01",
-            "You don't need to worry about me.\x02\x03",
-            "#00108FI haven't been able to contact\x01",
-            "grandfather since yesterday...\x02\x03",
-            "#00101FAccording to our butler, Mr. Helmer,\x01",
-            "it could be that he has been\x01",
-            "restrained at Orchis Tower...\x02",
+            "#00106F#12PLloyd, you don't need to\x01",
+            "worry about me.\x02\x03",
+            "#00108F"Uncle" hasn't been\x01",
+            "answering my calls since\x01",
+            "yesterday but...\x02\x03",
+            "#00101FHis butler Helmer may be\x01",
+            "locked up in Orchis\x01",
+            "Tower...\x02",
         )
     )
 
@@ -934,7 +966,10 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00306F#5PDoesn't that make him totally guilty...?\x02",
+        (
+            "#00306F#5PDoesn't that make him\x01",
+            "totally guilty...?\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -945,16 +980,16 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P──Mayor Dieter is the wirepuller\x01",
-            "of this series of incidents...\x02\x03",
-            "For sure, if we think like that,\x01",
-            "everything is coherent.\x02\x03",
-            "#00008FIn that case, the "Red Constellation" and the\x01",
-            ""Society" are accomplices with no actual\x01",
-            "working units that were employed later...\x02\x03",
-            "#00013FAnd Wald who demonized...\x01",
-            "Depending on the situation, it's possible\x01",
-            "that even the "Cult" was simply used.\x02",
+            "#00006F#5P─Mayor Dieter was the mastermind\x01",
+            "behind this chain of incidents...\x02\x03",
+            "If you assume that, everything falls\x01",
+            "into place, doesn't it.\x02\x03",
+            "#00008FIn that case, he's not employing Red\x01",
+            "Constellation and Ouroboros, they're\x01",
+            "compatriots!\x02\x03",
+            "#00013FWald's demonization too... Depending\x01",
+            "on the situation, Ouroboros might\x01",
+            "have just been using him.\x02",
         )
     )
 
@@ -972,7 +1007,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#00107F#12PThe "D∴G Cult" too!?\x02",
+        "#00107F#12PThe D∴G Cult too!?\x02",
     )
 
     CloseMessageWindow()
@@ -980,8 +1015,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00305F#5PAside from Wald...\x01",
-            "Even Joachim!?\x02",
+            "#00305F#5PWald aside... Even\x01",
+            "Joachim!?\x02",
         )
     )
 
@@ -989,7 +1024,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00208F#6PImpossible...however...\x02",
+        "#00208F#6PNo way... But...\x02",
     )
 
     CloseMessageWindow()
@@ -997,12 +1032,14 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5PNaturally, the probability they\x01",
-            "had a direct connection is low.\x02\x03",
-            "Judging by Joachim's speech and conduct,\x01",
-            "it seems there was no other mastermind.\x02\x03",
-            "#00001FHowever, it's possible he was used\x01",
-            "in a way he himself hadn't noticed.\x02",
+            "#00003F#5PThe chance of a direct link\x01",
+            "is low, of course.\x02\x03",
+            "Based on Joachim's words\x01",
+            "and actions, there was no\x01",
+            "sign of another mastermind.\x02\x03",
+            "#00001FHowever, it's possible he\x01",
+            "was being used without even\x01",
+            "knowing it.\x02",
         )
     )
 
@@ -1010,7 +1047,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00206F#6P............\x02",
+        "#00206F#6P...............\x02",
     )
 
     CloseMessageWindow()
@@ -1018,9 +1055,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F#12PBy the way, it wasn't identified\x01",
-            "who took KeA away from the\x01",
-            "Fort of Sun too...\x02",
+            "#00108F#12PNow that you mention it, we never\x01",
+            "did identify the person who\x01",
+            "kidnapped KeA from the Fort of Sun.\x02",
         )
     )
 
@@ -1029,12 +1066,15 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00303F#5PAnd also who made her slip into\x01",
-            "the "Schwarz Auktion" exhibit...\x02\x03",
-            "#00301FThinkin' about it, no matter who did it,\x01",
-            "it's an impossible feat for a "normal human".\x02\x03",
-            "It must've been someone like "Yin"\x01",
-            "or at the "Society"'s bunch level──\x02",
+            "#00303F#5PNor the person who\x01",
+            "inserted KeA into the\x01",
+            "Schwarz Auktion.\x02\x03",
+            "#00301FThinking about it,\x01",
+            "nobody normal could have\x01",
+            "pulled that stunt.\x02\x03",
+            "It would have to be\x01",
+            "someone on the level of\x01",
+            "Yin or Ouroboros...\x02",
         )
     )
 
@@ -1065,8 +1105,8 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00013FYes...!\x01",
-            "Special Support Section, Lloyd's speaking!\x02",
+            "#00013FYes! Special Support\x01",
+            "Section, Lloyd speaking!\x02",
         )
     )
 
@@ -1074,15 +1114,16 @@ def main():
     OP_57(0x0)
     OP_5A()
     SetMessageWindowPos(170, 50, -1, -1)
-    SetChrName("Boy's Voice")
+    SetChrName("Young Man's Voice")
 
     AnonymousTalk(
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "Alright, it went through!\x02\x03",
-            "I wanna Tio hear this too,\x01",
-            "so put it on speaker mode!\x02",
+            "Yes, I got through!\x02\x03",
+            "I want Tio to hear this\x01",
+            "too, so switch to the\x01",
+            "special mode!\x02",
         )
     )
 
@@ -1095,8 +1136,8 @@ def main():
         0x101,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x0),
-            "#00005FJona?\x01",
-            "Alright, I'm switching it now.\x02",
+            "#00005FJona? Understood,\x01",
+            "switching now.\x02",
         )
     )
 
@@ -1117,7 +1158,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#6PJona, has something happened?\x02",
+        "#00201F#6PJona, what's wrong?\x02",
     )
 
     CloseMessageWindow()
@@ -1126,7 +1167,7 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SSomething? Everything has!\x07\x00\x02",
+            "#11P#2SWhat isn't wrong!\x07\x00\x02",
         )
     )
 
@@ -1136,8 +1177,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SIt's about the Crossbell orbal net...\x01",
-            "There's an absurd monster lying dormant in it!!\x07\x00\x02",
+            "#11P#2SThere's an terrible\x01",
+            "monster lurking in\x01",
+            "Crossbell's orbal net!\x02",
         )
     )
 
@@ -1150,7 +1192,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00011F#5PA monster...?\x02",
+        "#00011F#5PA monster?\x02",
     )
 
     CloseMessageWindow()
@@ -1166,8 +1208,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SAt first, I discovered a weird data\x01",
-            "structure at the network margins!\x07\x00\x02",
+            "#11P#2SAt first I found some\x01",
+            "weird data structures on\x01",
+            "the edge of the network.\x07\x00\x02",
         )
     )
 
@@ -1177,8 +1220,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SIt was a cryptic array, so I thought\x01",
-            "it was mere garbage, but...\x07\x00\x02",
+            "#11P#2SIt was a cryptic\x01",
+            "arrangement so I thought\x01",
+            "it was simple junk, but...\x07\x00\x02",
         )
     )
 
@@ -1188,9 +1232,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SWhen I researched it carefully,\x01",
-            "it was being used as an evolved\x01",
-            "code that "Society" was using!\x07\x00\x02",
+            "#11P#2SThe more I look at it, the more\x01",
+            "it seems like an evolution code\x01",
+            "created by those Ouroboros guys!\x07\x00\x02",
         )
     )
 
@@ -1199,9 +1243,10 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00208F#6PThe "Astral Code"...\x02\x03",
-            "#00201FIn short, it was some kind of trap\x01",
-            "devised by the "Society"?\x02",
+            "#00208F#6PAstral Code...\x02\x03",
+            "#00201FIn other words, some\x01",
+            "kind of trap set by\x01",
+            "Ouroboros?\x02",
         )
     )
 
@@ -1211,8 +1256,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SNo, according to the date, it's\x01",
-            "something of about 5 years ago!\x07\x00\x02",
+            "#11P#2SNo, based on its date,\x01",
+            "it was created around\x01",
+            "five years ago!\x07\x00\x02",
         )
     )
 
@@ -1222,8 +1268,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SIf I'm not wrong, wasn't it around then\x01",
-            "that the orbal net was introduced!?\x07\x00\x02",
+            "#11P#2SThat was around when the\x01",
+            "orbal net was first\x01",
+            "introduced, right!?\x07\x00\x02",
         )
     )
 
@@ -1233,7 +1280,7 @@ def main():
         0x103,
         (
             "#00205F#6PYes, indeed...\x02\x03",
-            "#00201F......!?\x02",
+            "#00201F...!?\x02",
         )
     )
 
@@ -1242,13 +1289,14 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00103F#12PIt was the IBC group that sponsored\x01",
-            "the orbal net introduction to the\x01",
-            "autonomous government...\x02\x03",
-            "#00108FAs a result, the Foundation technology was\x01",
-            "introduced and IBC got involved deeper...\x02\x03",
-            "#00110FTo the extent that they know the\x01",
-            "network key parts inside out...\x02",
+            "#00103F#12PThe ones who proposed introducing\x01",
+            "the orbal net in Crossbell was\x01",
+            "none other than the IBC Group...\x02\x03",
+            "#00108FThanks to that, IBC had a strong\x01",
+            "influence on the technology the\x01",
+            "foundation introduced...\x02\x03",
+            "#00110FThey even had full knowledge of\x01",
+            "the network core...\x02",
         )
     )
 
@@ -1256,7 +1304,7 @@ def main():
 
     ChrTalk(
         0x104,
-        "#00307F#5PHey now, that means...\x02",
+        "#00307F#5PWhoa, then that means...\x02",
     )
 
     CloseMessageWindow()
@@ -1267,9 +1315,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00003F#5P──Jona.\x01",
-            "What's that monster?\x02\x03",
-            "#00001FWhat will happen because of it?\x02",
+            "#00003F#5P─Jona. What about that\x01",
+            "monster?\x02\x03",
+            "#00001FWhat will happen because\x01",
+            "of it?\x02",
         )
     )
 
@@ -1279,7 +1328,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SI-I'm analyzing that...\x07\x00\x02",
+            "#11P#2SI-I'm analyzing that\x01",
+            "now, but...\x07\x00\x02",
         )
     )
 
@@ -1289,9 +1339,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SFor sure it's a giant system\x01",
-            "that covers the whole\x01",
-            "orbal net domain!\x07\x00\x02",
+            "#11P#2SI'm certain it's a gargantuan\x01",
+            "system that extends across\x01",
+            "the whole of the orbal net!\x07\x00\x02",
         )
     )
 
@@ -1301,9 +1351,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SAlso, it seems that a real\x01",
-            "system was even prepared\x01",
-            "to link with that!!\x07\x00\x02",
+            "#11P#2SAnd it looks like it's\x01",
+            "using it to prepare its\x01",
+            "real system!?\x02",
         )
     )
 
@@ -1311,7 +1361,7 @@ def main():
 
     ChrTalk(
         0x103,
-        "#00201F#6PA real system...?\x02",
+        "#00201F#6PReal system?\x02",
     )
 
     CloseMessageWindow()
@@ -1319,8 +1369,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00108F#12P"Real" in the sense that it's\x01",
-            "not in the orbal net world?\x02",
+            "#00108F#12PReal meaning something\x01",
+            "outside the orbal net?\x02",
         )
     )
 
@@ -1330,7 +1380,8 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SYeah, it seems it was constructed...\x07\x00\x02",
+            "#11P#2SYeah, in all Geofront\x01",
+            "divisions...\x02",
         )
     )
 
@@ -1340,9 +1391,9 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SAs a device to link all the \x01",
-            "Geofront divisions, Orchis\x01",
-            "Tower and even Michelam!\x07\x00\x02",
+            "#11P#2SOrchis Tower ties them all\x01",
+            "together. It looks like there's\x01",
+            "even a linkage to Michelam!\x07\x00\x02",
         )
     )
 
@@ -1362,24 +1413,16 @@ def main():
 
     ChrTalk(
         0x101,
-        "#00007F#5PMichelam...!?\x02",
+        "#00007F#5PMichelam!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#00310F#5PThat too!?\x02",
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x8,
         (
-            scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2S──In any case!\x01",
-            "I'll call you again when I've analyzed it!\x07\x00\x02",
+            "#00310F#5PWhy'd that name have to\x01",
+            "come up now!?\x02",
         )
     )
 
@@ -1389,8 +1432,21 @@ def main():
         0x8,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "#11P#2SI dunno what you're doing,\x01",
-            "but be very careful, got it?\x07\x00\x02",
+            "#11P#2S─Anyway! I'll call you\x01",
+            "again once my analysis\x01",
+            "is complete!\x07\x00\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x8,
+        (
+            scpstr(SCPSTR_CODE_COLOR, 0x5),
+            "#11P#2SI don't know what's\x01",
+            "waiting out there for you\x01",
+            "guys, but be careful, ok!?\x07\x00\x02",
         )
     )
 
@@ -1414,8 +1470,8 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#00306F#5P...Hey now.\x01",
-            "Isn't that too much connected...?\x02",
+            "#00306F#5PWhoa. This is all way\x01",
+            "too connected.\x02",
         )
     )
 
@@ -1424,11 +1480,11 @@ def main():
     ChrTalk(
         0x103,
         (
-            "#00206F#6PAt this point I don't know what\x01",
-            "this system is for, however...\x02\x03",
-            "#00208FTo think there is someone who can\x01",
-            "makes such a giant system aside\x01",
-            "from the Foundation and "Society"...\x02",
+            "#00206F#6PWe don't know what the system\x01",
+            "might be for at present, but...\x02\x03",
+            "#00208FIf we think about someone outside\x01",
+            "the foundation or Ouroboros who\x01",
+            "could build such a huge system...\x02",
         )
     )
 
@@ -1455,28 +1511,29 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#00006F#5P──Let's keep aiming\x01",
-            "for Michelam.\x02\x03",
-            "#00013FKeA, Mr. Arios...\x01",
-            "All the answers are waiting there.\x02",
+            "#00006F#5P─Let's continue toward\x01",
+            "Michelam.\x02\x03",
+            "#00013FKeA, and Arios too... All\x01",
+            "the answers are probably\x01",
+            "waiting for us there.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_68(0, 1800, -3000, 3000)
 
-    def lambda_2EE4():
+    def lambda_2D25():
         OP_93(0x101, 0xB4, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x101, 0, lambda_2EE4)
+    QueueWorkItem(0x101, 0, lambda_2D25)
     Sleep(50)
 
-    def lambda_2EF4():
+    def lambda_2D35():
         OP_93(0x102, 0xB4, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x102, 0, lambda_2EF4)
+    QueueWorkItem(0x102, 0, lambda_2D35)
     Sleep(50)
     WaitChrThread(0x101, 0)
     WaitChrThread(0x102, 0)
@@ -1516,62 +1573,62 @@ def main():
     IdleLoop()
     Return()
 
-    # Function_6_161A end
+    # Function_6_154C end
 
-    def Function_7_2FC2(): pass
+    def Function_7_2E03(): pass
 
-    label("Function_7_2FC2")
+    label("Function_7_2E03")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_30BF")
-    Jc((scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_301B")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_2F00")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2E5C")
     PlayEffect(0x0, 0xFF, 0xFE, 0x4, 0, 0, -8000, 0, 0, 0, 500, 500, 500, 0xFF, 0, 0, 0, 0)
     Sleep(333)
-    Jump("loc_30BA")
+    Jump("loc_2EFB")
 
-    label("loc_301B")
+    label("loc_2E5C")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_3069")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2EAA")
     PlayEffect(0x0, 0xFF, 0xFE, 0x4, 0, 0, -8000, 0, 0, 0, 800, 800, 800, 0xFF, 0, 0, 0, 0)
     Sleep(233)
-    Jump("loc_30BA")
+    Jump("loc_2EFB")
 
-    label("loc_3069")
+    label("loc_2EAA")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_30B7")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x2), scpexpr(EXPR_PUSH_LONG, 0x3), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2EF8")
     PlayEffect(0x0, 0xFF, 0xFE, 0x4, 0, 0, -8000, 0, 0, 0, 1000, 1000, 1000, 0xFF, 0, 0, 0, 0)
     Sleep(166)
-    Jump("loc_30BA")
+    Jump("loc_2EFB")
 
-    label("loc_30B7")
+    label("loc_2EF8")
 
     Sleep(233)
 
-    label("loc_30BA")
+    label("loc_2EFB")
 
-    Jump("Function_7_2FC2")
+    Jump("Function_7_2E03")
 
-    label("loc_30BF")
+    label("loc_2F00")
 
     Return()
 
-    # Function_7_2FC2 end
+    # Function_7_2E03 end
 
-    def Function_8_30C0(): pass
+    def Function_8_2F01(): pass
 
-    label("Function_8_30C0")
+    label("Function_8_2F01")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_30F8")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_2F39")
     OP_82(0x0, 0xF, 0x1388, 0x3E8)
     Sleep(1000)
     OP_82(0x0, 0xA, 0xBB8, 0x3E8)
     Sleep(1000)
-    Jump("Function_8_30C0")
+    Jump("Function_8_2F01")
 
-    label("loc_30F8")
+    label("loc_2F39")
 
     Return()
 
-    # Function_8_30C0 end
+    # Function_8_2F01 end
 
     SaveToFile()
 

@@ -56,11 +56,11 @@ def main():
         "Function_3_277",          # 03, 3
         "Function_4_33E",          # 04, 4
         "Function_5_33F",          # 05, 5
-        "Function_6_3D8",          # 06, 6
-        "Function_7_4FC",          # 07, 7
-        "Function_8_646",          # 08, 8
-        "Function_9_7A0",          # 09, 9
-        "Function_10_8C1",         # 0A, 10
+        "Function_6_3D3",          # 06, 6
+        "Function_7_4E3",          # 07, 7
+        "Function_8_62A",          # 08, 8
+        "Function_9_77F",          # 09, 9
+        "Function_10_89B",         # 0A, 10
     ))
 
 
@@ -217,7 +217,7 @@ def main():
     TalkBegin(0xFE)
     Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_354")
     Call(0, 6)
-    Jump("loc_3D4")
+    Jump("loc_3CF")
 
     label("loc_354")
 
@@ -225,8 +225,8 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Mrs. Marietta seems\x01",
-            "to be busy too...\x02",
+            "Marietta seems to be\x01",
+            "busy too...\x02",
         )
     )
 
@@ -235,31 +235,32 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "It seems that it will be some time\x01",
-            "before the entire family will dine together.\x02",
+            "It seems that it will be\x01",
+            "some time before the entire\x01",
+            "family will dine together.\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_3D4")
+    label("loc_3CF")
 
     TalkEnd(0xFE)
     Return()
 
     # Function_5_33F end
 
-    def Function_6_3D8(): pass
+    def Function_6_3D3(): pass
 
-    label("Function_6_3D8")
+    label("Function_6_3D3")
 
 
     ChrTalk(
         0x8,
         (
-            "By the way, Yunks, I wonder\x01",
-            "if you have a rough idea about\x01",
-            "when Mrs. Marietta will return?\x02",
+            "By the way, Yunks, I wonder if\x01",
+            "you have a rough idea about\x01",
+            "when Marietta will return?\x02",
         )
     )
 
@@ -268,8 +269,9 @@ def main():
     ChrTalk(
         0xC,
         (
-            "Hmm, maybe it will be difficult for the time being.\x01",
-            "It seems she is really busy...\x02",
+            "Hmm. It might be difficult\x01",
+            "for the time being. She\x01",
+            "seems really busy...\x02",
         )
     )
 
@@ -278,9 +280,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "I see...\x01",
-            "It seems that it will be some time\x01",
-            "before the entire family will dine together.\x02",
+            "I see... It seems that it\x01",
+            "will be some time before our\x01",
+            "entire family dines together.\x02",
         )
     )
 
@@ -290,21 +292,21 @@ def main():
     SetScenarioFlags(0x0, 0)
     Return()
 
-    # Function_6_3D8 end
+    # Function_6_3D3 end
 
-    def Function_7_4FC(): pass
+    def Function_7_4E3(): pass
 
-    label("Function_7_4FC")
+    label("Function_7_4E3")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_5D3")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_5B7")
 
     ChrTalk(
         0xFE,
         (
-            "My father, who is busy with work,\x01",
-            "has come back for dinner\x01",
-            "after a long time.\x02",
+            "Father, who is busy with\x01",
+            "work, has come home for\x01",
+            "dinner after a long time.\x02",
         )
     )
 
@@ -313,50 +315,50 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Oh, now that I think about it,\x01",
-            "we don't have enough chairs.\x01",
-            "I must bring out one from the storage room...\x02",
+            "Oh, now that I think about it, we\x01",
+            "don't have enough chairs. I have to\x01",
+            "go get one from the storage room...\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 1)
-    Jump("loc_642")
+    Jump("loc_626")
 
-    label("loc_5D3")
+    label("loc_5B7")
 
 
     ChrTalk(
         0xFE,
         (
-            "Oh, now that I think about it,\x01",
-            "we don't have enough chairs.\x01",
-            "I must bring out one from the storage room...\x02",
+            "Oh, now that I think about it, we\x01",
+            "don't have enough chairs. I have to\x01",
+            "go get one from the storage room...\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_642")
+    label("loc_626")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_7_4FC end
+    # Function_7_4E3 end
 
-    def Function_8_646(): pass
+    def Function_8_62A(): pass
 
-    label("Function_8_646")
+    label("Function_8_62A")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 2)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_75A")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 2)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_739")
 
     ChrTalk(
         0xFE,
         (
             "Henri, you went to see\x01",
-            "Orchis Tower from up close, right?\x01",
-            "How was it?\x02",
+            "Orchis Tower from up\x01",
+            "close, right? How was it?\x02",
         )
     )
 
@@ -365,9 +367,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Was it big like I think?\x01",
-            "It seemed to have cost a lot of mira?\x01",
-            "Were there a lot of people?\x02",
+            "Was it big like I think? It\x01",
+            "seemed to have cost a lot of\x01",
+            "mira? Were there a lot of people?\x02",
         )
     )
 
@@ -376,42 +378,43 @@ def main():
     ChrTalk(
         0xB,
         (
-            "W-Wait a moment, big sister.\x01",
-            "I can't answer if you ask\x01",
+            "W-Wait a moment, Cindy. I\x01",
+            "can't answer if you ask\x01",
             "so many things at once.\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 2)
-    Jump("loc_79C")
+    Jump("loc_77B")
 
-    label("loc_75A")
+    label("loc_739")
 
 
     ChrTalk(
         0xFE,
         (
             "What's wrong with that?\x01",
-            "Don't be a cheapskate and tell me...\x02",
+            "Don't be a cheapskate\x01",
+            "and tell me...\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_79C")
+    label("loc_77B")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_8_646 end
+    # Function_8_62A end
 
-    def Function_9_7A0(): pass
+    def Function_9_77F(): pass
 
-    label("Function_9_7A0")
+    label("Function_9_77F")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_843")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 3)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_821")
 
     ChrTalk(
         0xFE,
@@ -423,8 +426,9 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Oh, everyone from the Support Section.\x01",
-            "Do you need something from me?\x02",
+            "Oh, everyone from the\x01",
+            "Support Section. Do you\x01",
+            "need something from me?\x02",
         )
     )
 
@@ -433,23 +437,24 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "Would you like to\x01",
-            "have dinner together?\x02",
+            "Would you like to have\x01",
+            "dinner with me?\x02",
         )
     )
 
     CloseMessageWindow()
     SetScenarioFlags(0x0, 3)
-    Jump("loc_8BD")
+    Jump("loc_897")
 
-    label("loc_843")
+    label("loc_821")
 
 
     ChrTalk(
         0xFE,
         (
             "By the way, the noon's\x01",
-            "inauguration was amazing, eh?\x02",
+            "unveiling was amazing,\x01",
+            "eh?\x02",
         )
     )
 
@@ -458,30 +463,31 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "You policemen are probably busy,\x01",
-            "but please do your best.\x01\x02",
+            "Policemen are probably\x01",
+            "busy, but please do your\x01",
+            "best, eh?\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_8BD")
+    label("loc_897")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_9_7A0 end
+    # Function_9_77F end
 
-    def Function_10_8C1(): pass
+    def Function_10_89B(): pass
 
-    label("Function_10_8C1")
+    label("Function_10_89B")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_8D6")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x0, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_8B0")
     Call(0, 6)
-    Jump("loc_961")
+    Jump("loc_93B")
 
-    label("loc_8D6")
+    label("loc_8B0")
 
 
     ChrTalk(
@@ -497,19 +503,20 @@ def main():
     ChrTalk(
         0xFE,
         (
-            "She seems to be busy there, so it won't be\x01",
-            "anytime soon when she'll come home...\x02",
+            "She seems to be busy there,\x01",
+            "so it won't be anytime soon\x01",
+            "when she'll come home...\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_961")
+    label("loc_93B")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_10_8C1 end
+    # Function_10_89B end
 
     SaveToFile()
 

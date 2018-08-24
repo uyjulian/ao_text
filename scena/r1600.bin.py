@@ -91,7 +91,7 @@ def main():
         "Function_0_2FC",          # 00, 0
         "Function_1_2FD",          # 01, 1
         "Function_2_45C",          # 02, 2
-        "Function_3_5AE",          # 03, 3
+        "Function_3_5AD",          # 03, 3
     ))
 
 
@@ -217,7 +217,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x334),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -229,7 +230,7 @@ def main():
 
     label("loc_553")
 
-    Jump("loc_5A2")
+    Jump("loc_5A1")
 
     label("loc_558")
 
@@ -242,7 +243,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -250,7 +252,7 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_5A2")
+    label("loc_5A1")
 
     Sleep(30)
     TalkEnd(0xFF)
@@ -259,14 +261,14 @@ def main():
 
     # Function_2_45C end
 
-    def Function_3_5AE(): pass
+    def Function_3_5AD(): pass
 
-    label("Function_3_5AE")
+    label("Function_3_5AD")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 2)), scpexpr(EXPR_END)), "loc_5B8")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 2)), scpexpr(EXPR_END)), "loc_5B7")
     Return()
 
-    label("loc_5B8")
+    label("loc_5B7")
 
     EventBegin(0x1)
     OP_52(0x0, 0xB, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
@@ -291,7 +293,8 @@ def main():
         0x3E7,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is a monster harboring a great power.\x02",
+            "There is a monster\x01",
+            "harboring great power.\x02",
         )
     )
 
@@ -303,7 +306,7 @@ def main():
         0,
         (
             "[Exterminate]\x01",      # 0
-            "[Quit]\x01",             # 1
+            "[Cancel]\x01",           # 1
         )
     )
 
@@ -312,12 +315,12 @@ def main():
     OP_57(0x0)
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
-        (1, "loc_69C"),
-        (SWITCH_DEFAULT, "loc_6B5"),
+        (1, "loc_69B"),
+        (SWITCH_DEFAULT, "loc_6B4"),
     )
 
 
-    label("loc_69C")
+    label("loc_69B")
 
     Sleep(500)
     OP_E2(0x2)
@@ -325,7 +328,7 @@ def main():
     EventEnd(0x5)
     Return()
 
-    label("loc_6B5")
+    label("loc_6B4")
 
     Battle("BattleInfo_290", 0x0, 0x0, 0x100, 0xC, 0xFF)
     OP_E2(0x2)
@@ -341,24 +344,24 @@ def main():
     OP_90(0x7, 498490, 0, 40130, 180)
     Switch(
         (scpexpr(EXPR_PUSH_VALUE_INDEX, 0x3), scpexpr(EXPR_END)),
-        (2, "loc_777"),
-        (1, "loc_77C"),
-        (SWITCH_DEFAULT, "loc_77F"),
+        (2, "loc_776"),
+        (1, "loc_77B"),
+        (SWITCH_DEFAULT, "loc_77E"),
     )
 
 
-    label("loc_777")
+    label("loc_776")
 
     OP_E2(0x2)
     EventEnd(0x5)
     Return()
 
-    label("loc_77C")
+    label("loc_77B")
 
     OP_B9(0x0)
     Return()
 
-    label("loc_77F")
+    label("loc_77E")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -398,7 +401,7 @@ def main():
     AddItemNumber(0x394, 1)
     SetMessageWindowPos(14, 280, 60, 3)
     SetScenarioFlags(0x21E, 2)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21F, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 2)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 3)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 4)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 5)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_871")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21F, 0)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 2)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 3)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 4)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 5)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x21E, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_870")
     Sound(629, 0, 100, 0)
     Sound(842, 0, 100, 0)
     Sleep(3000)
@@ -409,7 +412,9 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "You felt an outrageous power awakening somewhere!\x02",
+            "You felt an\x01",
+            "extraordinary power\x01",
+            "awaken somewhere!\x02",
         )
     )
 
@@ -417,14 +422,14 @@ def main():
     OP_57(0x0)
     SetScenarioFlags(0x21F, 0)
 
-    label("loc_871")
+    label("loc_870")
 
     OP_E2(0x2)
     ModifyEventFlags(0, 0, 0x80)
     EventEnd(0x5)
     Return()
 
-    # Function_3_5AE end
+    # Function_3_5AD end
 
     SaveToFile()
 

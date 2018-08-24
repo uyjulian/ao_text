@@ -52,17 +52,17 @@ def main():
         "Function_1_2A8",          # 01, 1
         "Function_2_3C3",          # 02, 2
         "Function_3_45A",          # 03, 3
-        "Function_4_507",          # 04, 4
-        "Function_5_5B4",          # 05, 5
-        "Function_6_6B5",          # 06, 6
-        "Function_7_7E3",          # 07, 7
-        "Function_8_DA8",          # 08, 8
-        "Function_9_29BA",         # 09, 9
-        "Function_10_2AE5",        # 0A, 10
-        "Function_11_2DDD",        # 0B, 11
-        "Function_12_3EDF",        # 0C, 12
-        "Function_13_51A5",        # 0D, 13
-        "Function_14_51B8",        # 0E, 14
+        "Function_4_502",          # 04, 4
+        "Function_5_5AA",          # 05, 5
+        "Function_6_69B",          # 06, 6
+        "Function_7_7D8",          # 07, 7
+        "Function_8_D55",          # 08, 8
+        "Function_9_28A4",         # 09, 9
+        "Function_10_29B7",        # 0A, 10
+        "Function_11_2CAE",        # 0B, 11
+        "Function_12_3C59",        # 0C, 12
+        "Function_13_4EFC",        # 0D, 13
+        "Function_14_4F0F",        # 0E, 14
     ))
 
 
@@ -223,7 +223,7 @@ def main():
     TalkBegin(0x8)
     Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x2)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_48A")
     Call(0, 9)
-    Jump("loc_503")
+    Jump("loc_4FE")
 
     label("loc_48A")
 
@@ -234,30 +234,30 @@ def main():
             "#03200FNevertheless, it was\x01",
             "really fortuitous that\x01",
             "you all came.\x02\x03",
-            "#03204FPlease, take very good\x01",
-            "care of Lord Shing.\x02",
+            "#03204FPlease, take good care\x01",
+            "of Lord Shing.\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_503")
+    label("loc_4FE")
 
     TalkEnd(0x8)
     Return()
 
     # Function_3_45A end
 
-    def Function_4_507(): pass
+    def Function_4_502(): pass
 
-    label("Function_4_507")
+    label("Function_4_502")
 
     TalkBegin(0x8)
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x2)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_537")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x2)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_532")
     Call(0, 9)
-    Jump("loc_5B0")
+    Jump("loc_5A6")
 
-    label("loc_537")
+    label("loc_532")
 
 
     ChrTalk(
@@ -266,32 +266,33 @@ def main():
             "#03200FNevertheless, it was\x01",
             "really fortuitous that\x01",
             "you all came.\x02\x03",
-            "#03204FPlease, take very good\x01",
-            "care of Lord Shing.\x02",
+            "#03204FPlease, take good care\x01",
+            "of Lord Shing.\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_5B0")
+    label("loc_5A6")
 
     TalkEnd(0x8)
     Return()
 
-    # Function_4_507 end
+    # Function_4_502 end
 
-    def Function_5_5B4(): pass
+    def Function_5_5AA(): pass
 
-    label("Function_5_5B4")
+    label("Function_5_5AA")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x2)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_676")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x2)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 1)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_65E")
 
     ChrTalk(
         0x9,
         (
-            "In case you want to do us the favor\x01",
-            "to accept, please return quickly.\x02",
+            "If you decide you would\x01",
+            "like to accept, please\x01",
+            "return quickly.\x02",
         )
     )
 
@@ -300,47 +301,49 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Lord Shing, but also we, don't have\x01",
-            "unlimited time that we can wait.\x02",
+            "There is a limit to how\x01",
+            "long both we and Lord\x01",
+            "Shing can wait.\x02",
         )
     )
 
     CloseMessageWindow()
-    Jump("loc_6B1")
+    Jump("loc_697")
 
-    label("loc_676")
+    label("loc_65E")
 
 
     ChrTalk(
         0x9,
         (
-            "Lord Shing, please be careful\x01",
-            "and have a safe travel.\x02",
+            "Lord Shing, please be\x01",
+            "careful and have a nice\x01",
+            "tour.\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_6B1")
+    label("loc_697")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_5_5B4 end
+    # Function_5_5AA end
 
-    def Function_6_6B5(): pass
+    def Function_6_69B(): pass
 
-    label("Function_6_6B5")
+    label("Function_6_69B")
 
     TalkBegin(0xFE)
-    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x2)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_7DF")
-    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_772")
+    Jc((scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x2)"), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x10)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_EXEC_OP, "OP_2A(0x73, 0x0, 0x40)"), scpexpr(EXPR_EQUZ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 6)), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_7D4")
+    Jc((scpexpr(EXPR_PUSH_VALUE_INDEX, 0xA), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_767")
 
     ChrTalk(
         0xA,
         (
-            "Miss, I will\x01",
-            "wait here.\x02",
+            "Miss, I'll be waiting\x01",
+            "here.\x02",
         )
     )
 
@@ -348,7 +351,10 @@ def main():
 
     ChrTalk(
         0xA,
-        "Please, you have to come back!\x02",
+        (
+            "Please, you have to come\x01",
+            "back for me!\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -356,22 +362,24 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#00100FEehm, I can't promise you, but...\x01",
-            "I'll see what I can do.\x02",
+            "#00100FUmm, I can't promise you\x01",
+            "that, but... I'll see\x01",
+            "what I can do.\x02",
         )
     )
 
     CloseMessageWindow()
-    Jump("loc_7DF")
+    Jump("loc_7D4")
 
-    label("loc_772")
+    label("loc_767")
 
 
     ChrTalk(
         0xA,
         (
-            "I don't know what you have to do,\x01",
-            "just finish it and come back.\x02",
+            "I don't care what you\x01",
+            "have to do, just finish\x01",
+            "it and come back.\x02",
         )
     )
 
@@ -380,23 +388,23 @@ def main():
     ChrTalk(
         0xA,
         (
-            "I won't forgive you\x01",
-            "if you refuse!\x02",
+            "I won't forgive you if\x01",
+            "you refuse!\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_7DF")
+    label("loc_7D4")
 
     TalkEnd(0xFE)
     Return()
 
-    # Function_6_6B5 end
+    # Function_6_69B end
 
-    def Function_7_7E3(): pass
+    def Function_7_7D8(): pass
 
-    label("Function_7_7E3")
+    label("Function_7_7D8")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -438,9 +446,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#03204F──Oh my, what a fancy coincidence.\x02\x03",
-            "#03210FEven at the time of the "Black Auction"...\x01",
-            "It really seems we have a fateful connection.\x02",
+            "#03204F─Oh, what an interesting\x01",
+            "coincidence.\x02\x03",
+            "#03210FConsidering the Schwarz\x01",
+            "Auction, it seems they\x01",
+            "really are connected.\x02",
         )
     )
 
@@ -448,7 +458,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5PHowever, Master Cao...\x02",
+        "#5PBut Master Cao...\x02",
     )
 
     CloseMessageWindow()
@@ -456,8 +466,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#5PWhat could there be at the\x01",
-            "south bank of Elm Lake?\x02",
+            "#5PJust what is on the\x01",
+            "south side of Elm Lake?\x02",
         )
     )
 
@@ -466,12 +476,14 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#03204FWell, as for that, we can\x01",
-            "only bet on "his" intuition.\x02\x03",
-            "#03200FThat delinquents' leader demonize and\x01",
-            "the "Snake" and "Church" intervention...\x02\x03",
-            "There's nothing like taking care of blind\x01",
-            "spots in advance, even just a little.\x02",
+            "#03204FWell, we must rely on "his"\x01",
+            "intuition in this case.\x02\x03",
+            "#03200FThe Snake that demonized the\x01",
+            "delinquent leader, and the\x01",
+            "Church that intervened...\x02\x03",
+            "I don't think it's anything\x01",
+            "more than eliminating a few\x01",
+            "blind spots, though.\x02",
         )
     )
 
@@ -479,7 +491,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#5P...Indeed.\x02",
+        "#5PIndeed.\x02",
     )
 
     CloseMessageWindow()
@@ -497,7 +509,7 @@ def main():
     NpcTalk(
         0xB,
         "Man's Voice",
-        "──P-Pardon me!\x02",
+        "─E-Excuse me!\x02",
     )
 
     CloseMessageWindow()
@@ -516,38 +528,38 @@ def main():
     Sound(103, 0, 100, 0)
     OP_63(0xB, 0x0, 2000, 0x28, 0x2B, 0x64, 0x3)
 
-    def lambda_BCF():
+    def lambda_B9E():
         OP_96(0xFE, 0x8FC, 0x0, 0x0, 0x1194, 0x0)
         ExitThread()
 
-    QueueWorkItem(0xB, 1, lambda_BCF)
+    QueueWorkItem(0xB, 1, lambda_B9E)
 
-    def lambda_BE9():
+    def lambda_BB8():
 
-        label("loc_BE9")
+        label("loc_BB8")
 
         TurnDirection(0xFE, 0xB, 500)
         Yield()
-        Jump("loc_BE9")
+        Jump("loc_BB8")
 
-    QueueWorkItem2(0x8, 2, lambda_BE9)
+    QueueWorkItem2(0x8, 2, lambda_BB8)
     Sleep(50)
 
-    def lambda_BFE():
+    def lambda_BCD():
 
-        label("loc_BFE")
+        label("loc_BCD")
 
         TurnDirection(0xFE, 0xB, 500)
         Yield()
-        Jump("loc_BFE")
+        Jump("loc_BCD")
 
-    QueueWorkItem2(0x9, 2, lambda_BFE)
+    QueueWorkItem2(0x9, 2, lambda_BCD)
 
-    def lambda_C10():
+    def lambda_BDF():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0xB, 2, lambda_C10)
+    QueueWorkItem(0xB, 2, lambda_BDF)
     WaitChrThread(0xB, 1)
     EndChrThread(0x8, 0x2)
     EndChrThread(0x9, 0x2)
@@ -555,10 +567,7 @@ def main():
 
     ChrTalk(
         0x9,
-        (
-            "#11PWhat is it, Fung!\x01",
-            "Why are you restless!?\x02",
-        )
+        "#11PFan!? Are you ok!?\x02",
     )
 
     CloseMessageWindow()
@@ -573,8 +582,9 @@ def main():
     ChrTalk(
         0xB,
         (
-            "#6PIt's that...moments ago, there was a hard\x01",
-            "to believe report from the surveillance unit.\x02",
+            "#6PYou see... A moment ago I\x01",
+            "received an unbelievable report\x01",
+            "from our surveillance team.\x02",
         )
     )
 
@@ -582,7 +592,10 @@ def main():
 
     ChrTalk(
         0x9,
-        "#11PA hard to believe report...?\x02",
+        (
+            "#11PAn unbelievable\x01",
+            "report...?\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -607,8 +620,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#03201F──Fung.\x01",
-            "Please, let me hear the details.\x02",
+            "#03201F─Fan. Please tell us the\x01",
+            "details.\x02",
         )
     )
 
@@ -626,11 +639,11 @@ def main():
     IdleLoop()
     Return()
 
-    # Function_7_7E3 end
+    # Function_7_7D8 end
 
-    def Function_8_DA8(): pass
+    def Function_8_D55(): pass
 
-    label("Function_8_DA8")
+    label("Function_8_D55")
 
     EventBegin(0x0)
     FadeToDark(1000, 0, -1)
@@ -663,9 +676,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03200FHi.\x02\x03",
-            "#03209FWelcome to the "Heiyue Trade Company".\x01",
-            "Allow me to receive you.\x02",
+            "#11P#03200FWonderful! You're all\x01",
+            "here.\x02\x03",
+            "#03209FWelcome to Heiyue\x01",
+            "Trading Company. Allow\x01",
+            "me to welcome you.\x02",
         )
     )
 
@@ -673,7 +688,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00001F...Pardon the intrusion.\x02",
+        "#6P#00001F...Please excuse us.\x02",
     )
 
     CloseMessageWindow()
@@ -681,8 +696,8 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00103FWe accepted your kind\x01",
-            "offer and entered inside.\x02",
+            "#6P#00103FAllow us to take you up\x01",
+            "on your offer.\x02",
         )
     )
 
@@ -691,9 +706,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03200FHu hu...\x01",
-            "Long time no see too, Mr. Randy.\x02\x03",
-            "#03204FI was looking forward to your comeback.\x02",
+            "#11P#03200F...Long time no see,\x01",
+            "Randy.\x02\x03",
+            "#03204FI've been looking\x01",
+            "forward to your return.\x02",
         )
     )
 
@@ -702,8 +718,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00303F...Well, thanks.\x01",
-            "You seem to never change too, huh?\x02",
+            "#6P#00303F...Nice to see you too.\x01",
+            "You're the same as ever,\x01",
+            "huh?\x02",
         )
     )
 
@@ -712,11 +729,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03204FHa ha, I will take that\x01",
-            "as a compliment.\x02\x03",
-            "#03209FWell, to think that Mr. Randy was \x01",
-            "connected to that Crimson & Co....\x02\x03",
-            "I too was really surprised.\x02",
+            "#11P#03204FHaha. I'll take that as\x01",
+            "a compliment.\x02\x03",
+            "#03209FOh, but to think Randy\x01",
+            "was connected to that\x01",
+            "Crimson & Co.\x02\x03",
+            "Even I was caught off\x01",
+            "guard by this.\x02",
         )
     )
 
@@ -732,8 +751,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00001FIt seems that you know about "them"\x01",
-            "to a certain extent, right?\x02",
+            "#6P#00001FIt looks like you have\x01",
+            "some intel on them, am I\x01",
+            "wrong?\x02",
         )
     )
 
@@ -742,10 +762,11 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03204FYes, actually, it's not that we\x01",
-            "haven't a little connection.\x02\x03",
-            "#03200FCould it be that Mr. Randy\x01",
-            "knows about that?\x02",
+            "#11P#03204FActually, we're more\x01",
+            "than a little connected.\x02\x03",
+            "#03200FPerhaps Randy here could\x01",
+            "shed some light on our\x01",
+            "new friends?\x02",
         )
     )
 
@@ -754,20 +775,20 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00303FYeah...about one year ago, it seems that uncle\x01",
-            "and the others snuck in the Eastern District \x01",
-            "and picked a fight with you "Heiyue", right?\x02\x03",
-            "#00301FSeems it was quite a\x01",
-            "full-blown war, huh?\x02",
+            "#6P#00303FYeah... I know that my uncle\x01",
+            "led some fights against\x01",
+            "Heiyue about a year ago.\x02\x03",
+            "#00301FIt was quite the full-blown\x01",
+            "conflict, from what I heard.\x02",
         )
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x25, 5)), scpexpr(EXPR_END)), "loc_12A4")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x25, 5)), scpexpr(EXPR_END)), "loc_122D")
 
     ChrTalk(
         0x101,
-        "#6P#00003F...Right.\x02",
+        "#6P#00003F...Sounds about right.\x02",
     )
 
     CloseMessageWindow()
@@ -775,20 +796,20 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00108FMr. Dudley too\x01",
-            "said that...\x02",
+            "#6P#00108FDudley mentioned\x01",
+            "something like that...\x02",
         )
     )
 
     CloseMessageWindow()
-    Jump("loc_12EC")
+    Jump("loc_128A")
 
-    label("loc_12A4")
+    label("loc_122D")
 
 
     ChrTalk(
         0x102,
-        "#6P#00105FBy the way...\x02",
+        "#6P#00105FCome to think of it...\x02",
     )
 
     CloseMessageWindow()
@@ -796,26 +817,27 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00003FMr. Dudley too\x01",
-            "said that...\x02",
+            "#6P#00003FDudley mentioned\x01",
+            "something like that...\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_12EC")
+    label("loc_128A")
 
 
     ChrTalk(
         0x8,
         (
-            "#11P#03204FHu hu, it's true that it made\x01",
-            "things lively in many ways.\x02\x03",
-            "#03200FLuckily, since we closed a deal, it\x01",
-            "didn't left a grudge on both parts, but...\x02\x03",
-            "#03209FAmong the Heiyue elders, there're\x01",
-            "those who, just by hearing their\x01",
-            "names, swoon in anger even now.\x02",
+            "#11P#03204FHaha. Well they're certainly\x01",
+            "doing well for themselves.\x02\x03",
+            "#03200FLuckily, since we made a deal,\x01",
+            "neither side bears any further\x01",
+            "grudge.\x02\x03",
+            "#03209FThough among the Heiyue\x01",
+            "elders, there are some who get\x01",
+            "angry just hearing the name.\x02",
         )
     )
 
@@ -834,7 +856,7 @@ def main():
 
     ChrTalk(
         0x109,
-        "#6P#10106FI-It was that much of a...\x02",
+        "#6P#10106FS-Still, huh...\x02",
     )
 
     CloseMessageWindow()
@@ -842,8 +864,8 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10302FHu hu, a lot of things\x01",
-            "happened for sure, eh?\x02",
+            "#6P#10302FA lot must've happened\x01",
+            "between you.\x02",
         )
     )
 
@@ -852,13 +874,14 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03203FWell, regarding the Revache old site,\x01",
-            "it's a real pity but we gave up.\x02\x03",
-            "#03200FDifferently from Revache that was a\x01",
-            "mafia organization, there are a few\x01",
-            "businesses we can cope up with directly...\x02\x03",
-            "#03210FYou can rest assured\x01",
-            "in that regard, you know?\x02",
+            "#11P#03203FWell regarding the old Revache\x01",
+            "building, it's a pity, but we\x01",
+            "had to give up on it.\x02\x03",
+            "#03200FUnlike Revache, a mafia\x01",
+            "organization, we have few direct\x01",
+            "competitors in our business...\x02\x03",
+            "#03210FYou can rest assured in that\x01",
+            "regard, you know?\x02",
         )
     )
 
@@ -867,8 +890,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00003F...How kind of you.\x01",
-            "(I can't completely believe him, though...)\x02",
+            "#6P#00003F...How kind of you. (I\x01",
+            "can't completely believe\x01",
+            "him, though...)\x02",
         )
     )
 
@@ -877,10 +901,11 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00105FExcuse me, what is the\x01",
-            ""favor" you wanted to ask?\x02\x03",
-            "#00103FWe thought it was certainly\x01",
-            "about the Crimson & Co....\x02",
+            "#6P#00105FUm, sorry to interrupt,\x01",
+            "but you said you had a\x01",
+            ""request"?\x02\x03",
+            "#00103FSurely it has something\x01",
+            "to do with Crimson & Co.\x02",
         )
     )
 
@@ -888,7 +913,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "Yes, actually──\x02",
+        "Oh, actually─\x02",
     )
 
     CloseMessageWindow()
@@ -905,8 +930,8 @@ def main():
         0x1A2,
         "Boy's Voice",
         (
-            "#5P#NYou're late, Cao!\x01",
-            "What the heck are you doing!?\x02",
+            "#5P#NYou're slow, Cao! What\x01",
+            "the heck are you doing!?\x02",
         )
     )
 
@@ -922,85 +947,85 @@ def main():
     Sleep(1000)
     SetChrSubChip(0x8, 0x2)
 
-    def lambda_17D9():
+    def lambda_1738():
 
-        label("loc_17D9")
+        label("loc_1738")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_17D9")
+        Jump("loc_1738")
 
-    QueueWorkItem2(0x101, 1, lambda_17D9)
+    QueueWorkItem2(0x101, 1, lambda_1738)
     Sleep(50)
 
-    def lambda_17EE():
+    def lambda_174D():
 
-        label("loc_17EE")
+        label("loc_174D")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_17EE")
+        Jump("loc_174D")
 
-    QueueWorkItem2(0x102, 1, lambda_17EE)
+    QueueWorkItem2(0x102, 1, lambda_174D)
     Sleep(50)
 
-    def lambda_1803():
+    def lambda_1762():
 
-        label("loc_1803")
+        label("loc_1762")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_1803")
+        Jump("loc_1762")
 
-    QueueWorkItem2(0x104, 1, lambda_1803)
+    QueueWorkItem2(0x104, 1, lambda_1762)
     Sleep(50)
 
-    def lambda_1818():
+    def lambda_1777():
 
-        label("loc_1818")
+        label("loc_1777")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_1818")
+        Jump("loc_1777")
 
-    QueueWorkItem2(0x109, 1, lambda_1818)
+    QueueWorkItem2(0x109, 1, lambda_1777)
     Sleep(50)
 
-    def lambda_182D():
+    def lambda_178C():
 
-        label("loc_182D")
+        label("loc_178C")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_182D")
+        Jump("loc_178C")
 
-    QueueWorkItem2(0x105, 1, lambda_182D)
+    QueueWorkItem2(0x105, 1, lambda_178C)
     Sleep(50)
 
-    def lambda_1842():
+    def lambda_17A1():
 
-        label("loc_1842")
+        label("loc_17A1")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_1842")
+        Jump("loc_17A1")
 
-    QueueWorkItem2(0x9, 1, lambda_1842)
+    QueueWorkItem2(0x9, 1, lambda_17A1)
     Sleep(300)
     OP_68(4460, 1100, 100, 3000)
 
-    def lambda_1868():
+    def lambda_17C7():
         OP_95(0xFE, 5800, 0, 1300, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x1A2, 1, lambda_1868)
+    QueueWorkItem(0x1A2, 1, lambda_17C7)
     Sleep(100)
 
-    def lambda_1885():
+    def lambda_17E4():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0xFF, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x1A2, 2, lambda_1885)
+    QueueWorkItem(0x1A2, 2, lambda_17E4)
     WaitChrThread(0x1A2, 1)
     EndChrThread(0x101, 0x1)
     EndChrThread(0x102, 0x1)
@@ -1012,14 +1037,20 @@ def main():
 
     ChrTalk(
         0x8,
-        "#11P#03200FOoh, if it isn't Lord Shing.\x02",
+        (
+            "#11P#03200FOh, if it isn't Lord\x01",
+            "Shing.\x02",
+        )
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "Did we do something wrong?\x02",
+        (
+            "Is something troubling\x01",
+            "you?\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -1028,8 +1059,9 @@ def main():
         0x1A2,
         "Boy",
         (
-            "Everything, how much do\x01",
-            "you want to make me wait!?\x02",
+            "What's troubling me is\x01",
+            "how long you're making\x01",
+            "me wait!\x02",
         )
     )
 
@@ -1040,7 +1072,7 @@ def main():
         "Boy",
         (
             "When is the guide\x01",
-            "coming to pick me up!?\x02",
+            "coming!?\x02",
         )
     )
 
@@ -1049,8 +1081,8 @@ def main():
     ChrTalk(
         0x9,
         (
-            "That is why I said that if you are fine\x01",
-            "with me, I could guide you anyt──\x02",
+            "Well, if you don't mind,\x01",
+            "I'll be your gui─\x02",
         )
     )
 
@@ -1059,7 +1091,11 @@ def main():
     NpcTalk(
         0x1A2,
         "Boy",
-        "You're no good, don't make me repeat it again!\x02",
+        (
+            "Shut up you! How many\x01",
+            "times do I have to tell\x01",
+            "you!?\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -1068,8 +1104,9 @@ def main():
         0x1A2,
         "Boy",
         (
-            "I finally came to have fun in Crossbell,\x01",
-            "being guided by you would ruin it, right!?\x02",
+            "It's my long-awaited visit to\x01",
+            "Crossbell! Being guided by someone\x01",
+            "like you would just ruin it!\x02",
         )
     )
 
@@ -1078,9 +1115,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03209FHu hu, since you say that we have\x01",
-            "made the arrangements you see.\x02\x03",
-            "#03204F"They" will be your guide.\x02",
+            "#11P#03209FHaha. Don't worry, I've\x01",
+            "arranged something for\x01",
+            "you.\x02\x03",
+            "#03204FThey will guide you.\x02",
         )
     )
 
@@ -1108,44 +1146,44 @@ def main():
     Sound(23, 0, 100, 0)
     Sleep(1000)
 
-    def lambda_1B71():
+    def lambda_1AA2():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_1B71)
+    QueueWorkItem(0x101, 1, lambda_1AA2)
     Sleep(50)
 
-    def lambda_1B81():
+    def lambda_1AB2():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_1B81)
+    QueueWorkItem(0x102, 1, lambda_1AB2)
     Sleep(50)
 
-    def lambda_1B91():
+    def lambda_1AC2():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_1B91)
+    QueueWorkItem(0x104, 1, lambda_1AC2)
     Sleep(50)
 
-    def lambda_1BA1():
+    def lambda_1AD2():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_1BA1)
+    QueueWorkItem(0x109, 1, lambda_1AD2)
     Sleep(50)
 
-    def lambda_1BB1():
+    def lambda_1AE2():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_1BB1)
+    QueueWorkItem(0x105, 1, lambda_1AE2)
     Sleep(300)
 
     ChrTalk(
         0x101,
-        "#6P#00005FE-Excuse me, Branch Manager Cao...?\x02",
+        "#6P#00005FU-Uh, Cao?\x02",
     )
 
     CloseMessageWindow()
@@ -1153,8 +1191,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10105FCould it be that the "favor"\x01",
-            "you wanted to ask is...\x02",
+            "#6P#10105F...Could this be the\x01",
+            ""request"?\x02",
         )
     )
 
@@ -1167,13 +1205,14 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03200FHu hu, let me introduce you.\x02\x03",
-            "#03204FThis is Lord Shing,\x01",
-            "a certain "Heiyue"\x01",
-            "elder's grandson.\x02\x03",
-            "#03209FWe want you to guide\x01",
-            "Lord Shing around\x01",
-            "Crossbell City.\x02",
+            "#11P#03200FLet me properly\x01",
+            "introduce you.\x02\x03",
+            "#03204FThis is Lord Shing, a\x01",
+            "certain Heiyue elder's\x01",
+            "grandson.\x02\x03",
+            "#03209FWe want you to show Lord\x01",
+            "Shing around Crossbell\x01",
+            "City.\x02",
         )
     )
 
@@ -1181,30 +1220,23 @@ def main():
 
     ChrTalk(
         0x102,
-        "#6P#00106FA-As I thought...\x02",
+        "#6P#00106FI-I knew it...\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#6P#00306FHey now, for real?\x02",
+        "#6P#00306FWhoa, seriously?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#6P#10300FHu hu, what a big request.\x02",
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x1A2,
         (
-            "#11PThese guys are guides?\x01",
-            "Aren't they still youngsters?\x02",
+            "#6P#10300FHaha. What an unexpected\x01",
+            "request.\x02",
         )
     )
 
@@ -1213,8 +1245,20 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#11PHasn't Ilya Platiｲre or\x01",
-            "Dieter Crois come for me?\x01\x02",
+            "#11PThese guys are my\x01",
+            "guides? Aren't they just\x01",
+            "a bunch of kids?\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x1A2,
+        (
+            "#11PCould you introduce me\x01",
+            "to Ilya Platiere or\x01",
+            "Dieter Crois?\x02",
         )
     )
 
@@ -1235,12 +1279,15 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03209FHa ha, as you can imagine\x01",
-            "that would be difficult...\x02\x03",
-            "#03200FThey too are quite\x01",
-            "famous in Crossbell...\x02\x03",
-            "#03204FAfter all, they even were the center\x01",
-            "figures who solved that incident...\x02",
+            "#11P#03209FHaha. As you might\x01",
+            "imagine, that would be\x01",
+            "rather difficult...\x02\x03",
+            "#03200FThey are quite the\x01",
+            "celebrities themselves,\x01",
+            "you know.\x02\x03",
+            "#03204FAnd, they played a\x01",
+            "leading role in the\x01",
+            "resolution of that case.\x02",
         )
     )
 
@@ -1250,7 +1297,7 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#11PEeh, I see.\x02",
+        "#11POh, I see.\x02",
     )
 
     CloseMessageWindow()
@@ -1258,8 +1305,9 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#11PSo you're the "Special Support Section"\x01",
-            "that solved the Cult incident, eh?\x02",
+            "#11PSo you're the Special\x01",
+            "Support Section that\x01",
+            "solved the cult case, huh.\x02",
         )
     )
 
@@ -1281,51 +1329,51 @@ def main():
     Sleep(1000)
     SetChrSubChip(0x8, 0x0)
 
-    def lambda_202D():
+    def lambda_1F43():
         TurnDirection(0xFE, 0x1A2, 500)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_202D)
+    QueueWorkItem(0x101, 1, lambda_1F43)
     Sleep(50)
 
-    def lambda_203D():
+    def lambda_1F53():
         TurnDirection(0xFE, 0x1A2, 500)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_203D)
+    QueueWorkItem(0x102, 1, lambda_1F53)
     Sleep(50)
 
-    def lambda_204D():
+    def lambda_1F63():
         TurnDirection(0xFE, 0x1A2, 500)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_204D)
+    QueueWorkItem(0x104, 1, lambda_1F63)
     Sleep(50)
 
-    def lambda_205D():
+    def lambda_1F73():
         TurnDirection(0xFE, 0x1A2, 500)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_205D)
+    QueueWorkItem(0x109, 1, lambda_1F73)
     Sleep(50)
 
-    def lambda_206D():
+    def lambda_1F83():
         TurnDirection(0xFE, 0x1A2, 500)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_206D)
+    QueueWorkItem(0x105, 1, lambda_1F83)
     Sleep(300)
 
     ChrTalk(
         0x101,
-        "#6P#00005FHuh...!?\x02",
+        "#6P#00005FHuh!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#6P#00105FW-Why do you...\x02",
+        "#6P#00105FW-Why do you know that?\x02",
     )
 
     CloseMessageWindow()
@@ -1333,8 +1381,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "Because he is an elder's grandson,\x01",
-            "Lord Shing is a well-informed person.\x02",
+            "Being one of the elders'\x01",
+            "grandsons, Lord Shing is a\x01",
+            "very well-informed person.\x02",
         )
     )
 
@@ -1343,8 +1392,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "In order to be able to come to Crossbell,\x01",
-            "it seems he was made study a lot.\x02",
+            "I heard he did quite a\x01",
+            "bit of studying before\x01",
+            "coming to Crossbell.\x02",
         )
     )
 
@@ -1352,7 +1402,7 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#11PEh eh, of course.\x02",
+        "#11PHehe, of course.\x02",
     )
 
     CloseMessageWindow()
@@ -1360,9 +1410,9 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#11PAs the grandson of an elder,\x01",
-            "I'm in the position of bearing\x01",
-            "the "Heiyue" future one day.\x02",
+            "#11PAs a proud grandson of the elder's, I have\x01",
+            "to be knowledgeable and dependable, as the\x01",
+            "future of Heiyue rests on my shoulders.\x02",
         )
     )
 
@@ -1371,8 +1421,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#11PEven my mental attitude is different\x01",
-            "from that of ordinary men like you.\x02",
+            "#11PYou regular people\x01",
+            "wouldn't understand.\x02",
         )
     )
 
@@ -1380,14 +1430,14 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00306F(Damn brat...)\x02",
+        "#6P#00306F(This brat...)\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#6P#10102F(Now now, senior Randy.)\x02",
+        "#6P#10102F(Now now, Randy.)\x02",
     )
 
     CloseMessageWindow()
@@ -1396,7 +1446,8 @@ def main():
         0x1A2,
         (
             "#11PWell, if you insist,\x01",
-            "I'll have to accept, but...\x02",
+            "I'll have to accept,\x01",
+            "but...\x02",
         )
     )
 
@@ -1406,7 +1457,7 @@ def main():
         0x1A2,
         (
             "#11PI also want to ask you\x01",
-            "about the Cult incident──\x02",
+            "about the Cult incident─\x02",
         )
     )
 
@@ -1418,7 +1469,7 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#11PEh...\x02",
+        "#11PHuh...\x02",
     )
 
     CloseMessageWindow()
@@ -1452,59 +1503,59 @@ def main():
 
     CloseMessageWindow()
 
-    def lambda_23C5():
+    def lambda_22D8():
 
-        label("loc_23C5")
+        label("loc_22D8")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_23C5")
+        Jump("loc_22D8")
 
-    QueueWorkItem2(0x101, 1, lambda_23C5)
+    QueueWorkItem2(0x101, 1, lambda_22D8)
     Sleep(50)
 
-    def lambda_23DA():
+    def lambda_22ED():
 
-        label("loc_23DA")
+        label("loc_22ED")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_23DA")
+        Jump("loc_22ED")
 
-    QueueWorkItem2(0x102, 1, lambda_23DA)
+    QueueWorkItem2(0x102, 1, lambda_22ED)
     Sleep(50)
 
-    def lambda_23EF():
+    def lambda_2302():
 
-        label("loc_23EF")
+        label("loc_2302")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_23EF")
+        Jump("loc_2302")
 
-    QueueWorkItem2(0x104, 1, lambda_23EF)
+    QueueWorkItem2(0x104, 1, lambda_2302)
     Sleep(50)
 
-    def lambda_2404():
+    def lambda_2317():
 
-        label("loc_2404")
+        label("loc_2317")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_2404")
+        Jump("loc_2317")
 
-    QueueWorkItem2(0x109, 1, lambda_2404)
+    QueueWorkItem2(0x109, 1, lambda_2317)
     Sleep(50)
 
-    def lambda_2419():
+    def lambda_232C():
 
-        label("loc_2419")
+        label("loc_232C")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_2419")
+        Jump("loc_232C")
 
-    QueueWorkItem2(0x105, 1, lambda_2419)
+    QueueWorkItem2(0x105, 1, lambda_232C)
     OP_95(0x1A2, 4900, 0, 2510, 2000, 0x0)
     TurnDirection(0x1A2, 0x102, 500)
     OP_63(0x1A2, 0x0, 1700, 0x2, 0x7, 0x50, 0x1)
@@ -1513,7 +1564,7 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#11P#800WI-It's my #800Wf...\x02",
+        "#11PTh-#400Wth-#400Wth....\x02",
     )
 
     CloseMessageWindow()
@@ -1521,7 +1572,7 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#11P#5SIt's my fated person...!\x02",
+        "#11P#5STHE WOMAN OF MY DREAMS!\x02",
     )
 
     CloseMessageWindow()
@@ -1534,38 +1585,38 @@ def main():
     SetCameraDistance(22270, 2000)
     OP_95(0x1A2, 2800, 0, 2150, 4000, 0x0)
 
-    def lambda_2502():
+    def lambda_2412():
         OP_95(0xFE, 2300, 0, 470, 4000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x1A2, 1, lambda_2502)
+    QueueWorkItem(0x1A2, 1, lambda_2412)
     OP_93(0x101, 0x5A, 0x0)
     OP_93(0x104, 0x5A, 0x0)
     OP_93(0x109, 0x5A, 0x0)
 
-    def lambda_2531():
+    def lambda_2441():
         OP_9B(0x1, 0xFE, 0xB4, 0x3E8, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_2531)
+    QueueWorkItem(0x101, 1, lambda_2441)
 
-    def lambda_2546():
+    def lambda_2456():
         OP_9B(0x1, 0xFE, 0xB4, 0x3E8, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_2546)
+    QueueWorkItem(0x104, 1, lambda_2456)
 
-    def lambda_255B():
+    def lambda_246B():
         OP_9B(0x1, 0xFE, 0xB4, 0x3E8, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_255B)
+    QueueWorkItem(0x109, 1, lambda_246B)
 
-    def lambda_2570():
+    def lambda_2480():
         OP_9B(0x1, 0xFE, 0xB4, 0x1F4, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_2570)
+    QueueWorkItem(0x105, 1, lambda_2480)
     WaitChrThread(0x101, 1)
     OP_6F(0x79)
     EndChrThread(0x102, 0x1)
@@ -1576,14 +1627,14 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00011FW-What...!?\x02",
+        "#6P#00011FW-Wha...!?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x102,
-        "#12P#00105FEek...\x02",
+        "#12P#00105FHuh....\x02",
     )
 
     CloseMessageWindow()
@@ -1591,8 +1642,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "Lovely looks!\x01",
-            "Beautiful pearl gray hair!\x02",
+            "So beautiful! Glossy\x01",
+            "pearl grey hair!\x02",
         )
     )
 
@@ -1601,8 +1652,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "And capacious\x01",
-            "amazing proportions!\x02",
+            "And such wonderful\x01",
+            "proportions too!\x02",
         )
     )
 
@@ -1611,8 +1662,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "T-To think that I could meet\x01",
-            "my ideal person in such place!\x02",
+            "I-I've finally found my\x01",
+            "dream girl!!\x02",
         )
     )
 
@@ -1621,8 +1672,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "Miss!\x01",
-            "What is your name?\x02",
+            "Miss! Can I have your\x01",
+            "name!?\x02",
         )
     )
 
@@ -1631,9 +1682,10 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00100FEhm...\x01",
-            "It's Elie, Elie MacDowell.\x02\x03",
-            "#00109F*giggle*, nice to meet you, Shing.\x02",
+            "#12P#00100FUm... It's Elie. Elie\x01",
+            "MacDowell.\x02\x03",
+            "#00109FHehe, nice to meet you,\x01",
+            "Shing.\x02",
         )
     )
 
@@ -1642,8 +1694,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "Miss Elie...\x01",
-            "...Even the name is lovely...!\x02",
+            "Elie... What a lovely\x01",
+            "name!\x02",
         )
     )
 
@@ -1652,8 +1704,9 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "I see, I came to Crossbell\x01",
-            "to meet this person...!\x02",
+            "I know! I was destined\x01",
+            "to meet you in\x01",
+            "Crossbell!\x02",
         )
     )
 
@@ -1672,7 +1725,10 @@ def main():
 
     ChrTalk(
         0x101,
-        "#6P#00005F(W-What can I say...)\x02",
+        (
+            "#6P#00005F(W-What do you even say\x01",
+            "to that?)\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -1680,8 +1736,9 @@ def main():
     ChrTalk(
         0x104,
         (
-            "#6P#00306F(Jeez, not only he's impudent,\x01",
-            "he's a super precocious brat.)\x02",
+            "#6P#00306F(Jeez, not only is he\x01",
+            "impudent, he's a super\x01",
+            "precocious brat.)\x02",
         )
     )
 
@@ -1690,8 +1747,8 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#6P#10109F(Ahaha...\x01",
-            "Miss Elie is so popular.)\x02",
+            "#6P#10109F(Ahaha... You're so\x01",
+            "popular, Elie.)\x02",
         )
     )
 
@@ -1701,7 +1758,7 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#6PCao, I like her!\x02",
+        "#6PCao, this is perfect!\x02",
     )
 
     CloseMessageWindow()
@@ -1709,8 +1766,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#6PI want this Miss to\x01",
-            "be my guide at once!\x02",
+            "#6PI want her to show me\x01",
+            "around town!\x02",
         )
     )
 
@@ -1719,9 +1776,10 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03204FHu hu, it is nice to hear that.\x02\x03",
-            "#03209F──Then, everyone.\x01",
-            "Please take care of Lord Shing.\x02",
+            "#11P#03204FHaha. Good to hear.\x02\x03",
+            "#03209F─Well then, everyone.\x01",
+            "Please take care of\x01",
+            "Shing for us.\x02",
         )
     )
 
@@ -1730,9 +1788,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00011FPlease, w-wait a moment!\x02\x03",
-            "#00003F(Guides for a Heiyue elder's grandson...\x01",
-            "Is it all right to accept it?)\x02",
+            "#6P#00011FW-Wait a minute!\x02\x03",
+            "#00003F(Showing a Heiyue elder's\x01",
+            "grandson around town... Should\x01",
+            "we really do this now?)\x02",
         )
     )
 
@@ -1746,11 +1805,11 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_8_DA8 end
+    # Function_8_D55 end
 
-    def Function_9_29BA(): pass
+    def Function_9_28A4(): pass
 
-    label("Function_9_29BA")
+    label("Function_9_28A4")
 
     EventBegin(0x0)
     Fade(500)
@@ -1775,9 +1834,9 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03200FWhat about it, Mr. Lloyd?\x02\x03",
-            "Can I ask you to be a guide\x01",
-            "for Lord Shing in Crossbell?\x02",
+            "#11P#03200FWell, Lloyd?\x02\x03",
+            "Can I ask you to show\x01",
+            "Shing around Crossbell?\x02",
         )
     )
 
@@ -1788,11 +1847,11 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_9_29BA end
+    # Function_9_28A4 end
 
-    def Function_10_2AE5(): pass
+    def Function_10_29B7(): pass
 
-    label("Function_10_2AE5")
+    label("Function_10_29B7")
 
     FadeToDark(300, 0, 100)
     OP_0D()
@@ -1805,8 +1864,8 @@ def main():
         -1,
         0,
         (
-            "Accept the Request\x01",          # 0
-            "Think About It For Now\x01",      # 1
+            "Accept\x01",                      # 0
+            "Think about it for now\x01",      # 1
         )
     )
 
@@ -1818,25 +1877,25 @@ def main():
     OP_0D()
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
-        (0, "loc_2B5F"),
-        (1, "loc_2B67"),
-        (SWITCH_DEFAULT, "loc_2D87"),
+        (0, "loc_2A25"),
+        (1, "loc_2A2D"),
+        (SWITCH_DEFAULT, "loc_2C58"),
     )
 
 
-    label("loc_2B5F")
+    label("loc_2A25")
 
     Call(0, 11)
-    Jump("loc_2D87")
+    Jump("loc_2C58")
 
-    label("loc_2B67")
+    label("loc_2A2D")
 
 
     ChrTalk(
         0x101,
         (
-            "#6P#00003FI'm sorry,\x01",
-            "we're busy now...\x02",
+            "#6P#00003FSorry. Our hands are\x01",
+            "full at the moment...\x02",
         )
     )
 
@@ -1850,8 +1909,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#11PW-What did you say...?\x01",
-            "Are you refusing to be my guides!?\x02",
+            "#11PW-What did you say!? Are\x01",
+            "you refusing ME!?\x02",
         )
     )
 
@@ -1860,8 +1919,9 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#12P#00106FI'm sorry, Shing.\x01",
-            "It will be fine when we finish what we have to do.\x02",
+            "#12P#00106FSorry, Shing. We can do\x01",
+            "it once we finish our\x01",
+            "other business.\x02",
         )
     )
 
@@ -1870,8 +1930,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00000FEehm, can we accept it\x01",
-            "again after, right?\x02",
+            "#6P#00000FUmm, is it all right if\x01",
+            "we accept your offer\x01",
+            "later?\x02",
         )
     )
 
@@ -1880,10 +1941,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03204FYes, of course we don't mind.\x02\x03",
-            "#03200FHowever, Lord Shing\x01",
-            "can't endure to wait too much.\x02\x03",
-            "For that reason, please come back quickly.\x02",
+            "#11P#03204FYes, I have no problem\x01",
+            "with that of course.\x02\x03",
+            "#03200FIt's just, I can't keep\x01",
+            "Lord Shing waiting much\x01",
+            "longer, you see.\x02\x03",
+            "Accordingly, please\x01",
+            "return soon.\x02",
         )
     )
 
@@ -1891,7 +1955,10 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#11PI'll be waiting for you, so do it fast!\x02",
+        (
+            "#11PI'll be waiting, so do\x01",
+            "it fast!\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -1903,9 +1970,9 @@ def main():
     BeginChrThread(0xA, 0, 0, 0)
     ClearChrFlags(0xA, 0x40)
     SetScenarioFlags(0x154, 6)
-    Jump("loc_2D87")
+    Jump("loc_2C58")
 
-    label("loc_2D87")
+    label("loc_2C58")
 
     OP_69(0xFF, 0x0)
     SetChrPos(0x0, 900, 0, 50, 270)
@@ -1921,31 +1988,31 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_10_2AE5 end
+    # Function_10_29B7 end
 
-    def Function_11_2DDD(): pass
+    def Function_11_2CAE(): pass
 
-    label("Function_11_2DDD")
+    label("Function_11_2CAE")
 
 
     ChrTalk(
         0x101,
         (
-            "#6P#00003FUnderstood.\x01",
-            "We accept.\x02\x03",
-            "#00000FSo, about the flow\x01",
-            "of the city tour...\x02",
+            "#6P#00003FUnderstood. We accept.\x02\x03",
+            "#00000FSo, how specifically\x01",
+            "will this tour go?\x02",
         )
     )
 
     CloseMessageWindow()
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 6)), scpexpr(EXPR_END)), "loc_3050")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 6)), scpexpr(EXPR_END)), "loc_2F07")
 
     ChrTalk(
         0x8,
         (
-            "#11P#03200FAh, please inquire Lord \x01",
-            "Shing directly about that.\x02",
+            "#11P#03200FPlease ask Lord Shing\x01",
+            "directly for those\x01",
+            "details.\x02",
         )
     )
 
@@ -1956,7 +2023,7 @@ def main():
         0x8,
         (
             "#11P#03209FWell then, Lord Shing.\x01",
-            "Please be careful and have a nice trip.\x02",
+            "Enjoy your tour.\x02",
         )
     )
 
@@ -1966,64 +2033,64 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#6PYeah, got it!\x02",
+        "#6PYeah, sure!\x02",
     )
 
     CloseMessageWindow()
 
-    def lambda_2EF7():
+    def lambda_2DAE():
 
-        label("loc_2EF7")
+        label("loc_2DAE")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_2EF7")
+        Jump("loc_2DAE")
 
-    QueueWorkItem2(0x101, 1, lambda_2EF7)
+    QueueWorkItem2(0x101, 1, lambda_2DAE)
     Sleep(50)
 
-    def lambda_2F0C():
+    def lambda_2DC3():
 
-        label("loc_2F0C")
+        label("loc_2DC3")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_2F0C")
+        Jump("loc_2DC3")
 
-    QueueWorkItem2(0x102, 1, lambda_2F0C)
+    QueueWorkItem2(0x102, 1, lambda_2DC3)
     Sleep(50)
 
-    def lambda_2F21():
+    def lambda_2DD8():
 
-        label("loc_2F21")
+        label("loc_2DD8")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_2F21")
+        Jump("loc_2DD8")
 
-    QueueWorkItem2(0x104, 1, lambda_2F21)
+    QueueWorkItem2(0x104, 1, lambda_2DD8)
     Sleep(50)
 
-    def lambda_2F36():
+    def lambda_2DED():
 
-        label("loc_2F36")
+        label("loc_2DED")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_2F36")
+        Jump("loc_2DED")
 
-    QueueWorkItem2(0x109, 1, lambda_2F36)
+    QueueWorkItem2(0x109, 1, lambda_2DED)
     Sleep(50)
 
-    def lambda_2F4B():
+    def lambda_2E02():
 
-        label("loc_2F4B")
+        label("loc_2E02")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_2F4B")
+        Jump("loc_2E02")
 
-    QueueWorkItem2(0x105, 1, lambda_2F4B)
+    QueueWorkItem2(0x105, 1, lambda_2E02)
     OP_95(0x1A2, 4900, 0, 2510, 2000, 0x0)
     OP_68(3060, 1100, -70, 2000)
     MoveCamera(52, 19, 0, 2000)
@@ -2032,56 +2099,57 @@ def main():
     SetChrSubChip(0x8, 0x0)
     OP_95(0x1A2, 2800, 0, 2150, 2000, 0x0)
 
-    def lambda_2FB7():
+    def lambda_2E6E():
         OP_95(0xFE, 2300, 0, 470, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x1A2, 1, lambda_2FB7)
+    QueueWorkItem(0x1A2, 1, lambda_2E6E)
     OP_93(0x101, 0x5A, 0x0)
     OP_93(0x104, 0x5A, 0x0)
     OP_93(0x109, 0x5A, 0x0)
 
-    def lambda_2FE6():
+    def lambda_2E9D():
         OP_9B(0x1, 0xFE, 0xB4, 0x3E8, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_2FE6)
+    QueueWorkItem(0x101, 1, lambda_2E9D)
 
-    def lambda_2FFB():
+    def lambda_2EB2():
         OP_9B(0x1, 0xFE, 0xB4, 0x3E8, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_2FFB)
+    QueueWorkItem(0x104, 1, lambda_2EB2)
 
-    def lambda_3010():
+    def lambda_2EC7():
         OP_9B(0x1, 0xFE, 0xB4, 0x3E8, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_3010)
+    QueueWorkItem(0x109, 1, lambda_2EC7)
 
-    def lambda_3025():
+    def lambda_2EDC():
         OP_9B(0x1, 0xFE, 0xB4, 0x1F4, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_3025)
+    QueueWorkItem(0x105, 1, lambda_2EDC)
     WaitChrThread(0x101, 1)
     EndChrThread(0x102, 0x1)
     EndChrThread(0x104, 0x1)
     EndChrThread(0x109, 0x1)
     EndChrThread(0x105, 0x1)
     OP_6F(0x79)
-    Jump("loc_30F1")
+    Jump("loc_2F8D")
 
-    label("loc_3050")
+    label("loc_2F07")
 
 
     ChrTalk(
         0x8,
         (
-            "#11P#03200FAh, please inquire Lord \x01",
-            "Shing directly about that.\x02\x03",
+            "#11P#03200FPlease ask Lord Shing\x01",
+            "directly for those\x01",
+            "details.\x02\x03",
             "#03209FWell then, Lord Shing.\x01",
-            "Please be careful and have a nice trip.\x02",
+            "Enjoy your tour.\x02",
         )
     )
 
@@ -2089,12 +2157,12 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#6PYeah, got it!\x02",
+        "#6PYeah, sure!\x02",
     )
 
     CloseMessageWindow()
 
-    label("loc_30F1")
+    label("loc_2F8D")
 
     TurnDirection(0x1A2, 0x102, 500)
     Sleep(300)
@@ -2102,112 +2170,112 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#5P──Come now, miss,\x01",
-            "let's go at once!\x02",
+            "#5P─Ok miss, let's go\x01",
+            "already!\x02",
         )
     )
 
     CloseMessageWindow()
 
-    def lambda_312E():
+    def lambda_2FC1():
         OP_95(0xFE, 1310, 0, -400, 2000, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x1A2, 1, lambda_312E)
+    QueueWorkItem(0x1A2, 1, lambda_2FC1)
 
-    def lambda_3148():
+    def lambda_2FDB():
         OP_93(0xFE, 0xB4, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_3148)
+    QueueWorkItem(0x101, 1, lambda_2FDB)
 
-    def lambda_3155():
+    def lambda_2FE8():
         OP_93(0xFE, 0xB4, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_3155)
+    QueueWorkItem(0x104, 1, lambda_2FE8)
 
-    def lambda_3162():
+    def lambda_2FF5():
         OP_93(0xFE, 0xB4, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_3162)
+    QueueWorkItem(0x109, 1, lambda_2FF5)
     WaitChrThread(0x109, 1)
 
-    def lambda_3173():
+    def lambda_3006():
         OP_9B(0x1, 0xFE, 0xB4, 0x1F4, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_3173)
+    QueueWorkItem(0x101, 1, lambda_3006)
 
-    def lambda_3188():
+    def lambda_301B():
         OP_9B(0x1, 0xFE, 0xB4, 0x320, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_3188)
+    QueueWorkItem(0x104, 1, lambda_301B)
 
-    def lambda_319D():
+    def lambda_3030():
         OP_9B(0x1, 0xFE, 0xB4, 0x320, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_319D)
+    QueueWorkItem(0x109, 1, lambda_3030)
     OP_68(930, 1100, -390, 1500)
     WaitChrThread(0x109, 1)
 
-    def lambda_31C7():
+    def lambda_305A():
 
-        label("loc_31C7")
+        label("loc_305A")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_31C7")
+        Jump("loc_305A")
 
-    QueueWorkItem2(0x101, 1, lambda_31C7)
+    QueueWorkItem2(0x101, 1, lambda_305A)
     Sleep(50)
 
-    def lambda_31DC():
+    def lambda_306F():
 
-        label("loc_31DC")
+        label("loc_306F")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_31DC")
+        Jump("loc_306F")
 
-    QueueWorkItem2(0x104, 1, lambda_31DC)
+    QueueWorkItem2(0x104, 1, lambda_306F)
     Sleep(50)
 
-    def lambda_31F1():
+    def lambda_3084():
 
-        label("loc_31F1")
+        label("loc_3084")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_31F1")
+        Jump("loc_3084")
 
-    QueueWorkItem2(0x109, 1, lambda_31F1)
+    QueueWorkItem2(0x109, 1, lambda_3084)
     Sleep(50)
 
-    def lambda_3206():
+    def lambda_3099():
 
-        label("loc_3206")
+        label("loc_3099")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_3206")
+        Jump("loc_3099")
 
-    QueueWorkItem2(0x105, 1, lambda_3206)
+    QueueWorkItem2(0x105, 1, lambda_3099)
 
-    def lambda_3218():
+    def lambda_30AB():
         OP_97(0xFE, 0xFFFFFA24, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x1A2, 1, lambda_3218)
+    QueueWorkItem(0x1A2, 1, lambda_30AB)
 
-    def lambda_3232():
+    def lambda_30C5():
         OP_97(0xFE, 0xFFFFFA24, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_3232)
+    QueueWorkItem(0x102, 1, lambda_30C5)
     WaitChrThread(0x102, 1)
     EndChrThread(0x101, 0x1)
     EndChrThread(0x104, 0x1)
@@ -2232,7 +2300,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#11P#00105FW-Wait, Shing...?\x02",
+        "#11P#00105FH-Hey, Shing!?\x02",
     )
 
     CloseMessageWindow()
@@ -2240,8 +2308,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#5P#00005FUhhm, don't tell me you're thinking\x01",
-            "to go around the city you two alone?\x02",
+            "#5P#00005FUm, you're going with\x01",
+            "just the two of you?\x02",
         )
     )
 
@@ -2252,8 +2320,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#12PEeh, but moving around\x01",
-            "in a group is annoying.\x02",
+            "#12PYup. Because large\x01",
+            "groups are annoying.\x02",
         )
     )
 
@@ -2262,8 +2330,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#12PAlso, I prefer to\x01",
-            "be alone with her.\x02",
+            "#12PBesides, I'm fine with\x01",
+            "just the two of us.\x02",
         )
     )
 
@@ -2272,9 +2340,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#5P#00001FUhhm, even so...\x02\x03",
-            "#00003F(I think he won't be targeted just\x01",
-            "because he's an elder's grandson, but...)\x02",
+            "#5P#00001FHmm. Well, if you say so.\x02\x03",
+            "#00003F(I don't think he'll be\x01",
+            "targeted just because he's\x01",
+            "an elder's grandson, but...)\x02",
         )
     )
 
@@ -2283,11 +2352,13 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#11P#00103F...*cough*.\x02\x03",
-            "#00100FShing, we're now before the Trade Conference.\x01",
-            "We honestly don't know what could happen.\x02\x03",
-            "#00104FThinking about your safety, don't you think\x01",
-            "it would be better to have bodyguards?\x02",
+            "#11P#00103F...Ahem.\x02\x03",
+            "#00100FShing, the trade\x01",
+            "conference is coming up.\x01",
+            "So anything could happen.\x02\x03",
+            "#00104FFor your safety, wouldn't\x01",
+            "it be better if you had\x01",
+            "guards with you?\x02",
         )
     )
 
@@ -2299,10 +2370,7 @@ def main():
 
     ChrTalk(
         0x1A2,
-        (
-            "#6PUuh, I think that if you say so,\x01",
-            "then it can't be helped.\x02",
-        )
+        "#6PUuh, if you say so.\x02",
     )
 
     CloseMessageWindow()
@@ -2312,8 +2380,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#12PThen, bring another two.\x01",
-            "And see that you protect us.\x02",
+            "#12PTwo more, then. You guys\x01",
+            "protect us.\x02",
         )
     )
 
@@ -2322,9 +2390,9 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#12PAs for the remaining two...let's see...\x01",
-            "They should watch over us maintaining\x01",
-            "a reasonable distance.\x02",
+            "#12PAnd regarding the other\x01",
+            "two... Keep watch from a\x01",
+            "reasonable distance.\x02",
         )
     )
 
@@ -2332,21 +2400,25 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#12PWhat about that?\x02",
+        "#12PHow about that?\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x101,
-        "#5P#00005FEeh...\x02",
+        "#5P#00005FWow...\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x104,
-        "#5P#00303F...He unintentionally said something right.\x02",
+        (
+            "#5P#00303F...I guess even a broken\x01",
+            "orbal clock is right\x01",
+            "twice a day.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -2354,8 +2426,9 @@ def main():
     ChrTalk(
         0x109,
         (
-            "#5P#10100FYes, that's an effective arrangement for\x01",
-            "the bodyguards of an important person.\x02",
+            "#5P#10100FYes, that's an effective\x01",
+            "deployment for a VIP's\x01",
+            "guard.\x02",
         )
     )
 
@@ -2363,7 +2436,7 @@ def main():
 
     ChrTalk(
         0x105,
-        "#11P#10300FHu hu, then it's decided.\x02",
+        "#11P#10300FHehe. It's decided then.\x02",
     )
 
     CloseMessageWindow()
@@ -2373,8 +2446,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#11P#10300FOne of the bodyguards is you,\x01",
-            "but who will be the other one?\x02",
+            "#11P#10300FAssuming you'll be one\x01",
+            "of the guards, who will\x01",
+            "be the other?\x02",
         )
     )
 
@@ -2410,14 +2484,14 @@ def main():
     OP_0D()
     Switch(
         (scpexpr(EXPR_GET_RESULT, 0x0), scpexpr(EXPR_END)),
-        (0, "loc_3838"),
-        (1, "loc_39A5"),
-        (2, "loc_3B1F"),
-        (SWITCH_DEFAULT, "loc_3C83"),
+        (0, "loc_362C"),
+        (1, "loc_377D"),
+        (2, "loc_38D3"),
+        (SWITCH_DEFAULT, "loc_3A18"),
     )
 
 
-    label("loc_3838")
+    label("loc_362C")
 
     SetScenarioFlags(0x1C4, 6)
     TurnDirection(0x101, 0x104, 500)
@@ -2426,8 +2500,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#11P#00000FThen, Randy.\x01",
-            "Can you come with us?\x02",
+            "#11P#00000FThen, Randy? Can you\x01",
+            "come with us?\x02",
         )
     )
 
@@ -2439,8 +2513,9 @@ def main():
         0x104,
         (
             "#6P#00300FYeah, got it.\x02\x03",
-            "#00304FThen let's get moderately fired up and\x01",
-            "go on our guide & escort mission.\x02",
+            "#00304FAlright then. Let's get\x01",
+            "fired up for our tour\x01",
+            "and escort mission.\x02",
         )
     )
 
@@ -2451,9 +2526,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#11P#00000FAs for the others, like he said,\x01",
-            "follow us from behind while\x01",
-            "seeing the situation.\x02",
+            "#11P#00000FThe other two will follow\x01",
+            "behind and observe the\x01",
+            "surroundings.\x02",
         )
     )
 
@@ -2470,13 +2545,13 @@ def main():
 
     ChrTalk(
         0x105,
-        "#12P#10300FHu hu, roger.\x02",
+        "#12P#10300FHaha, roger.\x02",
     )
 
     CloseMessageWindow()
-    Jump("loc_3C83")
+    Jump("loc_3A18")
 
-    label("loc_39A5")
+    label("loc_377D")
 
     SetScenarioFlags(0x1C4, 7)
     TurnDirection(0x101, 0x109, 500)
@@ -2485,8 +2560,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#11P#00000FThen, Noｱl.\x01",
-            "Can you come with us?\x02",
+            "#11P#00000FNoｱl? Can you come with\x01",
+            "us?\x02",
         )
     )
 
@@ -2498,8 +2573,9 @@ def main():
         0x109,
         (
             "#6P#10100FYes, understood.\x02\x03",
-            "#10101FLet's escort him properly without letting\x01",
-            "our guards down even if it's sightseeing.\x02",
+            "#10101FThough it's just sightseeing,\x01",
+            "let's not lose focus and\x01",
+            "guard him properly.\x02",
         )
     )
 
@@ -2508,9 +2584,9 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#11P#00000FAs for the others, like he said,\x01",
-            "follow us from behind while\x01",
-            "seeing the situation.\x02",
+            "#11P#00000FThe other two will follow\x01",
+            "behind and observe the\x01",
+            "surroundings.\x02",
         )
     )
 
@@ -2520,20 +2596,20 @@ def main():
 
     ChrTalk(
         0x104,
-        "#6P#00300FYeah, leave it to me.\x02",
+        "#6P#00300FSure, leave it to me.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x105,
-        "#12P#10300FHu hu, roger.\x02",
+        "#12P#10300FHaha, roger.\x02",
     )
 
     CloseMessageWindow()
-    Jump("loc_3C83")
+    Jump("loc_3A18")
 
-    label("loc_3B1F")
+    label("loc_38D3")
 
     SetScenarioFlags(0x1C5, 0)
     TurnDirection(0x101, 0x105, 500)
@@ -2542,8 +2618,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#5P#00000FThen, Wazy.\x01",
-            "Can you come with us?\x02",
+            "#5P#00000FWazy. Can you come with\x01",
+            "us?\x02",
         )
     )
 
@@ -2552,9 +2628,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#12P#10304FHu hu, roger.\x02\x03",
-            "#10302FIn this case, I'll keep you\x01",
-            "company until the end.\x02",
+            "#12P#10304FHehe, roger.\x02\x03",
+            "#10302FI guess I'll stick with\x01",
+            "you 'til the end.\x02",
         )
     )
 
@@ -2565,44 +2641,44 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#11P#00000FAs for the others, like he said,\x01",
-            "follow us from behind while\x01",
-            "seeing the situation.\x02",
+            "#11P#00000FThe other two will follow\x01",
+            "behind and observe the\x01",
+            "surroundings.\x02",
         )
     )
 
     CloseMessageWindow()
 
-    def lambda_3C28():
+    def lambda_39B8():
         TurnDirection(0xFE, 0x101, 500)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_3C28)
+    QueueWorkItem(0x104, 1, lambda_39B8)
     Sleep(50)
 
-    def lambda_3C38():
+    def lambda_39C8():
         TurnDirection(0xFE, 0x101, 500)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_3C38)
+    QueueWorkItem(0x109, 1, lambda_39C8)
     Sleep(300)
 
     ChrTalk(
         0x104,
-        "#6P#00300FYeah, leave it to me.\x02",
+        "#6P#00300FSure, leave it to me.\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x109,
-        "#6P#10100FRoger.\x02",
+        "#6P#10100FRoger that.\x02",
     )
 
     CloseMessageWindow()
-    Jump("loc_3C83")
+    Jump("loc_3A18")
 
-    label("loc_3C83")
+    label("loc_3A18")
 
     TurnDirection(0x101, 0x1A2, 500)
     Sleep(300)
@@ -2610,37 +2686,37 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#5P#00000F...Well then.\x01",
-            "Are you fine with this, Shing?\x02",
+            "#5P#00000F...Now then. Master\x01",
+            "Shing, are you ready?\x02",
         )
     )
 
     CloseMessageWindow()
 
-    def lambda_3CCE():
+    def lambda_3A60():
         TurnDirection(0xFE, 0x1A2, 500)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_3CCE)
+    QueueWorkItem(0x104, 1, lambda_3A60)
     Sleep(50)
 
-    def lambda_3CDE():
+    def lambda_3A70():
         TurnDirection(0xFE, 0x1A2, 500)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_3CDE)
+    QueueWorkItem(0x109, 1, lambda_3A70)
     Sleep(50)
 
-    def lambda_3CEE():
+    def lambda_3A80():
         TurnDirection(0xFE, 0x1A2, 500)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_3CEE)
+    QueueWorkItem(0x105, 1, lambda_3A80)
     Sleep(300)
 
     ChrTalk(
         0x1A2,
-        "#12PYeah, I'm good.\x02",
+        "#12PYep, all set.\x02",
     )
 
     CloseMessageWindow()
@@ -2648,8 +2724,9 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#12PAlso, no formalities among us.\x01",
-            "You aren't Heiyue members, after all.\x02",
+            "#12PAlso, you don't have to\x01",
+            "be so formal. You guys\x01",
+            "aren't Heiyue, after all.\x02",
         )
     )
 
@@ -2657,7 +2734,7 @@ def main():
 
     ChrTalk(
         0x101,
-        "#5P#00009FHa ha, got it, Shing.\x02",
+        "#5P#00009FHaha... Got it, Shing.\x02",
     )
 
     CloseMessageWindow()
@@ -2665,8 +2742,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#12PAlright!\x01",
-            "Then, let's go out quick.\x02",
+            "#12POkay! Let's get a move\x01",
+            "on already!\x02",
         )
     )
 
@@ -2675,8 +2752,9 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#12PI'll tell you in detail the places\x01",
-            "I want to go to when we'll be outside!\x02",
+            "#12PI'll explain the details\x01",
+            "of where I want to go\x01",
+            "outside!\x02",
         )
     )
 
@@ -2692,7 +2770,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Quest [Showing Shing Around The City]\x07\x00",
+            "Quest [Showing Shing\x01",
+            "Around]\x07\x00",
             " started!\x02",
         )
     )
@@ -2722,11 +2801,11 @@ def main():
     EventEnd(0x5)
     Return()
 
-    # Function_11_2DDD end
+    # Function_11_2CAE end
 
-    def Function_12_3EDF(): pass
+    def Function_12_3C59(): pass
 
-    label("Function_12_3EDF")
+    label("Function_12_3C59")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -2756,8 +2835,8 @@ def main():
     AnonymousTalk(
         0x8,
         (
-            "#11P#03204F#N──Hu hu, I'm glad\x01",
-            "you had fun.\x02",
+            "#11P#03204F#N─Haha, I'm glad you had\x01",
+            "a good time.\x02",
         )
     )
 
@@ -2768,65 +2847,58 @@ def main():
     FadeToBright(1000, 0)
     OP_0D()
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_STUB), scpexpr(EXPR_END)))
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 2)), scpexpr(EXPR_END)), "loc_402C")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 2)), scpexpr(EXPR_END)), "loc_3DAB")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_402C")
+    label("loc_3DAB")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 4)), scpexpr(EXPR_END)), "loc_403F")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 4)), scpexpr(EXPR_END)), "loc_3DBE")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_403F")
+    label("loc_3DBE")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x153, 7)), scpexpr(EXPR_END)), "loc_4052")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x153, 7)), scpexpr(EXPR_END)), "loc_3DD1")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_4052")
+    label("loc_3DD1")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 0)), scpexpr(EXPR_END)), "loc_4065")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 0)), scpexpr(EXPR_END)), "loc_3DE4")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_4065")
+    label("loc_3DE4")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 1)), scpexpr(EXPR_END)), "loc_4078")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 1)), scpexpr(EXPR_END)), "loc_3DF7")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_4078")
+    label("loc_3DF7")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1CA, 0)), scpexpr(EXPR_END)), "loc_408B")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1CA, 0)), scpexpr(EXPR_END)), "loc_3E0A")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_408B")
+    label("loc_3E0A")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 5)), scpexpr(EXPR_END)), "loc_409E")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x154, 5)), scpexpr(EXPR_END)), "loc_3E1D")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_409E")
+    label("loc_3E1D")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 5)), scpexpr(EXPR_END)), "loc_40B1")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 5)), scpexpr(EXPR_END)), "loc_3E30")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_40B1")
+    label("loc_3E30")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C6, 0)), scpexpr(EXPR_END)), "loc_40C4")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C6, 0)), scpexpr(EXPR_END)), "loc_3E43")
     RunExpression(0x1, (scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_40C4")
+    label("loc_3E43")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_41A6")
-
-    ChrTalk(
-        0x1A2,
-        "#5PYeah, it was really worthwhile!\x02",
-    )
-
-    CloseMessageWindow()
+    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_3F1C")
 
     ChrTalk(
         0x1A2,
         (
-            "#5PCrossbell is not only the \x01",
-            "Arc-en-ciel and the theme park!\x02",
+            "#5PYeah, it was really\x01",
+            "worthwhile!\x02",
         )
     )
 
@@ -2835,29 +2907,9 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#5PI feel I understand too the reason why a shrewd\x01",
-            "businessman like you is peculiar about it!\x02",
-        )
-    )
-
-    CloseMessageWindow()
-    Jump("loc_42BB")
-
-    label("loc_41A6")
-
-
-    ChrTalk(
-        0x1A2,
-        "#5PYeah, it was really worthwhile!\x02",
-    )
-
-    CloseMessageWindow()
-
-    ChrTalk(
-        0x1A2,
-        (
-            "#5PActually, there were some other\x01",
-            "places I wanted to see, but...\x02",
+            "#5PCrossbell isn't just\x01",
+            "Arc-en-Ciel and the\x01",
+            "theme park!\x02",
         )
     )
 
@@ -2866,8 +2918,23 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#5PCrossbell is not only the \x01",
-            "Arc-en-ciel and the theme park!\x02",
+            "#5PI feel like I understand why\x01",
+            "shrewd businessmen like yourself\x01",
+            "make such a fuss over it!\x02",
+        )
+    )
+
+    CloseMessageWindow()
+    Jump("loc_401D")
+
+    label("loc_3F1C")
+
+
+    ChrTalk(
+        0x1A2,
+        (
+            "#5PYeah, it was really\x01",
+            "worthwhile!\x02",
         )
     )
 
@@ -2876,19 +2943,45 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#5PI feel I understand too the reason why a shrewd\x01",
-            "businessman like you is peculiar about it!\x02",
+            "#5PActually, I wanted to\x01",
+            "see a few more places,\x01",
+            "but...\x02",
         )
     )
 
     CloseMessageWindow()
 
-    label("loc_42BB")
+    ChrTalk(
+        0x1A2,
+        (
+            "#5PCrossbell isn't just\x01",
+            "Arc-en-Ciel and the\x01",
+            "theme park!\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    ChrTalk(
+        0x1A2,
+        (
+            "#5PI feel like I understand why\x01",
+            "shrewd businessmen like yourself\x01",
+            "make such a fuss over it!\x02",
+        )
+    )
+
+    CloseMessageWindow()
+
+    label("loc_401D")
 
 
     ChrTalk(
         0x8,
-        "#11P#03200FHa ha, why thank you.\x02",
+        (
+            "#11P#03200FHaha. Well color me\x01",
+            "surprised.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -2899,12 +2992,14 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03200FMr. Lloyd, Miss Elie\x01",
-            "and you all.\x02\x03",
-            "#03209FI would have never imagined that\x01",
-            "Lord Shing could be this happy.\x02\x03",
-            "#03204FThank you very much,\x01",
-            "you were of great help.\x02",
+            "#11P#03200FLloyd, Elie. And\x01",
+            "everyone else, too.\x02\x03",
+            "#03209FI would have never have\x01",
+            "imagined Lord Shing\x01",
+            "would be this pleased.\x02\x03",
+            "#03204FThank you very much.\x01",
+            "Excellent work,\x01",
+            "everyone.\x02",
         )
     )
 
@@ -2920,61 +3015,61 @@ def main():
     ChrTalk(
         0x102,
         (
-            "#6P#00102F*giggle*, we had \x01",
-            "a good time too.\x02",
+            "#6P#00102F*giggle*. We had a good\x01",
+            "time as well.\x02",
         )
     )
 
     CloseMessageWindow()
     OP_95(0x9, 2580, 0, 1630, 2000, 0x0)
 
-    def lambda_440F():
+    def lambda_4184():
         TurnDirection(0xFE, 0x101, 500)
         ExitThread()
 
-    QueueWorkItem(0x9, 1, lambda_440F)
+    QueueWorkItem(0x9, 1, lambda_4184)
     Sleep(50)
 
-    def lambda_441F():
+    def lambda_4194():
         TurnDirection(0xFE, 0x9, 500)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_441F)
+    QueueWorkItem(0x101, 1, lambda_4194)
     Sleep(50)
 
-    def lambda_442F():
+    def lambda_41A4():
         TurnDirection(0xFE, 0x9, 500)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_442F)
+    QueueWorkItem(0x102, 1, lambda_41A4)
     Sleep(50)
 
-    def lambda_443F():
+    def lambda_41B4():
         TurnDirection(0xFE, 0x9, 500)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_443F)
+    QueueWorkItem(0x104, 1, lambda_41B4)
     Sleep(50)
 
-    def lambda_444F():
+    def lambda_41C4():
         TurnDirection(0xFE, 0x9, 500)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_444F)
+    QueueWorkItem(0x109, 1, lambda_41C4)
     Sleep(50)
 
-    def lambda_445F():
+    def lambda_41D4():
         TurnDirection(0xFE, 0x9, 500)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_445F)
+    QueueWorkItem(0x105, 1, lambda_41D4)
     Sleep(300)
 
     ChrTalk(
         0x9,
         (
-            "──It is nothing much,\x01",
-            "but please accept this.\x02",
+            "─It isn't much, but\x01",
+            "please accept this.\x02",
         )
     )
 
@@ -2992,8 +3087,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#12P#00003FAh, since we're policemen\x01",
-            "we can't accept such a──\x02",
+            "#12P#00003FAh, since we're police\x01",
+            "we can't accept such a─\x02",
         )
     )
 
@@ -3002,49 +3097,50 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03204FHu hu, thinking you would've said that,\x01",
-            "I refrained to reward you with mira.\x02\x03",
-            "#03210FCould you accept it as a\x01",
-            "token of friendship with\x01",
-            "Lord Shing, not with us?\x02",
+            "#11P#03204FHaha. I thought you might say\x01",
+            "that, so I passed on giving\x01",
+            "you mira.\x02\x03",
+            "#03210FMight you be able to accept it\x01",
+            "as a token of friendship? Not\x01",
+            "with us, but with Lord Shing.\x02",
         )
     )
 
     CloseMessageWindow()
 
-    def lambda_460E():
+    def lambda_437E():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_460E)
+    QueueWorkItem(0x101, 1, lambda_437E)
     Sleep(50)
 
-    def lambda_461E():
+    def lambda_438E():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_461E)
+    QueueWorkItem(0x102, 1, lambda_438E)
     Sleep(50)
 
-    def lambda_462E():
+    def lambda_439E():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_462E)
+    QueueWorkItem(0x104, 1, lambda_439E)
     Sleep(50)
 
-    def lambda_463E():
+    def lambda_43AE():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_463E)
+    QueueWorkItem(0x109, 1, lambda_43AE)
     Sleep(50)
 
-    def lambda_464E():
+    def lambda_43BE():
         OP_93(0xFE, 0x5A, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_464E)
+    QueueWorkItem(0x105, 1, lambda_43BE)
     Sleep(300)
 
     ChrTalk(
@@ -3065,7 +3161,10 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#5PCao, how thoughtful of you!\x02",
+        (
+            "#5PCao, how thoughtful of\x01",
+            "you!\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -3075,8 +3174,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#11PYes, yes, no need to be reserved!\x01",
-            "Take it!\x02",
+            "#11PYes, yes, no need to\x01",
+            "hold back! Take it!\x02",
         )
     )
 
@@ -3092,8 +3191,9 @@ def main():
     ChrTalk(
         0x105,
         (
-            "#6P#10302F(Hu hu, if he says it in that way,\x01",
-            "we can only accept it.)\x02",
+            "#6P#10302F(Haha. If he says it like\x01",
+            "that, then I guess we have\x01",
+            "no choice but to accept it.)\x02",
         )
     )
 
@@ -3109,8 +3209,8 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00001F...All right.\x01",
-            "As long as it's not mira.\x02",
+            "#6P#00001F...All right. As long as\x01",
+            "it's not mira.\x02",
         )
     )
 
@@ -3118,13 +3218,16 @@ def main():
 
     ChrTalk(
         0x102,
-        "#6P#00100FWe accept it with gratitude.\x02",
+        (
+            "#6P#00100FWe accept it with\x01",
+            "gratitude.\x02",
+        )
     )
 
     CloseMessageWindow()
     TurnDirection(0x101, 0x9, 500)
     Sleep(300)
-    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_4840")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_45C5")
     OP_29(0x73, 0x1, 0xD)
     SetMessageWindowPos(-1, -1, -1, -1)
     FadeToDark(300, 0, 100)
@@ -3145,9 +3248,9 @@ def main():
     FadeToBright(300, 0)
     AddItemNumber(0x53, 1)
     SetMessageWindowPos(14, 280, 60, 3)
-    Jump("loc_488F")
+    Jump("loc_4614")
 
-    label("loc_4840")
+    label("loc_45C5")
 
     OP_29(0x73, 0x1, 0xE)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -3170,7 +3273,7 @@ def main():
     AddItemNumber(0x47, 1)
     SetMessageWindowPos(14, 280, 60, 3)
 
-    label("loc_488F")
+    label("loc_4614")
 
     OP_93(0x101, 0x5A, 0x1F4)
     Sleep(300)
@@ -3178,9 +3281,10 @@ def main():
     ChrTalk(
         0x101,
         (
-            "#6P#00000FThen, we will\x01",
-            "excuse us here.\x02\x03",
-            "#00009F──Shing, see you, ok?\x02",
+            "#6P#00000FThen, we'll excuse\x01",
+            "ourselves here.\x02\x03",
+            "#00009F─See you again. Alright,\x01",
+            "Shing?\x02",
         )
     )
 
@@ -3190,7 +3294,7 @@ def main():
 
     ChrTalk(
         0x102,
-        "#6P#00109F*giggle*, be well.\x02",
+        "#6P#00109F*giggle*. Be well.\x02",
     )
 
     CloseMessageWindow()
@@ -3199,89 +3303,92 @@ def main():
 
     ChrTalk(
         0x1A2,
-        "#11PYeah, miss and you all too, be safe and sound!\x02",
+        (
+            "#11PYeah. Take care,\x01",
+            "everyone!\x02",
+        )
     )
 
     CloseMessageWindow()
 
-    def lambda_4959():
+    def lambda_46D8():
         OP_93(0xFE, 0x10E, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_4959)
+    QueueWorkItem(0x104, 1, lambda_46D8)
     Sleep(100)
 
-    def lambda_4969():
+    def lambda_46E8():
         OP_93(0xFE, 0x10E, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_4969)
+    QueueWorkItem(0x109, 1, lambda_46E8)
     Sleep(100)
 
-    def lambda_4979():
+    def lambda_46F8():
         OP_93(0xFE, 0x10E, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_4979)
+    QueueWorkItem(0x105, 1, lambda_46F8)
     Sleep(100)
 
-    def lambda_4989():
+    def lambda_4708():
         OP_93(0xFE, 0x10E, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_4989)
+    QueueWorkItem(0x101, 1, lambda_4708)
     Sleep(100)
 
-    def lambda_4999():
+    def lambda_4718():
         OP_93(0xFE, 0x10E, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_4999)
+    QueueWorkItem(0x102, 1, lambda_4718)
     WaitChrThread(0x104, 1)
 
-    def lambda_49AA():
+    def lambda_4729():
         OP_97(0xFE, 0xFFFFEC78, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x104, 1, lambda_49AA)
+    QueueWorkItem(0x104, 1, lambda_4729)
     WaitChrThread(0x109, 1)
 
-    def lambda_49C8():
+    def lambda_4747():
         OP_97(0xFE, 0xFFFFEC78, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x109, 1, lambda_49C8)
+    QueueWorkItem(0x109, 1, lambda_4747)
     WaitChrThread(0x105, 1)
 
-    def lambda_49E6():
+    def lambda_4765():
         OP_97(0xFE, 0xFFFFEC78, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x105, 1, lambda_49E6)
+    QueueWorkItem(0x105, 1, lambda_4765)
     WaitChrThread(0x101, 1)
 
-    def lambda_4A04():
+    def lambda_4783():
         OP_97(0xFE, 0xFFFFEC78, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x101, 1, lambda_4A04)
+    QueueWorkItem(0x101, 1, lambda_4783)
     WaitChrThread(0x102, 1)
 
-    def lambda_4A22():
+    def lambda_47A1():
         OP_97(0xFE, 0xFFFFE890, 0x0, 0x0, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x102, 1, lambda_4A22)
+    QueueWorkItem(0x102, 1, lambda_47A1)
 
-    def lambda_4A3C():
+    def lambda_47BB():
 
-        label("loc_4A3C")
+        label("loc_47BB")
 
         TurnDirection(0xFE, 0x101, 500)
         Yield()
-        Jump("loc_4A3C")
+        Jump("loc_47BB")
 
-    QueueWorkItem2(0x9, 1, lambda_4A3C)
+    QueueWorkItem2(0x9, 1, lambda_47BB)
     TurnDirection(0x1A2, 0x101, 500)
     Sleep(300)
     OP_68(4059, 1100, 340, 4000)
@@ -3308,24 +3415,26 @@ def main():
     CloseMessageWindow()
     SetChrSubChip(0x8, 0x2)
 
-    def lambda_4ADB():
+    def lambda_485A():
 
-        label("loc_4ADB")
+        label("loc_485A")
 
         TurnDirection(0xFE, 0x1A2, 500)
         Yield()
-        Jump("loc_4ADB")
+        Jump("loc_485A")
 
-    QueueWorkItem2(0x9, 1, lambda_4ADB)
+    QueueWorkItem2(0x9, 1, lambda_485A)
     Sleep(300)
 
     ChrTalk(
         0x8,
         (
-            "#11P#03200FHu hu, it seems you are tired by\x01",
-            "having walked around the city.\x02\x03",
-            "#03204FWe prepared some rare pastries\x01",
-            "in your room, you know?\x02",
+            "#11P#03200FHaha. You seem tired\x01",
+            "from all that walking\x01",
+            "around.\x02\x03",
+            "#03204FWe have some rare\x01",
+            "pastries ready for you\x01",
+            "in your room, you know.\x02",
         )
     )
 
@@ -3338,8 +3447,8 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#5PI-I see.\x01",
-            "You really are thoughtful.\x02",
+            "#5PI-I see. You really are\x01",
+            "thoughtful.\x02",
         )
     )
 
@@ -3348,8 +3457,9 @@ def main():
     ChrTalk(
         0x1A2,
         (
-            "#5PYes, yes, I'll properly\x01",
-            "report it to grandfather.\x02",
+            "#5PYes, yes, I'll be sure\x01",
+            "to tell grandfather all\x01",
+            "about it!\x02",
         )
     )
 
@@ -3362,18 +3472,18 @@ def main():
     OP_79(0x3)
     Sleep(500)
 
-    def lambda_4C43():
+    def lambda_49C6():
         OP_97(0xFE, 0x0, 0x0, 0xBB8, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x1A2, 1, lambda_4C43)
+    QueueWorkItem(0x1A2, 1, lambda_49C6)
     Sleep(500)
 
-    def lambda_4C60():
+    def lambda_49E3():
         OP_A7(0xFE, 0xFF, 0xFF, 0xFF, 0x0, 0x1F4)
         ExitThread()
 
-    QueueWorkItem(0x1A2, 2, lambda_4C60)
+    QueueWorkItem(0x1A2, 2, lambda_49E3)
     Sleep(500)
     Sound(104, 0, 100, 0)
     OP_71(0x3, 0x5, 0x0, 0x0, 0x0)
@@ -3387,10 +3497,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03204FHu hu, although young, he made us see\x01",
-            "a glimpse of his wisdom and talent.\x02\x03",
-            "#03202FWill he be useful to me in the future...?\x01",
-            "I can't hardly wait.\x02",
+            "#11P#03204FHaha. Though he is young, we\x01",
+            "got a glimpse of his great\x01",
+            "wisdom and talent today.\x02\x03",
+            "#03202FWill he be useful to us in\x01",
+            "the future? I can't wait to\x01",
+            "find out.\x02",
         )
     )
 
@@ -3400,7 +3512,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#6P...Yes.\x02",
+        "#6P...Yes, sir.\x02",
     )
 
     CloseMessageWindow()
@@ -3408,8 +3520,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6PStill, in that case, didn't we\x01",
-            "overdo it in this matter...?\x02",
+            "#6PBut if that's the case,\x01",
+            "didn't we overdo it in\x01",
+            "today's case?\x02",
         )
     )
 
@@ -3418,9 +3531,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6PIn the remote event "they" targeted\x01",
-            "Lord Shing, you would have been\x01",
-            "held responsible too, Master Cao...\x02",
+            "#6PIn the unlikely event "they" targeted\x01",
+            "Lord Shing, you would have been held\x01",
+            "responsible too, Master Cao...\x02",
         )
     )
 
@@ -3430,11 +3543,13 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03200FHu hu, in that case it would have only meant that\x01",
-            "his and mine destiny only amounted to that much.\x02\x03",
-            "#03204FAlso, "they" wouldn't be that foolish to make\x01",
-            "something happen at this point in time, no?\x02\x03",
-            "#03201FSo── Have there been any movements?\x02",
+            "#11P#03200FHaha. In that case, it would have\x01",
+            "meant only that his and my destinies\x01",
+            "only amounted to that much.\x02\x03",
+            "#03204FAnd, "they" aren't stupid enough to\x01",
+            "start something with this timing,\x01",
+            "I'm sure.\x02\x03",
+            "#03201FSo─ Have there been any movements?\x02",
         )
     )
 
@@ -3443,8 +3558,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#6PYes, we captured two targets who were\x01",
-            "tailing Lord Shing and the others.\x02",
+            "#6PYes. We detected two\x01",
+            "targets tailing Lord\x01",
+            "Shing.\x02",
         )
     )
 
@@ -3452,7 +3568,10 @@ def main():
 
     ChrTalk(
         0x9,
-        "#6PWe are observing them at present.\x02",
+        (
+            "#6PWe are observing them at\x01",
+            "present.\x02",
+        )
     )
 
     CloseMessageWindow()
@@ -3460,10 +3579,12 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#11P#03204FVery good. Please let them\x01",
-            "go free without noticing.\x02\x03",
-            "#03200FAnd be very careful that the people\x01",
-            "of the "company" don't interfere.\x02",
+            "#11P#03204FVery good. Please let\x01",
+            "them go so they don't\x01",
+            "notice us.\x02\x03",
+            "#03200FAnd take care not to let\x01",
+            "that "company"\x01",
+            "interfere.\x02",
         )
     )
 
@@ -3471,7 +3592,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#6PCertainly.\x02",
+        "#6PUnderstood.\x02",
     )
 
     CloseMessageWindow()
@@ -3487,7 +3608,8 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x2),
-            "Quest [Showing Shing Around The City]\x07\x00",
+            "Quest [Showing Shing\x01",
+            "Around]\x07\x00",
             " completed!\x02",
         )
     )
@@ -3501,45 +3623,45 @@ def main():
     RemoveParty(0xA1, 0xFF)
     OP_29(0x73, 0x4, 0x10)
     OP_50(0x65, (scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C4, 6)), scpexpr(EXPR_END)), "loc_50CC")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C4, 6)), scpexpr(EXPR_END)), "loc_4E23")
     OP_50(0x67, (scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
-    Jump("loc_50F5")
+    Jump("loc_4E4C")
 
-    label("loc_50CC")
+    label("loc_4E23")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C4, 7)), scpexpr(EXPR_END)), "loc_50E3")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C4, 7)), scpexpr(EXPR_END)), "loc_4E3A")
     OP_50(0x68, (scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
-    Jump("loc_50F5")
+    Jump("loc_4E4C")
 
-    label("loc_50E3")
+    label("loc_4E3A")
 
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 0)), scpexpr(EXPR_END)), "loc_50F5")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1C5, 0)), scpexpr(EXPR_END)), "loc_4E4C")
     OP_50(0x69, (scpexpr(EXPR_PUSH_LONG, 0x2), scpexpr(EXPR_ADD_SAVE), scpexpr(EXPR_END)))
 
-    label("loc_50F5")
+    label("loc_4E4C")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x9), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_510E")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x9), scpexpr(EXPR_GE), scpexpr(EXPR_END)), "loc_4E65")
     OP_2C(0x73, 0x3)
-    Jump("loc_517C")
+    Jump("loc_4ED3")
 
-    label("loc_510E")
+    label("loc_4E65")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_GE), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x8), scpexpr(EXPR_LEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x9), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_513B")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_GE), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x8), scpexpr(EXPR_LEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x9), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_4E92")
     OP_2C(0x73, 0x2)
-    Jump("loc_517C")
+    Jump("loc_4ED3")
 
-    label("loc_513B")
+    label("loc_4E92")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_GE), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_LEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_5168")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_GE), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x4), scpexpr(EXPR_LEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x5), scpexpr(EXPR_NEQ), scpexpr(EXPR_NEQUZ_I64), scpexpr(EXPR_END)), "loc_4EBF")
     OP_2C(0x73, 0x1)
-    Jump("loc_517C")
+    Jump("loc_4ED3")
 
-    label("loc_5168")
+    label("loc_4EBF")
 
-    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_LEQ), scpexpr(EXPR_END)), "loc_517C")
+    Jc((scpexpr(EXPR_GET_RESULT, 0x1), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_LEQ), scpexpr(EXPR_END)), "loc_4ED3")
     OP_2C(0x73, 0x0)
 
-    label("loc_517C")
+    label("loc_4ED3")
 
     SetChrFlags(0x4, 0x80)
     SetChrBattleFlags(0x4, 0x8000)
@@ -3552,11 +3674,11 @@ def main():
     IdleLoop()
     Return()
 
-    # Function_12_3EDF end
+    # Function_12_3C59 end
 
-    def Function_13_51A5(): pass
+    def Function_13_4EFC(): pass
 
-    label("Function_13_51A5")
+    label("Function_13_4EFC")
 
     Sleep(1300)
     Sound(103, 0, 100, 0)
@@ -3564,11 +3686,11 @@ def main():
     Sound(104, 0, 100, 0)
     Return()
 
-    # Function_13_51A5 end
+    # Function_13_4EFC end
 
-    def Function_14_51B8(): pass
+    def Function_14_4F0F(): pass
 
-    label("Function_14_51B8")
+    label("Function_14_4F0F")
 
     TalkBegin(0xFF)
     Sound(807, 0, 100, 0)
@@ -3578,7 +3700,7 @@ def main():
         0xFF,
         (
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "The gate is firmly shut.\x02",
+            "The door is firmly shut.\x02",
         )
     )
 
@@ -3588,7 +3710,7 @@ def main():
     TalkEnd(0xFF)
     Return()
 
-    # Function_14_51B8 end
+    # Function_14_4F0F end
 
     SaveToFile()
 

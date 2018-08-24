@@ -26,7 +26,7 @@ def main():
 
     ATBonus("ATBonus_1B4", 100, 5, 1, 5, 1, 5, 1, 5, 5, 0, 0, 0, 1, 0, 0, 0)
 
-    Sepith("Sepith_A40", 5,   5,   5,   5,   5,   5,   5)
+    Sepith("Sepith_A3E", 5,   5,   5,   5,   5,   5,   5)
 
     MonsterBattlePostion("MonsterBattlePostion_1F4", 7, 9, 180)
     MonsterBattlePostion("MonsterBattlePostion_1F8", 11, 10, 180)
@@ -56,7 +56,7 @@ def main():
     # monster count: 4
 
     BattleInfo(
-        "BattleInfo_294", 0x0000, 84, 6, 60, 8, 1, 60, 0, "br1060", "Sepith_A40", 45, 35, 20, 0,
+        "BattleInfo_294", 0x0000, 84, 6, 60, 8, 1, 60, 0, "br1060", "Sepith_A3E", 45, 35, 20, 0,
         (
             ("ms80801.dat", "ms80801.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_1F4", "MonsterBattlePostion_274", "ed7450", "ed7453", "ATBonus_1B4"),
             ("ms80801.dat", "ms80801.dat", "ms80801.dat", 0, 0, 0, 0, 0, "MonsterBattlePostion_214", "MonsterBattlePostion_274", "ed7450", "ed7453", "ATBonus_1B4"),
@@ -101,8 +101,8 @@ def main():
         "Function_0_35C",          # 00, 0
         "Function_1_368",          # 01, 1
         "Function_2_710",          # 02, 2
-        "Function_3_862",          # 03, 3
-        "Function_4_9B4",          # 04, 4
+        "Function_3_861",          # 03, 3
+        "Function_4_9B2",          # 04, 4
     ))
 
 
@@ -275,7 +275,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x1F6),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -287,7 +288,7 @@ def main():
 
     label("loc_807")
 
-    Jump("loc_856")
+    Jump("loc_855")
 
     label("loc_80C")
 
@@ -300,7 +301,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -308,7 +310,7 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_856")
+    label("loc_855")
 
     Sleep(30)
     TalkEnd(0xFF)
@@ -317,18 +319,18 @@ def main():
 
     # Function_2_710 end
 
-    def Function_3_862(): pass
+    def Function_3_861(): pass
 
-    label("Function_3_862")
+    label("Function_3_861")
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F9, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_95E")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F9, 7)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_95D")
     Sound(14, 0, 100, 0)
     OP_74(0x4, 0x1E)
     OP_71(0x4, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x652, 1)"), scpexpr(EXPR_END)), "loc_8E7")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x652, 1)"), scpexpr(EXPR_END)), "loc_8E6")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -349,9 +351,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1F9, 7)
     OP_E0(0x5, 0x0)
-    Jump("loc_959")
+    Jump("loc_958")
 
-    label("loc_8E7")
+    label("loc_8E6")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -362,7 +364,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x652),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -372,11 +375,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x4, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_959")
+    label("loc_958")
 
-    Jump("loc_9A8")
+    Jump("loc_9A6")
 
-    label("loc_95E")
+    label("loc_95D")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -387,7 +390,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -395,23 +399,23 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_9A8")
+    label("loc_9A6")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_3_862 end
+    # Function_3_861 end
 
-    def Function_4_9B4(): pass
+    def Function_4_9B2(): pass
 
-    label("Function_4_9B4")
+    label("Function_4_9B2")
 
     Call(1, 6)
     Return()
 
-    # Function_4_9B4 end
+    # Function_4_9B2 end
 
     SaveToFile()
 

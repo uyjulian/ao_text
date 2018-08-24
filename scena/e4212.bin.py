@@ -42,7 +42,7 @@ def main():
 
     ATBonus("ATBonus_398", 100, 5, 1, 5, 1, 5, 1, 5, 5, 0, 0, 0, 1, 0, 0, 0)
 
-    Sepith("Sepith_4C20", 5,   5,   5,   5,   5,   5,   5)
+    Sepith("Sepith_4BEB", 5,   5,   5,   5,   5,   5,   5)
 
     MonsterBattlePostion("MonsterBattlePostion_3F8", 8, 8, 180)
     MonsterBattlePostion("MonsterBattlePostion_3FC", 5, 9, 180)
@@ -72,7 +72,7 @@ def main():
     # monster count: 4
 
     BattleInfo(
-        "BattleInfo_478", 0x0000, 50, 6, 60, 8, 1, 60, 0, "br1060", "Sepith_4C20", 30, 40, 20, 10,
+        "BattleInfo_478", 0x0000, 50, 6, 60, 8, 1, 60, 0, "br1060", "Sepith_4BEB", 30, 40, 20, 10,
         (
             ("ms80800.dat", 0, 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_3F8", "MonsterBattlePostion_458", "ed7450", "ed7453", "ATBonus_398"),
             ("ms80800.dat", "ms80800.dat", 0, 0, 0, 0, 0, 0, "MonsterBattlePostion_3D8", "MonsterBattlePostion_458", "ed7450", "ed7453", "ATBonus_398"),
@@ -136,75 +136,75 @@ def main():
         "Function_1_6AA",          # 01, 1
         "Function_2_6CB",          # 02, 2
         "Function_3_B77",          # 03, 3
-        "Function_4_CC9",          # 04, 4
-        "Function_5_E1B",          # 05, 5
-        "Function_6_E4A",          # 06, 6
-        "Function_7_2611",         # 07, 7
-        "Function_8_26A3",         # 08, 8
-        "Function_9_26D0",         # 09, 9
-        "Function_10_27C9",        # 0A, 10
-        "Function_11_2851",        # 0B, 11
-        "Function_12_2941",        # 0C, 12
-        "Function_13_2A20",        # 0D, 13
-        "Function_14_2A34",        # 0E, 14
-        "Function_15_2A52",        # 0F, 15
-        "Function_16_2A84",        # 10, 16
-        "Function_17_2AC0",        # 11, 17
-        "Function_18_2B27",        # 12, 18
-        "Function_19_2B61",        # 13, 19
-        "Function_20_2D26",        # 14, 20
-        "Function_21_3009",        # 15, 21
-        "Function_22_30BF",        # 16, 22
-        "Function_23_3131",        # 17, 23
-        "Function_24_3155",        # 18, 24
-        "Function_25_320F",        # 19, 25
-        "Function_26_32CF",        # 1A, 26
-        "Function_27_33A7",        # 1B, 27
-        "Function_28_33CB",        # 1C, 28
-        "Function_29_33EE",        # 1D, 29
-        "Function_30_34C8",        # 1E, 30
-        "Function_31_3505",        # 1F, 31
-        "Function_32_3542",        # 20, 32
-        "Function_33_356C",        # 21, 33
-        "Function_34_3595",        # 22, 34
-        "Function_35_364F",        # 23, 35
-        "Function_36_3669",        # 24, 36
-        "Function_37_367B",        # 25, 37
-        "Function_38_3785",        # 26, 38
-        "Function_39_37B3",        # 27, 39
-        "Function_40_39DC",        # 28, 40
-        "Function_41_3A6D",        # 29, 41
-        "Function_42_3A85",        # 2A, 42
-        "Function_43_3E34",        # 2B, 43
-        "Function_44_3E97",        # 2C, 44
-        "Function_45_3EE2",        # 2D, 45
-        "Function_46_3FB5",        # 2E, 46
-        "Function_47_4021",        # 2F, 47
-        "Function_48_40DE",        # 30, 48
-        "Function_49_40FE",        # 31, 49
-        "Function_50_41E0",        # 32, 50
-        "Function_51_4265",        # 33, 51
-        "Function_52_4389",        # 34, 52
-        "Function_53_43A2",        # 35, 53
-        "Function_54_4595",        # 36, 54
-        "Function_55_4780",        # 37, 55
-        "Function_56_4797",        # 38, 56
-        "Function_57_47A8",        # 39, 57
-        "Function_58_4869",        # 3A, 58
-        "Function_59_4893",        # 3B, 59
-        "Function_60_48DB",        # 3C, 60
-        "Function_61_48EE",        # 3D, 61
-        "Function_62_49CB",        # 3E, 62
-        "Function_63_49E0",        # 3F, 63
-        "Function_64_4A04",        # 40, 64
-        "Function_65_4A28",        # 41, 65
-        "Function_66_4A5A",        # 42, 66
-        "Function_67_4A7E",        # 43, 67
-        "Function_68_4AB7",        # 44, 68
-        "Function_69_4ADD",        # 45, 69
-        "Function_70_4AF1",        # 46, 70
-        "Function_71_4B16",        # 47, 71
-        "Function_72_4B3B",        # 48, 72
+        "Function_4_CC8",          # 04, 4
+        "Function_5_E19",          # 05, 5
+        "Function_6_E48",          # 06, 6
+        "Function_7_25DC",         # 07, 7
+        "Function_8_266E",         # 08, 8
+        "Function_9_269B",         # 09, 9
+        "Function_10_2794",        # 0A, 10
+        "Function_11_281C",        # 0B, 11
+        "Function_12_290C",        # 0C, 12
+        "Function_13_29EB",        # 0D, 13
+        "Function_14_29FF",        # 0E, 14
+        "Function_15_2A1D",        # 0F, 15
+        "Function_16_2A4F",        # 10, 16
+        "Function_17_2A8B",        # 11, 17
+        "Function_18_2AF2",        # 12, 18
+        "Function_19_2B2C",        # 13, 19
+        "Function_20_2CF1",        # 14, 20
+        "Function_21_2FD4",        # 15, 21
+        "Function_22_308A",        # 16, 22
+        "Function_23_30FC",        # 17, 23
+        "Function_24_3120",        # 18, 24
+        "Function_25_31DA",        # 19, 25
+        "Function_26_329A",        # 1A, 26
+        "Function_27_3372",        # 1B, 27
+        "Function_28_3396",        # 1C, 28
+        "Function_29_33B9",        # 1D, 29
+        "Function_30_3493",        # 1E, 30
+        "Function_31_34D0",        # 1F, 31
+        "Function_32_350D",        # 20, 32
+        "Function_33_3537",        # 21, 33
+        "Function_34_3560",        # 22, 34
+        "Function_35_361A",        # 23, 35
+        "Function_36_3634",        # 24, 36
+        "Function_37_3646",        # 25, 37
+        "Function_38_3750",        # 26, 38
+        "Function_39_377E",        # 27, 39
+        "Function_40_39A7",        # 28, 40
+        "Function_41_3A38",        # 29, 41
+        "Function_42_3A50",        # 2A, 42
+        "Function_43_3DFF",        # 2B, 43
+        "Function_44_3E62",        # 2C, 44
+        "Function_45_3EAD",        # 2D, 45
+        "Function_46_3F80",        # 2E, 46
+        "Function_47_3FEC",        # 2F, 47
+        "Function_48_40A9",        # 30, 48
+        "Function_49_40C9",        # 31, 49
+        "Function_50_41AB",        # 32, 50
+        "Function_51_4230",        # 33, 51
+        "Function_52_4354",        # 34, 52
+        "Function_53_436D",        # 35, 53
+        "Function_54_4560",        # 36, 54
+        "Function_55_474B",        # 37, 55
+        "Function_56_4762",        # 38, 56
+        "Function_57_4773",        # 39, 57
+        "Function_58_4834",        # 3A, 58
+        "Function_59_485E",        # 3B, 59
+        "Function_60_48A6",        # 3C, 60
+        "Function_61_48B9",        # 3D, 61
+        "Function_62_4996",        # 3E, 62
+        "Function_63_49AB",        # 3F, 63
+        "Function_64_49CF",        # 40, 64
+        "Function_65_49F3",        # 41, 65
+        "Function_66_4A25",        # 42, 66
+        "Function_67_4A49",        # 43, 67
+        "Function_68_4A82",        # 44, 68
+        "Function_69_4AA8",        # 45, 69
+        "Function_70_4ABC",        # 46, 70
+        "Function_71_4AE1",        # 47, 71
+        "Function_72_4B06",        # 48, 72
     ))
 
 
@@ -428,7 +428,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x20C),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -440,7 +441,7 @@ def main():
 
     label("loc_C6E")
 
-    Jump("loc_CBD")
+    Jump("loc_CBC")
 
     label("loc_C73")
 
@@ -453,7 +454,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -461,7 +463,7 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_CBD")
+    label("loc_CBC")
 
     Sleep(30)
     TalkEnd(0xFF)
@@ -470,18 +472,18 @@ def main():
 
     # Function_3_B77 end
 
-    def Function_4_CC9(): pass
+    def Function_4_CC8(): pass
 
-    label("Function_4_CC9")
+    label("Function_4_CC8")
 
     OP_F4(0x1)
     SetMapFlags(0x8000000)
-    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F6, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_DC5")
+    Jc((scpexpr(EXPR_TEST_SCENA_FLAGS, MakeScenarioFlags(0x1F6, 6)), scpexpr(EXPR_EQUZ), scpexpr(EXPR_END)), "loc_DC4")
     Sound(14, 0, 100, 0)
     OP_74(0x8, 0x1E)
     OP_71(0x8, 0x0, 0x1E, 0x0, 0x0)
     Sleep(500)
-    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x5EE, 1)"), scpexpr(EXPR_END)), "loc_D4E")
+    Jc((scpexpr(EXPR_EXEC_OP, "AddItemNumber(0x5EE, 1)"), scpexpr(EXPR_END)), "loc_D4D")
     FadeToDark(300, 0, 100)
     Sound(17, 0, 100, 0)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -502,9 +504,9 @@ def main():
     FadeToBright(300, 0)
     SetScenarioFlags(0x1F6, 6)
     OP_E0(0x5, 0x0)
-    Jump("loc_DC0")
+    Jump("loc_DBF")
 
-    label("loc_D4E")
+    label("loc_D4D")
 
     FadeToDark(300, 0, 100)
     SetChrName("")
@@ -515,7 +517,8 @@ def main():
             scpstr(SCPSTR_CODE_ITEM, 0x5EE),
             scpstr(SCPSTR_CODE_COLOR, 0x0),
             " is inside the chest.\x01",
-            "Since you have too many, you gave it up.\x02",
+            "Since you have too many,\x01",
+            "you gave it up.\x02",
         )
     )
 
@@ -525,11 +528,11 @@ def main():
     Sound(15, 0, 100, 0)
     OP_71(0x8, 0x1E, 0x0, 0x0, 0x0)
 
-    label("loc_DC0")
+    label("loc_DBF")
 
-    Jump("loc_E0F")
+    Jump("loc_E0D")
 
-    label("loc_DC5")
+    label("loc_DC4")
 
     FadeToDark(300, 0, 100)
     SetMessageWindowPos(-1, -1, -1, -1)
@@ -540,7 +543,8 @@ def main():
         (
             scpstr(0x6),
             scpstr(SCPSTR_CODE_COLOR, 0x5),
-            "There is nothing in the chest. \x07\x00\x02",
+            "There is nothing in the\x01",
+            "chest.\x07\x00\x02",
         )
     )
 
@@ -548,18 +552,18 @@ def main():
     OP_57(0x0)
     FadeToBright(300, 0)
 
-    label("loc_E0F")
+    label("loc_E0D")
 
     Sleep(30)
     TalkEnd(0xFF)
     ClearMapFlags(0x8000000)
     Return()
 
-    # Function_4_CC9 end
+    # Function_4_CC8 end
 
-    def Function_5_E1B(): pass
+    def Function_5_E19(): pass
 
-    label("Function_5_E1B")
+    label("Function_5_E19")
 
     OP_8A(0x0)
     OP_8A(0x1)
@@ -567,11 +571,11 @@ def main():
     LoadEffect(0x1, "event/ev600_01.eff")
     Return()
 
-    # Function_5_E1B end
+    # Function_5_E19 end
 
-    def Function_6_E4A(): pass
+    def Function_6_E48(): pass
 
-    label("Function_6_E4A")
+    label("Function_6_E48")
 
     EventBegin(0x0)
     FadeToDark(0, 0, -1)
@@ -694,7 +698,7 @@ def main():
     OP_11(0xD0, 0xD0, 0xFF, 0x1E, 0xC8, 0x0)
     Sound(979, 2, 40, 0)
     FadeToBright(1000, 0)
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_158A")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_158B")
     OP_68(-62000, 3000, -15000, 0)
     MoveCamera(38, 15, 0, 0)
     OP_6E(600, 0)
@@ -737,8 +741,8 @@ def main():
     ChrTalk(
         0x8,
         (
-            "#00807F#12P*pant pant*...\x01",
-            "What a monster...!\x02",
+            "#00807F#12P*pant pant*... What a\x01",
+            "monster!\x02",
         )
     )
 
@@ -747,8 +751,9 @@ def main():
     ChrTalk(
         0x9,
         (
-            "#00901F#6PIs it getting supplied infinite\x01",
-            "energy from the "Sept-Terrion"...!?\x02",
+            "#00901F#6PIt's being supplied with\x01",
+            "infinite energy from the\x01",
+            "Sept-Terrion!?\x02",
         )
     )
 
@@ -757,8 +762,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03301F#6PHe won't lose... "Pater-Mater" won't\x01",
-            "lose to the likes of you...!\x02",
+            "#03301F#6PHe won't lose... Pater-\x01",
+            "Mater won't lose to the\x01",
+            "likes of you!\x02",
         )
     )
 
@@ -771,8 +777,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03307F#6P#4SRenne, Estelle and Joshua\x01",
-            "too won't loooooose!!\x02",
+            "#03307F#6P#4SWe won't lose either!\x01",
+            "Renne, Estelle and\x01",
+            "Joshua will never lose!!\x02",
         )
     )
 
@@ -807,27 +814,27 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03305F#6P#N#8AAh...!\x02",
+        "#03305F#6P#N#8AAh!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x8,
-        "#00813F#12P#6AGh...!\x02",
+        "#00813F#12P#6AGuh!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#00907F#6P#6AOooh!\x02",
+        "#00907F#6P#6AOhhh!\x02",
     )
 
     CloseMessageWindow()
-    Jump("loc_1613")
+    Jump("loc_1614")
 
-    label("loc_158A")
+    label("loc_158B")
 
     OP_68(-52350, 4800, -15600, 0)
     MoveCamera(10, -3, 0, 0)
@@ -843,10 +850,10 @@ def main():
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x212, 0x23A, 0x1, 0x20)
 
-    label("loc_1613")
+    label("loc_1614")
 
     EndChrThread(0xB, 0x0)
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1E00")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_1DEE")
     Fade(500)
     OP_68(-55340, 2300, -33310, 0)
     MoveCamera(9, 16, 0, 0)
@@ -925,17 +932,17 @@ def main():
     BlurSwitch(0x12C, 0x77FFFFFF, 0x0, 0x1, 0xA)
     BeginChrThread(0xC, 1, 0, 33)
 
-    def lambda_1907():
+    def lambda_1908():
         OP_93(0xFE, 0x109, 0x64)
         ExitThread()
 
-    QueueWorkItem(0xB, 2, lambda_1907)
+    QueueWorkItem(0xB, 2, lambda_1908)
 
-    def lambda_1914():
+    def lambda_1915():
         OP_93(0xFE, 0xE1, 0xC8)
         ExitThread()
 
-    QueueWorkItem(0xC, 2, lambda_1914)
+    QueueWorkItem(0xC, 2, lambda_1915)
     Sound(905, 0, 100, 0)
     OP_74(0x0, 0xF)
     OP_71(0x0, 0x28B, 0x294, 0x1, 0x0)
@@ -996,7 +1003,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03311F#N#6P"Pater-Mater"!?\x02",
+        "#03311F#N#6PPater-Mater!?\x02",
     )
 
     CloseMessageWindow()
@@ -1036,7 +1043,7 @@ def main():
 
     ChrTalk(
         0x9,
-        "#00907F#12PIf you go in front alone...!\x02",
+        "#00907F#12PIf you go alone...!\x02",
     )
 
     CloseMessageWindow()
@@ -1068,7 +1075,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03310F#11P#8AAuh...!\x02",
+        "#03310F#11P#8AUgh!\x02",
     )
 
     WaitChrThread(0xA, 1)
@@ -1096,14 +1103,14 @@ def main():
 
     ChrTalk(
         0x8,
-        "#00806F#11PEeek...!\x02",
+        "#00806F#11PEeeek!\x02",
     )
 
     CloseMessageWindow()
 
     ChrTalk(
         0x9,
-        "#00907F#12PDamn...!\x02",
+        "#00907F#12PDamn!\x02",
     )
 
     CloseMessageWindow()
@@ -1111,9 +1118,9 @@ def main():
     EndChrThread(0xB, 0x1)
     SetChrPos(0xB, -59000, 0, -19000, 0)
     OP_93(0xB, 0xD0, 0x0)
-    Jump("loc_1ECD")
+    Jump("loc_1EBB")
 
-    label("loc_1E00")
+    label("loc_1DEE")
 
     OP_68(-62260, 1300, -36400, 0)
     MoveCamera(73, 22, 0, 0)
@@ -1138,13 +1145,13 @@ def main():
     ClearChrFlags(0xA, 0x1000)
     ClearChrFlags(0xA, 0x2)
 
-    label("loc_1ECD")
+    label("loc_1EBB")
 
     TurnDirection(0x9, 0xA, 0)
     TurnDirection(0x8, 0xA, 0)
     OP_74(0x0, 0x1E)
     OP_74(0x1, 0x1E)
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_217E")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_PUSH_LONG, 0x0), scpexpr(EXPR_EQU), scpexpr(EXPR_END)), "loc_2163")
     TurnDirection(0xA, 0xB, 0)
     OP_70(0x1, 0x2B2)
     Fade(500)
@@ -1168,7 +1175,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03305F#5P#30W......ah......\x02",
+        "#03305F#5P#30W...Ah...\x02",
     )
 
     CloseMessageWindow()
@@ -1234,7 +1241,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03310F#6P#13AEeeek...!\x02",
+        "#03310F#6P#13AEeeek!\x02",
     )
 
     Sleep(2000)
@@ -1244,9 +1251,9 @@ def main():
     StopEffect(0x3, 0x2)
     EndChrThread(0xC, 0xFF)
     EndChrThread(0xB, 0xFF)
-    Jump("loc_221A")
+    Jump("loc_21FF")
 
-    label("loc_217E")
+    label("loc_2163")
 
     Call(0, 45)
     OP_68(-53780, 4900, -21540, 0)
@@ -1269,7 +1276,7 @@ def main():
     EndChrThread(0xC, 0xFF)
     EndChrThread(0xB, 0xFF)
 
-    label("loc_221A")
+    label("loc_21FF")
 
     BeginChrThread(0xC, 0, 0, 56)
     BeginChrThread(0xB, 0, 0, 58)
@@ -1304,7 +1311,7 @@ def main():
 
     ChrTalk(
         0xA,
-        "#03311F#12PEh──\x02",
+        "#03311F#12PHuh─\x02",
     )
 
     CloseMessageWindow()
@@ -1325,10 +1332,9 @@ def main():
     ChrTalk(
         0xA,
         (
-            "#03316F#12P#30W"Pater-Mater"...\x01",
-            "W-What're you saying...?\x02\x03",
-            "#03307F#30W...No...\x01",
-            "It's obvious you don't have to...!\x02",
+            "#03316F#12P#30WPater-Mater... W-What\x01",
+            "are you saying...?\x02\x03",
+            "#03307F#30W...No... You can't!\x02",
         )
     )
 
@@ -1419,11 +1425,11 @@ def main():
     IdleLoop()
     Return()
 
-    # Function_6_E4A end
+    # Function_6_E48 end
 
-    def Function_7_2611(): pass
+    def Function_7_25DC(): pass
 
-    label("Function_7_2611")
+    label("Function_7_25DC")
 
     OP_74(0x0, 0x1E)
     OP_4C(0xFE, 0x1)
@@ -1447,35 +1453,35 @@ def main():
     OP_79(0x0)
     Return()
 
-    # Function_7_2611 end
+    # Function_7_25DC end
 
-    def Function_8_26A3(): pass
+    def Function_8_266E(): pass
 
-    label("Function_8_26A3")
+    label("Function_8_266E")
 
     OP_74(0x0, 0x1E)
 
-    def lambda_26AC():
+    def lambda_2677():
         OP_9B(0x1, 0xFE, 0x0, 0x2710, 0x1770, 0x0)
         ExitThread()
 
-    QueueWorkItem(0xFE, 1, lambda_26AC)
+    QueueWorkItem(0xFE, 1, lambda_2677)
 
-    label("loc_26BC")
+    label("loc_2687")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_26CF")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_269A")
     Call(0, 7)
-    Jump("loc_26BC")
+    Jump("loc_2687")
 
-    label("loc_26CF")
+    label("loc_269A")
 
     Return()
 
-    # Function_8_26A3 end
+    # Function_8_266E end
 
-    def Function_9_26D0(): pass
+    def Function_9_269B(): pass
 
-    label("Function_9_26D0")
+    label("Function_9_269B")
 
     ClearMapObjFlags(0x1, 0x20)
     OP_79(0x1)
@@ -1498,11 +1504,11 @@ def main():
     OP_71(0x1, 0x1F7, 0x1FE, 0x1, 0x0)
     OP_79(0x1)
 
-    def lambda_278C():
+    def lambda_2757():
         OP_93(0xFE, 0x141, 0x64)
         ExitThread()
 
-    QueueWorkItem(0xFE, 2, lambda_278C)
+    QueueWorkItem(0xFE, 2, lambda_2757)
     OP_71(0x1, 0x1AE, 0x1D6, 0x1, 0x0)
     OP_79(0x1)
     Sound(1019, 0, 100, 0)
@@ -1511,19 +1517,19 @@ def main():
     OP_9B(0x1, 0xFE, 0x0, 0xFA0, 0xFA0, 0x1)
     Return()
 
-    # Function_9_26D0 end
+    # Function_9_269B end
 
-    def Function_10_27C9(): pass
+    def Function_10_2794(): pass
 
-    label("Function_10_27C9")
+    label("Function_10_2794")
 
     SetChrFlags(0xFE, 0x4)
 
-    def lambda_27D3():
+    def lambda_279E():
         OP_93(0xFE, 0x96, 0x64)
         ExitThread()
 
-    QueueWorkItem(0xFE, 2, lambda_27D3)
+    QueueWorkItem(0xFE, 2, lambda_279E)
     OP_9D(0xFE, 0xFFFF185C, 0xF0A, 0xFFFFEBB0, 0xF3C, 0x3E8)
     SetChrPos(0xD, -59300, 0, -5200, 0)
     ClearChrFlags(0xFE, 0x1)
@@ -1536,11 +1542,11 @@ def main():
     OP_9C(0xFE, 0x0, 0xFFFFFEA2, 0x0, 0x0, 0x1E)
     Return()
 
-    # Function_10_27C9 end
+    # Function_10_2794 end
 
-    def Function_11_2851(): pass
+    def Function_11_281C(): pass
 
-    label("Function_11_2851")
+    label("Function_11_281C")
 
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x276, 0x280, 0x1, 0x0)
@@ -1556,11 +1562,11 @@ def main():
     CancelBlur(500)
     Return()
 
-    # Function_11_2851 end
+    # Function_11_281C end
 
-    def Function_12_2941(): pass
+    def Function_12_290C(): pass
 
-    label("Function_12_2941")
+    label("Function_12_290C")
 
     OP_74(0x1, 0x1E)
     OP_71(0x1, 0x276, 0x280, 0x1, 0x0)
@@ -1574,41 +1580,41 @@ def main():
     OP_79(0x1)
     Return()
 
-    # Function_12_2941 end
+    # Function_12_290C end
 
-    def Function_13_2A20(): pass
+    def Function_13_29EB(): pass
 
-    label("Function_13_2A20")
+    label("Function_13_29EB")
 
     OP_74(0x1, 0x3C)
     OP_71(0x1, 0x280, 0x276, 0x1, 0x0)
     OP_79(0x1)
     Return()
 
-    # Function_13_2A20 end
+    # Function_13_29EB end
 
-    def Function_14_2A34(): pass
+    def Function_14_29FF(): pass
 
-    label("Function_14_2A34")
+    label("Function_14_29FF")
 
     OP_93(0xFE, 0x13A, 0x0)
     OP_79(0x1)
 
-    label("loc_2A3E")
+    label("loc_2A09")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_2A51")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_2A1C")
     Call(0, 11)
-    Jump("loc_2A3E")
+    Jump("loc_2A09")
 
-    label("loc_2A51")
+    label("loc_2A1C")
 
     Return()
 
-    # Function_14_2A34 end
+    # Function_14_29FF end
 
-    def Function_15_2A52(): pass
+    def Function_15_2A1D(): pass
 
-    label("Function_15_2A52")
+    label("Function_15_2A1D")
 
     Call(0, 12)
     Call(0, 13)
@@ -1619,23 +1625,23 @@ def main():
     Call(0, 12)
     Call(0, 13)
 
-    label("loc_2A6A")
+    label("loc_2A35")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_2A83")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_2A4E")
     Call(0, 12)
     Sleep(800)
     Call(0, 13)
-    Jump("loc_2A6A")
+    Jump("loc_2A35")
 
-    label("loc_2A83")
+    label("loc_2A4E")
 
     Return()
 
-    # Function_15_2A52 end
+    # Function_15_2A1D end
 
-    def Function_16_2A84(): pass
+    def Function_16_2A4F(): pass
 
-    label("Function_16_2A84")
+    label("Function_16_2A4F")
 
     Call(0, 11)
     Sleep(800)
@@ -1651,11 +1657,11 @@ def main():
     TurnDirection(0xFE, 0xA, 75)
     Return()
 
-    # Function_16_2A84 end
+    # Function_16_2A4F end
 
-    def Function_17_2AC0(): pass
+    def Function_17_2A8B(): pass
 
-    label("Function_17_2AC0")
+    label("Function_17_2A8B")
 
     Sleep(1500)
     OP_9C(0xFE, 0x0, 0xFFFFFF06, 0x0, 0x32, 0x1F4)
@@ -1669,11 +1675,11 @@ def main():
     OP_71(0x0, 0x14A, 0x172, 0x1, 0x0)
     Return()
 
-    # Function_17_2AC0 end
+    # Function_17_2A8B end
 
-    def Function_18_2B27(): pass
+    def Function_18_2AF2(): pass
 
-    label("Function_18_2B27")
+    label("Function_18_2AF2")
 
     Sleep(500)
     Sound(622, 0, 70, 0)
@@ -1690,11 +1696,11 @@ def main():
     Sleep(600)
     Return()
 
-    # Function_18_2B27 end
+    # Function_18_2AF2 end
 
-    def Function_19_2B61(): pass
+    def Function_19_2B2C(): pass
 
-    label("Function_19_2B61")
+    label("Function_19_2B2C")
 
     PlayEffect(0x5, 0xFF, 0xB, 0x4, -1300, 8000, -2400, 0, 0, 0, 1000, 1000, 1000, 0xFF, 0, 0, 0, 0)
     PlayEffect(0x5, 0xFF, 0xB, 0x4, 1300, 8000, -2400, 0, 0, 0, 1000, 1000, 1000, 0xFF, 0, 0, 0, 0)
@@ -1710,18 +1716,18 @@ def main():
     Sleep(150)
     Return()
 
-    # Function_19_2B61 end
+    # Function_19_2B2C end
 
-    def Function_20_2D26(): pass
+    def Function_20_2CF1(): pass
 
-    label("Function_20_2D26")
+    label("Function_20_2CF1")
 
     Sleep(300)
     SetChrPos(0xE, -55320, 3500, -27250, 0)
 
-    label("loc_2D3A")
+    label("loc_2D05")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_3008")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_2FD3")
     SetChrPos(0xF, -50140, 100, -27050, 0)
     PlayEffect(0x6, 0xFF, 0xF, 0x0, 0, 0, 0, 105, 0, 0, 1000, 1000, 1000, 0xFF, 0, 0, 0, 0)
     Sleep(50)
@@ -1756,17 +1762,17 @@ def main():
     PlayEffect(0x6, 0xFF, 0x10, 0x0, 0, 0, 0, 0, 105, 0, 1000, 1000, 1000, 0xFF, 0, 0, 0, 0)
     Sleep(50)
     Sleep(300)
-    Jump("loc_2D3A")
+    Jump("loc_2D05")
 
-    label("loc_3008")
+    label("loc_2FD3")
 
     Return()
 
-    # Function_20_2D26 end
+    # Function_20_2CF1 end
 
-    def Function_21_3009(): pass
+    def Function_21_2FD4(): pass
 
-    label("Function_21_3009")
+    label("Function_21_2FD4")
 
     Sleep(200)
     Sound(802, 0, 100, 0)
@@ -1792,11 +1798,11 @@ def main():
     SetChrSubChip(0xFE, 0x0)
     Return()
 
-    # Function_21_3009 end
+    # Function_21_2FD4 end
 
-    def Function_22_30BF(): pass
+    def Function_22_308A(): pass
 
-    label("Function_22_30BF")
+    label("Function_22_308A")
 
     Sound(802, 0, 100, 0)
     SetChrChipByIndex(0xFE, 0x22)
@@ -1813,11 +1819,11 @@ def main():
     TurnDirection(0xFE, 0xC, 500)
     Return()
 
-    # Function_22_30BF end
+    # Function_22_308A end
 
-    def Function_23_3131(): pass
+    def Function_23_30FC(): pass
 
-    label("Function_23_3131")
+    label("Function_23_30FC")
 
     SetChrSubChip(0xFE, 0x0)
     Sleep(50)
@@ -1831,11 +1837,11 @@ def main():
     Sleep(50)
     Return()
 
-    # Function_23_3131 end
+    # Function_23_30FC end
 
-    def Function_24_3155(): pass
+    def Function_24_3120(): pass
 
-    label("Function_24_3155")
+    label("Function_24_3120")
 
     PlayEffect(0x6, 0xFF, 0xE, 0x0, 0, 0, 0, 105, 0, 0, 1000, 1000, 1000, 0xFF, 0, 0, 0, 0)
     Sleep(50)
@@ -1858,11 +1864,11 @@ def main():
     OP_4C(0xFE, 0x0)
     Return()
 
-    # Function_24_3155 end
+    # Function_24_3120 end
 
-    def Function_25_320F(): pass
+    def Function_25_31DA(): pass
 
-    label("Function_25_320F")
+    label("Function_25_31DA")
 
     PlayEffect(0x6, 0xFF, 0xE, 0x0, 0, 0, 0, 105, 0, 0, 1000, 1000, 1000, 0xFF, 0, 0, 0, 0)
     Sleep(50)
@@ -1886,11 +1892,11 @@ def main():
     OP_4C(0xFE, 0x0)
     Return()
 
-    # Function_25_320F end
+    # Function_25_31DA end
 
-    def Function_26_32CF(): pass
+    def Function_26_329A(): pass
 
-    label("Function_26_32CF")
+    label("Function_26_329A")
 
     SetChrChip(0x0, 0xFE, 0x32, 0x12C)
     SetChrChipByIndex(0xFE, 0x27)
@@ -1924,11 +1930,11 @@ def main():
     SetChrChip(0x1, 0xFE, 0x0, 0x0)
     Return()
 
-    # Function_26_32CF end
+    # Function_26_329A end
 
-    def Function_27_33A7(): pass
+    def Function_27_3372(): pass
 
-    label("Function_27_33A7")
+    label("Function_27_3372")
 
     OP_74(0x0, 0xF)
     OP_71(0x0, 0x230, 0x258, 0x1, 0x0)
@@ -1939,11 +1945,11 @@ def main():
     Call(0, 7)
     Return()
 
-    # Function_27_33A7 end
+    # Function_27_3372 end
 
-    def Function_28_33CB(): pass
+    def Function_28_3396(): pass
 
-    label("Function_28_33CB")
+    label("Function_28_3396")
 
     OP_74(0x0, 0x1E)
     OP_71(0x0, 0x262, 0x276, 0x1, 0x0)
@@ -1952,11 +1958,11 @@ def main():
     OP_79(0x0)
     Return()
 
-    # Function_28_33CB end
+    # Function_28_3396 end
 
-    def Function_29_33EE(): pass
+    def Function_29_33B9(): pass
 
-    label("Function_29_33EE")
+    label("Function_29_33B9")
 
     TurnDirection(0xFE, 0xB, 100)
     OP_9B(0x1, 0xFE, 0xF, 0xFA, 0x3E8, 0x0)
@@ -1975,11 +1981,11 @@ def main():
     EndChrThread(0xFE, 0x0)
     Return()
 
-    # Function_29_33EE end
+    # Function_29_33B9 end
 
-    def Function_30_34C8(): pass
+    def Function_30_3493(): pass
 
-    label("Function_30_34C8")
+    label("Function_30_3493")
 
     OP_9B(0x1, 0xFE, 0x0, 0xC8, 0x7D0, 0x0)
     OP_9B(0x1, 0xFE, 0x0, 0xC8, 0xBB8, 0x0)
@@ -1987,11 +1993,11 @@ def main():
     OP_9B(0x1, 0xFE, 0x0, 0x64, 0x1F4, 0x0)
     Return()
 
-    # Function_30_34C8 end
+    # Function_30_3493 end
 
-    def Function_31_3505(): pass
+    def Function_31_34D0(): pass
 
-    label("Function_31_3505")
+    label("Function_31_34D0")
 
     OP_9B(0x1, 0xFE, 0x31, 0xFFFFFF38, 0x7D0, 0x0)
     OP_9B(0x1, 0xFE, 0x31, 0xFFFFFF38, 0xBB8, 0x0)
@@ -1999,11 +2005,11 @@ def main():
     OP_9B(0x1, 0xFE, 0x31, 0xFFFFFF9C, 0x1F4, 0x0)
     Return()
 
-    # Function_31_3505 end
+    # Function_31_34D0 end
 
-    def Function_32_3542(): pass
+    def Function_32_350D(): pass
 
-    label("Function_32_3542")
+    label("Function_32_350D")
 
     ClearMapObjFlags(0x1, 0x20)
     OP_79(0x1)
@@ -2014,21 +2020,21 @@ def main():
     OP_93(0xFE, 0x113, 0x4B)
     Return()
 
-    # Function_32_3542 end
+    # Function_32_350D end
 
-    def Function_33_356C(): pass
+    def Function_33_3537(): pass
 
-    label("Function_33_356C")
+    label("Function_33_3537")
 
     OP_96(0xFE, 0xFFFF2540, 0x96, 0xFFFFD440, 0x1388, 0x1)
     OP_96(0xFE, 0xFFFF27F2, 0x96, 0xFFFFD1C0, 0x1B58, 0x1)
     Return()
 
-    # Function_33_356C end
+    # Function_33_3537 end
 
-    def Function_34_3595(): pass
+    def Function_34_3560(): pass
 
-    label("Function_34_3595")
+    label("Function_34_3560")
 
     OP_FD(0xD, 0xFE)
     ClearChrFlags(0xD, 0x8)
@@ -2053,51 +2059,51 @@ def main():
     ClearChrFlags(0xD, 0x8)
     Return()
 
-    # Function_34_3595 end
+    # Function_34_3560 end
 
-    def Function_35_364F(): pass
+    def Function_35_361A(): pass
 
-    label("Function_35_364F")
+    label("Function_35_361A")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_3668")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_3633")
     OP_A1(0xFE, 0x5DC, 0x3, 0x0, 0x1, 0x2)
-    Jump("Function_35_364F")
+    Jump("Function_35_361A")
 
-    label("loc_3668")
+    label("loc_3633")
 
     Return()
 
-    # Function_35_364F end
+    # Function_35_361A end
 
-    def Function_36_3669(): pass
+    def Function_36_3634(): pass
 
-    label("Function_36_3669")
+    label("Function_36_3634")
 
     OP_A1(0xFE, 0x5DC, 0x5, 0x0, 0x1, 0x2, 0x3, 0x4)
     Sound(802, 0, 100, 0)
     Return()
 
-    # Function_36_3669 end
+    # Function_36_3634 end
 
-    def Function_37_367B(): pass
+    def Function_37_3646(): pass
 
-    label("Function_37_367B")
+    label("Function_37_3646")
 
     SetChrChipByIndex(0xFE, 0x29)
     SetChrSubChip(0xFE, 0x0)
     Sound(811, 0, 50, 0)
 
-    def lambda_368E():
+    def lambda_3659():
         OP_9B(0x1, 0xFE, 0x14A, 0x96, 0x7D0, 0x0)
         ExitThread()
 
-    QueueWorkItem(0x8, 1, lambda_368E)
+    QueueWorkItem(0x8, 1, lambda_3659)
 
-    def lambda_36A3():
+    def lambda_366E():
         OP_A6(0xFE, 0x1E, 0x1E, 0x12C, 0x5DC)
         ExitThread()
 
-    QueueWorkItem(0x8, 2, lambda_36A3)
+    QueueWorkItem(0x8, 2, lambda_366E)
     OP_9B(0x0, 0xFE, 0x0, 0x3E8, 0x1388, 0x1)
     Sound(844, 0, 60, 0)
     OP_9D(0xFE, 0xFFFF07F4, 0x7D0, 0xFFFF72FC, 0x28A, 0x5DC)
@@ -2118,19 +2124,19 @@ def main():
     Sleep(1000)
     Return()
 
-    # Function_37_367B end
+    # Function_37_3646 end
 
-    def Function_38_3785(): pass
+    def Function_38_3750(): pass
 
-    label("Function_38_3785")
+    label("Function_38_3750")
 
     BeginChrThread(0xFE, 3, 0, 67)
 
-    def lambda_3790():
+    def lambda_375B():
         TurnDirection(0xFE, 0xA, 50)
         ExitThread()
 
-    QueueWorkItem(0xFE, 2, lambda_3790)
+    QueueWorkItem(0xFE, 2, lambda_375B)
     Sleep(500)
     BeginChrThread(0xB, 0, 0, 18)
     Sleep(1200)
@@ -2139,11 +2145,11 @@ def main():
     WaitChrThread(0xB, 0)
     Return()
 
-    # Function_38_3785 end
+    # Function_38_3750 end
 
-    def Function_39_37B3(): pass
+    def Function_39_377E(): pass
 
-    label("Function_39_37B3")
+    label("Function_39_377E")
 
     Sleep(300)
     SetChrPos(0xE, -60950, 1500, -27780, 0)
@@ -2175,11 +2181,11 @@ def main():
     Sleep(500)
     Return()
 
-    # Function_39_37B3 end
+    # Function_39_377E end
 
-    def Function_40_39DC(): pass
+    def Function_40_39A7(): pass
 
-    label("Function_40_39DC")
+    label("Function_40_39A7")
 
     SetChrChip(0x0, 0xFE, 0x32, 0x12C)
     StopEffect(0x0, 0x2)
@@ -2204,21 +2210,21 @@ def main():
     Sleep(300)
     Return()
 
-    # Function_40_39DC end
+    # Function_40_39A7 end
 
-    def Function_41_3A6D(): pass
+    def Function_41_3A38(): pass
 
-    label("Function_41_3A6D")
+    label("Function_41_3A38")
 
     Sleep(700)
     OP_96(0xFE, 0xFFFF1988, 0x0, 0xFFFFB5C8, 0x7D0, 0x1)
     Return()
 
-    # Function_41_3A6D end
+    # Function_41_3A38 end
 
-    def Function_42_3A85(): pass
+    def Function_42_3A50(): pass
 
-    label("Function_42_3A85")
+    label("Function_42_3A50")
 
     SetChrPos(0x11, -53880, 100, -21770, 0)
     Sound(200, 0, 80, 0)
@@ -2267,11 +2273,11 @@ def main():
     Sleep(50)
     Return()
 
-    # Function_42_3A85 end
+    # Function_42_3A50 end
 
-    def Function_43_3E34(): pass
+    def Function_43_3DFF(): pass
 
-    label("Function_43_3E34")
+    label("Function_43_3DFF")
 
     Sleep(600)
     SetChrChip(0x0, 0xFE, 0x32, 0x12C)
@@ -2290,11 +2296,11 @@ def main():
     Sleep(300)
     Return()
 
-    # Function_43_3E34 end
+    # Function_43_3DFF end
 
-    def Function_44_3E97(): pass
+    def Function_44_3E62(): pass
 
-    label("Function_44_3E97")
+    label("Function_44_3E62")
 
     Sleep(500)
     SetChrChip(0x0, 0xFE, 0x32, 0x12C)
@@ -2309,11 +2315,11 @@ def main():
     Sleep(300)
     Return()
 
-    # Function_44_3E97 end
+    # Function_44_3E62 end
 
-    def Function_45_3EE2(): pass
+    def Function_45_3EAD(): pass
 
-    label("Function_45_3EE2")
+    label("Function_45_3EAD")
 
     SetMapObjFrame(0xFF, "ato00", 0x1, 0x1)
     SetMapObjFrame(0xFF, "ato01", 0x1, 0x1)
@@ -2331,36 +2337,36 @@ def main():
     SetMapObjFrame(0xFF, "maekage", 0x0, 0x1)
     Return()
 
-    # Function_45_3EE2 end
+    # Function_45_3EAD end
 
-    def Function_46_3FB5(): pass
+    def Function_46_3F80(): pass
 
-    label("Function_46_3FB5")
+    label("Function_46_3F80")
 
     Sound(1040, 0, 80, 0)
     OP_70(0x1, 0xF)
     OP_71(0x1, 0x2B2, 0x2DA, 0x0, 0x0)
 
-    def lambda_3FD0():
+    def lambda_3F9B():
 
-        label("loc_3FD0")
+        label("loc_3F9B")
 
         TurnDirection(0xFE, 0xA, 25)
         Yield()
-        Jump("loc_3FD0")
+        Jump("loc_3F9B")
 
-    QueueWorkItem2(0xFE, 2, lambda_3FD0)
+    QueueWorkItem2(0xFE, 2, lambda_3F9B)
     Sleep(2500)
     Sound(304, 0, 100, 0)
     PlayEffect(0x4, 0xFF, 0xA, 0x0, 0, 0, 0, 0, 0, 0, 1000, 1000, 1000, 0xFF, 0, 0, 0, 0)
     OP_79(0x1)
     Return()
 
-    # Function_46_3FB5 end
+    # Function_46_3F80 end
 
-    def Function_47_4021(): pass
+    def Function_47_3FEC(): pass
 
-    label("Function_47_4021")
+    label("Function_47_3FEC")
 
     Sleep(2000)
     BeginChrThread(0xA, 1, 0, 64)
@@ -2375,42 +2381,42 @@ def main():
     WaitChrThread(0xA, 1)
     Return()
 
-    # Function_47_4021 end
+    # Function_47_3FEC end
 
-    def Function_48_40DE(): pass
+    def Function_48_40A9(): pass
 
-    label("Function_48_40DE")
+    label("Function_48_40A9")
 
     Sound(983, 0, 60, 0)
 
-    label("loc_40E4")
+    label("loc_40AF")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_40FD")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_40C8")
     Sleep(1300)
     Sound(1041, 0, 50, 0)
-    Jump("loc_40E4")
+    Jump("loc_40AF")
 
-    label("loc_40FD")
+    label("loc_40C8")
 
     Return()
 
-    # Function_48_40DE end
+    # Function_48_40A9 end
 
-    def Function_49_40FE(): pass
+    def Function_49_40C9(): pass
 
-    label("Function_49_40FE")
+    label("Function_49_40C9")
 
     OP_96(0xFE, 0xFFFF3C24, 0x190, 0xFFFFBD8E, 0x2710, 0x1)
 
-    def lambda_4117():
+    def lambda_40E2():
 
-        label("loc_4117")
+        label("loc_40E2")
 
         TurnDirection(0xFE, 0xB, 100)
         Yield()
-        Jump("loc_4117")
+        Jump("loc_40E2")
 
-    QueueWorkItem2(0xFE, 2, lambda_4117)
+    QueueWorkItem2(0xFE, 2, lambda_40E2)
     OP_96(0xFE, 0xFFFF3878, 0xC8, 0xFFFFA38A, 0x2710, 0x1)
     PlayEffect(0x2, 0xFF, 0xC, 0x0, 0, 0, 0, 0, 0, 0, 1000, 1000, 1000, 0xFF, 0, 0, 0, 0)
     Sound(1042, 0, 100, 0)
@@ -2427,11 +2433,11 @@ def main():
     EndChrThread(0xFE, 0x2)
     Return()
 
-    # Function_49_40FE end
+    # Function_49_40C9 end
 
-    def Function_50_41E0(): pass
+    def Function_50_41AB(): pass
 
-    label("Function_50_41E0")
+    label("Function_50_41AB")
 
     Sound(902, 0, 100, 0)
     Sound(905, 0, 100, 0)
@@ -2440,11 +2446,11 @@ def main():
     OP_79(0x0)
     OP_82(0x32, 0x32, 0xBB8, 0xC8)
 
-    def lambda_4248():
+    def lambda_4213():
         OP_93(0xFE, 0x94, 0x64)
         ExitThread()
 
-    QueueWorkItem(0xFE, 2, lambda_4248)
+    QueueWorkItem(0xFE, 2, lambda_4213)
     OP_74(0x0, 0x3C)
     BeginChrThread(0xFE, 1, 0, 49)
     Call(0, 7)
@@ -2452,11 +2458,11 @@ def main():
     WaitChrThread(0xFE, 1)
     Return()
 
-    # Function_50_41E0 end
+    # Function_50_41AB end
 
-    def Function_51_4265(): pass
+    def Function_51_4230(): pass
 
-    label("Function_51_4265")
+    label("Function_51_4230")
 
     Sleep(1000)
     OP_87(0xA, 0x2, 0x1, "Null_b_cannon_r(67)", 0x7, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x546, 0x546, 0x546, 0x0)
@@ -2474,11 +2480,11 @@ def main():
     OP_82(0xC8, 0x0, 0xBB8, 0x1F4)
     Return()
 
-    # Function_51_4265 end
+    # Function_51_4230 end
 
-    def Function_52_4389(): pass
+    def Function_52_4354(): pass
 
-    label("Function_52_4389")
+    label("Function_52_4354")
 
     StopEffect(0x0, 0x0)
     StopEffect(0x1, 0x0)
@@ -2490,11 +2496,11 @@ def main():
     StopEffect(0x7, 0x0)
     Return()
 
-    # Function_52_4389 end
+    # Function_52_4354 end
 
-    def Function_53_43A2(): pass
+    def Function_53_436D(): pass
 
-    label("Function_53_43A2")
+    label("Function_53_436D")
 
     Sound(993, 2, 80, 0)
     Sound(994, 0, 50, 0)
@@ -2510,11 +2516,11 @@ def main():
     OP_71(0x0, 0x2BC, 0x2E4, 0x1, 0x0)
     Return()
 
-    # Function_53_43A2 end
+    # Function_53_436D end
 
-    def Function_54_4595(): pass
+    def Function_54_4560(): pass
 
-    label("Function_54_4595")
+    label("Function_54_4560")
 
     OP_25(0x3E1, 0x64)
     Sound(994, 0, 100, 0)
@@ -2529,21 +2535,21 @@ def main():
     OP_71(0x0, 0x2BC, 0x2E4, 0x1, 0x0)
     Return()
 
-    # Function_54_4595 end
+    # Function_54_4560 end
 
-    def Function_55_4780(): pass
+    def Function_55_474B(): pass
 
-    label("Function_55_4780")
+    label("Function_55_474B")
 
     OP_93(0xFE, 0x5A, 0x20)
     OP_9B(0x1, 0xFE, 0x0, 0x1F4, 0x3E8, 0x1)
     Return()
 
-    # Function_55_4780 end
+    # Function_55_474B end
 
-    def Function_56_4797(): pass
+    def Function_56_4762(): pass
 
-    label("Function_56_4797")
+    label("Function_56_4762")
 
     BeginChrThread(0xFE, 1, 0, 55)
     OP_74(0x0, 0xA)
@@ -2551,13 +2557,13 @@ def main():
     Call(0, 57)
     Return()
 
-    # Function_56_4797 end
+    # Function_56_4762 end
 
-    def Function_57_47A8(): pass
+    def Function_57_4773(): pass
 
-    label("Function_57_47A8")
+    label("Function_57_4773")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_4868")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_4833")
     OP_4C(0xB, 0x0)
     OP_4C(0xB, 0x1)
     OP_4C(0xFE, 0x1)
@@ -2588,31 +2594,31 @@ def main():
     OP_71(0x0, 0x5E, 0x64, 0x1, 0x0)
     OP_79(0x0)
 
-    label("loc_4868")
+    label("loc_4833")
 
     Return()
 
-    # Function_57_47A8 end
+    # Function_57_4773 end
 
-    def Function_58_4869(): pass
+    def Function_58_4834(): pass
 
-    label("Function_58_4869")
+    label("Function_58_4834")
 
     OP_9E(0xFE, 0xFFFF2306, 0xFFFFB10E, 0x249F0, 0x5DC, 0x2)
     OP_98(0xFE, 0x1F4, 0x0, 0x0, 0x3E8, 0x1)
     Return()
 
-    # Function_58_4869 end
+    # Function_58_4834 end
 
-    def Function_59_4893(): pass
+    def Function_59_485E(): pass
 
-    label("Function_59_4893")
+    label("Function_59_485E")
 
     OP_74(0x1, 0x1E)
 
-    label("loc_4897")
+    label("loc_4862")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_48DA")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_48A5")
     OP_71(0x1, 0x3E8, 0x410, 0x0, 0x0)
     OP_79(0x1)
     Sleep(1000)
@@ -2621,17 +2627,17 @@ def main():
     OP_71(0x1, 0x3E8, 0x410, 0x0, 0x0)
     OP_79(0x1)
     Sleep(1000)
-    Jump("loc_4897")
+    Jump("loc_4862")
 
-    label("loc_48DA")
+    label("loc_48A5")
 
     Return()
 
-    # Function_59_4893 end
+    # Function_59_485E end
 
-    def Function_60_48DB(): pass
+    def Function_60_48A6(): pass
 
-    label("Function_60_48DB")
+    label("Function_60_48A6")
 
     Sound(905, 0, 40, 0)
     Sleep(500)
@@ -2639,11 +2645,11 @@ def main():
     Sleep(500)
     Return()
 
-    # Function_60_48DB end
+    # Function_60_48A6 end
 
-    def Function_61_48EE(): pass
+    def Function_61_48B9(): pass
 
-    label("Function_61_48EE")
+    label("Function_61_48B9")
 
     OP_98(0xFE, 0xBB8, 0x1388, 0x0, 0x7D0, 0x1)
     OP_98(0xFE, 0x12C, 0x1F4, 0x0, 0xBB8, 0x1)
@@ -2658,20 +2664,20 @@ def main():
     OP_98(0xFE, 0x2328, 0x3A98, 0x0, 0x2EE0, 0x1)
     Return()
 
-    # Function_61_48EE end
+    # Function_61_48B9 end
 
-    def Function_62_49CB(): pass
+    def Function_62_4996(): pass
 
-    label("Function_62_49CB")
+    label("Function_62_4996")
 
     OP_98(0xFE, 0x0, 0x7530, 0x0, 0x1388, 0x1)
     Return()
 
-    # Function_62_49CB end
+    # Function_62_4996 end
 
-    def Function_63_49E0(): pass
+    def Function_63_49AB(): pass
 
-    label("Function_63_49E0")
+    label("Function_63_49AB")
 
     SetChrChipByIndex(0xFE, 0x2D)
     SetChrFlags(0xFE, 0x2)
@@ -2684,11 +2690,11 @@ def main():
     Sleep(333)
     Return()
 
-    # Function_63_49E0 end
+    # Function_63_49AB end
 
-    def Function_64_4A04(): pass
+    def Function_64_49CF(): pass
 
-    label("Function_64_4A04")
+    label("Function_64_49CF")
 
     SetChrChipByIndex(0xFE, 0x2D)
     SetChrFlags(0xFE, 0x2)
@@ -2701,11 +2707,11 @@ def main():
     Sleep(857)
     Return()
 
-    # Function_64_4A04 end
+    # Function_64_49CF end
 
-    def Function_65_4A28(): pass
+    def Function_65_49F3(): pass
 
-    label("Function_65_4A28")
+    label("Function_65_49F3")
 
     SetChrChipByIndex(0xFE, 0x2D)
     SetChrFlags(0xFE, 0x2)
@@ -2722,11 +2728,11 @@ def main():
     Sleep(500)
     Return()
 
-    # Function_65_4A28 end
+    # Function_65_49F3 end
 
-    def Function_66_4A5A(): pass
+    def Function_66_4A25(): pass
 
-    label("Function_66_4A5A")
+    label("Function_66_4A25")
 
     SetChrChipByIndex(0xFE, 0x2D)
     SetChrFlags(0xFE, 0x2)
@@ -2739,11 +2745,11 @@ def main():
     Sleep(571)
     Return()
 
-    # Function_66_4A5A end
+    # Function_66_4A25 end
 
-    def Function_67_4A7E(): pass
+    def Function_67_4A49(): pass
 
-    label("Function_67_4A7E")
+    label("Function_67_4A49")
 
     ClearMapObjFlags(0x1, 0x20)
     OP_79(0x1)
@@ -2756,11 +2762,11 @@ def main():
     OP_71(0x1, 0x212, 0x23A, 0x0, 0x20)
     Return()
 
-    # Function_67_4A7E end
+    # Function_67_4A49 end
 
-    def Function_68_4AB7(): pass
+    def Function_68_4A82(): pass
 
-    label("Function_68_4AB7")
+    label("Function_68_4A82")
 
     Sound(905, 0, 100, 0)
     ClearMapObjFlags(0x1, 0x20)
@@ -2770,52 +2776,52 @@ def main():
     OP_71(0x1, 0x23A, 0x24E, 0x0, 0x0)
     Return()
 
-    # Function_68_4AB7 end
+    # Function_68_4A82 end
 
-    def Function_69_4ADD(): pass
+    def Function_69_4AA8(): pass
 
-    label("Function_69_4ADD")
+    label("Function_69_4AA8")
 
     OP_74(0x1, 0xF)
     OP_71(0x1, 0x3D4, 0x3E8, 0x0, 0x0)
     Sleep(3000)
     Return()
 
-    # Function_69_4ADD end
+    # Function_69_4AA8 end
 
-    def Function_70_4AF1(): pass
+    def Function_70_4ABC(): pass
 
-    label("Function_70_4AF1")
+    label("Function_70_4ABC")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_4B15")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_4AE0")
     OP_82(0x32, 0x32, 0xBB8, 0x5DC)
     Sleep(1000)
-    Jump("Function_70_4AF1")
+    Jump("Function_70_4ABC")
 
-    label("loc_4B15")
+    label("loc_4AE0")
 
     Return()
 
-    # Function_70_4AF1 end
+    # Function_70_4ABC end
 
-    def Function_71_4B16(): pass
+    def Function_71_4AE1(): pass
 
-    label("Function_71_4B16")
+    label("Function_71_4AE1")
 
-    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_4B3A")
+    Jc((scpexpr(EXPR_PUSH_LONG, 0x1), scpexpr(EXPR_END)), "loc_4B05")
     OP_82(0x64, 0x64, 0xBB8, 0x5DC)
     Sleep(1000)
-    Jump("Function_71_4B16")
+    Jump("Function_71_4AE1")
 
-    label("loc_4B3A")
+    label("loc_4B05")
 
     Return()
 
-    # Function_71_4B16 end
+    # Function_71_4AE1 end
 
-    def Function_72_4B3B(): pass
+    def Function_72_4B06(): pass
 
-    label("Function_72_4B3B")
+    label("Function_72_4B06")
 
     EventBegin(0x2)
     ClearMapFlags(0x20)
@@ -2844,7 +2850,7 @@ def main():
     EventEnd(0x3)
     Return()
 
-    # Function_72_4B3B end
+    # Function_72_4B06 end
 
     SaveToFile()
 
